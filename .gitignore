@@ -1,0 +1,6 @@
+pipeline.db
+logs/
+__pycache__/
+.venv/
+qdrant_storage/
+*.log

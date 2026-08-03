@@ -1,0 +1,152 @@
+# Papers pendientes de descarga manual (VPN UNAL)
+
+1. Hermetia illucens (Diptera: Stratiomyidae): Need, Potentiality, and Performance Measures
+   DOI: 10.3390/agriculture14010008
+
+2. Emissions due to agriculture
+   DOI: SIN DOI
+
+3. Documentation for Greenhouse Gas Emission and Energy Factors Used in the Waste Reduction Model (WARM)
+   DOI: SIN DOI
+
+4. Fertilizing potential and CO2 emissions following the utilization of fresh and composted food-waste anaerobic digestates
+   DOI: 10.1016/j.scitotenv.2019.134198
+
+5. Validation of a bioreactor for the growth of black soldier fly larvae: Test with animal feces, <i>agave</i> residues and vinasse
+   DOI: 10.1016/j.envc.2025.101090
+
+6. Rethinking organic wastes bioconversion: Evaluating the potential of the black soldier fly (Hermetia illucens (L.)) (Diptera: Stratiomyidae) (BSF)
+   DOI: 10.1016/j.wasman.2020.07.050
+
+7. Real Time Estimation of GHG Emissions Using IoT Integrated Sensor Fusion
+   DOI: 10.1109/ICDSI60108.2023.00061
+
+8. Optimizing Data Pipelines for Machine Learning in Feature Stores
+   DOI: 10.14778/3625054.3625060
+
+9. Mathematical and computational modeling for organic and insect frass fertilizer production: A systematic review
+   DOI: SIN DOI
+
+10. Integration of Internet-of-Things as sustainable smart farming technology for the rearing of black soldier fly to mitigate food waste
+   DOI: 10.1016/j.jtice.2022.104235
+
+11. Impact of substrate moisture content on growth and metabolic performance of black soldier fly larvae
+   DOI: 10.1016/j.wasman.2021.04.028
+
+12. Estimating the dynamics of greenhouse gas emission during black soldier fly larvae growth under controlled environmental conditions
+   DOI: 10.1016/j.jclepro.2024.143226
+
+13. Development of Wireless Sensor Network for Environment Monitoring and Its Implementation Using SSAIL Technology
+   DOI: 10.3390/s22145343
+
+14. An Optimization Model for Process Traceability in Case-Based Reasoning Based on Ontology and the Genetic Algorithm
+   DOI: 10.1109/JSEN.2021.3065757
+
+15. A review of machine learning for the optimization of production processes
+   DOI: 10.1007/s00170-019-03988-5
+
+16. Review of the potential for recycling CO2 from organic waste composting into plant production under controlled environment agriculture
+   DOI: 10.1016/j.jclepro.2021.130051
+
+17. Development and machine learning-based calibration of low-cost multiparametric stations for the measurement of CO2 and CH4 in air
+   DOI: 10.1016/j.heliyon.2024.e29772
+
+18. The influence on carbon, nitrogen recycling, and greenhouse gas emissions under different C/N ratios by black soldier fly
+   DOI: 10.1007/s11356-020-09909-4
+
+19. Process efficiency and greenhouse gas emissions in black soldier fly larvae composting of fruit and vegetable waste with and without pre-treatment
+   DOI: 10.1016/j.jclepro.2022.130552
+
+20. Black soldier fly reared on pig manure: Bioconversion efficiencies, nutrients in the residual material, greenhouse gas and ammonia emissions
+   DOI: 10.1016/j.wasman.2021.04.001
+
+21. Effect of moisture content on greenhouse gas and NH3 emissions from pig manure converted by black soldier fly
+   DOI: 10.1016/j.scitotenv.2019.133840
+
+22. Greenhouse Gas Emissions and Life Cycle Assessment on the Black Soldier Fly (Hermetia illucens L.)
+   DOI: 10.3390/su141610456
+
+23. Unveiling Environmental Influences on Sustainable Fertilizer Production through Insect Farming
+   DOI: 10.3390/su16093746
+
+24. Carbon and water footprint assessment of the production cycle of the black soldier fly (Hermetia illucens) on a farm in Spain
+   DOI: 10.1016/j.envdev.2024.101038
+
+25. Processing poultry manure with black soldier fly technology lowers N2O and CO2 gas emissions from soil
+   DOI: 10.1163/23524588-00001336
+
+26. Studies on energy efficient techniques for agricultural monitoring by wireless sensor networks
+   DOI: 10.1016/j.compeleceng.2023.109052
+
+27. Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations
+   DOI: 10.1016/j.jcp.2018.10.045
+
+28. BugBook: Black soldier fly as a model to assess behaviour of insects mass produced as food and feed
+   DOI: 10.1163/23524588-bja10225
+
+29. Automated agrifood futures: robotics, labor and the distributive politics of digital agriculture
+   DOI: 10.1080/03066150.2019.1584189
+
+30. The carbon impact of artificial intelligence
+   DOI: 10.1038/s42256-020-0219-9
+
+31. Sustainable use of Hermetia illucens insect biomass for feed and food: Attributional and consequential life cycle assessment
+   DOI: 10.1016/j.resconrec.2019.01.042
+
+32. Evaluating greenhouse gas impacts of organic waste management options using life cycle assessment
+   DOI: 10.1177/0734242X12440479
+
+33. Composting as a Strategy to Reduce Greenhouse Gas Emissions
+   DOI: SIN DOI
+
+34. Asymptotic estimated digestibility, a new indicator of black soldier fly (Hermetia illucens) conversion efficiency in relation to larval density
+   DOI: 10.3920/JIFF2022.0103
+
+35. Comprehensive industry-relevant black soldier fly bioconversion characterisation by a novel chamber system
+   DOI: 10.1016/j.wasman.2024.12.016
+
+36. Changes in the chemical and biological characteristics of grape marc vermicompost during a two-year production period
+   DOI: 10.1016/j.apsoil.2020.103587
+
+37. Anaerobic digestion of black solider fly larvae (BSFL) biomass as part of an integrated biorefinery
+   DOI: 10.1016/j.renene.2018.04.093
+
+38. Conversion of organic material by black soldier fly larvae: establishing optimal feeding rates
+   DOI: 10.1177/0734242X09103838
+
+39. Growth and metabolic performance of black soldier fly larvae grown on low and high-quality substrates
+   DOI: 10.1016/j.wasman.2020.12.009
+
+40. Reducing greenhouse gas emissions and enhancing carbon and nitrogen conversion in food wastes by the black soldier fly
+   DOI: 10.1016/j.jenvman.2020.110066
+
+41. IOT based Automated Greenhouse Using Machine Learning Approach
+   DOI: SIN DOI
+
+42. Utilization of Hermetia illucens Larvae as A Bioconversion Agent to Reduce Organic Waste
+   DOI: 10.1088/1755-1315/506/1/012005
+
+43. Conversion of protein-rich waste into biodiesel by Hermetia illucens: Enhanced energy recovery and reduced greenhouse gas emissions
+   DOI: 10.1016/j.seta.2024.103825
+
+44. Effect of Batch Feeding Times on Greenhouse Gas and NH3 Emissions During Meat and Bone Meal Bioconversion by Black Soldier Fly Larvae
+   DOI: 10.1007/s12649-020-01277-x
+
+45. Metabolic modeling of Hermetia illucens larvae resource allocation for high-value fatty acid production
+   DOI: SIN DOI
+
+46. Collateral Data Quality Challenges of IoT Sensor-Generated Data
+   DOI: SIN DOI
+
+47. REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE
+   DOI: SIN DOI
+
+48. Conversion of organic material by black soldier fly larvae: Establishing optimal feeding rates
+   DOI: 10.1177/0734242X10366090
+
+49. Nutritional value of the black soldier fly (Hermetia illucens L.) and its suitability as animal feed–a review
+   DOI: SIN DOI
+
+50. Greenhouse gases emissions and global climate change: Examining the influence of CO2, CH4, and N2O
+   DOI: SIN DOI
+
