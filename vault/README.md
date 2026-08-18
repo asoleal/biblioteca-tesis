@@ -1,10 +1,10 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**164 notas** | con PDF: 153 | citadas en la tesis: 92
+**163 notas** | con PDF: 152 | citadas en la tesis: 92
 
 ## Por tema
 
-### 00-otros (10)
+### 00-otros (9)
 - [[00-otros/kooijmanEnergyBudgetsCan1986]] — Energy budgets can explain body size relations (1986)
 - [[00-otros/jcgmEvaluationMeasurementData2008]] — Evaluation of Measurement Data --- Guide to the Expression of Uncertainty in Mea (2008)
 - [[00-otros/jagerDEBkissQuestSimplest2013]] — DEBkiss or the quest for the simplest generic model of animal life history (2013)
@@ -14,7 +14,6 @@
 - [[00-otros/carolanAutomatedAgrifoodFutures2020]] — Automated agrifood futures: robotics, labor and the distributive politics of dig (2020)
 - [[00-otros/smith11AgricultureForestry]] — 11 Agriculture, Forestry and Other Land Use (AFOLU) (s.f.)
 - [[00-otros/tiriaACTUALIZACIONCONTRIBUCIONDETERMINADA]] — ACTUALIZACIÓN DE LA CONTRIBUCIÓN DETERMINADA A NIVEL NACIONAL DE COLOMBIA 2020 - (s.f.)
-- [[00-otros/asriPOLITICALLITERACYLEVEL]] — POLITICAL LITERACY LEVEL AND POLITICAL PARTICIPATION RATE AMONG UNIVERSITI TUNKU (s.f.)
 
 ### 01-bsf-gei (17)
 - [[01-bsf-gei/peredniaComparisonGreenhouseGas2017]] — A Comparison of the Greenhouse Gas Production of Black Soldier Fly Larvae versus (2017)
@@ -214,4 +213,4 @@
 - **2023**: 21
 - **2024**: 29
 - **2025**: 16
-- **s.f.**: 11
+- **s.f.**: 10
