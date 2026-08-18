@@ -1,5 +1,5 @@
 ---
-citekey: avalekarOptimizingAgriculturalEfficiency2024
+citekey: avalekarOptimizingAgriculturalEfficiency2024a
 title: "Optimizing Agricultural Efficiency: A Fusion of Iot, Ai, Cloud Computing, and Wireless Sensor Network"
 authors: ["Avalekar, Utkarsh", "Patil, Dr. Jaydeep", "Patil, Dr. Sangram", "Khot, Prof. (Dr.) Jayendra", "Prathapan, Prof. (Dr.) Kesava"]
 year: 2024
@@ -15,7 +15,7 @@ origen: zotero
 
 # Optimizing Agricultural Efficiency: A Fusion of Iot, Ai, Cloud Computing, and Wireless Sensor Network
 
-- **Citekey:** `avalekarOptimizingAgriculturalEfficiency2024`  - **Año:** 2024  - **Tipo:** preprint
+- **Citekey:** `avalekarOptimizingAgriculturalEfficiency2024a`  - **Año:** 2024  - **Tipo:** preprint
 - **DOI:** [10.2139/ssrn.4789232](https://doi.org/10.2139/ssrn.4789232)
 
 
