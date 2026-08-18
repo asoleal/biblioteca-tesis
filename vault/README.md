@@ -123,7 +123,7 @@
 - [[05-iot-sensores/gabrysProgramEarthEnvironmental2016]] — Program earth: environmental sensing technology and the making of a computationa (2016)
 - [[05-iot-sensores/klerkxReviewSocialScience2019a]] — A review of social science on digital agriculture, smart farming and agriculture (2019)
 - [[05-iot-sensores/mohamedDecolonialAIDecolonial2020]] — Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intel (2020)
-- [[05-iot-sensores/satputeREVIEWPAPERWIRELESS2021]] — REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE (2021)
+- [[05-iot-sensores/satputeREVIEWPAPERWIRELESS2021a]] — REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE (2021)
 - [[05-iot-sensores/duobieneDevelopmentWirelessSensor2022]] — Development of Wireless Sensor Network for Environment Monitoring and Its Implem (2022)
 - [[05-iot-sensores/farooquiIOTBasedAutomated2022]] — IOT based Automated Greenhouse Using Machine Learning Approach (2022)
 - [[05-iot-sensores/quyIoTenabledSmartAgriculture2022]] — IoT-enabled smart agriculture: architecture, applications, and challenges (2022)

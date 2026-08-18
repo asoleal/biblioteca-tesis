@@ -1,5 +1,5 @@
 ---
-citekey: satputeREVIEWPAPERWIRELESS2021
+citekey: satputeREVIEWPAPERWIRELESS2021a
 title: "REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE"
 authors: ["Satpute, Rahul", "Korade, Shital", "More, Harshada", "Phadale, Sharaddha"]
 year: 2021
@@ -15,7 +15,7 @@ origen: zotero
 
 # REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE
 
-- **Citekey:** `satputeREVIEWPAPERWIRELESS2021`  - **Año:** 2021  - **Tipo:** journalArticle
+- **Citekey:** `satputeREVIEWPAPERWIRELESS2021a`  - **Año:** 2021  - **Tipo:** journalArticle
 - **DOI:** —
 
 
