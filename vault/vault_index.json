@@ -490,6 +490,36 @@
   "path": "01-bsf-gei/pangInfluenceCarbonNitrogen2020.md"
  },
  {
+  "citekey": "pangReducingGreenhouseGas2020",
+  "title": "Reducing greenhouse gas emissions and enhancing carbon and nitrogen conversion in food wastes by the black soldier fly",
+  "authors": [
+   "Pang, Wancheng",
+   "Hou, Dejia",
+   "Chen, Jiangshan",
+   "Nowar, Elhosseny E.",
+   "Li, Zongtian",
+   "Hu, Ronggui",
+   "Tomberlin, Jeffery K.",
+   "Yu, Ziniu",
+   "Li, Qing",
+   "Wang, Shucai"
+  ],
+  "year": "2020",
+  "type": "journalArticle",
+  "doi": "10.1016/j.jenvman.2020.110066",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301479720300049",
+  "tema": "01-bsf-gei",
+  "tags": [],
+  "pdf": true,
+  "citado": true,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [
+   "tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex"
+  ],
+  "path": "01-bsf-gei/pangReducingGreenhouseGas2020.md"
+ },
+ {
   "citekey": "parodiBioconversionEfficienciesGreenhouse2020a",
   "title": "Bioconversion efficiencies, greenhouse gas and ammonia emissions during black soldier fly rearing – A mass balance approach",
   "authors": [

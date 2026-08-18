@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**162 notas** | con PDF: 151 | citadas en la tesis: 91
+**163 notas** | con PDF: 152 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -15,12 +15,13 @@
 - [[00-otros/smith11AgricultureForestry]] — 11 Agriculture, Forestry and Other Land Use (AFOLU) (s.f.)
 - [[00-otros/tiriaACTUALIZACIONCONTRIBUCIONDETERMINADA]] — ACTUALIZACIÓN DE LA CONTRIBUCIÓN DETERMINADA A NIVEL NACIONAL DE COLOMBIA 2020 - (s.f.)
 
-### 01-bsf-gei (16)
+### 01-bsf-gei (17)
 - [[01-bsf-gei/peredniaComparisonGreenhouseGas2017]] — A Comparison of the Greenhouse Gas Production of Black Soldier Fly Larvae versus (2017)
 - [[01-bsf-gei/beskinLarvalDigestionDifferent2018]] — Larval digestion of different manure types by the black soldier fly (Diptera: St (2018)
 - [[01-bsf-gei/ermolaevGreenhouseGasEmissions2019]] — Greenhouse gas emissions from small-scale fly larvae composting with Hermetia il (2019)
 - [[01-bsf-gei/pangInfluenceCarbonNitrogen2020]] — The influence on carbon, nitrogen recycling, and greenhouse gas emissions under  (2020)
 - [[01-bsf-gei/parodiBioconversionEfficienciesGreenhouse2020a]] — Bioconversion efficiencies, greenhouse gas and ammonia emissions during black so (2020)
+- [[01-bsf-gei/pangReducingGreenhouseGas2020]] — Reducing greenhouse gas emissions and enhancing carbon and nitrogen conversion i (2020)
 - [[01-bsf-gei/zhangEffectBatchFeeding2021]] — Effect of Batch Feeding Times on Greenhouse Gas and NH3 Emissions During Meat an (2021)
 - [[01-bsf-gei/rummelBlackSoldierFly2021]] — Black Soldier Fly Diet Impacts Soil Greenhouse Gas Emissions From Frass Applied  (2021)
 - [[01-bsf-gei/parodiBlackSoldierFly2021a]] — Black soldier fly reared on pig manure: Bioconversion efficiencies, nutrients in (2021)
@@ -206,7 +207,7 @@
 - **2017**: 7
 - **2018**: 6
 - **2019**: 8
-- **2020**: 12
+- **2020**: 13
 - **2021**: 12
 - **2022**: 13
 - **2023**: 21
