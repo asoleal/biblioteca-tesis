@@ -1,0 +1,33 @@
+---
+citekey: sarangiFoodWasteFood2024
+title: "Food Waste to Food Security: Transition from Bioresources to Sustainability"
+authors: ["Sarangi, Prakash Kumar", "Pal, Priti", "Singh, Akhilesh Kumar", "Sahoo, Uttam Kumar", "Prus, Piotr"]
+year: 2024
+type: journalArticle
+doi: "10.3390/resources13120164"
+url: "https://www.mdpi.com/2079-9276/13/12/164"
+tema: 07-residuos-compostaje
+tags: []
+pdf: true
+citado_tesis: false
+origen: zotero
+---
+
+# Food Waste to Food Security: Transition from Bioresources to Sustainability
+
+- **Citekey:** `sarangiFoodWasteFood2024`  - **Año:** 2024  - **Tipo:** journalArticle
+- **DOI:** [10.3390/resources13120164](https://doi.org/10.3390/resources13120164)
+
+
+## Resumen
+
+The transition from food waste to food security is a critical component of sustainability efforts. This approach focuses on repurposing organic waste products generated throughout the food supply chain into valuable resources. Food waste, encompassing everything from agricultural residues to post-consumer waste, represents a significant untapped potential that can be harnessed to enhance food security. By implementing strategies such as composting, bioconversion, and innovative recycling technologies, biowastes can be transformed into fertilizers, animal feed, and even new food products, thus closing the loop in the food system and aiding sustainable solutions for waste valorization. This transition not only addresses environmental concerns by reducing landfill waste and greenhouse gas emissions but also contributes to economic sustainability by creating new opportunities within the food production and waste management sectors. Ultimately, transforming food waste into a resource aligns with the broader goals of a circular economy, ensuring a sustainable, resilient, and food-secure future.
+
+## Citado en la tesis
+
+_(aún no citado)_
+
+## Notas de lectura
+
+- [ ] Leído completo
+- [ ] Fichado
