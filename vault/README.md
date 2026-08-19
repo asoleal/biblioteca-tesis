@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**164 notas** | con PDF: 152 | citadas en la tesis: 92
+**164 notas** | con PDF: 153 | citadas en la tesis: 92
 
 ## Por tema
 

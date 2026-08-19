@@ -8,7 +8,7 @@ doi: "10.1163/23524588-00001268"
 url: "https://brill.com/view/journals/jiff/11/6/article-p1059_8.xml"
 tema: 01-bsf-gei
 tags: []
-pdf: false
+pdf: true
 citado_tesis: false
 origen: zotero
 ---
