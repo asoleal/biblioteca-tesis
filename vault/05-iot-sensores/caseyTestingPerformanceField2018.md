@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Testing the performance of field calibration techniques for low-cost gas sensors in new deployment locations: across a county line and across Colorado
