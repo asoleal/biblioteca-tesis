@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**163 notas** | con PDF: 152 | citadas en la tesis: 92
+**164 notas** | con PDF: 152 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -15,7 +15,7 @@
 - [[00-otros/smith11AgricultureForestry]] — 11 Agriculture, Forestry and Other Land Use (AFOLU) (s.f.)
 - [[00-otros/tiriaACTUALIZACIONCONTRIBUCIONDETERMINADA]] — ACTUALIZACIÓN DE LA CONTRIBUCIÓN DETERMINADA A NIVEL NACIONAL DE COLOMBIA 2020 - (s.f.)
 
-### 01-bsf-gei (17)
+### 01-bsf-gei (18)
 - [[01-bsf-gei/peredniaComparisonGreenhouseGas2017]] — A Comparison of the Greenhouse Gas Production of Black Soldier Fly Larvae versus (2017)
 - [[01-bsf-gei/beskinLarvalDigestionDifferent2018]] — Larval digestion of different manure types by the black soldier fly (Diptera: St (2018)
 - [[01-bsf-gei/ermolaevGreenhouseGasEmissions2019]] — Greenhouse gas emissions from small-scale fly larvae composting with Hermetia il (2019)
@@ -32,6 +32,7 @@
 - [[01-bsf-gei/rossiEstimatingDynamicsGreenhouse2024a]] — Estimating the dynamics of greenhouse gas emission during black soldier fly larv (2024)
 - [[01-bsf-gei/soontronprasatpornApplyingInternetThings2024]] — Applying the internet of things (IoT) for raising black soldier Fly (BSF) in clo (2024)
 - [[01-bsf-gei/elsayedConversionProteinrichWaste2024a]] — Conversion of protein-rich waste into biodiesel by Hermetia illucens: Enhanced e (2024)
+- [[01-bsf-gei/zotero-sin-citekey-907]] — Effect of temperature on growth, metabolism, and gas exchange in Hermetia illuce (2024)
 - [[01-bsf-gei/jenkinsProcessingPoultryManure2025]] — Processing poultry manure with black soldier fly technology lowers N2O and CO2 g (2025)
 
 ### 02-bsf-modelado (34)
@@ -211,6 +212,6 @@
 - **2021**: 12
 - **2022**: 13
 - **2023**: 21
-- **2024**: 29
+- **2024**: 30
 - **2025**: 16
 - **s.f.**: 10
