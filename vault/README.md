@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**174 notas** | con PDF: 163 | citadas en la tesis: 92
+**175 notas** | con PDF: 164 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -120,7 +120,7 @@
 - [[04-gei-clima/guthrieImpactAmmoniaEmissionsa]] — The impact of ammonia emissions from agriculture on biodiversity (s.f.)
 - [[04-gei-clima/EmissionsDueAgriculture]] — Emissions due to agriculture (s.f.)
 
-### 05-iot-sensores (28)
+### 05-iot-sensores (29)
 - [[05-iot-sensores/nisbetMoleculesEcosystemsDynamic2000]] — From molecules to ecosystems through dynamic energy budget models (2000)
 - [[05-iot-sensores/yasudaComparisonCharacteristicsSmall2012]] — Comparison of the Characteristics of Small Commercial NDIR CO2 Sensor Models and (2012)
 - [[05-iot-sensores/gabrysProgramEarthEnvironmental2016]] — Program earth: environmental sensing technology and the making of a computationa (2016)
@@ -129,6 +129,7 @@
 - [[05-iot-sensores/riddickCalibrationDeploymentLowcost2020]] — The calibration and deployment of a low-cost methane sensor (2020)
 - [[05-iot-sensores/satputeREVIEWPAPERWIRELESS2021a]] — REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE (2021)
 - [[05-iot-sensores/vajsDevelopingRelativeHumidity2021]] — Developing Relative Humidity and Temperature Corrections for Low-Cost Sensors Us (2021)
+- [[05-iot-sensores/riveramartinezPotentialLowCostTinOxide2021]] — The Potential of Low-Cost Tin-Oxide Sensors Combined with Machine Learning for E (2021)
 - [[05-iot-sensores/duobieneDevelopmentWirelessSensor2022]] — Development of Wireless Sensor Network for Environment Monitoring and Its Implem (2022)
 - [[05-iot-sensores/farooquiIOTBasedAutomated2022]] — IOT based Automated Greenhouse Using Machine Learning Approach (2022)
 - [[05-iot-sensores/quyIoTenabledSmartAgriculture2022]] — IoT-enabled smart agriculture: architecture, applications, and challenges (2022)
@@ -219,7 +220,7 @@
 - **2018**: 6
 - **2019**: 8
 - **2020**: 14
-- **2021**: 13
+- **2021**: 14
 - **2022**: 13
 - **2023**: 21
 - **2024**: 33

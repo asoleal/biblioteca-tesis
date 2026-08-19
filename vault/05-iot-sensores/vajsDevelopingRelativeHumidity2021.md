@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Developing Relative Humidity and Temperature Corrections for Low-Cost Sensors Using Machine Learning
