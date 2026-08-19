@@ -3275,6 +3275,31 @@
   "path": "05-iot-sensores/rajRealTimeEstimation2023a.md"
  },
  {
+  "citekey": "riddickCalibrationDeploymentLowcost2020",
+  "title": "The calibration and deployment of a low-cost methane sensor",
+  "authors": [
+   "Riddick, Stuart N.",
+   "Mauzerall, Denise L.",
+   "Celia, Michael",
+   "Allen, Grant",
+   "Pitt, Joseph",
+   "Kang, Mary",
+   "Riddick, John C."
+  ],
+  "year": "2020",
+  "type": "journalArticle",
+  "doi": "10.1016/j.atmosenv.2020.117440",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S1352231020301771",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": true,
+  "citado": false,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [],
+  "path": "05-iot-sensores/riddickCalibrationDeploymentLowcost2020.md"
+ },
+ {
   "citekey": "satputeREVIEWPAPERWIRELESS2021a",
   "title": "REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE",
   "authors": [

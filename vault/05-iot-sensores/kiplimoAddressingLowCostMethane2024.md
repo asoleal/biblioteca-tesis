@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Addressing Low-Cost Methane Sensor Calibration Shortcomings with Machine Learning
