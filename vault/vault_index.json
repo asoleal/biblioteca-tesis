@@ -2912,6 +2912,26 @@
   "path": "05-iot-sensores/bertinMeasuringMethaneEmissions2026.md"
  },
  {
+  "citekey": "caseyTestingPerformanceField2018",
+  "title": "Testing the performance of field calibration techniques for low-cost gas sensors in new deployment locations: across a county line and across Colorado",
+  "authors": [
+   "Casey, Joanna Gordon",
+   "Hannigan, Michael P."
+  ],
+  "year": "2018",
+  "type": "journalArticle",
+  "doi": "10.5194/amt-11-6351-2018",
+  "url": "https://amt.copernicus.org/articles/11/6351/2018/",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": true,
+  "citado": false,
+  "verificar": false,
+  "abstract": "Abstract. We assessed the performance of ambient ozone (O3) and carbon dioxide\n(CO2) sensor field calibration techniques when they were generated using\ndata from one location and then applied to data collected at a new location.\nThis was motivated by a previous study (Casey et al., 2018), which highlighted\nthe importance of determining the extent to which field calibration\nregression models could be aided by relationships among atmospheric trace\ngases at a given training location, which may not hold if a model is applied\nto data collected in a new location. We also explored the sensitivity of\nthese methods in response to the timing of field calibrations relative to\ndeployment periods. Employing data from a number of field deployments in\nColorado and New Mexico that spanned several years, we tested and compared\nthe performance of field-calibrated sensors using both linear models (LMs)\nand artificial neural networks (ANNs) for regression. Sampling sites covered\nurban and rural–peri-urban areas and environments influenced by oil and gas production.\nWe found that the best-performing model inputs and model type depended on\ncircumstances associated with individual case studies, such as differing\ncharacteristics of local dominant emissions sources, relative timing of model\ntraining and application, and the extent of extrapolation outside of\nparameter space encompassed by model training. In agreement with findings\nfrom our previous study that was focused on data from a single location\n(Casey et al., 2018), ANNs remained more effective than LMs\nfor a number of these case studies but there were some exceptions. For\nCO2 models, exceptions included case studies in which training\ndata collection took place more than several months subsequent to the test\ndata period. For O3 models, exceptions included case studies in\nwhich the characteristics of dominant local emissions sources (oil and gas\nvs. urban) were significantly different at model training and testing\nlocations. Among models that were tailored to case studies on an individual\nbasis, O3 ANNs performed better than O3 LMs in six out of\nseven\ncase studies, while CO2 ANNs performed better than CO2\nLMs in three out of five case studies. The performance of O3 models tended\nto be more sensitive to deployment location than to extrapolation in time,\nwhile the performance of CO2 models tended to be more sensitive to\nextrapolation in time than to deployment location. The performance of\nO3 ANN models benefited from the inclusion of several secondary\nmetal-oxide-type sensors as inputs in five of seven case studies.",
+  "citado_en": [],
+  "path": "05-iot-sensores/caseyTestingPerformanceField2018.md"
+ },
+ {
   "citekey": "chanSmartSustainableIOT2024",
   "title": "Smart and sustainable IOT based humidity and temperature control system for vegetable/fruit storage",
   "authors": [
