@@ -696,6 +696,33 @@
   "path": "01-bsf-gei/schonEffectTemperatureGrowth2024.md"
  },
  {
+  "citekey": "schonUsingGasExchange2026",
+  "title": "Using gas exchange measurements to monitor growth, energy expenditure, and body composition of black soldier fly larvae (Hermetia illucens) on diets varying in protein-to-carbohydrate ratio",
+  "authors": [
+   "Schøn, Maja L.",
+   "Jensen, Kim",
+   "Schow-Madsen, Mattias",
+   "Gold, Moritz",
+   "Mathys, Alexander",
+   "Schou, Toke M.",
+   "Berggreen, Ida E.",
+   "Nørgaard, Jan V.",
+   "Overgaard, Johannes"
+  ],
+  "year": "2026",
+  "type": "journalArticle",
+  "doi": "10.1016/j.jinsphys.2026.104961",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022191026000338",
+  "tema": "01-bsf-gei",
+  "tags": [],
+  "pdf": true,
+  "citado": false,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [],
+  "path": "01-bsf-gei/schonUsingGasExchange2026.md"
+ },
+ {
   "citekey": "soontronprasatpornApplyingInternetThings2024",
   "title": "Applying the internet of things (IoT) for raising black soldier Fly (BSF) in closed system to minimize greenhouse gas emissions",
   "authors": [
