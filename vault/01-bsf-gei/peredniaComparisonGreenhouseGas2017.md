@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # A Comparison of the Greenhouse Gas Production of Black Soldier Fly Larvae versus Aerobic Microbial Decomposition of an Organic Feed Material

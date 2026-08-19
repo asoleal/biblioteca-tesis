@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # ArtEMon: Artificial Intelligence and Internet of Things Powered Greenhouse Gas Sensing for Real-Time Emissions Monitoring

@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # <b>Waste-to-feed bioconversion using <i>Hermetia illucens</i> Larvae: Current insights and prospects</b>

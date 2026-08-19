@@ -11,6 +11,7 @@ tags: ["fast food waste", "fatty acids", "frass", "macronutrients"]
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Bioconversion of Different Waste Streams of Animal and Vegetal Origin and Manure by Black Soldier Fly Larvae Hermetia illucens L. (Diptera: Stratiomyidae)

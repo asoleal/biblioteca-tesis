@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Lauric Acid from the Black Soldier Fly (Hermetia illucens) and Its Potential Applications

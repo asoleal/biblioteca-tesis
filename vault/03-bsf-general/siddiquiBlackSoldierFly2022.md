@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Black soldier fly larvae (BSFL) and their affinity for organic waste processing

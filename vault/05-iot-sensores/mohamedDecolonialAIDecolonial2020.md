@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence

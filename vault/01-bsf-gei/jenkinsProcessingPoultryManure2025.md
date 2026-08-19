@@ -11,6 +11,7 @@ tags: ["greenhouse gas", "circular economy", "frass", "bacteria", "fertiliser", 
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Processing poultry manure with black soldier fly technology lowers N2O and CO2 gas emissions from soil

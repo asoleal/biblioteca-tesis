@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Bioconversion of biowaste by black soldier fly larvae (Hermetia illucens L.) for dried larvae production: A life cycle assessment and environmental impact analysis

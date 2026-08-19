@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # The Rising Threat of Atmospheric CO2: A Review on the Causes, Impacts, and Mitigation Strategies

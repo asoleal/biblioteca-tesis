@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Asymptotic estimated digestibility, a new indicator of black soldier fly (Hermetia illucens) conversion efficiency in relation to larval density

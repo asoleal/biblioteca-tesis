@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Assessing Substrate Utilization and Bioconversion Efficiency of Black Soldier Fly (Hermetia illucens) Larvae: Effect of Diet Composition on Growth and Development Temperature

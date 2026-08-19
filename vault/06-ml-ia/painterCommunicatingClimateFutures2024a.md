@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Communicating climate futures: a multi-country study of how the media portray the IPCC scenarios in the 2021/2 Working Group reports

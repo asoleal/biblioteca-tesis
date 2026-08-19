@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Application of Machine Learning Techniques to Discern Optimal Rearing Conditions for Improved Black Soldier Fly Farming

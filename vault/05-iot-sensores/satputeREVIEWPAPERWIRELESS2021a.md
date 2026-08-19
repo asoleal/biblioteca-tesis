@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # REVIEW PAPER ON WIRELESS SENSOR NETWORKS FOR AGRICULTURE

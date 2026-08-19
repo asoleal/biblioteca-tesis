@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Black Soldier Fly Diet Impacts Soil Greenhouse Gas Emissions From Frass Applied as Fertilizer

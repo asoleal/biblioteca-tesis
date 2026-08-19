@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Development of Wireless Sensor Network for Environment Monitoring and Its Implementation Using SSAIL Technology

@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Dynamic modelling of feed assimilation, growth, lipid accumulation, and CO2 production in black soldier fly larvae

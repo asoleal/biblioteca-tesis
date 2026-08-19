@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Effects of rearing system and microbial inoculation on black soldier fly larvae growth and microbiota when reared on agri-food by-products

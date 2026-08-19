@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # A Review of Intelligent Greenhouse Systems Based on Internet of Things Control Technology

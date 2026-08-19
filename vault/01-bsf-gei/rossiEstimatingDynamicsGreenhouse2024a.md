@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Estimating the dynamics of greenhouse gas emission during black soldier fly larvae growth under controlled environmental conditions

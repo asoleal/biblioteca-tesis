@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Black Soldier Fly Larvae Mitigate Greenhouse Gas Emissions from Domestic Biodegradable Waste through Carbon-Nitrogen Redistribution and Microbial Reconstruction

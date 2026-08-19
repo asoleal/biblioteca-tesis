@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Enhancing the bioconversion rate and end products of black soldier fly (BSF) treatment – A comprehensive review

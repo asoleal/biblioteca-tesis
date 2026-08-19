@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Comprehensive utilization of the Black Soldier Fly: Bioconversion, sustainability, and emerging challenges

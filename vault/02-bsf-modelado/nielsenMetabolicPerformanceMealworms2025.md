@@ -11,6 +11,7 @@ tags: ["<i>Hermetia illucens</i>", "<i>Tenebrio molitor</i>", "cost of growth", 
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Metabolic Performance of Mealworms and Black Soldier Fly Larvae Reared on Food and Agricultural Waste and By-Products

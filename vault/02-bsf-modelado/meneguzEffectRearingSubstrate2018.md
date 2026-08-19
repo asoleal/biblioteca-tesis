@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Effect of rearing substrate on growth performance, waste reduction efficiency and chemical composition of black soldier fly ( <span style="font-variant:small-caps;"> <i>Hermetia illucens</i> </span> ) larvae

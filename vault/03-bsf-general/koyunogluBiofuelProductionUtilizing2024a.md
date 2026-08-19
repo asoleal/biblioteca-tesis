@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Biofuel production utilizing black soldier fly (Hermetia illucens): a sustainable approach for organic waste management

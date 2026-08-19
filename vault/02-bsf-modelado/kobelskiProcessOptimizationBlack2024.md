@@ -11,6 +11,7 @@ tags: ["Computer Science - Systems and Control", "Electrical Engineering and Sys
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Process Optimization of Black Soldier Fly Egg Production via Model Based Control

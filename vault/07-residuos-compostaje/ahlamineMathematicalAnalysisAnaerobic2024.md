@@ -11,6 +11,7 @@ tags: ["Applied mathematics", "Environmental sciences"]
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Mathematical analysis of an anaerobic digestion model for biogas production from solid waste

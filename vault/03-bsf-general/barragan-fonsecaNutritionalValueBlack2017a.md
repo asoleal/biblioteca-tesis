@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Nutritional value of the black soldier fly (Hermetia illucens L.) and its suitability as animal feed – a review

@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Applying the internet of things (IoT) for raising black soldier Fly (BSF) in closed system to minimize greenhouse gas emissions

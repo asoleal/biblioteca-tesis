@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Evaluating greenhouse gas impacts of organic waste management options using life cycle assessment

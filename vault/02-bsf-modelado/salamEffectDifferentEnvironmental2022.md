@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Effect of different environmental conditions on the growth and development of Black Soldier Fly Larvae and its utilization in solid waste management and pollution mitigation

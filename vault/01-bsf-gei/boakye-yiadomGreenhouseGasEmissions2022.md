@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Greenhouse Gas Emissions and Life Cycle Assessment on the Black Soldier Fly (Hermetia illucens L.)

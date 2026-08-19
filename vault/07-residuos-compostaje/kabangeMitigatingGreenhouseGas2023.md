@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Mitigating Greenhouse Gas Emissions from Crop Production and Management Practices, and Livestock: A Review

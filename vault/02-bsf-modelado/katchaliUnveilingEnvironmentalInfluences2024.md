@@ -11,6 +11,7 @@ tags: ["black soldier fly", "frass fertilizer quality", "Internet of Things", "r
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Unveiling Environmental Influences on Sustainable Fertilizer Production through Insect Farming

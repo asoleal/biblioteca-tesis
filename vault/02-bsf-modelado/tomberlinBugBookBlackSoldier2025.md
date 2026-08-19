@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # BugBook: Black soldier fly as a model to assess behaviour of insects mass produced as food and feed

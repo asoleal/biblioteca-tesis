@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Utilization of Hermetia illucens Larvae as A Bioconversion Agent to Reduce Organic Waste

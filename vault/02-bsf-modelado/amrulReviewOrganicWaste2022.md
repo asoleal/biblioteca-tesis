@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # A Review of Organic Waste Treatment Using Black Soldier Fly (Hermetia illucens)

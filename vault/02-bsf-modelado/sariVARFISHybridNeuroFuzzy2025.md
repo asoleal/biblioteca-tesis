@@ -11,6 +11,7 @@ tags: ["BSF", "microclimate control", "precision agriculture", "sustainable inse
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # VARFIS: A Hybrid Neuro-Fuzzy Model for Intelligent Microclimate Control in Black Soldier Fly Farming Systems

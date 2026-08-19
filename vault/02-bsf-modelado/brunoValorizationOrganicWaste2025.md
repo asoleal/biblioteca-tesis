@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Valorization of organic waste through black soldier fly: On the way of a real circular bioeconomy process

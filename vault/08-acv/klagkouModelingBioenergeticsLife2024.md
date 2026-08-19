@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Modeling the Bioenergetics and Life History Traits of Chironomus riparius–Consequences of Food Limitation
