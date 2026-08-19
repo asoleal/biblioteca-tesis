@@ -3419,6 +3419,26 @@
   "path": "05-iot-sensores/satputeREVIEWPAPERWIRELESS2021a.md"
  },
  {
+  "citekey": "vafaeiChamberlessNDIRCO22021",
+  "title": "Chamberless NDIR CO<sub>2</sub> Sensor Robust against Environmental Fluctuations",
+  "authors": [
+   "Vafaei, Mostafa",
+   "Amini, Amir"
+  ],
+  "year": "2021",
+  "type": "journalArticle",
+  "doi": "10.1021/acssensors.0c01863",
+  "url": "https://pubs.acs.org/doi/10.1021/acssensors.0c01863",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": true,
+  "citado": false,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [],
+  "path": "05-iot-sensores/vafaeiChamberlessNDIRCO22021.md"
+ },
+ {
   "citekey": "vajsDevelopingRelativeHumidity2021",
   "title": "Developing Relative Humidity and Temperature Corrections for Low-Cost Sensors Using Machine Learning",
   "authors": [
