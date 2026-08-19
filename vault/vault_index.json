@@ -3179,6 +3179,29 @@
   "path": "05-iot-sensores/luReviewIntelligentGreenhouse2025a.md"
  },
  {
+  "citekey": "maoFastCalibrationAlgorithm2021",
+  "title": "A fast calibration algorithm for Non-Dispersive Infrared single channel carbon dioxide sensor based on deep learning",
+  "authors": [
+   "Mao, Keji",
+   "Xu, Jinyu",
+   "Jin, Runhui",
+   "Wang, Yuxiang",
+   "Fang, Kai"
+  ],
+  "year": "2021",
+  "type": "journalArticle",
+  "doi": "10.1016/j.comcom.2021.08.003",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0140366421002978",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": true,
+  "citado": false,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [],
+  "path": "05-iot-sensores/maoFastCalibrationAlgorithm2021.md"
+ },
+ {
   "citekey": "mitchellCalibrationLowCostMethane2024",
   "title": "Calibration of a Low-Cost Methane Sensor Using Machine Learning",
   "authors": [
