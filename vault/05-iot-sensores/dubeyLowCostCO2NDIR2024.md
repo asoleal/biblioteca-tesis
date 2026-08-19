@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Low-Cost CO2 NDIR Sensors: Performance Evaluation and Calibration Using Machine Learning Techniques
