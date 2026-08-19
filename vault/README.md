@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**176 notas** | con PDF: 165 | citadas en la tesis: 92
+**177 notas** | con PDF: 166 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -152,7 +152,7 @@
 - [[05-iot-sensores/bertinMeasuringMethaneEmissions2026]] — Measuring Methane Emissions in Ambient Air with a Low-Cost, Portable Sensor Syst (2026)
 - [[05-iot-sensores/herrinCollateralDataQualitya]] — Collateral Data Quality Challenges of IoT Sensor-Generated Data (s.f.)
 
-### 06-ml-ia (14)
+### 06-ml-ia (15)
 - [[06-ml-ia/lecunDeepLearning2015]] — Deep learning (2015)
 - [[06-ml-ia/burrellHowMachineThinks2016]] — How the machine ‘thinks’: Understanding opacity in machine learning algorithms (2016)
 - [[06-ml-ia/kamilarisReviewPracticeBig2017]] — A review on the practice of big data analysis in agriculture (2017)
@@ -162,6 +162,7 @@
 - [[06-ml-ia/raissiPhysicsinformedNeuralNetworks2019a]] — Physics-informed neural networks: A deep learning framework for solving forward  (2019)
 - [[06-ml-ia/dharCarbonImpactArtificial2020]] — The carbon impact of artificial intelligence (2020)
 - [[06-ml-ia/chenOptimizationModelProcess2021a]] — An Optimization Model for Process Traceability in Case-Based Reasoning Based on  (2021)
+- [[06-ml-ia/wangSelfadaptiveTemperatureHumidity2022]] — Self-adaptive temperature and humidity compensation based on improved deep BP ne (2022)
 - [[06-ml-ia/liuOptimizingDataPipelines2023a]] — Optimizing Data Pipelines for Machine Learning in Feature Stores (2023)
 - [[06-ml-ia/biagiDevelopmentMachineLearningbased2024a]] — Development and machine learning-based calibration of low-cost multiparametric s (2024)
 - [[06-ml-ia/painterCommunicatingClimateFutures2024a]] — Communicating climate futures: a multi-country study of how the media portray th (2024)
@@ -222,7 +223,7 @@
 - **2019**: 8
 - **2020**: 14
 - **2021**: 14
-- **2022**: 13
+- **2022**: 14
 - **2023**: 21
 - **2024**: 33
 - **2025**: 18
