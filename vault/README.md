@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**172 notas** | con PDF: 161 | citadas en la tesis: 92
+**173 notas** | con PDF: 162 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -120,7 +120,7 @@
 - [[04-gei-clima/guthrieImpactAmmoniaEmissionsa]] — The impact of ammonia emissions from agriculture on biodiversity (s.f.)
 - [[04-gei-clima/EmissionsDueAgriculture]] — Emissions due to agriculture (s.f.)
 
-### 05-iot-sensores (26)
+### 05-iot-sensores (27)
 - [[05-iot-sensores/nisbetMoleculesEcosystemsDynamic2000]] — From molecules to ecosystems through dynamic energy budget models (2000)
 - [[05-iot-sensores/yasudaComparisonCharacteristicsSmall2012]] — Comparison of the Characteristics of Small Commercial NDIR CO2 Sensor Models and (2012)
 - [[05-iot-sensores/gabrysProgramEarthEnvironmental2016]] — Program earth: environmental sensing technology and the making of a computationa (2016)
@@ -145,6 +145,7 @@
 - [[05-iot-sensores/zonayedMachineLearningIoT2025]] — Machine learning and IoT in healthcare: Recent advancements, challenges & future (2025)
 - [[05-iot-sensores/luReviewIntelligentGreenhouse2025a]] — A Review of Intelligent Greenhouse Systems Based on Internet of Things Control T (2025)
 - [[05-iot-sensores/dongEnvironmentalEffectsNDIRBased2025]] — Environmental Effects on NDIR-Based CH<sub>4</sub> Monitoring: Characterization  (2025)
+- [[05-iot-sensores/yanMachineLearningEnhancedNDIR2025]] — Machine Learning-Enhanced NDIR Methane Sensing Solution for Robust Outdoor Conti (2025)
 - [[05-iot-sensores/bertinMeasuringMethaneEmissions2026]] — Measuring Methane Emissions in Ambient Air with a Low-Cost, Portable Sensor Syst (2026)
 - [[05-iot-sensores/herrinCollateralDataQualitya]] — Collateral Data Quality Challenges of IoT Sensor-Generated Data (s.f.)
 
@@ -221,6 +222,6 @@
 - **2022**: 13
 - **2023**: 21
 - **2024**: 33
-- **2025**: 17
+- **2025**: 18
 - **2026**: 3
 - **s.f.**: 10
