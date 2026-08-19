@@ -1,5 +1,5 @@
 ---
-citekey: zotero-sin-citekey-907
+citekey: schonEffectTemperatureGrowth2024
 title: "Effect of temperature on growth, metabolism, and gas exchange in Hermetia illucens larvae reared under commercial and laboratory conditions"
 authors: ["Schøn, M.L.", "Mikkelsen, M.V.N.", "Jensen, K.", "Poulsen, J.M.", "Berggreen, I.E.", "Schou, T.M.", "Nørgaard, J.V.", "Overgaard, J."]
 year: 2024
@@ -15,7 +15,7 @@ origen: zotero
 
 # Effect of temperature on growth, metabolism, and gas exchange in Hermetia illucens larvae reared under commercial and laboratory conditions
 
-- **Citekey:** `zotero-sin-citekey-907`  - **Año:** 2024  - **Tipo:** journalArticle
+- **Citekey:** `schonEffectTemperatureGrowth2024`  - **Año:** 2024  - **Tipo:** journalArticle
 - **DOI:** [10.1163/23524588-00001268](https://doi.org/10.1163/23524588-00001268)
 
 

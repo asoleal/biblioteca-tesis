@@ -32,7 +32,7 @@
 - [[01-bsf-gei/rossiEstimatingDynamicsGreenhouse2024a]] — Estimating the dynamics of greenhouse gas emission during black soldier fly larv (2024)
 - [[01-bsf-gei/soontronprasatpornApplyingInternetThings2024]] — Applying the internet of things (IoT) for raising black soldier Fly (BSF) in clo (2024)
 - [[01-bsf-gei/elsayedConversionProteinrichWaste2024a]] — Conversion of protein-rich waste into biodiesel by Hermetia illucens: Enhanced e (2024)
-- [[01-bsf-gei/zotero-sin-citekey-907]] — Effect of temperature on growth, metabolism, and gas exchange in Hermetia illuce (2024)
+- [[01-bsf-gei/schonEffectTemperatureGrowth2024]] — Effect of temperature on growth, metabolism, and gas exchange in Hermetia illuce (2024)
 - [[01-bsf-gei/jenkinsProcessingPoultryManure2025]] — Processing poultry manure with black soldier fly technology lowers N2O and CO2 g (2025)
 
 ### 02-bsf-modelado (34)
