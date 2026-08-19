@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Machine Learning-Enhanced NDIR Methane Sensing Solution for Robust Outdoor Continuous Monitoring Applications
