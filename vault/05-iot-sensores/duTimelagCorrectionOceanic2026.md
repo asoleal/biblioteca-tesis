@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Time-lag correction for oceanic in situ CO2 sensors using a physics-informed hybrid BiLSTM-attention and Kalman filter framework
