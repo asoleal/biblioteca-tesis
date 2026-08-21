@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Overcoming the Limits of Cross-Sensitivity: Pattern Recognition Methods for Chemiresistive Gas Sensor Array
