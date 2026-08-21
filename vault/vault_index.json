@@ -3543,6 +3543,28 @@
   "path": "05-iot-sensores/yavariArtEMonArtificialIntelligence2023.md"
  },
  {
+  "citekey": "youDataDrivenSelfCalibrationIoTBased2022",
+  "title": "On Data-Driven Self-Calibration for IoT-Based Gas Concentration Monitoring Systems",
+  "authors": [
+   "You, Yang",
+   "You, Kai",
+   "Chen, Hao",
+   "Oechtering, Tobias J."
+  ],
+  "year": "2022",
+  "type": "journalArticle",
+  "doi": "10.1109/JIOT.2022.3144934",
+  "url": "https://ieeexplore.ieee.org/document/9686957/",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": true,
+  "citado": false,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [],
+  "path": "05-iot-sensores/youDataDrivenSelfCalibrationIoTBased2022.md"
+ },
+ {
   "citekey": "zhangApplicationBigData2024a",
   "title": "Application of big data in smart agriculture",
   "authors": [

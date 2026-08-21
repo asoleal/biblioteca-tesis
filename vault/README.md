@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**179 notas** | con PDF: 168 | citadas en la tesis: 92
+**180 notas** | con PDF: 169 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -120,7 +120,7 @@
 - [[04-gei-clima/guthrieImpactAmmoniaEmissionsa]] — The impact of ammonia emissions from agriculture on biodiversity (s.f.)
 - [[04-gei-clima/EmissionsDueAgriculture]] — Emissions due to agriculture (s.f.)
 
-### 05-iot-sensores (32)
+### 05-iot-sensores (33)
 - [[05-iot-sensores/nisbetMoleculesEcosystemsDynamic2000]] — From molecules to ecosystems through dynamic energy budget models (2000)
 - [[05-iot-sensores/yasudaComparisonCharacteristicsSmall2012]] — Comparison of the Characteristics of Small Commercial NDIR CO2 Sensor Models and (2012)
 - [[05-iot-sensores/gabrysProgramEarthEnvironmental2016]] — Program earth: environmental sensing technology and the making of a computationa (2016)
@@ -136,6 +136,7 @@
 - [[05-iot-sensores/duobieneDevelopmentWirelessSensor2022]] — Development of Wireless Sensor Network for Environment Monitoring and Its Implem (2022)
 - [[05-iot-sensores/farooquiIOTBasedAutomated2022]] — IOT based Automated Greenhouse Using Machine Learning Approach (2022)
 - [[05-iot-sensores/quyIoTenabledSmartAgriculture2022]] — IoT-enabled smart agriculture: architecture, applications, and challenges (2022)
+- [[05-iot-sensores/youDataDrivenSelfCalibrationIoTBased2022]] — On Data-Driven Self-Calibration for IoT-Based Gas Concentration Monitoring Syste (2022)
 - [[05-iot-sensores/yavariArtEMonArtificialIntelligence2023]] — ArtEMon: Artificial Intelligence and Internet of Things Powered Greenhouse Gas S (2023)
 - [[05-iot-sensores/nunesRisingThreatAtmospheric2023]] — The Rising Threat of Atmospheric CO2: A Review on the Causes, Impacts, and Mitig (2023)
 - [[05-iot-sensores/rajRealTimeEstimation2023a]] — Real Time Estimation of GHG Emissions Using IoT Integrated Sensor Fusion (2023)
@@ -225,7 +226,7 @@
 - **2019**: 8
 - **2020**: 14
 - **2021**: 16
-- **2022**: 14
+- **2022**: 15
 - **2023**: 21
 - **2024**: 33
 - **2025**: 18
