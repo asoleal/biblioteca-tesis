@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**180 notas** | con PDF: 169 | citadas en la tesis: 92
+**181 notas** | con PDF: 170 | citadas en la tesis: 92
 
 ## Por tema
 
@@ -120,7 +120,7 @@
 - [[04-gei-clima/guthrieImpactAmmoniaEmissionsa]] — The impact of ammonia emissions from agriculture on biodiversity (s.f.)
 - [[04-gei-clima/EmissionsDueAgriculture]] — Emissions due to agriculture (s.f.)
 
-### 05-iot-sensores (33)
+### 05-iot-sensores (34)
 - [[05-iot-sensores/nisbetMoleculesEcosystemsDynamic2000]] — From molecules to ecosystems through dynamic energy budget models (2000)
 - [[05-iot-sensores/yasudaComparisonCharacteristicsSmall2012]] — Comparison of the Characteristics of Small Commercial NDIR CO2 Sensor Models and (2012)
 - [[05-iot-sensores/gabrysProgramEarthEnvironmental2016]] — Program earth: environmental sensing technology and the making of a computationa (2016)
@@ -148,6 +148,7 @@
 - [[05-iot-sensores/dubeyLowCostCO2NDIR2024]] — Low-Cost CO2 NDIR Sensors: Performance Evaluation and Calibration Using Machine  (2024)
 - [[05-iot-sensores/mitchellCalibrationLowCostMethane2024]] — Calibration of a Low-Cost Methane Sensor Using Machine Learning (2024)
 - [[05-iot-sensores/kiplimoAddressingLowCostMethane2024]] — Addressing Low-Cost Methane Sensor Calibration Shortcomings with Machine Learnin (2024)
+- [[05-iot-sensores/meiOvercomingLimitsCrossSensitivity2024]] — Overcoming the Limits of Cross-Sensitivity: Pattern Recognition Methods for Chem (2024)
 - [[05-iot-sensores/zonayedMachineLearningIoT2025]] — Machine learning and IoT in healthcare: Recent advancements, challenges & future (2025)
 - [[05-iot-sensores/luReviewIntelligentGreenhouse2025a]] — A Review of Intelligent Greenhouse Systems Based on Internet of Things Control T (2025)
 - [[05-iot-sensores/dongEnvironmentalEffectsNDIRBased2025]] — Environmental Effects on NDIR-Based CH<sub>4</sub> Monitoring: Characterization  (2025)
@@ -228,7 +229,7 @@
 - **2021**: 16
 - **2022**: 15
 - **2023**: 21
-- **2024**: 33
+- **2024**: 34
 - **2025**: 18
 - **2026**: 3
 - **s.f.**: 10
