@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Turning trash into treasure: <i>Hermetia illucens</i> microbiome and biodegradation of industrial side streams
