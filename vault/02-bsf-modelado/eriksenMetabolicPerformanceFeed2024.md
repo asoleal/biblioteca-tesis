@@ -9,7 +9,7 @@ url: "https://www.frontiersin.org/articles/10.3389/fbioe.2024.1397108/full"
 tema: 02-bsf-modelado
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -30,7 +30,7 @@ The black soldier fly (BSF),
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex`
 
 ## Notas de lectura
 

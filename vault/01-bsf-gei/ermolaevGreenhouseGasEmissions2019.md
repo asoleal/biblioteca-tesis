@@ -28,6 +28,9 @@ Fly larvae composting is an emerging waste treatment alternative with great pote
 
 - `tesis-BSF/tesis/Capitulos/marco_bsf_estado_arte.tex`
 - `tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex`
+- `tesis-BSF/texto-bioconversion/secciones/03_sistema.tex`
+- `tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex`
+- `tesis-BSF/texto-bioconversion/secciones/05_modelo.tex`
 
 ## Notas de lectura
 
