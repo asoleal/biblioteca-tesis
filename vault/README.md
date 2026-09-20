@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**184 notas** | con PDF: 173 | citadas en la tesis: 93
+**185 notas** | con PDF: 174 | citadas en la tesis: 93
 
 ## Por tema
 
@@ -15,7 +15,7 @@
 - [[00-otros/smith11AgricultureForestry]] — 11 Agriculture, Forestry and Other Land Use (AFOLU) (s.f.)
 - [[00-otros/tiriaACTUALIZACIONCONTRIBUCIONDETERMINADA]] — ACTUALIZACIÓN DE LA CONTRIBUCIÓN DETERMINADA A NIVEL NACIONAL DE COLOMBIA 2020 - (s.f.)
 
-### 01-bsf-gei (22)
+### 01-bsf-gei (23)
 - [[01-bsf-gei/peredniaComparisonGreenhouseGas2017]] — A Comparison of the Greenhouse Gas Production of Black Soldier Fly Larvae versus (2017)
 - [[01-bsf-gei/beskinLarvalDigestionDifferent2018]] — Larval digestion of different manure types by the black soldier fly (Diptera: St (2018)
 - [[01-bsf-gei/ermolaevGreenhouseGasEmissions2019]] — Greenhouse gas emissions from small-scale fly larvae composting with Hermetia il (2019)
@@ -38,6 +38,7 @@
 - [[01-bsf-gei/jenkinsProcessingPoultryManure2025]] — Processing poultry manure with black soldier fly technology lowers N2O and CO2 g (2025)
 - [[01-bsf-gei/schonUsingGasExchange2026]] — Using gas exchange measurements to monitor growth, energy expenditure, and body  (2026)
 - [[01-bsf-gei/gacuthiValorizationOrganicWastes2026]] — Valorization of organic wastes through black soldier fly larvae bioconversion: r (2026)
+- [[01-bsf-gei/gurusingaDietChemistryCrosskingdom2026]] — Diet chemistry and cross-kingdom microbiota associate with black soldier fly lar (2026)
 
 ### 02-bsf-modelado (34)
 - [[02-bsf-modelado/arreseInsectFatBody2010]] — Insect Fat Body: Energy, Metabolism, and Regulation (2010)
@@ -234,5 +235,5 @@
 - **2023**: 21
 - **2024**: 35
 - **2025**: 18
-- **2026**: 4
+- **2026**: 5
 - **s.f.**: 10
