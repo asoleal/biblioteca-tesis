@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Growth efficiency, intestinal biology, and nutrient utilization and requirements of black soldier fly (Hermetia illucens) larvae compared to monogastric livestock species: a review
