@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**185 notas** | con PDF: 174 | citadas en la tesis: 93
+**186 notas** | con PDF: 175 | citadas en la tesis: 93
 
 ## Por tema
 
@@ -160,12 +160,13 @@
 - [[05-iot-sensores/duTimelagCorrectionOceanic2026]] — Time-lag correction for oceanic in situ CO2 sensors using a physics-informed hyb (2026)
 - [[05-iot-sensores/herrinCollateralDataQualitya]] — Collateral Data Quality Challenges of IoT Sensor-Generated Data (s.f.)
 
-### 06-ml-ia (15)
+### 06-ml-ia (16)
 - [[06-ml-ia/lecunDeepLearning2015]] — Deep learning (2015)
 - [[06-ml-ia/burrellHowMachineThinks2016]] — How the machine ‘thinks’: Understanding opacity in machine learning algorithms (2016)
 - [[06-ml-ia/kamilarisReviewPracticeBig2017]] — A review on the practice of big data analysis in agriculture (2017)
 - [[06-ml-ia/adadiPeekingBlackBoxSurvey2018]] — Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (X (2018)
 - [[06-ml-ia/kamilarisDeepLearningAgriculture2018]] — Deep learning in agriculture: A survey (2018)
+- [[06-ml-ia/raissiMultistepNeuralNetworks2018]] — Multistep Neural Networks for Data-driven Discovery of Nonlinear Dynamical Syste (2018)
 - [[06-ml-ia/weichertReviewMachineLearning2019]] — A review of machine learning for the optimization of production processes (2019)
 - [[06-ml-ia/raissiPhysicsinformedNeuralNetworks2019a]] — Physics-informed neural networks: A deep learning framework for solving forward  (2019)
 - [[06-ml-ia/dharCarbonImpactArtificial2020]] — The carbon impact of artificial intelligence (2020)
@@ -227,7 +228,7 @@
 - **2015**: 5
 - **2016**: 3
 - **2017**: 7
-- **2018**: 7
+- **2018**: 8
 - **2019**: 8
 - **2020**: 14
 - **2021**: 16

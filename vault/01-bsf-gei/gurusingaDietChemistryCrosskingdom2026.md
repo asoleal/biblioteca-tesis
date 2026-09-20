@@ -11,6 +11,7 @@ tags: []
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Diet chemistry and cross-kingdom microbiota associate with black soldier fly larvae performance on regional side streams
