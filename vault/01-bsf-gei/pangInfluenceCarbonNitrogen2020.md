@@ -9,7 +9,7 @@ url: "https://link.springer.com/10.1007/s11356-020-09909-4"
 tema: 01-bsf-gei
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 ---
 
@@ -25,7 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/texto-bioconversion/secciones/08_protocolo.tex`
 
 ## Notas de lectura
 

@@ -64,6 +64,8 @@ _(sin resumen)_
 - `tesis-BSF/texto-bioconversion/secciones/03_sistema.tex`
 - `tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex`
 - `tesis-BSF/texto-bioconversion/secciones/05_modelo.tex`
+- `tesis-BSF/texto-bioconversion/secciones/07_mediciones.tex`
+- `tesis-BSF/texto-bioconversion/secciones/08_protocolo.tex`
 - `tesis-BSF/texto-bioconversion/secciones/introduccion.tex`
 
 ## Notas de lectura
