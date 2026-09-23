@@ -369,6 +369,7 @@
    "tesis-BSF/tesis/compartimentos_desarrollado.tex",
    "tesis-BSF/tesis/tasas_metabolicas_desarrollado.tex",
    "tesis-BSF/texto-bioconversion/secciones/01_introduccion.tex",
+   "tesis-BSF/texto-bioconversion/secciones/03_sistema.tex",
    "tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex",
    "tesis-BSF/texto-bioconversion/secciones/05_modelo.tex",
    "tesis-BSF/texto-bioconversion/secciones/introduccion.tex"
@@ -626,7 +627,8 @@
    "tesis-BSF/tesis/Capitulos/cap3_sec02_fundamentos_deb.tex",
    "tesis-BSF/tesis/Capitulos/cap3_sec04_formulacion_ode.tex",
    "tesis-BSF/tesis/Capitulos/cap3_sec07_analisis_estructural.tex",
-   "tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex"
+   "tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex",
+   "tesis-BSF/texto-bioconversion/secciones/03_sistema.tex"
   ],
   "path": "01-bsf-gei/parodiBioconversionEfficienciesGreenhouse2020a.md"
  },
@@ -4107,7 +4109,8 @@
   "verificar": false,
   "abstract": "",
   "citado_en": [
-   "tesis-BSF/tesis/Capitulos/justificacion.tex"
+   "tesis-BSF/tesis/Capitulos/justificacion.tex",
+   "tesis-BSF/texto-bioconversion/secciones/01_introduccion.tex"
   ],
   "path": "06-ml-ia/raissiPhysicsinformedNeuralNetworks2019a.md"
  },

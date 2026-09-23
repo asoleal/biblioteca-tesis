@@ -61,6 +61,7 @@ _(sin resumen)_
 - `tesis-BSF/tesis/compartimentos_desarrollado.tex`
 - `tesis-BSF/tesis/tasas_metabolicas_desarrollado.tex`
 - `tesis-BSF/texto-bioconversion/secciones/01_introduccion.tex`
+- `tesis-BSF/texto-bioconversion/secciones/03_sistema.tex`
 - `tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex`
 - `tesis-BSF/texto-bioconversion/secciones/05_modelo.tex`
 - `tesis-BSF/texto-bioconversion/secciones/introduccion.tex`

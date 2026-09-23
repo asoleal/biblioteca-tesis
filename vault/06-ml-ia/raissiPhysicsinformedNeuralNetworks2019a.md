@@ -26,6 +26,7 @@ _(sin resumen)_
 ## Citado en la tesis
 
 - `tesis-BSF/tesis/Capitulos/justificacion.tex`
+- `tesis-BSF/texto-bioconversion/secciones/01_introduccion.tex`
 
 ## Notas de lectura
 

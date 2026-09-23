@@ -11,6 +11,7 @@ tags: ["Mathematics - Dynamical Systems", "Mathematics - Numerical Analysis", "N
 pdf: true
 citado_tesis: false
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Multistep Neural Networks for Data-driven Discovery of Nonlinear Dynamical Systems
