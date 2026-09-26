@@ -8,7 +8,7 @@ doi: "10.1137/0904010"
 url: "https://epubs.siam.org/doi/10.1137/0904010"
 tema: 00-otros
 tags: []
-pdf: false
+pdf: true
 citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
