@@ -9,7 +9,7 @@ url: "https://www.mdpi.com/1424-8220/24/4/1066"
 tema: 05-iot-sensores
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -89,7 +89,8 @@ Calibración de un sensor de metano de bajo costo (Figaro NGM2611-E13, basado en
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

@@ -9,7 +9,7 @@ url: "https://www.mdpi.com/2073-4433/15/11/1313"
 tema: 05-iot-sensores
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -125,7 +125,8 @@ Este trabajo investiga el uso de *Random Forest* (RF) para calibrar sensores met
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

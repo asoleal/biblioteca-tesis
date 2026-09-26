@@ -9,7 +9,7 @@ url: "https://www.cambridge.org/core/product/identifier/9780511805400/type/book"
 tema: 08-acv
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -26,7 +26,7 @@ The Dynamic Energy Budget theory unifies the commonalities between organisms, as
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

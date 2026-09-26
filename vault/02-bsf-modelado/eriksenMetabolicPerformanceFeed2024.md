@@ -30,6 +30,8 @@ The black soldier fly (BSF),
 
 ## Citado en la tesis
 
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex`
 - `tesis-BSF/texto-bioconversion/secciones/07_mediciones.tex`
 - `tesis-BSF/texto-bioconversion/secciones/08_protocolo.tex`

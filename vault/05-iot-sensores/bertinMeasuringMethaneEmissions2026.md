@@ -9,7 +9,7 @@ url: "https://www.mdpi.com/1424-8220/26/13/4321"
 tema: 05-iot-sensores
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -126,7 +126,7 @@ Desarrollo y validación de una "caja de sensores" portátil del proyecto europe
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 
 ## Notas de lectura
 

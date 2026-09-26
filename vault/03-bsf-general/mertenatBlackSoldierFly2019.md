@@ -25,6 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex`
 
 ## Notas de lectura

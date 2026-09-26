@@ -9,7 +9,7 @@ url: "https://linkinghub.elsevier.com/retrieve/pii/S004896972403506X"
 tema: 04-gei-clima
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 ---
 
@@ -25,7 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 
 ## Notas de lectura
 

@@ -25,6 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec04_protocolo.tex`
 
 ## Notas de lectura

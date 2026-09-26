@@ -27,6 +27,7 @@ The fat body plays major roles in the life of insects. It is a dynamic tissue in
 ## Citado en la tesis
 
 - `tesis-BSF/articulos/modelo-hibrido/hybrid_deb_rna_article.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

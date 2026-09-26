@@ -27,6 +27,7 @@ Abstract
 
 ## Citado en la tesis
 
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/tesis/Capitulos/justificacion.tex`
 - `tesis-BSF/tesis/Capitulos/planteamiento.tex`
 

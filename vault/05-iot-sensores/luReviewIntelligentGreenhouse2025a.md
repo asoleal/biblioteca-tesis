@@ -9,7 +9,7 @@ url: "https://www.ewadirect.com/proceedings/ace/article/view/22577"
 tema: 05-iot-sensores
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -26,7 +26,7 @@ With the rapid advancement of Internet of Things (IoT) technologies, intelligent
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 
 ## Notas de lectura
 

@@ -28,6 +28,7 @@ _(sin resumen)_
 - `proyecto-tesis/Capitulos/introduccion.tex`
 - `proyecto-tesis/Capitulos/marco-teorico.tex`
 - `proyecto-tesis/Capitulos/planteamiento.tex`
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/presentacion/presentacion-candidatura.tex`
 - `tesis-BSF/tesis/Capitulos/cap1_sec01_introduccion.tex`
 - `tesis-BSF/tesis/Capitulos/cap1_sec02_antecedentes.tex`

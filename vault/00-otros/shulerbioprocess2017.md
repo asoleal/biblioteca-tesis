@@ -27,6 +27,7 @@ _(sin resumen)_
 
 - `proyecto-tesis/Clase-sabados/bfs.tex`
 - `proyecto-tesis/Clase-sabados/prueba.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

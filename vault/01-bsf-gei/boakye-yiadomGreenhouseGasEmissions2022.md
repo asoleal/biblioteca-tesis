@@ -26,6 +26,8 @@ The black soldier fly (BSF) is recognised as a valuable insect for mitigating fe
 
 ## Citado en la tesis
 
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/Capitulos/marco_bsf_estado_arte.tex`
 
 ## Notas de lectura

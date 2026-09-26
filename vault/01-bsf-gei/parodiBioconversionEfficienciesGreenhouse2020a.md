@@ -25,6 +25,8 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec04_protocolo.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec05_calibracion.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec06_resultados.tex`
@@ -33,6 +35,7 @@ _(sin resumen)_
 - `tesis-BSF/tesis/Capitulos/cap3_sec07_analisis_estructural.tex`
 - `tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex`
 - `tesis-BSF/texto-bioconversion/secciones/03_sistema.tex`
+- `tesis-BSF/texto-bioconversion/secciones/08_discusion.tex`
 - `tesis-BSF/texto-bioconversion/secciones/08_protocolo.tex`
 
 ## Notas de lectura

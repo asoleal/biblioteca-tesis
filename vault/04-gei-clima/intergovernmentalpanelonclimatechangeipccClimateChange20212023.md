@@ -26,6 +26,7 @@ The Working Group I contribution to the Sixth Assessment Report of the Intergove
 
 ## Citado en la tesis
 
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/presentacion/presentacion-candidatura.tex`
 
 ## Notas de lectura

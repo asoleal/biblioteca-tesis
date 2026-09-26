@@ -50,6 +50,7 @@ _(sin resumen)_
 - `tesis-BSF/tesis/Capitulos/marco_bsf_estado_arte.tex`
 - `tesis-BSF/tesis/Capitulos/marco_gei_comparacion.tex`
 - `tesis-BSF/tesis/Capitulos/planteamiento.tex`
+- `tesis-BSF/texto-bioconversion/secciones/08_protocolo.tex`
 
 ## Notas de lectura
 

@@ -9,7 +9,7 @@ url: "https://esajournals.onlinelibrary.wiley.com/doi/10.1890/14-0976.1"
 tema: 02-bsf-modelado
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -28,7 +28,7 @@ Alterations of the amount and quality of food consumed during ontogeny can affec
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

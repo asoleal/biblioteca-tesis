@@ -25,6 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/tesis/Capitulos/cap3_sec02_fundamentos_deb.tex`
 - `tesis-BSF/tesis/Capitulos/cap3_sec04_formulacion_ode.tex`
 - `tesis-BSF/tesis/Capitulos/marco_bsf_estado_arte.tex`

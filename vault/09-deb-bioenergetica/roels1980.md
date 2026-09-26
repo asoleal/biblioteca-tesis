@@ -25,6 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/compartimentos_desarrollado.tex`
 
 ## Notas de lectura

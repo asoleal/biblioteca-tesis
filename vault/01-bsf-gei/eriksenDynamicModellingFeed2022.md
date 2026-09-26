@@ -33,8 +33,11 @@ _(sin resumen)_
 - `tesis-BSF/articulo-00-red-neuronal-biomasa/prueba.tex`
 - `tesis-BSF/articulo-00-red-neuronal-biomasa/secciones/introduccion.tex`
 - `tesis-BSF/articulos/articulo_1_sensor_virtual/contenido_art1.tex`
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/articulos/modelo-hibrido/hybrid_deb_rna_article.tex`
 - `tesis-BSF/presentacion/presentacion-candidatura.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/resultados.tex`
 - `tesis-BSF/tesis/Capitulos/alcance_limitaciones.tex`
 - `tesis-BSF/tesis/Capitulos/antecedentes.tex`
 - `tesis-BSF/tesis/Capitulos/cap1_sec02_antecedentes.tex`
@@ -65,6 +68,7 @@ _(sin resumen)_
 - `tesis-BSF/texto-bioconversion/secciones/04_supuestos.tex`
 - `tesis-BSF/texto-bioconversion/secciones/05_modelo.tex`
 - `tesis-BSF/texto-bioconversion/secciones/07_mediciones.tex`
+- `tesis-BSF/texto-bioconversion/secciones/08_discusion.tex`
 - `tesis-BSF/texto-bioconversion/secciones/08_protocolo.tex`
 - `tesis-BSF/texto-bioconversion/secciones/introduccion.tex`
 

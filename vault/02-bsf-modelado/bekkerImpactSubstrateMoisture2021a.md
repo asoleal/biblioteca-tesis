@@ -29,6 +29,7 @@ _(sin resumen)_
 - `proyecto-tesis/Capitulos/marco-teorico.tex`
 - `tesis-BSF/Capitulos/cap2_sec02_sistema_experimental.tex`
 - `tesis-BSF/presentacion/presentacion-candidatura.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/Capitulos/antecedentes.tex`
 - `tesis-BSF/tesis/Capitulos/cap1_sec02_antecedentes.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec01_introduccion.tex`

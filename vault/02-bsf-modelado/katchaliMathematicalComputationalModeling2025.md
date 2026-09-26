@@ -9,7 +9,7 @@ url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292418"
 tema: 02-bsf-modelado
 tags: ["Agricultural soil science", "Crops", "Database searching", "Fertilizers", "Insects", "Machine learning", "Mathematical modeling", "Simulation and modeling"]
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 ---
 
@@ -25,7 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 
 ## Notas de lectura
 

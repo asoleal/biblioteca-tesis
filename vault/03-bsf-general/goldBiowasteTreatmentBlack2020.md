@@ -26,6 +26,7 @@ _(sin resumen)_
 ## Citado en la tesis
 
 - `tesis-BSF/articulos/articulo_1_sensor_virtual/contenido_art1.tex`
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/articulos/modelo-hibrido/hybrid_deb_rna_article.tex`
 
 ## Notas de lectura

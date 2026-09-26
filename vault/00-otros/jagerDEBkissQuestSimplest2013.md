@@ -9,7 +9,7 @@ url: "https://linkinghub.elsevier.com/retrieve/pii/S002251931300115X"
 tema: 00-otros
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 ---
 
@@ -25,7 +25,7 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura
 

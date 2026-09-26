@@ -9,7 +9,7 @@ url: "https://www.mdpi.com/1424-8220/24/17/5675"
 tema: 05-iot-sensores
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -97,7 +97,7 @@ Evaluación comparativa de tres sensores NDIR de CO2 de distintos rangos de prec
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 
 ## Notas de lectura
 

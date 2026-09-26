@@ -1,10 +1,11 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**186 notas** | con PDF: 175 | citadas en la tesis: 94
+**187 notas** | con PDF: 175 | citadas en la tesis: 105
 
 ## Por tema
 
-### 00-otros (9)
+### 00-otros (10)
+- [[00-otros/petzoldAutomaticSelectionMethods1983]] — Automatic Selection of Methods for Solving Stiff and Nonstiff Systems of Ordinar (1983)
 - [[00-otros/kooijmanEnergyBudgetsCan1986]] — Energy budgets can explain body size relations (1986)
 - [[00-otros/jcgmEvaluationMeasurementData2008]] — Evaluation of Measurement Data --- Guide to the Expression of Uncertainty in Mea (2008)
 - [[00-otros/jagerDEBkissQuestSimplest2013]] — DEBkiss or the quest for the simplest generic model of animal life history (2013)
@@ -214,6 +215,7 @@
 
 - **1980**: 1
 - **1981**: 1
+- **1983**: 1
 - **1986**: 1
 - **2000**: 1
 - **2001**: 1
