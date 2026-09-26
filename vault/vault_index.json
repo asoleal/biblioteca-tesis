@@ -3840,6 +3840,23 @@
   "path": "05-iot-sensores/zonayedMachineLearningIoT2025.md"
  },
  {
+  "citekey": "zotero-item-962",
+  "title": "MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8)",
+  "authors": [],
+  "year": "s.f.",
+  "type": "report",
+  "doi": "",
+  "url": "",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": false,
+  "citado": false,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [],
+  "path": "05-iot-sensores/zotero-item-962.md"
+ },
+ {
   "citekey": "adadiPeekingBlackBoxSurvey2018",
   "title": "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)",
   "authors": [
