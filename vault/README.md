@@ -1,6 +1,6 @@
 # Vault bibliográfico — Tesis BSF-GEI
 
-**188 notas** | con PDF: 176 | citadas en la tesis: 105
+**188 notas** | con PDF: 177 | citadas en la tesis: 106
 
 ## Por tema
 
@@ -141,7 +141,7 @@
 - [[05-iot-sensores/farooquiIOTBasedAutomated2022]] — IOT based Automated Greenhouse Using Machine Learning Approach (2022)
 - [[05-iot-sensores/quyIoTenabledSmartAgriculture2022]] — IoT-enabled smart agriculture: architecture, applications, and challenges (2022)
 - [[05-iot-sensores/youDataDrivenSelfCalibrationIoTBased2022]] — On Data-Driven Self-Calibration for IoT-Based Gas Concentration Monitoring Syste (2022)
-- [[05-iot-sensores/zotero-item-962]] — MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8) (2022)
+- [[05-iot-sensores/winsenMH410D2022]] — MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8) (2022)
 - [[05-iot-sensores/yavariArtEMonArtificialIntelligence2023]] — ArtEMon: Artificial Intelligence and Internet of Things Powered Greenhouse Gas S (2023)
 - [[05-iot-sensores/nunesRisingThreatAtmospheric2023]] — The Rising Threat of Atmospheric CO2: A Review on the Causes, Impacts, and Mitig (2023)
 - [[05-iot-sensores/rajRealTimeEstimation2023a]] — Real Time Estimation of GHG Emissions Using IoT Integrated Sensor Fusion (2023)

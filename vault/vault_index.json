@@ -3690,6 +3690,27 @@
   "path": "05-iot-sensores/vajsDevelopingRelativeHumidity2021.md"
  },
  {
+  "citekey": "winsenMH410D2022",
+  "title": "MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8)",
+  "authors": [
+   "Zhengzhou Winsen Electronics Technology"
+  ],
+  "year": "2022",
+  "type": "report",
+  "doi": "",
+  "url": "",
+  "tema": "05-iot-sensores",
+  "tags": [],
+  "pdf": true,
+  "citado": true,
+  "verificar": false,
+  "abstract": "",
+  "citado_en": [
+   "tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex"
+  ],
+  "path": "05-iot-sensores/winsenMH410D2022.md"
+ },
+ {
   "citekey": "yanMachineLearningEnhancedNDIR2025",
   "title": "Machine Learning-Enhanced NDIR Methane Sensing Solution for Robust Outdoor Continuous Monitoring Applications",
   "authors": [
