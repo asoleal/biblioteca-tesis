@@ -141,6 +141,7 @@
 - [[05-iot-sensores/farooquiIOTBasedAutomated2022]] — IOT based Automated Greenhouse Using Machine Learning Approach (2022)
 - [[05-iot-sensores/quyIoTenabledSmartAgriculture2022]] — IoT-enabled smart agriculture: architecture, applications, and challenges (2022)
 - [[05-iot-sensores/youDataDrivenSelfCalibrationIoTBased2022]] — On Data-Driven Self-Calibration for IoT-Based Gas Concentration Monitoring Syste (2022)
+- [[05-iot-sensores/zotero-item-962]] — MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8) (2022)
 - [[05-iot-sensores/yavariArtEMonArtificialIntelligence2023]] — ArtEMon: Artificial Intelligence and Internet of Things Powered Greenhouse Gas S (2023)
 - [[05-iot-sensores/nunesRisingThreatAtmospheric2023]] — The Rising Threat of Atmospheric CO2: A Review on the Causes, Impacts, and Mitig (2023)
 - [[05-iot-sensores/rajRealTimeEstimation2023a]] — Real Time Estimation of GHG Emissions Using IoT Integrated Sensor Fusion (2023)
@@ -160,7 +161,6 @@
 - [[05-iot-sensores/bertinMeasuringMethaneEmissions2026]] — Measuring Methane Emissions in Ambient Air with a Low-Cost, Portable Sensor Syst (2026)
 - [[05-iot-sensores/duTimelagCorrectionOceanic2026]] — Time-lag correction for oceanic in situ CO2 sensors using a physics-informed hyb (2026)
 - [[05-iot-sensores/herrinCollateralDataQualitya]] — Collateral Data Quality Challenges of IoT Sensor-Generated Data (s.f.)
-- [[05-iot-sensores/zotero-item-962]] — MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8) (s.f.)
 
 ### 06-ml-ia (16)
 - [[06-ml-ia/lecunDeepLearning2015]] — Deep learning (2015)
@@ -235,9 +235,9 @@
 - **2019**: 8
 - **2020**: 14
 - **2021**: 16
-- **2022**: 16
+- **2022**: 17
 - **2023**: 21
 - **2024**: 35
 - **2025**: 18
 - **2026**: 5
-- **s.f.**: 11
+- **s.f.**: 10

@@ -1,8 +1,8 @@
 ---
 citekey: zotero-item-962
 title: "MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8)"
-authors: []
-year: s.f.
+authors: ["Zhengzhou Winsen Electronics Technology"]
+year: 2022
 type: report
 doi: ""
 url: ""
@@ -15,7 +15,7 @@ origen: zotero
 
 # MH-410D NDIR Infrared CO2 Sensor (datasheet v2.8)
 
-- **Citekey:** `zotero-item-962`  - **Año:** s.f.  - **Tipo:** report
+- **Citekey:** `zotero-item-962`  - **Año:** 2022  - **Tipo:** report
 - **DOI:** —
 
 
