@@ -11,6 +11,7 @@ tags: []
 pdf: false
 citado_tesis: true
 origen: zotero
+notas_enriquecidas: true
 ---
 
 # Automatic Selection of Methods for Solving Stiff and Nonstiff Systems of Ordinary Differential Equations
