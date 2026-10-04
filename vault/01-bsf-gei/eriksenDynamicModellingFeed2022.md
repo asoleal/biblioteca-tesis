@@ -36,6 +36,8 @@ _(sin resumen)_
 - `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
 - `tesis-BSF/articulos/modelo-hibrido/hybrid_deb_rna_article.tex`
 - `tesis-BSF/presentacion/presentacion-candidatura.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/resultados.tex`
 - `tesis-BSF/tesis/Capitulos/alcance_limitaciones.tex`

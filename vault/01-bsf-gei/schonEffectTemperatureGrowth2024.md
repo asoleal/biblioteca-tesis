@@ -9,7 +9,7 @@ url: "https://brill.com/view/journals/jiff/11/6/article-p1059_8.xml"
 tema: 01-bsf-gei
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -84,7 +84,7 @@ Este estudio tuvo dos objetivos: (1) validar si un sistema de respirometría a p
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 
 ## Notas de lectura
 

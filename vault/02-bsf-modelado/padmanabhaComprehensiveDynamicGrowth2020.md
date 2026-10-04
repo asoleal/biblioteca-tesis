@@ -30,6 +30,7 @@ Larvae of Hermetia illucens, also commonly known as black soldier fly (BSF) have
 - `tesis-BSF/Capitulos/cap2_sec02_sistema_experimental.tex`
 - `tesis-BSF/articulos/modelo-hibrido/hybrid_deb_rna_article.tex`
 - `tesis-BSF/presentacion/presentacion-candidatura.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis/Capitulos/antecedentes.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec02_sistema_experimental.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec07_conclusiones.tex`

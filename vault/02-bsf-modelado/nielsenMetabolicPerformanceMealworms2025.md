@@ -26,6 +26,7 @@ Mealworms and black soldier fly (BSF) larvae are two of the most reared insects 
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
 - `tesis-BSF/tesis/Capitulos/cap3_sec02_fundamentos_deb.tex`
 - `tesis-BSF/tesis/Capitulos/cap3_sec06_parametros.tex`
 

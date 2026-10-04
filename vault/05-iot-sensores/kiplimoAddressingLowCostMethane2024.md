@@ -126,6 +126,8 @@ Este trabajo investiga el uso de *Random Forest* (RF) para calibrar sensores met
 ## Citado en la tesis
 
 - `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura

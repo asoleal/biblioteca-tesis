@@ -28,6 +28,7 @@ Alterations of the amount and quality of food consumed during ontogeny can affec
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura

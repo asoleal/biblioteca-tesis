@@ -9,7 +9,7 @@ url: "https://learning-gate.com/index.php/2576-8484/article/view/2182"
 tema: 01-bsf-gei
 tags: []
 pdf: true
-citado_tesis: false
+citado_tesis: true
 origen: zotero
 notas_enriquecidas: true
 ---
@@ -26,7 +26,7 @@ The Black Soldier Fly (BSF), scientifically known as Hermetia Illucens L., effec
 
 ## Citado en la tesis
 
-_(aún no citado)_
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 
 ## Notas de lectura
 

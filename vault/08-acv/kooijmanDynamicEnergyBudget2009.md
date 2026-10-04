@@ -26,6 +26,7 @@ The Dynamic Energy Budget theory unifies the commonalities between organisms, as
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura

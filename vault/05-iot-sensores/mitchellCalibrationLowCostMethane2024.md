@@ -90,6 +90,8 @@ Calibración de un sensor de metano de bajo costo (Figaro NGM2611-E13, basado en
 ## Citado en la tesis
 
 - `tesis-BSF/articulos/articulo_4_simulacion_sistema/contenido_art4.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 
 ## Notas de lectura

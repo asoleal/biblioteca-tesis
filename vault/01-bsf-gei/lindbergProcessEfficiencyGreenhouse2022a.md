@@ -25,6 +25,8 @@ _(sin resumen)_
 
 ## Citado en la tesis
 
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis/Capitulos/marco_bsf_estado_arte.tex`
 
 ## Notas de lectura

@@ -26,6 +26,8 @@ _(sin resumen)_
 ## Citado en la tesis
 
 - `tesis-BSF/articulos/modelo-hibrido/hybrid_deb_rna_article.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/discusion.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis/Capitulos/marco_bsf_estado_arte.tex`
 - `tesis-BSF/tesis/tasas_metabolicas_desarrollado.tex`
 

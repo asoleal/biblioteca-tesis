@@ -27,6 +27,7 @@ The research on black soldier ﬂy (BSF; Hermetia illucens L.; Diptera: Stratiom
 ## Citado en la tesis
 
 - `tesis-BSF/Capitulos/cap2_sec02_sistema_experimental.tex`
+- `tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex`
 - `tesis-BSF/tesis-bsf-articulo-estatico/secciones/metodos.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_materiales_metodos.tex`
 - `tesis-BSF/tesis/Capitulos/cap2_sec02_sistema_experimental.tex`
