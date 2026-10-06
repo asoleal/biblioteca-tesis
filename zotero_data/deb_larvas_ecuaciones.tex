@@ -1,0 +1,234 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\title{Ecuaciones del modelo Dynamic Energy Budget (DEB) \\ aplicado a larvas de insectos}
+\author{Resumen extraído de la biblioteca Zotero local}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Nota previa sobre los PDFs consultados}
+
+Se revisaron los archivos PDF de la carpeta \texttt{/home/jjlealg/Zotero}. Los únicos documentos que abordan explícitamente un modelo tipo DEB (Dynamic Energy Budget) aplicado a larvas/insectos son dos artículos sobre \textit{Hermetia illucens} (mosca soldado negra):
+
+\begin{itemize}
+    \item Padmanabha et al.\ (2020). \textit{A comprehensive dynamic growth and development model of Hermetia illucens larvae}. PLOS ONE.
+    \item Eriksen (2022). \textit{Dynamic modelling of feed assimilation, growth, lipid accumulation, and CO\textsubscript{2} production in black soldier fly larvae}. PLOS ONE (archivo \texttt{journal.pone.0276605}).
+    \item Eriksen (2024). \textit{Metabolic performance and feed efficiency of black soldier fly larvae}.
+\end{itemize}
+
+Ninguno de los PDFs encontrados implementa el DEB ``canónico'' de Kooijman con las variables exactas $E$ (reserva) y $V$ (volumen estructural). Ambos son \textbf{modelos inspirados en DEB} que particionan la biomasa en compartimentos análogos. A continuación se presenta: (i) el marco teórico estándar DEB con $E$ y $V$, y (ii) las ecuaciones extraídas de los PDFs, destacando la correspondencia conceptual.
+
+% --------------------------------------------------------------------
+\section{1. Marco teórico estándar DEB (Kooijman, 2010)}
+% --------------------------------------------------------------------
+
+En el DEB clásico, el organismo se describe mediante dos variables de estado: la energía en reserva $E(t)$ y el volumen estructural $V(t)$. Sus ecuaciones diferenciales principales son:
+
+\begin{align}
+    \frac{dE}{dt} &= p_A - p_C \label{eq:deb_E} \\[6pt]
+    \frac{dV}{dt} &= \frac{\kappa p_C - p_M}{[E_G]} \label{eq:deb_V}
+\end{align}
+
+donde la tasa de utilización $p_C$ se reparte en mantenimiento, crecimiento y maduración/reproducción:
+
+\begin{equation}
+    p_C = [p_M]V + [E_G]\frac{dV}{dt} + \frac{p_R}{\kappa}
+    \label{eq:deb_pc}
+\end{equation}
+
+Frecuentemente se escribe también la dinámica de la densidad de reserva $e=E/V$:
+
+\begin{equation}
+    \frac{de}{dt} = \frac{\{p_{Am}\}f - [p_M]e}{e + [E_G]} - e\,\frac{\kappa p_C - p_M}{V[E_G]}
+    \label{eq:deb_e}
+\end{equation}
+
+aunque la forma más usada en aplicaciones empíricas es el sistema $(E,V)$ dado por (\ref{eq:deb_E})--(\ref{eq:deb_V}).
+
+% --------------------------------------------------------------------
+\section{2. Modelo DEB-inspired de Padmanabha et al.\ (2020) para \textit{H.~illucens}}
+% --------------------------------------------------------------------
+
+Este trabajo no usa $E$ y $V$ directamente, sino que modela la \textbf{masa seca por larva} $B_{dry}(t)$ [g] y la \textbf{suma de desarrollo} $TS(t)$ [h]. Conceptualmente:
+
+\begin{itemize}
+    \item $B_{dry}$ agrupa la masa estructural y las reservas (análogo combinado de $E+V$).
+    \item $B_{eff}$ = ``asimilados no estructurales'' (análogo de la reserva $E$).
+    \item $B_{str}$ = ``masa estructural del cuerpo'' (análogo del volumen estructural $V$).
+\end{itemize}
+
+La ecuación de balance de masa general es:
+
+\begin{equation}
+    \frac{dB_{dry}}{dt} = \dot{B}_{ing}
+    - \dot{B}_{excr}
+    - \dot{B}_{assim}
+    - \dot{B}_{maint}
+    - \dot{B}_{mat}
+    - \dot{B}_{metab}
+    \label{eq:pad_balance}
+\end{equation}
+
+Definiendo los asimilados efectivos disponibles:
+
+\begin{equation}
+    \dot{B}_{eff} = (1 - k_{a,excr} - k_{a,assim})\,\dot{B}_{ing}
+    = \eta_{inges}\,k_{inges}\,B_{dry}
+    \label{eq:pad_beff}
+\end{equation}
+
+y agrupando mantenimiento y madurez en un solo flujo, el modelo dinámico queda:
+
+\begin{align}
+    \frac{dB_{dry}}{dt} &=
+    \eta_{inges}\,r_{assim}(T, TS, B_{feed}, W_{med}, A_{air})\,k_{inges}\,B_{dry}
+    - r_{mat}(T, TS, B_{feed}, A_{air})\,k_{maint}\,B_{dry}
+    \label{eq:pad_bdry} \\[6pt]
+    \frac{dTS}{dt} &= r_{dev}(T_{med}, B_{feed}, W_{med}, A_{air})\,k_{devts}
+    \label{eq:pad_ts}
+\end{align}
+
+Las funciones de regulación $r_{assim}$, $r_{mat}$ y $r_{dev}$ incorporan los efectos de temperatura ($r_T$), disponibilidad de alimento ($r_F$/$r_{Fgrw}$), humedad ($r_W$) y aireación ($r_A$). Por ejemplo:
+
+\begin{align}
+    r_{assim} &= r_{Bassim}(TS)\,
+    \frac{r_T(T_{med})}{k_{rmax,T}}\,
+    \frac{r_{Fgrw}(B_{feed})}{k_{rmax,gm}}\,
+    \frac{r_W(W_{med})}{k_{rmax,W}}\,
+    \frac{r_A(A_{air})}{k_{rmax,A}}
+    \label{eq:pad_rassim} \\[6pt]
+    r_{mat} &= r_{Bmat}(TS)\,
+    \frac{r_T(T_{med})}{k_{rmax,T}}\,
+    \frac{r_{Fgrw}(B_{feed})}{k_{rmax,gm}}\,
+    \frac{r_A(A_{air})}{k_{rmax,A}}
+    \label{eq:pad_rmat}
+\end{align}
+
+La función de etapa de alimentación $r_{Bassim}(TS)$ decrece logísticamente desde el máximo hasta cero cuando el desarrollo supera $k_{TS2}$; $r_{Bmat}(TS)$ representa la asignación a madurez y es la que produce la caída de masa observada en prepupas.
+
+% --------------------------------------------------------------------
+\section{3. Modelo compartimental tipo DEB de Eriksen (2022)}
+% --------------------------------------------------------------------
+
+Este modelo es el que Eriksen (2024) denomina ``differential energy budget model'' (Kearney, 2021) adaptado a larvas de BSF. Divide la biomasa en tres compartimentos:
+
+Este modelo divide la biomasa de la larva en tres compartimentos:
+
+\begin{itemize}
+    \item $A$ = reserva de asimilados (en estado cuasi-estacionario, análogo de $E$).
+    \item $B$ = biomasa estructural (análogo de $V$).
+    \item $L$ = lípidos de almacenamiento (reservas adicionales).
+\end{itemize}
+
+El sistema de ecuaciones diferenciales es:
+
+\begin{align}
+    \frac{dA}{dt} &= 0 = r_A - r_B - r_L - r_{CO_2,m} - r_{CO_2,B} - r_{CO_2,L}
+    \label{eq:plos_A} \\[6pt]
+    \frac{dB}{dt} &= r_B
+    \label{eq:plos_B} \\[6pt]
+    \frac{dL_{tot}}{dt} &= r_L + \delta_{L,B}\,r_B
+    \label{eq:plos_L}
+\end{align}
+
+con las siguientes tasas constitutivas:
+
+\begin{align}
+    r_A &= a\,B
+    \quad\text{(tasa de asimilación del alimento)} \label{eq:plos_rA} \\[4pt]
+    r_{CO_2,m} &= m\,B
+    \quad\text{(respiración de mantenimiento)} \label{eq:plos_rCO2m} \\[4pt]
+    r_B &=
+    \begin{cases}
+        \mu_B\,B, & I \le 6 \\[-2pt]
+        0, & I > 6
+    \end{cases}
+    \quad\text{(síntesis de biomasa estructural)} \label{eq:plos_rB} \\[4pt]
+    r_{CO_2,B} &= Y_B\,r_B
+    \quad\text{(costo respiratorio del crecimiento)} \label{eq:plos_rCO2B} \\[4pt]
+    r_L &=
+    \begin{cases}
+        \dfrac{r_A - r_B - r_{CO_2,m} - r_{CO_2,B}}{1+Y_L}, & r_L \ge 0 \\[8pt]
+        r_A - r_B - r_{CO_2,m} - r_{CO_2,B}, & r_L < 0
+    \end{cases}
+    \quad\text{(acumulación/movilización de lípidos)} \label{eq:plos_rL} \\[4pt]
+    r_{CO_2,L} &=
+    \begin{cases}
+        Y_L\,r_L, & r_L \ge 0 \\[-2pt]
+        0, & r_L < 0
+    \end{cases}
+    \quad\text{(costo respiratorio de lípidos)} \label{eq:plos_rCO2L}
+\end{align}
+
+El número de instar $I$ y la masa estructural máxima $B_{max}$ se predicen mediante ecuaciones logísticas de transición (Ec.\ 15--16 del artículo original). La tasa específica de crecimiento estructural $\mu_B$ se modela como:
+
+\begin{equation}
+    \mu_B = \frac{a-m}{1+Y_B}\left(1 - \frac{B}{B_{max}}\right)^\beta
+    \label{eq:plos_muB}
+\end{equation}
+
+lo que introduce una reducción logística de la inversión en estructura conforme la larva se acerca a su masa estructural máxima $B_{max}$, forzando el excedente de asimilados hacia el almacenamiento de lípidos.
+
+% --------------------------------------------------------------------
+\section{4. Descripción de las variables y parámetros}
+% --------------------------------------------------------------------
+
+\begin{table}[htbp]
+\centering
+\caption{Variables de estado y sus interpretaciones}
+\begin{tabular}{@{}cll@{}}
+\toprule
+\textbf{Símbolo} & \textbf{Significado} & \textbf{Equivalente DEB} \\
+\midrule
+$E$ & Energía en reserva & --- (estándar) \\
+$V$ & Volumen estructural & --- (estándar) \\
+$B_{dry}$ & Masa seca total por larva & $E+V$ (aprox.) \\
+$B_{eff}$ & Asimilados no estructurales (reserva) & $E$ \\
+$B_{str}$ & Masa estructural del cuerpo & $V$ \\
+$A$ & Pool de asimilados (estado cuasi-estacionario) & $E$ \\
+$B$ & Biomasa estructural & $V$ \\
+$L_{tot}$ & Lípidos totales medidos (almacenamiento + estructurales) & reserva adicional \\
+$TS$ & Suma de desarrollo (edad aparente) & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Principales parámetros y tasas}
+\begin{tabular}{@{}cll@{}}
+\toprule
+\textbf{Símbolo} & \textbf{Significado} & \textbf{Unidades típicas} \\
+\midrule
+$p_A$ & Tasa de asimilación & energía/time \\
+$p_C$ & Tasa de utilización total de reserva & energía/time \\
+$p_M=[p_M]V$ & Costo de mantenimiento & energía/time \\
+$[E_G]$ & Costo de crecimiento por unidad de volumen & energía/volumen \\
+$\kappa$ & Fracción de $p_C$ destinada a mantenimiento+crecimiento & adimensional \\
+$\{p_{Am}\}$ & Tasa máxima de asimilación por unidad de superficie & energía/(area$\cdot$time) \\
+$f$ & Función de alimentación (tipo Holling/Monod) & adimensional \\
+$k_{inges}$ & Tasa específica de ingestión máxima & g alimento/(g larva$\cdot$s) \\
+$\eta_{inges}$ & Eficiencia del alimento ingerido & adimensional \\
+$k_{maint}$ & Tasa específica de mantenimiento y madurez & g/(g larva$\cdot$s) \\
+$a$ / $a_{max}$ & Tasa específica de asimilación de alimento & d$^{-1}$ \\
+$m$ & Tasa específica de producción de CO$_2$ por mantenimiento & g C/(g C$\cdot$d) \\
+$Y_B$ / $Y_L$ & Costo de síntesis de biomasa/lípidos & adimensional \\
+$\delta_{L,B}$ & Fracción de lípidos en la biomasa estructural & adimensional \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% --------------------------------------------------------------------
+\section*{Observación final}
+% --------------------------------------------------------------------
+
+Ambos modelos empíricos para \textit{Hermetia illucens} conservan la filosofía del DEB (compartimentación de reservas y estructura, balance energético/másico, mantenimiento proporcional a la estructura), pero adaptan las ecuaciones a datos experimentales de masa seca y composición bioquímica. En particular, la ecuación (\ref{eq:pad_bdry}) de Padmanabha et al.\ y el sistema (\ref{eq:plos_A})--(\ref{eq:plos_L}) del artículo PLOS ONE son las formulaciones diferenciales principales extraídas directamente de los PDFs revisados.
+
+\end{document}

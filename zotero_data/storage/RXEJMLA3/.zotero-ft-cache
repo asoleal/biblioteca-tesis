@@ -1,0 +1,228 @@
+1
+1 The calibration and deployment of a low-cost methane sensor
+2 Stuart N. Riddick1,a, Denise L. Mauzerall1,2, Michael Celia1, Grant Allen3, Joseph Pitt3,b, Mary Kang4 and John C. Riddick1
+3
+4 1 Department of Civil and Environmental Engineering, Princeton University, Princeton, NJ 08544, 5 USA
+6 2 Woodrow Wilson School of Public and International Affairs, Princeton University, Princeton, 7 NJ 08544, USA
+8 3 Centre for Atmospheric Science, University of Manchester, Manchester, M13 9PL, UK
+9 4 Department of Civil Engineering and Applied Mechanics, McGill University, Montreal, H3A 10 0C3, Canada
+11 a now at The Energy Institute, Colorado State University, Fort Collins, CO 80523, USA
+12 b now at School of Marine and Atmospheric Sciences, Stony Brook University, Stony Brook, NY 13 11794, USA
+14 Correspondence
+15 Stuart N. Riddick (Stuart.Riddick@colostate.edu) and Denise L. Mauzerall 16 (mauzeral@princeton.edu)
+17 Key Words
+18 Methane; mixing ratio; measurement; inexpensive; calibration
+19 Abstract
+20 Since 1850 the atmospheric mixing ratio of methane (CH4), a potent greenhouse gas, has doubled. 21 This increase is directly linked to an escalation in emissions from anthropogenic sources. An 22 inexpensive means to identify and monitor CH4 emission sources and evaluate the efficacy of 23 mitigation strategies is essential. However, sourcing reliable, low-cost, easy-to-calibrate sensors 24 that are fit for purpose is challenging. A recent study showed that CH4 mixing ratio data from a 25 low-power, low-cost CH4 sensor (Figaro TGS2600) agreed well with CH4 mixing ratios measured 26 by a high precision sensor at mixing ratios between 1.85 ppm and 2 ppm. To investigate, as a 27 proof of concept, if this low-cost sensor could be used to measure typical ambient CH4 mixing 28 ratios, we operated a TGS2600 in conjunction with a Los Gatos Ultra-portable Greenhouse Gas 29 Analyzer (UGGA) in controlled laboratory conditions. We then explored the sensor’s long-term 30 reliability by deploying the TGS2600 near an onshore gas terminal to calculate emissions from 31 May to July 2018. Our initial studies showed that previously published linear algorithms could 32 not convert TGS2600 output to CH4 mixing ratios measured by the UGGA. However, we derived 33 a non-linear empirical relationship that could be used to reliably convert the output of a TGS2600 34 unit to CH4 mixing ratios over a range of 1.85 to 5.85 ppm that agree to a high-precision instrument 35 output to ± 0.01 ppm. Our study showed that the TGS2600 could be used to continuously measure 36 variability in CH4 mixing ratios from 1.82 to 5.40 ppm for three months downwind of the gas 37 terminal. Using a simplified Gaussian Plume approach, these mixing ratios correspond to an 38 emission flux range of 0 to 238 g CH4 s-1, with average emission of 9.6 g CH4 s-1 from the currently 39 active North Terminal and 1.6 g CH4 s-1 from the decommissioned South Terminal. Our work 40 here demonstrates the feasibility of utilizing a low-cost sensor to detect methane leakage at 41 concentrations close to ambient background levels, as long as the device is routinely calibrated
+© 2020 published by Elsevier. This manuscript is made available under the Elsevier user license https://www.elsevier.com/open-access/userlicense/1.0/
+Version of Record: https://www.sciencedirect.com/science/article/pii/S1352231020301771 Manuscript_df52d246ce43dcda584e0d609da6483f
+
+
+2
+with an accurate reference instrument. Having a widely deployed network of such low-cost CH4
+42 sensors would allow improved identification, monitoring and mitigation of a variety of CH4
+43 44 emissions.
+45 1 Introduction
+46 Methane (CH4) is a greenhouse gas that is also partially responsible for production and loss of 47 tropospheric ozone. Since 1850 atmospheric CH4 mixing ratios have increased from 715 ppb to 48 1865 ppb in 2005 (NOAA, 2019). This increase in mixing ratio is largely attributed to increased anthropogenic emissions (Turner et al., 2019). The ability to estimate the size and location of CH4
+49 50 emissions is essential for all mitigation strategies and associated policies (de Coninck et al., 2018). 51 Current greenhouse gas emission inventories are principally compiled using industry-standard or 52 recommended emission factors, which are based on measurements made at a limited number of 53 sites, combined with estimates of activity levels (BEIS, 2018). Despite their widespread use, recent studies suggest that the use of emission factors may be insufficient to describe CH4
+54 55 emissions from complex processes and direct measurements are preferable (Cerri et al., 2017; 56 Riddick et al., 2019b, 2019a; Turner et al., 2015; Yang et al., 2017). Emission estimates from 57 direct measurements are generally calculated using gas mixing ratios measured downwind of the 58 source.
+59 For CH4, current options for measuring near-ambient mixing ratios include spectroscopic 60 instruments, such as the Los Gatos UGGA or Picarro G2301 CRDS instruments which cost 61 between $50,000 and $100,000 each, or lower cost gas chromatographs costing around $10,000 62 each. These instruments are high precision (1 standard deviation < 2 ppb at 1 Hz) and have been 63 used on long-term measurements campaigns for autonomous measurements (Connors et al., 2018; 64 Riddick et al., 2018, 2017). However, power consumption demands (~260 W) mean they require 65 a continuous electricity supply for deployment longer than an hour at most and insurance 66 requirements for these expensive instruments demand locked and secure premises, which means 67 that many remote locations cannot be measured.
+68 Various government and industry/non-profit initiatives, such as the U.S. Department of Energy’s 69 MONITOR program and the Environmental Defense Fund’s Methane Detector Challenge, support 70 the research and development of new technologies to measure CH4 mixing ratios. These methods 71 range from satellite-based methods to new laser-based methods. However, current systems cost 72 between $10,000 and $20,000 and the security of the instruments during measurement campaigns 73 remain an issue. Due to the importance of CH4 emission reduction strategies (IPCC, 2018), testing 74 and deployment of low-cost CH4 measurement devices is needed. This study investigates the use 75 of very low-cost sensors (~$10) as an alternative to high-cost, high-precision instruments.
+76 One example of a low power (~0.5 W), very low-cost sensor (~$10 US dollars) is the Taguchi Gas Sensor TGS2600(Figaro Engineering Inc., Osaka, Japan) that is designed to measure ambient CH4
+77 78 mixing ratios between 1 and 100 ppm (Figaro, 2005). In 2012, Eugster and Kling (2012) reported 79 that CH4 mixing ratios calculated from output of a TGS2600 at Toolik Lake, Alaska, USA were in 80 good agreement (R2 = 0.85) with CH4 mixing ratios measured by a Los Gatos Research FMA 100 81 CH4 analyzer. However, the range of CH4 mixing ratios reported by Eugster and Kling (2012) 82 was small, between between1.85 and 2 ppm, relative to mixing ratios observed near active sources 83 of CH4.
+84 In this study, we report the findings of a measurement campaign to investigate the use of a 85 TGS2600 low-cost CH4 sensor as an alternative to a high-cost, high-precision instrument. Our
+
+
+3
+86 goal is to assess the potential of deploying such sensors in large networks to identify a variety of 87 methane leakage sources in order to improve greenhouse gas emission inventories. Our objectives 88 are to: 1) Investigate if a TGS2600 sensor output can be used to estimate realistically observed 89 CH4 mixing ratio measurements of between 2 and 10 ppm; 2) Make long term measurements of 90 CH4 mixing ratios downwind of a natural gas point source using a TGS2600 without a mains power 91 source or security measures; and 3) Estimate the emissions from a gas terminal using measured 92 ambient methane mixing ratios and meteorological data. To our knowledge this is the first time 93 that the low-cost TGS2600 sensor has been calibrated to quantify mixing ratios between 1.8 and 94 5.8 ppm and then used to calculate fugitive CH4 emissions from a natural gas point-source.
+95 2 Methods
+96 2.1 Calculating methane mixing ratios from the TGS2600 output
+97 The TGS2600 is a solid-state sensor that uses titanium dioxide (TiO2) as the sensing material. 98 When the TiO2 is heated, gases in the air adsorb to its surface and as the concentration of CH4 in 99 air increases the resistance of TiO2 decreases (Figaro, 2005). The schematic diagram showing the 100 setup of the TGS2600 in this application can be found on the TGS2600 datasheet (Figaro, 2005) 101 and in Figure 2 in Eugster and Kling (2012). The TiO2 has a resistance in clean air (R0, Ω), i.e. air 102 with ambient methane, which becomes lower in the presence of methane (Rs, Ω) and the ratio of 103 these resistances (Rs/R0) gives a measure of the CH4 mixing ratio in air. However, the resistance 104 of TiO2 is also affected by the air temperature (Ta, °C) and relative humidity (rH, %) and the ratio 105 of resistance must be corrected for these factors (Eq. 1). The uncalibrated CH4 mixing ratio 106 ([CH4]raw, ppm) can be calculated as a linear function of the corrected ratio of these resistances 107 (Rs/R0)corr following the equation of Eugster and Kling (2012) (Eq. 2).
+108 = . 0.024 + 0.0072. + 0.0246. (1)
+109 = 1.8280 + 0.0288. (2)
+110 2.3 Calibrating the TGS2600
+111 As Eugster and Kling (2012) reported, the TGS2600 does not measure CH4 well in low relative 112 humidity, i.e. < 40 %. Because of this, we could not easily calibrate the TGS2600 against cylinder 113 reference standard gases of known (certified) concentrations, as these standards are typically very 114 dry (often only a few ppm H2O). As an alternative, we calibrated the TGS2600 by running it 115 alongside a Los Gatos Research (Mountain View, CA, USA) Ultra-portable Greenhouse Gas 116 Analyzer (UGGA).We conducted three side-by-side experiments: 1. 21st to 22nd April 2018 in an 117 indoor laboratory at the University of Manchester, UK; 2. 24th June at St Michael’s Church, 118 Rampside, UK and; 3. Between the 24th August and 3rd September 2018 at University of 119 Manchester’s measurement site at Plumpton Hall Farm, Lancashire, UK. In addition to side-by120 side measurements with the UGGA, a second TGS2600 was run on the 3rd September 2018 to test 121 for differences in output between sensors from the same manufacturer.
+122 Using Equations 1 and 2, we calculated CH4 mixing ratios using TGS2600 voltage output, 123 temperature, and relative humidity data. Equation 2, the algorithm for calculating [CH4]raw, was 124 then tuned for optimum performance using the UGGA CH4 mixing ratio data as a reference. The 125 metrics for selecting the most appropriate algorithm are the gradient and R2 of the mixing ratios 126 compared to the UGGA mixing ratios and the area under the mixing ratio time series. The area
+
+
+4
+127 under the mixing ratio time series is used as a measure of mass inferred by the measurements and 128 thought to be the best metric for choosing the most appropriate algorithm because it is expected 129 that the because of the passive nature of the TGS2600 it may not to respond to changes in mixing 130 ratio exactly at the same time as the UGGA, which has air pumped through the measurement 131 cavity.
+132 2.3 Case study – Measuring CH4 emissions from a natural gas terminal
+133 2.3.1 Methane emission source
+134 The Rampside gas terminal in Barrow-in-Furness, UK was chosen as the test site for the TGS2600 135 which was set up 1.5 km downwind at St. Michael’s church. This site was chosen because of its 136 accessibility and the relatively low emissions from the gas terminal, which provided a good test of 137 the detection ability of the TGS2600. The Rampside gas terminal collects and processes natural 138 gas from platforms in Morecambe Bay (Figure 1). It has two terminals - the North Terminal and 139 the South Terminal. In 2016 the South Terminal was decommissioned and all gas produced in 140 South Morecambe Bay was re-routed to the North Terminal. Spirit Energy, which operates the 141 terminal, expected that in 2018 the North Terminal would operate more efficiently than in previous 142 years and closer to design capacity, while the shuttered South Terminal would be expected to have 143 zero emissions (R. Davidson, Spirit Energy, pers. comm.).
+144 Air from the North Terminal arrives at St Michael’s church when the wind blows from between 145 270 and 315°. During May, June and July 2018, when our measurements were made, the 146 Morcambe Bay platforms collectively produced an average of 0.49 Gg CH4-1 day-1(OGA, 2018). 147 The latest CH4 emission estimate published for the terminal was 0.68 Gg yr-1, or 0.4 % of annual 148 production, in 2015, with the largest source of emissions associated with natural gas processing 149 (DEFRA, 2019). To put the emissions from this site in context, a landfill of area 0.1 km2 emits 2 150 Gg CH4 yr-1(Riddick et al., 2017), while in 2017 larger UK gas terminals, Bacton and Easington, 151 emitted 1.6 and 1.0 Gg CH4 yr-1, respectively (BEIS, 2018).
+
+
+5
+152
+153 Figure 1 Location of the North and South Terminals at the Rampside gas terminal site in relation to the measurement location at
+154 St Michael’s Church, Rampside. Images courtesy of Google Maps.
+155 2.3.2 Deployment of TGS2600
+156 In this application, the TGS2600 was configured to give a DC voltage output corresponding to 157 CH4 mixing ratios of between 1 and 10 ppm. Sampling was controlled by an Arduino Uno 158 microcomputer (Arduino, Ivrea, Italy), which digitizes and logs the voltage output from the sensor, 159 and records the date and time, temperature, and relative humidity to a SD card at 1 minute intervals. 160 The sensor was installed in the grounds of St Michael’s Church, Rampside on 4th May 2018 (Figure 161 1) and was powered by a 35 Ah lead acid battery which had sufficient capacity to operate the 162 sampling and logging hardware for 7 days. The site was chosen because of proximity to the gas 163 terminal, low background mixing ratios, and ease of access.
+164 2.3.3 Meteorological data
+165 Meteorological data were also collected at St Michael’s Church, Rampside using a wireless 166 weather station (Maplin, UK) attached to a mast 200 m from the nearest building and 2 m above 167 the ground. The weather station was position 10 m away from the gas sensor and the location was 168 chosen to jointly ensure an obstruction free wind field and security. Meteorological data were 169 sampled and recorded at one-minute intervals and included: wind speed (u, m s-1), wind direction 170 (WD, ° to North), air temperature (Ta, K), relative humidity (RH, %), rain rate (R, mm hr-1), 171 irradiance (I, W m-2) and air pressure (P, Pa).
+172 2.3.4 Gaussian Plume Model
+173 A Gaussian plume (GP) model was used to calculate the emissions from the gas terminal. A GP 174 model describes the mixing ratio of a gas as a function of distance downwind from a point source 175 (Seinfeld and Pandis, 2016). As a gas is emitted, it is entrained in the prevailing ambient air flow 176 and disperses in the y and z directions (relative to a mean horizontal flow in the x direction) with 177 time, forming a dispersed concentration cone. The concentration of the gas (Χ, μg m-3), at any point
+
+
+6
+178 x metres downwind of the source, y metres laterally from the centre line of the plume and z metres 179 above ground level can be calculated (Eq. 3) using the source strength (Q, g s-1), the height of the 180 source (hs, m) and the Pasquill-Gifford stability class (PGSC) as a measure of air stability. The 181 standard deviation of the lateral (σy, m) and vertical (σz, m) mixing ratio distributions are calculated 182 from the Pasquill-Gifford stability class (PGSC) of the air (Pasquill, 1962; Busse and Zimmerman, 183 1973; US EPA, 1995). The GP model assumes that the vertical eddy diffusivity and wind speed 184 are constant and there is total reflection of CH4 at the surface.
+X !, #, $ = %
+&'()*)+ ,- *.
+/.0*1. ,- +23 .
+.0+ . + ,- +43 .
+185 .0+ . (3)
+186 2.3.5 Gaussian Plume model parameterization
+187 Data used as input to the GP model are filtered by wind direction and only air from the North 188 Terminal (270° to 315°) in the analysis, these include: wind speed, wind direction, temperature, 189 CH4 mixing ratio at Rampside church, background CH4 mixing ratio and the PGSC. The PGSC is 190 estimated from wind speed and irradiance data (Seinfeld and Pandis, 2016), as measured by the 191 meteorological station (Supplementary Material Section 1).
+192 2.3.6 Uncertainty in emissions
+193 We conducted an uncertainty analysis for the emissions using the GP approach. Scenarios were run in which individual input variables were changed and the resulting changes in average CH4
+194 195 emissions calculated for the entire measurement period were tracked. Individual uncertainties were 196 determined by the precision of the instrument: the TGS2600 (calculated below in Section 3.2); the 197 wind speed (the result of a ± 0.5 m s-1 measurement uncertainty); the air temperature (± 0.5 °C); 198 and the uncertainty in relative humidity (± 0.5 %). Ordinarily, we would expect there to be 199 uncertainty in assigning a PGSC value for use in the GP model. However, we found this not to be 200 the case here and we discuss this further in Section 3.5. An additional uncertainty is that the 201 TGS2600 is cross-sensitive to carbon monoxide (CO), iso-butane, ethanol, and hydrogen. 202 However, these gases are not expected to pose a significant problem of contamination at a coastal 203 site in marine inflow conditions. An overall uncertainty for the CH4 emission estimate is presented 204 as the as the root mean square deviation (RMSD) of the individual uncertainties.
+205 3 Results
+206 3.1 TGS2600 output reproducibility
+207 To test for differences in TGS2600 output between sensors from the same manufacturer, a second 208 TGS2600 (Sensor 2, Figure 2) was run next to the original TGS 2600 sensor (Sensor 2, Figure 2) 209 on the 3rd September 2018 at Plumpton Hall Farm, Lancashire, UK. Despite the resistance of the 210 two sensors having nearly identical temporal response to changes in CH4 concentrations, the 211 resistance of the original and second sensor correlate with R2 = 0.995, m = 1.015, p-value = 0, there is an offset of 1.45 kΩ between the resistance of the two sensors at the same CH4
+212 213 concentration (between 1.9 and 3.3 ppm) (Figure 2).
+
+
+7
+214
+215 Figure 2The sensor resistance from the original TGS2600 sensor (Sensor1) and a second TGS2600 (Sensor 2) run beside each
+216 other on the 3rd September 2018 at Plumpton Hall Farm, Lancashire, UK.
+217 3.2 TGS2600 calibration
+218 After the calibration periods of 21st April 2018, 24th June and between the 24th August 2018 and 219 3rd September 2018,the output data of the TGS2600were used to calculate (Rs/R0)corr using Eq. 1. 220 This (Rs/R0)corr value was then used to calculate the mixing ratio [CH4]raw (Eq. 2). The calculated 221 CH4 mixing ratios ranged from 1.85 ppm to 1.86 ppm (Red line, Figure 3) while the UGGA 222 measurements varied between 1.85 ppm and 6.0 ppm (Black line, Figure 3). This strongly 223 suggests that our sensor did not behave the same way as the sensor used by Eugster and Kling 224 (2012).
+20
+21
+22
+23
+24
+25
+26
+27
+28
+00:00
+02:00
+04:00
+06:00
+08:00
+10:00
+12:00
+14:00
+16:00
+18:00
+20:00
+22:00
+00:00
+Sensor Resistance (k5)
+Time
+Sensor 1
+Sensor 2
+
+
+8
+225
+226 Figure 3. Methane mixing ratios calculated by the TGS2600 output and the method of Eugster and Kling (2012) (Eq. 2; Red dots),
+227 TGS2600 output and a linear relationship (Eq. 4; orange dots), TGS2600 output and a non-linear relationship (Eq. 5; grey dots)
+228 and the UGGA (black dots) between the 24th August and 4th September 2018 at University of Manchester’s Site at Plumpton Hall
+229 Farm.
+230 As our setup and operation were exactly the same as Eugster and Kling (2012), we suggest there 231 could either be manufacturing differences between our TGS2600 and the sensor used by Eugster 232 and Kling (2012) or the very narrow range of CH4 mixing ratios measured by Eugster and Kling 233 (2012), 1.85 to 2 ppm, means that Eq. 2 gives a poor fit at higher mixing ratios. To better calibrate 234 the TGS2600 for a larger mixing ratio range, we calculated alternative linear and heuristically 235 derived non-linear empirical relationships for our TGS2600 sensor using data from the UGGA to 236 tune the algorithms (Figure 3; Table 1).
+237
+
+
+9
+238 Table 1 Comparison of algorithms to derive using gradient, R2 and the area under the 239 mixing ratio line in Figure 3.
+Algorithm Eq. #
+Line colour Fig. 3
+Equation to calculate m R2 Area under line
+UGGA Black 34619
+Eugster & Kling
+2 Red 1.8280 + 0.0288. 678
+79: 0.003 0.27 31537
+Linear 4 Orange −7.37 + 12.74. 678
+79
+: 1.19 0.27 43833
+Nonlinear
+5 Grey 1.8 + 0.09 ∙ exp B11.669 ∙ 678
+79: − 0.7083 C 0.57 0.23 34690
+240
+241 The gradient, m, and R2 values of the linear regression between the [CH4]raw values and the UGGA 242 mixing values (Table 1) suggests the linear relationship (Eq. 4 Table 1; orange line Figure 3) 243 generates the best fitting [CH4]raw estimates when compared to the UGGA mixing ratios. 244 However, when using the area under the mixing ratio curve as a metric, the non-linear algorithm 245 (Eq. 5 Table 1; grey line Figure 3) agrees best with the area under the UGGA mixing ratios (black 246 line Figure 3), while the linear relationship (Eq. 4 Table 1) overestimates the mass emitted by 25%. 247 This suggests that, even though the [CH4]raw mixing ratios calculated by Eq. 5 are not directly 248 comparable, (i.e. do not occur at exactly the same time as the UGGA mixing ratios), it gives the 249 best agreement when calculating the time averaged mixing ratio.
+250 Methane mixing ratios calculated using Eq. 5 were generally slightly lower than those measured 251 by the UGGA, with the mean difference between the TGS2600 and UGGA CH4 mixing ratios of 252 -0.004 ppm. Using the 95% uncertainty intervals, by comparing the UGGA CH4 mixing ratios to 253 those calculated from the TGS2600 output we report an uncertainty in CH4 mixing ratios at ± 0.01 254 ppm. The TGS2600 also took longer to respond to changes in mixing ratio than the UGGA for 255 the range of measured mixing ratios (background concentrations of about 2 ppm to 7 ppm).We 256 also found that over time the TGS2600 drifted by 0.002 ppm per day and the TGS2600 output was 257 very uncertain when relative humidity was less than 40 %.
+258
+259 3.3 Methane mixing ratios in air from the gas terminal
+260 Methane mixing ratios were calculated using TGS2600 measurements made at Rampside church 261 and calculated using Eq. 5. These calculated CH4 mixing ratios indicate enhancements can be 262 observed most of the time when the wind comes from the North Terminal (Figure 4). The largest enhancement, 5.4 ppm, was observed on the 2ndJune 2018 (grey dots; Figure 4)with the mean CH4
+263 264 mixing ratio of 2.0ppm detected over the three months. The background mixing ratio was taken as 265 the minimum mixing ratio over a rolling 24 hour period to capture intermittent enhancements from 266 other sources in the “background” measurement.
+
+
+10
+267
+268 Figure 4 Time series of 15-minute averaged CH4 concentrations measured by the TGS2600 at St Michael’s Church and calculated
+269 CH4 emissions using Eq. 5 from Rampside gas terminal, Rampside, Cumbria.
+270 3.4 Methane emissions from the gas terminal
+271 Fifteen-minute averaged CH4 emissions from the Rampside gas terminal were calculated with the 272 Gaussian plume model using measured mixing ratios and matching meteorological data (as 273 described in Section 3.3). As the location of emissions within each terminal is unknown, for the 274 purpose of this calculation we assume the mixing ratio measured by the sensor corresponds to the 275 centre of a Gaussian plume (i.e. the peak value) whenever the wind direction is between 270° and 276 315° for the North Terminal and between 225° and 270 ° for the South Terminal. For other wind 277 directions no emission rate is calculated for either terminal.
+278 Under this assumption we calculate a maximum emission from the North Terminal of 238 g s-1, 279 observed on the 13th July (black dots; Figure 4), with a mean emission from the North Terminal of 280 9.6 g s-1. This is over six times higher than the mean emission of 1.6 g s-1 calculated for the South 281 Terminal during the same period. Our results suggest that even though gas is not passing through 282 the South Terminal, residual CH4 continues to be emitted from the site.
+283 Assuming the measured mixing ratio in air that has passed over either terminal is representative of 284 the centre of a Gaussian plume is clearly a significant simplification. Emissions within each 285 terminal are likely to emanate from one or several point sources. Therefore, our calculated mean 286 emission rate will be biased low, as in reality many of our measurements will not represent the 287 central (maximum) mixing ratio within the plume. Using only a single sensor we do not have 288 enough information to constrain both spatial and temporal emission patterns. We present the 289 emission estimates above to demonstrate the potential utility of these sensors; they are not intended 290 to be considered as accurate estimates of typical emissions from this site on annual timescales.
+291 3.5 Uncertainty in emission estimates
+292 As discussed in Section 2.3.6, we would expect there to be uncertainty in assigning a PGSC when 293 using a GP model. Here we have found little uncertainty at the site as it was very windy and the
+0
+1
+2
+3
+4
+5
+6
+0
+50
+100
+150
+200
+250
+06/05
+16/05
+26/05
+05/06
+15/06
+25/06
+05/07
+15/07
+Methane mixing ratios (ppm)
+Methane Emission (g s-1)
+Emission
+Methane Concentration
+
+
+11
+294 wind from the gas terminal to the church was from the open ocean. This meant that for 75% of 295 the measurements the wind was greater than 6 m s-1, i.e. corresponding to neutral conditions 296 (Supplementary Materials Section 1), with the remaining 25% in slightly unstable conditions.
+297 We estimate that contamination by CO, iso-butane, ethanol, and hydrogen will not affect the 298 TGS2600 CH4 mixing ratio measurements, assuming the gas terminal is not the source of the 299 contamination. Any background increase in contaminant mixing ratio will result in an increase in 300 the rolling background mixing ratio which will be included when calculating the CH4 emission 301 using the GP model.
+302 Scenarios were run using the GP model to reflect variability in the TGS2600 measured CH4 mixing 303 ratio (± 0.01 ppm), air temperature, wind speed and relative humidity. Uncertainties in air 304 temperature (± 0.5 °C) affected the calculated average emission the most (± 13 %). This was 305 similar to the uncertainties in wind speed ± 9 %) and TGS2600 CH4 mixing ratio (± 8 %), while 306 the uncertainty in relative humidity (± 0.5 %) affected the average calculated emission the least (± 307 3 %). We estimate the RMSD in average CH4 emission calculated over the measurement period 308 to be ± 18 %.
+309 4 Discussion
+310 4.1 Low-cost sensor
+311 Our direct comparison of the CH4 mixing ratios measured by the TGS2600 and the UGGA indicate 312 that the TGS2600 can be used to reliably measure CH4 mixing ratios from 1.8 up to 6 ppm using 313 an empirical correction. The main drawback to the TGS2600 is that the sensor output representing 314 low CH4 mixing ratios (between 1 to 10 ppm) appears to be highly variable between sensors. 315 However, since only two sensors were tested, we cannot yet assess the typical variability for a 316 larger number of sensors. The differences between individual sensors may be due to differences in 317 manufacturing that affect Rs at low CH4 mixing ratios, and requires a high-precision instrument to 318 calibrate the sensor. The algorithm Eugster and Kling (2012) used to calculate CH4 mixing ratios 319 (Eq.2) was different from the non-linear empirical relationship used in this study (Eq. 5) and may 320 reflect significant differences in individual sensor response to changes in CH4 concentrations. This means that the TGS2600 may only be useful to those with access to high-precision CH4
+321 322 instruments. We suggest manufacturers could make these simple sensors more consistently if they 323 were looking to market the TGS2600 as an accurate “off the shelf” CH4 sensor. Without this, we 324 conclude that empirical corrections may need to be derived for individual sensors to yield 325 meaningful data.
+326 In addition to the calibration, the TGS2600 did not to respond to changes in mixing ratio exactly 327 at the same time as the UGGA. This is expected to be related to the passive nature of the TGS2600 328 sensor in contrast to the UGGA, where air is pumped through the measurement cavity. The 329 TGS2600 sensor cannot be calibrated using calibration gases as the very low humidity of these 330 gases (<40%) result in unstable output. The most accurate method for calibration was found to 331 be running the TGS2600 next to a high-precision instrument for a period of time. The TGS26000 332 was also noted to drift over time. Our measurements estimate the output varied by 0.002 ppm per 333 day indicating that calibration checks should be made frequently to ensure that any drift is 334 corrected and remains linear over time. We suggest that, for a sensor with similar output to the 335 one used in the study, calibrations every two months should be adequate to quantify any drift, i.e. 336 the drift over two months of 0.12 ppm should be observable.
+
+
+12
+337 Aside from these negatives, the TGS2600 succeeded in measuring CH4 mixing ratios, within ± 338 0.01 ppm to mixing ratios measured by the UGGA, autonomously and continuously over a period 339 of three months. The power consumption meant that it could be run for seven days from a 35 Ah 340 lead acid battery. The TGS2600 output was logged to an SD card, the CH4 mixing ratio calculated 341 by post-processing, and the CH4 emissions from a source calculated using a Gaussian Plume 342 model. These data confirm the proof of concept that individual TGS2600 sensors could be run as 343 part of a network to estimate changes in the CH4 emission landscape, however their measurements 344 are only inter-comparable and reliable if they are frequently calibrated with an high precision 345 instrument.
+346 4.2. Methane emissions from the Rampside Gas terminal
+347 The measurements made at St Michael’s Church, Rampside, 1.5 km from the source, estimated 348 the average CH4 emission from the Rampside gas North Terminal between May and August 2018 at 9.6 g CH4 s-1 with a peak emission of 238 g CH4 s-1. In addition, we measured an average CH4
+349 350 emission from the decommissioned South Terminal of 1.6 g s-1. The identification of non-zero 351 emissions from the South Terminal demonstrates the utility of direct emission monitoring using 352 continuous ground-based measurement. To give these emissions some context, the average 353 emission from the North Terminal can be used to extrapolate up to an annual estimate of 0.30 Gg 354 CH4 yr-1, which is comparable to the 2018 UK National Atmospheric Emissions Inventory (NAEI) 355 emission estimate of 0.45 Gg CH4 yr-1. The difference between our estimate and the NAEI estimate 356 is expected as the single sensor method and simple Gaussian analysis used in this study was 357 predicted to underestimate the emission.
+358 Overall, this study shows that a low-cost sensor can be used to make direct CH4 mixing ratio 359 measurements and the data collected can be used to calculate realistic CH4 emissions from an 360 onshore gas terminal. In contrast to emission factor generated values, which only estimate 361 emission from known sources, direct measurements can show temporal and geographical variability in emissions and can be used to indicate where and when unknown leakage of CH4
+362 363 occurs. Many sensors surrounding the perimeter of the site networked together could be used to 364 explicitly identify the size and location any source of leakage in almost real-time and the problem 365 could be fixed before significant CH4 is lost to the atmosphere.
+366 4.3 Implications for large low-cost sampling networks for methane
+367 Although some additional uncertainty in emission estimates may be unavoidable when low-cost 368 sensors are used, this study indicates that low-cost sensors, when properly calibrated against high369 precision instruments, can overcome many of the logistical and cost issues associated with higher370 cost, high-precision sensors and can be used to monitor emissions locally and at a distance from 371 a source. We suggest that networks of low-cost sensors could be deployed and provide a “first372 look” at local emission landscapes over a wider area and longer time period than is possible with 373 costly sensors and can be used to identify emission hot-spots that should be investigated further 374 using high-precision instruments. Such a wide deployment of low-cost sensors would facilitate 375 more realistic greenhouse gas inventories than those currently developed using emission factors 376 and activity levels that do not fully capture the actual leakage processes that may be occurring.
+377 Author contributions
+378 S. N. Riddick and D. L. Mauzerall designed the experiment. S. N. Riddick, J. C. Riddick, G. Allen 379 and J. Pitt prepared equipment, calibrated the instruments, carried out the measurements and
+
+
+13
+380 provided analysis. D. L. Mauzerall and M. Celia were the project leaders and provided scientific 381 oversight and guidance throughout the planning, implementation, collection, and data analysis 382 processes. S. N. Riddick and D. L. Mauzerall wrote the paper with help from M. Celia and M. 383 Kang and with contributions from all co-authors.
+384 Acknowledgements
+385 We would like to thanks the curators of St Michaels Church, Rampside, Jim and Brenda Webster 386 for their assistance during the measurement campaign as well as the Reverend Lucie Lunn for 387 allowing us to measure at the church. We also acknowledge funding from the National Oceanic 388 and Atmospheric Administration (Grant # AWD1004141) and Princeton University's Science, 389 Technology, and Environmental Policy (STEP) program for research support.
+390 References 391 392 BEIS, 2018. UK greenhouse gas emissions statistics [WWW Document]. GOV.UK. URL 393 https://www.gov.uk/government/collections/uk-greenhouse-gas-emissions-statistics 394 (accessed 11.26.18). 395 Busse, A.D., Zimmerman, J.R., 1973. User’s Guide for the Climatological Dispersion Model. 396 National Environmental Research Center, Office of Research and Development, U.S. 397 Environmental Protection Agency. 398 Cerri, C.E.P., You, X., Cherubin, M.R., Moreira, C.S., Raucci, G.S., Castigioni, B. de A., Alves, 399 P.A., Cerri, D.G.P., Mello, F.F. de C., Cerri, C.C., 2017. Assessing the greenhouse gas 400 emissions of Brazilian soybean biodiesel production. PLOS ONE 12, e0176948. 401 https://doi.org/10.1371/journal.pone.0176948 402 de Coninck, H., Revi, A., Babiker, M., Bertoldi, P., Buckeridge, M., Cartwright, A., Dong, W., 403 Ford, J., Fuss, S., Hourcade, J. C., Ley, D., Mechler, R., Newman, P., Revokatova, A., 404 Schultz, S., Steg, L. and Sugiyama, T., 2018. Global warming of 1.5°C: Summary for 405 policy makers. IPCC - The Intergovernmental Panel on Climate Change , p. 313-443 131 406 p. 407 Connors, S., Manning, A.J., Robinson, A.D., Riddick, S.N., Forster, G.L., Ganesan, A., Grant, 408 A., Humphrey, S., O'Doherty, S., Oram, D.E., Palmer, P.I., Skelton, R.L., Stanley, K., 409 Stavert, A., Young, D., Harris, N.R.P., 2018. Estimates of sub-national methane 410 emissions from inversion modelling. Atmospheric Chem. Phys. Discuss. 1–19. 411 https://doi.org/10.5194/acp-2018-1187 412 DEFRA, 2019. UK National Atmospheric Emissions Inventory (NAEI) Data - Defra, UK 413 [WWW Document]. URL http://naei.beis.gov.uk/data/ (accessed 8.12.19). 414 Eugster, W., Kling, G.W., 2012. Performance of a low-cost methane sensor for ambient 415 concentration measurements in preliminary studies. Atmospheric Meas. Tech. 5, 1925416 1934. https://doi.org/10.5194/amt-5-1925-2012 417 Figaro, 2005. TGS 2600 – for the detection of air contaminants, On- line product data sheet, 418 http://www.figarosensor.com/products/ 2600pdf.pdf [WWW Document]. URL 419 http://www.figarosensor.com/products/2600pdf.pdf (accessed 2.25.19). 420 IPCC, 2018. Summary for Policymakers — Global Warming of 1.5 oC. URL 421 https://www.ipcc.ch/sr15/chapter/summary-for-policy-makers/ (accessed 12.18.18). 422 NOAA, 2019. ESRL Global Monitoring Division - Global Greenhouse Gas Reference Network 423 [WWW Document]. URL https://www.esrl.noaa.gov/gmd/ccgg/trends_ch4/ (accessed 424 6.14.19).
+
+
+14
+425 OGA, 2018. UK Oil and Gas Authority [WWW Document]. URL https://data426 ogauthority.opendata.arcgis.com/pages/production (accessed 11.27.18). 427 Pasquill, F., 1975. Limitations and Prospects in the Estimation of Dispersion of Pollution on a 428 Regional Scale, in: Advances in Geophysics. Elsevier, pp. 1–13. 429 https://doi.org/10.1016/S0065-2687(08)60568-3 430 Riddick, S.N., Connors, S., Robinson, A.D., Manning, A.J., Jones, P.S.D., Lowry, D., Nisbet, E., 431 Skelton, R.L., Allen, G., Pitt, J., Harris, N.R.P., 2017. Estimating the size of a methane 432 emission point source at different scales: from local to landscape. Atmospheric Chem. 433 Phys. 17, 7839–7851. https://doi.org/10.5194/acp-17-7839-2017 434 Riddick, S.N., Hancock, B.R., Robinson, A.D., Connors, S., Davies, S., Allen, G., Pitt, J., Harris, 435 N.R.P., 2018. Development of a low-maintenance measurement approach to continuously 436 estimate methane emissions: A case study. Waste Manag. 73, 210–219. 437 https://doi.org/10.1016/j.wasman.2016.12.006 438 Riddick, S.N., Mauzerall, D.L., Celia, M., Harris, N.R.P., Allen, G., Pitt, J., Staunton-Sykes, J., 439 Forster, G.L., Kang, M., Lowry, D., Nisbet, E.G., Manning, A.J., 2019a. Methane 440 emissions from oil and gas platforms in the North Sea. Atmospheric Chem. Phys. 19, 441 9787–9796. https://doi.org/10.5194/acp-19-9787-2019 442 Riddick, S.N., Mauzerall, D.L., Celia, M.A., Kang, M., Bressler, K., Chu, C., Gum, C.D., 2019b. 443 Measuring methane emissions from abandoned and active oil and gas wells in West 444 Virginia. Sci. Total Environ. 651, 1849–1856. 445 https://doi.org/10.1016/j.scitotenv.2018.10.082 446 Seinfeld, J.H., Pandis, S.N., 2016. Atmospheric chemistry and physics: from air pollution to 447 climate change, Third edition. ed. John Wiley & Sons, Inc, Hoboken, New Jersey. 448 Turner, D.A., Williams, I.D., Kemp, S., 2015. Greenhouse gas emission factors for recycling of 449 source-segregated waste materials. Resour. Conserv. Recycl. 105, 186–197. 450 https://doi.org/10.1016/j.resconrec.2015.10.026 451 US EPA, 1995. Industrial Source Complex (ISC3) Dispersion Model, Research Triangle Park, 452 NC: U.S. Environmental Protection Agency. User’s Guide. EPA 454/B 95 003a (vol. I) 453 and EPA 454/B 95 003b (vol. II). 454 Yang, W.-B., Yuan, C.-S., Chen, W.-H., Yang, Y.-H., Hung, C.-H., 2017. Diurnal Variation of 455 Greenhouse Gas Emission from Petrochemical Wastewater Treatment Processes Using 456 In-situ Continuous Monitoring System and the Associated Effect on Emission Factor 457 Estimation. Aerosol Air Qual. Res. 17, 2608–2623. 458 https://doi.org/10.4209/aaqr.2017.08.0276 459 460
+
+
+15
+461 Supplementary Material Section 1 462 463 Estimating the stability class from wind speed and sunlight conditions (Pasquill, 1974). 464
+Stability Class Day Night Wind Speed (m s-1) Strong Mod Light Overcast Clear 2 aab 3 bbcef 4 bccde 5 ccddd 6 cdddd 465 466

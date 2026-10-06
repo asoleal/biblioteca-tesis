@@ -1,0 +1,384 @@
+Sensors & Actuators: B. Chemical 362 (2022) 131812
+Available online 6 April 2022 0925-4005/© 2022 Elsevier B.V. All rights reserved.
+Self-adaptive temperature and humidity compensation based on improved deep BP neural network for NO2 detection in complex environment
+Zhen Wang a,1, Chunyan Xie b,1, Bohao Liu b, Yadong Jiang b, Zhemin Li a,c, Huiling Tai b,*,
+Xian Li a,*
+a Agricultural Information Institute, Chinese Academy of Agricultural Sciences, Beijing 100081, China
+b State Key Laboratory of Electronic Thin Films and Integrated Devices, School of Optoelectronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 610054, China
+c Graduate School of Chinese Academy of Agricultural Sciences, Beijing 100081, China
+ARTICLE INFO
+Keywords: Gas sensor Temperature and humidity compensation Improved deep BP neural network Self-learning Self-adaptability Recognition accuracy
+ABSTRACT
+The accuracy and reliability of gas sensor are directly by temperature and humidity. In this study, an improved deep Back Propagation (BP) neural network was designed to lower the impact of environmental factors on NO2 gas sensor based on PbS nanoparticles sensitive film. The contradiction between high performance and low time complexity was usually faced by current compensation methods of gas sensor. Moreover, poor self-learning ability always resulted in more recognition errors. To solve the above problems, a 14-layer deep BP neural network model was constructed after hyperparameter searching. Stochastic Gradient Descent (SGD) algorithm with Mini-batch algorithm was adopted to well balance the model performance and the training time complexity, resulting in 76.68% performance improvement and nearly 6 times training time reduction after 1000 epochs, respectively. Softplus activation function was combined with Adam optimizer to further improve the model performance with a good recognition accuracy (1.37% relative error, corresponding to 0.0087 Mean Square Error (MSE)). The self-learning and self-adaptability of the improved deep BP neural network made it an excellent compensation method for the gas sensor applied in complex environments.
+1. Introduction
+During the process of human production and life, a large amount of NO2 emissions have caused serious nitrogen pollution problems, such as eutrophication of surface waters, accumulation of underground nitrates, and decline in biodiversity. Nitrogen pollution makes the ecological environment problems more prominent, and brings a certain threat to human health [1]. Therefore, the accuracy of NO2 detection is of great significance for monitoring and reducing nitrogen pollution [2]. However, in complex environment, the constant changes of temperature and humidity bring huge impacts on the accuracy of NO2 sensor. Establishing a temperature and humidity compensation model is an effective strategy to lower the influence of temperature and humidity and realize the accurate monitoring of gas sensor. At present, the compensation method of gas sensor has been widely adopted, such as linear regression fitting, nonlinear regression fitting, machine learning algorithm these software algorithm compensations,
+and some other hardware compensations. Linear regression fitting commonly constructed a linear model with ambient temperature and sensor response as regression variables [3,4]. When encountering non-linear data, it was prone to under fitting of data with low prediction accuracy, so it is not suitable for compensation under the joint action of temperature and humidity. Non-linear regression fitting can improve the measurement accuracy of the inductive proximity sensor and reduce the distance deviation of the ASIC chip, thereby improving the accuracy of the measurement [5]. Machine learning algorithms, such as random forest algorithm, compensated the temperature and humidity of metal oxide semiconductor (MOS) gas sensor [6]. However, the generalization capability of nonlinear regression fitting and machine learning algorithms was poor, as well as the weak learning capability, resulting in large test error [7,8]. The software compensation methods have certain applicability to sensors with different detection targets in a specific environment. In contrast, hardware compensation methods completely depend on the performance of the sensor hardware itself, leading to poor
+* Corresponding authors. E-mail addresses: taitai1980@uestc.edu.cn (H. Tai), lixian@caas.cn (X. Li).
+1 These authors contributed equally to this work.
+Contents lists available at ScienceDirect
+Sensors and Actuators: B. Chemical
+journal homepage: www.elsevier.com/locate/snb
+https://doi.org/10.1016/j.snb.2022.131812 Received 3 November 2021; Received in revised form 26 March 2022; Accepted 28 March 2022
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+2
+generalization. Based on the dependence of discharge current on gas concentration and temperature, hardware compensation made the relative error less than 5.1% for the sensor array of three triple-electrode sensors based on carbon nanotubes [9]. When the environment condition changes greatly, the hardware must be compensated again [8,10]. Infrared absorption rate was adopted as a new criterion to estimate gas concentrations of Non-Dispersive Infrared (NDIR)-CO2 sensors. However, the errors of CO2 measurement were directly affected by the absorbance of infrared light with high cost [11]. Therefore, software compensation was more suitable for gas sensors, but self-adaptation and self-learning capabilities were relatively lack for the current research, especially under the combined effect of temperature and humidity in complex environment. Back Propagation (BP) neural network is one of the most widely used neural network algorithms, which can fit any nonlinear function and has the advantages of self-adaptation and self-learning capabilities for complex and uncertain problems [12,13], resulting in strong generalization capability, which can make up for the above problems. By adjusting the weights of the hidden layers, a nonlinear relationship between input variables and output variables would be established to realize effective compensation [8,14]. BP neural network with sigmoid function made maximum relative error of the NDIR methane sensor dropped to 3.75% from the original 43% after compensation [8]. The thermal calibration of bias for Micro Electro-Mechanical gyros helped to improve 20% accuracy of the aircraft by BP neural network [15]. However, the above BP neural network models still have lots of room to improve. Only one hidden layer was usually designed, thus limiting the learning capability. Batch Gradient Descent (BGD) algorithm was adopted for iteration and weights optimization, which was easy to fall into local optimum. Besides, Sigmoid function was usually used to construct the hidden layer, while its performance in nonlinear regression tasks was not satisfying and resulted in unreliable compensation effects. Therefore, the Mean Square Error (MSE) of BP neural network can be further reduced through optimizing the above issues. In this study, NO2 gas sensor based PbS sensitive film with big and fast response was fabricated as a representative gas sensor, and the resistance response to NO2 gas at different temperature and humidity conditions were obtained. An improved deep BP neural network with 14-layer was constructed in Pytorch framework. Stochastic Gradient Descent (SGD) algorithm with Mini-batch was carried out to balance the model performance and time complexity. The activation function and optimizer were studied and optimized to improve the recognition accuracy of the model. The self-adaptation and self-learning capabilities of the improved model were analyzed and verified as well.
+2. Methodology
+2.1. NO2 sensor fabrication
+NO2 sensor based PbS sensitive film was fabricated. PbS nanoparticles were fabricated via a simple coprecipitation method: 0.331 g of lead nitrate (Pb(NO3)2, Chengdu Jinshan Chemical Reagent Co., Ltd) and 0.24 g of sodium sulfide nonahydrate (Na2S·9H2O, Kelong Chemical Reagent Company of Chengdu) were dissolved in a mixed solution containing 20 mL of ethanol and 20 mL of deionized water under vigorous stirring for 30 min. After that, the black precipitates were centrifuged at 3000 rpm for 3 min, then washed with ethanol and deionized water alternately for three times, and dried at 60 ◦C in an oven for 6 h before use. All the materials used in the experiment were analytical grade. The entire synthesis process was simple, controllable and environmental-friendly with low cost. Based on our previous work [16], the flexible polyimide (PI) substrate (thickness: ~123 μm, Egene Optoelectronic Materials Co., Ltd) with gold interdigital electrodes (IDEs) were fabricated and hydrophilicity-treated before use. 10 mg/mL of PbS-water dispersion was prepared, ultrasonic-treated, and then spin-coated onto the IDEs for
+27 times. Finally, the as-prepared device was dried at 60 ◦C in an oven.
+2.2. Measurements and data acquisition
+The gas sensing properties of the fabricated PbS based NO2 sensor were measured by a homemade dynamic test system as previous [17]. The NO2 standard gases (100 ppm, air as balance gas) and carrier gas (dry air) were supplied by Chengdu Xuyuan Chemical Co., Ltd. The sensor was placed in a chamber with gas inlet and outlet, which is exposed to NO2 gas. The concentration of NO2 gas was controlled by diluting the supplied NO2 standard gas with dry air using a mass flow controller. The bubbling method was used with mass flow controller to supply different humidity test conditions, where the relative humidity values were measured. The chamber was placed into a temperature control box calibrated by a high-accuracy thermometer (HC2-S, Rotronic Co. Ltd.), keeping the entire temperature of temperature control box became stable for 30 min before starting gas/humidity distribution system. A temperature and humidity sensor (SHT31-ARP, Sensirion, Switzerland) was placed in the chamber to calibrate the accuracy of the test environment parameters. The resistances of the sensors were recorded by a real-time multimeter resistance acquisition system (Keithley 2700), as shown as Fig. S1. The real-time response/recovery performance of this NO2 sensor to 2–10 ppm (2 ppm as a step) under different environmental conditions was obtained. The humidity was ranged from 20% to 90% RH, with 10% RH as a step. All the humidity values were set and measured under the temperature values of 10, 20, 30, 40 and 50 ◦C, respectively. The range of temperature was 10–50 ◦C, with 10 ◦C as a step, referring to the range of temperature variation in the agricultural greenhouse environment (Fig. S2). The resistance value at the maximum resistance change of the sensor was extracted, totaling 240 samples. Moreover, in order to prove the generalization ability of the model, commercial NO2 sensor (CLE
+0321–400, Honeywell) was also adopted and tested with 5 ◦C as the temperature step and the humidity continuously changed in the range of 11–80%. The maximum voltage value of the commercial NO2 sensor during the test process was extracted, as the same as maximum resistance value of the fabricated PbS based NO2 sensor, totaling 51,375 samples.
+2.3. Data standardization
+Preprocessed data can make the algorithm converge faster. Smooth optimization process, fast convergence speed and improved model accuracy would be easy to achieve during the gradient descent process after feature preprocessing. Meanwhile, data preprocessing helps the data de-dimensionalized, avoiding the influence of different dimensions on features [18]. While normalized preprocessing usually brings poor robustness because it is easily affected by outliers. In contrast, the Z-Score standardization is suitable when outliers dominate the min-max normalization process [19,20]. Sample data (including temperature, humidity and sensor resistance value) are standardized as:
+x
+′ =x μ
+σ (1)
+where x is the input sample data, μ is the mean value of the sample feature, σ is the standard deviation of the feature, x′ is the standardized sample data. All x′ forms the standardized data matrix X′ (m × 3), m is the number of the samples in training set.
+2.4. Activation function selection
+In neural networks, the nonlinear activation function can add nonlinear factors to the linear transformation [18]. A linear layer and an activation function layer together form a hidden layer. In this study, by exploring a nonlinear transformation from 3D space to 1D space and its
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+3
+optimal weights combination, a nonlinear neural network with sensor temperature and humidity compensation capability was constructed. Among the activation functions, Softplus activation function with the characteristics of unsaturation and non-linearity can effectively accelerate the convergence speed of the gradient descent algorithm, which is conducive to the continuous iteration of the gradient descent algorithm [20]. Softplus activation function is defined as:
+Softplus Zj
+i
+) = ln[1 + exp Zj
+i
+) ], i = 1, 2, 3, 4, 5, 6 (2)
+Zj
+i = X′⋅Wj
+i (3)
+where Wj
+i is the weight matrix of the i-th layer at the j-th training epoch, Wi1 is the original weight matrix and assigned randomly.
+2.5. Neural network structure design
+The complexity of neural network is determined by the number of hidden layers and the dimension of layer-to-layer transformation. The more hidden layers and neurons, the stronger the learning capability of the nonlinear regression model on the training set [14]. A 14-layer network model structure was optimized to construct after hyperparameter searching by Neural Network Intelligence (NNI) tool, as shown in Fig. 1 (Table S1). In this structure, three neurons (temperature, humidity and NO2 sensor resistance response) were set as the input layers. There were five hidden layers, each of which was connected to a Softplus activation layer for output. ReLu activation function (Eq. 4) was adopted as the final activation layer before the output layer, producing the predicted concentration of NO2.
+ReLu Zj
+6
+)=
+{
+0, Zj
+6 <0 Zj
+6, Zj
+6 ≥0
+}
+(4)
+where Zj
+6 is output of the sixth linear layer. ReLu activation function can map the predicted negative values to 0, thus improving the recognition accuracy of the neural network [18].
+2.6. Optimizer selection
+SGD algorithm was chosen to update the weights of the model. MSE indicator usually reflected the training effects. Mini-batch strategy was adopted to balance the computational performance and time complexity of SGD algorithm. The training set was divided into several minibatches. The MSE (cost) with Mini-batch algorithm at the j-th epoch is defined as:
+costj
+mini = 1
+batch_size( ̂Y Y)2 (5)
+where ̂Y and Y are batch_size × 1 matrixes of the output and actual concentration of NO2, respectively. The weight matrix of SGD is updated
+as:
+Wj+1
+i = Wj
+i α ∂costj
+mini
+∂Wj
+i
+(6)
+where α is the learning rate and set as 0.01, controlling the learning speed and convergence step [7]. The bias vector was included in Wj
+i by default. Due to the deep layers, multiple parameters and large variance of the network model, over fitting is easy to occur. L2 parameter regularization was adopted to prevent over fitting and reduce the generalization error of the test set, and MSE is adjusted as:
+L2
+j
+mini = costj
+mini + λ
+2
+∑
+i
+∑
+ξ
+∑
+η
+[ Wj
+i(ξ,η)
+]2
+, λ > 0 (7)
+where λ is penalty rate and λ
+2
+∑
+i
+∑
+ξ
+∑
+η
+[
+Wj
+i(ξ,η)
+]2 is penalty
+term, ∑
+ξ
+∑
+η
+[
+Wj
+i(ξ,η)
+]2 represents the sum of all weight coefficients in Wj
+i
+matrix. By adding a penalty term to costmini function, the weight was attenuated and the generalization error of the model was reduced during the process of training. Therefore, the generalization ability of the model in the test set could be improved, thus avoiding the over-fitting phenomenon. Because of the constant learning rate of SGD algorithm, the update direction of the model parameters was completely dependent on the calculated gradient, leading to local optimum, finally affecting the compensation results [21]. Therefore, Adam optimizer was adopted to help SGD algorithm speed up the training process and avoid gradient explosion or falling into local minimum [22–24]. Due to the advantages of high computational efficiency and low memory requirements, Adam optimizer can dynamically adjust the learning rate of each weight by calculating the exponential weighted average of the gradient by the biased first moment estimate of gradient (mj) and the biased second raw moment estimate (vj), which are:
+mj = β1mj 1 + (1 β1) ∂L2
+j mini
+∂Wj
+i
+(8)
+vj = β2vj 1 + (1 β2)
+(∂L2
+j mini
+∂Wj
+i
+)2
+(9)
+where β1 and β2 denote exponential decay rates of mj and vj, respec
+tively. ∂L2 j
+mini ∂Wj
+i is the gradient of L2
+j
+mini to Wj
+6 and calculated by
+chain derivative rule as Eqs. (10–13). The gradient of L2
+j
+mini to Wj
+5 is updated as Eqs. (S1–S3). The gradient calculation methods of L2
+j mini
+to Wj
+4, Wj
+3, Wj
+2, Wj
+1 are the similar.
+Fig. 1. Deep BP neural network model structure with 14-layer.
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+4
+∂L2
+j mini
+∂Wj
+6
+= ∂ ̂Yj
+6
+∂Wj
+6
+⋅∂ ̂Yj
+∂ ̂Yj
+6
+⋅∂L2
+j
+mini
+∂ ̂Yj (10)
+∂L2
+j mini
+∂ ̂Yj = 2
+m
+̂Yj (11)
+∂ ̂Yj
+∂ ̂Yj
+6
+= ReLu′ ̂Yj
+6
+) (12)
+∂ ̂Yj
+6
+∂Wj
+6
+= ̂Yj
+5
+)T
+⋅Softplus′ ̂Yj
+5 Wj
+6
+) (13)
+At the first epoch, m1 and v1 were 0, causing a deviation. So mjandvj are further bias-corrected as:
+̂mj = mj
+1 βj
+1
+(14)
+̂vj = vj
+1 βj
+2
+(15)
+Fig. 2. The resistance response of PbS based NO2 sensors to 0–10 ppm NO2 at 20–90% RH under the temperature of (a) 10 ◦C, (b) 20 ◦C, (c) 30 ◦C, (d) 40 ◦C and (e) 50 ◦C, (f) the temperature’s influence on the NO2-sensing resistance under 20–90% RH, taking the response to 2 ppm NO2 as example.
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+5
+and finally the weight for the (j + 1)-th epoch is updated as:
+Wj+1
+i = Wj
+i
+̅ ̂v̅jα
+√ + ε̂mj (16)
+where α is the total learning rate and ε is automatically controlled by Pytorch to avoid zero denominator. Model training and data pre-processing were realized by Python 3.8, scikit-learn 0.23.2 and Pytorch 1.7.1. The CPU environment is Intel Core i5– 10400F 2.90 GHz, the GPU environment is NVIDIA GeForce GTX 3070, and the memory is 16 GB RAM.
+3. Results and discussions
+3.1. The resistance response of NO2 sensor and data standardization
+The resistance response performances of PbS based NO2 sensor under different temperature and humidity conditions were obtained, and the resistance value at the maximum resistance change sensor was extracted, totaling 240 samples (Fig. 2). The fabricated sensor exhibited high response and fast speed to NO2, which can fully meet the needs of agricultural gas detection. PbS is a typical p-type semiconductor material. The oxygen molecules adsorbed on the surface of PbS cause electrons transfer, and further interacts with NO2 molecule, finally resulting in an obvious decrease in resistance of PbS [25–27]. Fig. 2a–e depict the resistance response changes of NO2 sensor with the increasing concentration of NO2 sensor at 20–90% RH under different temperature, respectively. It could be seen that the resistance approximately linear growth with the increasing humidity, when exposed in dry air, excepting at the temperature of 30 and 50 ◦C. At 30 ◦C condition, the resistance at 90% RH decreased a little compared with 80% RH. While at 50 ◦C, the resistance expressed irregular changes. Totally, with the increasing concentration of NO2, the resistance of the sensor changes more widely. However, the magnitudes of the resistance change were irregular. Fig. 2f showed the influence of temperature on the resistance response to 2 ppm NO2 at 20–90% RH. It seemed that temperature had a more dramatic effect on sensor performance compared to humidity, and showed a non-linear change tendency. For example, at 50 ◦C condition, the resistance response at 70% and 50% RH were higher than that at 80% RH, indicating the complexity of the environment’s impact on sensor performances. The commercial NO2 sensor had the similar phenomenon, especially at high humidity condition (Fig. S3). Therefore, the temperature and humidity compensation algorithm should have self-learning and adaptive capabilities, thus to guarantee the accuracy of sensor response performances under the influence of complex environments. Data standardization was carried out firstly as Eq. (1). After standardization, the mean values of temperature, humidity and sensor resistance response were 0, and the standard deviations were 1. A batch with a capacity of 16 was randomly selected and shown in Table 1. After that, 225 samples were randomly selected as the training set, accounting for 93.75% of the total data set. The rest 15 samples were the development set automatically.
+3.2. SGD algorithm with Mini-batch to balance the model performance and time complexity
+The training set (X′) was divided into several mini-batches (X′
+mini )
+firstly. Iteration is the number of divided mini-batches. One epoch is a round of training, including feedforward, feedback and weights updating. The data set was re-shuffled to improve the randomness of the samples during training and the robustness of the model, which can been demonstrated in Fig. 3. 38 Iterations with batch_size of 6 samples were obtained randomly by the batch_size property of Dataloader class of Pytorch framework, excepting the last mini-batch contained 3 samples. MSE and training time of SGD algorithm with Mini-batch algorithm
+were illustrated in Fig. 4, comparing with BGD and SGD without Minibatch. With the epoch increasing, MSE of SGD with Mini-batch quickly declined and gradually reached to about 1.104 after 1000 training epochs. And MSE of SGD algorithm was close to that of SGD with Mini-batch. By contrast, the MSE of BGD was high and finally approached to about 5.092, indicating 76.68% MSE improvement compared with SGD algorithm. The insert of Fig. 4 depicts the linear change tendency of training time with the increasing epoch. Compared with BGD, the training time of SGD with Mini-batch only increased a little. While SGD without Mini-batch was the most time-consuming. The adoption of Mini-batch helped SGD algorithm save 6 times of the training time. MSE of BGD with total training samples was defined as
+costBGD = 1
+m( ̂Y Y)2 (17)
+where ̂Y and Y are m × 1 matrix. The MSE of BGD algorithm was calculated from all the training samples, which can maximize the advantage of vector parallel computing to improve the training speed. However, the algorithm was difficult to continue to iterate once the saddle point problems occurred, causing large MSE result. Because the MSE of SGD algorithm was calculated from only one sample (Eq. S4), the gradient of SGD algorithm has good randomness, which can help the MSE stride over the saddle point in the iterative process. But it cannot take the advantages of parallel computing of CPU or GPU, resulting in high time complexity and long training time in the optimization process. Therefore, SGD algorithm with Mini-batch achieved a good balance between model performance and training time complexity, and accelerated the training speed on the basis of ensuring model performance. Synchronously, the calculation diagram of the improved deep BP neural network model and the back propagation process were depicted in Fig. 5. The training set (X′
+mini) entered the model from the input layer, multiplying with the weight matrix of the first linear layer (Wj
+1) through Matrix Multiplication (MM) module. The multiplied result (Zj
+1) was input to Softplus activation function to get the output of the first activation layer ( ̂Yj
+1), which was also the input of the second linear layer. According to this calculation method, the output of the sixth activation layer ( ̂Yj
+6) was produced to ReLu activation function and obtained the
+predicted concentration ( ̂Yj), which was the output of the neural
+network. The predicted ( ̂Yj) and actual concentration matrix (Y) were operated by MSE function and L2 parameter regularization, finally getting the corrected MSE (L2
+j
+mini). The above process was feedforward. After that, BP algorithm worked to calculate the gradient values and the calculation process became feedback. The weight matrixes (Wj
+i)
+Table 1
+Data standardization (take a random batch with capacity of 16 as example).
+Standardized temperature (◦C)
+Standardized humidity (% RH)
+Standardized resistance response (Ω)
+NO2 concentration (ppm)
+-1.41421 -0.21822 -0.31978 0 -1.41421 -1.09109 -0.41469 2 -1.41421 0.65465 -0.37427 2 -0.70711 -0.21822 -0.26737 0 -1.41421 0.65465 -0.42252 8 -1.41421 -0.65465 -0.42972 8 -1.41421 -1.09109 -0.4331 10 -1.41421 1.52753 -0.42135 10 0 0.21822 -0.40924 8 0 0.65465 -0.38023 8 0.70711 -1.52753 0.26524 0 0.70711 -0.65465 -0.24217 2 0.70711 -1.09109 -0.33264 4 -1.41421 1.52753 -0.22163 0 1.41421 -0.21822 1.05068 2 1.41421 0.65465 4.79385 0
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+6
+of linear layers were updated reversely. Firstly, Wj
+6 was updated from the L2
+j
+mini by Adam optimizer to Wj+1
+6 . The weight matrixes (Wj+1
+5, Wj+1
+4 , ..., Wj+1
+1 ) were updated in turn by the similar method. So the j-th epoch has been finished completely and the weight matrixes for the (j + 1)-th epoch have been prepared. In Pytorch framework, BP algorithm can be implemented automatically by calling the backward function of costj
+mini object [28].
+3.3. Softplus activation and Adam optimizer combined to reduce MSE
+Activation function and optimizer directly determine the recognition accuracy of model. The training effect of different activation functions combined with different optimizers were studied and compared, as shown in Fig. 6. In order to prevent the curves from fluctuating greatly, Exponential Weighted Average (EWA) algorithm was chosen to draw the
+MSE decline curves of training set and development set. Suppose cj is the MSE value at the j-th training epoch, and after EWA algorithm it is executed as
+c
+′
+0 = c0
+c
+′
+j = βcj + (1 β)c′
+j 1 (18)
+where β (0 < β < 1) is weight rate. The smaller the β, the more obvious the effect of EWA, and the smoother the obtained curve. In this work, β was optimized to 0.8 by the comparison of the characteristic effect. When there was no activation function used, the neural network structure had only six linear layers, which can be transformed into a single linear layer through the expansion and merging of matrix expressions, and the model became a typical linear network model [18]. Because the resistance response of NO2 sensor was nonlinear, just
+Fig. 3. Random shuffle of training set by Mini-batch algorithm (*Iterations=⌈Sample number of training set/batch-size⌉).
+Fig. 4. SGD algorithm with Mini-batch achieved the balance effect of training time (insert) and MSE indicator.
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+7
+increasing the number of linear layers cannot meet the requirements of fitting nonlinear transformation. Fig. 6a depicts a MSE descent curves of the linear neural network. It can be seen that the MSE of the development set rose rapidly with the increase of training epochs, reaching to 8.604 at the 361th epoch of training, and oscillated violently around it. And the predicted recognition errors of the model were exceptionally large (Fig. 6b), suggesting invalid compensation. Sigmoid activation function was applied and shown in Fig. 6c and d, respectively. When the epochs were more than 478, the MSE of the development set was about 27.1333, meaning the disappeared gradient. From the prediction result we can see that, no matter what the actual concentration of NO2 was, its output concentration was always 1 ppm. Sigmoid function (Eq. 19) is saturated, which is monotonically bounded and has a limit.
+Sigmoid(Z) = 1
+1 + e Z (19)
+where Z is the input of Sigmoid function. The output of Sigmoid function changed extraordinarily little when Z→0, thereby resulting in gradient disappearance [29,30]. In addition, this function mapped the output value of linear layer from real number space to bounded interval (0, 1), limiting the range of output value of hidden layer [13]. So Sigmoid function was only suitable for logistic regression dealing with binary classification problems, otherwise would greatly increase the training cost of the model and was not conducive to the continuous iteration of BP algorithm. Softplus activation function was chosen to solve the above problems, as shown in Fig. 6e–h. For SGD optimizer, MSE curves of the training set and the development set decreased in oscillation with the increasing epochs. After 25,000 training epochs, the minimum MSE reached to 0.0357, and the prediction result was significantly better than the above two methods. While Adam optimizer was adopted to combine with Softplus activation function, the MSE was 0.0087 after 21,586 training
+epochs, which was the minimum among the four methods, indicating that Adam optimizer can improve the global optimization ability of the compensation algorithm. The minimum MSE of the four combinations of activation functions and optimizers were compared in Table 2, which clearly seen the advantage of Softplus activation function combined with Adam optimizer on MSE. The compensation results of this improved deep BP neural network were shown in Table 3. The predicted concentrations of NO2 were remarkably close to the actual concentrations. And the relative error was less than 1.37%, which is defined as (predicted concentration–actual concentration)/actual concentration* 100%. The recognition accuracy of this model structure with optimization algorithms under the same temperature or humidity conditions were studied as well. The samples at 40 ◦C or 50% RH were chosen as the development set, respectively. For the training set with constant humidity conditions, MSE reached to about 0.0164 after 40,146 epochs, with a relative error of less than 2.07% (Fig. S4a, S4b and Table S2). For the training set with constant temperature conditions, after 21,026 times of training, MSE was about 0.0110, with a relative error of less than 1.45% (Fig. S4c, S4d and Table S3). The lack of randomness, as well as the reduced training set, mainly resulted in increased MSE. But the high recognition accuracies were still kept. In the actual agricultural environment, temperature and humidity change constantly, so this designed model can well ensure the gas sensor to achieve high accuracy. The recognition ability of the model was further verified through the obtained sampling data from the commercial NO2 sensor (taking 20 ◦C,
+35 ◦C, 40 ◦C and 45 ◦C as example). The proportion of training test set was increased to 20%, which further avoided the phenomenon of over fitting. The batch-size was set to 68. After 1214 epochs, MSE was about 0.0101, with a relative error of less than 1.42% (Fig. S5a, S5b and Table S4). The increased MSE was mainly attributed to the lack of obvious changing pattern of voltage especially at high humidity [31], as well as the huge amount of data for the test set [32]. However, because of the huge development set, the number of training rounds was greatly reduced, and the speed of convergence to the global optimum was significantly increased, compared with PbS based NO2 sensor. Although the MSE was a little increased, the model showed high recognition accuracy, proving the excellent generalization ability again, whether applied for the fabricated chemical sensors or commercial electrochemical sensors. This excellent generalization ability of this improved BP neural network was derived from its strong self-learning and self-adaptability. In particular, the model can accurately predict the NO2 concentration under any temperature and humidity condition, showing the good environmental adaptability. The compensation performance of the improved deep BP neural network was compared with the existing reports, as shown in Table 4. Our constructed model obtained the smallest relative error among the existing methods.
+4. Conclusion
+An improved deep BP neural network with low MSE and relative error was developed to enhance the accuracy of NO2 sensor applied in complex temperature and humidity environments. Totally 240 sample data were acquired by the fabricated PbS nanoparticles based NO2 sensor under different conditions. A 14-layer deep BP neural network model was constructed, and two strategies were proposed to obtain the low MSE and high accuracy of the model. First, SGD algorithm with Mini-batch was chosen to balance the model performance and the training time complexity. Mini-batch algorithm can take the advantages of the parallel computing ability of the CPU or GPU and the optimization ability of the SGD algorithm simultaneously, thereby accelerating the training speed on the basis of ensuring the training performance. Second, Softplus activation function combined with Adam optimizer was selected to reduce the MSE and obtain accurate recognized results of NO2 concentrations. Based on the synergy of the unsaturation of Softplus function and the high computational efficiency of Adam optimizer, the
+Fig. 5. Computational graph of the improved deep BP neural network model.
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+8
+recognition accuracy of the model was achieved with 1.37% relative error (corresponding to 0.0087 MSE), which was far below the current level reported in the literature. Even if the test sample under a constant
+humidity or temperature was used as the training set, the algorithm still had a good MSE effect, and this was further proved by the commercial NO2 sensor. The excellent performance of the model was mainly due to the self-learning ability and self-adaptability of improved deep BP neural network compensation algorithm, as well as adequate training data. Combing with hardware implementation and software algorithms of sensor devices, it may provide effective technical solutions for the development and application of gas sensors with high accuracy in complex environments. It should be noted that: (1) According to the temperature background of agricultural greenhouse (~15–45 ◦C), we only investigated the gas sensing characteristics and compensation algorithm of the sensor at 10–50 ◦C. (2) During the preparation, the drying temperature of the PbS nanoparticles/NO2 sensor is 60 ◦C, and whether the PbS NO2 sensor can
+withstand the working environment above 60 ◦C remains to be further explored. Therefore, it is necessary to further explore a wider working temperature and promote the development of gas sensors in other fields
+Fig. 6. Comparison of MSE descent curves of the model with (a) Adam optimizer, (c) Adam optimizer with Sigmoid activation function, (e) SGD optimizer with Softplus activation function and (g) Adam optimizer with Softplus activation function, (b)(d)(f)(h) were the predicted outputs respectively.
+Table 2
+MSE comparisons of the differnet combination of activation function and optimizer.
+Activation function Types of neural network
+Optimizer Minimum MSE
+Without activation function
+Linear Adam optimizer
+8.6041
+Sigmoid activation function
+Non-linear Adam optimizer
+27.1333
+Softplus activation function
+Non-linear SGD optimizer 0.0357
+Softplus activation function
+Non-linear Adam optimizer
+0.0087
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+9
+(such as industry). In addition, it is necessary to investigate the high temperature gas sensing characteristics of the PbS NO2 sensor in order to broaden its application fields.
+CrediT authorship contribution statement
+Zhen Wang: Conceptualization, Methodology, Software, Writing original draft. Chunyan Xie: Data curation, Writing – original draft. Bohao Liu: Investigation. Yadong Jiang: Supervision. Zhemin Li: Supervision. Huiling Tai: Writing – review & editing. Xian Li: Project administration, Writing – review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+This research was supported by National Natural Science Foundation of China (No. U19A2070) and the Innovation Project of Chinese Academy of Agricultural Sciences (No. CAAS-ASTIP-2016-AII-02).
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the online version at doi:10.1016/j.snb.2022.131812.
+References
+[1] D.R. Kanter, Nitrogen pollution: a key building block for addressing climate change, Clim. Change 147 (2018) 11–21, https://doi.org/10.1007/s10584-0172126-6. [2] D. Wang, D. Zhang, J. Guo, Y. Hu, Y. Yang, T. Sun, H. Zhang, X. Liu, Multifunctional poly(vinyl alcohol)/Ag nanofibers-based triboelectric nanogenerator for self-powered MXene/tungsten oxide nanohybrid NO2 gas sensor, Nano Energy 89 (2018), 106410, https://doi.org/10.1016/j.nanoen.2021.106410. [3] M.Z. Abidin, A. Asmat, M.N. Hamidon, Comparative study of drift compensation methods for environmental gas sensors, IOP Conf. Ser. Earth Environ. Sci. 117 (2018), 012031, https://doi.org/10.1088/1755-1315/117/1/012031. [4] S. Yi, Temperature compensation methods of nondispersive infrared CO2 gas sensor with dual ellipsoidal optical waveguide, Sens Mater. 29 (2017) 243–252, https:// doi.org/10.18494/SAM.2017.1439. [5] L. Wang, Li, H. Tao, H. Dong, Z. Shao, F. Wang, A non-linear temperature compensation model for improving the measurement accuracy of an inductive proximity sensor and its application-specific integrated circuit implementation, Sensors 20 (2010) 5010, https://doi.org/10.3390/s20175010. [6] P. Xu, K. Song, X. Xia, Y. Chen, Q. Wang, G. Wei, Temperature and humidity compensation for MOS gas sensor based on randomforests, Intelligent Computing, Networked Control, and their Engineering Applications, 762 (2017) 135–145, 〈http ://doi.org/10.1007/978-981-10-6373-2_14〉. [7] R. Zhang, Y. Duan, Y. Zhao, X. He, Temperature compensation of Elasto-MagnetoElectric (EME) sensors in cable force monitoring using BP neural network, Sensors 18 (2018) 2176, https://doi.org/10.3390/s18072176. [8] H. Wang, W. Zhang, L. You, G. Yuan, Y. Zhao, Z. Jiang, Back propagation neural network model for temperature and humidity compensation of a non dispersive infrared methane sensor, Instrum. Sci. Technol. 41 (2013) 608–618, https://doi. org/10.1080/10739149.2013.816965. [9] Z. Cheng, Y. Zhang, W. Muhammad, Y. Hao, Y. Tang, L. Sun, D. Wang, J. Zhou, R. Wang, Y. Deng, Y. Li, L. Geng, H. Wen, Temperature compensation with highlyintegrated ionization sensor array used in simultaneous detection of mixed gase, IEEE Trans. Ind. Electron. 69 (2021) 911–920, https://doi.org/10.1109/ TIE.2021.3055188. [10] S. Nakagomi, T. Sai, Y. Kokubun, Hydrogen gas sensor with self temperature compensation based on β-Ga2O3 thin film, Sens. Actuators B Chem. 187 (2013) 413–419, https://doi.org/10.1016/j.snb.2013.01.020. [11] J.-H. Kim, H.-G. Park, S.-H. Yi, IR absorbance as a criterion for temperature compensation in nondispersive infrared gas sensor, Proceedings 2 (2018) 775, https://doi.org/10.3390/proceedings2130775. [12] M. Jahn, Artificial neural network regression models in a panel setting: predicting economic growth, Econ. Model. 91 (2020) 148–154, https://doi.org/10.1016/j. econmod.2020.06.008. [13] D. Zhang, J. Liu, C. Jiang, A. Liu, B. Xia, Quantitative detection of formaldehyde and ammonia gas via metal oxide-modified graphene-based sensor array
+Table 3
+Compensation results of the improved deep BP neural network model.
+Test samples Temperature (◦C) Humidity (% RH) Resistance response (Ω) Standard NO2 concentration (ppm) Predicted NO2 concentration (ppm)
+1 40 40 1,583,213.13 8 8.0978 2 40 80 6,403,714.5 4 4.068 3 20 70 4,306,676 0 0.001154 4 40 30 1,974,458.38 4 4.015 5 30 20 4,535,120.5 0 0.0004703 6 30 50 513,367.562 10 9.927 7 10 30 400,252.406 6 5.937 8 30 30 558,108.125 6 6.185 9 20 40 406,982.094 6 6.155 10 30 40 6,151,969.5 0 0.00113 11 50 90 11,138,500 10 10.006 12 10 50 2,194,809.25 0 0.018 13 20 40 481,358.875 4 4.219
+14 40 30 16,593,600 0 2.04 × 10 13 15 40 70 42,767,500 0 0.0227
+Table 4
+Performance comparisons of the improved BP neural network in this work with the reported methods.
+Method Analyte Object Relative error
+MSE Ref
+General equation model
+CO2 Temperature 1.544% — [4]
+Random forest CO Temperature and humidity
+3.72% — [6]
+BP neural network
+CH4 Temperature and humidity
+3.75% — [8]
+Hardware compensation
+H2, C2H2 Temperature <5.1% — [9]
+Hardware compensation
+CO2 Temperature ±3.6% — [11]
+Calibration curve model
+NO2 Humidity 26.15% — [16]
+Polynomial regression
+NO2 Humidity 2.7% — [33]
+Target domain adaptation extreme learning machine
+Multi-gas (E-Nose Systems)
+First-order/ second-order drift
+<1.5% — [34]
+Artificial neural network
+CH3OH Temperature and humidity
+<3% — [35]
+Heuristic random forests
+C2H4O First-order/ second-order drift
+11.24% — [36]
+Direct standardization
+C2H5OH, C2H4, CO, CH4
+Temperature and humidity
+4% — [37]
+Improved deep BP neural network
+NO2 Temperature and humidity
+<1.37% 0.0087 This work
+Z. Wang et al.
+
+
+Sensors and Actuators: B. Chemical 362 (2022) 131812
+10
+combining with neural network model, Sens. Actuators B Chem. 240 (2017) 55–65, https://doi.org/10.1016/j.snb.2016.08.085. [14] I. Goodfellow, Y. Bengio, A. Courville, Y. Bengio, Deep Learning, Cambridge, 2016. [15] R. Fontanella, D. Accardo, R.S.L. Moriello, L. Angrisani, D. De Simone, MEMS gyros temperature calibration through artificial neural networks, Sens. Actuators A Phys. 279 (2018) 553–565, https://doi.org/10.1016/j.sna.2018.04.008. [16] S. Wang, Y. Jiang, B. Liu, Z. Duan, H. Pan, Z. Yuan, G. Xie, J. Wang, Z. Fang, H. Tai, Ultrathin Nb2CTx nanosheets-supported polyaniline nanocomposite: Enabling ultrasensitive NH3 detection, Sens. Actuators B Chem. 343 (2021), 130069, https://doi.org/10.1016/j.snb.2021.130069. [17] Y. Zhang, J. Zhang, Y. Jiang, Z. Duan, B. Liu, Q. Zhao, S. Wang, Z. Yuan, H. Tai, Ultrasensitive flexible NH3 gas sensor based on polyaniline/SrGe4O9 nanocomposite with ppt-level detection ability at room temperature, Sens. Actuators B Chem. 319 (2020), 128293, https://doi.org/10.1016/j. snb.2020.128293. [18] A. Ge ́ron. Hands-on Machine Learning with Scikit-Learn Keras, and Tensor Flow: Concepts, Tools, and Techniques to Build Intelligent Systems, O’Reilly Media, 2019. [19] H.S. Obaid, S.A. Dheyab, S.S. Sabry, The impact of data pre-processing techniques and dimensionality reduction on the accuracy of machine learning, in: Proceedings of the Ninth Annual Information Technology, Electromechanical Engineering and Microelectronics Conference, (2019) 279–283. 〈http://doi.org/10.1109/IEME CONX.2019.8877011〉. [20] K. Sun, J. Yu, L. Zhang, Z. Dong, A convolutional neural network model based on improved Softplus activation function, Int. Conf. Appl. Tech. Cyber Secur. Intell. (2019) 1326–1335, https://doi.org/10.1007/978-3-030-25128-4. [21] E. Dogo, O. Afolabi, N. Nwulu, B. Twala, C. Aigbavboa, A comparative analysis of gradient descent-based optimization algorithms on convolutional neural networks, in: Proceedings of the International Conference on Computational Techniques, Electronicsand Mechanical Systems (2018) 92–99. 〈http://doi.org/10.1109 /CTEMS.2018.8769211〉. [22] D. Yi, J. Ahn, S. Ji, An effective optimization method for machine learning based on ADAM, Appl. Sci. 10 (2020) 1073, https://doi.org/10.3390/app10031073. [23] I.K.M. Jais, A.R. Ismail, S.Q. Nisa, Adam optimization algorithm for wide and deep neural network, Knowl. Eng. Data Sci. 2 (2019) 41–46, https://doi.org/10.17977/ um017v2i12019p41-46. [24] Z. Zhang, Improved adam optimizer for deep neuralnetworks, in: Proceedings of the IEEE/ACM Twenty Sixth International Symposium on Quality of Service (2018) 1-2. 〈https://doi.org/10.1109/IWQoS.2018.8624183〉. [25] D. Wang, D. Zhang, Y. Yang, Q. Mi, J. Zhang, L. Yu, Multifunctional latex/ polytetrafluoroethylene-based triboelectric nanogenerator for self-powered organlike MXene/metal-organic framework-derived CuO nanohybrid ammonia sensor, ACS Nano 15 (2021) 2911–2919, https://doi.org/10.1021/acsnano.0c09015. [26] Y. Zhang, Y. Jiang, Z. Duan, Q. Huang, Y. Wu, B. Liu, Q. Zhao, S. Wang, Z. Yuan, H. Tai, Highly sensitive and selective NO2 sensor of alkalized V2CTx MXene driven by interlayer swelling, Sens. Actuators B Chem. 344 (2021), 130150, https://doi. org/10.1016/j.snb.2021.130150. [27] Z. Yuan, Q. Zhao, C. Xie, J. Liang, X. Duan, Z. Duan, S. Li, Y. Jiang, H. Tai, Goldloaded tellurium nanobelts gas sensor for ppt-level NO2 detection at room temperature, Sens. Actuators B Chem. 355 (2022), 131300, https://doi.org/ 10.1016/j.snb.2021.131300. [28] V. Subramanian, Deep Learning with PyTorch: a Practical Approach to Building Neural Network Models Using PyTorch, Packt Publishing Ltd, 2018. [29] L. Sophie, Approximating smooth functions by deep neural networks with sigmoid activation function, J. Multivar. Anal. 182 (2021), 104696, https://doi.org/ 10.1016/j.jmva.2020.104696. [30] Q. Zheng, D. Tan, F. Wang, Improved convolutional neural network based on fast exponentially linear unit activation function, IEEE Access 7 (2019) 151359–151367, https://doi.org/10.1109/ACCESS.2019.2948112. [31] S. Chaudhury, T.J.I.A. Yamasaki, Robustness of adaptive neural network optimization under training noise, IEEE Access 9 (2021) 37039–37053, https:// doi.org/10.1109/ACCESS.2021.3062990. [32] X. Zhu, C. Vondrick, C.C. Fowlkes, D.J.I.Jo.C.V. Ramanan, Do we need more training data, Int. J. Comput. Vis. 119 (2016) 76–92, https://doi.org/10.1007/ s11263-015-0812-2.
+[33] S. Ghosh, A. Ghosh, N. Kodavali, C.S. Prajapati, N. Bhat, A baseline correction model for humidity and temperature compensation WO3 film based sensor for NO2 detection, IEEE Sens. (2019) 1–4, https://doi.org/10.1109/ SENSORS43011.2019.8956920. [34] Z. Ma, G. Luo, K. Qin, N. Wang, W. Niu, Weighted domain transfer extreme learning machine and its online version for gas sensor drift compensation in E-nose systems, Wirel. Commun. Mob. Comput. 2018 (2018) 1–17, https://doi.org/ 10.1155/2018/2308237. [35] F. Hossein-Babaei, V. Ghafarinia, Compensation for the drift-like terms caused by environmental fluctuations in the responses of chemoresistive gas sensors, Sens. Actuators B Chem. 143 (2010) 641–648, https://doi.org/10.1016/j. snb.2009.10.006. [36] A. ur Rehman, A. Bermak, Heuristic random forests (HRF) for drift compensation in electronic nose applications, IEEE Sens. J. 19 (2018) 1443–1453, https://doi.org/ 10.1109/JSEN.2018.2881745. [37] J. Fonollosa, L. Fernandez, A. Gutie ́rrez-G ́alvez, R. Huerta, S. Marco, Calibration transfer and drift counteraction in chemical sensor arrays using direct standardization, Sens. Actuators B Chem. 236 (2016) 1044–1053, https://doi.org/ 10.1016/j.snb.2016.05.089.
+Zhen Wang received his B.S. degree (2020) in applied physics from North China University of Science and Technology. He is studying for a master’s degree at Chinese Academy of Agricultural Sciences (CAAS). His current research interests include intelligent algorithm of agricultural sensors and its agricultural applications.
+Chunyan Xie received her Bachelor’s degree at Yangtze University in 2019. Now, she is studying for her master’s degree at University of Electronic Science and Technology of China (UESTC). Her research interests focus on gas sensors, organic electronic materials and devices.
+Bohao Liu received his B.S. degree from University of Electronic Science and Technology (UESTC) in 2017. He is studying for his Ph.D. degree in Optoelectronic Science and Engineering at UESTC. His research interests include sensing functional materials and gas sensors.
+Yadong Jiang graduated from Department of Material Science & Engineering at University of Electronic Science and Technology of China (UESTC) with a BSc degree in 1986. Then he got his M.S. and Ph.D. degrees in Materials Physics and Chemistry in 1989 and 2001, respectively, He is a professor and dean of School of Optoelectronic Science and Engineering at UESTC. His major research interests include optoelectronic material and devices, sensitive materials and sensors.
+Zhemin Li received her B.S. degree (1992) in agricultural meteorology science from China Agricultural University. She got her M.S. degree (2003) and Ph.D. degree (2007) in agricultural economy management from Chinese Academy of Agricultural Sciences (CAAS). At present, she is a research fellow in Agricultural Information Institute, CAAS. Her major research interests include agricultural information analysis and technology promotion.
+Huiling Tai received her Ph.D. degree in optical engineering from University of Electronic Science and Technology of China (UESTC) in 2009. Currently she is the professor of School of Optoelectronic Science and Engineering at UESTC. Her major interests are polymer and its composite for gas sensor application.
+Xian Li received her B.S. degree (2006) in computer science and technology from Chengdu University of Technology, and Ph.D. degree (2013) in optical engineering from University of Electronic Science and Technology of China. She worked in Tsinghua University as a Post doctor from 2013 to 2016. At present, she is an assistant research fellow in Agricultural Information Institute, Chinese Academy of Agricultural Sciences. Her major research interests include nanomaterials, novel gas sensors and their applications.
+Z. Wang et al.

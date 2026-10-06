@@ -1,0 +1,12 @@
+{
+ "itemID": "113",
+ "primer_autor": "M. Raissi",
+ "año": "2019",
+ "titulo": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+ "DOI": "10.1016/j.jcp.2018.10.045",
+ "estado": "no_conseguido",
+ "fuente": "openalex",
+ "url_pdf": "https://www.osti.gov/biblio/1595805",
+ "archivo_local": "",
+ "motivo_fallo": "error_descarga"
+}

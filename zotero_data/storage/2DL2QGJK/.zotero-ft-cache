@@ -1,0 +1,381 @@
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+Available online 25 May 2024 2213-1388/© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Original article
+Conversion of protein-rich waste into biodiesel by Hermetia illucens: Enhanced energy recovery and reduced greenhouse gas emissions
+Mahdy Elsayed a,b,*, Jing Wang a, Huijun Wang a, Zhihui Zhou a, Ahmed I. Osman c,
+Adel W. Almutairi d, Shah Faisal a, Abdelfatah Abomohra e
+a Environmental Engineering Department, School of Architecture and Civil Engineering, Chengdu University, Chengdu 610106, China
+b Agricultural Engineering Department, Cairo University, 12613 Giza, Egypt
+c School of Chemistry and Chemical Engineering, Queen’s University Belfast, Belfast BT9 5AG, Northern Ireland, United Kingdom
+d Biological Sciences Department, Faculty of Science & Arts, King Abdulaziz University, Rabigh, Saudi Arabia
+e Institute of Plant Science and Microbiology, University of Hamburg, 22609 Hamburg, Germany
+ARTICLE INFO
+Keywords:
+Black soldier fly Protein-rich waste Low-carbon economy Sustainability Circular economy
+ABSTRACT
+The increased global demand for animal-based products results in generation of larger volume of protein-rich waste (PRW). Developing novel methods for efficient and eco-friendly conversion of these wastes is of great importance. The present study suggests a novel approach using black soldier fly larvae (BSFL) to recycle PRW treated with dietary acetic acid, which potentially reduces the NH3, N2O, and CH4 emissions. Compared to the control, applying 2 % dietary acetic acid significantly increased the larval biomass yield and areal biomass productivity by 24.4 % and 26.3 %, respectively. The study exhibited superior biodiesel characteristics with improved cetane numbers (60.08–61.17). The suggested route estimated reduction of the global warming potential (GWP) to 2.67 g CO2-eq per kg dry larval biomass. There was a synergistic effect of dietary acetic acid to achieve a well-balanced diet for BSFL growth and NH3 recycling while reducing greenhouse gases (GHGs) emissions, thereby enhancing the achievement of cleaner biodiesel production from PRW. Overall, this study provides insight into BSFL as a potential organism for efficient recycling of PRW from industrial animal byproducts for enhanced biodiesel recovery and reduced GHGs emissions, which could support the low-carbon economy and sustainability objectives.
+Introduction
+Demand for agrarian products (crops and livestock) is increasing rapidly due to the growing global population and the high cost of agricultural inputs. The inability of the majority of developing nations to meet their food requirements poses a threat to the security of energy, food, and feed; with raised environmental concerns of waste generation [1]. With a projected 10-billion-person population increase by 2050, food security will be jeopardized unless global food production is increased by at least 60 % above 2006 levels [2]. In this context, there has been 40 % increase in the animal meat consumption during the past ten years due to the growing global population [3]. The global meat production was estimated by 253 million tons in 2020; this included 57.7 million tons of beef, 95.8 million tons of pork, and 99.4 million tons of poultry [3]. This intensive dairy and meat products result in a lot of
+byproducts and the death of many animals due to several factors like spread of diseases and infections, which lead to huge amount of meat is wasted between the farm and the plate. According to a report by Luckmann [4], more than 200 million animals die every year in France without being used as meat and 50 million male chicks are lost each year directly after they hatch, while about 200,000 male dairy calves die in Germany because they would produce too little meat. In 2018, China lost between 150 and 200 million pigs because of the African swine fever, a fatal infectious and lethal disease [5]. The outcome of this situation leads to a substantial rise in the accumulation of protein-rich waste (PRW). The wasted PRW from dead animals or animal byproducts is a highrisk material because it is a major source of disease transmission, release of greenhouse gases (GHGs) and ammonia (NH3), as well as waste resources [6]. Consequently, it is imperative to establish effective and
+* Corresponding author at: New Energy and Environmental Laboratory (NEEL), School of Architecture and Civil Engineering, Chengdu University, Chengdu 610106, China. E-mail address: mahdy.mahdy@agr.cu.edu.eg (M. Elsayed).
+Contents lists available at ScienceDirect
+Sustainable Energy Technologies and Assessments
+journal homepage: www.elsevier.com/locate/seta
+https://doi.org/10.1016/j.seta.2024.103825 Received 25 February 2024; Received in revised form 21 May 2024; Accepted 22 May 2024
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+2
+sustainable management practices to mitigate the adverse impacts associated with the huge PRW. Among the newly techniques for disposing of PRW, the rendering is attractive technology applied for nonedible slaughterhouses by products such as bones, internal organs, and other meat wastes that are subjected to high-pressure and hightemperature during rendering process, typically 180 ◦C and 5 bars for 30 min to produce meat and bone meal (MBM) [6]. However, by feeding cows recycled MBM, mad cow disease or bovine spongiform encephalopathy can be transmitted [7]. In consequence, MBM is no longer permitted as a ruminant feed in the majority of the world’s nations. Due to its high nutrient content, MBM can also be utilized as a crop fertilizer or soil conditioner to promote plant growth [8]. However, this option cannot avoid losing a substantial quantity of valuable C and N. The lost nutrients will be dissolved into the water system or released into the atmosphere (as GHGs or ammonia). Application of this technique resulted in the loss of more than 70–74 % of the total original nitrogen, primarily as NH3 (9.6–46 % of the total nitrogen lost) emissions [9]. The loss of nutrients, transmission of pathogens, and/or resultant pollution require alternative sustainable and safe routes for using PRW/MBM, which should meet hygiene standards. The use of saprophagous insects for waste management coupled with biodiesel and/or protein feed production has attracted increasing attention in recent years [10,11]. Insect biomass has the potential to become a key component of a sustainable, circular agricultural production system by closing carbon and nutrient cycles, promoting food supply, and mitigating the climate crisis and biodiversity loss [12]. In addition, insect-based conversion of agri-biowaste, including waste protein, is an excellent recycling route and a holistic solution due to its fewer negative environmental impacts including less emissions of NH3 and GHGs, with relatively small carbon footprint in providing sustainable protein feed, lipids, and other nutrient supplements [13]. This approach meets the circular economy principles that paves the way for achieving many Sustainable Development Goals (SDGs) [14]. Among these insects, black soldier fly larvae (Hermetia illucens L., Stratiomyidae, Diptera) (BSFL) have been employed in an efficient recycling biotechnology by being fed various decaying organic materials [15,16]. In comparison to other insects, such as yellow mealworms or houseflies, BSFL can efficiently convert organic waste materials due to the high appetite and population density, as well as the potential to simultaneously suppress the bacteria in the substrate to minimize odor production [17]. As BSFL contains 30 %–46 % protein [18] and 20 %43 % fat [19], it has been considered an alternative source for numerous bioproducts. Despite BSFL has been considered a viable method for managing and even recycling wide range of organic waste, the high nitrogen content in PRW results in significant ammonia emissions, accounting for ~9–40 % of the total nitrogen losses during BSFL biotransformation [20], which further affects the conversion process and has negative environmental impacts. Recent studies showed that GHGs and NH3 emissions during BSFL biotransformation can be controlled by several factors, including moisture content, feeding mode, pH, and temperature [21,22]. Addition of organic acids, including acetic acid, is among the most effective strategies to control and reduce the emissions of nitrogencontaining gases due to its inherent properties and prevalence in nature as an attractive additive to be used as urease inhibitor, it has been utilized to develop a natural, non-toxic method for mitigating NH3 and CH4 emissions, as well as odor from livestock waste [23]. In addition, it was recently discovered that acetic acid-containing dietary supplements improve metabolic homeostasis and larval growth in fruit flies fed on an extremely nutrient-deficient diet [24]. A recent study by Pang et al. [22] applied short-chain fatty acids (SCFAs) (acetic acid and butyric acid) to BSFL diet consisting of pig manure with a corncob and confirmed that SCFAs could improve the larval biomass and their lipids content. In addition, Popa and Green [25] examined the impact of SCFAs on BSFL growth in a fluid phase (leachate), and reported that larvae could regulate the pH to a level within 2.5–9.0.
+In terms of biofuels, biodiesel is discussed as a promising substitute for petroleum-based diesel because it can be made from a variety of lipid-rich biomass (waste), including terrestrial oil-crops, microalgae, animal fats, and waste cooking oil [26,27]. Alternative feedstocks have also been considered as potential sources of biodiesel, including BSFL [28]. It has the special advantages of being non-hazardous producing fewer undesirable emissions, being biodegradable, and having the potential to achieve global circular economy and carbon neutrality [29]. The main reason why biodiesel is the greatest substitute for petroleumbased diesel is because its fundamental qualities are comparable to those of diesel fuel. The creation of biodiesel from different types of biowaste by BSFL, however, has been touted as a viable way to resolve the food vs. fuel debate. Due to higher productivity of BSFL biomass, it is a promising platform organism for biowaste recycling into biodiesel production in line with microalgae and oleaginous yeast. Due to the fact that BSFL lipid production does not interfere with the food supply chain, they exhibit substantial potential as a promising and sustainable feedstock source for biodiesel production [30]. Considering the facts mentioned above, the inclusion of dietary acetic acid in the process of bioconversion by BSFL when using PRW can effectively capture ammonium, which reduces NH3 and GHGs emissions. Additionally, this practice could enhance the overall biological performance of BSFL and improve the efficiency of waste conversion. Consequently, it opens up opportunities for the establishment of novel circular supply chains that facilitate the recovery and recycling of nitrogen. So far, there is no existing research or investigation that specifically examined the impact of incorporating SCFAs, i.e. dietary acetic acid, during the process of PRW biotransformation by BSFL, and its impact on biodiesel recovery, GHGs/NH3 emissions. Accordingly, this study aimed to investigate the supplementation of various doses of acetic acid (0–4.0 %, w/w) into BSFL-based bioconversion to effectively recycle PRW for biodiesel production. The effect of dietary acetic acid on larval development and nutrient accumulation was estimated. In addition, the impact of dietary acetic acid on BSFL frass quality was examined by scanning electron microscope (SEM), Fourier-transform infrared spectroscopy (FTIR), and fluorescence spectroscopy analysis. The emission of NH3 and GHGs during BSFL growth was evaluated at optimal doses of acetic acid. Moreover, the BSFL biodiesel characteristics were evaluated at different acetic acid doses comparing to other feedstocks. This study aims to establish a dual-purpose solution by utilizing eco-friendly insect biotransformation to recycle PRW for biodiesel production, while simultaneously mitigating the emissions of GHGs and NH3.
+Materials and methods
+BSFL and raw materials
+The PRW was provided as bovine powder of MBM by Qingdao national trade Co. LTD, China. Coarse wheat bran (WB) was obtained from a farm-owned wheat processing plant in Chengdu City, China. The characteristics of MBM and WB were measured and are presented in Table S1 (Supplementary data). The BSF eggs were obtained from Yunnan insect farm Co LTD, China, and hatched as described previously [28]. The BSFL rearing experiment was conducted at the New Energy and Environmental Laboratory (NEEL), Chengdu University, China as described in the following section.
+Experimental design
+About 120 g dry matter of the experimental substrate was prepared by mixing 50 g of MBM and 70 g of WB to reach a C/N ratio of 15 % to achieve a balanced diet as reported previously [31]. Batch BSFL rearing was conducted in a cylindrical glass reactor 12 × 18 cm (d/h) by introducing 300 BSFL (7-days-old, average 5.1 mg/larva) into the feed mixture at 70 % humidity and 25 ◦C [32]. In accordance with the initial investigations, different concentrations of dietary acetic acid [0.0
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+3
+(control), 1 %, 2 %, 3 %, and 4 %, w/w] were dissolved in water and mixed with the substrate in order to adjust the final moisture at 70 % [33]. At one-day intervals, each run’s average fresh weight of 20 larvae was recorded, and then the larvae were transferred back into a relevant glass jar. Once 10 % of the prepupa appeared in each replicate (i.e., changing the color of larva from creamy white to dark brown), the experiment was terminated, and the larvae were collected, cleaned, and counted. For deactivation, BSFL were exposed to heat at 100 ◦C for 10 min. In addition, larvae were dried in the oven at 60 ◦C until constant weight to determine the dry weight, then the biomass was used for the next analysis. Larval biomass gain rate was determined based on the rate of
+daily increase of the BSFL total dry weight (g larva 1 d 1), while areal
+larval biomass productivity (ALP) was determined per unit area (g m 2
+d–1). Further, BSFL performance criteria were assessed using BSFL conversion rate (BCR, %), diet conversion efficiency (DCE), protein conversion rate (PCR), and dry mass reduction (DMR) using Eqs. (1)–(5)
+as described previously [33];
+ALP = LBG
+A × T (1)
+BCR = LBG
+Mi
+× 100 (2)
+DCE = LBG
+MCf
+× 100 (3)
+PCR = LBG × larval protein (%)
+MCf × diet protein (%) × 100 (4)
+DMR = Mi Mf
+Mi
+× 100 (5)
+where A and T represent the rearing area (m2) and conversion time (days), respectively. LBG, Mi, MCf, and Mf represent the dry larval biomass gain (g), the total dry mass of feed (g), the mass of the converted feed (g), and the final dry mass of frass (g).
+Analytical procedures
+Proximate and chemical analyses of MBM and WB including volatile solids (VS), total solids (TS), and ash contents were conducted following the ASTM E870-82 standard methods. The pH was measured after mixing 3 g of the substrate in 15 mL deionized water, followed by keeping it at room temperature for 1 h. Elements including C and N were measured on a dry weight basis using an element analyzer (Elementar Unicube, Germany). Total carbohydrates and proteins in the BSFL biomass were estimated using phenol–sulfuric acid method [34] and the Bradford method [35], respectively. Total lipids were extracted using Soxhlet apparatus by immersing 2 g of BSFL dry biomass in 250 mL of petroleum ether for 12 h, then the solvent was evaporated at 60 ◦C and the total lipid content was calculated gravimetrically per dry weight as described previously [28]. FTIR within the spectra range 4000–500
+cm 1 (Nicolet Avatar 330, Thermo Electron Corporation, USA) was used to investigate the changes in the functional groups of molecules, while SEM (JSM 6700F, JEOL, UK) was applied to examine the micromorphological modifications of the substrates at the chosen ratios. After separating the larvae from the rearing medium, the frass samples were taken for drying at 70 ◦C till constant weight. The dried frass samples were taped up on dual-sided tape, placed on aluminium stubs, and a thin layer of gold (15 nm for 10 min) was sputtered on the mounted sample to limit electron modifying effects and increase sample conductivity to enhance SEM images quality. Samples that had been extracted for dissolved organic matter (DOM) were mixed with ultrapure water in a ratio of 1:10 (w/v, dry weight), shaken for 24 h at 25 ◦C, and then centrifuged for 20 min at 10,000 rpm. After centrifugation, the filtrates’ organic carbon content was measured using an automated TOC analyzer (Shimadzu TOC-V), then ultrapure water was used to dilute to
+10 mg L–1. Using a fluorescence spectrophotometer (F-7000, Hitachi, Japan), the diluted solutions were used to analyze the excitationemission matrix (EEM) fluorescence spectroscopy.
+Determination of GHGs and NH3 emissions
+Major emissions of GHGs (CO2, CH4, N2O) and NH3 were measured every day using the enclosed static flux technique from BSFL reactors. Gas samples were taken from the headspace of each glass reactor by inserting a 10-μL gastight syringe two times (20 and 45 min) after sealing all the reactors. GHGs concentrations were detected by GC-2200 (Yunbo instruments, China) equipped with thermal conductivity detector and 2 m TDX-01 column, the temperature was adjusted at 150 ◦C, 100 ◦C and 150 ◦C for injector, oven, and detector, respectively⋅ NH3 gas samples were measured by LH-2000-NH3 detector with an accuracy of
+Fig. 1. Influence of different acetic acid doses on A) larval fresh weight, dry weight, and survival rate (LSR); B) larval biomass gain rate, areal productivity; and C) the main biochemical composition of BSFL. The same series with the same letter showed insignificant differences at P ≤ 0.05.
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+4
+0.01 ppm (Qingdao Protection Equipment Co., Ltd, China). The emis
+sions flux rate in mg kg 1 dry matter day 1 was calculated using Eq. (6);
+Emissions flux rate = ρ × V × (dc
+dt) × 273(273 + T)/M (6)
+where: ρ represents gas density in standard state (CO2 1.977 g L–1, N2O
+1.978 g L–1, CH4 0.717 g L–1, NH3 0.769 g L–1); V: effective headspace volume (L); dc/dt: the change rate in gas concentration (ppm) during time interval dt in days. M: the initial dry mass of the feed material (kg); and T: the gas temperature at the time of sampling (◦C).
+Fatty acid analysis and biodiesel characteristics
+By employing KOH/methanol, the fatty acids in the lipid extracts were transesterified [36]. Fatty acid profile was analyzed by GC/MS at the conditions described in the previous study [33]. The key biodiesel characteristics, including unsaturation degree, specific gravity, cloud point, kinematic viscosity, cetane number, iodine value, and higher heating value were determined based on the fatty acid profile [37,38].
+Statistical analysis
+SPSS software was utilized to perform statistical analysis of the experimental data. One-way ANOVA was used to examine the effects of acetic acid on the physicochemical properties of the substrate and gas emissions. The significance level for all statistical analyses was set at 0.05.
+Results and discussion
+Growth performance
+Nutritional balance in the culture medium was reported to have a major impact on BSFL development and bioconversion rate [32]. The results of the current study showed that the growth curves of BSFL are significantly affected by the addition of acetic acid at various doses (Fig. S1, Supplementary data). Larvae developed rapidly by increasing the acetic acid dose initially, reaching the highest weight of 158.5 mg
+larva–1 on the 9th day using 2 % acetic acid, which was 17.3 % higher than the control. However, further increase in acetic acid dosage caused reduction of the fresh weight, reaching the lowest recorded value of
+126.7 mg larva–1 at 4 % acetic acid. Therefore, 2 % acetic acid showed the highest recorded biomass yield gaining of 45.9 g and 14.7 g fresh and dry weight, respectively (Fig. 1A). Application of acetic acid to the substrate greatly impacted the survival rate of BSFL as well. Larval survival rate (LSR) is used as a key parameter for substrate feeding quality, where the highest LSR of 97 % was recorded at 2 % acetic acid, which was 3.2 % higher than the control (Fig. 1A). It has been found that BSFL survival rate and final larval productivity are significantly influenced by the feeding conditions and chemical composition of the applied diet. Gao et al. [39] reported that the survival rate of BSFL reared on wheat brane or fermented maize straw was 93 %. Barragan-Fonseca et al. [41] recorded BSFL survival rates ranged from 87.1 % to 98.1 % when it was fed on three levels of dietary nutrients (chicken feed). The relatively high LSR recorded in the present study confirms the positive impact of acetic acid added to PRW for enhanced larval growth. As a result of the enhanced larval growth at 2 % acetic acid, it demonstrated the highest larval biomass gain rate and areal larval
+biomass productivity of 5.61 mg larva–1 d–1 and 162.3 g m 2 d–1, which were 24.40 % and 26.31 %, respectively, higher than the control (Fig. 1B). Thus, acetic acid treatments up to 2 % might work as a buffer solution which enhances larval activity to consume proteinaceous substrates, leading to the increase of larval growth. In addition, it was reported that adding acetic acid can enhance fiber decomposition and nutrient availability during larval conversion (as discussed later). On the
+other hand, previous studies showed that BSFL is capable of surviving and developing on diets within a wide range of pH values (pH = 3–10) [35,36]. It was noticed that in batch-rearing mode, the growth of BSFL improved and was heavier under slightly acidic conditions (i.e. pH = 5). Similarly, Kim et al. [44] reported that the performance of Drosophila larvae was improved by adding acetic acid to its diet. They suggested that acetic acid has a positive function in promoting gut microbial diversity and larval development. The gut microbiota of an organism plays a crucial role in various aspects of its physiology, including protein digestion, nutrient absorption, and immune system regulation [45]. An increase in microbial diversity is often associated with a healthier gut environment, which can enhance the overall insect performance [46]. In addition, several studies revealed that organic acids including acetic acid can regulate the gut physicochemical condition, feeding behavior, immune deficiency innate immune pathway, lipid metabolism, insulin signaling, and larval development in model insects such as Drosophila and honeybees [47,48]. Adding acetic acid was reported to alter the culture structure and biofunctions of gut microflora and facilitates the nutrient availability for larval growth. However, further increase in acetic acid dose to 4 % in the present study resulted in suppression of BSFL growth. This could be due to the biotoxicity of the culture medium at high acetic acid levels, partially inhibiting the BSFL conversion. This finding is consistent with the study of Pang et al. [22] who reported that
+doses more than 20 g L-1 of acetic acid and 6 g L-1 of butyric acid in BSFL diet result in biotoxicity of the feeding medium due to inhibition of digestion and BSFL growth.
+BSFL performance and waste reduction
+Table 1 shows the performance criteria of BSFL grown on the mixed MBM and wheat bran supplemented with different doses of acetic acid. Overall, these findings support the hypothesis that acetic acid addition can improve substrate diet decomposition and larval conversion efficiency. An earlier study using fresh chicken manure [28] showed a minimum 14-day conversion time, compared to a shorter time in the current study. This implies that the substrate consisting of mixed MBM and wheat bran is more suitable for larval feeding. pH is one of the most important variables that affect the BSFL biotransformation by influencing the gut microorganisms and process performance. In addition, the initial pH effects can promote beneficial bacteria, improving the survival rate, larval development, and larval biomass acquired [21,43].
+Table 1
+Performance criteria of BSFL reared on mixed meat and bone meal (MBM) and wheat bran supplemented with different doses of acetic acid.
+Parameters Doses of acetic acid (%, w/w)
+0.0 (Control)
+1% 2% 3% 4%
+Initial pH 7.1 ± 0.1 a 5.6 ±
+0.1c 5.0 ± 0.1b 4.3 ± 0.2d 3.7 ±
+0.1e Final pH 8.9 ± 0.23
+a 7.2 ±
+0.2c 6.9 ± 0.2b 6.5 ± 0.1b 6.1 ±
+0.20b Residual
+(g)a 75.1 ± 1.6a 71.3 ±
+0.9b 69.2 ±
+0.70b 73.5 ±
+0.1c 76.2 ±
+0.4a
+DMR (%) 37.4 ± 1.3a 40.6 ±
+0.8b 42.4 ±
+0.6c 38.8 ±
+0.7b 36.5 ±
+0.4a
+DCE (%) 25.3 ± 0.8a 27.7 ±
+0.3b 28.4 ±
+0.2b 26.2 ±
+0.5ab 23.8 ±
+0.6c
+BCR (%) 9.4 ± 0.3a 11.2 ±
+0.2b 12.0 ±
+0.2b 10.1 ±
+0.06ab 8.67 ±
+0.2a
+PCR (%) 30.5 ± 1.6a 34.7 ±
+1.3b 36.2 ±
+0.8c 32.8 ±
+0.8a 27.6 ±
+1.3d
+Average values with the identical alphabet in the same raw showed not statistically significant (at P ≤ 0.05).
+a Initial feed amount was 120 g substrate. DMR feed dry mass reduction, DCE diet conversion efficiency; BCR biomass conversion rate; and PCR protein conversion rate.
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+5
+An increase in pH often occurs during BSFL biotransformation, which is due to the biological conversion of N-containing organic compounds into ammonia, leading to a rapid increase in the pH of larval residues. At the end of bioconversion, the final pH value in the control was 8.93, which may be due to ammonia produced during conversion which increased the pH in larval residues (Table 1). However, the lowest significant pH values were recorded at 2 % to 4 % acetic acid doses, which were 23.1 % and 31.7 %, respectively, lower than the control. It can be noted that there is no significant difference in the pH value of these treatments, confirming that larval growth could compensate the reduction in pH caused by adding acetic acid. Thus, adding acetic acid to the substrate neutralizes and reduces the pH increase, thereby facilitating N reservation. BSFL showed notable substrate reduction potential, which was enhanced by acetic acid dietary supplements, whereas DMR significantly increased at acetic acid dosages of 1 % and 2 % (40.55 % and 42.38 %, respectively) in comparison to the control (37.42 %, Table 1). It is similar to previous reports, which indicated 35.9 %–43.7 % reduction in the substrate during the conversion of organic waste by BSFL [28]. The performance efficiency of BSFL for the digestion and conversion of the tested feed can be evaluated through the values of DCE, BCR, and BCR [49]. Results revealed a maximum DCE of 28.35 % at 2 % acetic acid addition, which was 12.10 % higher than the control. In addition, biomass conversion rate (BCR), representing the quantity of dry larval biomass acquired with a given quantity of diet, can be used as another indicator [49]. It can be confirmed that the two most significant BCR values (11.23 % and 12.02 %), representing 18.70 % and 27.10 % over the control, were obtained at 1 % and 2 % acetic acid dosages, respectively. Another indicator that reveals the effectiveness of BSFL in converting the applied diet’s protein is the protein conversion rate (PCR). Adding 1 % and 2 % acetic acid significantly enhanced the PCR to 34.74 % and 36.21 %, respectively. In this regard, when acetic acid was added at 1 % and 2 % doses to the rearing medium, the pH changes were relatively small compared to the control medium (Table 1). Thus, enhancement of larval biomass performance parameters in the presence of 1 % and 2 % acetic acid might be attributed to a positive effect as a buffer capacity of rearing medium [16,37], which makes the substrate more readily to be converted by BSFL. However, higher ratios of acetic
+acid (3 % and 4 %) resulted in stress to the larvae, which hindered the assimilation of nutrients, leading to lower larval performance parameters, which agrees with a previous study [22]. Thus, by employing MBM as the main feedstock, the present results suggested 2 % acetic acid as the optimum dosage to improve BSFL biomass gain and growth performance.
+Protein and lipid accumulation
+Protein and fat are the two most important components that can be accumulated in the BSFL biomass during development. Many studies have shown that BSFL contains a wider range of protein and fat, reaching 30 %–46 % protein as stated previously [18,15] and 20 %–43 % lipids [19,50]. These levels vary depending on the diet’s composition, rearing conditions, and development phases that significantly influences the amount of lipids or protein accumulation, and the final weight of BSFL biomass. By providing a balanced diet rich in organic acids, glycerol, protein, and carbohydrates, these features can be tailored to optimize the bioconversion process [33]. In this regard, the effect of acetic acid doses on the nutritional components of BSFL is presented in Fig. 1C. Increased acetic acid doses caused significant changes in the amount of total protein (P < 0.05), which was higher than the amount of raw MBM (41.62 %), and reached its highest significant value of 44.87 dw% at 2 % acetic acid, which was 7.93 % higher than the control. Protein content at 2 % acetic acid dose is consistent with the results of Lopes et al. [51], who found that 45 dw% protein was obtained from BSFL reared on mixed aquaculture waste with bread waste. However, further increase of acetic acid dose to 4 % resulted in reduction of crude protein content to 40.83 %. Conversely, by increasing acetic acid doses, the crude lipid content increased gradually, reaching the highest significant value of 32.56 dw% at 4 % acetic acid dose (Fig. 1C). Comparatively, Pang et al. [22] recorded 19.45 dw% lipid content from BSFL reared on pig manure with corncob at the optimal concentration of SCFAs solution (acetic acid 20 g/L, with butyric acid 6 g/L), which is much lower than that recorded in the present study in the control (26.61 %) or all treatments. It can be attributed to the different types of diet and different concentrations of applied acetic acid. Accumulation of lipids due to addition of acetic acid may be related
+Fig. 2. Microstructure images (left) and FTIR (right) of raw meat and bone meal (MBM) (A), BSFL frass samples without acetic acid (B), and after supplementation with 2 % acetic acid (C).
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+6
+Fig. 3. EEM spectra of DOM obtained from of raw meat and bone meal (MBM), BSFL frass of control sample (BSFL), and after supplementation with 2 % acetic acid (AC-BSFL).
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+7
+to the enhancement of carbon bioconversion. The bioconversion of acetic acid into larval lipids through direct assimilation in the pathways of fatty acid synthesis is well confirmed by Kim et al. [44], which showed that Drosophila reared on a diet supplemented with 3.4 % acetic acid significantly increased lipid content. Thus, there is a positive correlation between acetic acid addition and BSFL lipid accumulation. Moreover, ash represents mineral level in the BSFL biomass, which showed insignificant increase when treated with 4 % acetic acid dose, growing from 4.5 % in the control to 6.0 % (Fig. 1C). This may be attributed to the low protein and carbohydrate content, which was explained previously. Generally, these results confirmed that adding 2 % acetic acid could not only increase the biomass yield, but also enhances the critical nutritional components (such as protein and lipid).
+Changes in larval frass characteristics
+Raw MBM and BSFL frass samples from the control and after supplementation with 2 % acetic acid were microscopically investigated and analyzed by FTIR (Fig. 2). The raw MBM appeared as well-ordered particles with a compact structure and regular shape (Fig. 2A). However, BSFL frass appeared as disorganized granules with a rough surface and uneven shape (Fig. 2B) due to partial degradation of macromolecules during bioconversion process. Interestingly, BSFL frass samples treated with 2 % acetic acid dose revealed rough, split fragments with more noticeable wrinkles on the surface (Fig. 2C), which supports the loss of structure induced by acetic acid. As a result of employing acetic acid, the granules become smaller, increasing the granules surface area, improving the efficiency of degradation, and increasing the BSFL growth rate. One of the most typical applications for evaluating modifications in organic matter is infrared spectroscopic analysis, which studies the structural alterations in functional groups. Peaks and functional groups were found in the current study using Sigma-Aldrich database [52].
+Aliphatic primary amines are associated with the peak near 3454 cm 1, which is brought on by N-H stretching. This peak in frass samples had the most intensity indicating a partial increase in protein removal during BSFL treatment (Fig. 2). The amine group’s N-H bending in proteins or molecules that resemble proteins is similarly related to the absorption
+band at 1630 cm 1, which was marginally enlarged after BSFL conversion. Likewise, it can be noticed that acetic acid addition resulted in some new or modified peaks in the frass sample, such as peaks at 1380
+and 870 cm 1, which are associated with C––O and C–H bending [28]. The raised strength of these peaks in frass samples is related to the composition of acetic acid, which is primarily made of C–H. The presence of these peaks in the frass sample indicates that carboxymethyl bonds in polysaccharides were partially eliminated [28]. Overall, the current findings confirmed that acetic acid supplementation improved BSFL performance, resulting in many modifications in the BSFL frass after conversion. Relative to FTIR spectra, the EEM spectra may provide additional details about the molecular decomposition of organic compounds from BSFL frass on various biomass [53]. Fig. 3 shows the EEM spectra of DOM obtained from raw MBM and BSFL frass samples from the control and after supplementation with 2 % acetic acid, which was further divided into five regions [54]. Based on DOM concentration measurements, the fluorescence absorption intensities of raw MBM in the five spots were significantly higher than those of BSFL frass samples. For 2 % acetic acid frass, absorption peaks largely appeared in areas III and V, indicating fulvic acid- and humic acid-like compounds as DOM’s primary constituents in these regions, respectively. In addition to regions III and V in raw frass, substantial absorption peaks also appeared in regions of II (protein-derived compounds) and IV (microbial byproducts). This suggests that addition of acetic acid accelerated the breakdown of proteins during BSFL rearing and facilitated the stability and humification of BSFL frass. In addition, the fluorescence response percentage (P i,n) results, the region III + V P i,n values in 2 % acetic acid
+frass (83 %) were significantly higher than those in raw MBM (48 %) as shown in Table S2 (Supplementary data), which shows a greater humification level by acetic acid addition. The aforementioned findings indicated that 2 % acetic acid could increase the stability and humification of BSFL frass while reducing the fraction of aromatic protein-like substrates.
+Fatty acid profile and biodiesel production
+There are many kinds of saturated and unsaturated fatty acids majorly accumulated by oleaginous BSFL. It is confirmed that fatty acid profile in BSFL biomass mostly changes by the content and composition of the diet’s [33]. In the present study, fatty acid compositional profiles in BSFL lipids were varied with supplementation of acetic acid. Dominant fatty acids in the control were C12:0, C16:0, and C18:1, representing the most of the total fatty acids (Table 2). However, BSFL-reared acetic acid showed a different fatty acid profile where C12:0 increased to 47.20 % with 4 % acetic acid. In total, saturated fatty acids (SFAs) in the control, 1 %, 2 %, 3 %, and 4 % acetic acid doses represented 61.36 %, 64.10 %, 65.83 %, 65.75 %, and 75.15 %, respectively. In addition, monounsaturated fatty acids (MUFAs) proportions showed 35.37 %, 34.36 %, 33.45 %, 33.94 % and 24.11 % in the control, 1 %, 2 %, 3 %, and 4 % acetic acid doses, respectively, with insignificant changes among treatments, excluding the highest applied dose (4 % acetic acid). The ratios of polyunsaturated fatty acids (PUFAs) were the lowest values, ranging from 3.27 % to 0.31 % within the control and 3 % acetic acid dose, respectively (Table 2). These results indicate that acetic acid induces a stress response in the BSFL that alters their lipid metabolism
+Table 2
+Fatty acid profiles of BSFL reared on mixed meat and bone meal (MBM) and wheat bran supplemented with different doses of acetic acid.
+FAMEs Doses of acetic acid (%, w/w)
+Control 1 % 2 % 3 % 4 %
+Capric acid C 10:0
+1.2 ± 0.014
+1.73 ± 0.014
+1.49 ± 0.014
+1.59 ± 0.014
+1.55 ± 0.014 Lauric acid C 12:0
+32.85 ± 0.127
+35.32 ±
+0.049
+38.45 ±
+0.919
+38.12 ±
+0.071
+47.21 ±
+0.106 Myristic acid C 14:0
+6.71 ± 0.092
+7.37 ± 0.085
+7.19 ± 0.057
+7.23 ± 0.035
+11.31 ±
+0.148 Myristoleic C 14:1
+0.54 ± 0.014
+0.24 ± 0.184
+0.19 ± 0.057
+0.28 ± 0.127
+0.60 ± 0.007 Pentadecanoic acid
+C 15:0
+1.00 ± 0.014
+0.22 ± 0.007
+0.23 ± 0.106
+0.17 ± 0.014
+0.20 ± 0.00 Palmitic acid C 16:0
+16.88 ± 0.099
+17.10 ±
+0.064
+16.79 ±
+0.078
+17.08 ±
+0.007
+13.03 ±
+0.113 Palmitoleic acid
+C 16:1
+9.72 ± 0.057
+4.87 ± 0.028
+5.09 ± 0.148
+4.30 ± 0.014
+5.40 ± 0.085 Margaric acid C 17:0
+0.18 ± 0.007
+0.13 ± 0.021
+0.10 ± 0.021
+0.12 ± 0.014
+0.11 ± 0.021 Stearic acid C 18:0
+2.55 ± 0.014
+2.24 ± 0.00
+1.59 ± 0.057
+1.45 ± 0.014
+1.76 ± 0.007 Oleic acid C 18:1
+25.11 ± 0.141
+29.25 ±
+0.113
+28.18 ±
+0.523
+29.36 ±
+0.120
+18.12 ±
+0.212 Linoleic acid C 18:2
+3.27 ± 0.085
+1.54 ± 0.028
+0.72 ± 0.042
+0.32 ± 0.007
+0.74 ± 0.014 SFAs 61.36 ± 0.156
+64.10 ±
+0.071
+65.83 ±
+0.658
+65.75 ±
+0.014
+75.15 ±
+0.318 MUFAs 35.37 ± 0.071
+34.36 ±
+0.042
+33.45 ±
+0.615
+33.94 ±
+0.007
+24.11 ±
+0.304 PUFAs 3.27 ± 0.085
+1.54 ± 0.028
+0.72 ± 0.042
+0.31 ± 0.007
+0.74 ± 0.014
+SFAs, MUFAs, and PUFAs represent saturated-, monounsaturated- and polyunsaturated fatty acids, respectively.
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+8
+and composition. Fuel characteristics of BSFL-derived biodiesel have been further assessed and compared to earlier investigations (Table 3). The current study showed superior characteristics of BSFL biodiesel as a result of greater cetane numbers accompanied by a concomitant decrease in cloud point, cold filter plugging point (CFPP), and kinematic viscosity.
+The cold-weather properties can be improved by producing biodiesel with lower values of the cloud point, CFPP, and kinematic viscosity [37]. Therefore, the lower cloud point (1.86 to 4.0 ◦C) and CFPP (–7.17 to –9.63 ◦C) of BSFL biodiesel increases its application potential an especially in cold regions. In addition, the quantity and quality of injection and ignition are influenced by the kinematic viscosity of biodiesel type,
+Table 3
+The main characteristics of biodiesel produced from BSFL reared on mixed meat and bone meal (MBM) and wheat bran supplemented with different doses of acetic acid.
+Characteristics Doses of acetic acid (%, w/w) Other biodiesel feedstocks International standards
+Control 1 % 2 % 3 % 4 % BSFL by chicken manure
+BSFL by chicken manure
+BSFL by rapeseed cake
+Soybean US Europe
+DU 0.42 0.37 0.35 0.51 0.26 na na 0.51 na
+Kinematic viscosity (mm2
+s 1)
+3.00 2.98 2.93 4.88 2.72 4.61 5.80 4.88 3.80 1.9–6.0 3.5–5.0
+Specific gravity 0.87 0.87 0.87 0.88 0.87 0.88 0.88 0.88 0.88 0.85–0.9 Cloud point (◦C) 3.89 4.00 3.83 13.19 1.86 7.45 na 13.19 1.10 Cetane number 60.10 60.38 60.55 59.48 61.17 56.61 53 59.48 42.4 Min. 47 Min. 51 Iodine value (g I2 per 100 g)
+43.88 40.56 38.66 50.61 31.75 82.55 na 50.61 137.8 Max. 120
+HHV (MJ kg 1) 39.27 39.19 39.15 39.43 38.98 40.19 na 39.43 39.4 Db ≥ 4 (wt %) 0.00 0.00 0.00 na 0.00 0.00 na na na ≤1 LCSF 2.963 2.830 2.474 0.014 2.181 na 0.0 0.014 3.1 CFPP (◦C) 7.17 7.59 8.71 16.43 9.63 na na 16.43 3.7 ≤5/ ≤ 20 Reference Current study [1] [2] [3] [4] [5] [6]
+DU: degree of unsaturation, HHV: higher heating value,Db: Double ponds ≥ 4 the content of fatty acids with 4 Db, LCSF: long-chain saturated factor, CFPP cold filter plugging point, na: not available.
+Fig. 4. Boxplots of daily changes in CO2, NH3, N2O, and CH4 emissions flux during BSFL bioconversion on MBM and wheat bran supplemented with different acetic acid doses of 0.0 % (Control), 1 %, 2 %, 3 %, and 4 %; n.s.: not significantly different from the control, asterisks indicate significant differences (*: P < 0.05; **: P < 0.01; ***: P < 0.001; **** P < 0.0001).
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+9
+which is a property related to flowability that is negatively affected at low temperatures [55]. In this sense, low kinematic viscosity values are desirable for biodiesel to produce fine particles that can be easily atomized and burned. In this study, the BSFL biodiesel produced showed
+a lower values of kinematic viscosity (2.72 to 3.00 mm2 s 1) than the
+BSFL biodiesel produced using chicken manure which was 5.8 mm2 s 1
+[56] and biodiesel obtained using soybean oil (3.80 mm2 s 1) [26]. Moreover, the estimated cetane numbers (60.10–61.55) in the current study is higher than that of biodiesel created from BSFL grown using chicken manure (53.0–56.61) [28,56] and rapeseed cake (59.48) [33]. The higher cetane number is a desired feature because it refers to fast ignition of biodiesel with lower undesired emissions [57]. This gain also delivers a variety of further advantages to the internal compression engines, such as improved fuel efficiency, higher power output, and faster burning, all of which boost engine performance. The long-chain saturated fatty acids (LCSF) and the degree of unsaturation (DU), which are affected by the number of double bonds in various fatty esters, have a significant impact on the biodiesel stability and longevity [26]. Reduced DU in the lipid feedstock was reported to produce biodiesel with improved longevity [58]. Therefore, biodiesel obtained from the BSFL reared on MBM supplemented with acetic acid could enhance the stability of the produced biodiesel due to lower DU (Table 3). In this study, BSFL biodiesel showed moderate values of LCSF (2.18–2.96) and DU (0.26–0.42) compared to other BSFL biodiesel or soybean biodiesel. Other estimated BSFL-derived biodiesel characteristics, such as higher heating value, specific gravity, and iodine value, all fall within a narrow range of the international biodiesel standard EN 14214 and US ASTM, which are similar to those of biodiesel originating from soybean oil [26]. These attributes position biodiesel derived from BSFL as a promising and potent approach to mitigate the impact of land use associated with biodiesel production from terrestrial oil crops. Considering the discussed properties of BSFL-based biodiesel and its prior conversion benchmarks, 2 % acetic acid dosage is identified as optimal for maximizing BSFL biomass productivity while also meeting desirable biodiesel specifications.
+Emission reduction
+Fig. 4 shows the boxplots of daily changes in CO2, NH3, N2O, and CH4 emissions flux due to BSFL bioconversion by rearing on MBM and wheat bran enriched with different acetic acid doses. The major sources of ammonia and GHGs emissions generated during BSFL bioconversion are impacted by several key factors, such as diet quality, larval density, and microbial activities that contribute significantly to the share of CO2 emissions [59]. The results of this study showed that CO2 emissions are in the interquartile range of 10.0–18.7 g CO2/kg dw.day, with a median of 12.5 g CO2/kg dw.day in the control. The increasing variation in CO2 emission flux observed with different acetic acid doses during BSFL bioconversion process can be attributed to nutrient availability and the development of bacterial community. As a result, microbial respiration mainly contributes to CO2 emission and the variances in the survival of larvae among acetic acid doses. However, since larvae grow almost exponentially and thus their respiration would rise accordingly, it is also anticipate near constancy in CO2 fluxes [60]. The highest cumulative CO2 flux in the present study was recorded under 1 % acetic acid
+(136.07 g kg 1 dw), while minimum cumulative CO2 flux was observed
+at 4 % acetic acid (70.17 g kg 1 dw). Analysis of variance (ANOVA) and multiple comparison tests indicated a significant reduction (P < 0.05) in CO2 fluxes with further increase in acetic acid dose to 3 % and 4 % (Fig. 4a). This is probably due to the high acidity of the medium containing these doses which is unfavorable for microbial growth and BSFL activities. This is in consistence with previous studies evaluated emissions from BSFL bioconversion of agricultural manure and food waste [15,16]. Results illustrated in Fig. 4b show the NH3 daily emissions during BSFL bioconversion. It has been reported that NH3 is produced largely as
+a result of BSFL excretion of uric acid during metabolism [20], which can be converted to NH3 gas by microbial activity. Additional factors that may affect NH3 production may include the humidity, temperature, aeration, and pH value of the medium [61]. It was clear that NH3 emissions pattern from the control increased gradually and peaked on
+the 4th day by 0.53 g NH3/kg dw.day, with an interquartile range of 0.12–0.44 g NH3/kg dw.day, then it decreased slowly until the last experimental day. However, increasing of acetic acid dose significantly decreased the daily NH3 emissions, reaching 0.05 g NH3/kg dw.day on
+the 8th day recorded at 4.0 % acetic acid. The maximum cumulative NH3
+emissions in the present study were recorded under control (2.68 g kg 1 dw), while cumulative NH3 emissions observed with 2 %, 3 %, and 4 % doses were significantly lower than the control by 39.18 %, 64.74 %, and 79.70 %, respectively (P < 0.01; P < 0.001; P < 0.0001, post hoc Tukey’s test). The highest rate of NH3 emissions from the control is most likely contributed to the high rates of uric acid excretion during BSFL metabolism, followed by microbial ureases degrading urea and leftover
+proteins into ammonium (NH4+) [61], which drives the pH shifts to more alkaline conditions, making the ammonium-ammonia balance in the direction to produce more NH3 emissions (Fig. S2, Supplementary data). However, addition of acetic acid to the substrate can play two major roles in reducing ammonia. First, it reduces the activity of microbial
+ureases in the residues to avoid extra NH4+ [20]. Second, it can react with
+NH4+to produce ammonium salts, resulting in a significant reduction in NH3 gas release [60]. Thus, sequestration of ammonia in the form of ammonium acetate for re-uptake and assimilation by BSFL takes place. These results also confirmed the improvement of larval metabolic performance due to acetic acid enrichment, which resulted in significant improvements in BSFL biomass and their biochemical composition. According to the findings of this study, BSFL emits relatively very low levels of N2O and CH4. The box plots of daily changes in N2O and CH4 emission patterns are shown in Fig. 4c and d. The N2O and CH4 cumulative emissions were in trace quantities for all treatments. It is in line with the recent findings of Parodi et al. [61] and Chen et al. [62], who reported that N2O or CH4 emissions were near zero after 7 days of BSFL bioconversion of pig manure. However, the comparison test showed a significant reduction (P < 0.05) in both N2O and CH4 fluxes at acetic acid doses of 3 % and 4 %. Moreover, the maximum cumulative N2O and CH4 emissions flux in the present study were recorded in the control, representing 1.5 and 0.96 g/kg dw, respectively. In comparison to conventional composting, N2O or CH4 levels in the BSFL bioconversion were significantly reduced. CH4 missions are directly related to the existence of methanogens and the abundance of Archaea [63,64], which deoxidizes CO2/H2 with acetic acid under anaerobic conditions. The main source of N2O generation is from anoxic and denitrification process, which is traditionally performed by denitrifiers. Based on the suggested gases’ routes (Fig. S2), the low emissions of N2O or CH4 might be attributed to two ways. First, the crawling and motion of the larvae improve aerobic conditions during conversion through continuous mixing of the substrate [28], which inhibits the activity of denitrifiers and Archaea, avoiding the production of N2O and CH4. Second, the microflora in the gut of BSFL have not been correlated with the production of CH4 and N2O, which was reported by Lee et al. [65]. The current study focused on assessing the direct emissions from the BSFL bioconversion in reducing GHGs and NH3 emissions using various acetic acid dosages. Despite CO2 being a significant GHGs in BSFL bioconversion processes, CO2 emission from the bioconversion of biowastes is typically not considered in the assessment of the global warming potential (GWP) since this CO2 is produced from a biogenic origin [60]. However, quantifying CO2 and NH3 emissions are still important for a better understanding of the distribution of both C and N during BSFL bioconversion. Therefore, only CH4 and N2O were considered when estimating total GHGs emissions. Using CO2 equivalents as a GWP100 of CH4 and N2O was 34 and 298, respectively [66]. The summary of gas emissions, including CO2, NH3, CH4, N2O and GWP100 per kg of dry matter BSFL biomass from the current study and published
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+10
+studies, are presented in Table 4. Overall, direct gas emission from the current diet using different doses of acetic acid during the BSFL bioconversion process showed that increasing acetic acid concentration leads to a reduction of all total emissions per one kg of dry matter BSFL biomass. In addition, the GWP-CO2eq scrutinized ranged from 2.16 to 4.97 g CO2-eq per kg dry larval biomass that approached with the results of Pang et al. [21] on the food waste under acidic conditions (pH = 5). However, it was lower than that reported by Ermolaev et al. [60] and Parodi et al. [20], which can be linked to differences in time and method of gas estimation as well as the differences in experimental scale, diet quality, and larval density. In this regard, direct GHGs emissions from mealworm rearing was 7.58 g CO2eq per kg dry larval biomass reported by Oonincx and De Boer [67], which was slightly higher than the current study. Therefore, in terms of GHGs and NH3 emissions reduction perspective, this study indicates that addition of 2 % acetic acid could have dual effect on enhanced biodiesel production and emission reduction, making BSFL as a preferred technology for protein-rich waste disposal for sustainable biodiesel production.
+Conclusions
+The current study achieved the improvements of BSFL performance with mitigation of greenhouse gas and NH3 emissions due to incorporating dietary acetic acid into the MBM, resulting in considerable changes in their growth and biomass components. The results showed that MBM with wheat bran mixed with 2 % dietary acetic acid could effectively mitigate GHGs and NH3 emissions through BSFL rearing. In addition, dietary acetic acid enhanced the availability of nutrients from MBM, which considerably promoted the larval productivity from 128.5
+g m 2 d–1 in the untreated group to 162.3 g m 2 d–1 using 2 % acetic acid dose. A positive correlation between acetic acid addition and BSFL lipid accumulation was also confirmed. Moreover, 2 % acetic acid enhanced the mitigation of GHGs gases, which resulted in a GWP of 2.67 g CO2-eq per kg dry larval biomass. Additional research is required to comprehensively explore the mechanisms behind the reduction in emissions facilitated by BSFL. In conclusion, the current study introduces Hermetia
+illucens as a mini-livestock with a vista potential for efficient recycling of waste protein from animal industry byproducts for improved biodiesel production and reduced GHGs emissions via a net waste-free approach that promotes a low-carbon economy and the sustainability targets.
+CRediT authorship contribution statement
+Mahdy Elsayed: Writing – original draft, Investigation, Formal analysis, Conceptualization. Jing Wang: Project administration, Methodology, Formal analysis. Huijun Wang: Methodology, Formal analysis. Zhihui Zhou: Methodology, Formal analysis. Ahmed I. Osman: Writing – review & editing, Formal analysis. Adel W. Almutairi: Formal analysis. Shah Faisal: Methodology. Abdelfatah Abomohra: Writing – review & editing, Validation, Project administration.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgment
+The current work was supported by Chengdu University’s start-up funds (No. 2081923028 and 2081920048).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. org/10.1016/j.seta.2024.103825.
+References
+[1] Abomohra A, Hanelt D. Recent advances in micro-/nanoplastic (MNPs) removal by microalgae and possible integrated routes of energy recovery. Microorganisms 2022;10:2400. https://doi.org/10.3390/MICROORGANISMS10122400. [2] FAO. World food and agriculture. Food and Agriculture Organization: Rome, Italy 2015. [3] Ragasri S, Sabumon PC. A critical review on slaughterhouse waste management and framing sustainable practices in managing slaughterhouse waste in India. J Environ Manage 2023;327:116823. [4] Luckmann J. Meat waste: a lot less than the whole fog. Heinrich Bo ̈ll Stiftung | Brussels Office – European Union 2021. [5] Fekede RJ, Van Gils H, Huang L, Wang X. High probability areas for ASF infection in China along the Russian and Korean borders. Transbound Emerg Dis 2019;66: 852–64. [6] Cascarosa E, Gea G, Arauzo J. Thermochemical processing of meat and bone meal: a review. Renew Sustain Energy Rev 2012;16:942–57. [7] Jędrejek D, Levic J, Wallace J, Oleszek W. Animal by-products for feed: characteristics, European regulatory framework, and potential impacts on human and animal health and the environment. J Anim Feed Sci 2016;25:189–202. [8] Nogalska A, Załuszniewska A. The effect of meat and bone meal (MBM) on crop yields, nitrogen content and uptake, and soil mineral nitrogen balance. Agronomy 2021;11:2307. [9] Beck-Friis B, Pell M, Sonesson U, Jo ̈nsson H, Kirchmann H. Formation and emission of N2O and CH4 from compost heaps of organic household waster. Environ Monit Assess 2000;62:317–31. [10] Jung S, Jung JM, Tsang YF, Bhatnagar A, Chen WH, Lin KYA, et al. Biodiesel production from black soldier fly larvae derived from food waste by non-catalytic transesterification. Energy 2022;238:121700. https://doi.org/10.1016/J. ENERGY.2021.121700. [11] Wong C, Rosli S, Uemura Y, Ho YC. Potential protein and biodiesel sources from black soldier fly larvae: insights of larval harvesting instar and fermented feeding medium 2019. [12] Müller A, Wolf D, Gutzeit HO. The black soldier fly, Hermetia illucens–a promising source for sustainable production of proteins, lipids and bioactive substances. Zeitschrift Für Naturforschung C 2017;72:351–63. [13] Liu T, Klammsteiner T, Dregulo AM, Kumar V, Zhou Y, Zhang Z, et al. Black soldier fly larvae for organic manure recycling and its potential for a circular bioeconomy: a review. Sci Total Environ 2022:155122.
+Table 4
+Estimated total gas emissions and global warming potential (GWP) per kg dry matter BSFL biomass.
+Treatments/ Diet
+CO2 (g) NH3 (g)
+CH4 (mg)
+N2O (mg)
+*GWP
+CO2-eq
+(g)
+References
+Control 1337.25 ± 32.63
+27.70 ± 0.45
+9.97 ± 0.19
+15.53 ± 0.13
+4.97 ± 0.10
+Current study Current study Current study Current study Current study
+1 % 1189.37 ± 33.77
+17.82 ± 0.73
+7.20 ± 0.52
+10.54 ± 0.66
+3.40 ± 0.18
+2 % 865.21 ± 57.33
+13.10 ± 0.38
+4.85 ± 0.30
+8.42 ± 0.41
+2.67 ± 0.12
+3 % 781.62 ± 26.62
+9.76 ± 0.80
+3.83 ± 0.16
+8.11 ± 0.27
+2.55 ± 0.08
+4 % 788.26 ± 23.86
+5.93 ± 0.29
+3.60 ± 0.33
+6.83 ± 0.33
+2.16 ± 0.11
+Food waste with rice straw at pH = 5
+1394 ± 343
+na 14 ± 6
+7 ± 1 2.5 ± 0.5
+[7]
+Food waste 1750 ± 170
+na 49 ± 29
+21 ± 13
+8 ± 4.8 [8]
+Food byproducts
+2750 ± 314
+1.2 ± 0.7
+28 ± 29
+53 ± 27
+17 ± 8.6
+[9]
+*Global warming potential (GWP) was expressed as g CO2 equivalents per kg dry matter BSFL biomass based on the GWP of CH4 (34) and N2O (298) over 100 years according to IPCC [66], na not available.
+M. Elsayed et al.
+
+
+Sustainable Energy Technologies and Assessments 66 (2024) 103825
+11
+[14] Cheng Y-S. Insect biorefinery: sustainable application of insects in circular economy. Appl Sci Eng Prog 2023;16:6772. [15] Scieuzo C, Franco A, Salvia R, Triunfo M, Addeo NF, Vozzo S, et al. Enhancement of fruit byproducts through bioconversion by Hermetia illucens (Diptera: Stratiomyidae). Insect Sci 2023;30:991–1010. [16] Franco A, Scieuzo C, Salvia R, Mancini IM, Caniani D, Masi S, et al. A mobile black soldier fly farm for on-site disposal of animal dairy manure. Bull Insectol 2022;75: 75–82. [17] Lindberg L, Ermolaev E, Vinnerås B, Lalander C. Process efficiency and greenhouse gas emissions in black soldier fly larvae composting of fruit and vegetable waste with and without pre-treatment. J Clean Prod 2022;338:130552. [18] Liu X, Chen X, Wang H, Yang Q, Rehman K, Li W, et al. Dynamic changes of nutrient composition throughout the entire life cycle of black soldier fly 2017: 1–21. https://doi.org/10.1371/journal.pone.0182601. [19] Ewald N, Vidakovic A, Langeland M, Kiessling A, Sampels S, Lalander C. Fatty acid composition of black soldier fly larvae (Hermetia illucens) – possibilities and limitations for modification through diet. Waste Manag 2020;102:40–7. https:// doi.org/10.1016/J.WASMAN.2019.10.014. [20] Parodi A, De Boer IJM, Gerrits WJJ, Van Loon JJA, Heetkamp MJW, Van Schelt J, et al. Bioconversion efficiencies, greenhouse gas and ammonia emissions during black soldier fly rearing – a mass balance approach. J Clean Prod 2020;271: 122488. [21] Pang W, Hou D, Chen J, Nowar EE, Li Z, Hu R, et al. Reducing greenhouse gas emissions and enhancing carbon and nitrogen conversion in food wastes by the black soldier fly. J Environ Manage 2020;260:110066. [22] Pang W, Hou D, Ke J, Chen J, Holtzapple MT, Tomberlin JK, et al. Production of biodiesel from CO2 and organic wastes by fermentation and black soldier fly. Renew Energy 2020;149:1174–81. [23] Fuchs A, Dalby FR, Liu D, Kai P, Feilberg A. Improved effect of manure acidification technology for gas emission mitigation by substituting sulfuric acid with acetic acid. Clean Eng Technol 2021;4:100263. [24] Shin SC, Kim S-H, You H, Kim B, Kim AC, Lee K-A, et al. Drosophila microbiome modulates host developmental and metabolic homeostasis via insulin signaling. Science 2011;334:670–4. [25] Popa R, Green TR. Using black soldier fly larvae for processing organic leachates. J Econ Entomol 2012;105:374–8. [26] Abomohra AE-F, Elsayed M, Esakkimuthu S, El-Sheekh M, Hanelt D. Potential of fat, oil and grease (FOG) for biodiesel production: a critical review on the recent progress and future perspectives. Prog Energy Combust Sci 2020;81:100868. [27] Abomohra A-E-F, Jin W, Tu R, Han S-F, Eid M, Eladel H. Microalgal biomass production as a sustainable feedstock for biodiesel: current status and perspectives. Renew Sustain Energy Rev 2016;64:596–606. [28] Elsayed M, Li W, Abdalla N, Ai P, Zhang Y, Abomohra A-E-F. Innovative approach for rapeseed straw recycling using black solider fly larvae: Towards enhanced energy recovery. Renew Energy 2022;188:211–22. [29] Wang S, Yerkebulan M, Abomohra AEF, El-Khodary S, Wang Q. Microalgae harvest influences the energy recovery: a case study on chemical flocculation of Scenedesmus obliquus for biodiesel and crude bio-oil production. Bioresour Technol 2019;286:121371. [30] Mohd-Noor S-N, Wong C-Y, Lim J-W, Uemura Y, Lam M-K, Ramli A, et al. Optimization of self-fermented period of waste coconut endosperm destined to feed black soldier fly larvae in enhancing the lipid and protein yields. Renew Energy 2017;111:646–54. [31] Beesigamukama D, Mochoge B, Korir NK, Fiaboe KKM, Nakimbugwe D, Khamis FM, et al. Low-cost technology for recycling agro-industrial waste into nutrient-rich organic fertilizer using black soldier fly. Waste Manag 2021;119: 183–94. [32] Elsayed M, Ran Y, Ai P, Azab M, Mansour A, Jin K, et al. Innovative integrated approach of biofuel production from agricultural wastes by anaerobic digestion and black soldier fly larvae. J Clean Prod 2020;263:121495. https://doi.org/ 10.1016/j.jclepro.2020.121495. [33] Almutairi AW, Abomohra A, Elsayed M. A closed-loop approach for enhanced biodiesel recovery from rapeseed biodiesel-based byproducts through integrated glycerol recycling by black soldier fly larvae. J Clean Prod 2023;137236. [34] Kochert G. Carbohydrate determination by the phenol-sulfuric acid method. Handbook of Phycological Methods, Phycological and Biochemical Methods 1978; 95. [35] Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 1976;72:248–54. [36] Caligiani A, Marseglia A, Sorci A, Bonzanini F, Lolli V, Maistrello L, et al. Influence of the killing method of the black soldier fly on its lipid composition. Food Res Int 2019;116:276–82. https://doi.org/10.1016/j.foodres.2018.08.033. [37] Hoekman SK, Broch A, Robbins C, Ceniceros E, Natarajan M. Review of biodiesel composition, properties, and specifications. Renew Sustain Energy Rev 2012;16: 143–69. [38] Song M, Pei H, Hu W, Ma G. Evaluation of the potential of 10 microalgal strains for biodiesel production. Bioresour Technol 2013;141:245–51. [39] Gao Z, Wang W, Lu X, Zhu F, Liu W, Wang X, et al. Bioconversion performance and life table of black soldier fly (Hermetia illucens) on fermented maize straw. J Clean Prod 2019;230:974–80. https://doi.org/10.1016/j.jclepro.2019.05.074.
+[41] Barragan-Fonseca KB, Dicke M, van Loon JJA. Influence of larval density and dietary nutrient concentration on performance, body protein, and fat contents of black soldier fly larvae (Hermetia illucens). Entomol Exp Appl 2018;166:761–70. https://doi.org/10.1111/eea.12716. [43] Ma J, Lei Y, Rehman K, Yu Z, Zhang J, Li W, et al. Dynamic effects of initial pH of substrate on biological growth and metamorphosis of black soldier fly (Diptera: Stratiomyidae). Environ Entomol 2018;47:159–65. https://doi.org/10.1093/ee/ nvx186. [44] Kim G, Huang JH, McMullen II JG, Newell PD, Douglas AE. Physiological responses of insects to microbial fermentation products: Insights from the interactions between Drosophila and acetic acid. J Insect Physiol 2018;106:13–9. [45] Yu Y, Zhang J, Zheng J, Cai M, Zheng L, Zhang J. Enhanced protein degradation by black soldier fly larvae (Hermetia illucens L.) and its gut microbes. Front Microbiol 2023;13:1095025. [46] Jiang C, Jin W, Tao X, Zhang Q, Zhu J, Feng S, et al. Black soldier fly larvae (Hermetia illucens) strengthen the metabolic function of food waste biodegradation by gut microbiome. J Microbial Biotechnol 2019;12:528–43. [47] Depetris-Chauvin A, Galagovsky D, Chevalier C, Maniere G, Grosjean Y. Olfactory detection of a bacterial short-chain fatty acid acts as an orexigenic signal in Drosophila melanogaster larvae. Sci Rep 2017;7:14230. [48] Zheng H, Powell JE, Steele MI, Dietrich C, Moran NA. Honeybee gut microbiota promotes host weight gain via bacterial metabolism and hormonal signaling. Proc Natl Acad Sci 2017;114:4775–80. [49] Gold M, Cassar CM, Zurbrügg C, Kreuzer M, Boulos S, Diener S, et al. Biowaste treatment with black soldier fly larvae: increasing performance through the formulation of biowastes based on protein and carbohydrates. Waste Manag 2020; 102:319–29. [50] Franco A, Scieuzo C, Salvia R, Pucciarelli V, Borrelli L, Addeo NF, et al. Antimicrobial activity of lipids extracted from Hermetia illucens reared on different substrates. Appl Microbiol Biotechnol 2024;108:1–12. [51] Lopes IG, Lalander C, Vidotti RM, Vinnerås B. Using Hermetia illucens larvae to process biowaste from aquaculture production. J Clean Prod 2020;251:119753. [52] Merck. IR Spectrum Table. Merck KGaA, Darmstadt, Germany 2022. [53] Wang Q, Ren X, Sun Y, Zhao J, Awasthi MK, Liu T, et al. Improvement of the composition and humification of different animal manures by black soldier fly bioconversion. J Clean Prod 2021;278:123397. [54] Lin T-H, Wang D-H, Zou H, Zheng Y, Fu S-F. Effects of salvaged cyanobacteria content on larval development and feedstock humification during black soldier fly larvae (Hermetia illucens) composting. Environ Res 2022;215:114401. [55] Elsayed M, Eraky M, Osman AI, Wang J, Farghali M, Rashwan AK, et al. Sustainable valorization of waste glycerol into bioethanol and biodiesel through biocircular approaches: a review. Environ Chem Lett 2023:1–26. [56] Li Q, Zheng L, Cai H, Garza E, Yu Z, Zhou S. From organic waste to biodiesel: black soldier fly, Hermetia illucens, makes it feasible. Fuel 2011;90:1545–8. https://doi. org/10.1016/j.fuel.2010.11.016. [57] Abomohra A, Li M, Faisal S, Li L, Elsayed M. Maximizing nitrogen removal and lipid production by microalgae under mixotrophic growth using response surface methodology: towards enhanced biodiesel production. Fermentation 2022;8:682. [58] Li M, Alotaibi MKH, Li L, Abomohra AE-F. Enhanced waste glycerol recycling by yeast for efficient biodiesel production: towards waste biorefinery. Biomass Bioenergy 2022;159:106410. [59] Bekker NS, Heidelbach S, Vestergaard SZ, Nielsen ME, Riisgaard-Jensen M, Zeuner EJ, et al. Impact of substrate moisture content on growth and metabolic performance of black soldier fly larvae. Waste Manag 2021;127:73–9. [60] Ermolaev E, Lalander C, Vinnerås B. Greenhouse gas emissions from small-scale fly larvae composting with Hermetia illucens. Waste Manag 2019;96:65–74. https:// doi.org/10.1016/j.wasman.2019.07.011. [61] Parodi A, Gerrits WJJ, Van Loon JJA, De Boer IJM, Aarnink AJA, Van Zanten HHE. Black soldier fly reared on pig manure: Bioconversion efficiencies, nutrients in the residual material, greenhouse gas and ammonia emissions. Waste Manag 2021; 126:674–83. [62] Chen J, Hou D, Pang W, Nowar EE, Tomberlin JK, Hu R, et al. Effect of moisture content on greenhouse gas and NH3 emissions from pig manure converted by black soldier fly. Sci Total Environ 2019;697:133840. [63] Faisal S, Ebaid R, Li L, Zhao F, Wang Q, Huang J, et al. Enhanced waste hot-pot oil (WHPO) anaerobic digestion for biomethane production: mechanism and dynamics of fatty acids conversion. Chemosphere 2022;307:135955. https://doi.org/ 10.1016/J.CHEMOSPHERE.2022.135955. [64] Abomohra A, Faisal S, Ebaid R, Huang J, Wang Q, Elsayed M. Recent advances in anaerobic digestion of lipid-rich waste: challenges and potential of seaweeds to mitigate the inhibitory effect. Chem Eng J 2022:137829. [65] Lee C-M, Lee Y-S, Seo S-H, Yoon S-H, Kim S-J, Hahn B-S, et al. Screening and characterization of a novel cellulase gene from the gut microflora of Hermetia illucens using metagenomic library. J Microbiol Biotechnol 2014;24:1196–206. [66] IPCC CC. Mitigation of climate change. Contribution of working group III to the fifth assessment report of the intergovernmental panel on climate change. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA 2014. [67] Oonincx DGAB, De Boer IJM. Environmental impact of the production of mealworms as a protein source for humans–a life cycle assessment. PLoS One 2012; 7:e51145.
+M. Elsayed et al.

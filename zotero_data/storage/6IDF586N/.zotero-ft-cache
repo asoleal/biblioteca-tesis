@@ -1,0 +1,223 @@
+Journal of Environmental Management 260 (2020) 110066
+Available online 17 January 2020 0301-4797/© 2020 Elsevier Ltd. All rights reserved.
+Research article
+Reducing greenhouse gas emissions and enhancing carbon and nitrogen conversion in food wastes by the black soldier fly
+Wancheng Pang a,1, Dejia Hou a,e,1, Jiangshan Chen a, Elhosseny E. Nowar b, Zongtian Li a,
+Ronggui Hu c, Jeffery K. Tomberlin d, Ziniu Yu a, Qing Li a,*, Shucai Wang e,**
+a State Key Laboratory of Agricultural Microbiology, College of Science, Huazhong Agricultural University, Wuhan, 430070, PR China
+b Plant Protection Department, Faculty of Agriculture, Benha University, Moshtohor, Kaluybia, 13736, Egypt
+c College of Resources and Environment, Huazhong Agricultural University, Wuhan, 430070, PR China
+d Department of Entomology, Texas A&M University, 77843, USA
+e College of Engineering, Huazhong Agricultural University, Wuhan, PR China
+ARTICLE INFO
+Keywords:
+Black soldier fly Greenhouse gas pH values Food waste Carbon and nitrogen conversion
+ABSTRACT
+Currently, sustainable utilisation, including recycling and valorisation, is becoming increasingly relevant in environmental management. The wastes bioconversion by the black soldier fly larva (BSFL) has two potential advantages: the larvae can convert the carbon and nitrogen in the biomass waste, and improve the properties of the substrate to reduce the loss of gaseous carbon and nitrogen. In the present study, the conversion rate of carbon, nitrogen and the emissions of greenhouse gases and NH3 during BSFL bio-treatment of food waste were investigated under different pH conditions. The results showed that the pH of the raw materials is a pivotal parameter affecting the process. The average wet weight of harvested BSFL was 13.26–95.28 mg/larva, with about 1.95–13.41% and 5.40–18.93% of recycled carbon and nitrogen from substrate at a pH from 3.0 to 11.0, respectively. Furthermore, pH is adversely correlated with CO2 emissions, but positively with NH3 emissions.
+Cumulative CO2, NH3, CH4 and N2O emissions at pH ranging from 3.0 to 11.0 were 88.15–161.11 g kg 1,
+0.15–1.68 g kg 1, 0.19–2.62 mg kg 1 and 0.02–1.65 mg kg 1, respectively. Compared with the values in open composting, BSFL bio-treatment of food waste could lead greenhouse gas (especially CH4 and N2O) and NH3 emissions to decrease. Therefore, a higher pH value of the substrate can increase the larval output and help the mitigation of greenhouse gas emissions.
+1. Introduction
+Globally, about 1.3 billion tons of food are wasted each year, equivalent to about $1 trillion in annual economic losses (FAO, 2014). Nowadays, the treatment of FW has become a serious issue worldwide due to the high costs related to its environmental management (Fersiz and Veli, 2015). The main approaches in FW management include disposal in landfills, incineration and composting for the production of fertilisers (Avagyan, 2017). Despite this, about one third of all the food produced today goes in landfills (Stuart, 2009). In Canada, for example, in the year 2017, 12.9 million tons of FW was produced, but only 4.4 million tons were recycled (Avagyan, 2017). In addition to the enormous financial costs, FW also result in many environmental problems, such as
+landfill consumption, odour nuisance and generation of leachate and landfill gas (Lee et al., 2007). On the other hand, the burning of FW reduces its economic value, and the dumped product can cause health and environmental problems (release of dioxins, etc.) (Avagyan, 2018). In order to alleviate this, it is necessary to develop economic and environmentally friendly alternatives (Avagyan, 2017, 2013). Recently, composting has become an important way to manage FW, as it can reduce the volume and weight of FW, and produce innoxious, stable and rich in nutrients soil amendment materials even though it shows some limit (Avagyan, 2018; Yang et al., 2015). In particular, the biodegradation of organic matter can lead to the substantial loss of C and N during long processes, which both reduces the end-product quality and causes secondary environmental pollution. For example, some
+* Corresponding author. ** Corresponding author. E-mail addresses: liqing@mail.hzau.edu.cn (Q. Li), wsc01@mail.hzau.edu.cn (S. Wang).
+1 Wancheng Pang and Dejia Hou contributed equally to this work.
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: http://www.elsevier.com/locate/jenvman
+https://doi.org/10.1016/j.jenvman.2020.110066 Received 18 July 2019; Received in revised form 11 December 2019; Accepted 2 January 2020
+
+
+Journal of Environmental Management 260 (2020) 110066
+2
+studies indicated that 16–74% of initial TN and 14–59% of initial TOC are lost during composting, mostly in the form of NH3 and CO2, respectively (Chen et al., 2019). About 0.2–9.9% of initial TN and 0.08–6% of initial TOC in organic wastes are lost in the form of N2O and CH4 (Yang et al., 2015), which are GHG of high concern (Chowdhury et al., 2014). Currently, biowastes are treated by BSFL widely, and this new approach has attracted considerable interest by researchers worldwide. Previous studies were mostly focused on the bio-treatment of diverse organic wastes, and the residues can be utilised as fertiliser; Meanwhile, larvae provide protein- and fat-rich biomass, which can be further used for biodiesel production and animal feed (Salomone et al., 2017). In fact, the conversion of waste into protein for use as feed for aquaculture and poultry in USA (AAFCO, 2016), EU (Cutrignelli et al., 2018), and other parts of the world is allowed. Hermetia. Illucens L. is one of the authorised insect species. Practical approaches have been applied to ensure the retention of nutrients and control C and N loss in composting (Wang et al., 2018), including the use of different kinds of bulking agents which can increase the C/N ratio in raw materials, the modification of the aeration rate, and the addition of chemical agents or mineral additives. Compared with these methods, BSFL biowaste treatment can lead to end-products of higher economic value at lower costs. The sustainable use of waste, including recycling and valorisation, is the current trend in waste management (Avagyan, 2013; Sa�nchez et al., 2015). However, there are few studies focused on the environmental benefit related to the treatment of wastes with BSFL in terms of sustainability. Mertenat et al. (2019) and Ermolaev et al. (2019) found that the BSFL FW treatment has potential to cut down GHG emissions compared with conventional composting. These researchers also suggest that there is still need of further exploration based on various raw materials and process parameters, to study the direct GHG emissions, C and N recycling during BSFL treatment, in order to correctly evaluate its environmental sustainability. Additionally, the FW biodegradation during composting has been reported to be mostly controlled by factors such as pH, moisture, C/N ratio and temperature (Cerda et al., 2018). Especially, the quick biodegradation of readily available organic matter can intensively acidify the substrate, resulting in low pH values in the initial phase of FW treatment and eventually inhibiting the larval growth and microbial activity (Chan et al., 2016; Ma et al., 2018). For this reason, to optimise the biowaste treatment by adjusting the initial pH of the substrate is of great significance. This may not only accelerate the decomposition of FW but also increase the yield and quality of BSFL. To date, the effects of pH on the bioconversion of C and N and on the emissions of GHG and NH3 during BSFL bio-treatment of FW have not been reported, to the authors’ knowledge. This study aims to investigate the GHG and NH3 emissions during BSFL bio-treatment of FW under different pH conditions of the feeding substrate, as well as to improve the recycling of C and N from FW to larvae, and to mitigate the GHG emissions by adjusting the initial pH of FW. Besides, the amount of C and N was monitored alongwith parameters such as changes in larvae weight and physico-chemical properties of the substrate. The results of this study can provide important insights for the sustainable use of wastes by BSFL biowaste treatment.
+2. Materials and methods
+2.1. Raw materials
+BSFL (Hermetia illucens L., Stratiomyidae: Diptera) used in this study were bred at Wuhan ChaoTuo Ecology Agricultural Ltd. Food waste was collected from the restaurants in Wuhan, China, Hubei Tianji Bioengineer Co. Ltd, China. The chopped rice straw (RS) was obtained from the experimental field of Huazhong Agricultural University, Wuhan China. The physical and chemical characteristics are shown in Table 1.
+2.2. Experimental design
+Before BSFL rearing, FW and RS were mixed at a fixed ratio (FW:RS, 9: 1 w/w) to adjust the moisture content. The substrate pH was set at 3.0, 5.0, 7.0, 9.0 and 11.0 (�0.1) by the addition of 2 M NaOH-H3PO4 buffer. The dry matter and moisture content (65 � 2%) of each treatment were consistent. A total of 1.2 kg (wet weight) substrate was added in each cylindrical glass jar (20 cm diameter � 35 cm depth). Based on preliminary experiments (Chen et al., 2019), about 1800 3-day-old BSFL (about 5.5 mg/larva) were inoculated into the substrate mixture. The experiment was not stopped until the occurrence of the first prepupa in each replicate; the larval biomass was separated from the residue through manual sieving. The BSFL were deactivated at 105 �C for 5 min after being washed with distilled water. They were then dried at 55 �C for 3 days. All the treatments were subjected to incubation at 30.0 � 1.0 �C. In the first three days, the substrate pH was maintained constant as much as possible by the addition of 50 mL NaOH-H3PO4 buffer.
+2.3. Measurements of GHG and NH3 emissions
+The gaseous samples containing CO2, CH4 and N2O were measured on a daily basis. According to a procedure defined in literature (Wu et al., 2018), gas samples (30 mL) were taken from the headspace of the bottles with a gastight syringe, at 0 and 20 min after the container closure. The gas concentrations were measured by a gas chromatograph (GC-7890A; Agilent Technologies, Santa Clara, CA, USA) equipped with a flame ionisation detector for CH4 and CO2 analyses and an electron-capture detector for N2O analysis. NH3 released during BSFL treatment was captured in H2SO4 solution and determined by 0.02 M NaOH titration (Koyama et al., 2018).
+2.4. Sample collection and analysis
+Representative FW samples were collected after gas sampling for determination of physical and chemical properties. Both initial and final samples were analysed for the determination of TOC and TN according to the method suggested by a previous study (Song et al., 2013). FW inorganic N (ammonium-N and nitrate-N) was measured (FW sample:2 M KCl, 1:5 w/v ratio and shaken for 1 h) using the indophenol blue spectrophotometric method and ultraviolet spectrophotometry at 220 nm and 275 nm, respectively (UV-1800, SHIMADZU, Japan) (Wu et al., 2018). DOC in the mixtures was measured using K2Cr2O3 oxidation (FW sample:water, 1:10 w/v ratio and shaken for 1 h) (Zhu et al., 2015). The pH value was analysed according to standard test methods (PHS-3C, Leichi, Shanghai) (TMECC, 2002). At the same time, forceps were used to select 50 larvae from a given replicate of treatment randomly to measure the average larval wet weight. The larvae were washed with distilled water, dried with cotton gauze, weighed using an electronic analytical balance (BSM-120.4, Shanghai, China), and then returned to their respective containers.
+2.5. Statistical analysis
+All the experiments were repeated in triplicate. Statistical analyses were conducted using the SPSS 18 software. Effects of BSFL on the
+Table 1
+Physico-chemical characteristics of food waste and rice straw offered to BSFL.
+TOC(g/kg) TKN(g/ kg)
+Moisture content (%)
+C/N ratio
+pH
+Food waste
+401.6 � 14.31
+46.8 � 4.41
+69.3 � 1.32 8.6 5.03 � 0.15 Rice straw
+484.3 � 10.22
+4.08 � 0.45
+9.2 � 0.38 118.7 
+TOC: total organic carbon; TKN: total Kjeldahl nitrogen.
+W. Pang et al.
+
+
+Journal of Environmental Management 260 (2020) 110066
+3
+physico-chemical characteristics of FW mixtures and on gas emissions were analysed by one-way ANOVA. Significance for all the statistical analyses was accepted at α 1⁄4 0.05 level.
+3. Results and discussion
+3.1. Dynamics of pH value, larval growth during black soldier fly larvae bioconversion process
+As one of the crucial factors affecting the BSFL activity and GHG emissions, time-changes in pH are presented in Fig. 1a, with reference to treatments at different nominal pH (from 3.0 to 11.0). BSFL were able to adjust the pH of the substrate. However, this capability was not observed when the substrate was highly acidic (pH 3.0). The final pH value (after 10 days), for treatments at nominal pH from 5.0 to 11.0, ranged from about 8 to 9, indicating that the residues after BSFL conversion could be used to repair acidic soils (Huang et al., 2014). In contrast, the case of strongly acidic substrate (pH 3.0) resulted in final pH values below 5. These findings confirm the results of previous studies of Ma et al. (2018) and Meneguz et al. (2018), who indicated that BSFL might modify the environmental pH to 8.5–9.2, which could be attributed to the combination of the production of organic acids by environmental and BSFL gut microorganisms, and the release of NHþ 4 and NH3 from mineralisation of organic matter. The BSFL growth rates in all treatments are listed in Fig. 1b, where the larval weight is reported as a function of time. The larval weight curves show that BSFL could grow over a wide range of pH. There were only slight differences in BSFL wet weight among different treatments (pH from 5.0 to 11.0) during the first five days, and after that, the BSFL wet weight was generally higher at higher pH. In the present study, the average wet weights of harvested BSFL were 13.26, 60.18, 68.44, 80.16 and 95.28 mg per individual under pH 3.0, 5.0, 7.0, 9.0 and 11.0 treatments, respectively. This result indicates that higher pH value of the FW contributes to faster growth of BSFL, which is desirable because it can shorten the production time. Ma et al. (2018) reported that pH values of 4.0 and 10.0 contribute to higher insects gain. The departure of their results from those here presented could be due to the different properties of the substrates and experimental set-up. Moreover, it should be noted that the larval growth was inhibited in substrates with low pH (pH 3.0). The pH of the substrate can significantly affect the activity of acid-producing bacteria (Zheng et al., 2012). Based on this, the authors hypothesise that a strongly acidic environment may result in an unfavourable medium for the BSFL gut microbes. Under low pH conditions, the slow decomposition of FW causes that the larvae spend more time in gaining their nutritional requirements. Meneguz et al. (2018) indicated that the pH could influence the development of BSFL by affecting the performance of larval gut microbes secreted enzymes (e.g. amylases, lipases and proteases). Especially, the activity of proteases enhances at a
+pH of 8.0, compared to strongly acidic pH values. BSFL shift the pH to a more suitable pH condition, which could increase the protein availability, thus positively influencing the larval growth. The BSFL treatment of waste is a complex biological system affected by many elements. Further research is still needed concerning the relationship between BSFL and the community dynamic changes within a substrate, as these factors most likely play a vital role in the growth of BSFL and FW bioconversion.
+3.2. Changes in the chemical properties of the substrate during black soldier fly larvae bioconversion process
+The changes in NHþ 4-N content as a function of time for different nominal pH values are shown in Fig. 2a. Only small amounts of NHþ 4-N were detected in all treatments at the early stages during the acidification condition. As the experiment continued, organic N is biodegraded to inorganic N via ammonification, resulting into a continually increasing in NHþ 4-N content. At the end of BSFL treatments (10 days), the content of NHþ 4-N for pH 3.0, 5.0, 7.0, 9.0 and 11.0 treatments reached
+2.14, 6.04, 5.60, 5.26, and 3.73 g kg 1, respectively. The results showed that the initial pH values had a negative correlation with NHþ 4-N concentration (the higher the pH, the lower the concentration), except for the case of pH 3.0. It is clear that higher pH values led to the transformation of more NHþ 4-N to NH3-N, while a low pH value led to the formation of NHþ 4 (Li et al., 2012). However, the NHþ 4-N concentration in treatments with pH 3.0 was much lower than for the other four cases, possibly because the microbes postponed the mineralisation and ammonification of organic N under highly acidic conditions. Similar trends in the change of nitrate-N (NO- 3-N) concentration were observed for pH 5.0–11.0 treatments (Fig. 2b). The NO- 3-N concentration stayed relatively stable during the early stage (0–5 days) and then increased rapidly. The final NO- 3-N contents were 0.07, 0.34, 0.33,
+0.37, 0.38 g kg 1 for nominal pH ranging from 3.0 to 11.0, respectively, showing a good nitrification effect in BSFL treatment process. Organic N was firstly converted into NHþ 4 and subsequently oxidised into NO- 3 via nitrification in the presence of O2 (S�anchez et al., 2015). The initially low concentrations of NO- 3-N might be ascribed to the low concentrations of NHþ 4. FW normally has high moisture content and compact structure that tends to agglomerate the media, thus possible reducing the free air space and creating anaerobic regions (Cerda et al., 2018). Nevertheless, it must be taken into account the facilitated air diffusion into the substrate by larvae movement and digestion, which destroy the anaerobic regions and also improved the process of ammonification and nitrification. Previously studies also observed that the movement of earthworms had the similar effect in vermicomposting (Lv et al., 2018). As the NHþ 4 content increased, NHþ 4-N was transformed into NO- 3-N by nitrobacteria, but at the same time, the anaerobic regions were destroyed, preventing the production of N2O from the anaerobic
+Fig. 1. Dynamics of pH (a) and daily average larval wet weight (b).
+W. Pang et al.
+
+
+Journal of Environmental Management 260 (2020) 110066
+4
+denitrification of NO- 3. Hence, high accumulation of NO- 3-N was observed in the late stage and the N2O emission profile also supports this result (see below in this article). During the whole experiment, a slow and fluctuating increasing trend of DOC concentration was observed (Fig. 2c), possibly because the organic C of raw material is decomposed into carbohydrates, organic acids and other DOC, then utilised by BSFL for conversion and reserve. The results indicated that the degradation rate of organic materials was higher than the utilisation rate by BSFL during the treatment, causing an overall increase in DOC content till the end of the bioconversion process in all runs, and suggesting that BSFL could accelerate the decomposition of organic matter.
+3.3. Carbon dioxide emissions during black soldier fly larvae bioconversion process
+CO2 emissions from the biodegradation process of organic matter are usually not considered in the evaluation of global warming potential due to the biogenic origin of CO2 (Sa�nchez et al., 2015). However, it is still important to quantify CO2 emissions to better understand the C cycling in BSFL bio-treatment. CO2 is the main gas produced during the treating
+process which could intuitively reflect the metabolic activities of BSFL and microorganisms (Wang et al., 2018). The CO2 emission rate under all the treatments first increased, followed by a decreasing trend, and finally became relatively stable from the 6th day on (Fig. 3a), indicating the stabilisation of the substrate by BSFL treatment (Lv et al., 2018). The peaks of CO2 emissions under pH 3.0, 5.0, 7.0, 9.0 and 11.0 treatments were 33.84 (1st day), 31.64 (1st day), 33.73 (2nd day), 26.56 (1st day)
+and 15.91 (2nd day) g kg 1 day 1, respectively. Interestingly, the CO2 emissions from the pH 11.0 treatment on the first day were very low, probably because most of the CO2 formed carbonate under high pH. BSFL and microbial activities are the main reason for the production of CO2. The maximum cumulative CO2 emission in this study was
+observed under pH 5.0 treatment (161.11 g kg 1) while lower CO2
+emissions were recorded from pH 3.0 (88.28 g kg 1) and 11.0 (88.15 g
+kg 1) treatment (Fig. 3b). The cumulative CO2 emissions in pH 5.0, 7.0, 9.0 and 11.0 treatments were significantly different, showing a gradually decreasing trend with increasing pH, which may be attributed to the promoted transformation of CO2 to carbonate at higher pH of the substrate. It is noteworthy that the cumulative CO2 emissions in pH 3.0 treatment were not in conformity with the above trend, possibly because high acidity was unfavourable for the activities of BSFL and microbes.
+Fig. 2. Changes of NHþ 4-N (a), NO- 3-N (b) and DOC (c) during the bioconversion process of all treatments.
+Fig. 3. Changes of emission (a) and cumulative emission (b) of CO2 during BSFL bioconversion process.
+W. Pang et al.
+
+
+Journal of Environmental Management 260 (2020) 110066
+5
+3.4. Ammonia emissions during black soldier fly larvae bioconversion process
+Although NH3 is not considered as GHG, it is included in many environmental studies because it becomes essential in terms of agricultural value of the end-product and protection of ecosystems (S�anchez et al., 2015). Fig. 4a presents the results of the dynamic changes of NH3 emissions under different treatments. Initially, NH3 emissions were very low in all treatments, likely because of the low concentration of NHþ 4. After the 3rd day, NH3 emissions in pH 7.0, 9.0 and 11.0 treatments sharply increased, in accordance with the changes in NHþ 4 concentrations (Fig. 2a). The maximum NH3 emissions were 0.22, 0.34 and
+0.45 g kg 1 day 1 for the pH 7.0, 9.0 and 11.0 treatments, respectively. The NH3 emissions pattern obtained in this study was different from the case of the thermophilic composting process (Wang et al., 2018; Luo et al., 2014), where an initial emission peak is generally found in the biodegradation process, as the labile fraction of organic N source is transformed into inorganic N in a short period of time, such as NHþ 4. Furthermore, the NH3 emission curve for pH 3.0 and 5.0 treatments was relatively stable, and the emissions remained at a relatively low level throughout the whole composting time. Interestingly, unlike in the pH 3.0 treatment, in the pH 5.0 treatment the NHþ 4 content was high (Fig. 2a), likely due to the presence of various organic acids that could react with NHþ 4 so preventing the free NH3 production. A similar phenomenon was recently reported by Ermolaev et al. (2019), who found that almost no NH3 emissions from BSFL composting with a low pH (initial pH 4.42) were detected. The cumulative emission trends of NH3 were similar to the NH3 emission rate (Fig. 4b). It is reported that relevant driving forces for NH3 emissions were moisture, temperature, pH, NHþ 4 concentration and aeration (Nigussie et al., 2016). With the increase of pH, the cumulative
+emissions of NH3 were 0.15, 0.29, 1.05, 1.68 and 1.55 g kg 1 for the treatments with pH from 3.0 to 11.0, respectively. Obviously, a high pH resulted in a shift of the NHþ 4↔NH3 equilibrium to NH3. On the other hand, low pH leads to slow degradation of organic N compounds by microorganisms, and the presence of BSFL could be another reason for the observed differences in NH3 emissions. Compared with composting in other research (Table 2), the BSFL biowaste treatment showed more potential in mitigating NH3 emissions. In the other researches listed in Table 2, it is reminded that composting is a thermophilic process at high temperature (>45 �C), which speeds up NH3 volatilisation (Nigussie et al., 2016), while the BSFL biowaste treatment is a mesophilic process. Continuous turning of the substrate by BSFL and subsequent higher air circulation both keep the waste temperature relatively constant (about 30 �C), therefore partly reducing the NH3 volatilisation. Chen et al. (2019) also indicate that the continuous movement of BSFL could lead to
+decreases in temperature in small-scale BSFL composting, and thus to the retention of N in the residues.
+3.5. Methane and nitrous oxide emissions during black soldier fly larvae bioconversion process
+Data illustrated by Fig. 5a and b presents the daily and cumulative CH4 emissions during the whole treatment period. Overall, the CH4 emission rate peaked within days 4–7 and then decreased for all treatments. Moreover, the CH4 cumulative emission is 0.20, 0.78, 1.19, 2.62
+and 1.34 mg kg 1 in pH 3.0, 5.0, 7.0, 9.0 and 11.0 treatments, respectively. Compared with the results from previous studies (Table 3), the CH4 emissions in the BSFL treatment were much lower than those from conventional composting. The N2O emission profiles are shown in Fig. 5c. They were mostly found on the first day except for pH 3.0 treatment, which might be attributed to feeding effects (Nigussie et al., 2016). The N2O cumulative emissions are in trace amounts in all the treatments during the whole process (Fig. 5d). Furthermore, no statistically significant differences in CH4 and N2O cumulative emissions were observed among all the treatments (P > 0.05). The CH4 and N2O emission patterns observed in this study were consistent with the recent findings of Mertenat et al. (2019). CH4 and N2O emissions are directly related to the presence of anaerobic conditions during composting. Denitrification, which is traditionally considered as the main source of N2O, is an anoxic process carried out by denitrifiers (Sa�nchez et al., 2015), while the CH4 production is attributed to methanogens that deoxidise CO2/H2 and acetic acid under anaerobic conditions (Wang et al., 2018). Hence, according to the above analysis, the low emissions of CH4 and N2O might be ascribed to two reasons. Firstly, BSFL improve air circulation in the FW through continuous turning of substrate, and reduce the abundance of methanogens and denitrifiers, therefore preventing the generation of CH4 and N2O (Lv et al., 2018). Secondly, Jeon et al. (2011) reported that the bacterial communities in the gut of BSFL have not been found to be associated with produced CH4 and N2O. In this study, it can be inferred that BSFL themselves hardly produce any CH4 and N2O.
+Fig. 4. Changes of emission (a) and cumulative emission (b) of NH3 during BSFL bioconversion process.
+Table 2
+NH3 emissions from BSF treatment and composting.
+Treatment NH3 (g/kg) References
+BSFL 0.15–1.68 Current study
+Composting ~3.16a Komilis and Ham, 2006
+Composting ~2.37a Yang et al. (2013)
+Composting ~2.61a Zhang et al. (2016)
+a Cumulative emissions during the first 10 days of composting, dry weight basis. ~: approximately.
+W. Pang et al.
+
+
+Journal of Environmental Management 260 (2020) 110066
+6
+3.6. Greenhouse gas emissions and carbon and nitrogen balance
+The present study evaluated the effectiveness of BSFL biowaste treatment in reducing GHG emissions using as variable the pH value. Data of GHG emissions are presented in Table 3. CO2 is a significant GHG in BSFL biowaste treatment processes, but its contribution to the greenhouse effect should be excluded since this C has a biogenic origin (IPCC, 2007). Hence, only CH4 and N2O were taken into consideration when calculating the total GHG emissions. Taking the global warming potential of CO2 as 1, that of CH4 and N2O was 25 and 298, respectively.
+The results were compared with GHG emissions in the first 10 days from open composting reported in published studies (Table 3). During the whole process, the total GHG emissions from the five treatments here
+scrutinised ranged from 0.09 to 0.50 kg CO2-eq t 1 DM, i.e. much lower than those from aerobic composting. This should be of great concern since CH4 and N2O have great global warming potentials. Therefore, in these terms, the BSFL biowaste treatment should be strongly suggested as a preferred method to dispose FW. Table 4 shows the data of C and N balances. The pH value plays a crucial role in the C and N bioconversion. The cumulative C loss through CO2 emissions accounted for 8.01–12.98% of the initial TOC, respectively; while CH4 for all treatments accounted for only <0.01% in TOC loss. For all treatments, the loss of total C ranged from 10.12 to 24.38% of the initial TOC. Perednia et al. (2017) observed a higher level (28.54%) of CO2-C and CH4-C loss when BSFL were used to treat rabbit manure. As a major pathway of the total loss of gaseous N, NH3 emissions accounted for 0.51–4.31% of the initial TN. Although the NH3 loss was enhanced at higher pH values, the degree of enhancement was relatively lower compared with the TN in the raw materials. Similarly to the CH4 emissions, only <0.01% of the initial TN was emitted in the form of N2O in all treatments. The TN loss for all treatments ranged from 2.12% to 29.91% of the initial TN in raw materials. Furthermore, in absence of treatment, the C and N in the substrate would be emitted into the atmosphere by microbial decomposition so causing environmental pollution, while BSFL can recycle 1.95–13.41% and 5.40–18.93% of the C and N in the substrate into stable and readily harvestable biomass such as fat and protein. These data demonstrates that high pH value of the substrate effectively enhanced BSFL in recycling C and N. A potential explanation might be that increasing the initial pH of the substrate leads to a faster organic matter degradation, so that the available organic C and N in the materials can be quickly released and then converted into biomass of larvae at a higher degree. A previous study demonstrated that better buffering capacity (pH) of substrate promotes the utilisation by larvae of material difficult to be
+Fig. 5. Changes of CH4 (a), cumulative CH4 (b), N2O (c) and cumulative N2O (d) emissions during BSFL bioconversion process.
+Table 3
+Total GHG emissions from BSFL treatment and composting.
+Treatment CO2 (g/ kg)
+CH4 (mg/kg)
+N2O (mg/kg)
+GHGs emissions (kg
+CO2-eq t 1 DM)
+References
+BSFL, pH 3 88.28 � 8.09
+0.20 � 0.08
+1.65 � 0.27
+0.50 � 0.07 Current study BSFL, pH 5 161.11 � 3.87
+0.78 � 0.34
+0.52 � 0.05
+0.17 � 0.04 Current study BSFL, pH 7 144.61 � 9.51
+1.19 � 0.18
+0.84 � 0.02
+0.28 � 0.11 Current study BSFL, pH 9 130.18 � 13.21
+2.62 � 0.33
+0.93 � 0.08
+0.34 � 0.14 Current study BSFL, pH 11
+88.15 � 9.90
+1.34 � 0.16
+0.20 � 0.02
+0.09 � 0.03 Current study
+Composting – ~1500a ~1200a ~395.10a Yang et al. (2019)
+Composting – ~790a ~124a ~56.70a Yang et al. (2015)
+GHG: greenhouse gas; DM: dry matter. : not reported; ~: approximately.
+a Cumulative emissions during the first 10 days of composting, dry weight basis.
+W. Pang et al.
+
+
+Journal of Environmental Management 260 (2020) 110066
+7
+decomposed (Rehman et al., 2017). Therefore, the BSFL bioconversion to some extent can reduce C and N loss, although this may not necessarily be a definite conclusion. In addition, the residue still contains 66.11–87.93% of C and 52.12–92.48% of N. These valuable nutrients can further generate bioenergy (Win et al., 2018) or used as bio-fertilisers (Rehman et al., 2017). Based on C and N mass balance, there might be some unaccounted C (2.10–12.52%) and N (1.61–25.60%) loss during the treatment process, possibly because the sampling frequency and testing items were inadequate for capturing all C and N, particularly from BSFL treatment where intensive decomposition occurs. However, the overall C and N recovery rates appear to be acceptable according to the reports of Chowdhury et al. (2014) and Nigussie et al. (2016). Thus, based on the conversion efficiency of C and N from waste into BSFL biomass and on the GHG emission mitigation potential, increasing the initial pH of the substrate is recommended for the bio-conversion of FW by BSFL.
+4. Conclusions
+This study demonstrates that increasing the pH of the initial substrate effectively accelerates the BSFL growth and decreases CO2 emissions, but simultaneously increases NH3 emissions. The BSFL biotreatment of FW could reduce CH4, N2O and NH3 emissions, when compared with traditional composting methods. BSFL can be harvested and preserved, providing a short-term means of C and N sequestration, rather than allowing them to be directly decomposed by microbes and released in the form of gases. Moreover, BSFL may affect the physicochemical characteristics of the substrate that control the gasproducing processes, and thus indirectly reduce NH3 and GHG emissions. Various analyses indicate that pH 3.0 treatment has no application value in real practice, although it resulted in very low C and N loss. Overall, increasing the pH of the FW could be beneficial to the recycling of C and N from FW to BSFL, and keeps the environmental footprint low. Future research is needed to explore the influences of pH on microbial flora in BSFL bioconversion system.
+Credit author statement
+Wangcheng Pang: Designed experiments, Carried out experiments, Writing- Original draft preparation. Dejia Hou: Designed experiments, Carried out experiments, Writing-Reviewing and Editing. Jiangshan Chen: Carried out experiments, Analysed data. Elhosseny E. Nowar: Commentary and revision. Zongtian Li: Commentary and revision. Jeffery K. Tomberlin: Commentary and revision. Ziniu Yu: Financial support for the project leading to this study. Ronggui Hu: Financial support for the project leading to this study. Qing Li: Designed experiments, Management and coordination responsibility for the research activity planning and execution. Shucai Wang: Management and coordination responsibility for the research activity planning and execution.
+Declaration of competing interest
+The authors declare that we have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This study was financially supported by the National Key Research and Development Program of China (Project No. 2018YFD0500203). Fundamental Research Funds for the Central Universities (Project No. 2662017JC045 and Project No. 2662017JC026).
+References
+Avagyan, A.B., 2017. Environmental building policy by the use of microalgae and decreasing of risks for Canadian oil sand sector development. Environ. Sci. Pollut. Res. 24 (25), 20241–20253. Avagyan, A.B., 2018. Algae to Energy and Sustainable Development. Technologies, Resources, Economics and System Analyses. New design of global environmental policy and live conserve industry. Amazon. ISBN-13: 978-1718722552, ISBN-10: 1718722559, ASIN: B07DFQBFFD. Avagyan, A.B., 2013. Theory of global sustainable development based on microalgae in bio and industrial cycles, management-changing decisions in areas of climate change and waste management. J. Sustain. Bioenergy Syst. 3, 287–297. AAFCO, 2016. Annual Meeting Agenda and Committee Reports. Association of American Feed Control Officials, Pittsburgh, PA, USA, p. 112. Chan, M.T., Selvam, A., Wong, J.W.C., 2016. Reducing nitrogen loss and salinity during ‘struvite’ food waste composting by zeolite amendment. Bioresour. Technol. 200, 838–844. Chowdhury, M.A., Neergaard, A.D., Jensen, L.S., 2014. Potential of aeration flow rate and bio-char addition to reduce greenhouse gas and ammonia emissions during manure composting. Chemosphere 97, 16–25. Cutrignelli, M.I., Messina, M., Tulli, F., Randazzo, B., Olivotto, I., Gasco, L., Loponte, R., Bovera, F., 2018. Evaluation of an insect meal of the Black Soldier Fly (Hermetia illucens) as soybean substitute: intestinal morphometry, enzymatic and microbial activity in laying hens. Res. Vet. Sci. 117, 209–215. Cerda, A., Artola, A., Font, X., Barrena, R., Gea, T., S�anchez, A., 2018. Composting of food wastes: status and challenges. Bioresour. Technol. 248, 57–67. Chen, J., Hou, D., Pang, W., Nowar, E.E., Tomberlin, J.K., Hu, R., Chen, H., Xie, J., Zhang, J., Yu, Z., Li, Q., 2019. Effect of moisture content on greenhouse gas and NH3 emissions from pig manure converted by black soldier fly. Sci. Total Environ. https://doi.org/10.1016/j.scitotenv.2019.133840. Ermolaev, E., Lalander, C., Vinnerås, B., 2019. Greenhouse gas emissions from smallscale fly larvae composting with Hermetia illucens. Waste Manag. 96 (1), 65–74. FAO, Food and Agricultural Organization of the United Nations, 2014. Food Wastage Footprint Full-Cost Accounting. Rome. Fersiz, S., Veli, S., 2015. Aerobic decomposition of food waste with different ratios of solids at ambient temperatures and evaluation of CO2 emissions. J. Mater. Cycles Waste Manag. 17 (4), 748–755. Huang, K., Li, F.S., Wei, Y.F., Fu, X.Y., Chen, X.M., 2014. Effects of earthworms on physicochemical properties and microbial profiles during vermicomposting of fresh fruit and vegetable wastes. Bioresour. Technol. 170, 45–52. IPCC, 2007. Climate Change 2007. Contribution of Working Groups I, II and III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change, vol. 366, p. 104. Switzerland, Geneva. Jeon, H., Park, S., Choi, J., Jeong, G., Lee, S.B., Choi, Y., Lee, S.J., 2011. The intestinal bacterial community in the food waste-reducing larvae of Hermetia illucens. Curr. Microbiol. 62 (5), 1390–1399. Koyama, M., Nagao, N., Syukri, F., Rahim, A.A., Kamarudin, M.S., Toda, T., Mitsuhashi, T., Nakasaki, K., 2018. Effect of temperature on thermophilic
+Table 4
+Carbon and nitrogen balance in BSFL bio-treatments.
+Treatments Carbon balancea (%) Nitrogen balanceb (%)
+CO2-C CH4-C Other C loss Total C loss Larva-C Residue-C NH3-N N2O-N Other N loss Total N loss Larva-N Residue-N
+pH 3.0 8.02� 1.62
+<0.01 2.10� 0.88
+10.12� 2.15
+1.95� 0.14
+87.93 � 4 .23
+0.51� 0.21
+<0.01 1.61� 0.24
+2.12� 0.18
+5.40� 1.23
+92.48� 5.37 pH 5.0 12.98� 2.37
+<0.01 10.31� 2.31
+23.29� 4.38
+7.89� 1.83
+69.82� 3.22
+0.85� 0.19
+<0.01 2.63� 0.96
+3.48� 0.64
+15.72� 3.15
+80.80� 5.26 pH 7.0 11.86� 0.78
+<0.01 12.52� 1.39
+24.38� 4.02
+9.51� 2.22
+66.11� 4.14
+3.02� 0.89
+<0.01 16.23� 3.28
+19.25� 3.24
+16.00� 2.01
+64.75� 4.85 pH 9.0 10.87� 1.12
+<0.01 8.64� 2.03
+19.51� 3.87
+9.28� 1.15
+71.21� 2.36
+4.31� 1.09
+<0.01 25.60� 2.79
+29.91� 3.56
+15.90� 2.59
+54.19� 4.16 pH 11.0 8.01� 0.89
+<0.01 7.03� 0.76
+15.04� 3.54
+13.41� 2.77
+71.55� 3.69
+4.27� 1.30
+<0.01 24.68� 3.85
+28.95� 2.55
+18.93� 1.87
+52.12� 4.28
+a, b Percentages of initial total organic carbon and total nitrogen of raw materials, respectively, dry weight basis.
+W. Pang et al.
+
+
+Journal of Environmental Management 260 (2020) 110066
+8
+composting of aquaculture sludge: NH3, recovery, nitrogen mass balance, and microbial community dynamics. Bioresour. Technol. 265, 207–213. Komilis, D.P., Ham, R.K., 2006. Carbon dioxide and ammonia emissions during composting of mixed paper, yard waste and food waste. Waste Manag. 26 (1), 62–70. Lee, S.H., Choi, K.I., Osako, M., Dong, J.I., 2007. Evaluation of environmental burdens caused by changes of food waste management systems in Seoul, Korea. Sci. Total Environ. 387 (1), 42–53. Li, R.H., Wang, J.J., Zhang, Z.Q., Shen, F., Zhang, G.J., Qin, R., Li, X.L., Xiao, R., 2012. Nutrient transformations during composting of pig manure with bentonite. Bioresour. Technol. 121, 362–368. Lv, B.Y., Zhang, D., Cui, Y.X., Yin, F., 2018. Effects of C/N ratio and earthworms on greenhouse gas emissions during vermicomposting of sewage sludge. Bioresour. Technol. 268, 408–414. Luo, W.H., Yuan, J., Luo, Y.M., Li, G.X., Nghiem, L.D., Price, W.E., 2014. Effects of mixing and covering with mature compost on gaseous emissions during composting. Chemosphere 117, 14–19. Mertenat, A., Diener, S., Zurbrugg, C., 2019. Black Soldier Fly biowaste treatmentAssessment of global warming potential. Waste Manag. 84, 173–181. Ma, J.H., Lei, Y.Y., Rehman, K.U., Yu, Z.N., Zhang, J.B., Li, W., Li, Q., Tomberlin, J.K., Zheng, L.Y., 2018. Dynamic effects of initial pH of substrate on biological growth and metamorphosis of black soldier fly (Diptera: Stratiomyidae). Environ. Entomol. 47 (1), 159–165. Meneguz, M., Gasco, L., Tomberlin, J.K., 2018. Impact of pH and feeding system on black soldier fly (Hermetia illucens, L; Diptera: Stratiomyidae) larval development. PLoS One 13 (8), e0202591. Nigussie, A., Kuyper, T.W., Bruun, S., Neergaard, A.D., 2016. Vermicomposting as a technology for reducing nitrogen losses and greenhouse gas emissions from smallscale composting. J. Clean. Prod. 139 (15), 429–439. Perednia, D.A., Anderson, J., Rice, A., 2017. A Comparison of the greenhouse gas production of black soldier fly larvae versus aerobic microbial decomposition of an organic feed material. Res. Rev. J. Ecol. Environ. Sci. 5, 10–16. Rehman, K.U., Cai, M.M., Xiao, X.P., Zheng, L.Y., Wang, H., Soomro, A.A., Zhou, Y.S., Li, W., Yu, Z.N., Zhang, J.B., 2017. Cellulose decomposition and larval biomass production from the co-digestion of dairy manure and chicken manure by minilivestock (Hermetia illucens, L.). J. Environ. Manag. 196, 458–465. Stuart, T., 2009. Waste: Uncovering the Global Food Scandal. WW Norton & Company, New York, NY, USA. Salomone, R., Saija, G., Mondello, G., Giannetto, A., Fasulo, S., Savastano, D., 2017. Environmental impact of food waste bioconversion by insects: application of Life Cycle Assessment to process using Hermetia illucens. J. Clean. Prod. 140, 890–905.
+S�anchez, A., Artola, A., Font, X., Gea, T., Barrena, R., Gabriel, D., S�anchez-Monedero, M. A., Roig, A., Cayuela, A.R.M.L., Mondini, C., 2015. Greenhouse gas emissions from organic waste composting. Environ. Chem. Lett. 13 (3), 223–238. Song, Y., Song, C.C., Li, Y.C., Hou, C.C., Yang, G.S., Zhu, X.Y., 2013. Short-term effects of nitrogen addition and vegetation removal on soil chemical and biological properties in a freshwater marsh in Sanjiang Plain, Northeast China. Catena 104, 265–271. TMECC, 2002. Test Methods for the Examination of Composts and Composting. The US Composting Council. US Government Printing Office. http://tmecc.org/tmecc/i ndex.html. Wang, Q., Awasthi, M.K., Ren, X.N., Zhao, J.C., Li, R.H., Wang, Z., Wang, M.J., Chen, H. Y., Zhang, Z.Q., 2018. Combining biochar, zeolite and wood vinegar for composting of pig manure: the effect on greenhouse gas emission and nitrogen conservation. Waste Manag. 74, 221–230. Wu, Y.P., Shaaban, M., Peng, Q.A., Zhou, A.Q., Hu, R.G., 2018. Impacts of earthworm activity on the fate of straw carbon in soil: a microcosm experiment. Environ. Sci. Pollut. Res. 25 (11), 11054–11062. Win, S.S., Ebner, J.H., Brownell, S.A., Pagano, S.S., Cruz-Dilon�e, P., Trabold, T.A., 2018. Anaerobic digestion of black solider fly larvae (BSFL) biomass as part of an integrated biorefinery. Renew. Energy 127, 705–712. Yang, F., Li, G.X., Shi, H., Wang, Y.M., 2015. Effects of phosphogypsum and superphosphate on compost maturity and gaseous emissions during kitchen waste composting. Waste Manag. 36, 70–76. Yang, F., Li, G.X., Yang, Q.Y., Luo, W.H., 2013. Effect of bulking agents on maturity and gaseous emissions during kitchen waste composting. Chemosphere 93 (7), 1393–1399. Yang, F., Li, Y., Han, Y.H., Qian, W.T., Li, G.X., Luo, W.H., 2019. Performance of mature compost to control gaseous emissions in kitchen waste composting. Sci. Total Environ. 657 (20), 262–269. Zhu, F.X., Yao, Y.L., Wang, S.J., Du, R.G., Wang, W.P., Chen, X.Y., Hong, C.L., Li, B., Xue, Z.Y., Yang, H.Q., 2015. Housefly maggot-treated composting as sustainable option for pig manure management. Waste Manag. 35, 62–67. Zheng, L.Y., Hou, Y.F., Li, W., Yang, S., Li, Q., Yu, Z.N., 2012. Biodiesel production from rice straw and restaurant waste employing black soldier fly assisted by microbes. Energy 47 (1), 225–229. Zhang, H.Y., Li, G.X., Gu, J., Wang, G.Q., Li, Y.Y., Zhang, D.F., 2016. Influence of aeration on volatile sulfur compounds (VSCs) and NH3 emissions during aerobic composting of kitchen waste. Waste Manag. 58, 369–375.
+W. Pang et al.

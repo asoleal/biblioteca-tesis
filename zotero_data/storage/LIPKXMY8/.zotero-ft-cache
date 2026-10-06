@@ -1,0 +1,610 @@
+1
+1 Bioconversion of organic wastes into biodiesel and animal feed
+2 via insect farming
+3
+4 K.C. Surendraa, Robert Olivierb, Jeffery K. Tomberlinc, Rajesh Jhad, and Samir K. Khanala*
+5
+6 aDepartment of Molecular Biosciences and Bioengineering, University of Hawai‘i at
+7 Mānoa, Honolulu, HI 96822, USA (E-mail: surendra@hawaii.edu; khanal@hawaii.edu)
+8 bProta Culture, LLC, Honolulu, HI, USA (E-mail: robert@protaculture.com)
+9 cDepartment of Entomology, Texas A&M University, College Station, TX, USA (E-mail:
+10 jktomberlin@tamu.edu)
+11 dDepartment of Human Nutrition, Food and Animal Sciences, University of Hawai‘i at
+12 Mānoa, Honolulu, HI 96822, USA (E-mail: rjha@hawaii.edu)
+13
+14
+15 * Author to whom all correspondence should be addressed to:
+16 E-mail: khanal@hawaii.edu
+17 Tel: +1-808-956-3812
+18 Fax: +1-808-956-3542
+© 2016 published by Elsevier. This manuscript is made available under the Elsevier user license https://www.elsevier.com/open-access/userlicense/1.0/
+Version of Record: https://www.sciencedirect.com/science/article/pii/S0960148116302063 Manuscript_790549e9cc48ba5e962911381b99250b
+
+
+2
+19 ABSTRACT
+20 Approximately one-third of all food produced for human consumption worldwide is
+21 wasted. The current waste management practices are not only costly but also have
+22 adverse impact on environment. In this study, black soldier flies (BSF) (Hermetia illucens)
+23 was grown on food wastes to produce fat and protein-rich BSF prepupae as a novel
+24 strategy for efficient organic waste management. The lipid content in BSF prepupae was
+25 characterized for fatty acids profile. The whole BSF prepupae, pressed cake, and meal
+26 were analyzed for important animal feed characteristics. BSF-derived oil has high
+27 concentration of medium chain saturated fatty acids (67% total fatty acids) and low
+28 concentration of polyunsaturated fatty acids (13% total fatty acids), which makes it
+29 potentially an ideal substrate for producing high quality biodiesel. BSF (prepupae, pressed
+30 cake, and meal) has feed value comparable to commercial feed sources. Thus, the
+31 bioconversion of organic waste into BSF prepupae has significant potential in generating
+32 high-value products with simultaneous waste valorization.
+33
+34 KEYWORDS: Organic wastes; insect farming; black soldier fly; biodiesel; animal feed
+35
+36
+
+
+3
+37 1 Introduction
+38 Meeting an ever increasing demand for the food, feed, and fuel and managing
+39 waste, especially the organic waste, has become a major global challenge. The situation is
+40 projected to be aggravated with the rapidly increasing global population, which is
+41 estimated to increase from 7.3 billion in 2015 to 9.7 billion in 2050 [1]. Currently, about
+42 one-third of food produced, which is equivalent to 1.3 billion metric tons is wasted or lost
+43 and has significant environmental (i.e., greenhouse gas (GHGs) emissions) and economic
+44 footprints [2]. For example, in India alone, the postharvest loss of agricultural produce is
+45 estimated to be about 92 million tons (Mton) per year [3]. Without considering the land
+46 use change, the annual GHGs emissions equivalent of food wastage is estimated to be 3.3
+47 billion metric tons of CO2 equivalent GHGs [2]. Similarly, the economic footprint of the
+48 food produced but not consumed accounts for the loss of nearly $750 billion per year [2].
+49 Additionally, waste management, especially in developing and underdeveloped countries,
+50 has become a serious issue. The management of organic wastes, among different wastes,
+51 is more challenging due to its bulky nature and rapid degradability [4]. The current organic
+52 wastes management practices, namely land fill and waste treatment/stabilization via
+53 anaerobic digestion and composting to meet environmental regulations, are not only
+54 costly but also have adverse impacts on environment such as ground and surface water
+55 contaminations and GHGs emissions among others [4, 5].
+56 On the other hand, both rapid increase in global population and associated
+57 affluence are believed to have caused significant increase in demand for food, feed, and
+
+
+4
+58 fuel, and waste generation [5]. For example, global energy demand is estimated to
+59 increase from 524 Quadrillion Btu (QBtu) in 2010 to 820 QBtu by 2040, a 56% increase
+60 compared to 2010 [6]. Similarly, the global demands for food and animal products are
+61 projected to increase by 70-100% [7] and 50-70% [8], respectively, by 2050. To cope up
+62 with the demand for animal products, a substantial increase in nutritious animal
+63 feedstuffs is needed. On one hand, the production of conventional feedstuffs such as
+64 soybean meal is reported as the major contributor to land occupation, climate change,
+65 and water and energy consumption [9, 10]. Additionally, such conventional animal
+66 feedstuffs are not only limited in supply but also are becoming more expensive over the
+67 years. On the other hand, the growing concern of climate change, which is expected to
+68 bring extreme climate variability (e.g., long drought, heavy winter storm, and occurrence
+69 of frequent floods among others), the situation is likely to aggravate further the food
+70 security situation due to its impact on agriculture-based food and feed production
+71 systems [11]. Moreover, there is already a strong competition for resources such as food,
+72 feed, and biofuel productions, and the competition is projected to be even fiercer with
+73 increased demand for food, feed, and fuel. Thus, there is a pressing need for identifying
+74 and exploring the potential of alternative non-conventional sources of food, feed, and
+75 fuel, which are economically viable, environmentally friendly, and socially acceptable.
+76 Black soldier fly (BSF) (Hermetia illucens), a detritivorous insect belonging to order
+77 Diptera and family Stratiomyidae, is native to tropical, subtropical, and warm temperate
+78 zone of America [12]. The insect is now distributed, due to global trade and business, in
+
+
+5
+79 tropical to warm temperate regions in Europe [13], North [14] and South America,
+80 Australia [15], and Asia [16, 17]. Due to its widespread distribution and ease with which it
+81 can be maintained in a colony [14], there is substantial global interest in the mass
+82 production of the BSF as a means to produce protein [15].
+83 The BSF lifecycle consists of four stages, namely; egg, larvae, pupae, and adult.
+84 Adults typically mate for two days after emergence [18]. Females lay a single clutch of
+85 eggs for two days after mating [18] and resulting eggs hatch in approximately four days
+86 [12]. Within natural environments (e.g., livestock operations), eggs are deposited in cracks
+87 and crevices near to food sources [19]. Larvae pass through five instars. Larvae are quite
+88 omnivorous, as they feed on a variety of materials ranging from animal [20] and human
+89 feces [21], kitchen waste [22] to vertebrate remains (e.g., decomposing swine carcasses)
+90 [23]. Depending on the size of the larvae, type of the substrate available, and
+91 environmental conditions (e.g., moisture, temperature, and air supply), the larvae
+92 consume from 25-500 mg of organic matter per larva per day [24]. Similarly, depending
+93 on the substrate type, the larvae are reported to reduce the waste by about 39% (pig
+94 manure) [25] and 50% (chicken manure) [26] to 68% (municipal organic waste) [27] and
+95 have a food conversion ratio (FCR) of about 10 to 15 [25, 26, 27]. The larval stage is
+96 usually 14 days or longer depending on availability of food [12], and appropriate
+97 environmental conditions [28, 29]. During the later larval stage; the stage prior to
+98 pupation termed as prepupae [26], larvae get rid of their digestive track and migrate away
+99 from their food sources in search of dry and protected place to pupate [26]. Since adults
+
+
+6
+100 are non-feeding, BSF larvae consume organic matter as much as possible and store fat
+101 and protein in their body to support their metabolism during pupal and adult stages [25].
+102 By using a specially designed bioreactor, the typical migrating behavior of prepupae can
+103 be exploited for self-harvesting of prepupae [26] for extracting fat and protein for value
+104 added products generation. The pupation stage usually lasts for two weeks under ideal
+105 environmental conditions [12, 30, 31].
+106 In the context of growing demand for food, feed, and fuel, as well as a need for
+107 managing organic wastes, the use of insect, to efficiently convert organic wastes into fuel,
+108 food, and feed appears to be innovative and promising. Thus, this study aims to farm a
+109 unique insect, the BSF on such organic waste as a novel strategy in managing organic
+110 wastes and producing high-value fat- and protein-rich insect biomass. Thereafter, the
+111 produced fat- and protein-rich insect biomass, in downstream processing, can be
+112 fractionated into fat (i.e., raw material for biodiesel production) and protein-rich insect
+113 meal (for animal feed applications). The specific objectives of this study were to (i)
+114 characterize fatty acids profile of the insect fat as a potential substrate for biodiesel
+115 production, and (ii) analyze the proximate composition and amino acids profile insect
+116 biomass and defatted insect meal for animal feed application.
+
+
+7
+117 2 Materials and methods
+118 2.1 Black soldier fly rearing and oil extraction
+119 BSF was grown in the food wastes collected from school cafeteria (Clemson
+120 University, Clemson, SC USA and Pearl City High School, Honolulu, HI USA) by using
+121 specially designed reactor for self-harvesting of prepupae. The schematic of bioconversion
+122 of food waste to biofuel and animal feed is presented in Figure 1. Harvested larvae were
+123 dried using conveyer oven (Despatch Oven Co., Minneapolis, MN USA) at 60 °C to the
+124 moisture content of around 5-8%. The dried BSF prepupae grown in Clemson University
+125 and Pearl City High School were mixed to make a composite sample. The mixed dried BSF
+126 prepupae were fractionated into crude oil and cake/meal using both mechanical and
+127 chemical means. Mechanical extraction was conducted using a lab-scale Taby Press Type
+128 20 (Skeppsta Maskin AB, Sweden). The extracted crude oil was collected, centrifuged, and
+129 the mass of the supernatant oil was recorded. The pressed cake following mechanical
+130 extraction was further chemically extracted using a Soxhlet apparatus (Ace Glass
+131 Incorporated, NJ USA) for four hours using petroleum ether as a solvent. Afterwards,
+132 solvent was removed using a rotary evaporator (Buchi, Flawil, Switzerland) at 50 °C. BSF
+133 prepupae, pressed cake, and pressed and solvent extracted meal (termed as “meal”
+134 hereafter) were sent to the Department of Aquatic Feeds and Nutrition at the Oceanic
+135 Institute (Waimanalo, HI, USA) for complete characterization (i.e. fatty acids composition
+136 and nutritional profile).
+
+
+8
+137
+138 Fig. 1. Schematic presentation of bioconversion of food waste to biofuel and
+139 animal feed
+140 2.2 Analytical methods
+141 The nutritional profile of the BSF prepupae, pressed cake, and meal were
+142 characterized following the Association of Official Analytical Chemists (AOAC) standard
+143 procedures [32] with specific methods as follows: dry matter (DM) (oven drying at 105 °C
+144 to constant weight), ash (ignition at 550 °C in an electric furnace, AOAC 942.05), crude
+145 fiber (AOAC 962.09), crude protein by determining N by dry combustion using LECO
+146 analyzer (LECO FP-528 Nitrogen determiner, Leco Corp., St. Joseph, MI) (AOAC 976.05,
+147 crude protein = N × 6.25), crude lipid (AOAC 920.39; using ether extraction (ASE-200
+148 apparatus), and carbohydrate by subtracting the crude protein, crude lipid and ash
+149 contents from total dry matter. Gross energy content was determined using an oxygen
+150 bomb calorimeter (Parr Bomb Calorimeter 6200, Parr Instrument Co., Moline, IL). Amino
+151 acids (both essential and non-essential) was determined using High Performance Liquid
+152 Chromatography (Agilent 1200, Agilent Technologies Inc., Santa Clara, CA) using AOAC
+153 method no 982.30 E (a,b,c). Fatty acids including EPA and DHA were analyzed using a gas
+154 chromatograph (Varian 3800 GC; Varian Analytical Instrument, Walnut Creek, CA)
+155 equipped with a flame ionization detector (AOAC 996.06;). During fatty acid profile
+
+
+9
+156 analysis, the C12:0 in BSF prepupae derived oil was determined by assigning the peak
+157 before C14:0 as a peak for C12:0 by based on literature review [33, 34, 35].
+158 2.3 Statistical analyses
+159 The experiments and sample analyses for all important parameters discussed
+160 above were performed in triplicates. The statistical analysis was conducted using
+161 Statistical Analysis System (SAS) software (SAS 9.2, SAS Institute Inc., Cary, NC USA). The
+162 statistical differences were determined by a one-way analysis of variance (ANOVA)
+163 followed by Tukey’s T-test with a threshold value (α) of 0.05.
+164 3 Results and discussion
+165 3.1 Yield and fatty acids composition of BSF derived oil
+166 The mechanical pressing of 100 g of prepupae resulted about 15-20 g of crude oil
+167 and 80-85 g of pressed cake (data not presented). The mechanical pressing extracted
+168 nearly 40% of oil content in the insect biomass. The solvent extraction of the pressed and
+169 milled BSF prepupae, however, removed about 90% of total oil content in the BSF
+170 prepupae.
+171 The low oil yield during mechanical pressing could be mainly because of the low
+172 crude fiber content (~10%) in BSF prepupae, which is not sufficient to create enough back
+173 pressure during pressing. The low oil yield during pressing could also be because of the
+174 equipment used in this study. The Taby Press Type 20 (Skeppsta Maskin AB, Sweden) used
+
+
+10
+175 in this study was a lab scale/kitchen press mainly designed for extracting oil from oil crops
+176 (usually rich in fiber content) and was not optimized for the feedstock such as insect
+177 biomass. The large scale mechanical press especially designed for extracting oil from low
+178 fiber containing feedstocks could improve the oil extraction from BSF prepupae. Further,
+179 the extraction efficiency of BSF prepupae by mechanical means could potentially be
+180 improved by co-pressing BSF prepupae with fiber rich substrates such as sunflower seeds
+181 and macadamia nuts. Since fatty acid composition varies with substrate (e.g., BSF derived
+182 oil hag high saturated fatty acids (~70%) and low in polyunsaturated fatty acids (~12%)
+183 while sunflower oil is rich in polyunsaturated fatty acids (~65%) and poor in saturated
+184 fatty acids (~10%)) (Table 1), such co-extraction could improve not only the oil extraction
+185 efficiency, but also the fatty acid profile in the extracted oil for high quality biodiesel
+186 production.
+187 3.2 Fatty acid composition
+188 The composition of the fatty acids derived from BSF is summarized in Table 2. It
+189 was found that lauric (C12:0), palmitic (C16:0), and oleic (C18:1) acids were the most
+190 dominating fatty acids in the oil derived from BSF prepupae. The relative percentage of
+191 the lauric, palmitic, and oleic acids were about 45, 14, and 12%, respectively, followed by
+192 linoleic (C16:2) (10%) and myristic (C14:0) (8%) acids. The relative concentration of the
+193 saturated, monounsaturated, and polyunsaturated fatty acids in the BSF derived oil were
+194 about 70, 15, and 13% of total fatty acids, respectively (Table 2). The relative dominance
+195 of lauric, palmitic, and oleic acids in the BSF prepupae derived oil were also reported by
+
+
+11
+196 others [33, 34, 35]. The dominance of the lauric acid in BSF prepupae derived oil is unique
+197 compared to the oil derived from the crops which is most commonly used for biodiesel
+198 production (e.g., soybean, sunflower, and palm) [36]. The relative concentration of the
+199 medium chain saturated fatty acids (C12:0 ‒ C16:0) in the BSF prepupae derived oil (67%
+200 of total fatty acids) is higher compared to the soybean (11% of total fatty acids) and palm
+201 oil (37% of total fatty acids) (Table 2). In addition, the relative concentration of
+202 unsaturated (i.e., mono- and poly-unsaturated) fatty acids in the oil derived from BSF
+203 prepupae (28% of total fatty acids) is less than in the soybean oil (85%) and palm oil
+204 (55%). The fatty acids composition of the substrate (i.e., oil) has been stated to have
+205 significant effect on the quality of the produced biodiesel [36]. The biodiesel production
+206 process from vegetable oils and animal fats has been discussed elsewhere [37, 38]. In
+207 general, high concentrations of long chain saturated fatty acids in the substrate have been
+208 reported to produce biodiesel with poor cold flow property (i.e., low cold plugging point).
+209 Similarly, the biodiesel derived from the oil rich in polyunsaturated fatty acids have been
+210 found to have poor oxidative stability, which means the low storability of the produced
+211 biodiesel [36]. Thus, the relatively high concentration of medium chain saturated fatty
+212 acids (i.e., 67%) and low concentration of the polyunsaturated fatty acids (i.e., 13%)
+213 makes the BSF prepupae derived oil potentially an ideal substrate for producing high
+214 quality biodiesel (i.e., lower viscosity and higher oxidative stability). Additionally, Li et al.
+215 [33] mentioned that the important biofuel properties, namely density, viscosity, flash
+
+
+12
+216 point, and Cetane index, of biodiesel derived from BSF larva were within the
+217 recommended range of international standard of biodiesel.
+218
+219 Table 1. Fatty acid composition of BSF prepupae-derived oil and biodiesel
+220 feedstocks (% w/w of total fatty acids) (n=3, for the BSF sample), data presented as mean
+221 ± standard deviation
+222
+223 3.3 Proximate composition BSF prepupae, pressed cake, and meal
+224 The proximate composition of the BSF prepupae, pressed cake, and meal are
+225 summarized in Table 2. There was significant (α = 0.05) difference in the crude protein,
+226 crude lipid, ash, carbohydrate, gross energy, and crude fiber content among the BSF
+227 prepupae, pressed cake, and meal. The crude protein, ash, carbohydrate, and crude fiber
+228 content were highest in the meal and lowest in BSF prepupae. The gross energy content
+229 decreased significantly (α = 0.05) with significant (α = 0.05) removal of the crude lipid
+230 followed by mechanical pressing, and mechanical pressing and solvent extraction.
+231
+232 Table 2. Proximate composition of the black soldier fly (prepupae, pressed cake,
+233 and meal) and commercial animal feed ingredients (n=3, for the fly sample), data
+234 presented as mean ± standard deviation
+
+
+13
+235
+236 The proximate composition of BSF prepupae obtained in this study was within the range
+237 of reported studies [25, 35]. The proximate composition of BSF prepupae, especially crude
+238 protein and crude fat contents, however, differs with the substrate type and growth stage
+239 (e.g., larvae, prepupae, and pupae) [25, 40]. When BSF larvae were fed with cow manure
+240 and mixture of cow manure and fish offal at different ratios, St-Hilaire et al. [40] observed
+241 variation in not only the total lipid content but also in the composition of fatty acids. The
+242 authors reported an increase in lipid content from 21% (fed with cow manure) to 30% as
+243 well as substantial enrichment (2.5–3.8% of total lipid) of omega-3 fatty acids in the
+244 prepupae fed with mixture of fish offal and cow manure. The majority of the lipid stored
+245 in the insect body is triglyceride, which is synthesized from carbohydrates, fatty acids, or
+246 proteins [41, 42]. Diglyceride is the immediate precursor for triglyceride formation. The
+247 esterification of diglyceride in the presence of diacylglycerol acyltransferase as a catalyst
+248 leads to the formation of triglyceride [42, 43]. The conversion of carbohydrates present in
+249 insect diet into lipid in the insect fat body has been reported elsewhere [42, 44, 45]. The
+250 capacity of fat body for lipid synthesis from carbohydrate is higher than for glycogen
+251 synthesis, thus insect fat body contains higher amount of lipid than glycogen [42].
+252 The crude protein content of the BSF prepupae, pressed cake, and meal were
+253 compared with the most common protein source in animal feeds such as soybean meal
+254 and fishmeal. The crude protein content of the BSF prepupae meal (63.9%) was higher
+255 than crude protein content of solvent extracted soybean meal (43.9%) and was
+
+
+14
+256 comparable with the crude protein content of fish meal (63.2%). The crude protein
+257 content of BSF prepupae pressed cake (53.1%), however, was in between crude protein
+258 content of soybean meal and fishmeal (Table 1). Though the BSF prepupae, pressed cake,
+259 and meal are treated as protein source, the energy content of the BSF prepupae, pressed
+260 cake, and meal (i.e., 5752, 5233, and 4614 Kcal/kg DM, respectively) are higher than the
+261 reference protein sources (i.e., 4257 and 4496 Kcal/kg DM for soybean meal and fish
+262 meal, respectively). The energy content of the BSF prepupae, pressed cake, and meal are
+263 comparable or higher than the most common energy source in animal diets such as corn
+264 (4508 Kcal/kg DM) and wheat (4063 Kcal/kg DM). Additionally, the crude fiber content in
+265 BSF prepupae (10.1%), pressed cake (10.9%), and meal (13.2%) were higher than the
+266 reference protein sources (6.6% in soybean meal and 0.2% in fishmeal), but were in range
+267 with reference energy sources (2.4 and 1.7% in corn and wheat, respectively). Thus BSF
+268 prepupae, pressed cake, and meal have potential to serve as both protein and energy
+269 source in animal diets.
+270 The removal of crude fat from BSF prepupae not only improved the crude protein
+271 content of the pressed cake and meal but also the removal of crude fat from high fat
+272 containing feedstuffs is essential for efficient mixing of feed ingredients while processing
+273 animal feeds. Further, the fat removal is necessary to improve the storability, especially
+274 the oxidative stability, of the feed. In addition, fat removal from the BSF prepupae is
+275 believed to increase the protein digestibility of the BSF prepupae derived feed.
+
+
+15
+276 3.4 Amino acid content
+277 Though crude protein content gives the approximation of the protein content in
+278 the feedstuffs, the amino acids composition of the protein shows the quality of the
+279 protein. The amino acid content of the BSF prepupae, pressed cake, and meal along with
+280 the reference protein sources (soybean meal and fishmeal) are summarized in Table 3.The
+281 BSF prepupae, pressed cake, and meal show the good amino acids profile with the
+282 presence of the both essential and nonessential amino acids. Similar amino acids profile
+283 was reported by Newton et al. [25] in BSF prepupae grown on swine manure.
+284
+285 Table 3. Amino acid content of BSF prepupae, pressed cake, and meal (n=3, Unit %
+286 w/w), data presented as mean ± standard deviation
+287
+288 The removal of the fat from BSF prepupae increased the concentrations of all
+289 amino acids (except cysteine) in BSF prepupae pressed cake and meal. Thus the
+290 concentration of all amino acids (except cysteine) in the BSF prepupae meal was
+291 significantly (α = 0.05) higher than both among BSF prepupae and pressed cake. The
+292 essential amino acids content in the BSF prepupae meal is comparable with the soybean
+293 meal and fishmeal. More importantly, the concentration of the lysine, methionine,
+294 tryptophan, threonine, cysteine, and valine, which are the more frequent limiting amino
+295 acids in animal diets (e.g., pig and poultry) were higher in BSF prepupae meal than the
+
+
+16
+296 solvent extracted soybean meal. The lysine, methionine, leucine, and threonine content in
+297 the BSF prepupae derived meal, however, was slightly lower compared to their respective
+298 concentration in the fishmeal. The presence of most common limiting amino acids in the
+299 concentration higher than or comparable with the commercial animal feed ingredients
+300 (i.e., soybean meal and fishmeal) makes BSF prepupae, pressed cake, and meal potentially
+301 an ideal protein source in animal diets.
+302 4 Conclusions and future recommendations
+303 Overall, BSF is capable of utilizing food wastes to support its lifecycle. BSF
+304 prepupae derived oil has a good fatty acids profile, which could potentially produce a high
+305 quality biodiesel. Additionally, BSF prepupae, pressed cake, and meal has feed value
+306 comparable to commercial feed ingredients. In-depth study, however, is required to (i)
+307 account and improve the organic waste to insect biomass conversion efficiency, (ii) trans
+308 esterify the insect oil into biodiesel and characterize thus produced biodiesel for fuel
+309 properties, and (iii) test nutrients digestibility and palatability of insect biomass before
+310 such insect biorefinery could be successfully implemented as an efficient technology for
+311 generating biofuel and animal feed with simultaneous organic waste valorization.
+312 Acknowledgements
+313 This study was funded by United States Department of Agriculture (USDA) HATCH
+314 grant from the College of Tropical Agriculture and Human Resources (CTAHR), University
+315 of Hawai‘i at Mānoa, and USDA-National Institute of Food and Agriculture (NIFA)-Small
+
+
+17
+316 Business Innovative Research (SBIR) grant. The authors would like to thank Dr. Zhi Yong
+317 Ju, Oceanic Institute of Hawaii Pacific University, Honolulu, HI for his help in analyzing
+318 samples, David Thornton, Clemson University, Clemson, SC, USA and Pearl City High
+319 School, Honolulu, HI, USA for their support in collecting insect biomass samples.
+
+
+18
+320 References
+321 1. United Nations Department of Economics and Social Affairs/Population Division
+322 World Population Prospects: The 2015 Revision, Key Findings and Advance Tables.
+323 Working Paper No. ESA/P/WP.241
+324 2. Gustavsson, J., Cederberg, C., Sonesson, U., Van Otterdijk, R., Meybeck, A., 2011.
+325 Global food losses and food waste. Food and Agriculture Organization of the United
+326 Nations. Rome
+327 3. D. Cardoen, P. Joshi, L. Diels, P.M. Sarma, D. Pant, Agriculture biomass in India: Part 2.
+328 Post-harvest losses, cost and environmental impacts. Resource. Conserv.
+329 Recycling. 101 (2015) 143-53.
+330 4. J. Yin, K. Wang, Y. Yang, D. Shen, M. Wang, H. Mo, Improving production of volatile
+331 fatty acids from food waste fermentation by hydrothermal pretreatment. Bioresource
+332 Technol. 171 (2014) 323-29.
+333 5. K.C. Surendra, C. Sawatdeenarunat, S. Shrestha, S. Sung, S.K. Khanal, Anaerobic
+334 Digestion-Based Biorefinery for Bioenergy and Biobased Products. Ind. Biotechnol. 11
+335 (2015) 103-12.
+336 6. United States Energy Information Administration (U.S. EIA), Annual energy outlook
+337 2013. US Energy Information Administration. Washington, DC, 2013.
+338 7. H.C.J. Godfray, J.R. Beddington, I.R. Crute, L. Haddad, D. Lawrence, J.F. Muir, J. Pretty,
+339 S. Robinson, S.M. Thomas, C. Toulmin, Food security: the challenge of feeding 9
+340 billion people. Science. 327 (2010) 812-18.
+
+
+19
+341 8. Food and Agricultural Organization of the United Nations (FAO), World Livestock 2011
+342 – Livestock in Food Security. FAO, Rome, Italy, 2011.
+343 9. R. Mungkung, J. Aubin, T.H. Prihadi, J. Slembrouck, H.M. van der Werf, M. Legendre,
+344 Life Cycle Assessment for environmentally sustainable aquaculture management: a
+345 case study of combined aquaculture systems for carp and tilapia. J. Clean. Prod. 57
+346 (2013) 249-56.
+347 10. M.J. Sánchez-Muros, F.G. Barroso, F. Manzano-Agugliaro, Insect meal as renewable
+348 source of food for animal feeding: a review. J. Clean. Prod. 65 (2014) 16-27.
+349 11. Intergovernmental Panel on Climate Change (IPCC), Technical summary. In T.F.
+350 Stocker, D. Qin, D. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V.
+351 Bex, P.M. Midgley (eds.), Climate change 2013: The physical science basis.
+352 Contribution of working group I to the fifth assessment report of the
+353 Intergovernmental Panel on Climate Change. Cambridge, UK, and New York, NY, USA:
+354 Cambridge University Press, (2013) 30-254.
+355 12. J.K. Tomberlin, D.C. Sheppard, J.A. Joyce, Selected life-history traits of black soldier
+356 flies (Diptera: Stratiomyidae) reared on three artificial diets. Ann. Entomolog. Soc.
+357 America. 95 (2002) 379-86.
+358 13. H. Čičková, G.L. Newton, R.C. Lacy, M. Kozánek, The use of fly larvae for organic waste
+359 treatment. Waste Manage. 35 (2015) 68-80.
+360 14. D.C. Sheppard, J.K. Tomberlin, J.A. Joyce, B.C. Kiser, S.M. Sumner, Rearing methods
+361 for the black soldier fly (Diptera: Stratiomyidae). J. Med. Entomol. 39 (2002) 695-98.
+
+
+20
+362 15. J.K. Tomberlin, A. van Huis, M.E. Benbow, H. Jordan, D.A. Astuti, D. Azzollini, I. Banks,
+363 V. Bava, C. Borgemeister, J.A. Cammack, R.S. Chapkin, H. Čičková, T.L. Crippen, A. Day,
+364 M. Dicke, D. Drew, C. Emhart, M. Epstein, M. Finke, C.H. Fischer, D. Gatlin, N.T.
+365 Grabowski, C. He, L. Heckman, A. Hubert, J. Jacobs, J. Joseph, S.K. Khanal, J.K.
+366 Kleinfinger, G. Klein, C. Leach, Y. Liu, G.L. Newton, R. Olivier, J.L. Pechal, C.J. Picard, S.
+367 Rojo, A. Roncarati, C. Sheppard, A.M. Tarone, B. Verstappen, A. Vickerson, H. Yang, A.
+368 Yen, Z. Yu, J. Zhang, L. Zheng, Protecting the environment through insect farming as a
+369 means to produce protein for use as livestock, poultry, and aquaculture feed. J.
+370 Insect. Food. Feed. 1 (2015) 307-09.
+371 16. J. Zhang, L. Huang, J. He, J.K. Tomberlin, J. Li, C. Lei, M. Sun, Z. Liu, Z. Yu, An artificial
+372 light source influences mating and oviposition of black soldier flies, Hermetia illucens.
+373 J. Insect Sci. 10 (2010) 202.
+374 17. G. Yu, P. Cheng, Y. Chen, Y. Li, Z. Yang, Y. Chen, J.K. Tomberlin, Inoculating poultry
+375 manure with companion bacteria influences growth and development of black soldier
+376 fly (Diptera: Stratiomyidae) larvae. Environ Entomolog. 40 (2011) 30-35.
+377 18. J.K. Tomberlin, D.C. Sheppard, Factors influencing mating and oviposition of black
+378 soldier flies (Diptera: Stratiomyidae) in a colony. J. Entomolog. Sci. 37 (2002) 345-52.
+379 19. D.C. Booth, D.C. Sheppard, Oviposition of the black soldier, Hermetia illucens
+380 (Diptera: Stratiomyidae): eggs, masses, timing and site characteristics. Environ.
+381 Entomol. 13 (1984) 421-23.
+
+
+21
+382 20. H.M. Myers, J.K. Tomberlin, B.D. Lambert, D. Kattes, Development of black soldier fly
+383 (Diptera: Stratiomyidae) larvae fed dairy manure. Environ. Entomol. 37 (2008) 11-15.
+384 21. I.J. Banks, W.T. Gibson, M.M. Cameron, Growth rates of black soldier fly larvae fed on
+385 fresh human faeces and their implication for improving sanitation. Trop. Med. Int.
+386 Health. 19 (2014) 14-22.
+387 22. T.T. Nguyen, J.K. Tomberlin, S. Vanlaerhoven, Ability of Black Soldier Fly (Diptera:
+388 Stratiomyidae) Larvae to Recycle Food Waste. Environ. Entomol. 44 (2015) 406-10.
+389 23. J.K. Tomberlin, D.C. Sheppard, J.A. Joyce, Black soldier fly (Diptera: Stratiomyidae)
+390 colonization of pig carrion in South Georgia. J. Forensic Sci. 50 (2005) 152-53.
+391 24. H.P. Makkar, G. Tran, V. Heuzé, P. Ankers, State-of-the-art on use of insects as animal
+392 feed. Anim. Feed Sci. Tech. 197 (2014) 1-33.
+393 25. L. Newton, C. Sheppard, D.W. Watson, G. Burtle, R. Dove, Using the black soldier fly,
+394 Hermetia illucens, as a value-added tool for the management of swine manure.
+395 Animal and Poultry Waste Management Center, North Carolina State University,
+396 Raleigh, NC, 2005.
+397 26. D.C. Sheppard, G.L. Newton, S.A. Thompson, S. Savage, A value added manure
+398 management system using the black soldier fly. Bioresource Technol. 50 (1994) 275
+399 79.
+400 27. S. Diener, N.M.S. Solano, F.R. Gutiérrez, C. Zurbrügg, K. Tockner, Biological treatment
+401 of municipal organic waste using black soldier fly larvae. Waste Biomass
+402 Valorization, 2 (2011) 357-63.
+
+
+22
+403 28. J.K. Tomberlin, P.H. Adler, H.M. Myers, Development of the black soldier fly (Diptera:
+404 Stratiomyidae) in relation to temperature. Environ. Entomolog. 38 (2009) 930-34.
+405 29. L. Holmes, Role of Abiotic Factors on the Development and Life History of the Black
+406 Soldier Fly, Hermetia illucens (L.) (Diptera: Stratiomyidae). M.S., University of Windsor
+407 Windsor, 2010.
+408 30. L.A. Holmes, S.L. Vanlaerhoven, J.K. Tomberlin, Relative humidity effects on the life
+409 history of Hermetia illucens (Diptera: Stratiomyidae). Environ. Entomol. 41 (2012)
+410 971-78.
+411 31. L.A. Holmes, S. L. Vanlaerhoven, J.K. Tomberlin, Substrate effects on pupation and
+412 adult emergence of Hermetia illucens (Diptera: Stratiomyidae). Environ. Entomol. 42
+413 (2013) 370-74.
+414 32. AOAC 2006. Official Methods of Analysis. 18th ed. Association of Official Analytical
+415 Chemists. Gaithersburg, MD, USA.
+416 33. Q. Li, L. Zheng, H. Cai, E. Garza, Z. Yu, S. Zhou, From organic waste to biodiesel: Black
+417 soldier fly, Hermetia illucens, makes it feasible. Fuel. 90 (2011) 1545-48.
+418 34. L. Zheng, Q. Li, J. Zhang, Z. Yu, Double the biodiesel yield: Rearing black soldier fly
+419 larvae, Hermetia illucens, on solid residual fraction of restaurant waste after grease
+420 extraction for biodiesel production. Renew. Energ. 41 (2012) 75-79.
+421 35. S. St-Hilaire, C. Sheppard, J.K. Tomberlin, S. Irving, L. Newton, M.A. McGuire, E.E.
+422 Mosley, R.W. Hardy, W. Sealey, Fly prepupae as a feedstuff for rainbow trout,
+423 Oncorhynchus mykiss. J. World Aquacul. Soc. 38 (2007) 59-67.
+
+
+23
+424 36. M.J. Ramos, C.M. Fernández, A. Casas, L. Rodríguez, A. Pérez, Influence of fatty acid
+425 composition of raw materials on biodiesel properties. Bioresource Technol. 100
+426 (2009) 261-68.
+427 37. L.C. Meher, D.V. Sagar, S.N. Naik, Technical aspects of biodiesel production by
+428 transesterification—a review. Renew. Sustainable Energ. Rev. 10 (2006) 248-68.
+429 38. J.M. Marchetti, V.U. Miguel, A.F. Errazu, Possible methods for biodiesel
+430 production. Renew. Sustainable Energ. Rev. 11 (2007) 1300-11.
+431 39. NRC, Nutrient Requirement of Swine. 11th Ed. National Academy Press, Washington,
+432 DC, 2012.
+433 40. S. St-Hilaire, K. Cranfill, M.A. McGuire, E.E. Mosley, J.K. Tomberlin, L. Newton, W.
+434 Sealey, C. Sheppard, S. Irving, Fish Offal Recycling by the Black Soldier Fly Produces a
+435 Foodstuff High in Omega-3 Fatty Acids. J. World Aquacul. Soc. 38 (2007) 309-13.
+436 41. L.E. Canavoso, Z.E. Jouni, K.J. Karnas, J.E. Pennington, M.A. Wells, Fat metabolism in
+437 insects. Annu. Rev. Nutr. 21 (2001) 23-46.
+438 42. E.L. Arrese, J.L. Soulages, Insect fat body: energy, metabolism, and regulation. Annu.
+439 Rev. Entomol. 55 (2010) 207-25.
+440 43. K. Athenstaedt, G. Daum, The life cycle of neutral lipids: synthesis, storage and
+441 degradation. Cell. Mol. Life Sci. 63 (2006) 1355-69.
+442 44. W.J.W. Hines, M.J.H. Smith, Some aspects of intermediary metabolism in the desert
+443 locust (Schistocerca gregaria Forskål). J. Insect Physiol. 9 (1963) 463-68.
+
+
+24
+444 45. S. Inagaki, O. Yamashita, Metabolic shift from lipogenesis to glycogenesis in the last
+445 instar larval fat body of the silkworm, Bombyx mori. Insect Biochem. 16 (1986) 327
+446 31.
+447
+448 FIGURE CAPTIONS
+449 Figure 1. Schematic presentation of bioconversion of food waste to biofuel and animal
+450 feed
+
+
+Figure 1. Schematic presentation of bioconversion of food waste to biofuel and animal feed
+
+
+Table 1. Fatty acid composition of BSF prepupae derived oil and biodiesel feedstocks (%
+w/w of total fatty acids) (n=3, for the BSF sample), data presented as mean ± standard
+deviation
+Fatty acids
+BSF prepupae
+oil
+Soybean oil
+[36]
+Palm oil
+[36]
+Lauric (C12:0) 44.9±1.5 0.0 0.1
+Myristic (C14:0) 8.3±0.6 0.0 0.7
+Palmitic (C16:0) 13.5±0.7 11.3 36.7
+Palmitoleic (C16:1n-7) 2.4±0.2 0.1 0.1
+Stearic (C18:0) 2.1±0.2 3.6 6.6
+Oleic (C18:1n-9) 12.0±0.7 24.9 46.1
+Linoleic (C18:2n-6) 9.9±0.5 53.0 8.6
+Linolenic (C18:3n-3) 0.1±0.0 6.1 0.3
+Saturated Fatty Acids (SFA) 69.9±1.4 15.3 44.7
+Monounsaturated Fatty Acids (MUFA) 14.9±0.8 25.6 46.4
+Polyunsaturated Fatty Acids (PUFA) 12.5±0.4 59.1 8.9
+
+
+Table 2. Proximate composition of the black soldier fly (prepupae, pressed cake, and meal) and commercial animal feed
+ingredients (n=3, for the BSF sample), data presented as mean ± standard deviation
+Parameters BSF prepupae
+BSF prepupae
+pressed cake
+BSF prepupae
+meal
+Soybean meal (IFN: 5
+04-602) [39]
+Fishmeal (IFN: 5-01
+977) [39]
+Dry Matter (%) 93.9±0.7a 94.3±0.3a 96.7±0.25b 88.8±0.7 93.7±2.4
+Crude Protein (%) 43.7±0.6a 53.1±0.2b 63.9±0.2c 43.9±2.0 63.3±4.7
+Crude Lipid (%) 31.8±0.3a 19.7±0.6b 3.4±0.1c 1.2±0.3 9.7±1.3
+Ash (%) 6.0±0.0a 8.5±0.2b 10.7±0.1c 6.4±0.2 16.1±3.2
+Crude Fiber (%) 10.1±0.2a 10.9±0.4a 13.2±0.3b 6.6±0.0 0.2±0.2
+Carbohydrates (%) 12.3±0.3a 12.9±0.5a 18.7±0.3b NA NA
+Gross Energy (Kcal/kg) 5751.7±52.4a 5233.0±40.6b 4614.3±12.7c 4257.0±168.0 4496.0±84.4
+Note: Mean with the same letter in the same row are not significantly (α = 0.05) different
+NA: Not available
+
+
+Table 3. Amino acid content of BSF prepupae, pressed cake, and meal (Unit % w/w) (n=3, for the BSF sample), data presented
+as mean ± standard deviation
+BSF prepupae
+BSF prepupae
+pressed cake
+BSF prepupae
+meal
+Soybean meal, (IFN:
+5-04-602) [39]
+Fishmeal (IFN:
+5-01-977) [39]
+Essential AA
+Arginine 2.22±0.08a 2.78±0.03b 3.25±0.03c 3.17±0.19 3.84±0.48
+Histidine 1.69±0.04a 1.99±0.07b 2.13±0.08b 1.26±0.14 1.44±0.29
+Isoleucine 1.51±0.06a 1.97±0.02b 2.37±0.02c 1.96±0.19 2.56±0.31
+Leucine 2.34±0.05a 2.92±0.01b 3.68±0.03c 3.43±0.26 4.47±0.50
+Lysine 2.19±0.07a 2.56±0.04b 3.23±0.10c 2.76±0.24 4.56±0.90
+Methionine 0.88±0.02a 0.97±0.01b 1.04±0.03c 0.60±0.06 1.73±0.45
+Phenylalanine 1.50±0.07a 1.84±0.05b 2.27±0.03c 2.26±0.16 2.47±0.22
+Threonine 1.48±0.07a 1.84±0.02b 2.15±0.02c 1.76±0.13 2.58±0.33
+Tryptophan NA NA NA 0.59±0.26 0.63±0.10
+Valine 2.42±0.06a 2.98±0.01b 3.68±0.11c 1.93±0.35 3.06±0.45
+
+
+Non-essential AA
+Alanine 2.68±0.19a 3.11±0.10b 3.85±0.09c 1.92±0.18 3.93±0.54
+Asparagine + Aspartate 2.64±0.06a 3.35±0.03b 4.16±0.08c 4.88±0.73 5.41±1.18
+Cysteine 1.12±0.05a 1.98±0.05b 1.60±0.07c 0.68±0.20 0.61±0.20
+Glutamate + Glutamine 2.85±0.02a 3.69±0.10b 4.48±0.09b 7.87±1.15 7.88±1.18
+Glycine 2.46±0.10a 3.11±0.12b 3.70±0.17c 1.89±0.20 4.71±0.98
+Proline 2.11±0.02a 2.60±0.07b 3.20±0.07c 2.43±0.46 2.89±1.07
+Serine 1.53±0.01a 2.03±0.05b 2.21±0.03c 2.14±0.28 2.43±0.59
+Tyrosine 2.37±0.02a 2.97±0.01b 3.49±0.03c 1.55±0.21 1.88±0.38
+Total Essential AA 16.06±0.49a 19.86±0.09b 23.79±0.17c NA NA
+Total Non-essential AA 17.76±0.30a 22.83±0.42b 26.70±0.44c NA NA
+Total AA 33.82±0.73a 42.70±0.38b 50.49±0.49c NA NA
+Note: Mean with the same letter in the same row are not significantly (α = 0.05) different
+AA: Amino acid, NA: Not available

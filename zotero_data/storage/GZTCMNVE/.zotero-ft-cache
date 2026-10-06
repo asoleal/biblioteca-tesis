@@ -1,0 +1,308 @@
+DEBkiss or the quest for the simplest generic model of
+animal life history?
+Tjalling Jagera,∗, Benjamin T. Martinb, Elke I. Zimmera
+aDept. of Theoretical Biology, VU University Amsterdam, de Boelelaan 1085, NL-1081 HV, Amsterdam, the Netherlands bHelmholtz Centre for Environmental Research, UFZ, Dept. of Ecological Modelling, 04318 Leipzig, Germany
+Abstract
+Understanding the life cycle of individual animals, and how it responds to stress, requires a model that causally links life-history traits (feeding, growth, development and reproduction). Dynamic Energy Budget (DEB) theory offers a powerful and formalised framework for building process-based models for organism life cycles. However, it takes some serious investment to understand the resulting equations and to implement them into software, and a substantial amount of data to parameterise. For many practical applications, there is therefore a need for further simplification. Here, we present a simple and transparent model that fully specifies the life cycle of an (invertebrate) animal, applies a strict mass balance, and has direct access to the primary parameters that determine the metabolic processes. We derive our ‘DEBkiss’ in a formalised manner, starting from an explicit formulation of the simplifying assumptions. The presented model can serve as a teaching tool and a smooth introduction into the much richer world of DEB theory. Furthermore, the model may prove useful as a building block for individual-based population modelling (where simplicity of the blocks is essential), and for the analysis of
+?©2013. This manuscript version is made available under the CC-BY-NC-ND 4.0 license https://creativecommons.org/licenses/by-nc-nd/4.0/. The paper was published as: Jager T, Martin BT, Zimmer EI. 2013. DEBkiss or the quest for the simplest generic model of animal life history. J Theor Biol 328:9-18. http://dx.doi.org/10. 1016/j.jtbi.2013.03.011.
+∗Tel.: +31 20 5987134; fax: +31 20 5987123
+Email address: tjalling.jager@vu.nl (Tjalling Jager) URL: http://www.debtox.info/ (Tjalling Jager)
+Preprint submitted to Journal of Theoretical Biology March 10, 2021
+
+
+toxicity data (where ease of model verification and parameterisation is crucial). The model is illustrated using a fit on growth and reproduction data for the pond snail (Lymnaea stagnalis) at three food levels, and subsequent predictions for embryonic growth and respiration (oxygen use), and weight loss on starvation, for the same species.
+Keywords:
+Dynamic Energy Budget, Life-history traits, Life cycle, Lymnaea stagnalis
+1. Introduction
+Simple is beautiful, but also practical, as embodied in the engineering principle of KISS (keep it simple, stupid). Complex things tend to break, and when they do, they are difficult to repair. But, as the quote often attributed to Albert Einstein warns us: “everything should be made as simple as possible, but not simpler.” Here, we are going to apply the KISS principle to modelling of life-history traits of an animal, while heeding Einstein’s caution. How simple can we make a model for such traits of an individual, while still maintaining a degree of realism? This is one stage in a continuous quest for balancing simplicity and realism; a balancing act that will obviously depend on the purpose for which the model will be used. The specific purpose that we have in mind is to apply such a model for individuals to interpret the effects of stressors such as toxicants (Jager et al., 2006) or food limitation (Zimmer et al., 2012), and to translate the effects on the individual to the population level (Martin et al., 2012; Jager and Klok, 2010). The focus in our work is on small invertebrate animals. At minimum, our model should provide a prediction of reproductive output over the life cycle of an animal, as a function of food availability (which might vary over time). Reproductive output is the most straightforward indicator of individual fitness, and clearly needed for the translation to the population level; in its simplest form we can think of population dynamics as the difference between births and deaths. However, the reproduction rate is not determined by the current food level alone; it also depends on the state of the individual. Body size is an obvious candidate for such a state, as it determines feeding rates (and thereby the available resources for reproduction), and is often an accurate indicator of whether the organism is capable of reproducing. Interpreting the effects of varying food levels and stressors on reproduction therefore requires (at least) following body size as
+2
+
+
+a state variable. Furthermore, because the dynamics of populations often depend on feedbacks between a population and its prey, keeping track of body size (and the associated feeding rates) is an essential aspect in population models. Our model should thus provide us with a good description of at least body size and reproductive output over the entire life cycle (including the embryonic stage) as a function of food availability. It should be based on well-established principles (such as conservation of mass and energy, and consistency with thermodynamics), to ensure that the model behaviour is physically realistic. Furthermore, the model should include a (possibly crude) representation of biological processes such that we can model stressor effects on these processes. And finally, the core model should be generic and free from species- or stressor-specific argumentation as we do not want to build a new model for each species-stressor combination. Dynamic Energy Budget (DEB) theory offers a powerful and formalised framework for building such models (Kooijman, 2001; Sousa et al., 2010; Nisbet et al., 2000). This power, however, comes at a price. Even though the concepts and underlying assumptions are simple, understanding how they lead to the equations of the ‘standard DEB model’ for animals (see Sousa et al., 2010) is not. Implementation of the model in software is certainly not straightforward, and the subsequent parameterisation requires an extensive data set. Although efficient procedures and software have been developed to aid the user and to accommodate limited data sets (Kooijman, 2009; Lika et al., 2011), it takes serious study to be able to apply them properly, and even more to verify the code. One would effectively have to rely on the derivations and programming of the developers, which can be an issue for potential users. The standard model is the simplest complete DEB model, but it is often considered too complex (e.g., as a basis for population modelling, Nisbet et al., 2010). In many practical fields of application, the interest in dynamic models rapidly declines with the level of complexity. The standard animal model has been simplified, yielding the ‘scaled standard model’ (Kooijman et al., 2008; Jager et al., 2010) and ‘DEBtox’ (Jager and Zimmer, 2012). These simplifications, however, have their disadvantages. The use of scaling and compound parameters hampers interpretation of the equations and can lead to difficult-to-spot inconsistencies (e.g., transformation efficiency greater than one) for certain choices of parameter values. Furthermore, the use of compound parameters hampers the straightforward application of stress due to toxicants, which are assumed to affect metabolic processes and thus
+3
+
+
+Figure 1: Schematic diagram of the energy flows and life cycle of a DEBkiss animal. The parameter symbols are explained in Table 1. The nodes b and p denote switches at birth (start of feeding; embryo to juvenile) and puberty (start of reproductive investment; juvenile to adult). The other nodes represent a split of the assimilation fluxes.
+primary energy-budget parameters (Jager et al., 2010). In short, we believe there is room for a simple and transparent model that fully specifies the life cycle of an (invertebrate) animal, applies an explicit mass balance, and has direct access to the primary parameters that determine the metabolic processes. The model should be simple enough for users to check its consistency, implement into their own software of choice, and to parameterise it on easily-obtained data sets without additional help. Such a model would be suitable for particular applications where simplicity is of key importance, but it may also provide a good teaching tool for theoretical biology in general, and DEB theory in particular. In this paper, we present such a simple model in a formalised manner (starting from an explicit formulation of the simplifying assumptions). We name the model ‘DEBkiss’ to emphasise that the work is highly inspired by DEB theory, but with a strong focus on the KISS principle.
+2. Theoretical
+2.1. Model definition
+The DEBkiss model we propose is schematically depicted in Figure 1, showing the mass fluxes J∗ (in dry weight per unit of time). In the possible topologies for energy budget models of Lika and Kooijman (2011), it would classify as a RκR0
+G model. In the κ models, the fundamental split between investment in the soma and reproduction comes first (on the assimilates obtained from feeding). This contrasts ‘production models’, where maintenance
+4
+
+
+Symbol Explanation Dimension Sugg. value Primary parameters Fa
+m Maximum area-specific searching rate l3
+e/(l2t) −
+Ja
+Am Maximum area-specific assimilation rate ma/(l2t) −
+Jv
+M Volume-specific maintenance costs ma/(l3t) −
+WB0 Assimilates in a single freshly-laid egg ma − WV p Structural body mass at puberty m − yAV Yield of assimilates on structure (starvation) ma/m 0.8 mg/mg (dwt) yAX Yield of assimilates on food ma/mf 0.8 mg/mg (dwt) yBA Yield of egg buffer on assimilates ma/ma 0.95 mg/mg (dwt) yV A Yield of structure on assimilates (growth) m/ma 0.8 mg/mg (dwt) κ Fraction of assimilation flux for soma − 0.8 Conversions
+dV Dry-weight density of structure m/l3 0.1 mg/mm3 δM Shape correction coefficient − Fluxes, states and forcings
+JA Mass flux for assimilation ma/t JM Mass flux for maintenance ma/t JR Mass flux to reproduction buffer ma/t JV Mass flux for structure m/t JX Mass flux of food mf /t WB Mass of assimilates buffer in egg ma WR Mass of reproduction buffer in adult ma WV Mass of structural body m
+X Food density in the environment mf /l3
+e Other output and secondary parameters f Scaled functional response (0-1) − Ja
+Xm Maximum area-specific feeding rate mf /(l2t)
+K Half-saturation food density mf /l3
+e L Volumetric body length l Lw Physical body length l rB Von Bertalanffy growth rate constant 1/t ∆R Number of eggs in a clutch # R Continuous reproduction rate #/t Rm Maximum continuous reproduction rate #/t tb Time between egg laying and birth t WV b Structural body mass at birth m Ww Physical body weight (total) m
+Table 1: Explanation of symbols, with dimensions given in mass (m for body, ma for assimilates, and mf for food), length (le for environment, l for organism), numbers (#), time (t). Suggested values for the yields (apart from yAV ) based on the typical values in Lika et al. (2011).
+costs are paid before the split (e.g., Lika and Nisbet, 2000), and ‘assimilation models’ where the split comes after a storage compartment (e.g., Jager and Zimmer, 2012; Sousa et al., 2010). We selected this topology as it maintains many of the desirable properties of the standard DEB model (Lika and Kooijman, 2011), especially for small animals, while considerably simplifying the model equations. The model departs from a strict set of assumptions, which lead to the model equations. The symbols, with their dimensions, are explained in Table 1. The first section of the table shows the primary parameters: parameters that are directly linked to a metabolic process, and that do not themselves depend on other parameters. In contrast, the values of secondary or compound parameters (bottom of the table) are fully determined by one or more primary parameters. As an example, maximum volumetric length
+5
+
+
+Lm (the cubic root of maximum body volume) is a secondary parameter, whose value is determined by the primary parameters κ, Ja
+Am and J v
+M (see Eq. 19). Regarding notation, we use superscripts to indicate volume- or surface-area-specific parameters. As an example, Jv
+M is the volume-specific costs for maintenance, and Ja
+Am is the area-specific assimilation rate at maximum food.
+Assumptions 1: There are three types of biomass: food, assimilates and structural body components. Each type has a constant composition. They can be converted in each other with a certain constant efficiency. The state variables of the organism are the masses of the structural body, the reproduction buffer for adults, and the egg buffer used by the developing embryo. Total body mass is the sum of structure and reproduction buffer. The reproduction and egg buffer consist of assimilates.
+The ‘currency’ that we are going to follow in the model is mass as dry weight (e.g., in grammes). However, we can substitute mass for energy: because we assume that each type of biomass has a strictly constant composition, the conversions between mass and energy are also constant. The choice of currency does however have repercussions for the transformations, such as the yield of assimilates on food yAX. Consider for example an earthworm feeding on soil. Even if the worm is able to extract the majority of the energy from its food, indigestible sand and clay particles form the bulk of the ingested soil. The yAX based on energy will thus be much higher than when based on mass. We assume a constant composition for each type of biomass for practical reasons. This allows us to use constant conversions between each type, and means that we do not have to follow individual components of biomass such as lipids and proteins.
+Assumptions 2: The animal has three life stages: an embryo that does not feed but utilises the egg buffer, a juvenile that feeds but does not reproduce, and an adult that feeds and reproduces. The embryo starts with an egg buffer of assimilates and negligible structural mass. The first transition (birth) is triggered by the depletion of the egg buffer, and the second transition (puberty) by reaching a critical structural body weight.
+The differential equations for the egg buffer WB, structural body mass WV , and reproduction buffer WR are given by (see Fig. 1):
+6
+
+
+d
+dt WB = −JA until WB = 0, with WB(0) = WB0 (1)
+d
+dt WV = JV with WV (0) ≈ 0 (2)
+d
+dt WR = JR with WR(0) = 0 (3)
+Note that t = 0 marks the start of development in the egg. The total weight of the animal is the sum of structure and buffer (Ww = WV + WR), just like the total weight of an egg (Ww = WV + WB). For some processes, we need to have access to the volume (L3) of the animal. We can assume a constant density for structure (dV ):
+L3 = WV
+dV
+(4)
+We can talk about L as the ‘volumetric structural length’ of the animal. If the structural biomass WV is compressed into a cube, this will be the length of a side of that cube. The value for the density dV will not generally influence the model fit; it mainly influences the numerical value of the areaand volume-specific parameters, and is thus important to compare species. Because egg weight (WB0) is a primary parameter, it can vary independently from the other primary parameters. Therefore, we are free to vary the egg weight (or include descriptive functions) to match patterns that are observed in practice. For example, there are many species in which the investment per offspring increases with size or age of the mother (Bernardo, 1996). An unrealistic consequence of our assumption for the birth trigger (WB = 0) is that the embryo will always hatch from the egg, even when its development is hampered by a stressor or when the egg buffer is experimentally reduced (e.g., extraction of yolk). In reality, the embryo will need to reach a certain minimum amount of complexity, or a minimum body size, to be able to survive hatching.
+Assumptions 3: The maximum feeding rate is proportional to the surface area of the animal. The animal is either searching for food or handling it (with constant handling time), leading to a hyperbolic functional response in the food density (Holling type II).
+7
+
+
+Feeding involves the transport of resources from the environment to the organism across a surface area (e.g., the area of the gut, or the area of the feeding appendages in filter feeders). As long as the organism does not change in shape (isomorphy), all surface areas scale with body volume to the power 2/3 (and thus L2). We can easily experiment with other scalings for the full life cycle, or just a part of it (see e.g., Kooijman et al., 2011; Augustine et al., 2011). The feeding flux is given by:
+JX = f J a
+XmL2 with J a
+Xm = Ja
+Am
+yAX
+(5)
+where f is the scaled functional response, which is the actual feeding rate at a certain food level divided by the maximum feeding rate for its current size. The scaled response f is thus between 0 (no food) and 1 (ad libitum food). The maximum specific assimilation rate (Ja
+Am) is used as the primary parameter; the specific feeding rate (Ja
+Xm) is derived from it, using the yield of assimilates on food (yAX). When we do not follow feeding explicitly, we can use f as a primary model parameter. Otherwise, the forcing function of the food density X enters the system. The scaled functional response f is a hyperbolic function of the food density, and the half-saturation food density K is calculated from the specific feeding rate and the specific searching rate Fa
+m:
+f= X
+X + K with K = Ja
+Xm/F a
+m (6)
+Assumptions 4: Food is instantly translated into assimilates that are directly used to fuel metabolic processes. Embryos assimilate their egg buffer at the maximum rate for their structural size.
+We do not consider the ‘details’ of digestion because this process plays at a time scale that is usually very short relative to the life cycle of the organism. The assimilates are directly used in metabolism, and therefore, we do not consider any storage other than the reproduction buffer. The assimilation flux JA is thus given by:
+JA = f J a
+AmL2 (if WB > 0 then f = 1) (7)
+Assumptions 5: The flow of assimilates is split into a constant fraction κ for maintenance and structural growth (the soma), and 1 − κ for maturation
+8
+
+
+and reproduction. From the κ flow, maintenance costs are paid first. Only structural biomass requires maintenance, which is proportional to its volume. The remainder of this flow is used for growth (with certain efficiency).
+A constant κ has convenient properties, which compare favourably to other possible allocation rules (Lika and Kooijman, 2011). This simple rule ensures that growth and reproduction do not compete for resources. This lack of competition is evidenced in many invertebrates as the start of reproduction (a major flux of resources) is not accompanied by changes in the growth curve, respiration or feeding rates (see Nisbet et al., 2000). A constant κ, together with the assumptions for assimilation and maintenance, lead to the commonly-observed von Bertalanffy growth curve in constant environments. Maintenance is the, rather abstract, lump sum of all the processes needed to maintain the body’s integrity. Assimilate buffers are assumed not to require maintenance, which is supported by the almost-complete lack of respiration in freshly-laid eggs. The flux for structural growth (JV ) can thus be specified as:
+JV = yV A(κJA − JM ) with JM = J v
+M L3 (8)
+where Jv
+M is the volume-specific maintenance cost, and yV A is the yield of structural biomass on assimilates.
+Assumptions 6: For adults, the 1 − κ flow is used to fill the reproduction buffer. For embryos and juveniles, all of the assimilates in this flux are burnt to increase complexity of the organism. At spawning events, the contents of the reproduction buffer are converted into eggs. The part of the buffer that was insufficient to create a single egg remains in the buffer. Transformation of buffer to egg comes with a certain (generally high) efficiency.
+Because we assume that κ is constant over the life cycle, we have to explain what happens to the 1 − κ flow before puberty. We assume that this flux is used for the maturation process (which in this model definition is not associated with the build-up of biomass), which abruptly stops at puberty, when the flux is switched to the reproduction buffer. The flux into the reproduction buffer (JR) can thus be specified as:
+JR = (1 − κ)JA (if WV < WV p then JR = 0) (9)
+9
+
+
+where WV p is the body size where investment in reproduction starts (puberty). The trigger for spawning is not specified here, as this is highly species-specific. For some species, a constant time interval between clutches of eggs may be appropriate, while for others, a critical mass of the reproduction buffer may be more realistic. For others, spawning may be triggered by environmental conditions such as temperature or pH. Spawning leads to a clutch of offspring ∆R, and a reset of the reproduction buffer WR:
+∆R = floor
+( yBAWR
+WB0
+)
+(10)
+WR = WR − ∆RWB0
+yBA
+(11)
+where yBA is the yield for the conversion of reproduction buffer to eggs. The ‘floor’ function for the spawning events means rounding to the nearest integer less than the value between brackets. Without reproduction buffer, the continuous reproduction rate R can be calculated as:
+R = yBAJR
+WB0
+(12)
+Assumptions 7: If feeding is insufficient to pay somatic maintenance costs, the organism first diverts energy from the 1-κ flux of assimilates and from the reproduction buffer. If that is insufficient, structure is converted into assimilates to pay maintenance.
+We need assumptions to deal with the situation of starvation, as varying food levels are common in the field, and because our animal does not have a storage of assimilates (other than the reproduction buffer). The first stage of starvation occurs when the allocated flux to the soma is insufficient to pay maintenance (κJA < JM ), but the total assimilation flux is enough (JA > JM ), or there is still something in the reproduction buffer (WR > 0):
+JV = 0 (13)
+JR = JA − JM (if WV < WV p then JR = 0) (14)
+For juveniles, this means that energy is diverted from the flux to maturation, as long as JA > JM (maturation itself is not followed as a state variable). In
+10
+
+
+the second stage of starvation, the reproduction buffer is empty (WR = 0) and the total assimilation flux is insufficient to pay maintenance (JA ≤ JM ):
+JV = (JA − JM )/yAV (15)
+JR = 0 (16)
+where yAV is the yield of assimilates (to pay maintenance) on structure. The maximum rates of feeding, assimilation and maintenance depend on structural size, so when the animal shrinks, these rates will decrease too. A decrease of the maximum possible feeding and assimilation rates on shrinking might not be realistic for all species. For Daphnia for example, model correspondence to recovery after starvation improved by relating the assimilation rate to the previously obtained maximum size, rather than actual body size Martin et al. (Acc.). Clearly, shrinking under starvation cannot continue indefinitely. If situations of prolonged starvation are analysed, it makes sense to set a limit to shrinking, e.g., to a fraction of the maximum size that the individual has reached. Furthermore, it might be realistic for some species to stop spawning (the conversion of reproduction buffer to eggs) to enhance starvation resistance. This set of starvation rules should be seen as a start for experimentation; different rules may be more applicable for a particular species.
+2.2. Derived model results
+In many cases, we measure body size of an animal as some length measure. Examples are the shell length of snails and mussels and the distance from the eye to the base of the spine in daphnids. As long as the organism does not change in shape during growth, we can translate structural weight to some physical length (Lw) and vice versa using a correction factor δM :
+Lw = L
+δM
+where L3 = WV
+dV
+(17)
+For a well chosen length measure, δM can remain constant as the animal grows. However, special care must be taken when the animal is shrinking under starvation. If the length measure is based on a fixed structure of the animal, such as a shell or a carapace, the dry weight will decrease without an associated decrease in physical length.
+11
+
+
+The DEBkiss model system explicitly includes the food density X. This is particularly important for including fluctuating food concentrations, and the influence of feeding on the food density. We may, however, wish to analyse results from laboratory tests at constant or ad libitum food levels. In that case, we can use the scaled function response f as a primary model parameter. For ad libitum feeding, we can set f = 1, and estimate a value for f for constant limiting food levels (without the need to know the value of X). As a next simplification, we can lump several of the more abstract model parameters into compound ones. By filling in the fluxes (see supp. info.), and moving from structural mass to volumetric length L. We can easily derive that the growth of the organism (after birth) will follow the von Bertalanffy equation:
+d
+dt L = rB(f Lm − L) with L(0) > Lb (18)
+Where Lb is the volumetric length at birth. The growth equation also applies to embryos, but for them, we set f = 1. The two compound parameters for maximum volumetric length Lm and the growth rate constant rB are linked to the underlying primary parameters:
+Lm = κ J a
+Am Jv
+M
+and rB = yV A
+3dV
+Jv
+M (19)
+We can thus obtain the maximum structural weight as WV m = dV L3
+m. Note that the growth equation above does not require time to start at birth; we can take t = 0 anywhere after birth. In the absence of a reproduction buffer, we remove the state variable WR, and can similarly fill in the fluxes for the continuous reproduction rate to obtain the maximum rate (at f = 1, L = Lm, and in the absence of stressors):
+Rm = (1 − κ)Ja
+AmL2
+m
+yBA
+WB0
+(20)
+When food density is constant or ad libitum, in the absence of stress effects on the parameters, and ignoring the reproduction buffer, the ODE for body size can be solved analytically. This yields a surprisingly compact model system (see Kooijman and Metz, 1984; Klok and De Roos, 1996):
+12
+
+
+L = f Lm − (f Lm − L0)e−rBt (21)
+R = f Rm
+L2
+L2m
+when L > Lp (22)
+This model is so simple it can easily be implemented into a spreadsheet, and contains only six model parameters (f , L0, Lp, Lm, rB and Rm). Note that the parameter Lp is linked to WV p with the density dV (see Eq. 17). However, there are limitations to take into consideration for this simplification. The parameters in the growth equation need to be constant, although we can always resort to using the ODE of Equation 18. The essence of the model, the mass balance, is not obvious from these equations, which might give the impression that this is just some magical equation to describe the data patterns. Linked to this, it is possible to come up with parameter combinations that violate the underlying mass balance (e.g., yield coefficients larger than one). The reproduction buffer is lost, leading to a continuous production of offspring. Although we can easily modify R to become discontinuous at spawning events, we cannot include the reproduction buffer into the total body weight or use the buffer contents on starvation, because the mass of the eggs has been absorbed in Rm. And finally, stress should affect metabolic processes, and thus primary model parameters. Implementing stress on the compound parameters should be considered very carefully indeed (see also Jager and Zimmer, 2012). If we can ignore the maintenance flux for embryos (JM ≈ 0), this allows for an easy analytical equation for birth weight and development time (and thus removes the state variable WB from the system):
+WV b = WB0yV Aκ (23)
+tb = 3W 1/3
+B0 d2/3
+V Ja
+Am(yV Aκ)2/3 (24)
+This provides a good initial prediction of these two model outputs. In detail, the underlying assumption is unrealistic, but the influence of maintenance on the growth curve of embryos can be ignored in many cases.
+2.3. Extensions
+The DEBkiss model offers an excellent platform for experimentation. In the supporting information, we work out some possible extensions that can
+13
+
+
+be explored further. An obvious extension would be to include maturity maintenance; a similar process to somatic maintenance, but applied to the 1−κ branch in Figure 1. This process helps to explain why an individual at a low constant food level might remain in the juvenile stage indefinitely, despite continuous allocation to the 1 − κ branch. All other parameters being equal, adding this process leads to less reproductive output and a slightly different shape of reproduction rate versus body size. For ecotoxicological applications, we need to add the uptake and elimination of chemicals (toxicokinetics) to the model, as well as the effects of chemicals on metabolic processes (toxicodynamics). The internal concentration in the individual can be linked to any of the primary parameters of the model (Jager and Zimmer, 2012; Jager et al., 2010). Effects on survival can similarly be linked to the internal concentration, e.g., by using any of the toxicodynamic modules of the GUTS framework (Jager et al., 2011). Such extensions are discussed further in the supporting information. In its current form, the DEBkiss model deals with growth, development and reproduction, but another important life-history trait, survival, is not treated. It is possible to simply add mortality as a descriptive function of age, but that ignores the link to metabolism (e.g., no effect of food level on longevity, which is commonly observed). The model offers sufficient possibilities to play around with process-based ageing modules, linked to the various metabolic processes (see Van Leeuwen et al., 2010), but the most appropriate model in this context requires further study. The ecological relevance of an ageing module may be limited, however, as outside of the laboratory, animals do not generally have the luxury to die of old age. Some organisms seem to deviate from the expected von Bertalanffy growth curve under constant conditions, revealing a more S-shaped pattern (when body size is expressed as a length measure). For some species, there are strong indications that this is caused by an inappropriate food source in experimental tests (Jager et al., 2005; Zimmer et al., 2012). For others, a temporary acceleration of metabolism after birth seems appropriate (Kooijman et al., 2011; Augustine et al., 2011). Both options are worked out in the supporting information.
+2.4. Data requirements
+Establishing model parameters requires information on the life history of a species. It is difficult to specify minimum data requirements as this depends on the purpose for which the model is to be used. In practice, the
+14
+
+
+commonest useful data will comprise information on growth and reproduction over a part of the life cycle at a constant food level. However, not all primary model parameter can be estimated from such data alone. This can already be seen from Section 2.2: we can reduce the model with ten primary parameters (Table 1) to a model with six secondary parameters and describe the same growth and reproduction patterns. Estimating the two primary parameters related to feeding (F a
+m and yAX ) requires data on actual ingestion rates at several quantifiable food densities (X). In most cases, this is not feasible, and the scaled functional response f is used as a primary parameter (see Section 2.2). Note that under ad libitum feeding conditions, we can fix f = 1. The remaining three yield coefficients (yBA, yV A, yAV ) also cannot be independently estimated without other types of data to provide more detail on the mass balance (ingestion, defecation, respiration, shrinking on starvation, etc.), so they will usually have to be fixed at the suggested values. If reproduction is measured as number of offspring, we need to estimate the dry weight per egg WB0, which can be measured directly (or estimated from egg volume). If body size is determined as a physical length measure, we need to estimate a shape corrector δM , and the dry-weight density of tissue dV (see Eq. 17). If body size is determined as wet weight, we only need the latter conversion factor. This leaves four primary parameters to be estimated by optimisation to the growth and reproduction data: Ja
+Am, J v
+M, κ and WV p. The case study in the next section demonstrates in more detail how parameters can be estimated from commonly available data on life history. Even though the case study comprises three food levels, it should be stressed that one level (preferably ad libitum) would have sufficed. Matlab implementations to perform these calculations can be downloaded from www.debtox. info/debkiss.php.
+15
+
+
+3. Case study
+To demonstrate how to link DEBkiss to real data, we provide an example for the pond snail Lymnaea stagnalis.
+3.1. Initial parameter estimates
+For initial parameter estimates, we use the results of Zonneveld and Kooijman (1989). From their starvation experiment, we have some combinations of tissue dry weights and shell lengths for the unstarved animals. Using a dry weight density dV = 0.1 mg/mm3, we can derive a shape corrector δM = 0.40. Furthermore, these authors report the dry weight per egg as WB0 = 0.15 mg (clutch weight divided by number of eggs). We are going to treat these parameters as fixed, just like the yield coefficients. If we start from the suggested κ = 0.8, we only need to have starting values for the specific maintenance costs and maximum assimilation efficiency. Using the maximum shell length (35 mm) and von Bertalanffy growth rate constant (0.014 d−1) from Zonneveld and Kooijman (1989) for the 12:12 light regime, we obtain initial estimates Jv
+M = 0.0053 mg/mm3/d and Ja
+Am = 0.092 mg/mm2/d (using Eq. 17 and 19). To check whether these values are in the ballpark, we can calculate first estimates for several endpoints. For the maximum reproduction rate, we obtain Rm = 23 eggs/d (Eq. 20), which is somewhat high, but not too far away from reality (some 11 eggs/d, see Fig. 2). Further, we estimate a weight at birth of 96 μg, which translates into a shell size of 2.5 mm. The estimate for birth weight (Eq. 23) matches the end of the growth curve in Horstmann (1958). However, the prediction for hatchling shell size is too large, which indicates that the shape corrector δM for adult snails does not apply to (very young) juveniles. Estimated hatching time is 5.0 days (Eq. 24), which is too short; at 25◦C, isolated eggs take some 10 days to develop (Marois and Croll, 1991). It is not uncommon for the hatching time to be considerably longer than predicted by a DEB model parametrised for the juvenile/adult stages. The reasons are not entirely clear. Some species have a considerable diapause in the egg stage, and require an environmental trigger to start development. For other species, an acceleration of metabolism after hatching is indicated (Augustine et al., 2011; Kooijman et al., 2011). The embryonic development of the pond snail is discussed further in Section 3.3.
+16
+
+
+3.2. Fitting growth and reproduction patterns
+Next, we fit growth and reproduction patterns at different food levels; these experiments were described in Zimmer et al. (2012). For this demonstration, we only use the mean responses (starting with 30 individuals per treatment), and we reduced the number of observations in time for the reproduction data to once every two weeks, so they match the observation frequency for the size measurements. These experiments were done in a different laboratory than the experiments on which the initial values were derived, under a different light regime (14:10 versus 12:12 light/dark) and at a slightly different temperature (21◦C versus 20◦C). Thus, we should expect some deviations. To facilitate the calculations, we assumed continuous reproduction for the snails (in reality, they produce clutches of around hundred eggs each, Zonneveld and Kooijman, 1989). The parameters were optimised by likelihood maximisation, assuming independent normal distributions after square-root transformation, and treating the standard deviations as nuisance parameters (replacing it by the maximum likelihood estimate). Confidence intervals were derived by profiling the likelihood function. More details on the statistical aspects are provided in Jager and Zimmer (2012). There is an interesting misfit in the initial part of the growth curves (Fig. 2). The model fits the second food level almost perfectly, but the first level (ad libitum food) indicates a higher von Bertalanffy growth rate constant, and the third food level a lower one. Firstly, one should note that body size is measured here as shell length; the relationship between this metric and body mass may break down when the food availability is changed. Furthermore, we should consider that juvenile snails are food limited when fed on lettuce, aggravating the effect of additional stresses on feeding (Zimmer et al., 2012). Zimmer and co-workers estimated that juvenile food limitation should have stopped when reaching a shell size of 9 mm, but this is still close to the initial size here (around 13 mm). Interesting, the growth curves of the snails do not indicate the presence of a storage compartment. Firstly, the experiment started with juvenile snails from the same culture, and their growth curves respond immediately to the different feeding regimes. If a substantial storage would have been present, we expect to see the deviation between the curves developing more gradually over time. Furthermore, in DEB theory, the presence of a substantial reserve compartment would imply that the von Bertalanffy rate constant increases with decreasing food availability (Kooijman et al., 2008; Lika and Kooijman, 2011), whereas the opposite pattern is observed in these data. Nevertheless, we should be careful to draw strong
+17
+
+
+conclusions from this data set as the size data represents the mean of some 30 individual snails. If there is a lot of variation between individuals, the mean response of a group of snails can deviate substantially from the response of the average snail. So far, we have assumed that almost all of the mass allocated to reproduction will end up in eggs (yBA = 0.95). For the pond snail (a simultaneous hermaphrodite), there is clear evidence that the male sexual function also carries substantial costs (Hoffer et al., 2010). We can include such costs by reducing the yield coefficient for the egg buffer; here we tried yBA = 0.55 (roughly in line with the reduced fecundity observed in Hoffer et al., 2010). Interestingly, the resulting fit is exactly the same as in Figure 2, but the parameter estimates differ. A decrease in yBA can be fully compensated by Ja
+Am and κ (their product remains constant when yBA is changed). This result shows that yBA cannot be estimated from growth and reproduction data alone. Furthermore, it demonstrates that it is very easy to get a good fit for the wrong reasons, even with such a simple budget model as DEBkiss. The absolute value of the model parameters is closely linked to the details of the model assumptions and choice of yield coefficients, so they should be interpreted with care.
+Symbol standard DEBkiss add male function Unit Ja
+Am 0.11 (0.10-0.12) 0.12 (0.11-0.13) mg/mm2/d Jv
+M 0.0080 (0.0072-0.0087) 0.0080 (0.0072-0.0087) mg/mm3/d WV p 70 (67-73) 70 (67-73) mg yBA 0.95 (n.e.) 0.55 (n.e.) mg/mg κ 0.89 (0.88-0.90) 0.83 (0.81-0.85) − f2 0.89 (0.87-0.91) 0.89 (0.87-0.91) − f3 0.80 (0.78-0.81) 0.80 (0.78-0.81) −
+Table 2: Parameter estimates for the fits to the growth and reproduction data for the pond snail (see Figure 2), with likelihood-based 95% confidence intervals. The following parameters were fixed: dV = 0.1 mg/mm3, yV A = 0.8, δM = 0.401, WB0 = 0.15 mg, Lw(0) = 12.8 mm, f = 1 for the ad libitum feeding level. For the two limiting food levels, f2 and f3 are used instead of f = 1. The difference between the two fits lies in a different fixed value for yBA.
+3.3. Predictions for other endpoints
+Next, we are going to use our parameter estimates (Table 2, including the male function) to predict embryonic growth and respiration, and weight loss
+18
+
+
+Figure 2: Fits of the DEBkiss model to growth and reproduction data for the pond snail in three feeding regimes (data from Zimmer et al., 2012).
+Figure 3: Data for snail embryo size and oxygen use over time (Horstmann, 1958). Solid line represent model predictions with the parameters from last column of Table 2; broken lines are quick-fixes (not fitted) to get a closer correspondence to the data (see text Section 3.3).
+19
+
+
+on starvation. Data for embryo dry weight over time were taken from two graphs in Horstmann (1958), and translated to volumetric length (see Eq. 4). It should be noted that the experiment of Horstmann was performed at 23◦C whereas our parameter set is from data at 21◦C. This small difference is ignored here. Data for embryo respiration were taken from the same study. When maintenance losses during the embryonic stage can be ignored, we expect that volumetric length over time follows a straight line (see supp. info.), which is supported by this data set (Fig. 3). The data, however, show a lower slope and a slower initial growth compared to our predictions using the parameters from Table 2. Zonneveld and Kooijman (1989) fitted these data by assuming a lag phase in the development, and different model parameters for the embryo than for the feeding stages. The best way to model the embryonic development clearly requires more study, but we can get a good match by taking the initial embryo weight as 0.25 μg dwt, assuming a 2.5-day lag phase, and setting f = 0.5 for the embryo. The 2.5-day lag does not result from an arrest of development; the embryo is developing and using oxygen, but it is not increasing much in dry weight. Interestingly, the end of this phase marks the transition from the gastrula to the trochophore stage (which in many molluscs is a free-living planktonic larva). A possible explanation is that the embryo initially has a much lower value of the allocation fraction κ (Fig. 1), which would result in a higher rate of maturation at the expense of somatic growth (see also Mueller et al., 2012). The embryo uses assimilates in the egg at a rate that is a factor of two lower than the maximum surface-specific rate in the juvenile/adult stages. We take the assimilation rate of the animal proportional to a surface area, and define Ja
+Am in relation to a volumetric surface L2. The value of Ja
+Am
+stays constant only when the animal does not change its shape, and as long as the surface area that determines assimilation does not change. Embryos, however, tend to have a different shape than juveniles, and different surface areas may determine assimilation (e.g., they probably do not use their gut surface). Therefore, a different proportionality may apply. Alternatively, it could be that the snails go though an acceleration stage after hatching, in which Ja
+Am gradually increases from the embryonic value to the juvenile/adult value (see Kooijman et al., 2011). To estimate embryo respiration, we assume that oxygen use is proportional to the total dissipation flux of assimilates: the assimilation flux minus the fluxes that are fixed in biomass. For embryos, only the growth flux JV is fixed, so the remainder contributes to respiration. For the model prediction,
+20
+
+
+Figure 4: Data for snail dry weight over time during starvation (Zonneveld and Kooijman, 1989). Solid line represent model predictions with the parameters from last column of Table 2; broken line is a quick-fix (not fitted) to get a closer correspondence to the data (see text Section 3.3).
+we need to estimate an additional parameter: the volume of oxygen used per mass of assimilates that is not fixed in biomass. Because a good description of growth is needed for an estimate of respiration, we only use the adapted parameter set that was used to match the embryonic growth curve. To get a good correspondence, we have to assume that some 130 μL of oxygen is used for each mg dwt of assimilates. For the response on starvation, we are using data from Zonneveld and Kooijman (1989). These authors starved groups of snails in two different light regimes. The snails in the 12:12 light/dark regime rapidly stop reproducing, whereas in the 16:8 regime, they continue reproducing until they die. Unfortunately, the actual number or weight of offspring produced was not reported, which makes it impossible to test different sets of mass-balance rules for starvation in the latter light regime. The behaviour in the 12:12 regime matches the DEBkiss rules (as laid down in Assumption 7), and we therefore focus on those data. Clearly, the model predicts a much faster weight decrease than is observed in the data. This could be an experimental problem, for example that starvation was not complete as snails can feed on developing biofilm. On the other hand, we should seriously consider that this represents shortcomings in the model. We obtain a much better fit if
+21
+
+
+we decrease maintenance costs under starvation by a factor of 7 or increase yAV by the same factor (Fig. 3). A decrease in maintenance costs might be a metabolic adaptation of the snail to prolonged starvation, but such a hypothesis should be corroborated by more detailed investigations (e.g., measuring respiration rates during starvation). Clearly, more work is needed to investigate the degree of realism of the model under starvation.
+4. Discussion
+4.1. Main differences with existing DEB models
+The DEBkiss model is very similar to the model that laid the foundation of DEB theory: the budget model of Kooijman and Metz (1984), which was also used in a few later studies (e.g., Klok and De Roos, 1996; Jager and Klok, 2010). If we include maturity maintenance (see Section 2.3), the resulting model is essentially equivalent to the simplified DEBtox model (Jager and Zimmer, 2012) in which the reserve density goes to zero (the ‘energy investment ratio’ goes to infinity). However, we here include the embryonic stage, and take a more formal approach to emphasise the mass balance in the model, and provide direct access to the metabolic processes. The differences with the standard DEB animal model (Sousa et al., 2010) are more substantial, even though the underlying assumptions are actually quite similar to those underlying the standard model (Kooijman, 2001). The most important deviation is that our animal does not have a reserve compartment and no state variable for maturity. The lack of reserve implies that the organism responds immediately to changes in the food density and needs to have an explicit strategy to deviate from the rules when the feeding rate fluctuates (Assumptions 7 in Section 2.1). However, the standard DEB animal is not entirely saved by his reserve. In a fully-grown animal, the mobilisation from the reserve is just sufficient to cover maintenance needs. Any decrease in the feeding rate thus requires the animal to deviate from the standard rules too. Reserve is essential to understand inter-species scaling relationships (see Nisbet et al., 2000) and intra-species differences in composition or respiration at different food levels (see Sousa et al., 2010). However, the role of the reserve in DEB theory increases with increasing maximum body mass of the animal (see Nisbet et al., 2000), so the exclusion of reserve makes DEBkiss most applicable to small (invertebrate) species. The egg buffer of assimilates plays the same role as the embryo reserve in DEB theory. However, in DEB theory, the reserve is mobilised at a rate de
+22
+
+
+pending on the ratio of the reserve and the structural biomass of the embryo, and the remainder is internalised before birth. Here, we assume that the egg buffer is assimilated until it is fully depleted (Assumptions 2 in Section 2.1). The net-production model of Lika and Nisbet (2000) employs a similar approach for the embryo (in their Formulation 1), assuming that energy is transferred from yolk to the embryo proportional to the structural surface area. The embryonic growth curve in DEBkiss is almost linear (when expressed as volumetric length, see Fig. 3), while for the DEB embryo, growth will slow down before hatching because the reserve density decreases (which matches the observed patterns for some, but not all, species, see Zonneveld and Kooijman, 1993). In DEB theory, the state variable ‘maturity’ is used to trigger all stage transitions, such as from embryo to juvenile (birth, the start of feeding) and from juvenile to adult (puberty, the start of investment in reproduction). Maturity is an elegant concept that helps to explain development over the life cycle (Augustine et al., 2011), which is of particular help when developmental status is not well-described by body size. In DEBkiss, the flux of resources to increase complexity also exists, but it is not followed as a state variable (Assumptions 6 in Section 2.1). As in several other DEB applications (e.g., Kooijman and Metz, 1984; Jager and Zimmer, 2012), we assume a constant structural size at puberty, which follows for a specific choice of parameters in the standard DEB model. Birth is triggered when the egg buffer has been depleted (Assumptions 2 in Section 2.1), and the weight of the egg is treated as a primary model parameter in DEBkiss. In contrast, DEB theory takes a fixed maturity level at birth, and sets the egg costs such that the embryo is born with the reserve density of the mother (maternal effects, see Kooijman, 2009). Our rule is much simpler to implement and has the added benefit that it allows for more flexibility to change the investment per egg in response to the mother’s size, feeding status and toxicant stress level (such patterns are often observed in practice). Furthermore, a fixed maturity level at birth may be untenable for some species. Consider the experiments of Sinervo and McEdward (1988). These investigators experimentally decreased the egg size of sea urchins in a very early stage of development. The manipulated eggs yielded smaller offspring at hatching, at an earlier stage of development (less ‘mature’), which were able to feed. Metamorphosis to the adult form still took place at the same size and developmental stage. This pattern indicates that, at least for this species, the DEBkiss rule offers a good description.
+23
+
+
+4.2. Model applicability
+Our DEBkiss model provides an explicit mass balance for an animal over its entire life cycle (including the embryonic stage). We feel that this is the simplest possible model, with the lowest data requirements, that still largely adheres to our needs as stated in the introduction. This model forms an easy-to-communicate tool to demonstrate the essence of mass and energy budgets in animals. Model equations follow directly from a coherent set of basic assumptions. As such, the presented model can serve as a teaching tool and a smooth introduction into the much richer world of DEB theory. Furthermore, the model may prove useful as a building block for individualbased population modelling (where simplicity of the blocks is essential), and for the analysis of toxicity data (where the ease of model verification and parameterisation is a crucial asset). Of course, there is a price to pay for simplicity. The model we propose does not apply the concepts of reserve and maturity that play a central role in DEB theory. However, Martin et al. (Acc.) showed that for the water flea Daphnia magna, both the individual’s traits (growth and reproduction) and population responses could be well described with an infinitely small reserve compartment. Nisbet et al. (2010) demonstrated that a simple netproduction model (without both reserves and maturity) could similarly catch many of the observed patterns. The exclusion of reserve makes DEBkiss most applicable to small invertebrates that feed almost continuously, and which sport a (rather) constant size at puberty (note that ‘puberty’ as defined in this context precedes the appearance of the first eggs). The pond snail, as used in the case study, is an example of such a species. A limitation of emphasising the mass-balance aspects in DEBkiss is that not all parameters can be estimated from common data sets (such as growth and reproduction over time). This is the reason why the model can be reduced to fewer parameters for many purposes (see Eq. 21 and 22). Especially the yield coefficients will be difficult to obtain. As the case study demonstrates, the same model fit on growth and reproduction can be achieved with a different value for the yield coefficients, resulting in different estimates for other model parameters. These uncertainties have to be considered when extrapolating beyond the conditions of the calibration data, or when making predictions for unobserved endpoints. Furthermore, the absolute value for the parameters should be treated with care (e.g., when comparing species). We focussed here on animals that produce clutches of eggs. Among the invertebrates, many different modes of reproduction can be observed
+24
+
+
+(e.g., ovo-viviparity, budding and division), which require modification of the model. Furthermore, many species sport a metamorphosis after which a morphologically (and perhaps also metabolically) very different animal emerges. Whether such life cycles can be easily included into the DEBkiss framework remains to be investigated. The case study for the pond snail showed that the model is quite capable of explaining patterns of growth and reproduction over time at different food levels. However, using the model parameters from this fit, the predictions for embryonic development and weight loss on starvation were off (even though the patterns were qualitatively similar). We offer several explanation for these divergences, but more detailed investigations would be needed to select the most appropriate one. It would be interesting to compare a range of species; strong patterns in misfits for embryonic development and starvation should lead to reconsideration of the model structure. The limitations of the underlying assumptions should be considered before applying DEBkiss. By explicitly providing the list of all required assumptions, and the equations that follow from them, we aim for maximum transparency. Applying the model to cases where the assumptions do not apply can easily mean that the results from DEBkiss (or any other model) are worth bupkis.
+5. Acknowledgements
+This research has been financially supported by the European Union under the 7th Framework Programme (project acronym CREAM, contract number PITN-GA-2009-238148). We thank two anonymous reviewers for their constructive comments.
+References
+Augustine, S., Gagnaire, B., Floriani, M., Adam-Guillermin, C., Kooijman, S. A. L. M., 2011. Developmental energetics of zebrafish, Danio rerio. Comparative Biochemistry and Physiology, Part A 159 (3), 275–283.
+Bernardo, J., 1996. The particular maternal effect of propagule size, especially egg size: patterns, models, quality of evidence and interpretations. American Zoologist 36 (2), 216–236.
+25
+
+
+Hoffer, J. N. A., Ellers, J., Koene, J. M., 2010. Costs of receipt and donation of ejaculates in a simultaneous hermaphrodite. BMC Evolutionary Biology 10, 8.
+Horstmann, H. J., 1958. Sauerstoffverbrauch und Trockengewicht der Embryonen von Lymnaea stagnalis L. Zeitschrift fu ̈r vergleichende Physiologie 41 (4), 390–404.
+Jager, T., Albert, C., Preuss, T. G., Ashauer, R., 2011. General Unified Threshold model of Survival - a toxicokinetic-toxicodynamic framework for ecotoxicology. Environmental Science & Technology 45, 2529–2540.
+Jager, T., Alda A ́ lvarez, O., Kammenga, J. E., Kooijman, S. A. L. M., 2005. Modelling nematode life cycles using dynamic energy budgets. Functional Ecology 19, 136–144.
+Jager, T., Heugens, E. H. W., Kooijman, S. A. L. M., 2006. Making sense of ecotoxicological test results: towards application of process-based models. Ecotoxicology 15, 305–314.
+Jager, T., Klok, C., 2010. Extrapolating toxic effects on individuals to the population level: the role of dynamic energy budgets. Philosophical Transactions of the Royal Society B-Biological Sciences 365, 3531–3540.
+Jager, T., Vandenbrouck, T., Baas, J., De Coen, W. M., Kooijman, S. A. L. M., 2010. A biology-based approach for mixture toxicity of multiple endpoints over the life cycle. Ecotoxicology 19, 351–361.
+Jager, T., Zimmer, E. I., 2012. Simplified Dynamic Energy Budget model for analysing ecotoxicity data. Ecological Modelling 225, 74–81.
+Klok, C., De Roos, A. M., 1996. Population level consequences of toxicological influences on individual growth and reproduction in Lumbricus rubellus (Lumbricidae, Oligochaeta). Ecotoxicology and Environmental Safety 33, 118–127.
+Kooijman, S. A. L. M., 2001. Quantitative aspects of metabolic organization: a discussion of concepts. Philosophical Transactions of the Royal Society of London B 356, 331–349.
+26
+
+
+Kooijman, S. A. L. M., 2009. What the egg can tell about its hen: embryonic development on the basis of dynamic energy budgets. Journal of Mathematical Biology 58 (3), 377–394.
+Kooijman, S. A. L. M., Metz, J. A. J., 1984. On the dynamics of chemically stressed populations: the deduction of population consequences from effects on individuals. Ecotoxicology and Environmental Safety 8, 254–274.
+Kooijman, S. A. L. M., Pecquerie, L., Augustine, S., Jusup, M., 2011. Scenarios for acceleration in fish development and the role of metamorphosis. Journal of Sea Research 66, 419–423.
+Kooijman, S. A. L. M., Sousa, T., Pecquerie, L., Van der Meer, J., Jager, T., 2008. From food-dependent statistics to metabolic parameters, a practical guide to the use of dynamic energy budget theory. Biological Reviews 83, 533–552.
+Lika, K., Kearney, M. R., Freitas, V., Van der Veer, H. W., Van der Meer, J., Wijsman, J. W. M., Pecquerie, L., Kooijman, S. A. L. M., 2011. The “covariation method” for estimating the parameters of the standard Dynamic Energy Budget model I: philosophy and approach. Journal of Sea Research 66, 270–277.
+Lika, K., Kooijman, S. A. L. M., 2011. The comparative topology of energy allocation in budget models. Journal of Sea Research 66, 381–391.
+Lika, K., Nisbet, R. M., 2000. A Dynamic Energy Budget model based on partitioning of net production. Journal of Mathematical Biology 41 (4), 361–386.
+Marois, R., Croll, R. P., 1991. Hatching asynchrony within the egg mass of the pond snail, Lymnaea stagnalis. Invertebrate Reproduction and Development 19 (2), 139–146.
+Martin, B. T., Jager, T., Nisbet, R. M., Preuss, T. G., Grimm, V., Acc. Predicting population dynamics from the properties of individuals: a crosslevel test of Dynamic Energy Budget theory. American Naturalist Acc.
+Martin, B. T., Zimmer, E. I., Grimm, V., Jager, T., 2012. Dynamic Energy Budget theory meets individual-based modelling: a generic and accessible implementation. Methods in Ecology and Evolution 3 (2), 445–449.
+27
+
+
+Mueller, C. A., Augustine, S., Kooijman, S. A. L. M., Kearney, M. R., Seymour, R. S., 2012. The trade-off between maturation and growth during accelerated development in frogs. Comparative Biochemistry and Physiology A-Molecular & Integrative Physiology 163 (1), 95–102.
+Nisbet, R. M., McCauley, E., Johnson, L. R., 2010. Dynamic energy budget theory and population ecology: lessons from Daphnia. Philosophical Transactions of the Royal Society B-Biological Sciences 365 (1557), 35413552.
+Nisbet, R. M., Muller, E. B., Lika, K., Kooijman, S. A. L. M., 2000. From molecules to ecosystems through dynamic energy budget models. Journal of Animal Ecology 69, 913–926.
+Sinervo, B., McEdward, L. R., 1988. Developmental consequences of an evolutionary change in egg size: an experimental test. Evolution 42 (5), 885899.
+Sousa, T., Domingos, T., Poggiale, J. C., Kooijman, S. A. L. M., 2010. Dynamic energy budget theory restores coherence in biology. Philosophical Transactions of the Royal Society B-Biological Sciences 365 (1557), 34133428.
+Van Leeuwen, I. M. M., Vera, J., Wolkenhauer, O., 2010. Dynamic energy budget approaches for modelling organismal ageing. Philosophical Transactions of the Royal Society B-Biological Sciences 365 (1557), 3443–3454.
+Zimmer, E. I., Jager, T., Ducrot, V., Lagadic, L., Kooijman, S. A. L. M., 2012. Juvenile food limitation in standardized tests: a warning to ecotoxicologists. Ecotoxicology 21 (8), 2195–2204.
+Zonneveld, C., Kooijman, S. A. L. M., 1989. Application of a dynamic energy budget model to Lymnaea stagnalis (L.). Functional Ecology 3 (3), 269278.
+Zonneveld, C., Kooijman, S. A. L. M., 1993. Comparative kinetics of embryo development. Bulletin of Mathematical Biology 55 (3), 609–635.
+28

@@ -1,0 +1,242 @@
+rspb.royalsocietypublishing.org
+Research
+Cite this article: Maino JL, Kearney MR. 2015
+Testing mechanistic models of growth
+in insects. Proc. R. Soc. B 282: 20151973.
+http://dx.doi.org/10.1098/rspb.2015.1973
+Received: 16 August 2015
+Accepted: 26 October 2015
+Subject Areas:
+theoretical biology, ecology
+Keywords:
+metabolic theory, invertebrates, allometry,
+ontogenetic growth, insect energetics, dynamic
+energy budget theory
+Author for correspondence:
+James L. Maino
+e-mail: jamesmaino@gmail.com
+Electronic supplementary material is available
+at http://dx.doi.org/10.1098/rspb.2015.1973 or
+via http://rspb.royalsocietypublishing.org.
+Testing mechanistic models of growth
+in insects
+James L. Maino and Michael R. Kearney
+School of BioSciences, The University of Melbourne, Melbourne, Victoria 3010, Australia
+Insects are typified by their small size, large numbers, impressive reproductive output and rapid growth. However, insect growth is not simply rapid; rather, insects follow a qualitatively distinct trajectory to many other animals. Here we present a mechanistic growth model for insects and show that increasing specific assimilation during the growth phase can explain the near-exponential growth trajectory of insects. The presented model is tested against growth data on 50 insects, and compared against other mechanistic growth models. Unlike the other mechanistic models, our growth model predicts energy reserves per biomass to increase with age, which implies a higher production efficiency and energy density of biomass in later instars. These predictions are tested against data compiled from the literature whereby it is confirmed that insects increase their production efficiency (by 24 percentage points) and energy density (by 4 J mg21) between hatching and the attainment of full size. The model suggests that insects achieve greater production efficiencies and enhanced growth rates by increasing specific assimilation and increasing energy reserves per biomass, which are less costly to maintain than structural biomass. Our findings illustrate how the explanatory and predictive power of mechanistic growth models comes from their grounding in underlying biological processes.
+1. Introduction
+All living organisms must acquire energy and resources from their environment to fuel metabolism. The transformation of these resources into biomass and their ongoing accumulation is commonly referred to as growth. Quantitative models describing this accumulation process through time are often chosen based purely on the goodness of fit rather than any fundamental principles. Mechanistic growth models formalize knowledge of underlying bioenergetic processes of uptake, development and maintenance to derive net production. The resulting functions are constrained not only by the data they must fit, but by the knowledge of physiological processes they incorporate in their assumptions. They are consequently seen as more robust than purely descriptive, phenomenological approaches [1,2]. Several generic mechanistic models for animal growth exist [3–5] that are based on the simple differential equation
+dm
+dt 1⁄4 amc bmd, ð1:1Þ
+where a and b are coefficients, and c and d are the scaling exponents of body mass m. The catabolism (maintenance) exponent d is typically taken as 1, whereas the anabolism (assimilation) exponent is assumed to take values of 2/3 and 3/4 on the basis of surface area or metabolic scaling exponents, respectively. When the assimilation exponent is taken as 3/4, the WBE growth model emerges [3]. Whereas when the assimilation exponent is taken as 2/3, the von Bertalanffy function for mass m through time t emerges as
+m 1⁄4 m1 1 1 m1=3
+b m11=3
+!
+e Cvt
+!3
+, ð1:2Þ
+where mb is mass at birth, m1 is asymptotic mass and Cv 1⁄4 b/3 is the von
+& 2015 The Author(s) Published by the Royal Society. All rights reserved.
+
+
+Bertalanffy growth rate. This function can be reduced to a universal function of dimensionless time and mass m 1⁄4 1 e t, where m 1⁄4 ðm=m1Þ1=3 and t 1⁄4 Cvt lnð1 ðmb=m1Þ1=3Þ: For insects, such a curve tends to overpredict growth rates early in development and underpredict them closer to full size (figure 1) as is also found in marine invertebrates [6]. It has long been suggested that insect growth is more closely characterized by exponential growth, with von Bertalanffy himself noting that insects could be classed as a unique metabolic and growth type that is closer to exponential [7]. Taking the assimilation exponent as 1 results in an exponential function for mass through time
+m 1⁄4 mbeCet, ð1:3Þ
+where Ce 1⁄4 a b is the exponential growth rate. Similarly, the function can be reduced to a function of dimensionless time and mass e 1⁄4 ed where e 1⁄4 m=mb and d 1⁄4 Cet: By inspection, an exponential function better describes insect growth compared to the von Bertalanffy function, but the concave pattern of the residual variation suggests insects grow more slowly than an exponential function (figure 1). Indeed, Esperk & Tammaru [8] concluded recently that insects grow slower than exponentially. Here we show that a simple modification to a well-known mechanistic model for growth accounts for the trajectory of insect growth. The modification also produces novel predictions that are tested against insect growth data compiled from the literature.
+(a) Theoretical framework
+The standard dynamic energy budget (DEB) model [9,10] represents a quest for the simplest model that can describe the full life cycle bioenergetics of all living organisms. A unique feature of DEB models is the partitioning of biomass into ‘reserve’ and ‘structure’ (figure 2). Reserve is defined as the intermediate chemical substrates between the transformation of food and the growth and maintenance of structure
+(and reproduction, which is dealt with elsewhere [10]). The reserve concept is motivated by the observation that nutritional history qualitatively affects biomass, which in turn has metabolic consequences. The variable content of the amount of reserve per mass adds a qualitative aspect to biomass, which is otherwise assumed to be homogeneous in most growth models. Metabolism in a DEB framework is thus seen to be dictated not by immediate feeding conditions but the amount of reserve and structure. In the absence of feeding, sufficient reserve will fuel the continuation of structural growth and reproduction as is frequently observed in starved animals. Under constant environmental conditions, the von Bertalanffy curve emerges as a special case of the standard DEB model. Under such conditions reserve and structure increase in proportion and so mass is proportional to structure. Consequently, the scaling exponents of assimilation and maintenance, which are functions of structure with exponents 2/3 and 1, respectively, do not change as functions of mass, i.e. we have dm=dt 1⁄4 am2=3 bm1 or von Bertalanffy growth. Because DEB theory is based on first principles, it provides the von Bertalanffy growth curve, and its parameters, a more precise mechanistic interpretation and can be extended to variable environmental conditions where food availability varies. This is true given four key assumptions of the standard DEB model.
+(i) Assumption 1
+No changes in shape occur during growth, which implies that surface area is proportional to volume2/3.
+(ii) Assumption 2
+Energy assimilation p_ A is proportional to structural surface
+area or _pA 1⁄4 f f _pAmgV2=3, where f _pAmg is the maximum specific assimilation rate and f is a scaled type II functional response of the food level [11] taking values between 0 and 1.
+0 5 10 15
+10−1
+1
+10
+102
+103
+104
+105
+dimensionless mass
+dimensionless time
+01234
+10−2
+10−1
+1
+10
+dimensionless time
+exponential von Bertalanffy
+(a) (b)
+Figure 1. Universal growth curves can be derived from the exponential growth curve (a) and the von Bertalanffy growth curve (b). The universal von Bertalanffy curve m 1⁄4 1 e t is expressed in terms of dimensional mass m 1⁄4 ðm=m1Þ1=3 and dimensionless time t 1⁄4 Cvt lnð1 ðmb=m1Þ1=3Þ: The universal exponential growth curve e 1⁄4 ed is expressed in terms of dimensionless mass e 1⁄4 m=mb and dimensionless time d 1⁄4 Cet. Growth data plotted for 50 insects show concave residual deviations from the exponential curve suggesting growth is slower than exponential. Insect growth is initially overpredicted by the von Bertalanffy curve and then underpredicted.
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+2
+
+
+(iii) Assumption 3
+Maintenance p_ M is proportional to the amount of structure or _pM 1⁄4 [ _pM]V, where [ _pM] is the specific maintenance rate of structure.
+(iv) Assumption 4
+Under constant food the ratio of reserve to structure (reserve density) E/V 1⁄4 [E] is constant. The consequences of these assumptions are followed through and the standard DEB growth model is derived and uploaded as part of the electronic supplementary material, appendix S1.
+(b) A mechanistic growth model for insects
+To improve the fit of the DEB model to insects, which do not follow a von Bertalanffy-shaped growth trajectory, we introduce a simple modification whereby the assumption that the specific assimilation rate parameter is constant through ontogeny is relaxed. To relax this assumption, we scale the specific assimilation rate by the dimensionless term (V/ Vb)a, where a is a free parameter and Vb is structure at birth. As _pA 1⁄4 ðV=VbÞaf f _pAmgV2=3 can be rearranged to
+_pA 1⁄4 V a
+b ff _pAmgVð2=3Þþa, the structural volume scaling exponent for assimilation rate c can be related to the free parameter a by c 1⁄4 (2/3) þ a. This enables the consideration of assimilation scaling exponents other than 2/3. For example, if a1⁄4 1/3 then c 1⁄4 1 or the assimilation rate will scale with structure volumetrically. The structural scaling exponent of assimilation is distinct from the mass scaling exponent b as mass includes contributions from both structure and reserve and will only scale in proportion with structure when a 1⁄4 0. Although the model does not predict assimilation to scale with mass as a pure power law, an approximate mass scaling exponent b can be estimated by fitting a regression. In the following, we show that this modification can capture insect growth trajectories more effectively than von Bertalanffy, WBE and exponential curves. In addition, we show that the model makes predictions about insect biomass production efficiency and energy density. These predictions are tested against a new dataset compiled from the literature. The dataset supporting this article has been uploaded as part of the electronic supplementary material (dataset S1).
+2. Material and methods
+(a) Assessing the model for insect growth
+To assess the generality of our growth model for insects (equation (2.10) in electronic supplementary material, appendix S1), it is tested against a newly compiled dataset on insect growth and compared against von Bertalanffy (equation (1.2)), WBE (eqn (5) in [12]) and exponential (equation (1.3)) growth functions. Each equation is parametrized to growth data on individual species. Growth data were retrieved from a comprehensive literature search of insect growth from hatching to terminal size (maximum larval size for holometabola). This resulted in data for 50 insects from six orders being included in the present analysis (Coleoptera (n 1⁄4 8), Lepidoptera (n 1⁄4 15), Hemiptera (n 1⁄4 9), Hymenoptera (n 1⁄4 2), Orthoptera (n 1⁄4 8), Diptera (n 1⁄4 7) and Neuroptera (n 1⁄4 1)). Where possible, data were extracted from tables or requested from the original authors of the study, otherwise figures were digitized so that data points could be extracted. Mass was standardized to milligrams (dry weight), and time was standardized to days and temperature corrected to 208C using an Arrhenius Boltzmann correction factor with an Arrhenius temperature of 8000 K [13]. Least-squares fitting of all growth functions was performed using the ‘fit’ package in the numerical computing environment, MATLAB. Quality of model fits to data were assessed using Akaike information criteria (AIC) values [14]. The von Bertalanffy, WBE and exponential growth functions each have one free parameter (Cv, CWBE, Ce, respectively). Mass at birth mb and terminal mass m1 are taken from the literature as these parameters are directly measureable and reduce the complexity of parametrizing the models. Allowing measureable parameters to freely vary can also result in unrealistic parameter estimates that cannot be explained by measurement error in the data. For the DEB function, we set specific assimilation f _pAmg and a as the free parameters; standard values for all other parameters are taken from Kooijman [10] and are given in table 1. These values are estimates of typical parameters for a generalized animal and are the usual starting point before fine tuning the parameters in a full DEB models for individual species [15]. We take f _pAmg as a free parameter because theory predicts it to vary between species as a consequence of body size, while other parameters do not (but can be changed as a result of other
+food
+excreta
+maintenance
+reserve structure
+pG
+pM
+pA
+Figure 2. A simplified schematic of a standard DEB model without maturation or reproduction. DEB theory uniquely partitions organism biomass into reserve and structure compartments. For the sake of simplicity, we do not consider allocation to maturation or reproduction, which would usually be treated as an extra branch before allocation to growth and maintenance. (Online version in colour.)
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+3
+
+
+selective pressures). As described above, a is a free parameter that allows us to relax the assumption of constant specific assimilation during ontogeny. Unlike the other growth functions, which can be solved analytically, the DEB function must be integrated numerically across the growth period. As in the standard DEB model, the ratio of reserve to structure is set as the ratio f _pAmg=v_ which, in combination with the value for mass at hatching, provides the initial values.
+(b) Novel model predictions
+Unlike other growth models, which do not separate biomass into structure and reserve, the insect DEB model predicts the composition of biomass to change with development. In the standard model, the ratio of reserve to structure is constant. However, by relaxing the assumption of constant specific assimilation the ratio will vary as shown by equation (2.6). The intuitive interpretation is that if specific assimilation increases, reserve use increases more slowly than reserve accumulation. To capture the growth trajectory of insects, the scaling parameter a will take positive values, which causes specific assimilation to increase and faster growth. As growth proceeds, this implies that reserve per biomass will increase (equation (2.6)) and, consequently, the mass-specific cost of biomass maintenance will decrease, while production efficiency increases in later instars. The increasing amount of reserve also predicts an increasing energy density (J/mg dry weight) of biomass. This is because reserve is typically comprised of a larger proportion of energetically rich substances, such as lipids, in order to fuel metabolism in the absence of food [15]. To test these predictions of (i) higher production efficiency with growth and (ii) higher energy density of biomass with growth, we compiled production efficiency and biomass energy density data from the literature, as with the growth data. The dataset includes production efficiency data on 24 insects from five orders and energy density data on 15 insects from four orders. All data used in these analyses are available in the electronic supplementary material, dataset S1. Production efficiency was measured as growth rate ( joules per day) divided by assimilation rate ( joules per day). Production efficiency represents the proportion of assimilated energy (consumption minus excretion) that is converted to biomass. The
+reproductive phase was excluded as we did not consider the implications of reproduction here. When assimilation was not reported, it was able to be derived on the basis of energy and mass conservation by either subtracting measured excretion from consumption or summing heat dissipation (respiration) with growth. Where respiration data used were reported in ml O2 consumption, they were converted to joules assuming a conversion coefficient of 48.9 ml J21. Where sex was separated, female values were used. Because there are multiple measures of each species throughout the growth phase, a linear mixed effect model was fitted to production efficiency and energy density, with a fixed effect of development stage (instar/total instars) and a random effect for each species.
+3. Results
+(a) Assessing growth models
+When assimilation is assumed to scale with the lowest and highest mass exponents (m2/3 versus m1), we arrive at von Bertalanffy and exponential growth curves, respectively (equation (1.1)). These two extremes are shown in figure 1 in terms of dimensionless variables. From inspection, the von Bertalanffy curve does not capture the growth of insects, while the concave down residuals in the exponential plot suggest that insects may exhibit slower than exponential growth. We found that the parameter a was positive for 47 out of 50 insects, indicating that, overwhelmingly, insects grow faster than von Bertalanffy growth due to an increasing specific assimilation rate. However, unlike exponential growth the DEB model is also able to capture curvature on a semi-logarithmic plot (figure 3). Estimates for the scaling exponents of assimilation are reported in table 2, where it can be seen that the scaling exponent of mass b is consistently lower than the scaling exponent of structure c. As previously mentioned, this is due to the contribution of reserve to mass. There was significant variation in a between species (estimates ranging from 0.096 to 1.152) but systematic variation between orders was less obvious (table 2). While the exponential model does much better than the von Bertalanffy function (mean Akaike weight of 0.132 versus 0.007), the presented DEB model consistently has the highest AIC weight. At the level of orders there is not
+Table 1. Parameter list for insect DEB model.
+description parameter value units
+free parameters
+specific assimilation {_pAm} — J mm22 d21
+assimilation scaling parameter a — 
+fixed parametersa
+specific maintenance [_pM] 0.18 J mm23 d21
+cost of structure [EG] 2.8 J mm23
+conductance v_ 0.2 mm d21
+structural volume to dry mass dV 0.2 mg mm23
+reserve energy to dry mass eE 23 J mg21
+aFixed parameters are set at the default values given in [10].
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+4
+
+
+strong support that the DEB model is better than the exponential with wDEB=wexp . 10 in only Diptera and Neuroptera [14]. However, at the species level the DEB model has an Akaike weight greater than 10 times the next best model for 32 of 50 species. Species level variation in the best model is given in figure 4 where it is seen that the exponential model is predicted to be the best fit in only five species. The WBE model does only slightly better than the von Bertalanffy model (Akaike weight of 0.010 versus 0.007). Although the DEB model performed the best, all models explained high levels of variance (the von Bertalanffy model captured the lowest at 93%, whereas the DEB model captured the highest with 99%). The quality of fits to data is only one aspect of determining the appropriateness of a model. A good fit for the wrong reasons can occur when models imply unrealistic consequences. In the following, we test mechanistic implications
+of the DEB model that are not predicted by the other growth models.
+(b) Novel model predictions
+The DEB model departs from the other models in its separation of reserve and structure and predictions relating to production efficiency and the energy density of biomass through ontogeny. Controlling for random species effects, figure 5a shows the fixed effect of developmental stage (instar/total instars) on production efficiency (production per instar/consumption minus excretion per instar). In our dataset, production efficiency is found to significantly increase (95% confidence level) by an estimated 24.4 percentage points from the beginning to the end of the growth period. Given that the estimated starting production efficiency is only 24.0%, this approximately represents a twofold increase in efficiency.
+0 100 200 300
+1
+10
+102
+Oxya velox
+mass (mg)
+time (d)
+(a)
+0 50 100 150 200
+1
+10
+102
+103
+104
+Cyclophragma leucosticta
+time (d)
+(b)
+Figure 3. (a,b) Representative fits of the four models where the solid black line is the DEB model, the solid grey line is the exponential model, the dashed black line is von Bertalanffy growth and the dashed grey line is the WBE model. The insect DEB model captures not only the exponential growth but also the curvature on a semi-logarithmic plot.
+Table 2. Mean DEB scaling exponents and comparison of model fit in terms of AIC weights. Mean Akaike weights of each model are given for each insect group, i.e. the likelihood the best model of the set [14]. Parentheses contain 95% CIs.
+N
+mean species AIC weight by model and order mean DEB scaling exponents
+exp.
+von Bert. WBE DEB a b c
+Coleoptera 8 0.177 0.005 0.008 0.810 0.517 (0.229, 0.804) 0.952 (0.840, 1.063) 1.183 (0.896, 1.471)
+Diptera 7 0.045 0.038 0.053 0.864 0.437 (0.098, 0.777) 0.748 (0.646, 0.850) 1.104 (0.764, 1.443)
+Hemiptera 9 0.159 0.001 0.002 0.838 0.377 (0.095, 0.660) 0.873 (0.737, 1.009) 1.044 (0.761, 1.327)
+Hymenoptera 2 0.096 0.002 0.003 0.899 0.794 (20.639, 2.227) 0.883 (0.703, 1.062) 1.461 (0.028, 2.894)
+Lepidoptera 15 0.160 0.001 0.002 0.837 1.012 (0.725, 1.299) 0.949 (0.894, 1.005) 1.679 (1.391, 1.966)
+Neuroptera 1 0.051 0.000 0.000 0.949 0.678 0.900 1.345
+Orthoptera 8 0.100 0.000 0.000 0.899 0.384 (0.008, 0.760) 0.892 (0.617, 1.168) 1.051 (0.675, 1.427)
+all orders 50 0.132 0.007 0.010 0.851 0.622 (0.484, 0.760) 0.895 (0.844, 0.946) 1.289 (1.151, 1.427)
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+5
+
+
+The energetic content of biomass increases with a significant positive relationship (at the 95% confidence level) as development progresses. Figure 5b shows the effect of developmental stage on biomass energy density while controlling species random effects. Energy content per biomass was found to increase by an estimated 3.6 J mg21 between the start and end of the growth period, with an estimated starting value of 22.4 J mg21.
+4. Discussion
+Specific assimilation rate varies during ontogeny in many animals for various reasons, including hibernation, pregnancy or migration whereby greater uptake capacity is attained by temporarily increasing organ size [16 –18]. A constant specific assimilation might be expected if organs related to the uptake of nutrients grow isomorphically with body size. The proposed increasing specific assimilation implies that these organs do not grow isomorphically. Interestingly, it has been found in the lepidopterans Bombyx mori [19] and Manduca sexta [20], that the midgut mass increases faster than predicted by isomorphic scaling. Indeed, it is well known that insects have significant physiological plasticity in organ size and can increase gut size to deal with nutrient stress [21,22]. This physiological plasticity in organ size can explain how upregulated specific assimilation is achieved compared with the baseline of isomorphic growth and constant-specific assimilation. An increasing specific assimilation rate during the growth phase may have an adaptive significance for insects. The majority of insects are holometabolous and do not eat during pupation [23], with many even lacking functional mouthparts during the adult phase [23]. For these insects, nutrients acquired during the immature stages strongly determine reproductive effort [24,25]. But even insects that do not metamorphose may be more nutrient limited as they age. Herbivorous insects, for example, commonly experience a decreasing quality in the nutrient content of food as they age as their host plants develop (in terms of water and nitrogen) [26]. In general, adult insects do not have access to the same diet available to immature stages, not least of all due to their
+different morphology [27,28]. This explains why insect reproduction is constrained by resources accumulated during the immature phase and cannot be offset by compensatory feeding in the adult stage [24,25]. The presented mechanistic growth model for insects, which results from a simple modification to the standard DEB model, successfully accounts for deviations from von Bertalanffy growth under constant conditions. Unlike other models considered here, which assume assimilation to scale with mass raised to some exponent, the presented DEB model takes assimilation to scale with the more relevant quantity of structural mass, which ignores accumulated reserve mass. As a function of mass, the estimated scaling exponent of assimilation lies between 2/3 and 1 (table 2). This is higher than the von Bertalanfy (and DEB) assumption but lower than the exponential assumption (if catabolism scales with m1). The delineation of biomass into reserve and structural components allows consideration of compositional variation in biomass through ontogeny that the other tested singlecompartment models did not. This point of divergence made a good test of the DEB model. The increase in specific assimilation predicted for insects by the DEB model caused a concomitant increase in the amount of reserve per biomass. The implication of this increase in reserve was tested against data where it was confirmed that insect biomass increases in energy density and production efficiency with growth. In contrast to non-mechanistic approaches, which simply attempt to describe a particular relationship in a quantitative fashion, a mechanistic approach aims for a deeper understanding by attempting to derive a higher level relationship from more fundamental processes. A corollary to this is that other novel higher level relationships can be predicted and tested as further support of a model. The findings for insect biomass energy density and production efficiency through ontogeny gave support to the DEB model, which was the only model to predict such a relationship. Recent work conducted by Llandres et al. [29] made alternative modifications to the standard DEB model that could explain energetic patterns in the context of a parasitic wasp. The model was much more detailed than the one described here but was able to capture distinct embryonic phases, silk production, allocation to reproduction during the larval phase, and exponential growth. These modifications, which included assuming metabolic acceleration [30] and an additional biomass compartment for reproductive resource, incurred 10 additional free parameters compared with the standard DEB model. Such a model will be difficult to test on the basis of growth data alone and will require more detailed energetic data across the whole life cycle of a variety of insects. The model presented here is much simpler (adding only one free parameter to the standard model) but still explains many features of insect growth. Here we have only considered insects, which are ecologically dominant and speciose among terrestrial invertebrates, but in a recent study by Hirst & Forster [6] it was found that growth in 73% of 58 marine invertebrates was best modelled by an exponential function. The study did not consider a mechanistic interpretation of the broadly evident exponential growth pattern, but, as in the case of insects, non-constant specific assimilation in these species may also explain faster growth rates in some case. In insects, we proposed that altering the specific assimilation rate may be adaptive in cases where the
+0
+5
+10
+15
+Coleoptera
+Diptera
+Hemiptera
+Hymenoptera
+Lepidoptera
+Neuroptera
+Orthoptera
+no. species
+Figure 4. Best models for individuals within orders as determined by AIC values. White bars denote number of individuals for which DEB model produced the lowest AIC value, while grey bars are cases where the exponential model was best. The von Bertalanffy model and the WBE model were not the best model for any species.
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+6
+
+
+adult feeding environment and available nutrition is distinct from immature phases. This is certainly the case in metamorphosing holometabola, which represent the majority of insects. Interestingly, most marine invertebrates also undergo a larval phase before metamorphosing into an adult, and, like insect metamorphosis, this has important nutritional consequences for their growth and development [31]. Indeed, those marine invertebrates best described by non-exponential functions did not undergo metamorphosis (Amphipoda and Ctenophora) or did not feed in the larval phase (Gastropoda) [32]. However, this explanation does not account for those species that were best described by an exponential function but did not exhibit metamorphosis or a non-feeding larval phase (e.g. Chaetognatha, Cephalopoda, Appendicularia). Nevertheless, morphology has recently been found to correlate with metabolic rate [33,34] and may therefore suggest some connection between the shape of growth trajectories and distinct immature and adult phases. To further uncover the mechanisms driving these different patterns, more physiological studies exploring ontogenetic growth allometries of organs relevant to digestion are required. Unlike the von Bertalanffy and WBE growth models, the presented DEB model does not have an asymptotic size for a . 1/3 or otherwise asymptotes at a weight much higher than the actual terminal mass. This means that growth must be terminated by some other mechanism. Indeed, while von Bertalanffy argued it was the mismatched scaling of anabolism and catabolism that caused growth to asymptote in vertebrates, he noted that this mechanism did not apply to insects [7]. Rather, he supposed that in insects, growth was interrupted by some developmental cue. The absence of a physical limit that determines size in insects has been supported experimentally. Caterpillars chemically induced to enter an extra instar before pupation have been observed to continue their rapid growth trajectory beyond their usual terminal weight [31,35]. It has long been known that body-size is a good predictor of insect moulting and metamorphosis [36]. This has led to the concept of the ‘critical weight’, which is defined as the weight threshold that must be passed in order to trigger
+commitment to moulting. The mechanism responsible for size detection in insects has been well elaborated in only a small number of species. Among these species it has been variously found that commitment to moulting is triggered by abdominal stretch receptors [37], the exhaustion of a prepackaged food supply [38], or size-imposed oxygen limitation [39]. More recently it has been found that nutritional condition may better describe the process of moulting [40–42]. As the DEB model considers both size (structure) and nutritional condition (reserve), it offers natural handles to both of these quantities, which could be used to explore developmental triggers in insects. DEB models are increasingly being used to explain broad patterns across species using simple physico-chemical principles. One exciting area of application is in body size scaling relationships, which form the basis of the emerging field of metabolic ecology [43 –46]. DEB predicts that the famous sublinear scaling of metabolic rate with body mass
+0 0.2 0.4 0.6 0.8 1.0
+10
+20
+30
+40
+50
+60
+70
+developmental stage (instar no./total instars)
+partial residuals of production efficiency (%)
+slope = 24.384 (10.9; 37.8)
+0 0.2 0.4 0.6 0.8 1.0
+18
+20
+22
+24
+26
+28
+30
+developmental stage (instar no./total instars)
+partial residuals of energy density (J mg–1)
+slope = 3.618 (1.38; 5.86)
+(a) (b)
+Figure 5. The partial residuals of production efficiency (a) and energy density (b) are plotted against developmental stage, while controlling for a random effect of each species. Markers represent different insect orders: Coleoptera (diamonds), Hemiptera (squares), Lepidoptera, (right facing triangles), Neuroptera (left facing triangles) and Orthoptera (circles). The slopes are both positive with their 95% CIs (in parentheses) excluding zero. The value used for total instars includes the adult instar, for hemimetabolous insects and the pupa for holometabolous insects, i.e. when developmental stage is equal to one, the insect is an adult or pupa.
+−2 0 2 4 6
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+slope = 0.62 (0.40; 0.83)
+log10 structure (mm3)
+log10 terminal mass (mg)
+Figure 6. Terminal structure is determined from the fitted DEB models for each species (equation (2.8)) and is plotted against species terminal mass. The 95% CI of the regression slope (in parentheses) excludes 1, supporting the prediction that structure scales sublinearly with the mass of a species.
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+7
+
+
+between species occurs as a result of the sublinear scaling of structure with mass (assuming, simplistically, that metabolic rate at terminal size is equivalent to the maintenance cost of structure). This predicted sublinear scaling of structure occurs because larger organisms require greater amounts of reserve per mass [44]. Structure at terminal size for insects included in the growth analysis can be found using the fitted DEB models (equation (2.8) in the electronic supplementary material, appendix S1). As shown in figure 6, terminal structure scales interspecifically with body mass with an exponent significantly less than 1, which is consistent with the DEB expectation based on past studies of insect metabolic scaling [47,48]. Mechanistic models are frequently cited as having more robust predictive power than their phenomenological counterparts [1,2], but a more understated advantage is that their explanatory power is based on underlying processes. Models may fit data well, but for the wrong reasons. Indeed, all models tested here can be interpreted mechanistically and
+explained high levels of variance (even the worst model explained approx. 93% of the variation in the growth data). However, the change in insect production efficiency and energy density was only predicted by the DEB approach. The other tested models implied unrealistic biological consequences (such as constant composition) that did not align with observation. As is becoming increasingly apparent, the concepts of reserve and structure are useful for explaining a broad variety of biological patterns, from metabolic scaling, to the diverse features of growth among organisms.
+Authors’ contributions. J.M. and M.K. conceived and designed the study. J.M. compiled the data, conducted data analysis and drafted the manuscript. J.M. and M.K. critically revised the manuscript. Competing interests. We declare we have no competing interests. Funding. J.M. was supported by a David Hay scholarship. M.K. was supported by the Australian Research Council (DP110101776). Acknowledgements. We thank J. Casas, J. Harrison, C. Hou, T. Jager, J. Koene, S. Kooijman, B. Kooi, J. van der Meer and two anonymous reviewers for comments and E. Pirtle for help with designing figures.
+References
+1. Denny M, Benedetti-Cecchi L. 2012 Scaling up in ecology: mechanistic approaches. Annu. Rev. Ecol. Evol. Syst. 43, 1 –22. (doi:10.1146/annurev-ecolsys102710-145103) 2. Helmuth B, Kingsolver JG, Carrington E. 2005 Biophysics, physiological ecology, and climate change: does mechanism matter? Annu. Rev. Physiol. 67, 177–201. (doi:10.1146/annurev. physiol.67.040403.105027) 3. West GB, Brown JH, Enquist BJ. 2001 A general model for ontogenetic growth. Nature 413, 628–631. (doi:10.1038/35098076) 4. Hou C, Zuo W, Moses M, Woodruff W. 2008 Energy uptake and allocation during ontogeny. Science 322, 736–739. (doi:10.1126/science.1162302) 5. Van der Meer J. 2006 An introduction to dynamic energy budget (DEB) models with special emphasis on parameter estimation. J. Sea Res. 56, 85 –102. (doi:10.1016/j.seares.2006.03.001) 6. Hirst AG, Forster J. 2013 When growth models are not universal: evidence from marine invertebrates. Proc. R. Soc. B 280, 20131546. (doi:10.1098/rspb. 2013.1546) 7. Von Bertalanffy L. 1951 Metabolic types and growth types. Am. Nat. 85, 111–117. (doi:10. 1086/281659) 8. Tammaru T, Esperk T. 2007 Growth allometry of immature insects: larvae do not grow exponentially. Funct. Ecol. 21, 1099– 1105. (doi:10.1111/j.13652435.2007.01319.x) 9. Kooijman SALM. 1986 Energy budgets can explain body size relations. J. Theor. Biol. 121, 269–282. (doi:10.1016/S0022-5193(86)80107-2) 10. Kooijman SALM. 2010 Dynamic energy budget
+theory for metabolic organisation. Cambridge, UK: Cambridge University Press. 11. Holling C. 1959 Some characteristics of simple types of predation and parasitism. Can. Entomol. XCI, 385–398. (doi:10.4039/Ent91385-7)
+12. West GB, Brown JH, Enquist B. 2001 A general model for ontogenetic growth. Nature 413, 4 –7. (doi:10.1038/35098076) 13. Gillooly JF, Charnov EL, West GB, Savage VM, Brown JH, West GB, Savage VM, Charnov EL. 2001 Effects of size and temperature on metabolic rate. Science. 293, 2248–2251. (doi:10.1126/ science.1061967) 14. Burnham KP, Anderson DR. 2002 Model selection and multimodel inference: a practical informationtheoretic approach, 2nd edn. Berlin, Germany: Springer. 15. Lika K, Kearney MR, Freitas V, van der Veer HW, van der Meer J, Wijsman JWM, Pecquerie L, Kooijman SALM. 2011 The ‘covariation method’ for estimating the parameters of the standard Dynamic Energy Budget model I: philosophy and approach. J. Sea Res. 66, 270 –277. (doi:10.1016/j.seares. 2011.07.010) 16. McLandress M, Raveling D. 1981 Changes in diet and body composition of Canada geese before spring migration. Auk 98, 65 –79. 17. Piersma T, Lindstro ̈m A ̊. 1997 Rapid reversible changes in organ size as a component of adaptive behaviour. Trends Ecol. Evol. 12, 134– 138. (doi:10. 1016/S0169-5347(97)01003-3) 18. Hume D, Beiglbo ̈ck C, Ruf T, Frey-Roos F, Bruns U, Arnold W. 2002 Seasonal changes in morphology and function of the gastrointestinal tract of freeliving alpine marmots (Marmota marmota). J. Comp. Physiol. B. 172, 197– 207. (doi:10.1007/ s00360-001-0240-1) 19. Blossman-Myer BL, Burggren WW. 2010 Metabolic allometry during development and metamorphosis of the silkworm Bombyx mori: analyses, patterns, and mechanisms. Physiol. Biochem. Zool. 83, 215 –231. (doi:10.1086/648393) 20. Yeoh AJ, Davis K, Vela-Mendoza AV, Hartlaub BA, Gillen CM. 2012 Effect of body size on expression of
+Manduca sexta midgut genes. J. Exp. Zool. A. Ecol. Genet. Physiol. 317, 141–151. (doi:10.1002/jez. 1001) 21. Yang Y, Joern A. 1994 Gut size changes in relation to variable food quality and body size in grasshoppers. Funct. Ecol. 8, 36 –45. (doi:10.2307/ 2390109) 22. Woods HA, Kingsolver JG. 1999 Feeding rate and the structure of protein digestion and absorption in lepidopteran midguts. Arch. Insect Biochem. Physiol. 42, 74 – 87. (doi:10.1002/(SICI)1520-6327(199909) 42:1,74::AID-ARCH8.3.0.CO;2-S) 23. Grimaldi D, Engel MS. 2005 Evolution of the insects. Cambridge, UK: Cambridge University Press. 24. Rivero A, Giron D, Casas J. 2001 Lifetime allocation of juvenile and adult nutritional resources to egg production in a holometabolous insect. Proc. R. Soc. Lond. B 268, 1231– 1237. (doi:10.1098/rspb.2001. 1645) 25. Boggs CL, Freeman KD. 2005 Larval food limitation in butterflies: effects on adult resource allocation and fitness. Oecologia 144, 353 –361. (doi:10.1007/ s00442-005-0076-6) 26. Scriber JM, Slansky F. 1981 The nutritional ecology of immature insects. Annu. Rev. Entomol. 26, 183211. (doi:10.1146/annurev.en.26.010181.001151) 27. Truman JW, Riddiford LM. 1999 The origins of insect metamorphosis. Nature 401, 447–452. (doi:10. 1038/46737) 28. Chown SL, Nicolson S. 2004 Insect physiological ecology: mechanisms and patterns. New York, NY: Oxford University Press. 29. Llandres AL, Marques GM, Maino JL, Kooijman SALM, Kearney MR, Casas J. 2015 A dynamic energy budget for the whole life-cycle of holometabolous insects. Ecol. Monogr. 85, 353– 371. (doi:10.1890/ 14-0976.1) 30. Kooijman SALM. 2014 Metabolic acceleration in animal ontogeny: an evolutionary perspective.
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+8
+
+
+J. Sea Res. 94, 128–137. (doi:10.1016/j.seares. 2014.06.005) 31. Ciemior KE, Sehnal F, Scheinderman HA. 1979 Moulting, growth and survival of Galleria mellonella L. (Lep., Pyralidae) treated with juvenoids. Z. Angew. Entomol. 88, 414– 425. (doi:10.1111/j. 1439-0418.1979.tb02518.x) 32. Hadfield M. 2001 Metamorphic competence, a major adaptive convergence in marine invertebrate larvae. Am. Zool. 41, 1123 –1131. 33. Glazier DS, Hirst AG, Atkinson D. 2015 Shape shifting predicts ontogenetic changes in metabolic scaling in diverse aquatic invertebrates. Proc. R. Soc. B 282, 1 –9. (doi:10.1098/rspb.2014.2302) 34. Hirst AG, Glazier DS, Atkinson D. 2014 Body shape shifting during growth permits tests that distinguish between competing geometric theories of metabolic scaling. Ecol. Lett. 17, 1274 –1281. (doi:10.1111/ele.12334) 35. Sindhu A, Nair V. 2004 Influence of juvenile hormone analogue on food consumption and digestive enzyme activities in Spodoptera mauritia Boisd. Indian J. Exp. Biol. 42, 491 –494.
+36. Nijhout HF, Williams CM. 1974 Control of moulting and metamorphosis in the tobacco hornworm, Manduca sexta (L.): growth of the last-instar
+larva and the decision to pupate. J. Exp. Biol. 61, 481 –491. 37. Wigglesworth V. 1934 The physiology of ecdysis in Rhodnius prolixus (Hemiptera). II. Factors controlling moulting and ‘metamorphosis’. Q. J. Microsc. Sci. 2, 191 –222. 38. Shafiei M, Moczek AP, Nijhout HF. 2001 Food availability controls the onset of metamorphosis in the dung beetle Onthophagus taurus (Coleoptera: Scarabaeidae). Physiol. Entomol. 26, 173–180. (doi:10.1046/j.1365-3032.2001.00231.x) 39. Callier V, Nijhout HF. 2011 Control of body size by oxygen supply reveals size-dependent and sizeindependent mechanisms of molting and
+metamorphosis. Proc. Natl Acad. Sci. USA 108, 14 664– 14 669. (doi:10.1073/pnas.1106556108) 40. Telang A, Frame L, Brown MR. 2007 Larval feeding duration affects ecdysteroid levels and nutritional reserves regulating pupal commitment in the yellow fever mosquito Aedes aegypti (Diptera: Culicidae). J. Exp. Biol. 210, 854 – 864. (doi:10.1242/jeb.02715) 41. Chambers GM, Klowden MJ. 1990 Correlation of nutritional reserves with a critical weight for pupation in larval Aedes aegypti mosquitoes. J. Am. Mosq. Control Assoc. 6, 394–399.
+42. Layalle S, Arquier N, L ́eopold P. 2008 The TOR pathway couples nutrition and developmental timing in Drosophila. Dev. Cell 15, 568 –577. (doi:10.1016/j.devcel.2008.08.003) 43. Brown JH, Gillooly JF, Allen AP, Savage VM, West GB. 2004 Toward a metabolic theory of ecology. Ecology 96, 858–873. (doi:10.1890/03-9000) 44. Maino JL, Kearney MR, Nisbet RM, Kooijman SALM. 2014 Reconciling theories for metabolic scaling. J. Anim. Ecol. 83, 20 –29. (doi:10.1111/13652656.12085) 45. Maino JL, Kearney MR. 2014 Ontogenetic and interspecific metabolic scaling in insects. Am. Nat. 184, 695–701. (doi:10.1086/678401) 46. Maino JL, Kearney MR. 2015 Ontogenetic and interspecific scaling of consumption in insects. Oikos 124. (doi:10.1111/oik.02341) 47. Ehnes RB, Rall BC, Brose U. 2011 Phylogenetic grouping, curvature and metabolic scaling in terrestrial invertebrates. Ecol. Lett. 14, 1–8. (doi:10. 1111/j.1461-0248.2011.01660.x) 48. Chown SL, Marais E, Terblanche JS, Klok CJ, Lighton JRB, Blackburn TM. 2007 Scaling of insect metabolic rate is inconsistent with the nutrient supply network model. Funct. Ecol. 21, 282–290. (doi:10. 1111/j.1365-2435.2007.01245.x)
+rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20151973
+9

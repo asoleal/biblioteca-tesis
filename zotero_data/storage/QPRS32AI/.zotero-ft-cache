@@ -1,0 +1,780 @@
+1
+1 Anaerobic digestion of black solider fly larvae (BSFL) biomass as part of an
+2 integrated biorefinery
+3
+4 Shwe S. Wina, Jacqueline H. Ebnera, Sarah A. Brownellb, Susan S. Paganoc, 5 Pedro Cruz-Dilonéd, Thomas A. Trabolda,* 6
+7 a Golisano Institute for Sustainability, Rochester Institute of Technology, Rochester, NY 14623
+8 b Kate Gleason College of Engineering, Design Development and Manufacturing, Rochester Institute of Technology,
+9 Rochester NY 14623
+10 c Thomas H. Gosnell School of Life Sciences, Rochester Institute of Technology, Rochester, NY 14623
+11 d Department of Industrial and Systems Engineering, Rochester Institute of Technology, Rochester NY 14623
+12
+13 ABSTRACT
+14 Black soldier fly larvae (BSFL) (Hermetia illucens) have been used in a variety of
+15 applications including composting, animal feed and biodiesel production. This paper presents
+16 the results of bio-methane potential (BMP) assays for BSFL biomass according to several
+17 hypothetical biorefinery pathways. The mean biomethane potential (BMP) of BSFL was 671
+18 mL CH4/g VS, while mean BMP of lipid extracted BSFL (LE-BSFL) was 334 mL CH4/g VS.
+19 Mean BMP of adult flies and chitinous cuticle were 570 and 343 mL CH4/g VS, respectively.
+20 The impact of BSFL diet on bio-methane potential and the biomethane potential of BSFL
+21 residue was also investigated. This study suggests that anaerobic digestion of BSFL has
+22 potential as part of an integrated energy and waste management solution.
+23
+24 Keywords: Black soldier fly (Hermetia illucens), biogas, biodiesel, food waste, biorefinery 25 26 27 28
+29 *Corresponding Author – Email: tatasp@rit.edu; Tel: 001-585-475-4696; Fax: 001-585-475-5250 30 31 32
+© 2018 published by Elsevier. This manuscript is made available under the Elsevier user license https://www.elsevier.com/open-access/userlicense/1.0/
+Version of Record: https://www.sciencedirect.com/science/article/pii/S0960148118305184 Manuscript_9d1d910d5fc62918213a2ab3f65ca56c
+
+
+2
+33 1. Introduction 34
+35 Anaerobic digestion (AD) has gained popularity as an effective way to treat organic
+36 materials generated in agricultural, municipal and industrial processes, while producing low
+37 carbon energy and reducing greenhouse gas emissions. Early implementation of AD systems
+38 have generally focused on treating animal manures or biowastes, however a desire to increase
+39 energy production and economic viability has led to digestion or co-digestion of energy crops
+40 such as maize, beets, grass silage, wholecrop cereals and algae (e.g., Allen et al., 2015). There
+41 is also significant current interest in AD as a key enabling technology for landfill diversion of
+42 food waste.
+43 The black solider fly is indigenous to the southern United States and is now distributed
+44 to warm temperate regions (Diener et al., 2009). The life cycle of the BSFL is divided into
+45 four phases with an estimated lifespan of 44 days, depending on the environmental conditions
+46 (i.e., temperature, moisture, and air supply) (Fig.1; Tomberlin et al., 2002). Mature flies have
+47 no functioning mouth-parts and are not associated with transmission of diseases or considered
+48 pests to humans or pets (Sheppard et al., 2002). Black soldier fly larvae (BSFL) have been
+49 used in backyard and farm composting systems for decades, mainly to treat animal manures
+50 (Tomberlin, 2001; Olivier, 2008). However, more recently, BSFL have been investigated in a
+51 variety of additional beneficial such as food, feed, chemicals, enzymes and bioactive
+52 compounds (Rumpold et al., 2016) and biodiesel production (Zheng et al., 2012a; 2012b). To
+53 the best of our knowledge, there is limited prior research that has considered black solider fly
+54 larvae as value-added feedstock for anaerobic digestion to generate biogas.
+55 The capability to process putrescent wastes gives BSFL distinct advantages over
+56 traditional composting and vemicomposting, which cannot generally accept meat and post
+
+
+3
+57 consumer wastes (Olivier, 2008). BSFL have the ability to rapidly consume large amounts of
+58 a wide variety of organic wastes, including animal manure, fecal sludge, meat and kitchen
+59 waste (Nguyen et al., 2015). In addition to being robust decomposers, BSFL contain
+60 significant amounts of protein and lipids and have been investigated as a dietary supplement
+61 to feed chickens, swine and fish (Alvarez, 2012; Newton et al., 2005). The high lipid content
+62 of BSFL has also been investigated for its potential to create renewable biodiesel fuel (Zheng
+63 et al., 2012a; 2012b). The cuticle (or larval skin) is composed of chitin, a long chain polymer
+64 of N-acetyl glucosamine, which has been estimated to comprise approximately 10% of the
+65 total BSFL dry biomass (Finke, 2007; Tomberlin et al., 2002). Chitin has proved versatile for
+66 several medical, industrial and biotechnological purposes (Puvvada et al., 2012).
+67 Unlike energy crops, BSFL would not compete with food production in agricultural land
+68 usage, nor pose the associated environmental concerns such as soil erosion and pesticide
+69 leakage to surface and ground water (EEA, 2006). Furthermore, BSFL have a high per-acre
+70 productivity, fast growth rate, and can be grown on non-arable land areas. These qualities are
+71 similar to algae production without the drawback that harvesting and valorization of algae
+72 biomass require significant water use and high capital and operation costs, making it
+73 economically challenging (Mussgnug et al., 2010). Moreover, production of energy crops and
+74 algae depends on the photosynthetic fixation of CO2 and the limiting factor in such biological
+75 energy processes is the conversion efficiency in the range of 1 to 3% of incident solar energy
+76 (Miyamoto, 1997).
+77 Like energy crops, BSFL have not been previously digested and thus may offer higher
+78 bio-methane potential than manures or biowastes. Additionally, the characteristics of BSFL
+79 biomass indicate that it could be a promising candidate for deployment in an integrated
+
+
+4
+80 biorefinery , akin to a petroleum refinery that converts various feedstocks using different
+81 conversion processes to produce multiple co-products including fuel, heat, electrical power
+82 and value-added products such as fertilizer. A biorefinery concept developed around
+83 anaerobic digestion could be suitable to treat various organic wastes and convert them to
+84 multiple products, thus enhancing the economic viability of the integrated system. In a system
+85 using BSFL as a feedstock, the BSFL could reduce the weight of other organic wastes and
+86 convert them into more concentrated forms as an initial conversion step, or as a pretreatment
+87 process prior to anaerobic digestion to enhance the digestion process. BSFL biomass can also
+88 be used directly as animal feed or as feedstock to produce biofuel products (biodiesel and
+89 biogas), with their residue serving as a valuable feedstock for anaerobic digestion process.
+90 Therefore, the objective of the research described herein was to investigate the potential of
+91 BSFL as a feedstock for anaerobic digestion, including integration of anaerobic digestion into
+92 several different BSFL biorefinery options. Specifically, we investigated the following
+93 pathways: (1) direct anaerobic digestion of food waste; (2) anaerobic digestion of BSFL fed
+94 on food waste along with residual food waste; and (3) BSFL fed on food waste used to
+95 produce biodiesel and digestion of the residual lipid-extracted BSFL combined with residual
+96 food waste. Data are also reported on the bio-methane of BSF cuticle and adult black soldier
+97 flies, and characterization data is provided on all these substrates.
+98 Specific research questions addressed were:
+99 • What is the bio-methane potential of BSFL as a feedstock for anaerobic digestion?
+100 • What is the potential for anaerobic digestion in an integrated BSFL biorefinery?
+101 • Can BSFL be used as a pre-treatment to increase bio-methane potential of food waste?
+102 • Does diet have a significant impact on bio-methane potential of BSFL?
+
+
+5
+103 • How do BSFL compare to other common anaerobic digestion feedstocks?
+104
+105 2. Materials and Methods
+106 2.1. Black soldier fly larvae (BSFL) cultivation
+107 The BSFL used in the study were purchased approximately eight days after being laid
+108 as eggs (Biogrubs, California). Two batches of approximately 1600 BSFL (15 mg/larvae)
+109 were inoculated into different feed samples to determine how the nutritional composition of
+110 BSFL would be effected by diet. Larvae were held in separate feeding containers in
+111 laboratory incubators at room temperature (20-23°C) for 30 days. When the larvae reached
+112 prepupae stage they were harvested.
+113 The first batch of BSFL was fed on 960 g of commercial chicken feed (CF) (Manna
+114 Pro, non-medicated starter) combined with vegetable oil (Wegmans brand) totaling 500 g and
+115 water totaling 900 g to soften the texture and encourage consumption throughout the
+116 cultivation period. Another batch of BSFL was grown on 1000 g of food waste (FM) obtained
+117 from the source-separated waste collection bins of the Grace Watson Dining Hall at Rochester
+118 Institute of Technology (RIT). FW consisted of fruit and vegetable peelings and seeds, and
+119 waste left on plates returned to the dish room. Table 1 shows the nutritional composition of
+120 these two feed materials. Harvested BSFL were washed with distilled water to remove
+121 residue. The larvae were inactivated at 105°C for 10 minutes and stored at 4°C until used in
+122 the experiments described below.
+123
+124
+
+
+6
+125 2.2 BMP substrate preparation
+126 Ten different samples were prepared in this study as feedstock for bio-methane
+127 potential assays:
+128 Whole body WB BSFL(FW): Intact BSFL (i.e., not chopped and ground) grown on food
+129 waste.
+130 Black soldier fly larvae (BSFL-FW) & (BSFL-CF): Batches were prepared of BSFL grown
+131 on both food waste (FW) and chicken feed (CF). Mature BSFL were chopped and ground
+132 with a porcelain mortar and pestle to obtain a homogeneous particle size which was then
+133 passed through a sieve to achieve a particle size distribution between 90 and 250 μm.
+134 Lipid-extracted black solider fly larvae (LE-BSFL-FW) & (LE-BSFL-CF): After
+135 deactivation, both BSFL grown on food waste and chicken feed were dried approximately 12
+136 hours at 70°C until a constant weight was achieved. Dried larvae were ground with a
+137 porcelain mortar and pestle to produce a powder which was then passed through a sieve to
+138 achieve a particle size distribution between 90 and 250 μm. The ground dried larvae were
+139 placed into a filter bag and crude fat was extracted using the ANKOM XT10 (Macedon, NY)
+140 extractor per modified AOAC 920.39 (AOAC, 2005a). The filter bags were placed in the
+141 extractor at 90°C for 1 hour. Triglyceride compounds were extracted using a reflux condenser
+142 with petroleum ether (350 mL) under high temperature and pressure. The lipid extracted black
+143 soldier fly larvae (LE-BSFL) were dried at 105°C for 30 minutes to remove petroleum ether.
+144 Flies (F): Files that had died naturally were carefully removed from the breeding cage and
+145 stored at 4°C until use.
+
+
+7
+146 Cuticle (C): Larval cuticle was obtained by manually squeezing out the biomass of the
+147 inactivated larvae. The cuticle was dried at 60°C for 12 hours, and ground with a porcelain
+148 mortar and pestle to reduce particle size.
+149 Food waste (FW): Approximately 3 kg of food waste (FM) was collected, mixed and
+150 prepared by grinding in a VitaMix® blender (1825 Professional Series 750) to reduce particle
+151 size to less than 2mm and produce a homogenous slurry. FW was stored at 4°C until use.
+152 Residue (R): Residue was collected from the experimental containers after the BSFL were
+153 fed until maturity. Residue includes unconsumed food and excretory products. This material
+154 was ground in a VitaMix® blender (1825 Professional Series 750) to reduce particle size to
+155 less than 2 mm and produce a homogenous slurry. Samples were stored at 4°C until used.
+156 Manure (M): Dairy manure slurry was collected from a local dairy farm in western New
+157 York State that uses a scrape manure collection system.
+158
+159 2.3. Substrate characterization
+160 The substrates were characterized to determine total dry solids (TS) and volatile solids
+161 (VS) according to the APHA Standard Methods 2540B and 2540E (APHA, 1998) which
+162 involves gravimetric moisture determination at 105oC and ignition of the dried sample at
+163 550oC. The pH was measured using a Mettler Toledo meter at room temperature (22±1oC)
+164 calibrated with buffers at pH = 4.0, 7.0, and 10.0.
+165 Crude protein was calculated from Kjeldahl nitrogen (TKN) content per modified
+166 AOAC Method 984.13 (AOAC, 2012a) by a third-party lab (Counterparts Chemistry,
+167 Rochester, NY). Crude protein was calculated by multiplying measured TKN by a factor of
+168 6.25 (assuming 16% N). However, as noted by Diener et al. (2009) and Yang et al. (2014),
+
+
+8
+169 this can result in an overestimation of protein content due to nitrogen contained in the
+170 chitinous cuticle. Therefore, a corrected crude protein content of BSFL was also reported
+171 whereby the N content associated with the chitin of BSFL was subtracted prior to multiplying
+172 by the protein conversion factor of 6.25.
+173 Crude fat was measured by extraction with solvent per modified AOAC 991.36
+174 (AOAC, 2012b). Crude carbohydrates were calculated by subtracting the crude fat, crude
+175 protein, moisture, ash and chitin content from the total dry mass of the sample per modified
+176 AOAC Method 986.25 (AOAC, 2012c) and as described in Yang et al. (2014) as follows:
+177 Carbohydrate % = 100 – (moisture + ash + crude fat + crude protein + chitin) x 100% [1]
+178 Food waste (FW) and residue (R) were also analyzed for hemicellulose, cellulose and
+179 lignin by an external lab (Dairy One, Ithaca, NY) based on the the ANKOM Technology
+180 Method 5 for acid detergent fiber in feeds, Method 9 for acid detergent lignin per modified
+181 AOAC 973.18 (1977) and method 6 for neutral detergent fiber per modified the methods of
+182 Van Vuuren et al. (1991) using an ANKOM 220 Fibre Analyzer (ANKOM Technology
+183 Corporation, NY, USA). In this study, the chitin content was not measured and the chitinous
+184 fraction of larvae was adopted from Diener et al (2009).
+185 2.4. Batch bio-methane potential (BMP) assays
+186 The biomethane potential (BMP) assays conducted were based upon the original
+187 protocol described by Owen et al. (1979) with modifications based upon other prior studies
+188 (ASTM, 2008; Angelidaki et al., 2009; Ebner et al., 2016). The inoculum was obtained from
+189 the solid-separated effluent of a commercial anaerobic digester co-processing dairy manure
+190 and industrial food wastes in a 70:30 proportion and operated at mesophilic temperature
+
+
+9
+191 (37°C). Inoculum was degassed at 37°C for five days to deplete residual biodegradable
+192 organic matter. BMP samples were prepared using a 2:1 ratio (gVS inoculum: gVS substrate
+193 added). No additional nutrient media were added, as the dairy manure-based inoculum was
+194 assumed to contain the appropriate anaerobic microorganisms (Gustafson, 2000; Labatut et
+195 al., 2011).
+196 Batch BMP assays were prepared in triplicate and conducted using the AMPTS II
+197 Bioprocess Control system (Lund, Sweden). BMP vessels has volume of 600 mL with
+198 working volume of 300 mL. Three blank inoculum samples were prepared and the BMP
+199 results of the substrates were obtained by subtracting the average methane production of the
+200 blanks. Results were normalized by the mass of volatile solids of substrate added and
+201 reported as standard methane yield (mL CH4/g VS added). Microcrystalline, 20μm cellulose
+202 (SigmaCell type 20) was used as a positive control sample to measure inoculum performance.
+203 The pH of each sample was measured after the solution was prepared and prior to the start of
+204 the experiment, and ranged from 6.5 to 7.5. After sealing, each sample was flushed with
+205 99.99% purity nitrogen to establish an anaerobic environment at the start of the test. Samples
+206 were incubated at 37o (±1°C) for 30 days or until the BMP experiments were terminated when
+207 daily biogas production during three consecutive days fell below 1% of the cumulative
+208 volume of the biogas (Holliger et al., 2016) . The reactor bottles were mixed intermittently
+209 using a stirring motor for 10 seconds every 60 seconds. Biogas produced was continuously fed
+210 through a 3M fixing solution of sodium hydroxide (NaOH) to absorb carbon dioxide (CO2).
+211 An automated data collection system measured bio-methane production via a volumetric flow
+212 device and adjusted to standard temperature and pressure (STP). Concentrations of CO2 and
+213 CH4 were measured between tests to verify the fixing efficiency of the system prior to and
+
+
+10
+214 after the fixing station, using a gas chromatograph with thermal conductivity detector (TCD)
+215 with helium carrier gas and HaysepQ packed column.
+216 2.4.1. Estimation of theoretical bio-methane potential (Bu) and extent of biodegrability (fd)
+217 Theoretical BMP production (Bu) of all substrates were calculated using Buswell’s
+218 equation (Eq. 2). These Bu values were estimated by the nutrient composition of each
+219 substrate where, where proteins (C5H7O2N), carbohydrates as glucose (C6H10O5), fat/lipids
+220 (C57H104O6) and chitin (C8 H13O6N) were assumed to have biomethane potentials of 496, 415,
+221 1014 and 441 mL CH4/g VS, respectively. Biomethane potential of chitin was calculated using
+222 Buswell’s forumula according to its chemical composition (Buswell and Neave, 1930); see
+223 Section S.1 for details. Results were compared to the theoretical BMP production (Bu)
+224 estimated based upon the organic fraction composition (OFC) as described by Nielfa et al.
+225 (2015) and Raposo et al. (2011) and modified to account for chitin as follows:
+226 Bu = 0.415 (% Carbohydrates/VS) + 0.496 (% Crude Proteins/VS) +
+227 1.014 (% Crude Fat/VS) + 0.441 (% Chitin/VS) [2]
+228 The extent of biodegradability (fd) was computed as the ratio of observed bio-methane
+229 potential (Bo) to theoretical bio-methane potential (Bu) on a VS basis (i.e., mL CH4/g VS
+230 added):
+231 fd = [3]
+232
+233
+234
+235
+236
+
+
+11
+237 3. Results and Discussion
+238 3.1. Substrate characterization
+239 The measured characteristics of the samples are summarized in Table 2. BSFL fed on
+240 both diets (food waste and chicken feed) contained about 65% moisture, with high crude fat
+241 and protein contents compared to their diets. BSFL grown on fresh food waste (FM) had crude
+242 protein content of 51.3% of TS, while the BSFL grown on chicken feed (BSFL-CF) had
+243 38.2% of TS. However, adjusting the crude protein for N found in chitin, which
+244 misrepresents actual protein availability, resulted in 47.5% protein in BSFL (FW) and 34.4%
+245 protein in BSFL (CF) based on a chitinous fraction of BSFL of 8.72% (DW) (Diener et al.,
+246 2009). Lipid content from BSFL (FW) and BSFL (CF) was 38.5%TS and 41.6%TS,
+247 respectively (Table S.3). These values were similar to those reported in the literature by
+248 Diener et al. (2009) (also see Table S.3). The crude protein content of adult flies (F) exceeded
+249 values for BSFL, however these values were not adjusted for cuticle protein content as the
+250 percent cuticle in mature flies could not be found in the literature. Thus we can assume that
+251 the reported value is slightly overstated.
+252 The composition of food waste (FW) and residue (R) remained relatively constant for
+253 most nutrients, with a few notable exceptions (Table 3). Nitrogen content (TKN) of residue
+254 was determined to be nearly twice that of raw food waste. This may be due to the digestive
+255 enzymes released from the salivary gland and gut of the larvae while feeding on food waste
+256 (Kim et al., 2011) which increases N-mineralization, elevating the concentration of ammonia
+257 (NH4+) in the food waste residue ( Green and Popa, 2012). It also may be due to chitin
+258 discarded by the pupae after each instar (i.e., growth stage of the larvae) that may be contained
+259 within the residue. Higher lipid content and slightly higher cellulose and lignin concentrations
+
+
+12
+260 were also observed in the DR which was expected because BSFL prefer non-fibrous foods.
+261 However, Li et al. (2011) reported that BSFL degraded and consumed lignocellulose in dairy
+262 manure and thus enhanced accessibility of enzymes. A decrease of 13% in total solids content
+263 of food waste in the current study was also observed, which was attributed to evaporation.
+264
+265 3.2 Bio-methane potential
+266 Measured and theoretical biomethane potential (BMP) results are presented in Table 4.
+267 The biomethane potential of cellulose controls showed good agreement with expected results
+268 measuring 322 (σ = 11) mL CH4/g VS (n = 3). The measured bio-methane potential of 238
+269 (σ = 19) mL CH4/g VS (n=3) for dairy manure also agreed well with previous studies
+270 (Ebner et al., 2015; Labatut et al., 2011). BSFL showed similar Bo for both feed regimens,
+271 with BSFL (FW) yielding 675 (σ = 118) mL CH4/g VS (n = 9) and BSFL (CF) resulting in
+272 661(σ = 29) ml CH4/g VS (n = 3), and thus BSFL diet did not appear to result in a statistically
+273 significant difference in mean biogas production. It is also notable that that the standard
+274 deviation of BSFL (FW) was large relative to other tested substrates. We believe this may
+275 have resulted from larval development and consumption rates that were highly dependent on
+276 the local composition of the food waste and the specific local environmental conditions. The
+277 nutrient value and chemical composition of larvae may have therefore varied significantly
+278 during various life stages of the black soldier fly, and this variation was reflected in the
+279 resulting biomethane potential measurements. The standard deviation of BMP measurements
+280 from BSFL fed on chicken feed (BSFL(CF)) was substantially smaller, but in this case the
+281 feed material was produced by a manufacturing process and therefore much more
+282 homogeneous.
+
+
+13
+283 BMP experiments with Residue (R) produced 502 (σ = 9) mL CH4/g VS (n = 3) while
+284 fresh food waste yielded 449 (σ = 53) mL CH4/g VS (n = 3). The difference is not statistically
+285 significant and could be attributed to heterogeneity of the food waste. Before ingestion and
+286 during digestion, BSFL produce and discharge digestive enzymes, which promote the
+287 conversion of food waste biomass into a more soluble and liquefied form. BSFL also have the
+288 ability to degrade the cellulose, hemicellulose and lignin contents in food waste and modify
+289 the structure of fiber content. BSFL activity in the food waste leads to deposition of nutrients
+290 in the residue (uneaten food + excretory products) that are more readily available for bacteria
+291 during the anaerobic digestion process without the requirement of chemical, mechanical or
+292 thermal pretreatments (Alvarez et al., 2012; Wang et al., 2017). Therefore, the potential of
+293 BSFL as a pre-treatment for AD should be further investigated.
+294 Lipid-extracted BSFL fed on food waste (LE-BSLF-FW) produced more methane
+295 (363 (σ = 32) mL CH4) than the equivalent chicken feed-fed biomass (LE-BSLF-CF) (306 (σ
+296 = 23) mL CH4). This may be because FW is more readily digestible than the grains in chicken
+297 feed. Whole body black soldier fly larvae (WB-BSFL) showed the lowest Bo of 108 (σ = 65)
+298 mL CH4/g VS, with a slow decay rate and poor biogas production throughout the test period
+299 of 30 days. It was observed that the structure of cuticle was not easily degraded by microbes,
+300 which prevented them from accessing nutrients within. Therefore, it is suggested that BSFL
+301 should be ground to reduce the particle size and increase the surface area available for
+302 microbial activity. BSFL release their cuticle into the residue when they reach the prepupae
+303 stage, and again when the larvae turn into flies. Hence, bio-methane potential of the chitinous
+304 cuticle was measured resulting in Bo of 343 (σ = 7) mL CH4/g VS (n = 3) Mature black
+305 soldier flies, which live only 8-9 days and do not consume anything other than water, were
+
+
+14
+306 also tested and yielded BMP of 570 (σ =51) mL CH4/g VS (n =3). Fig. 2 summarizes the
+307 measured bio-methane potentials of the various substrates studied.
+308
+309 3.3 Comparison to theoretical BMP
+310 The extent of bio-degradation (fd) was calculated via Eq. (3) and compares the
+311 observed bio-methane potential (B0) to the theoretical bio-methane potential (Bu). (Table 4).
+312 Bu provides the maximum biomethane potential yield, which is expected to be higher than Bo
+313 because some of the available nutrients are not accessible for the anaerobic bacterial leading
+314 to incomplete digestion. BSFL (FW) and BSFL (CF) produced fd values higher than 90% and
+315 thus were highly degradable. Degradability values are affected by the sample preparation
+316 variability and/or uncertainty in determining the lipid and protein content of substrates which
+317 are key variables in the theoretical calculation. Degradation for lipid-extracted BSFL fed on
+318 food waste (FW) and chicken feed (CF) were 77% and 69%, respectively. Food waste and
+319 residue had the same biodegradability value of 89%. Cuticle displayed high biodegradability
+320 (90%) when compared to the theoretical value for chitin, however the unknown amount of
+321 biomass (protein, lipids or carbohydrates) remaining in the cuticle sample could have
+322 contributed to an inflated degradation estimate. Adult flies also resulted in bio-degradability of
+323 > 85%.
+324
+325 3.4 BSFL as anaerobic digestion feedstock
+326 Because of the current interest in anaerobic digestion (AD) as an organic waste
+327 management and renewable energy production technology, it is also instructive to compare the
+328 results presented herein for BSFL biomass to other potential AD feedstocks. The measured
+
+
+15
+329 mean biomethane potential (Bo) of BSFL (CF) was 661 mL CH4/g VS and for BSFL (FW)
+330 675 mL CH4/g VS . These values are higher than many common AD feedstocks, including
+331 energy crops, algae and manures. Moreover, it takes 14-28 days to harvest BSFL biomass
+332 depending on the feeding and environmental condition (Diener et al., 2009), which is
+333 substantially shorter than most dedicated energy crops (e.g., 157 days for maize; Burhun et al.,
+334 2011). Diener et al. (2009; 2011) also reported that under favorable conditions, one square
+335 meter could yield approximately 145 g of dry prepupal biomass per day (252 g/m2/day; wet
+336 weight) when fed with 4.6 kg of food waste per square meter per day. To compare potential
+337 areal methane production values, it is reasonable to envision a scaled-up version of a BSFL
+338 or algae-based AD system using an area for feedstock production that is on the order of 100
+339 meters by 100 meters. Using a hectacre as the area basis, methane production potential of food
+340 waste alone and BSFL alone were calculated to be approximately 1,800,000 m3 CH4/hectare
+341 and 340,000 m3 CH4/hectare, respectively (see S.2 and S.3 for calculations). Alternatively,
+342 methane production from a BSFL composting system, in which BSFL reduces approximately
+343 19% of the mass of food waste and leaves 81% of residue, produced approximately 1,874,168
+344 m3 CH4 per hectare per year (see S.4 for calculations). The latter value includes the combined
+345 methane production of BSFL and residue, and demonstrates that the mixed substrates may
+346 provide higher methane production than the individual substrates processed separately.
+347 Reported algal productivity ranges between 13 and 40 g/m2/day (Park et al., 2011).
+348 The growing rate of larvae is much faster (145 g/m2/day; Diener et al., 2009) than that
+349 reported for algae, thus requiring only 0.27 m2 to produce the same amount of biomass per
+350 day. BSFL show comparatively high biomass yield and bio-methane production per hectare
+351 due to their fast growth rate and high bio-methane potential. The standard methane yield of
+
+
+16
+352 BSFL (mL CH4/g VS) is 1.5-2 times higher than the best performing energy crops in use
+353 today, generally ranging from 375-450 mL CH4/g VS, and about 2 times higher than the
+354 selected algae in terms of same land foot print area needed for feedstock production. Another
+355 system-level factor to consider which has not been taken into account in these calculations is
+356 the hydraulic retention time. Energy crops typically are anaerobically digested 50-150 days
+357 (Braun et al., 2008) and the rention time for algae ranges between 15 and 28 days (Montingelli
+358 et al 2015), whereas food waste and BSFL may have retention times on the order of 28 days.
+359 Further research is needed to understand the various resource and infrastructure assets
+360 required to make large-scale BSFL farming economically viable.
+361
+362 3.5 Integrated BSFL biorefinery for biogas and biodiesel
+363 A biorefinery is a renewable analog to a petroleum refinery, in which all system
+364 outputs are utilized in some manner, with minimal or zero waste. Drawbacks of crop-based
+365 biogas and biodiesel production are high feedstock cost, and competition with food resources
+366 and land use. Larvae have high lipid content between about 20% and 40%, which is
+367 comparable to other biodiesel feedstocks (i.e. soybean, rapeseed oil, sunflower oil, algae).
+368 Thus, crude lipids extracted from BSFL fed with solid organic wastes could be a non-food
+369 crop feedstock for biodiesel production as well as . Using the well-known reaction for
+370 biodiesel production via transesterification, wherein fatty acids can be derived from oil
+371 extracted BSFL, Li et al. (2011) reported that most of the fuel properties of biodiesel produced
+372 from BSFL were comparable to rapeseed oil-based biodiesel. In our experiments, 25 g of
+373 larval oil were extracted from 184 g of larvae biomass (FM), or 35.4% DW, which is
+374 consistent with other studies (see Table S.5). Li et al. (2015) and Zheng et al. (2012a)
+
+
+17
+375 reported that biodiesel yield converted from larvae oil was approximately 93% by mass.
+376 Therefore we assume that the observed oil extracted from the BSFL biomass could produce
+377 standard quality biodiesel at a conservative conversion rate of 93%.
+378 Because BSFL biomass contains primary feedstock constiuents for both biomethane
+379 and biodiesel production, various hypothetical bio-refinery scenarios can be constructed and
+380 analyzed. The mass flows and energy outputs of three biorefinery options based upon the
+381 conversion of 1kg of food waste (FM) and measurements from this study are illustrated in Fig
+382 3.
+383 • Option 1: Direct anaerobic digestion of FW: 1kg of food waste (245 gVS) digested via
+384 anaerobic digestion process produces 110 L CH4, based on measured BMP of 449 mL
+385 CH4/g VS.
+386 • Option 2: Pretreatment of FW by BSFL followed by AD of BSFL and residue (R):
+387 About 1600, 5-day old larvae (15 mg/larva) were inoculated into 1kg of FW. 188g of FW
+388 were consumed after 30 days (reduction of 19 % FM by mass). 184 g of BSFL (62 gVS)
+389 were produced and 812 g of residue remained (171 gVS). 184 g of BSFL and 812 g of
+390 residue were treated in an anaerobic digestion process and produced 43 L CH4 and 86
+391 LCH4 respectively. A total of 129 L CH4 was obtained from option 2.
+392 • Option 3: BSFL fed on FW harvested for biodiesel production and remaining
+393 residuals (LE-BSFL and DR) anaerobically digested for biomethane: Similar to
+394 Option 2, 1kg of food waste was converted by BSFL to produce larval biomass and 25 g
+395 of larval oil was extracted from 184g of larvae. Approximately 23 g of biodiesel could be
+396 obtained from larvae oil with 93% biodiesel conversion rate (Zheng et al., 2012a). 159 g
+397 of fresh LE-BSFL was obtained after the lipid extraction that produces 20 LCH4 via
+
+
+18
+398 anereobic digestion. A total of 106 LCH4 would be produced from the combination of
+399 lipid-extracted BSFL (LE-BSFL) biomass and residue (R).
+400
+401 Material inputs, energy outputs, BMPs of each substrate and biofuel yields for these three
+402 biorefinery systems are summarized in Table 5. Option 1 (direct food waste digestion) as the
+403 reference scenario produced 4.2 MJ from 1 kg fresh food waste and its energy output was
+404 obtained solely from bio-methane production. Option 2 provided bio-methane from both
+405 BSFL and residue, and yielded an energy output of 4.9 MJ (17% higher than direct food waste
+406 digestion). Option 3 produced the same total energy output as Option 2 through biodiesel and
+407 bio-methane production. However, the potential advantage of Option 3 is that biodiesel can be
+408 used in the transportation sector and generally commands a higher market value on a per MJ
+409 basis. In any case, the added capital and operation and maintenance (O&M) cost of BSFL
+410 growth and harvesting would need to be rigorously evaluated against the projected benefits of
+411 greater biomethane production, or combined biomethane/biodiesel production. Also, for
+412 deployment in a biorefinery application, other potential value-added uses of the BSFL
+413 biomass should be considered, such as animal feed, with the residue still used as anaerobic
+414 digestion feedstock as described above.
+415
+416 4. Conclusions
+417 Bio-methane potential of BSFL is 1.5-2 times higher than other representative feedstocks,
+418 including energy crops and algae. LE- BSFL (FW) yielded 363 mL CH4/g VS with 0.12 g
+419 biodiesel/g dry BSFL. The larvae diet did not significantly affect the anaerobic digestion
+420 output. BMP of residue left by larvae was 502 mL CH4/g VS, higher than that of untreated
+421 food waste, which indicates BSFL pretreatment has the potential to increase biogas
+
+
+19
+422 production. This study has demonstrated that BSFL can be a viable part of integrated
+423 biorefinery systems. E-supplementary data can be found in the online version of the paper.
+424
+425
+426 Acknowledgements
+427 The Office of Graduate Studies at RIT is acknowledged for providing Graduate Research
+428 Assistant support for S.S. Win. Partial support for T.A. Trabold was provided by the National
+429 Science Foundation under Grant No. CBET-1639391. The authors gratefully acknowledge the
+430 contributions of Dr. Dawn Carter from College of Science, Thomas H. Gosnell School of Life
+431 Science, Rochester Institute of Technology.
+432
+433 References
+434 1. Allen, E., Wall, D.M., Herrmann, C., Murphy, J.D., 2015. A detailed assessment of
+435 resource of biomethane from first, second and third generation substrates. Renewable
+436 Energy, 87, 656-665.
+437 2. Alvarez, L., 2012. The Role of Black Soldier Fly, Hermetia illucens (L.) (Diptera:
+438 Stratiomyidae) in Sustainable Waste Management in North Climates. Diss. University of
+439 Windsor. Web. (last accessed 09.08.16)
+440 3. Angelidaki, I., Alves, M., Bolzonella, D., Borzacconi, L., Campos, J.L., Guwy, A.J.,
+441 Kalyuzhnyi, S., Jenicek, P., van Lier, J.B., 2009. Defining the biomethane potential (BMP)
+442 of solid organic wastes and energy crops: a proposed protocol for batch assays. Water Sci.
+443 Technol. 59, 927–934.
+444 4. AOAC, Official Methods of Analysis of AOAC International, 2005a. 18th ed., AOAC
+445 International, Gaithersburg, MD ,USA (920.39).
+446 5. AOAC, Offical Methods of Analysis of AOAC International, 2005b. 15th ed., AOAC
+447 International, Arlington, VA. USA (2002.04).
+
+
+20
+448 6. AOAC, Official Methods of Analysis of AOAC International, 2012a. 19th ed., AOAC
+449 International, Gaithersburg, MD, USA (984.13).
+450 7. AOAC, Official Methods of Analysis of AOAC International, 2012b. 19th ed., AOAC
+451 International, Gaithersburg, MD, USA (991.36).
+452 8. AOAC, Official Methods of Analysis of AOAC International, 2012c. 19th ed., AOAC
+453 International, Gaithersburg, MD, USA (986.25).
+454 9. AOAC, Official Methods of Analysis of AOAC International, 1997. AOAC International,
+455 Gaithersburg, MD ,USA (973.18).
+456 10. APHA, AWWA, WPCF, 1998. Standard Methods for the Examination of
+457 Water.Wastewater and Sludge, Washington, D.C.
+458 11. ASTM, 2008. Standard test method for determining anaerobic biodegradation potential of
+459 organic chemicals under methanogenic conditions. E2170 – 01. ASTM International, West
+460 Conshohocken, PA.
+461 12. Biogrubs, 2015. Personal communication with Jerry Gach.
+462 13. Braun, R., Weiland, P., Wellinger, A., 2008. Biogas from energy crop digestion. In IEA
+463 Bioenergy Task. 37, 1-20.
+464 14. Buswell, E.G., Neave, S.L., 1930. Laboratory studies of sludge digestion. Illinois Division
+465 of State Water Survey, Bulletin No. 30. 1930, Urbana, Illinois.
+466 15. Diener, S., Zurbrügg, C., Tocknera, K., 2009. Conversion of organic material by black
+467 soldier fly larvae–Establishig optimal feeding rates. Waste Management & Research.
+468 16. Diener, S., Solano, N.M.S., Gutiérrez, F.R., Zurbrügg, C., Tockner, K., 2011. Biological
+469 treatment of municipal organic waste using black soldier fly larvae. Waste and Biomass
+470 Valorization. 2, 357-363.
+471 17. Ebner, J. H., Labatut, R. A., Lodge, J. S., Williamson, A. A., & Trabold, T. A., 2016.
+472 Anaerobic co-digestion of commercial food waste and dairy manure: Characterizing
+473 biochemical parameters and synergistic effects. Waste Management, 52, pp.286-294.
+474 18. Finke, M. D., 2007. Estimate of chitin in raw whole insects. Zoo Biology. 26, 105-115.
+475 19. Green, T.R., Popa, R., 2012. Enhanced ammonia content in compost leachate processed by
+476 black soldier fly larvae. Applied biochemistry and biotechnology. 166, 1381-1387.
+
+
+21
+477 20. Gustafson, G.M., 2000. Partitioning of nutrient and trace elements in feed among milk,
+478 feces and urine by lactating dairy cows. Acta Agric. Scand. Sect. A – Anim.Sci. 50, 111
+479 120.
+480 21. Holliger, C., Alves, M., Andrade, D., Angelidaki, I., Astals, S., Baier, U., Bougrier, C.,
+481 Buffière, P., Carballa, M., de Wilde, V. and Ebertseder, F., 2016. Towards a
+482 standardization of biomethane potential tests. Water Science and Technology, 74(11),
+483 pp.2515-2522.
+484 22. Kim, W., Bae, S., Park, K., Lee, S., Choi, Y., Han, S. and Koh, Y., 2011. Biochemical
+485 characterization of digestive enzymes in the black soldier fly, Hermetia illucens (Diptera:
+486 Stratiomyidae). Journal of Asia-Pacific Entomology. 14, 11-14.
+487 23. Labatut, R.A., Angenent, L.T., Scott, N.R., 2011. Biochemical methane potential and
+488 biodegradability of complex organic substrates. Bioresour. Technol. 102, 2255-2264.
+489 24. Li, Q., Zheng, L., Qiu, N., Cai, H., Tomberlin, J. K., Yu, Z., 2011. Bioconversion of dairy
+490 manure by black soldier fly (Diptera: Stratiomyidae) for biodiesel and sugar
+491 production. Waste Management, 31. 1316-1320.
+492 25. Li, W., Zheng, L., Wang, Y., Zhang, J., Yu, Z., Zhang, Y., Li, Q., 2015. Potential
+493 biodiesel and biogas production from corncob by anaerobic fermentation and black soldier
+494 fly. Bioresource Technology. 194, 276-282.
+495 26. Miyamoto, K. ed., 1997. Renewable biological systems for alternative sustainable energy
+496 production. Food & Agriculture Org. 128.
+497 27. Montingelli, M.E., Tedesco, S. and Olabi, A.G., 2015. Biogas production from algal
+498 biomass: a review. Renewable and Sustainable Energy Reviews, 43, pp.961-972.
+499 28. Mussgnug, J.H., Klassen, V., Schlüter, A. and Kruse, O., 2010. Microalgae as substrates
+500 for fermentative biogas production in a combined biorefinery concept. Journal of
+501 biotechnology. 150, 51-56.
+502 29. Newton, L., Sheppard, C., Watson, D.W., Burtle, G., Dove, R., 2005. Using the black
+503 soldier fly, Hermetia illucens, as a value-added tool for the management of swine manure.
+504 Report for Mike Williams, Director of the Animal and Poultry Waste Management Center,
+505 North Carolina State University.
+
+
+22
+506 30. Nguyen, T.T., Tomberlin, J. K., Vanlaerhoven, S., 2015. Ability of Black Soldier Fly
+507 (Diptera: Stratiomyidae) Larvae to Recycle Food Waste. Environmental Entomology. 44,
+508 406-410.
+509 31. Nielfa, A., Cano, R., Fdz-Polanco, M., 2015. Theoretical methane production generated by
+510 the co-digestion of organic fraction municipal solid waste and biological
+511 sludge. Biotechnology Reports, 5, 14-21.
+512 32. Olivier, P.A., 2008. Utilizing Lower Life Forms for the Bioconversion of Putresecent
+513 Waste and How This Could Dramatically Reduce Carbon Emissions,
+514 <http://www.redwormcomposting.com/bsfl2/BSFL-bioconversion.pdf> (last accessed
+515 09.08.16)
+516 33. Owen, W.F., Stuckev, D.C., Healv, J.B., Young Jr., L.Y., Mccagrv, P.L., 1979. Bioassay
+517 for monitoring biochemical methane potential and anaerobic toxicity. Water Research. 13,
+518 485-492.
+519 34. Park, J.B.K., Craggs, R.J. and Shilton, A.N., 2011. Wastewater treatment high rate algal
+520 ponds for biofuel production. Bioresource technology, 102(1), pp.35-42.
+521 35. Puvvada, Y. S., Vankayalapati, S., Sukhavasi, S., 2012. Extraction of chitin from chitosan
+522 from exoskeleton of shrimp for application in the pharmaceutical industry. International
+523 Current Pharmaceutical Journal. 1, 258-263.
+524 36. Raposo, F., Fernández‐Cegrí, V., De la Rubia, M.A., Borja, R., Béline, F., Cavinato, C.,
+525 Demirer, G., Fernández, B., Fernández‐Polanco, M., Frigon, J.C. and Ganesh, R., 2011.
+526 Biochemical methane potential (BMP) of solid organic substrates: evaluation of anaerobic
+527 biodegradability using data from an international interlaboratory study. Journal of
+528 Chemical Technology and Biotechnology. 86, 1088-1098.
+529 37. Rumpold, B.A., Klocke, M. and Schlüter, O., 2016. Insect biodiversity: underutilized
+530 bioresource for sustainable applications in life sciences. Regional Environmental Change,
+531 pp.1-10.
+532 38. Sheppard, D.C., Tomberlin, J. K., Joyce, J. A., Kiser, B. C., Sumner, S. M., 2002. Rearing
+533 methods for the black soldier fly (Diptera: Stratiomyidae). Journal of Medical
+534 Entomology. 39, 695-698.
+
+
+23
+535 39. Tomberlin, J., 2001. Biological, Behavioral, and Toxicological Studies on the Black
+536 Soldier Fly (Diptera: Stratiomyidae). Dissertation, University of Georgia: Athens, GA.
+537 40. Tomberlin, J. K., Sheppard, D. C., Joyce, J. A., 2002. Selected life-history traits of black
+538 soldier flies (Diptera: Stratiomyidae) reared on three artificial diets. Annals of the
+539 Entomological Society of America. 95, 379-386.
+540 41. Van Vuuren A.M., Tamminga S., Ketelaar R.S. (1991): In sacco degradation of organic
+541 matter and crude protein of fresh grass (Lolium perenne) in the rumen of grazing dairy
+542 cows. J. Agric. Sci., 116, 429–436.
+543 42. Wang, H., ur Rehman, K., Liu, X., Yang, Q., Zheng, L., Li, W., Cai, M., Li, Q., Zhang, J.
+544 and Yu, Z., 2017. Insect biorefinery: a green approach for conversion of crop residues into
+545 biodiesel and protein. Biotechnology for biofuels, 10(1), p.304.
+546 43. Yang, Q., Liu, S., Sun, J., Yu, L., Zhang, C., Bi, J. Yang, Z., 2014. Nutritional
+547 composition and protein quality of the edible beetle Holotrichia parallela. Journal of Insect
+548 Science. 14, 139.
+549 44. Zheng, L., Li, Q., Zhang, J., Yu, Z., 2012a. Double the biodiesel yield: Rearing black
+550 soldier fly larvae, Hermetia illucens, on solid residual fraction of restaurant waste after
+551 grease extraction for biodiesel production. Renewable Energy. 41, 75-79.
+552 45. Zheng, L., Hou, Y., Li, W., Yang, S., Li, Q., Yu, Z., 2012b. Biodiesel production from rice
+553 straw and restaurant waste employing black soldier fly assisted by microbes. Energy. 47,
+554 225-229.
+555
+556
+557
+558
+559
+560
+561
+562
+563
+
+
+24
+564
+565
+566
+567
+568
+569 Figure Captions
+570
+571 Figure 1. Life cycle of the black solider fly.
+572 Figure 2. Summary of the observed specific bio-methane yield per unit mass (B0) for the 573 substrates tested (ml CH4/g VS added). Error bars represent the standard deviation of B0 for 574 each substrate.
+575 Figure 3. Flow diagram of integrated biorefinery options based on converting BSFL biomass 576 to biogas and biodiesel. 577 578 579
+580
+581
+582
+583
+584
+585
+586
+
+
+Figure 1
+
+
+Figure 2
+*Samples were tested in triplicate (n=3) unless otherwise noted.
+
+
+Figure 3
+
+
+Table 1. Composition of chicken feed and food waste destined for BSFL feed
+Chicken feed (CF) Food waste (FW)
+Crude protein (%dw) 18.0 10.8
+Crude fat (%dw) 2.5 13.0
+Carbohydrates (%dw) NM 72.4
+Note: NM (not measured), dw (dry weight).
+
+
+Table 2. Characterization of all substrates. FM: fresh matter, TS: total solids, VS: volatile solids.
+Substrates
+%TS/
+FM
+%VS/
+TS
+%VS/
+FM
+Composition of fresh matter (FM)a Composition of solids (TS)a
+% moisture/
+FM
+% ash/
+FM
+% lipid/
+FM
+% protein/
+FM
+% carbo
+hydrate
+/FM
+% ash/
+TS
+% lipid/
+TS
+% protein/
+TS
+% carbo
+hydrate/
+TS
+WB
+BSFL (FW) 41.1 94.7 39.0 58.9 NM NM NM NM NM NM NM NM
+BSFL (FW) 35.4 95.8 33.9 64.6 1.5 13.6 17.8 2.4 4.3 38.5 51.3 5.9
+BSFL (CF) 34.4 91.9 31.6 65.6 2.7 14.3 13.9 3.5 7.8 41.6 38.2 12.4
+LE-BSFL
+(FW)b 96.1 99.2 95.3 64.6 1.1 NM 17.8 2.4 4.3 NM 51.4 11.1
+LE-BSFL
+(CF)c 95.7 87.6 83.8 65.6 2.7 NM 13.9 3.5 7.8 NM 38.2 12.4
+Flies 51.7 95.3 49.3 48.3 2.4 15.7 29.3 4.3 4.7 30.3 56.7 8.3
+Cuticle 43.8 84.7 37.1 56.2 6.7 NM 37.1 NM 15.3 NM 84.7 NM
+Food waste 25.5 96.1 24.5 74.5 1.0 3.3 2.8 18.5 3.9 12.9 10.8 72.4
+Residue 22.6 93.3 21.1 77.4 1.5 4.7 4.4 12.0 6.7 20.8 19.4 53.1
+Manure 7.4 85.9 6.3 92.6 1.1 NM NM NM 14.5 NM NM NM
+Note: NM (not measured)
+All samples were measured in triplicate.
+a Rounding error may lead to nutrients not summing to 100% total solids.
+WB-BSFL (FW): Whole body Black solider fly grown on food waste, BSFL (FW): BSFL grown on food waste, BSFL (CF): BSFL
+grown on chicken feed, LE-BSFL (FW): Lipids extracted BSFL grown on food waste, LE-BSFL (CF): Lipids extracted BSFL fed
+with chicken feed.
+b,c 38.5 % and 41.6% of crude lipid was extracted from BSFL(FW) and BSFL(CF). The samples were dried at 105°C prior to the lipid
+extraction and the moisture content of two samples before preceding the extraction was 3.9% and 4.3% respectively. The percent of
+volatile solids per gram of fresh lipid extracted BSFL (%VS/FM) without the drying process is 35 (%).
+Protein calculation is based on total nitrogen x 6.25 for all the substrates.
+
+
+Table 3. Characteristic of food waste and residue.
+Characteristic Fresh food waste
+(FW)
+Residue
+(R)
+Difference
+(R – FW)
+pH 7.9 8.1 + 0.2
+Dry matter (%wt) 25.5 22.6 - 2.9
+Moisture content (%) 74.5 77.4 + 2.9
+Nitrogen, TKN (g/kg TS) 17.2 31 +13.8
+Lipid (%dw) 13.0 20.8 +7.8
+Hemicellulose (%dw) 6.9 7.1 +0.2
+Cellulose (%dw) 3.6 5.5 +1.9
+Lignin (%dw) 1.4 2.3 +0.9
+*Note: dw (dry weight), TS (total solids).
+
+
+Table 4. Measured bio-methane potential (B0) compared with theoretical bio-methane yield (Bu) calculated using Buswell’s equation.
+Substrate Measured BMP
+(B0, ml CH4/g VS)
+Average (S.D.)
+Theoretical BMP
+(Bu, ml CH4/g VS)
+Extent of bio-degradation
+(fd = B0/Bu)
+WB-BSFL (FW) 108 (65) 698 0.15
+BSFL (FW) (n=9) 675 (118) 698 0.97
+LE-BSFL (FW) 363 (32) 472 0.77
+BSFL (CF) 661 (29) 720 0.92
+LE-BSFL (CF) 306 (23) 442 0.69
+Food waste 449 (53) 505 0.89
+Residue 502 (9) 566 0.89
+Cuticle 343 (7) 373a 0.92
+Flies 570 (51) 653 0.87
+*Samples were tested in triplicate (n=3) unless otherwise noted.
+a Theoretical BMP of chitin is 441 ml CH4/g VS. Measured ash percent per total solids of cuticle is 15.4 (%),
+therefore absolute theoretical BMP produced from cuticle is 373 ml CH4/g VS.
+
+
+Table 5. Material inputs and energy outputs of integrated biorefinery options. FM: fresh matter & FW: food waste
+Option Substrate %VS/
+FM
+Mass
+(kg FM)
+Estimated BMP yield
+(m3 CH4/kg VS) &
+Biodiesel yield (kg)
+Energy yield
+(MJ)
+Total energy output
+(MJ/kg FW)
+1 FW 24.52 1.00 0.45 4.22 4.2
+2 BSFL(FW) 33.94 0.184 0.68 1.59 4.9
+R 21.11 0.812 0.50 3.30
+3 Larval Oil - 0.025 0.023 0.77 4.9
+LE_BSFL (FW) 35.0 0.159 0.36 0.87
+R 21.11 0.812 0.51 3.30
+Lower heating value (methane) = 38.5 MJ/m3; NCSU Cooperative Extension, Conversion factors for bioenergy
+"http://www.ces.ncsu.edu/forestry/biomass.html"
+Lower heating value (biodiesel) = 37.52 MJ/kg
+
+
+Graphical Abstract

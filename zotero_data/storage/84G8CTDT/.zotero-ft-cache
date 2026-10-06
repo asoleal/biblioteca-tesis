@@ -1,0 +1,2129 @@
+UUnniivveerrssiittyy ooff SSoouutthh CCaarroolliinnaa
+SScchhoollaarr CCoommmmoonnss
+Graduate Student Publications Mathematics and Computer Sciences,
+Department of
+2021
+CCoollllaatteerraall DDaattaa QQuuaalliittyy CChhaalllleennggeess ooff IIooTT SSeennssoorr--GGeenneerraatteedd DDaattaa
+Richard Allen Herrin
+Follow this and additional works at: https://scholarcommons.sc.edu/ beaufort_math_compscience_gradpub
+Part of the Theory and Algorithms Commons
+
+
+Collateral Data Quality Challenges of IoT Sensor-Generated Data
+by
+Richard Allen Herrin
+Bachelor of Science Seattle City University 1977
+Submitted in Partial Fulfillment of the Requirements
+for the Degree of Masters of Science in
+Computational Science
+College of Computer and Information Sciences
+University of South Carolina
+2021
+Accepted by:
+Xiaomei Zhang, Associate Professor
+Dean Bushey, Committee Member
+Brian Canada, Department Chair
+
+
+Abstract
+Thousands of academic articles have been written about the various facets of the
+Internet of Things (IoT). Added to those are books of multiple flavors, conference
+proceedings, and a host of web-based content authored by a diverse cast of IoT
+community constituents. While there are many examples of successful IoT application
+solutions, participating technologies and how best to use them, are still relatively
+immature. These solutions are complex, geographically diverse, incorporate a broad
+spectrum of ever-evolving technologies that allow organizations to gather new data,
+create new value and do new things they haven’t been able to do effectively before.
+Despite the promise, excitement, and future thinking that leads organizations to
+pursue IoT projects, many of those projects have fallen short of original expectations.
+Too many projects fail, never making it past the pilot stage for many reasons. Authors
+elsewhere have written and are continuing to write about those IoT experiences, so
+they are not addressed in this paper. Instead, this paper looks at three critical data
+issues arising from the deployment of IoT solutions: 1. The magnitude of data being
+collected and stored from IoT solutions, and challenging if all such data is necessary;
+2. How little of this data is actually being used and why; and 3. The concerns held
+by many users about poor data quality, what causes it, and what can be done about
+it. At the heart of every IoT solution are multitudes of sensors of all shapes, sizes,
+and purposes. It becomes apparent that sensors may be the largest source of data
+defects that when unresolved contribute significantly to poor solution data quality.
+To better understand this premise, this paper looks at the challenges inherent in
+sensor-generated data and possible approaches for mitigating its impact.
+ii
+
+
+Table of Contents
+Abstract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ii
+Chapter 1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.1 Thesis Research Questions . . . . . . . . . . . . . . . . . . . . . . . . 5
+1.2 Summary of Chapters . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Chapter 2 Data Quality . . . . . . . . . . . . . . . . . . . . . . . . . 7
+2.1 Defining Data Quality . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+2.2 Big Data Characterizations . . . . . . . . . . . . . . . . . . . . . . . 10
+2.3 Dimensions of Data Quality . . . . . . . . . . . . . . . . . . . . . . . 11
+2.4 Metadata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Chapter 3 IoT Sensor Quality Challenges . . . . . . . . . . . . . 18
+3.1 Sensor Concerns . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.2 Sensor Data Characteristics . . . . . . . . . . . . . . . . . . . . . . . 22
+Chapter 4 IoT Solution Data Quality . . . . . . . . . . . . . . . . 33
+4.1 The Core Value of IoT Solutions (IoTS) . . . . . . . . . . . . . . . . 33
+4.2 An Example of Cost . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+Chapter 5 Conclusion and Future Work . . . . . . . . . . . . . . 52
+5.1 Thesis Questions and Conclusions . . . . . . . . . . . . . . . . . . . . 53
+iii
+
+
+5.2 Future Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+5.3 Epilogue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+iv
+
+
+Chapter 1
+Introduction
+The evolving quest for incremental organizational value is a primary driver for im
+plementing sensor-driven solutions. Pursuit of value; new capabilities; better perfor
+mance; reduced operating costs; optimized operations; better customer experience;
+some may not even know...Value may be perceived or manifested in so many ways.
+The technology propelling this growth is the Internet of Things, or IoT, and
+encompasses the billions of devices worldwide connecting directly or indirectly to
+the Internet. These devices communicate machine to machine, passing multitudes
+of diverse data types and formats at widely varying speeds between them. Since
+the introduction of the Internet and the World Wide Web in the 1980s and 1990s,
+the drivers of growth have been applications, services, and data aimed at allowing
+humans to seek out and find information and content in which they have an interest.
+This activity continues to grow at compounded rates each year and remains central
+to the overall growth of the Internet.
+The IoT is one of the core evolving technologies built around the developing uni
+verse of sensor-based devices that can measure finite physical events and conditions,
+convert those readings to data that is shared with other devices to make selected
+adjustments in the physical environment, and then store that data as prescribed so
+that it can be made available to authorized data consumers for their use and analy
+sis. This data is stored in data warehouses, clouds, lakes, ponds, and "puddles,"and
+is accumulating at astounding rates.
+With the advent of increasingly smaller and more capable microchip sets in the late
+1
+
+
+1990s, industrial innovators began to focus on the development of digitally-enabled
+sensors and controllers to replace their long-established analog predecessors wherever
+they might be. While the early transitions encountered many obstacles and chal
+lenges, these became the digital ancestors of the billions of such devices that today
+comprise the IoT.
+One of the primary defining characteristics of IoT devices is that they communi
+cate with other like and supporting devices through machine-to-machine connections.
+Another defining characteristic is that each type of device is designed for a particular
+set of one or more functions or tasks and generates real-time data attendant to its
+intended purpose. The number of devices comprising the IoT is increasing at an
+extraordinary rate. The IoT is the market and technology supergroup of segments
+that include Industrial IoT, Industry 4.0, Internet of Systems, and other less perva
+sive variants centered around machine-to-machine (M2M), sensor, radio, audio, and
+video devices that generate data that traverses private and public networks. Compo
+nent networks include a wide variety of power and bandwidth ranges, protocols, and
+transport technologies.
+Through evolution and continuing innovation, the scope of what these devices
+can do, as well as how effectively they do it, has brought them to today’s smart
+devices that are more intelligent, faster, cheaper, and more capable than ever. This
+rapid-paced evolution is expected to continue at least through the new decade. IoT
+devices include the sensors/actuators, the controllers they talk to, and the objects
+of which they are a part. Their respective physical sizes, designs, and operating
+configurations are tailored to their specific roles, locations, and environments in which
+they are intended to operate. They may be small enough to operate in finite Nano
+spaces, or large enough to survive in hostile industrial operating conditions. An IoT
+device intended to perform a specific set of functions or tasks in one particular set of
+circumstances may look and operate very differently than a like device in a different
+2
+
+
+set of circumstances. While some IoT devices may communicate directly to other
+devices connected to the Internet, most don’t. In many implementations, IoT devices
+belong to a closed network that includes a gateway that manages that connection to
+the Internet. And the solution community is struggling on many fronts to manage
+semi-structured data across a controlled infrastructure. The challenges are likely to
+compound perhaps to quantum levels when heterogeneous unstructured data is added
+to the equation and IoT devices find their own data stream connections and routes.
+The numbers are substantial. Market analyst firm IDC estimated in 2019 a pop
+ulation of 41.6 billion connected IoT devices generating 79.4 zettabytes (ZB) of data
+(79.4 trillion GB) by 2025 with a 28.7% compound annual growth rate. In 2020,
+that estimate was 40 ZB, about 70% of which is believed to be generally un-modeled
+unstructured data that includes audio, video, emails, documents, social media data,
+and the like. The remainder is assumed to be semi-structured data that includes
+nearly all traditional business, operations, and scientific research data. Increasingly
+more of this data is stored in data warehouses, data lakes, and cloud, fog, edge, and
+local data centers considered constituent elements of cloud computing and big data.
+It can be expensive to store data in these facilities and argued that current models
+might not sustain the projected growth either.
+Every transport of data across the network also has a cost that is usually a func
+tion of the time-of-day, distance, bandwidth used, latency, and volume of data being
+transported. Like storage, network costs and capacities may not accommodate the
+many new network sources, traffic volumes, and speeds needed to meet this projected
+demand. Among the many challenges this may represent is identifying possible op
+tions for preempting the need to move and store material portions of this data through
+expanded use of localized machine learning and data mining methods to discern better
+what needs to be sent and what does not.
+The number of new IoT devices and the data they will create and add to the
+3
+
+
+existing data ecosystem in just the next four years has the potential to overwhelm
+that ecosystem. Just doing more of what the industry has been doing will probably
+not be enough manage it all more effectively. New thinking, strategies, and methods
+will be needed to make even a small positive impact.[38] [40] Nevertheless, I anticipate
+that the principles and practices proposed here may be able to contribute in some way
+to this critical discussion around how industry participants may more effectively cope
+with the challenges and issues that this extraordinary growth in the number of IoT
+devices, their location, and resulting data volumes the next few years are expected
+to bring.
+Curiously, only a small percentage of this data is actually being used.[21] [48]
+Why? Too much data across multiple platforms. It is often difficult to learn what
+data might be available, where it might be, how accessible it might be, and what
+kind of shape it may be for the needed purpose. More often than not, much effort
+is needed to cleanse and prepare data before it can be used. In many cases, every
+potential user usually has to duplicate this effort.[55] Data quality is perceived to be
+disappointing and falls below what is considered acceptable accuracy and reliability
+to glean the intended value.[51] In 2016, IBM estimated that the cost of poor data
+quality to US organizations was $3.1 trillion. Gartner research estimated an average
+annual organizational impact of $9.7 million. This is nontrivial and is shared by
+nearly all in wasted effort, bad organization decisions based on bad data, and all of
+the rework required to compensate.
+This is about data quality. To deliver the value needed from this evolving realm
+of technology-based solutions must meet high standards of data quality.[36] Sensor
+driven solutions are complicated and are usually expensive to engineer, build, deploy
+and support. Worthwhile if the perceived value exceeds the cost and effort. While
+some solutions are great examples of the value realization that is possible, many are
+falling short for a variety of reasons.
+4
+
+
+While many definitions abound, the fundamental premise about the quality of
+data is that it is accurate, reliable, and trustworthy; meets the expectations of those
+who might use it, and; is fit for its intended purpose(s). There will be more impacting
+elements in the "IoT-datasphere," between the moment data is created and when and
+where it ultimately becomes available to be consumed for its intended purposes. Data
+can be improperly populated, lost, corrupted, misrouted, misunderstood, or misused
+throughout its journey. Data issues not being effectively addressed today will only
+become exacerbated with more sensors in more locations generating more data.
+1.1 Thesis Research Questions
+So, the quantity of installed sensors are projected to grow at double-digit rates for
+the foreseeable future. As it goes online, each of those sensors will begin a lifetime of
+service generating high volumes of data. And given that each will be operating in its
+own mix of environmental contaminants and conditions that will impact the quality
+of the data it generates. These thought-provoking facts lead to five questions that
+this thesis document will attempt to address.
+1. Given the increasing magnitude and velocity of sensor-generated data being
+produced, transported, and stored, the question must be asked: "is all this data
+necessary?"
+2. How much of this data is actually being used?
+3. What strategies can be applied to materially reduce data volumes and their
+attendant resource demands and costs?
+4. What data quality challenges are a result of environmental and operational
+influences on sensors supporting IoT
+5
+
+
+5. What methods can be introduced or expanded upon to improve IoT data qual
+ity?
+1.2 Summary of Chapters
+IOT solutions have many parts and are complicated to design, configure, implement,
+and manage. Sensors are at the heart of these solutions but are significant contribu
+tors in and of themselves to the data quality problem. This paper provides a closer
+look at sensors and the attributes that can compromise data quality, the environment
+and circumstances wherein they must operate, and solution actions that can be taken
+to address the issues that arise.
+The remainder of this paper is organized in chapters. The following outlines the
+content of each of the chapters. In Chapter 2, the more salient literature supporting
+the key topics of this paper are discussed. In Chapter 3, key aspects of data qual
+ity are discussed. In Chapter 4, sensors and their inherant data quality challenges
+are explored. In Chapter 5, observations, conclusions, and future opportunities are
+presented.
+6
+
+
+Chapter 2
+Data Quality
+In the digital world today, data drives everything. More and more, data is becoming
+the end-game. Data is the fuel that enables new value in many forms and better
+operations optimization and efficiency. Data provides expanding opportunities to
+explore, discover, and gain new understandings heretofore not possible about our
+world, our people, our customers, and relationships between them. But data is only
+truly useful if it is high quality which will be discussed in the next sections.[37] [42]
+[45]
+Virtually everything important regarding data value is in its representation and
+analysis outcomes. Critical to useful analytical outcomes is data accuracy and high
+data quality. Because of the very high volumes of sensor data arising from the IoT;
+machine learning, advanced neural networks, and statistical modeling are used exten
+sively to cleanse, classify, and understand trends, patterns, and even the otherwise
+hidden subtleties of the data. Unfortunately, even small errors, omissions, and other
+data defects can cause these methods to yield false and/or biased results. Result de
+fects can become even more troublesome when further analysis using these methods
+can compound the effects of those defects. Decisions based on those results could be
+costly and ill-advised.[55] [53] [54] [66] [50]
+The focus of this paper is about the nature of sensors supporting the Internet
+of Things, the environments in which they operate, and approaches for overcoming
+or mitigating some of the data quality weaknesses they represent. This section is
+intended to provide an overview of data quality and to set a context for sensor-related
+7
+
+
+issues and considerations for mitigating them to the extent that circumstances permit.
+2.1 Defining Data Quality
+While much has been written about data quality, there is no clear agreement about
+what it is, how it should be measured, and how it should be managed. The perspective
+of what data quality is varies by context and the interests of its primary stakeholders.
+Most agree that data: 1. should be of sufficient value to justify the expense and effort
+to collect it; 2. should deliver what it is expected to represent; and 3. should be of
+sufficiently good quality that it is readily usable and trustworthy by all interested
+consumers. While many efforts are underway to reach an agreement all can adopt,
+as of this writing, there is still no universally accepted standard for defining data
+quality, but there is a significant degree of commonality of concepts to which nearly
+all authors about the subject seem to agree.
+The concept of data quality actually describes two sides of the same coin. One
+side is about supply, defining the manner in which a physical entity or event will
+be represented in digital form. Here, the term data quality describes the conceptual
+framework around how well data attributes have been defined and captured to reliably
+portray a physical entity or event it is all intended to represent at a particular moment
+in time. When every attribute and data characteristic accurately and completely
+represents that physical entity or event as intended, the data is deemed to be of high
+quality and can be used confidently as a digital proxy for that entity at the particular
+moment of time. In contrast, data is deemed to be of lower quality as the data is
+increasingly less able to serve as that reliable digital proxy for that entity or event
+due to error, missing or incorrect values, corruption, and so on.[7]
+The other side of the coin is about demand. Here, the term, data quality, asserts
+the degree to which a data consumer can confidently use this particular data to satisfy
+specific needs and requirements–that it is fit to meet their purpose. Data deemed to
+8
+
+
+be higher quality should meet their purpose more effectively than lower quality data
+that as it degrades, at some point will be unable to meet their purpose.
+A serious point of tension that is often ignored or unrecognized in this assessment
+of fitness for purpose, is the presumption by many that what is defined and provided
+on the supply side is fully consistent with requirements and needs of all potential
+data consumers and stakeholders representing the demand side. That is, that they
+all are happy with what is being produced. This is very often NOT the case. In too
+many cases, decisions are made around what the supply-side data product is going
+to contain, how it will function, what data validation and formatting rules will be
+used, and what might be stored in the metadata file, all without ever talking with
+their community of potential or probable consumers and stakeholders. Meanwhile,
+members of that community have requirements and needs that they can only assume
+will be met in the data produced. And they are very often disappointed.
+So, the story around data quality is very much like the story of the Ford Edsel
+in the late 1950s. At that time, Ford Motor Company was looking for a new break
+through model that would set the company apart from the rest of the industry and on
+a new path of market success. Ford engineers went to great lengths to develop a car
+with sleek lines, plenty of power, new features, and quality parts and craftsmanship.
+Ford invested considerable sums in retooling their production lines and parts invento
+ries in preparation for the Edsel’s market and production launch. Unfortunately, sales
+of the new Edsel were dismal, far below even their worst expectations. They did not
+understand what went wrong. Here clearly was a well-engineered automobile, that
+was roomy, comfortable, powerful, and demonstrating the finest craftsmanship. Why
+weren’t people buying it? Fundamentally, the car was ugly and hit the market just as
+the industry was moving away from big heavy cars in favor of slightly smaller, lighter,
+sportier, and less expensive models. No one wanted it. They wanted something very
+different. So it is with data quality. It only is achieved when the supply-side data
+9
+
+
+product delivers effectively what the demand-side community wants in the manner
+that they need it and can use it.[3]
+2.2 Big Data Characterizations
+Big data brings an added set of dimensions to the challenge of good data quality. A
+substantial portion of the data in the big data universe comes from sensors in the IoT.
+Laney [44] originally proposed three "V" characteristics to describe the important
+challenges driven by Big Data. Since then, many authors have proposed various
+numbers of combinations of these and other such characteristics, including several
+that have limited application in the discussion of IoT impacts.[58] [52] [57] [59] [67]
+The most common and most applicable to the quality of data accumulating from IoT
+solution sensors are these:
+• Value - This is where it all starts and where it all ends. Value should serve as a
+constant reminder that data is only truly useful if it is worth collecting and is
+of sufficient good quality that it successfully fulfills its intended purpose. There
+is no merit in investing in an IoT solution if the data it creates isn’t sufficiently
+useful in providing the intended value.
+• Volume - It is the volume of data that makes it Big Data. The IoT creates enor
+mous amounts of data, quantum levels more than ever before. The challenge
+this creates is that many of the more traditional methods of data quality im
+provement are now more difficult if not fully impracticable because they don’t
+scale enough to accommodate the challenges of massive stores of data. Any
+data set that is typically larger than what a single machine can effectively han
+dle is generally considered Big Data. In this environment data is stored and
+processed in blocks across multiple machines.
+10
+
+
+• Velocity - Velocity is the measure of how quickly data is created, processed and
+made available to consumers. Higher velocities compress real-time processing
+cycle times and influence where such processing is done. Velocity also relates
+to latency. Lower latency demands require processing to be done nearer to the
+creation point.
+• Validity - Validity asserts that all acceptable values and formats are consis
+tent with the rules that have been prescribed for given data records and at
+tributes. Because of data volume and volatility, machine learning processes and
+algorithms, and statistical methods may be used more frequently confirm data
+validity.
+• Volatility - Volatility measures how long data remains useful. This can be
+critical because the active life of certain data instances may be very short coming
+from IoT sensors due to the frequency of data observations which can be made
+as often as 5-10 per second (for example).
+• Variety - Each IoT sensor type generates data in its own format and content.
+Many are functionally related to others for context, synchronization, and data
+preparation processing.
+• Veracity - The magnitude of the data being processed and stored brings newer
+challenges on multiple fronts. Veracity provides the assurance that data is
+consistently and reliably what it is represented to be and that consumers and
+stakeholders can trust the facilities, infrastructure, and processes that carried
+the data from its point of origin to its point of consumption.
+2.3 Dimensions of Data Quality
+Just as there are many views around varying aspects of Big Data, there are likewise
+many perspectives on how to characterize and measure it. Like a fine diamond, data
+11
+
+
+quality has many facets or dimensions that help describe it. Many authors have
+written many papers summarizing, explaining, defining, and extolling various lists
+of such dimensions as they might apply in various contexts. A systematic scoping
+review of the literature suggests that data quality dimensions and methods with real
+world data are not consistent in the literature, and as a result, quality assessments
+are challenging due to the complex and heterogeneous nature of these data.[9] [58]
+[16] [17] [18] [32] [33] [35] [41] [59] [64] [65] [67]
+However, in 2021, the work group Data Quality of DAMA Netherlands carried out
+research into definitions of dimensions of data quality. It collected definitions from
+various sources and compared them with each other. The working group also tested
+the definitions against criteria derived from a standard for concepts and definitions:
+ISO 704. The result is a list of 60 dimensions of data quality and its definitions.
+Going forward, wide adoption of this definition standard should provide an authori
+tative reference upon which future assessments and discussions can be based, as well
+as providing a framework against which the plethora of author-created lists can be
+rationalizeddama21.
+Selected from some of those lists, the dimensions that follow appear to be most
+applicable to characterizing data generated by sensors and subsequently processed
+by IoT application solutions. Each dimension here is described as it is expected to
+be under the best of circumstances, or at least widely prevailing "normal" conditions.
+But outages occur, devices fail, errors happen, data is lost or becomes defective,
+communications channels get congested, and any number of like incidents can arise
+that can impact data in various ways. As a result, questions about "something less"
+need to be considered and are suggested here for further thought.[61] [28]
+• Accuracy - Data is a faithful, reliable, and correct depiction of the actual entity
+(e.g. person, place, event, or object), property, or condition it is expected to
+represent. It should be readily verifiable through direct comparison to the real
+12
+
+
+thing or other reliable data source. Questions:Does every attribute need to be
+exactly what it is expected to be, to be useful? Which attributes cannot be
+inaccurate in any way? Can some attributes be less accurate than others? How
+inaccurate can each attribute be to be sufficiently representative and acceptably
+useful? What is the impact on actions taken, analyses performed, and decisions
+made using records containing inaccurate attributes?
+• Completeness - All expected attributes about the entity are fully captured in
+the data elements specified to represent them. Each data element is popu
+lated as intended based on specific or historical knowledge establishing what
+should be captured, the format it should take, and the values or value ranges
+that best represent the entity characteristic. When defined, data attributes
+are usually deemed mandatory, variable, or optional and are expected to be
+populated accordingly. All intended data attributes representing the specific
+entity constitute a record. All intended records constitute a data set or file.
+Any number of methods may be used to determine the level of completeness
+and non-compliance, and to insert or replace selected values outside what is in
+tended using historical profiles. Questions: Which mandatory attributes must
+be complete to allow the record to be used? Which mandatory attributes can
+be unpopulated with little to no consequence? What is the impact on actions
+taken, analyses performed, and decisions made using records containing impor
+tant but incomplete attributes?
+• Consistency - Each instance of a particular data element is populated using
+the same format, value or range of values, and validation rules as every other
+instance of that same data element. All of the intended data attributes for
+each record instance are expected to be the same. And all like records are
+expected to be the same within data sets or files. And further, subsequent data
+13
+
+
+sets or files containing records relating to the same entity and entity instances
+are expected to be the same as earlier data sets or files for the same entity
+and entity instances. Measures of consistency can be determined by comparing
+randomly selected instances of like records, and against historical profiles of
+that particular record type. Questions: Do consistency expectations apply
+to all attributes or only to selected ones? To what extent can patterns vary
+without degrading or negating the usefulness of the impacted records? To what
+extent might such discrepancies impact actions taken, analyses performed, and
+decisions made using records containing inconsistently populated attributes?
+• Integrity - The concept that "it’s all there", with no corruption at any level: no
+garbage or lost elements in one or more records, no garbage or lost records in
+a data sets or files, hashes are accurate and intact, and relationships between
+data elements, records and files are also fully intact and correct. Questions:
+If such issues are discovered, how might they impact actions taken, analyses
+performed, and decisions made? How large of a gap between the good data
+can needed actions tolerate, analytical computations mitigate, and decisions
+accommodate?
+• Reasonability - While not as specific or clear as other data quality measures,
+reasonability questions if the depicted data and records make sense. Are the
+values and relationships what they should be? Do the patterns seen in the data
+fit similar patterns derived from historical data? Such measures tend to be
+subjective are contextual based upon the nature of what the data represents.
+Questions: What are the boundaries of reason beyond which data can’t or
+shouldn’t be used? How might those boundaries be defined?
+• Timeliness - The measurement of data timeliness must be considered within
+the context of its volatility, or rate of change. Data that changes infrequently is
+14
+
+
+considered static and is usually not subject to this dimension of measurement.
+Data not considered static is considered volatile. As the rate of change (rate of
+refresh by newer data) increases, there is less time to use the current instance.
+In higher volatility situations, the current data needs to be evaluated and acted
+upon before the next instance arrives. There must be time between the two
+instances to allow this. To do so, the time between when it is created and the
+time it becomes available to be used (latency) must be as short as possible.
+Questions: What is the impact on operational and analytical continuity if the
+timely regular flow of particular data streams are disrupted? What is the impact
+of too much data at one time? What is the impact of large gaps? What is the
+impact of streams getting out of sequence? What is the impact of flows slower
+or faster than expected?
+• Validity - Essential to both consistency and reasonability, validity measures the
+extent to which data attributes have the values they are expected to have, are
+formatted correctly, and have the level of precision specified. Validity rules are
+specific to particular data attributes. Certain attributes are assigned values
+matching entries in lists of acceptable choices specified for that attribute wher
+ever it may be used. Value choices may or may not be driven by values assigned
+to other attributes using specified conditional rules. For example, attribute A
+may be assigned a value within the integer range of 0-5. Attribute B is con
+ditionally assigned a textual value selected from a table based on the value in
+attribute A. Other examples include ensuring that: a textual value representing
+a phone number is formatted a specified way; a numeric value representing a
+unit price is formatted and computed to three decimal places; or a numeric value
+representing atmospheric temperature is shown as degrees Fahrenheit format
+ted to one tenth of a degree and within the range +/-150 degrees. Questions:
+Which attributes must follow their respective formatting and validation rules
+15
+
+
+without exception to be acceptable and useful? Which attributes can be al
+lowed to have values that violate formatting and validation rules? What is the
+impact on actions taken, analyses performed, and decisions made using records
+containing attributes with validation or formatting rule violations?
+2.4 Metadata
+In 2015, McKinsey Consultants estimated that data consumers spend 65% or more
+of their time, trying to find the data they need, discovering where the data has come
+from, learning about what issues have been identified since the data was created,
+assessing what treatment has been applied to the data to this point, and determining
+what else may need to be done to the data set or file to get it to a state where they
+can actually use it.
+Good metadata is a critical component of good data quality, particularly for Big
+Data files and data sets originating from sensor-generated data streams in the Internet
+of Things. Metadata should be a close companion to every data set, file and stream
+as it is created or updated. It should be subject to a similar level of quality standards
+as the data it describes. Good metadata should be able to tell an interested consumer
+just about anything that needs to be known about the data set or file. In IoT world,
+metadata is particularly essential to track the journey of each new data stream as
+it is processed and ingested into the Big Data data stores where it will come to rest
+while it awaits further processing or analysis by stakeholder data consumers. The
+goals of the IoT technosphere is for all important aspects of any architecture and
+application solution be automated to provide humanless assessments, controls and
+event information through machine-machine interaction.
+Like the data itself, comparable standards and practices should be in place for
+establishing and maintaining metadata. Event journaling and core documentation
+creation should be embedded in the data set, file, or stream metadata file at ap
+16
+
+
+propriate action and control points throughout application solution coding to ensure
+that necessary information is included every step of the way and easily accessed by
+every user authorized to learn about and access it.
+17
+
+
+Chapter 3
+IoT Sensor Quality Challenges
+There are IoT devices of every shape, size, technology, purpose, and environment.
+Functionally, they can be grouped into a few general categories that include sensors,
+actuators, and controllers.
+3.0.1 Sensors
+The role of the sensor is to monitor and capture data related to its intended purpose,
+and pass it along to other IoT devices, or place it directly on the Internet for down
+stream processing. They may be used singularly or in combination to provide more
+robust perceptions of particular situations at specific moments in time. Typically,
+sensors have passed their data to connected controllers for evaluation and indicated
+action. Increasingly, sensors are being built with their own limited computational
+and data evaluation capabilities. This allows them to operate more autonomously
+and act more quickly when circumstances suggest. For example, a sensor may de
+termine that ambient light levels have decreased below an established threshold, and
+then acts to turn lights on. It may also interact with proximate motion sensors and
+clocking sensors to determine when or if those lights should be turned off.
+There are several categories of sensors that include the following:
+• Mechanical sensors measure both static and dynamic forces of movement in the
+physical world. Examples include accelerometers, gyroscopes, inclinometers,
+scales, and touch.
+18
+
+
+• Geospatial sensors ascertain where objects are in physical space including al
+titude and orientation, and are frequently associated with many types of me
+chanical and environmental sensors. These often are considered the core of a
+wide variety of sensor packages used by many government agencies, scientific
+research, and higher education for their observations of land, water, and, air
+conditions around the world.
+• Environmental sensors monitor physical conditions proximate to their respec
+tive location. Examples include temperature, humidity, pressure, light, sound,
+motion, proximity, altitude, attitude, direction, location, and imaging. In many
+respects, some of these may be used singularly or in combination to emulate
+the human senses of sight, sound, and sensations.
+• Chemical sensors detect the presence or absence of targeted chemical and bi
+ological substances and conditions. In many ways, they emulate the human
+senses of taste and smell, but to a much greater degree. Examples include air
+and water quality, smoke, gas detectors, and substance detection, to name a
+few.
+• Medical sensors are all designed to monitor and collect data regarding the many
+aspects of the human body. Examples include heart rate, pulse, temperature,
+blood glucose, and oxygenation level, neural activity and feedback, and respi
+ration rate.
+• Radio Frequency Identification Devices (RFID) are designed to enable asset
+identification and movement. There are two classes of devices: chip-based tags
+containing stored static data and a radio antenna, and readers that receive
+the tag radio signal and captures and stores the resident data from the tag.
+The reader is considered the sensor and tags are what they sense. There are
+19
+
+
+several tag types and designs that are specific to their intended use, location,
+and environmental conditions.
+Major Category Type Models & Configs
+Audio Acoustics, Microphones 1000+ Biometric Distance, Oximeters, EKG, Heartrate 75+ Capacitive Touch Buttons and Pads 250+ Electrical AC&DC Current, Conductivity, Consumption, Transducers, Transformers, Voltage 2200+ Encoders 7100+ Environmental Air Quality: Dust, Gas, Chemical, Ionization, 1000+ Particle, Pyroelectric Detector, Humidity, Pressure, Smoke Detectors, Other Thermodynamic Sensors Flow Air, Gas, and Liquid Meters and Sensors 300+ Force Load, shock, and Transducers 250+ Linear Displacement 550+ Liquid Level 1450+ Magnetic 3400+ Motion & Position Accelerometers, Distance, Gyroscopes, Inertial Measurement Units, 3600+ Inclinometers, Potentiometers, LIDAR, Radar, Scales, Speed, Tilt, Touch, Vibration, Other Geospatial Sensors Optical Ambient Light, Fiber Optic, Image, Infrared Detectors, Optical Switches, 14000+ Photo Detectors, Photodiodes, Photoelectric, Phototransisters Pressure 19400+ Proximity Capacitive, Inductive, Magnetic, Optical, and Ultrasonic 19000+ Temperature Temperature, Thermostats, and Thermistors 13700+
+Table 1: Selected Examples of Sensors Used in IoT Solutions 1
+Table 1 is included to portray the broad selection of the wide variety of sensors
+being deployed in embedded IoT systems solutions at this time in 2021. The numbers
+in the right column include both the individual model of each sensor and the estab
+lished configuration options that model sensor can be assigned. It is quite common
+1Source: Mouser Electronics (mouser.com/Sensors/)
+20
+
+
+for a sensor to have as many as twenty or more configuration options. Many just have
+one. There are several hundred manufacturers of sensors and related components.
+3.0.2 Actuators
+The role of the actuator is to initiate a specific change in the environment based on
+data coming from sensors, either directly or through associated controller(s). Ex
+amples of such changes might include: turning something on or off, increasing or
+decreasing speeds, flows, pressures, or temperatures. In many cases, actuators may
+create and insert data into the network indicating what actions they initiate and that
+it was executed successfully or not. Virtually all of the characteristics of sensors apply
+generally to actuators as well.
+3.0.3 Controllers
+The role of the controller is to take data from sensors, process it, and ultimately
+determine if an adjusting action is needed, what actuator(s) need to make those
+adjustments and to what extent. The intelligence to make these assessments and
+determinations are usually held in the controller. However, increasingly more of the
+intelligence is being built into the sensors and activators, as well as incorporating
+inter-connectivity that enables them to talk directly with each other and handle rou
+tine, and less complex, exceptions without needing to defer farther into the network.
+Functionally, any proximate processor can be tasked to perform the needed sen
+sor/actuator processing. Sensors, actuators and controllers are being integrated into
+integrated chip packages to reduce latency and overall power consumption. An in
+creasing number of such chip packages are being deployed in newer solutions. Larger
+volumes of data, more complex analysis, and time sensitivity is likely to drive demand
+for these as they hit the market.
+21
+
+
+3.1 Sensor Concerns
+The world of sensors is vast and influence the design, definition, features and functions
+of IoT application solutions with variants aimed at the differences in the environments
+within which they will be deployed. Much can be discussed about each aspect of the
+chosen architecture, device selection and use, deployment specifications and so on,
+but they will not be discussed here.[34] [47] This paper is about how selected char
+acteristics of sensor data and the environments within which they are implemented,
+impact the quality of data into and out of IoT application solutions.[66] Some of
+common characteristics are introduced and discussed.
+3.2 Sensor Data Characteristics
+Sensors live in the physical world. Each has a very specific purpose and is so designed.
+One specific type of sensor may have many performance variants and be built using
+any number of form factors to fit particular needs. An increasing number of sensors
+are in micro-electromechanical (MEM) categories may be as small as one millimeter
+and are often packaged with similar sized sensors of other types.[6] Environments may
+be harsh and hostile towards sensors and related electronics, and can have detrimental
+impacts on the quality of the data they create. They are often placed in hard-to
+reach locations making them difficult to support and maintain. They are built to
+communicate be it other sensors, actuators, local controllers, or across a variety of
+networks. As the key components of much larger, and often very complex application
+solutions within the Internet of Things, the quality and reliability of the data they
+generate is intrinsically critical to the overall value of the overall solution of which
+they are a part. But, they are vulnerable to a variety of issues that can impact that
+data quality and reliability.[26] [61]
+Some of the more important characteristics that make this so include:
+22
+
+
+• Low Cost - The fundamental driver for today’s sensors is having the needed
+fundamental functionality at the lowest possible cost. This sets the parameters
+within which everything else about sensor design, function, form factor, on
+board processing, and storage must come together. Each of the characteristics
+that follow in one way or another are controlled by the need to keep costs low.
+This has been, and continues to be, a critical success factor for enabling the
+design and deployment of IoT application solutions. Because of the quantities of
+sensors required to meet solution objectives, manufacturers are concerned that
+higher per-unit sensor costs may push solution costs too high to justify and
+dampen deployment volumes. As will be discussed further here, manufacturers
+are being pressed to improve what they can provide without materially raising
+costs.
+• Technical Limitations - The form factors of newer generations of sensors are
+getting smaller, more digital, and more varied. Lines are more often blurring
+between sensor, actuator, and processor functions, and more processing is being
+attempted on board. Previous analog functionality is being shifted to digital
+when it is expedient and cost effective to do so. And the migration to MEM
+architectures and designs is increasing. As a result, there is very limited real
+estate available for the actual sensor elements, memory, processor, and power
+source. Sensor packages growing increasingly smaller; some are now as small
+as a millimeter. Research is being done now on moving several selected sensor
+elements and packages into the nano-micro-electromechanical (NEM) range.
+Mass-scale deployment economics attempt to keep costs as low as possible,
+against the rising pressure to expand on-board functionality and computing
+power.
+The consequence of all this is that there is limited to no available resource on
+most sensors to help resolve the issues that are discussed in this section. But
+23
+
+
+that may not be case going forward based on the work device manufacturers
+are devoting to expand on-board computing, storage, and memory, particularly
+in devices that are using hard-wired low-voltage power sources. This trend may
+extend to devices not on local power as the needed technologies mature enough
+to allow them to do so.
+• Power - All sensors need power. Bad things can happen when sensor power
+is lost or becomes unstable. Sensors are most likely to stop functioning, or
+may function minimally without the level and stability of power needed to do
+what it is expected to do. Machines may go down due to the loss of sensor
+control. Data production may stop or be delayed. Many are hard-wired to
+low-voltage premise power feeds. A wide variety use batteries, while others
+use ambient light, solar cells, and various other forms of harvested energy. For
+example, RFID tags scavenge power from readers when activated. While newer
+generations of ultra-efficient, ultra-low-power batteries and power cells are in
+development in the labs,[60] there is much to be done to advance them to the
+their point of readiness for wide spread service. Power must be sufficient for
+the sensor to make observations, convert them to digital, develop its reading,
+store the results in registers in memory, format output observation data and
+transmit it to designated receiving nodes.
+Unfortunately, premise power isn’t always as stable and consistent as all would
+expect. Interruptions or spikes in premise power, however minute can disrupt
+the flow of sensor processing and can cause garbled, missing, incomplete, or
+inaccurate data to be captured and transmitted. Many premise-based sensors
+include batteries to help mitigate these negative impacts. A subset of these
+are designed to run from the battery to provide stable, consistent power and
+are kept charged by the premise power. The other subset uses batteries for
+backup that take over when premise power becomes unstable or unavailable.
+24
+
+
+The objective in all cases is to keep the sensor running with sufficient quality
+power to do its job while minimizing data defects.
+Battery-powered sensors are designed to run for long periods of time with
+healthy batteries designed for service lives of several years with some lasting as
+long as ten years. Battery specification and selection is critical to the longevity
+of the sensor. Sensors that depend only on battery power are designed to be
+ultra low power and very power efficient in their operation.[39] Battery life is
+a function of rated power and capacity divided by the average cycle depletion
+rate. The cycle depletion rate is the sum of the power needed for the sensor to
+make, evaluate, record, and transmit the data from one observation. Each res
+ident component in the sensor has its own power demands and affects directly
+the cycle depletion rate. The sensor component has a specific cycle demand on
+power as does the memory and processor components. Larger memories and
+faster processors typically have higher demands on cycle power. The communi
+cations component may demand even more. A simple wired network connection
+may demand minimal power while any one of the possible wireless connections
+could take significantly more. If the sensor includes retransmission functionality
+needed to assure data message delivery, power demand could rise substantially
+to complete the impacted observation cycles when transmit errors occur.
+The frequency of a sensor’s observations is a major factor in sensor longevity. A
+sensor that makes an observation every 500 milliseconds will deplete its power
+far sooner than the same sensor configured elsewhere to make observations every
+15 minutes. Extreme temperatures may also impact performance and battery
+life. Hotter temperatures tend to increase available power but shorten battery
+life, while colder temperatures may impede performance but extend battery life.
+Excessive moisture to an exposed battery can result in rust and corrosion and
+cut short battery life.
+25
+
+
+Sensor design, specification, and selection must consider all of these elements
+and the dynamics they may bring to their deployed location, environment, and
+function to find the best balance between power capacity, expected demand
+and targeted service life. In the end, the first indication that there may be
+a power problem is when sensor data errors begin to elevate or when data
+from a particular sensor stop suddenly and don’t resume after a period of time.
+Depending on the sensor, its function, and the nature of the data it is intended
+to produce, this type of failure could be critical.
+• Location - Where a sensor is placed, how it is mounted, how it is powered, and
+how it is expected to communicate may all have some impact on a sensor’s
+reliability and stability in the quality and consistency in the data it delivers.
+Physical installation decisions together with often widely-variable ambient en
+vironmental conditions may also impact sensor performance, data quality and
+device life. Dust, vibration, heat, cold, humidity, moisture, UV radiation, elec
+tromagnetic interference, and airborne chemicals are common conditions that
+may attack sensor elements resulting in shorter device life, premature failure,
+and consequently increasingly unreliable data.
+• Noise - Generally, many types of sensors function by isolating and measur
+ing specific attributes of signals fitting waveforms of certain frequencies and
+amplitudes. As sensors make their observations, they expect to capture sig
+nal patterns that fit closely to the targeted pattern. Measurement algorithms
+attempt to discern differences between what they capture and what they ex
+pected. Under ideal circumstances, sensors can reliably capture and measure
+what they are designed to do and generate and transmit good data indicating
+the observation’s results.
+However, sensors can commonly encounter noise while taking their respective
+26
+
+
+readings. Noise is defined as a random unwanted and unintended disturbance
+in an expected electrical signal. Noise is environmental, some is atmospheric
+and occurs naturally, while the rest is a product of proximate electrical, and
+sometimes mechanical, activity. Electromagnetic Interference (EMI) and Radio
+Frequency Interference (RFI) are very frequent causes. Virtually everything
+electrical, electronic, or radio-related generates noise in some form. Most noise
+is not a problem outside of specific, often narrow circumstances. It generally
+only becomes an issue when that noise from certain external sources intrude
+and interferes with the intended functional operation of a particular circuit,
+chip, or component–such as a sensor, actuator, processor, and the like.
+Resolving noise issues is often complicated and can take time. Some patterns
+of distortion or signal alteration have become identifiable over time resulting
+in filters or algorithms to mitigate their impact. Other patterns have to be
+investigated using a variety of troubleshooting methods that may help isolate
+and identify potential contributing factors.[46] For example, some of the possi
+ble noise mitigation actions might include: the sensor may need to be moved
+from HVAC airflows to mitigate temperature fluctuations and convection cool
+ing; machine vibrations may need to be dampened to reduce their effect on
+the sensor; sensors may need to be moved to increase distance and minimize
+impact; lights may need to be moved or shielded; nearby unshielded cables may
+need to be moved; cellphones and other radio signals may need to taken away,
+repositioned, or shielded; and other like actions dictated by the environment
+and the nature of the effects that need to be identified and mitigated–if they
+can be.
+Unresolved noise will usually result in missing, garbled, inaccurate, or outlier
+data defects that will need to be resolved downstream in the data channel.
+27
+
+
+• Accuracy - Probably the most common and most concerning issues with sensor
+generated data are the continuing accuracy of the observations being reported
+by each sensor. Noise, significant temperature fluctuations, and even extended
+normal use can cause what is referred to as drift and happens to most sensors
+to one degree or another. Drift is defined as the gradual increase in the gap
+between what the device is measuring compared to the measurement it has been
+calibrated to expect. As a result, data that appears complete and accurate is
+actually not and becomes less reliable and useful.[5] The issue becomes: just
+how inaccurate is this data, how long has it been inaccurate, and at what point
+does it become unusable and need to be dropped? To reliably produce accurate
+data, sensors need to be recalibrated as needed or at least checked regularly to
+confirm they are providing measurements within the limits for which they have
+been calibrated. All this said, it is important to note that sensor-generated
+data is not perfect. There will always be some level of error that needs to be
+recognized and accommodated.
+The discussion about accuracy must also include some attention to precision.
+Sensor precision refers to how finite a specific sensor measures what it is de
+signed to measure. There might be hundreds of one sensor type, each with its
+own design and function target. For example, temperature sensors have a wide
+range of function targets. On one end, temperature sensors targeted to mea
+sure ambient air temperature might have a measurement range of -10 degrees
+to +130 degrees Fahrenheit with a precision of one-tenth of one degree. On the
+other end, cryogenic storage monitoring sensors could be targeted at the range
+of -460 degrees to -238 degrees Fahrenheit with a precision of one-thousandth of
+a degree. The point being that a temperature sensor isn’t usually one size fits
+all. Within each sensor type there are often several models from various man
+ufacturers, each with their differentiating characteristics. Sensor measurement
+28
+
+
+data is often misinterpreted downstream because it isn’t clear which sensor pro
+duced it, only to find that the range and precision of the data isn’t what was
+expected.
+The explanation of the specific meaning of the data produced by a particular
+sensor is usually provided by the manufacturer of that sensor. It may be differ
+ent from other similar sensors so it is important for that sensor’s documentation
+to be sure it is clearly understood.
+• Duplication - Any number of operating interruptions or delays may result in
+sensors duplicating data being sent downstream. Fluctuating power, commu
+nications issues, outbound sensor data transmission backlogs are all common
+causes of resulting duplication.
+• Connectivity - Sensors exist solely to make periodic prescribed measurements,
+format the readings into data records (tuples), and send them somewhere else
+across one or more methods of connection. For this discussion, the nature of se
+lected possible connection options is unimportant here, but there are potential
+impacting issues common to them all. Specific option characteristics, technolo
+gies, and protocols aside, their purpose is to reliably transport sensor-generated
+data to its designated destinations. Each is expected to be configured to have
+capacity sufficient to allow this data to move smoothly from its source to its
+intended destinations. But that does not always happen. Some of the more
+common issues that often arise include:
+– Power fluctuations and outages can cause data streams to stop moving
+data causing data to back up until the data stream path can be restored,
+stabilized, and the data stream backlogs cleared. If more data collects in
+the backlog than the stream can accommodate, data will likely be lost or
+corrupted.
+29
+
+
+– Each sensor is configured to make an observation at regular intervals. The
+minimum interval cannot be any shorter than the time required to initiate
+and complete one observation cycle. Within each observation cycle, the
+sensor generates a certain amount of data. For some sensors, that amount
+of data is limited while others may generate considerably more. The size of
+any particular sensor data stream is a product of the size of its generated
+observation record and the frequency of its observations. Observations
+need to be scheduled often enough to fulfill the motivating value require
+ments, but no more frequent than necessary to avoid overwhelming the
+data stream’s bandwidth and potentially loosing or significantly delaying
+data.
+– Every data path has an established capacity within which the data may
+flow. Data moves freely along that path as long as its volume and speed
+don’t exceed the path’s established capacity. When that capacity is reached,
+upstream data slows and gradually pushes the blockage further upstream
+creating a larger backlog. Here too, data loss or corruption becomes in
+creasingly likely. In streams where low latency is required, such delays can
+cause poor or missed response to a critical real-time action request.[8]
+• Fusion - In many cases, the data from one sensor is not enough be useful or
+actionable. Data from multiple proximate sensors are often needed to provide
+better context and meaning.[2] [4] [43] [49] For example, temperature measured
+at sea level may be quite different than temperature measured at the top of a
+300 foot tower a short distance away. Without further information, explaining
+the difference between the two proximate readings is difficult. Adding altitude
+sensor data at each location helps show why a difference may exist. To take
+this further, temperature is usually not that useful without also knowing the
+relative humidity. So, to be useful in a broader context, sensor data represent
+30
+
+
+ing temperature, relative humidity, and altitude need to be brought together
+to compute adjusted data values that may be more meaningful. This process
+is referred to as sensor data fusion. In this process, the GPS (or other) loca
+tion, and date and time must be incorporated to complete the record(s) to be
+transmitted.[63] [56] [62]
+For sensor networks that have been deployed for several years, it is the respon
+sibility of the solution provider/developer to establish how all of these elements
+are to be brought together to create the contextualized data instance(s) and
+transmit them. Where standardized requirements can be established, manu
+facturers are developing integrated multi-sensor packages that accomplish this
+fusion on single components. There are some challenges arising out of this
+fusion that may also impact data quality.
+– Observation synchronization is critical to fusion success. In established
+deployments, participating sensors may not be close enough together to
+allow the intended fusion processing to be done within the observation
+interval established for them. This would require this fusion to be done
+further down stream. Deployments incorporating integrated multi-sensor
+packages mitigate this problem and are likely to be more suitable for real
+time, low-latency requirements.
+– Just one of a participating group of sensors that gets out of sync or is
+delayed in providing its data, can compromise the ability of the fusion
+process to keep up with the steady flow of observation data from all par
+ticipating sensors. As has been discussed in other circumstances, delays in
+process flows will cause data to back up and are likely to result in data loss
+and corruption. Observation cycle interval timing needs to be adjusted to
+minimize the frequency of such issues.
+31
+
+
+– Date and time synchronization between related sensors is essential to the
+ability to correlate and draw meaning from their observation readings.
+Shorter observation intervals require this more than with longer intervals.
+When intervals are shorter, the time between observations is less and toler
+ance for incongruity between them decreases and increases the possibility
+of error between them. At some point, the incongruity of times will create
+confusion over to which observation in a series the outlying sensor’s data
+belongs. This could trigger a potential duplicate resolution issue with the
+collective observation group immediately before or after the observation
+group to which it should belong, and, will likely create a missing data
+situation for the observation group to which it actually belongs.[30] [31]
+[29]
+32
+
+
+Chapter 4
+IoT Solution Data Quality
+4.1 The Core Value of IoT Solutions (IoTS)
+It is easy to become overwhelmed with, not only the vast volumes of IoT devices,
+but the seemingly endless and creative things they do, how they do it, and how
+they work together to achieve their collective missions. None of these exist for their
+own sake but for the data they create and curate and the value that data represents
+for the organizations that deploy it in the first place. Each deploying organization
+places a value on the role each device plays and the data produced. For some, the
+value is episodic or event-related providing some level of understanding about them.
+For others, it is gaining a more timely understanding of operational norms and as
+much as they can about exceptions or anomalies. These understandings are derived
+from appropriately timed and scaled analytical processes embedded in data value
+life cycles. From these understandings, their respective aims are to save money,
+improve efficiency, optimize operations, learn nuances of their business they didn’t
+know before, and a host of other reasons and motivations. This is why they do all
+this.
+The core value of IoT devices, and the ecosystems within which they perform,
+is how they are used to solve a myriad of problems, enable greater value, and fulfill
+mission-critical functions in a wide variety of ways. As sensor electronics and pro
+cessing capabilities improve, more sophisticated and smarter applications and their
+constituent solutions are being developed and deployed for the new value they are
+33
+
+
+intended to provide. They become then, the foundations for future innovations.[1]
+Some examples includes the following.
+• Factory floor automation: Nearly every aspect of shop floors, production lines,
+refinery systems, materials provisioning, and a host of robotic devices are all
+targeted for sensing or adjustments by IoT. Line optimization, waste reduc
+tion, product quality, energy conservation, cost efficiency, security, and product
+tracking are all in the sweet spot for this space.
+• Smart cities: Progressive cities are implementing a wide variety of IoT to im
+prove their services to their public. These include intelligent parking, traffic
+flow analytics, congestion management, smart traffic lights, accident detection
+and response, emergency response management, security and law enforcement,
+utility meter reading, smart building management, and clean energy manage
+ment.
+• Smart transportation: Automobiles and trucks have embedded sensors, actua
+tors, and computers onboard since the 1970s. They have continued to evolve
+to the point where virtually every operating system in our vehicles are moni
+tored and controlled. Today, innovation is pushing towards vehicle autonomy
+and route auto-navigation. This will require sensor-bedded roads, among other
+things. Included also are the developing interests in smart delivery drones.
+• Energy management: Throughout the power distribution chain, sensors and
+actuators are used to manage grid health, flow levels, threshold tolerances,
+supply and demand instrumentation, route selection, system security, and fault
+detection throughout the distribution network. Customers look to find ways to
+reduce their energy consumption by monitoring those elements that are drawing
+power and don’t need to be and taking action to shut them down, particularly
+in factories, refineries, and office buildings.
+34
+
+
+• Environment management: Just about everything in the physical world around
+us can be measured, monitored, and in some cases, adjusted to help humankind
+in its stewardship of the world around us. Examples include air and water qual
+ity, chemistry, temperature, rainfall, humidity, salinity, and movement. Some
+extraordinary measures might include water levels, the presence of toxins, the
+absence of important materials, and related conditions that may be outside
+expected norms. They can be deployed for physical, chemical, and biological
+applications.
+• Smart agriculture: An important special class of environmental applications
+focused particularly on the growth of crops and getting them to market. These
+can look at soil temperature, moisture levels, acidity, key nutrient levels, etc.
+They can also monitor key factors for individual crops to gauge general readiness
+for harvest, as well as the presence of blight and other conditions that may be
+detrimental to crop quality.
+• Health and fitness: There is a myriad of opportunities to enrich medical and
+health care services, including monitoring and reporting bodily functions such
+as heart rates, pulse rates, breathing, blood oxygenation, and bodily activity
+levels. The most comprehensive of these are likely to be found in hospitals,
+but some may be worn by individuals during their daily activities. In addition
+to monitoring certain specific conditions, some have the added capability to
+trigger activities within the body. Prime examples are pacemakers, and pain
+management devices.
+• Home automation: The list of smart home automation options includes: ther
+mostats, electrical outlets and switches, doorbells, garage door openers, irriga
+tion controllers, door locks, and security systems. Add to this a rather long
+list of entertainment and lifestyle management capabilities. Central to much
+35
+
+
+of these are home personal hubs from the likes of Google and Amazon. There
+are thousands of small apps that can be loaded on these devices to provide just
+about anything the user requests using their voice. And of course, just about
+all of these can be controlled from a smartphone.
+• Smartphones: Packed with a bevy of embedded sensors, smartphones are seen as
+prime platforms for an ever-growing array of applications that use these sensors
+in various combinations to provide cool new capabilities and information for
+their users. Such applications can track where users have been, what they may
+want to know where they are, and where they need to go. Others monitor and
+report body vital measurements, like pulse rates, level of user activity, and the
+like. Smartphones also provide a personal remote control for smart home and
+entertainment devices.
+4.2 An Example of Cost
+At the heart of these solutions are sensors of all types, designs, and purposes, each
+with its own role to play in the search for more and better information that can be
+transformed and combined to yield new value. Sensors produce data–lots of it. And
+adding more sensors to a particular solution can add dramatically to its complex
+ity. Each type of sensor is configured to produce a new observation instance of data
+many times a day. One sensor generating a 1Kb data record once each minute of
+each day will generate 1,400 records and 1,400 Kb of data. Doesn’t sound like much.
+Many sensors generate records at least once per second. This becomes 86,400 records
+and 86,400 Kb each day. Depending on the environment and solution particulars, a
+significant portion of sensors may multiple observations per second. A hypothetical
+solution might have 100,000 sensors producing like data might yield 8.6 billion records
+and 8.6 GB of data per day. And if the hypothetical fully-rationalized solution ob
+36
+
+
+servation processing cost is $1 perMB, then the daily cost would be $8,600 per day,
+$258,000 per month, and $3,096,000 annually.
+Few solutions would be this simplistic. Typical solutions may include many differ
+ent kinds of sensors, each producing observation data instances with specific content
+and size that is likely to differ from other solution sensor types. Each sensor will be
+configured to generate event observation data records appropriate to its particular
+need. In one solution, a specific sensor type might be configured to produce an event
+observation data record once per hour while another instance of the same sensor in a
+different application might be configured to produce one every second, yielding rad
+ically different record and data volumes each day. Some solutions may be deployed
+using a fixed local infrastructure while others may use wireless or satellite services.
+Choices like these will have much to do with transport and processing logistics, and
+ultimately, cost. Many solutions deploy 5-10+ times the number of sensors discussed
+in these examples.
+sectionSensor-Based Solution Internal Controls While cost remains a consistent
+consideration in the overall IoT value proposition, data quality, processing latency,
+data volume, and overall solution performance are all critical factors that remain in
+a precarious state of balance. To ensure that IoT solutions deliver high data quality,
+they must include a strong system of internal controls aimed at preventing, detecting,
+and correcting defects or conditions that may compromise data quality.
+4.2.1 Preventive Controls
+In the prior chapter, several sensor issues were identified and discussed. The discus
+sion there established that the sensor world is young and still developing, and is yet
+to reach a point of maturity where data quality assurance can be reliably and consis
+tently delivered at highly confident levels. Consequently, there are many exposures
+to the risk of poor data quality or loss. As a critical organizational asset, confidence
+37
+
+
+in data quality and integrity is essential for deriving the value the organization needs
+and expects. Preventive controls consist of various measures aimed at precluding the
+occurrence of undesirable outcomes and defects that may compromise the high qual
+ity of data. Such measures are usually more extensive and complicated than other
+types of controls, and invariably more expensive to implement and maintain.
+Examples of preventive controls that could help reduce the impact of these might
+include:
+• Technical Limitations - A preventive measure for technical limitations and some
+of the issues that arise as a result would be to make them more capable. This
+is entirely doable. But, sensors are designed and produced to be functional at
+the lowest cost–essential to justifying solutions financially. Increasing capacity,
+functionality, and capability all drive up the cost per unit. Multiplying that
+incremental cost by the number of units expected for a given solution can sig
+nificantly change the financial equation. That said, manufacturers are finding
+new ways over time for sensors to do more at less cost. So, over time, sensor
+capabilities may become available that will help improve data quality.
+• Power - Better power is a strong preventive measure for reducing data quality
+problems. Investing in cleaner, more stable building power, and good quality,
+long-life batteries would make an important difference when it comes to sensor
+function and performance. But this also can be expensive. Power systems in
+well-established facilities are what they are, and upgrading them can be cost
+prohibitive, making it impractical to do. Batteries are getting better as the
+technology evolves, but upgrading 10,000 sensors to take newer battery models
+can be logistically difficult and will take time. And there is a cost to that as
+well.
+• Location - Protecting sensors from environmental contamination might also be
+38
+
+
+an effective preventive measure for those devices where such action is possible.
+Alternatively, investing in components that are sealed or encapsulated in mate
+rial that is impervious to the elements may be an effective preventative measure
+for prolonging the life of exposed sensor and sensor-related components.
+• Noise - Noise is a complex and multi-faceted problem that can’t be easily mit
+igated. However, a notable contributing factor is electromagnetic radiation.
+Some preventative measures can be taken to shield sensor and sensor com
+ponents from such radiation. Machines can be shielded, network and electrical
+wiring and cabling can be relocated or shielded, and other sources can be traced
+to see if they can be mitigated. Such efforts can also be costly. Even so, stray
+signals and remaining interference can still cause problems.
+• Accuracy - Drift is inevitable with most sensors and is rarely preventable. How
+ever, some data problems can be prevented by ensuring that the most appro
+priate sensor and sensor components are deployed and accurately documented
+so that they can be configured correctly to generate the intended data results
+and precision.
+• Duplication - Options for preventing duplications are limited. Perhaps more
+capable onboard processing power may be able to at least minimize event ob
+servation record duplication, but probably not at this time.
+• Connectivity - Investing in fault-resistant networks of sufficient capacity and
+speed will help prevent data streaming flow-control-related problems and their
+impact on data quality. However, upgrading existing networks can be quite
+expensive.
+• Fusion - Fusion opportunities are specific to the targeted solutions and the role
+sensors or multi-sensor packages. Increasingly more of these are being built
+39
+
+
+with sufficient processing capacity to perform on-board fusion tasks. As these
+become more widely available may help prevent some of the fusion-related data
+quality problems.
+From these examples, there is support for the idea that implementing certain
+preventive controls can mitigate some significant data quality exposures at significant
+cost. As in all internal control systems, such efforts should be considered only if there
+is sufficient cost-benefit, however that may be measured, for doing so. It is important
+to recognize that a solution may consist of thousands of locations and sensors. It is
+often impractical and too expensive to address all locations and devices. Areas where
+higher concentrations of data quality loss or impact can be identified, should be the
+better candidates for these kinds of remediations.
+4.2.2 Detective Controls
+Central to all notions of data quality management is the core principal that data
+quality defects and issues should able to be identified, measured, and assessed. Sys
+tems of internal detective controls are designed and implemented to ensure that this
+can be achieved as an intrinsic element of any ongoing IoT solution operation. This is
+particularly important in the absence of strong, robust, solution design and preventa
+tive controls. The generally accepted elements of internal detective controls include:
+environmental controls, risk assessment, monitoring operations activities, exchange
+of information, and assessment. For the purposes of this discussion, these elements
+will be adapted, for the purposes of this paper, to fit more appropriately the issues
+and characteristics of IoT sensor-based solutions.[24] [25]
+Environmental Controls
+Environmental controls focus on ensuring that the end-end environment and infras
+tructure used by any particular IoT solution is secure, functional, and properly con
+40
+
+
+figured to create, process, move, and manage data flows that yield reliable, high
+quality data. Because sensor-based IoT solutions involve such large volumes of data,
+they need to operate effectively, efficiently, and reliably machine-to-machine with
+no human intervention needed to capture, clean, and prepare data for down-stream
+analytics and operational effectiveness measurement.
+The foundational building blocks for solution environmental controls are assets:
+the assets deployed to support the solution, and the data assets the solution brings
+to life. To that end, such controls include the following:
+• All devices are known and accounted for. Ensuring that when new sensors and
+related devices are brought online, they become known to all asset management,
+monitoring, and data management control processes.
+• All changes to devices and the supporting infrastructure are fully coordinated.
+Formal change management practices are followed when changing anything
+about a solution element that could impact data quality.
+– Sensor-affiliated devices: Sensors, actuators, controllers, processors, and
+data processing computers are all considered assets and have specific roles
+to play within the IoT solution they support. Each needs to be identi
+fied and known to the network and to solution management and control
+functions. Once online, their status, health, and performance needs to be
+monitored and measured. As solutions evolve, devices break or begin to
+malfunction, devices need to be expanded or upgraded, or even retired.
+In each of these cases, needed changes or updates need to be coordinated
+and tracked, and confirmed back online and functioning properly when
+the actions are completed. A fully functioning infrastructure supporting
+an IoT solution is an essential foundation for dependable data quality.
+41
+
+
+– Data formatting rules: Every solution device that creates or further pro
+cesses data does so according to a specified set of data format rules. All
+devices of a specific type are expected to adhere to the set of data format
+ting rules intended for them. As solutions evolve and mature, data format
+rules expand or change and are assigned to pending of future updated rule
+sets. In a coordinated fashion, the current set is retired and replaced by
+the next designated set. At that point, all impacted devices should begin
+complying with the new set. This should help ensure that any user or
+process using that data does so according to the correct set of rules. This
+is another essential part of the foundation for dependable data quality.
+– Validation rule set versions: Like data formatting, most created data
+records have a set of rules for validating that the data within them are
+correct, complete, and have values within specified ranges, or that are
+from lists of acceptable values. Like formatting rules, these are updated
+from time to time and should also be managed through version control
+and change management processes.
+– Machine learning algorithms: Machine learning models and algorithms are
+being used increasingly for data cleaning, enhancement, and transforma
+tion in IoT solutions. Many sensor-originated data streams may employ
+ML processes for resolving data issues. Where they are used, all data
+streams from the same device type should use the same version of models
+and/or algorithms. As they are refined and updated, they should also be
+managed through version control and change management processes.
+Risk Assessment
+In any IT solution, security and privacy protection are critical and essential elements
+of application solutions. IoT solutions by nature have many parts, each of which
+42
+
+
+should be expected to provide protections consistent with those provided by all other
+solution components, and what the overall solution should be expected to provide
+overall. As in any chain, the solution is only as strong as its weakest component. Due
+to the general immaturity sensor-based IoT solutions, there remain many exposures
+and risks that can negatively impact data quality, security, and privacy.
+In 2018, the Open Web Application Security Project (OWASP) Internet of Things
+working group published its list of Top 10 IoT security vulnerabilitiesowasp. They
+describe them this way:
+1. Weak, guessable, or hardcoded passwords: - “Use of easily brute-forced, publicly
+available, or unchangeable credentials, including back-doors in firmware or client
+software that grants unauthorized access to deployed systems.”
+2. Insecure network services: - “Unneeded or insecure network services running
+on the device itself, especially those exposed to the Internet, that compromise
+the confidentiality, integrity/authenticity, or availability of information or allow
+unauthorized remote control.”
+3. Insecure ecosystem interfaces: - “Insecure web, back end API, cloud, or mobile
+interfaces in the ecosystem outside of the device that allows compromise of the
+device or its related components. Common issues include a lack of authentica
+tion/authorization, lacking or weak encryption, and a lack of input and output
+filtering.”
+4. Lack of ability to securely update the device. - “ This includes lack of firmware
+validation on device [sic], lack of secure delivery (non-encrypted in transit), lack
+of anti-rollback mechanisms, and lack of notifications of security changes due
+to updates.”
+43
+
+
+5. Use of insecure or outdated components: - “Use of deprecated or insecure soft
+ware components/libraries that could allow the device to be compromised. This
+includes insecure customization of operating system platforms, and the use
+of third-party software or hardware components from a compromised supply
+chain.”
+6. User’s personal information misused: - “... stored on the device or in the ecosys
+tem that is used insecurely, improperly, or without permission."
+7. Lack of encryption or access control: - “... of sensitive data anywhere within
+the ecosystem, including at rest, in transit, or during processing.”
+8. Lack of device management: - “Lack of security support on devices deployed in
+production, including asset management, update management, secure decom
+missioning, systems monitoring, and response capabilities.”
+9. Insecure default settings: - “Devices or systems shipped with insecure default
+settings or lack the ability to make the system more secure by restricting oper
+ators from modifying configurations.”
+10. Lack of physical hardening: - “Lack of physical hardening measures, allowing
+potential attackers to gain sensitive information that can help in a future remote
+attack or take local control of the device.”
+Vulnerabilities like these expose IoT solution elements and data to risks of hacking,
+intrusion, and compromise that in the end, could result in losses significantly greater
+than the solution cost; they need to be addressed. Every location and every device in
+each location needs to be assessed and hardened. Nearly every sensor creates a data
+channel that needs to be reviewed as well to find potential weaknesses. This is a big
+topic with many nuances that underlie nearly every other facet of the IoT issues and
+solutions discussed in this paper. The topic needs to be discussed in much greater
+44
+
+
+detail in other papers and won’t be discussed further here. This does not lessen the
+concerns and exposures discussed here.
+Monitoring Operations Activities
+The goal of all monitoring activities is to ensure that all data is flowing as expected
+at all times throughout the universe of IoT solution elements. Monitoring capabilities
+should be incorporated into solutions to inquire, test, confirm, and record in a log
+the status of all monitored elements. Every element should be observed on a regular
+schedule appropriate for the role that element plays in the overall solution. All
+elements in the same role are likely to follow the same schedule. The frequency of
+observation is likely to be a function of several factors like volume, role critically, time
+sensitivity, degree of volatility,potential exposure to loss or error, and the probability
+of risk that such a loss might occur. High volumes of critical time-sensitive data
+may need to be observed every minute, while at the other extreme, low volumes of
+non-critical, low volatility, low risk data might be observed hourly.[11] [14]
+It is easy to imagine that if each of the monitoring observations generated data
+records of their own that such volumes could be very large and could dramatically
+compound the total volume of data produced by a particular IoT solution. For this
+reason, monitoring would better take a "dashboard update" approach to logging.
+With this approach, it is assumed that all is well throughout and it is sufficient to
+simply track the most recent time of observation. So, other than the dashboard
+attributes representing a particular solution element, no new data is generated for
+positive observations.
+However, it is rare that everything runs smoothly all the time; there are usually
+some number of conditions or defects that need further attention and need to be
+documented and tracked until they are resolved. Once discovered, these need to
+be appropriately acted upon per processes prescribed in the category of corrective
+45
+
+
+controls which are described in a later section in this chapter.
+As stated, operations monitoring activities focus on discovering anything within
+the IoT solution that may be considered anomalous or outside stipulated rules and
+specifications. The methods for making such discoveries can sometimes be compli
+cated and may be approached in a variety of ways. This is purposely left to the
+solution designer to determine the best means of making these discoveries.[27] The
+intention here is to suggest the general principles and objectives that might be used
+to pursue such efforts. Examples of activity monitoring actions might include these.
+• All expected data from all expected sources is present for all expected in-service
+times. If there is a break or a gap in a particular data stream, which is it?
+• All data is formatted as expected and complies with the current version of
+validation rules and algorithms. Have current rules and templates been applied
+to correct most data errors and defects coming from sensors? What else may
+need to be looked at for further correction? Such might include:
+– noisy data
+– duplication
+– missing or inaccurate attribute values
+– outliers
+– missing or broken records; records at random; in blocks; observed vs. un
+observed
+– evidence of sensor drift
+– sensor & sensor data fusion errors
+• Reliable file routing. Every solution sensor is the head-water of its own datas
+tream that has a defined destination. At one or more process stops along the
+46
+
+
+way, data records need to be validated, formats need to be checked, and identi
+fied defects fixed. Certain record attributes may be cross-validated with other
+record attributes from other streams passing through the same process stop.
+Many data streams are ultimately merged with others, some early on and oth
+ers further down stream. Each stop is a designated computing venue in the IoT
+datasphere described in an earlier chapter. Low latency, low-moderate volume,
+and low processing demand data streams will most likely be processed in the
+closest computing venue to meet solution requirements. All other data streams
+will be mapped appropriately to computing venues further down stream.[10]
+[12]
+There are three primary control functions here that need to be incorporated.
+1. Planned routing verification. Confirm that each data stream is flowing
+from creation to destination as expected and on time. It is essential to
+know that all is running smoothly. Breaks or gaps in data flows need to
+be identified and investigated. Potential issues or losses may occur if data
+isn’t arriving where it is expected to be when it is expected. For example,
+a data stream from a sensor driving a process control function has a very
+narrow window in which to fuse with data from other nearby sensors, clean
+up the data, derive a collaborative reading, and send those results to an
+actuator that may need to make an adjustment accordingly to the process
+flow. If those results are late, or don’t arrive at all, adjustments may be
+made at the wrong time or not at all. The process batch might be ruined or
+become defective as a result. Events like these need to be localized quickly
+and investigated for resolution, and tracked until normality is restored.
+2. Routing exceptions. Most comprehensive solutions are designed to antic
+ipate the possibility that planned primary data stream routes may fail.
+47
+
+
+Edge or Fog hubs or gateways are inserted at key transfer points to man
+age traffic paths that host the various data streams. When the planned
+routes become inactive, those hubs or gateways select alternate routes for
+the data streams that are affected. These events create routing exceptions
+that need to be tracked, monitored, investigated, and remediated to restore
+the planned routes and move data streams back to them. For example, a
+local wide area network route may fail and be rerouted to a 5G or satellite
+route to bypass the downed primary route.
+The fundamental issue this creates is the abrupt disruption in the data
+streams impacted. They will no longer be present on the downstream legs
+of the primary route, so they will need to be tracked as issues until resolved.
+Notifications are needed to ensure that everyone that needs to, knows that
+these routing exceptions are in effect. New temporary routes need to
+be built and managed dynamically to look for those data streams at the
+hub or gateway at the edge venue of the new route provider which could
+be considerably greater distance away from the next normal computing
+venue that will be looking for those data streams.[22] Once everything
+is reconnected, a synchronization process is needed to reconcile continuity
+issues such as gaps, overlaps, duplications, and corrupted records or blocks
+of records. Events like these can be complicated and require full immediate
+attention until all is back to normal using planned routes. Exposures and
+risks are high in these circumstances that data quality and integrity can
+become corrupted and compromised.
+3. Routing performance metrics. Route planning is a critical operational
+management function for an IoT solution of scale involving multiple sites,
+multiple service providers, and multiple technologies. Most solutions do. A
+solution with 10,000 sensors across 100 US locations will start with about
+48
+
+
+10,000 data streams. Some of those data streams will be processed locally,
+fulfill their purpose and be retired. Others may do the same but also
+forward data to downstream computing venues in the fog, or the edge, or
+on to one or more cloud service providers. Many data streams will be fused
+or merged with others along the way, reducing considerably the number
+of streams that will ultimately be inserted into the solution data stores.
+Data stream routes could interconnect with a variety of technologies and
+services for which the solution will need to keep track.[15]
+How this is accomplished is very much a function of the solution itself
+and the requirements it is designed to meet. What is essential to this
+function is to be able to identify and track data streams that are losing
+data, or processing slower than planned, may be making observations too
+frequently or not often enough, and other conditions that may negatively
+impacting data stream flows, processing performance, route throughput,
+and ultimately data quality and integrity.
+4.2.3 Corrective Controls
+In this discussion of internal controls for IoT solutions, a variety of possible defects, er
+rors, problems, and exceptions [collectively referred to as issues] have been identified.
+Each has potential negative impacts on solution integrity, operations, performance,
+and data quality. The system of detective controls is designed to identify any such
+issues, and where within the solution the issue appears to be occurring. The purpose
+of the system of corrective controls is to establish and follow processes to fix those
+issues. Simply put, corrective controls take in identified issues, characterize and un
+derstand them, determine what is causing them and why(root cause), ascertain where
+they are occurring, develop a plan for fixing them, execute the plan to fix them, and
+confirm that those actions have corrected what was identified.
+49
+
+
+What exactly is the issue? The answer to this question together with the informa
+tion gathered to help support that answer needs to be clearly understood before doing
+anything else. Questions that may need to be considered include: How can it best
+be described? Is this a common issue? How frequently does it occur? When, where,
+and under what conditions did it last occur? Under what conditions has it occurred
+most often? Is there enough information to allow issues with similar characteristics
+to be excluded from further investigation?
+What is the root cause? Finding the root cause(s) behind an issue is fundamental
+to developing a clear understanding of the factors that may be causing it. Particular
+care is needed to distinguish symptoms from causal factors. Discovering the true
+root cause(s) of an issue is a disciplined process seeking answers to questions that are
+driven usually by the known or suspected issue circumstances.
+Where is it occurring? Once the root cause(s) of an issue are understood, other
+locations and/or impact points are investigated to determine where else the issue
+is appearing so that they can also be fixed. Patterns often emerge during earlier
+analysis that may point to like issues, even if they are not showing issues at the time.
+For example, one particular sensor make and model in multiple locations might be
+showing similar issues intermittently over time and the root cause findings suggest
+that each is experiencing the same issue with a threshold limit parameter value in its
+configuration table and needs to be remediated. In another example, the root cause
+findings uncovered multiple related issues from several devices that happen to be
+connected to the same hub. The hub was investigated and found to have an unstable
+network interface card.
+What is the plan for fixing it? Once it is clear what needs to be done to what to fix
+the issue, a change management plan outlining the specific change steps and schedule
+for each device and location. The plan should then be reviewed and approved by all
+impacted stakeholders.
+50
+
+
+Follow the plan to fix it. At the appointed times agreed between operations,
+change managers, other interested stakeholders, the changes are made exactly as out
+lined in the plan in full coordination to minimize operating impacts. Plan steps should
+be included to ensure that all related documentation and metadata are updated to
+reflect the changes made.
+Is the issue fixed? Part of that plan should include for each device and location
+the steps to be taken to confirm that the changes were made correctly and they have
+effectively remediated the identified issues and demonstrate the intended outcomes
+have been achieved.
+51
+
+
+Chapter 5
+Conclusion and Future Work
+The entire concept of the IoT is exciting and will provide fertile ground for innova
+tive new development for at least the decade ahead. Time and creativity over time
+will help spawn evolving ideas about using IoT-supporting sensors to solve important
+problems, find better versions of today’s solutions, and do today’s things in better
+ways, will all drive the creation of a host of new applications and their variant so
+lutions and more data about virtually anything. However, the drive for these new
+benefits cannot come at the risk of compromises and weaknesses in data security,
+personal privacy, organizational intellectual property, and customer information.
+As mentioned several times herein, all this is about data, lots of it. Even now,
+there is so much of it that a substantial portion of what Gartner calls "dark data" never
+goes anywhere or is ever used. Further, data needed for analysis must be discovered
+and extracted from these mountains of potentially redundant and nonessential data.
+A lot of data has a brief, useful life and may need to be extracted and destroyed
+rather than kept. More attention needs to be directed toward where data is created
+and where it needs to be processed or analyzed. Moving large amounts of data long
+distances across the network is expensive, time-consuming, and may block others
+from using the network when needed, particularly when low-latency response and or
+immediate processing is required.
+Navigating the layers of infrastructure supporting the IoT is a big topic with many
+facets that this paper could not adequately discuss. However, it needs to be evaluated
+closely regarding the data crisis that, in many ways, is already upon us.
+52
+
+
+5.1 Thesis Questions and Conclusions
+This thesis aims to discuss the issues surrounding sensor-generated data volumes and
+data quality and find answers to the questions posed in the Introduction. Here then
+are the findings and conclusions to those questions.
+1. Given the increasing magnitude and velocity of sensor-generated data being pro
+duced, transported, and stored, the question must be asked: "is all this data nec
+essary?" No! Not all collected data is necessary, nor does all data need to be
+collected. And not all collected data needs to be kept. There should be a direct
+correlation between the data that is collected, processed, and stored; and the
+specific requirements that require it to enable the creation and ongoing produc
+tion of new value targeted by senior organizational leadership. The literature
+generally agrees that too few organizations have clearly defined what added
+value they seek and the specific data needed to achieve it. Without such clarity
+and focus, the default action then is to, generally, capture all data and try to
+work out the value opportunities later. While this may be a practical approach
+for certain kinds of value exploration, it is categorically not appropriate for all
+situations.
+The academic and trade literature identify this focus of action-to-value concept
+as one of the central facets of sound data governance. But, unfortunately, the
+typical organizational adoption rate is slow and modestly penetrated. Moreover,
+implementation maturity and degree of compliance across most organizations
+are considered low. Consequently, such organizations have not yet reached
+a point where they clearly develop their value propositions and exercise the
+discipline to identify the specific data needed to achieve it.
+So, infrastructure providers continue to expand their capabilities to improve
+their cost-efficiencies in the ways they transport, process, and store all the data
+53
+
+
+their clients choose to generate and retain. And at current and projected rates,
+there are mountains of data to come for the foreseeable future.
+Meanwhile, middleware and application solutions providers are evolving their
+wares to improve their clients’ ability to manage better the data they have and
+the new data they create every day.
+2. How much of this data is actually being used? No one seems to know for
+sure. Estimates in the literature and industry sources vary widely, offering
+little consensus on precise numbers–the data just isn’t tracked or recorded con
+sistently to scale. In 2018, McKinsey analysts estimated that less than 4% of
+sensor-generated data is used, primarily for anomaly detection and control. The
+higher value uses of this data for optimization and prediction is limited and just
+beginning to be explored. Industrial and business-to-business (B2B) applica
+tions appear to offer the greatest opportunities for value creation and growth,
+followed by consumer-focused applications. The scientific data community is
+increasingly adopting the IoT model as a part of its overall data management
+transformation.[23] In so doing, it is expected to use a significantly larger por
+tion of data collected, although small by comparison. Another higher use area is
+the green-field deployment of IoT application solutions in developing economies
+where value-connected data collection and retention is expected to be more
+focused.
+3. What strategies can be applied to materially reduce data volumes and their at
+tendant resource demands and costs? In retrospect, the issue is not simply
+reducing data volumes as much as it is collecting, processing, and retaining
+only data that is of sufficiently high quality that it can be used readily to pro
+duce the value for which it is intended. As discussed previously, the following
+support this premise:
+54
+
+
+• Pragmatically, only data that is needed and is likely to be used to achieve
+a specific purpose should be captured. Incurring all related costs for data
+that isn’t likely to be used wastes time, money, and resources.
+• Data may be deleted or archived appropriately when its purpose has
+passed. However, if it needs to be retained, perhaps it can be done at
+a lower cost.
+• Data may be collected more frequently than needs require. Lowering fre
+quencies produce less data overall and reduce associated costs and resource
+demands accordingly. Of course, the opposite may need to be applied as
+circumstances dictate. If the frequency of observations is insufficient to
+satisfy requirements, they may need to be increased.
+• Data may be useful at multiple levels and needs to be managed accordingly.
+For example, data may be captured and used immediately to represent
+the precise reading of a real-world circumstance and then evaluated by a
+proceeding process as to whether or not a related actuator needs to make
+an indicated adjustment as a result. If this is the only purpose for that
+data, it may not need to be processed further downstream and deleted.
+However, if that data instance also has analytical or predictive value, it
+should be forwarded downstream and retained.
+• In many cases, consecutive data instances may show the same values with
+no appreciable or material differences. There may or may not be merit
+in processing and retaining these instances. In these situations, it might
+be appropriate to drop them or design solutions to summarize these con
+secutive series of inconsequential observation data instances and devise
+methods for retaining and analyzing them.
+4. What data quality challenges are a result of environmental and operational in
+55
+
+
+fluences on sensors supporting IoT? The past two chapters describe the nature
+of sensor issues that can impact data quality in IoT application solutions. In
+their current form of production and availability in the low-end cost range, they
+have limited abilities to operate reliably in harsher environments and cope with
+a wide variety of potential operational influences. However, the author’s re
+search found no recent broad empirical numbers indicating the magnitude of
+such errors on a regular basis. That said, the incidence of these errors tends
+to be circumstantial. The most common sensor-related data issues are outliers,
+followed by missing data, bias, drift, and noise. Less frequent issues include
+constant values, data uncertainties, and stuck-at-zero.
+In addition to their individual functional requirements, application solution
+developers must also anticipate and resolve these errors. Further, the IoT envi
+ronment has a host of security, privacy, and access control challenges that may
+impact data quality and reliability; have not been researched as part of this
+paper. Solution developers must incorporate needed controls and functionality
+to mitigate as many of those challenges as circumstances allow.
+5. What methods can be introduced or expanded upon to improve IoT data quality?
+Data is most useful when it is of sufficiently high quality that it can be trusted
+and is believed to reliably represent the real-world conditions accurately enough
+to satisfy its intended purpose. When the level of data quality falls, so does the
+trust and confidence in the data itself. At some point, it is considered no longer
+useful and is either deleted or ignored. The issue here is that this is (hopefully)
+data with a purpose. When it is deemed unusable, it creates a gap, be it a single
+instance or block(s) of many data instances, and removes observations from the
+data stream that are potentially consequential. While the literature identifies
+various methods that may be applied to compensate for what has been lost, it
+still may not be what was originally observed.
+56
+
+
+As outlined in the previous chapter, the ability to detect potential errors is the
+essential starting point for evaluating and performing appropriate corrective
+actions needed to mitigate, as much as possible, the impacts such errors may
+have on the integrity and reliability of individual sensor data streams. Each
+type of error may lead to a specific course of correction and resolution and may
+differ further depending on the sensor make and model creating the error. Real
+time error detection and correction can be complicated because of the limited
+time window within which such actions can occur. These typically leave little
+time for time-consuming statistical or algorithmic solutions, while data streams
+with no immediate processing demands can benefit significantly by applying
+them.
+In real-time conditions, few options may be available. In these conditions, time
+may only permit the application of basic attribute pattern matches of various
+types to determine if an error may exist. Options may include simply ignor
+ing the erroneous instance(s) or substituting a statistically-derived Proforma
+replacement to satisfy the real-time need. Faulty data instances are usually re
+tained in the data stream so that they may be included in downstream detection
+and correction processes.
+A wide variety of approaches are suggested in the literature for detecting and
+correcting defective/erroneous/anomalous data. Common methods include prin
+cipal component analysis, artificial neural networks, Bayesian networks, Grey
+prediction modeling, benchmark-based calibrations, Kalman filters, signal pro
+cessing and filtering, association rule mining, clustering, k-nearest neighbor, and
+value/mode decomposition. Depending on how they are used, some are more
+suitable for detection, while others may be better for correcting or replacing
+missing data. Even further, some are more suitable for certain types of errors
+or defects, or even specific types or categories of sensors.
+57
+
+
+As described previously, sensors have specific characteristics and purposes. The
+data produced by each sensor make and model are usually distinct in the at
+tributes captured and what values they should contain. Precise detection and
+processing methods can be established and routinely applied to all data streams
+originated by them. Benchmarks and profiles can be derived over time from the
+community of similar sensors helping to improve detection, correction, and data
+quality.
+5.2 Future Work
+Opinions vary broadly about how far things may be in developing and deploying
+sensor-based application solutions. Many would probably agree that applications,
+their assorted solutions, and underlying technologies are emerging from the "Early
+Adoption" stage into the (very) "Early Majority" stage of the Technology Innovation
+Life Cycle, and the low end of the steep "Improving" slope of the Technical Matu
+rity Model with "Maturity" still a long way off. In many ways, IoT technology and
+applications still fall far short of the inflated expectations and hype of the market
+place. The IoT is expanding on an extraordinary and accelerated scale regardless of
+the current state of everything that must be there to achieve its ultimate potential.
+Through this research effort, several key critical success factors were identified that
+will need concerted industry focus to be achieved. These include the following:
+1. Security, access, and privacy protections must be incorporated at all levels of
+every solution and infrastructure element it uses to reach the levels of reliability,
+confidence, and trust that are essential to realizing its full intended value and
+innovative potential. There are far too many serious weaknesses and vulnerabil
+ities today across all of the actors engaged in the development, deployment, and
+operation of any given solution and are collectively negligibly "seamless." The
+entire burden currently lies on the shoulders of solution providers and develop
+58
+
+
+ers to mitigate whatever they can or so choose. They will carry this burden,
+expense, and liabilities until something much more broadly functional is avail
+able that they can use. Industry remedies need to be implemented as widely
+as possible using universal standards that all can adopt and support. IoT in
+frastructure and solution security and privacy weaknesses are critical problems
+and must be fixed. And it will take an enormous amount of effort over time to
+get there. All other observations that follow are predicated on the presumption
+that this must and will happen and will not mention it further.
+2. One of the underlying visions of the IoT is dynamic machine-to-machine(M2M)
+interoperability, the notion that each device is independent, self-managing, and
+self-determining.[20] Each would seek out other devices and determine which
+it should establish relationships with and which routes it should use to get its
+data to where it needs to be. Such interoperability has been on the horizon for
+many years, and many now see the IoT as a primary vehicle of innovation for
+making it a reality. Others believe, however, that too much development and
+deployment has been done "today’s way" to make this even marginally possible
+over the next several years. Moreover, there have been virtually no industry
+wide efforts to standardize the essential transport, processing, and data hygiene
+functionality and protocols that will be needed to enable even "baby steps" in
+the direction of this lofty objective.
+3. IoT connectivity is problematic today and represents solution-impacting limi
+tations and challenges. Inconsistencies in coverage, bandwidth, and quality of
+service (measuring throughput and error rates) across a given solution service
+area make it difficult to ensure that data reliably gets to its designated des
+tination. For example, selected solution elements targeted for certain wireless
+services can’t be supported in some areas because the needed wireless service
+59
+
+
+is not offered. As a result, some other form of connectivity may be required.
+In some cases, it may be through an alternate provider. If data streams are in
+tended for the primary provider’s Edge data centers, alterations may be needed
+to accommodate differences between the two provider Edge service offerings. A
+bridge between the participating Edge centers will need to be built to facilitate
+data stream controls and flows.[10] If the alternate provider can only provide
+lesser service levels, then error rates may be higher, latency may be higher, etc.,
+adversely impacting data quality and solution performance. Several examples
+of related problems will need further research and resolution if the IoT is to
+become what it needs to and can be. Each variant adds complexity and added
+effort to make it all work.[15]
+4. Every device that has a role in the ongoing operation of an IoT solution needs
+to be known and managed under a system of solution controls for various im
+portant reasons. Each device is an asset that must be tracked and managed
+according to rules and processes applied to all other assets. Management fea
+tures include applicable periodic maintenance and calibration, software version
+control, physical location tracking, role assignment metadata updates, ongoing
+performance metrics and service issues, support organization contact details,
+other devices that it talks to, and the like. If it exists at all, the extent of this
+functionality is a function of how the solution using it was designed. Establish
+ing and maintaining this level of control is essential for operational reliability
+and service management that begins to get very complicated when more of these
+devices are shared by multiple solutions touched by multiple solution service
+providers. The maturity and functionality of service management operations
+capabilities will become a much bigger issue as industry providers, and solution
+support organizations begin to drive towards ubiquitous M2M interoperabil
+ity. A universal service-layer offering will be the essential foundation through
+60
+
+
+which all solutions can manage what will become a very dynamic infrastructure
+landscape.[19]
+For example, a local hub supporting multiple wired sensors loses its connection
+to a downstream Fog device. The hub searches for possible routes that will re
+store its path to nodes further downstream. An alternate path is found through
+a 5G wireless connection through the provider’s Edge data center to the closest
+node in the original data path. All this will need to occur dynamically and
+automatically and will need to update all impacted device metadata and con
+trol processes. All stakeholders of all devices and impacted solution elements
+will need to see what they are authorized to see and continue monitoring and
+managing activities with the dynamic change forward.
+5. As described in the previous chapter, each data stream needs to be managed
+as it flows from its point of origination to its intended destination. A system
+of controls needs to be incorporated into solutions to monitor and track each
+data stream along its current path. Such controls ensure that all data from
+all sources are present and accounted for and that variances that occur along
+the way are adequately documented.[11] In most of today’s solutions, material
+changes in devices, their status, and data paths are managed manually, some
+better than others. Every break or change in a datastream’s path or flow must
+be handled as smoothly as possible to minimize potential data loss or error.
+Changes impacting low-latency data flows can break operational integrity if the
+latency in the new path rises above critical latency thresholds. These processes
+will also become much more complicated as device management becomes more
+dynamic, as previously just described.[12]
+As in the previous example, changes in device status and connectivity also
+impact datastream monitoring and control processes. Changes in datastream
+61
+
+
+paths will need to be instantly and dynamically logged to minimize the disrup
+tion of visibility to the flow and processing of the impacted data along its new
+course. Similarly, there will be a need for a universal datastream flow control
+layer that can provide all authorized stakeholders the access and control capa
+bilities they will need to manage what they are allowed to do. Building such
+a capability will take a major commitment of providers, developers, and other
+stakeholders to develop the standards, protocols, and tools needed to make all
+this possible.[13]
+6. And last but not least, cost-sensitive sensor evolution and innovation need to
+proceed forward as rapidly as possible. Critical to this effort is developing de
+signs that bring increasing memory, computing, storage, and data flow control
+on-board the sensor package or be readily adjacent. Incorporated into resident
+capabilities should be self-diagnostic and error-detection functionality to pre
+clude the need for downstream evaluation, particularly in real-time, low-latency
+situations. In addition, self-healing and recalibration, and the reporting of sus
+pected issues that be picked up downstream by monitoring processes. Finally,
+device access security provisions need to be added and made manageable.
+Sensor fusion management capabilities need to be added and expanded to facil
+itate the interconnection and fusion of data originating from adjacent content
+and context-related sensors. As sensors evolve to manage more of these func
+tions at internal low-latency speeds, responsibility for similar solution function
+ality can be taken off the shoulders of solution developers. Advancing func
+tionality and capabilities aimed at improving data quality will challenge sensor
+design engineers to innovate in ways that keep sensor costs as low as possible.
+62
+
+
+5.3 Epilogue
+IoT solutions are complicated with many moving parts. Some solutions span multi
+ple geographic areas with large numbers of many different kinds of sensors tasked to
+function in widely-varied operating environments using locally-available infrastruc
+ture service options and providers. As long as developers must cobble together solu
+tions consisting of so many unique moving parts from multiple vendors and providers,
+the task of developing world-class, high-reliability solutions yielding consistently high
+data quality will demand an increasingly broad palette of skills, patience, money,
+time, and most importantly, senior leadership support. Until the industry can suc
+cessfully develop and deploy standards, protocols, and enabling tools for common
+cross-platform services, today’s problems will continue to expand and become more
+challenging to manage. The volume and velocity of device and data growth into the
+foreseeable future may ultimately cripple or collapse, sooner than anticipated, solu
+tions being deployed today. New approaches will be needed that is entirely woven
+together with industrial-strength, bullet-proof, security, and privacy protections. All
+manner of participating stakeholders will need to collaborate heavily to define and
+implement the required standards and capabilities– much sooner than later!
+63
+
+
+Bibliography
+[1] “A Survey on Internet of Things (IoT) based Smart Systems,” December 2020,
+vol. 2, no. 4, 2020. doi: 10.36548/jismac.2020.4.001. [Online]. Available:
+https://scite.ai/reports/a-survey-on-internet-of-RVEPLL0D (visited
+on 11/25/2021).
+[2] A. Abrardo, M. Barni, K. Kallas, and B. Tondi, Information Fusion in Dis
+tributed Sensor Networks with Byzantines, ser. Signals and Communication
+Technology. Singapore: Springer Singapore, 2021, isbn: 978-981-329-000-6 978
+981-329-001-3. doi: 10 . 1007 / 978 - 981 - 32 - 9001 - 3. [Online]. Available:
+http : / / link . springer . com / 10 . 1007 / 978 - 981 - 32 - 9001 - 3 (visited on
+11/05/2021).
+[3] M. Abu-Elkheir, M. Hayajneh, and N. Ali, “Data Management for the Internet
+of Things: Design Primitives and Solution,” Sensors, vol. 13, no. 11, pp. 15 582
+15 612, Nov. 14, 2013, issn: 1424-8220. doi: 10.3390/s131115582. [Online].
+Available: http : / / www . mdpi . com / 1424 - 8220 / 13 / 11 / 15582 (visited on
+11/05/2021).
+[4] D. Adhikari, W. Jiang, and J. Zhan, “Imputation using information fusion
+technique for sensor generated incomplete data with high missing gap,” Micro
+processors and Microsystems, p. 103 636, 2021.
+[5] C. C. Aggarwal, N. Ashish, and A. Sheth, “The Internet of Things: A Survey
+from the Data-Centric Perspective,” in Managing and Mining Sensor Data,
+C. C. Aggarwal, Ed., Boston, MA: Springer US, 2013, pp. 383–428, isbn: 978
+1-4614-6308-5 978-1-4614-6309-2. doi: 10 . 1007 / 978 - 1 - 4614 - 6309 - 2 _ 12.
+64
+
+
+[Online]. Available: http : / / link . springer . com / 10 . 1007 / 978 - 1 - 4614 
+6309-2_12 (visited on 12/10/2021).
+[6] I. Akyildiz and J. Jornet, “The Internet of nano-things,” IEEE Wireless Com
+munications, vol. 17, no. 6, pp. 58–63, Dec. 2010, issn: 1536-1284. doi: 10.
+1109/MWC.2010.5675779. [Online]. Available: http://ieeexplore.ieee.org/
+document/5675779/ (visited on 11/05/2021).
+[7] T. Alcañiz, A. González-Vidal, A. P. Ramallo, and A. F. Skarmeta, Qual
+ity of Information within Internet of Things Data. IntechOpen, Feb. 9, 2021,
+isbn: 978-1-83968-799-0. doi: 10.5772/intechopen.95844. [Online]. Available:
+https://www.intechopen.com/chapters/75158 (visited on 10/22/2021).
+[8] B. M. Alencar, R. A. Rios, C. Santana, and C. Prazeres, “FoT-Stream: A
+Fog platform for data stream analytics in IoT,” Computer Communications,
+vol. 164, pp. 77–87, Dec. 2020, issn: 01403664. doi: 10.1016/j.comcom.2020.
+10.001. [Online]. Available: https://linkinghub.elsevier.com/retrieve/
+pii/S014036642031940X (visited on 11/05/2021).
+[9] M. Ashouri, P. Davidsson, and R. Spalazzese, “Quality attributes in edge com
+puting for the Internet of Things: A systematic mapping study,” Internet of
+Things, vol. 13, p. 100 346, Mar. 2021, issn: 25426605. doi: 10 . 1016 / j .
+iot.2020.100346. [Online]. Available: https://linkinghub.elsevier.com/
+retrieve/pii/S2542660520301773 (visited on 11/05/2021).
+[10] M. Assuncao, A. Veith, and R. Buyya, “Distributed Data Stream Processing
+and Edge Computing: A Survey on Resource Elasticity and Future Directions,”
+Journal of Network and Computer Applications, vol. 103, Dec. 1, 2017. doi:
+10.1016/j.jnca.2017.12.001.
+[11] A. Auger, E. Exposito, and E. Lochin, “Survey on Quality of Observation within
+Sensor Web systems,” IET Wireless Sensor Systems, vol. 7, no. 6, pp. 163–177,
+65
+
+
+2017, issn: 2043-6394. doi: 10.1049/iet-wss.2017.0008. [Online]. Available:
+https://onlinelibrary.wiley.com/doi/abs/10.1049/iet-wss.2017.0008
+(visited on 11/25/2021).
+[12] K. Bajaj, B. Sharma, and R. Singh, “Implementation analysis of IoT-based
+offloading frameworks on cloud/edge computing for sensor generated big data,”
+Complex & Intelligent Systems, Jun. 19, 2021, issn: 2198-6053. doi: 10.1007/
+s40747 - 021 - 00434 - 6. [Online]. Available: https : / / doi . org / 10 . 1007 /
+s40747-021-00434-6 (visited on 12/11/2021).
+[13] S. Balakrishna and M. Thirumaran, “Semantics and Clustering Techniques for
+IoT Sensor Data Analysis: A Comprehensive Survey,” in Principles of Internet
+of Things (IoT) Ecosystem: Insight Paradigm, S.-L. Peng, S. Pal, and L. Huang,
+Eds., Cham: Springer International Publishing, 2020, pp. 103–125, isbn: 978
+3-030-33596-0. doi: 10 . 1007 / 978 - 3 - 030 - 33596 - 0 _ 4. [Online]. Available:
+https://doi.org/10.1007/978-3-030-33596-0_4.
+[14] S. Balakrishna, M. Thirumaran, and V. Solanki, “A Framework for IoT Sensor
+Data Acquisition and Analysis,” EAI Endorsed Transactions on Internet of
+Things, vol. "4", no. 16, Oct. 31, 2018, issn: 2414-1399. [Online]. Available:
+https : / / eudl . eu / doi / 10 . 4108 / eai . 21 - 12 - 2018 . 159410 (visited on
+12/10/2021).
+[15] A. Bröring, J. Echterhoff, S. Jirka, I. Simonis, T. Everding, C. Stasch, S. Liang,
+and R. Lemmens, “New Generation Sensor Web Enablement,” Sensors, vol. 11,
+no. 3, pp. 2652–2699, Mar. 1, 2011, issn: 1424-8220. doi: 10.3390/s110302652.
+[Online]. Available: http://www.mdpi.com/1424-8220/11/3/2652 (visited on
+11/05/2021).
+[16] M. Bures, X. Bellekens, K. Frajtak, and B. S. Ahmed. (Dec. 23, 2018). “A Com
+prehensive View on Quality Characteristics of the IoT Solutions.” Comment:
+66
+
+
+Paper accepted at Urb-IoT 2018 - 3rd EAI International Conference on IoT in
+Urban Space. November 21-23, 2018, Guimares, Portugal. http://urbaniot.org/full
+program/. arXiv: 1812.09683 [cs], [Online]. Available: http://arxiv.org/
+abs/1812.09683 (visited on 11/05/2021).
+[17] J. Byabazaire, G. O’Hare, and D. Delaney, “Data Quality and Trust : A Percep
+tion from Shared Data in IoT,” in 2020 IEEE International Conference on Com
+munications Workshops (ICC Workshops), Dublin, Ireland: IEEE, Jun. 2020,
+pp. 1–6, isbn: 978-1-72817-440-2. doi: 10.1109/ICCWorkshops49005.2020.
+9145071. [Online]. Available: https : / / ieeexplore . ieee . org / document /
+9145071/ (visited on 11/05/2021).
+[18] L. Cai and Y. Zhu, “The Challenges of Data Quality and Data Quality Assess
+ment in the Big Data Era,” Data Science Journal, vol. 14, no. 0, p. 2, May 22,
+2015, issn: 1683-1470. doi: 10.5334/dsj-2015-002. [Online]. Available: http:
+//datascience.codata.org/article/10.5334/dsj-2015-002/ (visited on
+12/17/2021).
+[19] F. Castro-Jul, R. P. Díaz-Redondo, A. Fernández-Vilas, S. Chabridon, and D.
+Conan, “Fog Architectures and Sensor Location Certification in Distributed
+Event-Based Systems,” Sensors (Basel, Switzerland), vol. 19, no. 1, p. 104,
+Dec. 29, 2018, issn: 1424-8220. doi: 10 . 3390 / s19010104. pmid: 30597987.
+[Online]. Available: https : / / www . ncbi . nlm . nih . gov / pmc / articles /
+PMC6339226/ (visited on 09/01/2021).
+[20] K.-C. Chen and S.-Y. Lien, “Machine-to-machine communications: Technolo
+gies and challenges,” Ad Hoc Networks, vol. 18, pp. 3–23, Jul. 2014, issn:
+15708705. doi: 10.1016/j.adhoc.2013.03.007. [Online]. Available: https:
+//linkinghub.elsevier.com/retrieve/pii/S1570870513000395 (visited on
+11/05/2021).
+67
+
+
+[21] (). “Companies Collect a Lot of Data, But How Much Do They Actually Use?”
+Priceonomics, [Online]. Available: https://priceonomics.com/companies
+collect-a-lot-of-data-but-how-much-do/ (visited on 12/14/2021).
+[22] R. Dębski and R. Dreżewski, “Adaptive Segmentation of Streaming Sensor Data
+on Edge Devices,” Sensors, vol. 21, no. 20, p. 6884, Oct. 17, 2021, issn: 1424
+8220. doi: 10.3390/s21206884. [Online]. Available: https://www.mdpi.com/
+1424-8220/21/20/6884 (visited on 12/17/2021).
+[23] Y. Demchenko, P. Grosso, C. de Laat, and P. Membrey, “Addressing big data is
+sues in Scientific Data Infrastructure,” in 2013 International Conference on Col
+laboration Technologies and Systems (CTS), San Diego, CA, USA: IEEE, May
+2013, pp. 48–55, isbn: 978-1-4673-6404-1 978-1-4673-6403-4 978-1-4673-6402-7.
+doi: 10.1109/CTS.2013.6567203. [Online]. Available: http://ieeexplore.
+ieee.org/document/6567203/ (visited on 12/17/2021).
+[24] “Detecting Sensor Faults, Anomalies and Outliers in the Internet of Things:
+A Survey on the Challenges and Solutions,” Electronics, vol. 9, no. 3, 2020.
+doi: 10.3390/electronics9030511. [Online]. Available: https://scite.ai/
+reports/detecting-sensor-faults-anomalies-and-RVYpjp34 (visited on
+11/25/2021).
+[25] M. Dzaferagic, N. Marchetti, and I. Macaluso, “Fault detection and classifica
+tion in industrial iot in case of missing sensor data,” 2021.
+[26] M. Eid, R. Liscano, and A. el Saddik, “A Universal Ontology for Sensor Net
+works Data,” in 2007 IEEE International Conference on Computational Intel
+ligence for Measurement Systems and Applications, Ostuni, Italy: IEEE, Jun.
+2007, pp. 59–62, isbn: 978-1-4244-0823-8 978-1-4244-0824-5. doi: 10 . 1109 /
+CIMSA.2007.4362539. [Online]. Available: http://ieeexplore.ieee.org/
+document/4362539/ (visited on 10/09/2021).
+68
+
+
+[27] N. J. G. Falkner and Q. Z. Sheng, “Significance-Based Failure and Interfer
+ence Detection in Data Streams,” in Database and Expert Systems Applications,
+ser. Lecture Notes in Computer Science, S. S. Bhowmick, J. Küng, and R.
+Wagner, Eds., vol. 5690, Berlin, Heidelberg: Springer Berlin Heidelberg, 2009,
+pp. 645–659, isbn: 978-3-642-03572-2 978-3-642-03573-9. doi: 10.1007/978
+3- 642- 03573- 9_54. [Online]. Available: http://link.springer.com/10.
+1007/978-3-642-03573-9_54 (visited on 11/05/2021).
+[28] V. C. Farias da Costa, L. Oliveira, and J. de Souza, “Internet of Everything
+(IoE) Taxonomies: A Survey and a Novel Knowledge-Based Taxonomy,” Sen
+sors, vol. 21, no. 2, p. 568, Jan. 14, 2021, issn: 1424-8220. doi: 10 . 3390 /
+s21020568. [Online]. Available: https://www.mdpi.com/1424-8220/21/2/568
+(visited on 11/05/2021).
+[29] M. M. Gaber, S. Krishnaswamy, and A. Zaslavsky, “Cost-Efficient Mining Tech
+niques for Data Streams,” p. 6,
+[30] ——, “Resource-aware Mining of Data Streams,” p. 14,
+[31] M. M. Gaber, A. Zaslavsky, and S. Krishnaswamy, “Mining data streams: A
+review,” ACM SIGMOD Record, vol. 34, no. 2, pp. 18–26, Jun. 2005, issn: 0163
+5808. doi: 10.1145/1083784.1083789. [Online]. Available: https://dl.acm.
+org/doi/10.1145/1083784.1083789 (visited on 11/05/2021).
+[32] M. Gabr, Y. helmy, and D. Elzanfaly, “Data Quality Dimensions, Metrics, and
+Improvement Techniques,” Future Computing and Informatics Journal, vol. 6,
+no. 1, Jul. 11, 2021, issn: Printed 2314-7288 Online 2314-7296. [Online]. Avail
+able: https://digitalcommons.aaru.edu.jo/fcij/vol6/iss1/3.
+[33] V. N. Gudivada, A. Apon, and J. Ding, “Data Quality Considerations for Big
+Data and Machine Learning: Going Beyond Data Cleaning and Transforma
+tions,” p. 21,
+69
+
+
+[34] A. Haroon, M. Ali, Y. Asim, W. Naeem, M. Kamran, and Q. Javaid, “Con
+straints in the IoT: The World in 2020 and Beyond,” International Journal
+of Advanced Computer Science and Applications, vol. 7, no. 11, 2016, issn:
+2156-5570. [Online]. Available: https : / / www . academia . edu / 33329081 /
+Constraints _ in _ the _ IoT _ The _ World _ in _ 2020 _ and _ Beyond (visited on
+12/13/2021).
+[35] (). “How Does IoT Affect Big Data? » Iota Communications, Inc.,” Iota Com
+munications, Inc., [Online]. Available: https : / / www . iotacommunications .
+com/blog/iot-big-data/ (visited on 12/14/2021).
+[36] (). “Industrial IoT generates real value–if businesses overcome six myths |
+McKinsey,” [Online]. Available: https : / / www . mckinsey . com / business 
+functions/operations/our- insights/industrial- iot- generates- real
+value-if-businesses-overcome-six-myths (visited on 12/06/2021).
+[37] (). “IoT and Big Data: Challenges and Applications,” [Online]. Available: https:
+//www.scnsoft.com/blog/iot-big-data (visited on 12/06/2021).
+[38] Janna, Erson, and L. Rainie. (Jul. 20, 2012). “Main Findings: Influence of
+Big Data in 2020,” Pew Research Center: Internet, Science & Tech, [Online].
+Available: https://www.pewresearch.org/internet/2012/07/20/main
+findings-influence-of-big-data-in-2020/ (visited on 12/14/2021).
+[39] H. Jawad, R. Nordin, S. Gharghan, A. Jawad, and M. Ismail, “Energy-Efficient
+Wireless Sensor Networks for Precision Agriculture: A Review,” Sensors, vol. 17,
+no. 8, p. 1781, Aug. 3, 2017, issn: 1424-8220. doi: 10.3390/s17081781. [On
+line]. Available: http://www.mdpi.com/1424- 8220/17/8/1781 (visited on
+11/05/2021).
+[40] S. Kaisler, F. Armour, J. A. Espinosa, and W. Money, “Big Data: Issues and
+Challenges Moving Forward,” in 2013 46th Hawaii International Conference on
+70
+
+
+System Sciences, Wailea, HI, USA: IEEE, Jan. 2013, pp. 995–1004, isbn: 978
+1-4673-5933-7 978-0-7695-4892-0. doi: 10 . 1109 / HICSS . 2013 . 645. [Online].
+Available: http : / / ieeexplore . ieee . org / document / 6479953/ (visited on
+12/18/2021).
+[41] A. Karkouch, H. Mousannif, H. Al Moatassime, and T. Noel, “Data quality in
+internet of things: A state-of-the-art survey,” Journal of Network and Computer
+Applications, vol. 73, pp. 57–81, Sep. 2016, issn: 10848045. doi: 10.1016/j.
+jnca.2016.08.002. [Online]. Available: https://linkinghub.elsevier.com/
+retrieve/pii/S1084804516301564 (visited on 11/05/2021).
+[42] N. Khan, I. Yaqoob, I. A. T. Hashem, Z. Inayat, W. K. Mahmoud Ali, M.
+Alam, M. Shiraz, and A. Gani, “Big Data: Survey, Technologies, Opportunities,
+and Challenges,” The Scientific World Journal, vol. 2014, pp. 1–18, 2014, issn:
+2356-6140, 1537-744X. doi: 10.1155/2014/712826. [Online]. Available: http:
+//www.hindawi.com/journals/tswj/2014/712826/ (visited on 11/05/2021).
+[43] R. Krishnamurthi, A. Kumar, D. Gopinathan, A. Nayyar, and B. Qureshi, “An
+Overview of IoT Sensor Data Processing, Fusion, and Analysis Techniques,”
+Sensors, vol. 20, no. 21, p. 6076, Oct. 26, 2020, issn: 1424-8220. doi: 10.3390/
+s20216076. [Online]. Available: https://www.mdpi.com/1424-8220/20/21/
+6076 (visited on 11/05/2021).
+[44] D. Laney et al., “3d data management: Controlling data volume, velocity and
+variety,” META group research note, vol. 6, no. 70, p. 1, 2001.
+[45] C. Liu, P. Nitschke, S. P. Williams, and D. Zowghi, “Data quality and the
+Internet of Things,” Computing, vol. 102, no. 2, pp. 573–599, Feb. 1, 2020,
+issn: 1436-5057. doi: 10 . 1007 / s00607 - 019 - 00746 - z. [Online]. Available:
+https://doi.org/10.1007/s00607-019-00746-z (visited on 12/11/2021).
+71
+
+
+[46] Y. Liu, T. S. Dillon, W. Yu, W. Rahayu, and F. Mostafa, “Noise removal in
+the presence of significant anomalies for industrial iot sensor data in manufac
+turing,” IEEE Internet of Things Journal, vol. 7, pp. 7084–7096, 2020.
+[47] T. Mansouri, M. R. S. Moghadam, F. Monshizadeh, and A. Zareravasan, “IoT
+Data Quality Issues and Potential Solutions: A Literature Review,” p. 15,
+[48] T. Nagle, T. C. Redman, and D. Sammon, “Only 3% of Companies’ Data Meets
+Basic Quality Standards,” Harvard Business Review, Sep. 11, 2017, issn: 0017
+8012. [Online]. Available: https://hbr.org/2017/09/only-3-of-companies
+data-meets-basic-quality-standards (visited on 10/10/2021).
+[49] N. U. Okafor, Y. Alghorani, and D. T. Delaney, “Improving Data Quality of
+Low-cost IoT Sensors in Environmental Monitoring Networks Using Data Fu
+sion and Machine Learning Approach,” ICT Express, vol. 6, no. 3, pp. 220–228,
+Sep. 2020, issn: 24059595. doi: 10.1016/j.icte.2020.06.004. [Online]. Avail
+able: https://linkinghub.elsevier.com/retrieve/pii/S2405959520300862
+(visited on 11/05/2021).
+[50] R. Perez-Castillo, A. Carretero, I. Caballero, M. Rodriguez, M. Piattini, A.
+Mate, S. Kim, and D. Lee, “DAQUA-MASS: An ISO 8000-61 Based Data Qual
+ity Management Methodology for Sensor Data,” Sensors, vol. 18, no. 9, p. 3105,
+Sep. 14, 2018, issn: 1424-8220. doi: 10.3390/s18093105. [Online]. Available:
+http://www.mdpi.com/1424-8220/18/9/3105 (visited on 11/05/2021).
+[51] (). “Predictably inaccurate: The prevalence and perils of bad big data,” Deloitte
+Insights, [Online]. Available: https://www2.deloitte.com/us/en/insights/
+deloitte- review/issue- 21/analytics- bad- data- quality.html (visited
+on 12/14/2021).
+[52] A. Ramasamy and S. Chowdhury, “Big Data Quality Dimensions: A Systematic
+Literature Review,” Journal of Information Systems and Technology Manage
+72
+
+
+ment, vol. 17, no. 0, 0 May 20, 2020, issn: 1807-1775. doi: 10.4301/S1807
+1775202017003. [Online]. Available: http://www.jistem.tecsi.org/index.
+php/jistem/article/view/3126 (visited on 12/17/2021).
+[53] Z. A. Al-Sai, R. Abdullah, and M. H. Husin, “Critical Success Factors for
+Big Data: A Systematic Literature Review,” IEEE Access, vol. 8, pp. 118 940
+118 956, 2020, issn: 2169-3536. doi: 10.1109/ACCESS.2020.3005461.
+[54] F. I. Salih, S. A. Ismail, M. M. Hamed, O. Mohd Yusop, A. Azmi, and N. F.
+Mohd Azmi, “Data Quality Issues in Big Data: A Review,” in Recent Trends
+in Data Science and Soft Computing, F. Saeed, N. Gazem, F. Mohammed, and
+A. Busalim, Eds., ser. Advances in Intelligent Systems and Computing, Cham:
+Springer International Publishing, 2019, pp. 105–116, isbn: 978-3-319-99007-1.
+doi: 10.1007/978-3-319-99007-1_11.
+[55] N. Sambasivan, S. Kapania, H. Highfill, D. Akrong, P. Paritosh, and L. M.
+Aroyo, “
+Everyone wants to do the model work, not the data work”: Data Cascades in
+High-Stakes AI,” in Proceedings of the 2021 CHI Conference on Human Fac
+tors in Computing Systems, Yokohama Japan: ACM, May 6, 2021, pp. 1–15,
+isbn: 978-1-4503-8096-6. doi: 10 . 1145 / 3411764 . 3445518. [Online]. Avail
+able: https : / / dl . acm . org / doi / 10 . 1145 / 3411764 . 3445518 (visited on
+11/05/2021).
+[56] A. Sheth, C. Henson, and S. S. Sahoo, “Semantic Sensor Web,” IEEE Internet
+Computing, vol. 12, no. 4, pp. 78–83, Jul. 2008, issn: 1089-7801. doi: 10.1109/
+MIC.2008.87. [Online]. Available: http://ieeexplore.ieee.org/document/
+4557983/ (visited on 11/05/2021).
+[57] R. R. Sreenivasan, “Characteristics of Big Data – A Delphi study,” p. 100,
+73
+
+
+[58] D. Staegemann, M. Volk, A. Saxena, M. Pohl, A. Nahhas, R. Häusler, M. Abdal
+lah, S. Bosse, N. Jamous, and K. Turowski, “Challenges in Data Acquisition and
+Management in Big Data Environments:” in Proceedings of the 6th International
+Conference on Internet of Things, Big Data and Security, Online Streaming,
+— Select a Country —: SCITEPRESS - Science and Technology Publications,
+2021, pp. 193–204, isbn: 978-989-758-504-3. doi: 10.5220/0010429001930204.
+[Online]. Available: https://www.scitepress.org/DigitalLibrary/Link.
+aspx?doi=10.5220/0010429001930204 (visited on 12/17/2021).
+[59] I. Taleb, M. A. Serhani, C. Bouhaddioui, and R. Dssouli, “Big data quality
+framework: A holistic approach to continuous quality management,” Journal
+of Big Data, vol. 8, no. 1, p. 76, Dec. 2021, issn: 2196-1115. doi: 10.1186/
+s40537 - 021 - 00468 - 0. [Online]. Available: https : / / journalofbigdata .
+springeropen . com / articles / 10 . 1186 / s40537 - 021 - 00468 - 0 (visited on
+12/17/2021).
+[60] Y. K. Tan and S. K. Panda, “Review of Energy Harvesting Technologies for
+Sustainable Wireless Sensor Network,” Sustainable Wireless Sensor Networks,
+p. 31,
+[61] H. Y. Teh, A. W. Kempa-Liehr, and K. I.-K. Wang, “Sensor data quality: A
+systematic review,” Journal of Big Data, vol. 7, no. 1, p. 11, Feb. 11, 2020,
+issn: 2196-1115. doi: 10 . 1186 / s40537 - 020 - 0285 - 1. [Online]. Available:
+https://doi.org/10.1186/s40537-020-0285-1 (visited on 12/11/2021).
+[62] I. Ullah and H. Y. Youn, “Intelligent Data Fusion for Smart IoT Environment:
+A Survey,” Wireless Personal Communications, vol. 114, no. 1, pp. 409–430,
+Sep. 2020, issn: 0929-6212, 1572-834X. doi: 10.1007/s11277-020-07369-0.
+[Online]. Available: https :/ / link. springer .com / 10. 1007 /s11277 - 020 
+07369-0 (visited on 11/13/2021).
+74
+
+
+[63] A. Varshney, N. Garg, K. S. Nagla, T. S. Nair, S. K. Jaiswal, S. Yadav, and
+D. K. Aswal, “Challenges in Sensors Technology for Industry 4.0 for Futuristic
+Metrological Applications,” MAPAN, vol. 36, no. 2, pp. 215–226, Jun. 1, 2021,
+issn: 0974-9853. doi: 10 . 1007 / s12647 - 021 - 00453 - 1. [Online]. Available:
+https://doi.org/10.1007/s12647-021-00453-1 (visited on 10/08/2021).
+[64] X. Wang, “Improving and understanding data quality in large-scale data sys
+tems,” University of Massachusetts Amherst. doi: 10.7275/12926893. [Online].
+Available: https://scholarworks.umass.edu/dissertations_2/1530 (vis
+ited on 11/05/2021).
+[65] Y. Yang, H. Yang, and Y. Fan, “Networked sensor data error estimation,” Trans
+portation Research Part B: Methodological, vol. 122, pp. 20–39, 2019.
+[66] L. Zhang, D. Jeong, and S. Lee, “Data Quality Management in the Internet
+of Things,” Sensors, vol. 21, no. 17, p. 5834, Aug. 30, 2021, issn: 1424-8220.
+doi: 10.3390/s21175834. [Online]. Available: https://www.mdpi.com/1424
+8220/21/17/5834 (visited on 12/18/2021).
+[67] N. Zubair, N. A, K. Hebbar, and Y. Simmhan. (Jun. 23, 2019). “Characteriz
+ing IoT Data and its Quality for Use.” Comment: Tech Report on IoT Data
+and its Quality in light of various applications reviewed. arXiv: 1906.10497
+[cs], [Online]. Available: http://arxiv.org/abs/1906.10497 (visited on
+11/05/2021).
+75

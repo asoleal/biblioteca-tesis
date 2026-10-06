@@ -1,0 +1,187 @@
+Climate Change 2014
+Mitigation of Climate Change
+Working Group III Contribution to the
+Fifth Assessment Report of the
+Intergovernmental Panel on Climate Change
+Edited by
+Ottmar Edenhofer
+Working Group III Co-Chair Potsdam Institute for Climate Impact Research
+Ramón Pichs-Madruga Working Group III Co-Chair Centro de Investigaciones de la Economía Mundial
+Youba Sokona
+Working Group III Co-Chair South Centre
+Jan C. Minx Head of TSU
+Ellie Farahani
+Head of Operations
+Susanne Kadner Head of Science
+Kristin Seyboth
+Deputy Head of Science
+Anna Adler Team Assistant
+Ina Baum Project Officer
+Steffen Brunner Senior Economist
+Patrick Eickemeier Scientific Editor
+Benjamin Kriemann IT Officer
+Jussi Savolainen Web Manager
+Steffen Schlömer Scientist
+Christoph von Stechow Scientist
+Timm Zwickel Senior Scientist
+Working Group III Technical Support Unit
+
+
+Cambridge University Press 32 Avenue of the Americas, New York, NY 10013-2473, USA
+Cambridge University Press is part of the University of Cambridge.
+It furthers the University’s mission by disseminating knowledge in the pursuit of education, learning and research at the highest international levels of excellence.
+www.cambridge.org
+Information on this title: www.cambridge.org / 9781107654815
+© Intergovernmental Panel on Climate Change 2014
+This publication is in copyright. Subject to statutory exception and to the provisions of relevant collective licensing agreements, no reproduction of any part may take place without the written permission of Cambridge University Press.
+First published 2014
+Printed in the United States of America
+A catalog record for this publication is available from the British Libary. ISBN 978-1-107-05821-7 hardback ISBN 978-1-107-65481-5 paperback
+Cambridge University Press has no responsibility for the persistence or accuracy of URLs for external or third-party Internet Web sites referred to in this publication and does not guarantee that any content on such Web sites is, or will remain, accurate or appropriate.
+Please use the following reference to the whole report:
+IPCC, 2014: Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment
+Report of the Intergovernmental Panel on Climate Change [Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner, P. Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel and J.C. Minx (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.
+Cover photo: Shanghai, China, aerial view © Ocean/Corbis
+
+
+Foreword, Preface,
+Dedication and
+In Memoriam
+
+
+
+
+vii
+Foreword
+Foreword
+Foreword
+Climate Change 2014: Mitigation of Climate Change is the third part of the Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change (IPCC)—Climate Change 2013 / 2014—and was prepared by its Working Group III. The volume provides a comprehensive and transparent assessment of relevant options for mitigating climate change through limiting or preventing greenhouse gas (GHG) emissions, as well as activities that reduce their concentrations in the atmosphere.
+This report highlights that despite a growing number of mitigation policies, GHG emission growth has accelerated over the last decade. The evidence from hundreds of new mitigation scenarios suggests that stabilizing temperature increase within the 21st century requires a fundamental departure from business-as-usual. At the same time, it shows that a variety of emission pathways exists where the temperature increase can be limited to below 2 °C relative to pre-industrial level. But this goal is associated with considerable technological, economic and institutional challenges. A delay in mitigation efforts or the limited availability of low carbon technologies further increases these challenges. Less ambitious mitigation goals such as 2.5 °C or 3 °C involve similar challenges, but on a slower timescale. Complementing these insights, the report provides a comprehensive assessment of the technical and behavioural mitigation options available in the energy, transport, buildings, industry and land-use sectors and evaluates policy options across governance levels from the local to the international scale.
+The findings in this report have considerably enhanced our understanding of the range of mitigation pathways available and their underlying technological, economic and institutional requirements. The timing of this report is thus critical, as it can provide crucial information for the negotiators responsible for concluding a new agreement under the United Nations Framework Convention on Climate Change in 2015. The report therefore demands the urgent attention of both policymakers and the general public.
+As an intergovernmental body jointly established in 1988 by the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP), the IPCC has successfully provided policymakers with the most authoritative and objective scientific and technical assessments, which are clearly policy relevant without being policy prescriptive. Beginning in 1990, this series of IPCC Assessment Reports, Special Reports, Technical Papers, Methodology Reports and other products have become standard works of reference.
+This Working Group III assessment was made possible thanks to the commitment and dedication of many hundreds of experts, representing a wide range of regions and scientific disciplines. WMO and UNEP are proud that so many of the experts belong to their communities and networks.
+We express our deep gratitude to all authors, review editors and expert reviewers for devoting their knowledge, expertise and time. We would like to thank the staff of the Working Group III Technical Support Unit and the IPCC Secretariat for their dedication.
+We are also thankful to the governments that supported their scientists’ participation in developing this report and that contributed to the IPCC Trust Fund to provide for the essential participation of experts from developing countries and countries with economies in transition.
+We would like to express our appreciation to the government of Italy for hosting the scoping meeting for the IPCC’s Fifth Assessment Report, to the governments of Republic of Korea, New Zealand and Ethiopia as well as the University of Vigo and the Economics for Energy Research Centre in Spain for hosting drafting sessions of the Working Group III contribution and to the government of Germany for hosting the Twelfth Session of Working Group III in Berlin for approval of the Working Group III Report. In addition, we would like to thank the governments of India, Peru, Ghana, the United States and Germany for hosting the AR5 Expert meetings in Calcutta, Lima, Accra, Washington D.C., and Potsdam, respectively. The generous financial support by the government of Germany, and the logistical support by the Potsdam Institute for Climate Impact Research (Germany), enabled the effective operation of the Working Group III Technical Support Unit. This is gratefully acknowledged.
+We would particularly like to thank Dr. Rajendra Pachauri, Chairman of the IPCC, for his direction and guidance of the IPCC and we express our deep gratitude to Professor Ottmar Edenhofer, Dr. Ramon PichsMadruga, and Dr. Youba Sokona, the Co-Chairs of Working Group III for their tireless leadership throughout the development and production of this report.
+M. Jarraud
+Secretary-General World Meteorological Organization
+A. Steiner
+Executive Director United Nations Environment Programme
+
+
+
+
+ix
+Preface
+Preface
+Preface
+The Working Group III contribution to the Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive and transparent assessment of the scientific literature on climate change mitigation. It builds upon the Working Group III contribution to the IPCC’s Fourth Assessment Report (AR4) in 2007, the Special Report on Renewable Energy Sources and Climate Change Mitigation (SRREN) in 2011 and previous reports and incorporates subsequent new findings and research. The report assesses mitigation options at different levels of governance and in different economic sectors. It evaluates the societal implications of different mitigation policies, but does not recommend any particular option for mitigation.
+Approach to the assessment
+The Working Group III contribution to the AR5 explores the solution space of climate change mitigation drawing on experience and expectations for the future. This exploration is based on a comprehensive and transparent assessment of the scientific, technical, and socio-economic literature on the mitigation of climate change.
+The intent of the report is to facilitate an integrated and inclusive deliberation of alternative climate policy goals and the different possible means to achieve them (e.g., technologies, policies, institutional settings). It does so through informing the policymakers and general public about the practical implications of alternative policy options, i.e., their associated costs and benefits, risks and trade-offs.
+During the AR5 cycle, the role of the Working Group III scientists was akin to that of a cartographer: they mapped out different pathways within the solution space and assessed potential practical consequences and trade-offs; at the same time, they clearly marked implicit value assumptions and uncertainties. Consequently, this report may now be used by policymakers like a map for navigating the widely unknown territory of climate policy. Instead of providing recommendations for how to solve the complex policy problems, the report offers relevant information that enables policymakers to assess alternative mitigation options.
+There are four major pillars to this cartography exercise:
+Exploration of alternative climate policy goals: The report lays out the technological, economic and institutional requirements for stabilizing global mean temperature increases at different levels. It informs decision makers about the costs and benefits, risks and opportunities of these, acknowledging the fact that often more than one path can lead to a given policy goal.
+Transparency over value judgments: The decision which mitigation path to take is influenced by a series of sometimes disputed normative choices which relate to the long-term stabilization goal itself, the
+weighing of other social priorities and the policies for achieving the goal. Facts are often inextricably interlinked with values and there is no purely scientific resolution of value dissent. What an assessment can do to support a rational public debate about value conflicts is to make implicit value judgments and ethical viewpoints as transparent as possible. Moreover, controversial policy goals and related ethical standpoints should be discussed in the context of the required means to reach these goals, in particular their possible consequences and side-effects. The potential for adverse side-effects of mitigation actions therefore requires an iterative assessment approach.
+Multiple objectives in the context of sustainable development and equity: A comprehensive exploration of the solution space in the field of climate change mitigation recognizes that mitigation itself will only be one objective among others for decision makers. Decision makers may be interested in pursuing a broader concept of well-being. This broader concept also involves the sharing of limited resources within and across countries as well as across generations. Climate change mitigation is discussed here as a multi-objective problem embedded in a broader sustainable development and equity context.
+Risk management: Climate change mitigation can be framed as a risk management exercise. It may provide large opportunities to humankind, but will also be associated with risks and uncertainties. Some of those may be of a fundamental nature and cannot be easily reduced or managed. It is therefore a basic requirement for a scientific assessment to communicate these uncertainties, wherever possible, both in their quantitative and qualitative dimension.
+Scope of the report
+During the process of scoping and approving the outline of the Working Group III contribution to the AR5, the IPCC focused on those aspects of the current understanding of the science of climate change mitigation that were judged to be most relevant to policymakers.
+Working Group III included an extended framing section to provide full transparency over the concepts and methods used throughout the report, highlighting their underlying value judgments. This includes an improved treatment of risks and risk perception, uncertainties, ethical questions as well as sustainable development.
+The exploration of the solution space for climate change mitigation starts from a new set of baseline and mitigation scenarios. The entire scenario set for the first time provides fully consistent information on radiative forcing and temperature in broad agreement with the information provided in the Working Group I contribution to the AR5. The United Nations Framework Convention on Climate Change requested the IPCC to provide relevant scientific evidence for reviewing the 2 °C
+
+
+x
+Preface
+Preface
+goal as well as a potential 1.5 °C goal. Compared to the AR4 the report therefore assesses a large number of low stabilization scenarios broadly consistent with the 2 °C goal. It includes policy scenarios that investigate the impacts of delayed and fragmented international mitigation efforts and of restricted mitigation technologies portfolios on achieving specific mitigation goals and associated costs.
+The WGIII contribution to the AR5 features several new elements. A full chapter is devoted to human settlements and infrastructures. Governance structures for the design of mitigation policies are discussed on the global, regional, national and sub-national level. The report closes with a novel chapter about investment needs and finance.
+Structure of the report
+The Working Group III contribution to the Fifth Assessment report is comprised of four parts:
+Part I: Introduction (Chapter 1) Part II: Framing Issues (Chapters 2–4) Part III: Pathways for Mitigating Climate Change (Chapters 5–12) Part IV: Assessment of Policies, Institutions and Finance (Chapters 13–16)
+Part I provides an introduction to the Working Group III contribution and sets the stage for the subsequent chapters. It describes the ‘Lessons learned since AR4’ and the ‘New challenges for AR5’. It gives a brief overview of ‘Historical, current and future trends’ regarding GHG emissions and discusses the issues involved in climate change response policies including the ultimate objective of the UNFCCC (Article 2) and the human dimensions of climate change (including sustainable development).
+Part II deals with framing issues that provide transparency over methodological foundations and underlying concepts including the relevant value judgments for the detailed assessment of climate change mitigation policies and measures in the subsequent parts. Each chapter addresses key overarching issues (Chapter 2: Integrated Risk and Uncertainty Assessment of Climate Change Response Policies; Chapter 3: Social, Economic and Ethical Concepts and Methods; Chapter 4: Sustainable Development and Equity) and acts as a reference point for subsequent chapters.
+Part III provides an integrated assessment of possible mitigation pathways and the respective sectoral contributions and implications. It combines cross-sectoral and sectoral information on long-term mitigation pathways and short- to mid-term mitigation options in major economic sectors. Chapter 5 (Drivers, Trends and Mitigation) provides the context for the subsequent chapters by outlining global trends in stocks and flows of greenhouse gases (GHGs) and short-lived climate pollutants by means of different accounting methods that provide complementary perspectives on the past. It also discusses emissions drivers, which informs the assessment of how GHG emissions have historically developed. Chapter 6 (Assessing Transformation Pathways)
+analyses 1200 new scenarios generated by 31 modelling teams around the world to explore the economic, technological and institutional prerequisites and implications of mitigation pathways with different levels of ambition. The sectoral chapters (Chapter 7–11) and Chapter 12 (Human Settlements, Infrastructure and Spatial Planning) provide information on the different mitigation options across energy systems, transport, buildings, industry, agriculture, forestry and other land use as well as options specific to human settlements and infrastructure, including the possible co-benefits, adverse side-effects and costs that may be associated with each of these options. Pathways described in Chapter 6 are discussed in a sector-specific context.
+Part IV assesses policies across governance scales. Beginning with international cooperation (Chapter 13), it proceeds to the regional (Chapter 14), national and sub-national levels Chapter 15) before concluding with a chapter that assesses cross-cutting investment and financing issues (Chapter 16). It reviews experience with climate change mitigation policies — both the policies themselves and the interactions among policies across sectors and scales — to provide insights to policymakers on the structure of policies which best fulfill evaluation criteria such as environmental and economic effectiveness, and others.
+The assessment process
+This Working Group III contribution to the AR5 represents the combined efforts of hundreds of leading experts in the field of climate change mitigation and has been prepared in accordance with the rules and procedures established by the IPCC. A scoping meeting for the AR5 was held in July 2009 and the outlines for the contributions of the three Working Groups were approved at the 31st Session of the Panel in November 2009. Governments and IPCC observer organizations nominated experts for the author teams. The team of 235 Coordinating Lead Authors and Lead Authors plus 38 Review Editors selected by the Working Group III Bureau, was accepted at the 41st Session of the IPCC Bureau in May 2010. More than 170 Contributing Authors provided draft text and information to the author teams at their request. Drafts prepared by the authors were subject to two rounds of formal review and revision followed by a final round of government comments on the Summary for Policymakers. More than 38,000 written comments were submitted by more than 800 expert reviewers and 37 governments. The Review Editors for each chapter monitored the review process to ensure that all substantive review comments received appropriate consideration. The Summary for Policymakers was approved line-by-line and the underlying chapters were then accepted at the 12th Session of IPCC Working Group III from 7–11 April 2014 in Berlin.
+Acknowledgements
+Production of this report was a major effort, in which many people from around the world were involved, with a wide variety of contributions. We wish to thank the generous contributions by the governments and
+
+
+xi
+Preface
+Preface
+institutions involved, which enabled the authors, Review Editors and Government and Expert Reviewers to participate in this process.
+Writing this report was only possible thanks to the expertise, hard work and commitment to excellence shown throughout by our Coordinating Lead Authors and Lead Authors, with important assistance by many Contributing Authors and Chapter Science Assistants. We would also like to express our appreciation to the Government and Expert Reviewers, acknowledging their time and energy invested to provide constructive and useful comments to the various drafts. Our Review Editors were also critical in the AR5 process, supporting the author teams with processing the comments and assuring an objective discussion of relevant issues.
+We would very much like to thank the governments of the Republic of Korea, New Zealand and Ethiopia as well as the University of Vigo and the Economics for Energy Research Centre in Spain, that, in collaboration with local institutions, hosted the crucial IPCC Lead Author Meetings in Changwon (July 2011), Wellington (March 2012), Vigo (November 2012) and Addis Ababa (July 2013). In addition, we would like to thank the governments of India, Peru, Ghana, the United States and Germany for hosting the Expert Meetings in Calcutta (March 2011), Lima (June 2011), Accra (August 2011), Washington D.C. (August 2012), and Potsdam (October 2013), respectively. Finally, we express our appreciation to the Potsdam Institute for Climate Impact Research (PIK) for welcoming our Coordinating Lead Authors on their campus for a concluding meeting (October 2013).
+We are especially grateful for the contribution and support of the German Government, in particular the Bundesministerium für Bildung und Forschung (BMBF), in funding the Working Group III Technical Support Unit (TSU). Coordinating this funding, Gregor Laumann and Sylke Lenz of the Deutsches Zentrum für Luft- und Raumfahrt (DLR) were always ready to dedicate time and energy to the needs of the team. We would also like to express our gratitude to the Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB) for the good collaboration throughout the AR5 cycle and the excellent organization of the 39th Session of the IPCC — and 12th Session of IPCC WGIII — particularly to Nicole Wilke and Lutz Morgenstern. Our thanks also go to Christiane Textor at Deutsche IPCC Koordinierungsstelle for the good collaboration and her dedicated work. We acknowledge the contribution of the Ministry for Science, Technology and Environment (CITMA) of the Republic of Cuba, the Cuban Institute of Meteorology (INSMET) and the Centre for World Economy Studies (CIEM) for their
+support as well as the United Nations Economic Commission for Africa (UNECA) and its African Climate Policy Centre (ACPC).
+We extend our gratitude to our colleagues in the IPCC leadership. The Executive Committee strengthened and facilitated the scientific and procedural work of all three working groups to complete their contributions: Rajendra K. Pachauri, Vicente Barros, Ismail El Gizouli, Taka Hiraishi, Chris Field, Thelma Krug, Hoesung Lee, Qin Dahe, Thomas Stocker, and Jean-Pascal van Ypersele. For his dedication, leadership and insight, we specially thank IPCC chair Rajendra K. Pachauri.
+The Working Group III Bureau — consisting of Antonina Ivanova Boncheva (Mexico), Carlo Carraro (Italy), Suzana Kahn Ribeiro (Brazil), Jim Skea (UK), Francis Yamba (Zambia), and Taha Zatari (Saudi Arabia) — provided continuous and thoughtful advice throughout the AR5 process. We would like to thank Renate Christ, Secretary of the IPCC, and the Secretariat staff Gaetano Leone, Jonathan Lynn, Mary Jean Burer, Sophie Schlingemann, Judith Ewa, Jesbin Baidya, Werani Zabula, Joelle Fernandez, Annie Courtin, Laura Biagioni, Amy Smith and Carlos Martin-Novella, Brenda Abrar-Milani and Nina Peeva, who provided logistical support for government liaison and travel of experts from developing and transitional economy countries. Thanks are due to Francis Hayes who served as the conference officer for the Working Group III Approval Session.
+Graphics support by Kay Schröder and his team at Daily-Interactive Digitale Kommunikation is greatly appreciated, as is the copy editing by Stacy Hunt and her team at Confluence Communications, the layout work by Gerd Blumenstein and his team at Da-TeX, the index by Stephen Ingle and his team at WordCo and printing by Matt Lloyd and his team at Cambridge University Press. PIK kindly hosted and housed the TSU offices.
+Last but not least, it is a pleasure to acknowledge the tireless work of the staff of the Working Group III Technical Support Unit. Our thanks go to Jan Minx, Ellie Farahani, Susanne Kadner, Kristin Seyboth, Anna Adler, Ina Baum, Steffen Brunner, Patrick Eickemeier, Benjamin Kriemann, Jussi Savolainen, Steffen Schlömer, Christoph von Stechow, and Timm Zwickel, for their professionalism, creativity and dedication to coordinate the report writing and to ensure a final product of high quality. They were assisted by Hamed Beheshti, Siri Chrobog, Thomas Day, Sascha Heller, Ceren Hic, Lisa Israel, Daniel Mahringer, Inga Römer, Geraldine Satre-Buisson, Fee Stehle, and Felix Zoll, whose support and dedication are deeply appreciated.
+Sincerely,
+Ottmar Edenhofer Ramon Pichs-Madruga Youba Sokona
+IPCC WG III CO-Chair IPCC WG III CO-Chair IPCC WG III CO-Chair
+
+
+
+
+Dedication
+Dedication
+xiii
+Dedication
+Elinor Ostrom (7 August 1933 – 12 June 2012)
+We dedicate this report to the memory of Elinor Ostrom, Professor of Political Science at Indiana University and Nobel Laureate in Economics. Her work provided a fundamental contribution to the understanding of collective action, trust, and cooperation in the management of common pool resources, including the atmosphere. She launched a research agenda that has encouraged scientists to explore how a variety of overlapping policies at city, national, regional, and international levels can enable humankind to manage the climate problem. The assessment of climate change mitigation across different levels of governance, sectors and regions has been a new focus of the Working Group III contribution to AR5. We have benefited greatly from the vision and intellectual leadership of Elinor Ostrom.
+
+
+
+
+In Memoriam
+In Memoriam
+xv
+In Memoriam
+Luxin Huang (1965–2013)
+Lead Author in Chapter 12 on Human Settlements, Infrastructure and Spatial Planning
+Leon Jay (Lee) Schipper (1947–2011) Review Editor in Chapter 8 on Transport
+Luxin Huang contributed to Chapter 12 on Human Settlements, Infrastructure and Spatial Planning. During this time, he was the director of the Department of International Cooperation and Development at the China Academy of Urban Planning and Design (CAUPD) in Beijing, China, where he worked for 27 years. The untimely death of Luxin Huang at the young age of 48 has left the Intergovernmental Panel on Climate Change (IPCC) with great sorrow.
+Lee Schipper was a leading scientist in the field of transport, energy and the environment. He was looking forward to his role as review editor for the Transport chapter when he passed away at the age of 64. Schipper had been intimately involved with the IPCC for many years, having contributed as a Lead Author to the IPCC’s Second Assessment Report’s chapter on Mitigation Options in the Transportation Sector. The IPCC misses his great expertise and guidance, as well as his humorous and musical contributions.
+Both researchers were dedicated contributors to the IPCC assessment process. Their passing represents a deep loss for the international scientific community. Luxin Huang and Lee Schipper are dearly remembered by the authors and members of the IPCC Working Group III.
+
+
+
+
+Contents
+Front Matter Foreword vii
+Preface ix
+Dedication xiii
+In Memoriam xv
+SPM Summary for Policymakers 1
+TS Technical Summary 33
+Chapters Chapter 1 Introductory Chapter 111
+Chapter 2 Integrated Risk and Uncertainty Assessment of Climate Change Response Policies 151
+Chapter 3 Social, Economic, and Ethical Concepts and Methods 207
+Chapter 4 Sustainable Development and Equity 283
+Chapter 5 Drivers, Trends and Mitigation 351
+Chapter 6 Assessing Transformation Pathways 413
+Chapter 7 Energy Systems 511
+Chapter 8 Transport 599
+Chapter 9 Buildings 671
+Chapter 10 Industry 739
+Chapter 11 Agriculture, Forestry and Other Land Use (AFOLU) 811
+Chapter 12 Human Settlements, Infrastructure, and Spatial Planning 923
+Chapter 13 International Cooperation: Agreements & Instruments 1001
+Chapter 14 Regional Development and Cooperation 1083
+Chapter 15 National and Sub-national Policies and Institutions 1141
+Chapter 16 Cross-cutting Investment and Finance Issues 1207
+Annexes Annex I Glossary, Acronyms and Chemical Symbols 1249
+Annex II Metrics & Methodolgy 1281
+Annex III Technology-specific Cost and Performance Parameters 1329
+Annex IV Contributors to the IPCC WGIII Fifth Assessment Report 1357
+Annex V Expert Reviewers, Government Reviewers and Other Scientific Advisors of the IPCC WGIII Fifth Assessment Report 1371
+Annex VI Permissions to Publish 1415
+Index 1419

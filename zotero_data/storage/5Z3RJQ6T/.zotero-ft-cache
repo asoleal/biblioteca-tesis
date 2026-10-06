@@ -1,0 +1,1233 @@
+18 August 2026
+AperTO - Archivio Istituzionale Open Access dell'Università di Torino
+Original Citation:
+Effect of rearing substrate on growth performance, waste reduction efficiency and chemical composition of black soldier fly (Hermetia illucens) larvae
+Published version:
+DOI:10.1002/jsfa.9127
+Terms of use:
+Open Access
+(Article begins on next page)
+Anyone can freely access the full text of works made available as "Open Access". Works made available under a Creative Commons license can be used according to the terms and conditions of said license. Use of all other works requires consent of the right holder (author or publisher) if not exempted from copyright protection by the applicable law.
+Availability:
+This is the author's manuscript
+This version is available http://hdl.handle.net/2318/1669138 since 2021-08-24T09:07:55Z
+
+
+ForPeerReview
+Effect of rearing substrate on growth performance, waste reduction efficiency and chemical composition of black soldier fly (Hermetia illucens) larvae
+Journal: Journal of the Science of Food and Agriculture
+Manuscript ID JSFA-18-0123.R1
+Wiley - Manuscript type: Research Article
+Date Submitted by the Author: n/a
+Complete List of Authors: Meneguz, Marco; University of Torino, Department of Agricultural, Forest and Food Sciences Schiavone, Achille; University of Torino, Department of Veterinary Science gai, francesco; National Research Council, Institute of the Science of Food Production Dama, Andrea; University of Torino, Department of Agricultural, Forest and Food Sciences Lussiana, Carola; University of Torino, Department of Agricultural, Forest and Food Sciences Renna, Manuela; University of Torino, Department of Agricultural, Forest and Food Sciences Gasco, Laura; University of Torino, Department of Agricultural, Forest and Food Sciences
+Key Words: organic waste, agro-industrial by-product, <i>Hermetia illucens</i>,
+animal feed, crude protein, fatty acid profile
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+
+
+ForPeerReview
+1
+1 Effect of rearing substrate on growth performance, waste reduction
+2 efficiency and chemical composition of black soldier fly (Hermetia illucens)
+3 larvae†
+4
+5 RUNNING TITLE: Rearing substrate effects on performance and nutritional
+6 composition of black soldier fly
+7
+8 Marco Meneguz,a Achille Schiavone,bc Francesco Gai,c Andrea Dama,a Carola
+Lussiana,a Manuela Renna,a* Laura Gascoac
+9
+10
+11 aDepartment of Agricultural, Forest and Food Sciences, University of Torino, Largo
+12 P. Braccini 2, 10095 Grugliasco (TO), Italy
+13 bDepartment of Veterinary Science, University of Torino, Largo P. Braccini 2, 10095
+14 Grugliasco (TO), Italy
+15 cInstitute of the Science of Food Production, National Research Council, Largo P.
+16 Braccini 2, 10095 Grugliasco (TO), Italy
+17
+18 * Corresponding author: manuela.renna@unito.it
+19
+20 † The paper was partly given at the 68th Annual Meeting of the European
+21 Federation of Animal Science (Tallin, Estonia, 28/08-01/09/2017)
+22
+23
+24
+25
+26
+27
+28
+29
+Page 1 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+2
+30 ABSTRACT
+31 BACKGROUND: Wastes can be used as rearing substrate by black soldier fly (BSF)
+32 larvae, the latter being exploitable as protein source in animal feed. This research
+33 aimed to assess the influence of four rearing substrates [Trial 1 (organic wastes): a
+34 mixture of vegetable and fruit (VEGFRU) vs a mixture of fruits only (FRU); Trial 2
+35 (agro-industrial by-products): brewery (BRE) vs winery (WIN) by-products] on BSF
+36 larvae development, waste reduction efficiency, and nutritional composition.
+37 RESULTS: If respectively compared to FRU and WIN, VEGFRU and BRE larvae
+38 needed less time to reach the prepupae stage (22.0, 22.2, 20.2 and 8.0 days of
+39 trial, respectively) and had higher protein content (229.7, 257.3, 312.9 and 395.7
+40 g kg-1 DM). The waste reduction index ranged from 2.4 (WIN) to 5.3 g d-1 (BRE).
+41 BRE larvae showed the lowest saturated and the highest polyunsaturated fatty
+42 acids proportions (612.4 and 260.1 g kg-1 total fatty acids, respectively).
+43 CONCLUSION: Vegetable and fruit wastes and winery by-products can be used as
+44 rearing substrates for BSF larvae mass production. Brewery by-products led to very
+45 promising larvae performances and nutritional composition. However, given BRE
+46 limited availability, low BRE dietary inclusion levels could be used with the purpose
+47 of increasing larvae performances.
+48
+49 Keywords: organic waste, agro-industrial by-product, Hermetia illucens, animal
+50 feed, crude protein, fatty acid profile
+51
+52
+Page 2 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+3
+53 INTRODUCTION
+54 The world population is estimated around 7.3 billion, with a growth rate of about 83
+55 million per year. This increase will generate an increment of food demand with a
+56 consequent rise in waste and by-products production.1 Urgent and innovative
+57 solutions are needed for the management of the waste streams (WS) that
+58 nowadays are estimated around 1.3 billion and 100 million tons per year in the
+59 world and in the European Union, respectively.1,2 Furthermore, the EC Directive No
+60 2008/98 unequivocally establishes the order of priority in the choice of WS
+61 treatment, the first being their reuse and the last their landfill disposal.
+62 Some WS could be valorized through the recovery of the residual bio-elements they
+63 contain, with a cost reduction both for the industry (disposal cost) and the
+64 environment (pollution).3 The use of insects in the bioconversion of WS constitutes
+65 a new approach and an interesting example of sustainable circular economy. This
+66 bioconversion can generate new elements such as proteins and lipids for animal
+feeds,4,5,6,7 biodiesel,8 high value products as chitin9 or anti-microbial peptides.10
+67
+68 Processed proteins from seven insect species have recently been approved for
+69 aquafeed by the EC Regulation No 2017/893, which also lists the licensed rearing
+70 substrates. Among authorized species, black soldier fly (BSF; Diptera:
+71 Stratiomydae) is one of the most promising and researches recently aimed to
+72 increase knowledge on optimal rearing substrates for larvae and prepupae. In this
+73 respect, BSF has shown great flexibility as it can be used to reduce volume and add
+74 value to various wastes.8,11,12 The available literature has highlighted that BSF life
+75 cycle and nutritional composition are noticeably influenced by the rearing
+76 substrate,13,14 with the crude protein (CP) content of the larvae ranging from about
+317 to 630 g kg-1 dry matter (DM).7,15,16
+77
+78 In 2014, around 90 million tons of slaughter and vegetable WS were produced in
+79 Europe
+80 (EUROSTAT(http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_wasge
+81 n&lang=en)). Considering the Italian context, 54% of the total production of waste
+Page 3 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+4
+82 and agro-industrial by-products is generated by the manufacturing of vegetable
+83 products.17 About 1.5 million tons of winery by-products and 406 tons of brewery
+84 by-products are produced every year
+85 (EUROSTAT(http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language
+86 =en&pcode=tag00034&plugin=1; EU Report
+87 (https://www.brewersofeurope.org/site/media
+centre/index.php?doc_id=905&class_id=31&detail=true)).18
+88
+89 The aim of this research was to evaluate the effects of organic wastes (vegetables
+90 and fruits) and agro-industrial by-products (winery and brewery) generated by the
+91 Italian food sector as rearing substrates for BSF larvae on their development, waste
+92 reduction efficiency and chemical composition.
+93
+94 MATERIAL AND METHODS
+95 Two trials were carried out at the Experimental Facility of the Department of
+96 Agricultural, Forest and Food Sciences (DISAFA; University of Torino, Torino, Italy).
+97
+98 Rearing substrates
+99 In Trial 1, two organic wastes were compared:
+100 - Vegetable-fruit waste (VEGFRU) obtained from a street market (Torino, Italy) and
+101 containing a mixture of vegetables and fruits (celery 43.4%, oranges 28.9% and
+102 peppers 27.7%);
+103 - Fruit waste (FRU) obtained from a fruit market (Torino, Italy) and containing fruits
+104 only (apples 47.8%, oranges 15.5%, apple leftovers 13.8%, strawberries 7.1%,
+105 mandarins 4.8%, pears 4.1%, kiwis 3.4%, bananas 1.9% and lemons 1.6%).
+106 In Trial 2, two agro-industrial by-products were used:
+107 - Winery by-product (WIN) obtained during the wine making process, before the
+108 alcohol extraction, from a private distillery (Distilleria Santa Teresa dei Fratelli
+109 Marolo S.R.L., Alba (CN), Italy) and containing grape seeds, pulp, skins, stems and
+110 leaves;
+Page 4 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+5
+111 - Brewery by-product (BRE) obtained during beer production (IFN 5-00-517 Barley
+112 brewers grains wet) from a private brewery (“Birrificio dei Santi”, Castelnuovo Don
+113 Bosco (AT), Italy).
+114 Each substrate was ground with a 3 mm die meat mincer (FTS136; Fama Industrie
+115 S.r.l., Rimini, Italy) and carefully mixed.
+116 A sample of each substrate was freeze-dried and frozen at -80°C for further
+117 chemical analysis, while the remaining was stored at -20°C until it was fed to the
+118 larvae.
+119
+120 BSF eggs
+121 BSF eggs laid on corrugated cardboards for less than 24 h, were purchased from a
+122 private company (CIMI S.r.l., Cervasca (CN), Italy). The cardboards with the eggs
+123 were immediately transported to the DISAFA Experimental Facility. The cardboards
+124 were put onto plastic boxes (25cm × 33cm × 12cm) which contained whole rye
+125 thoroughly mixed with water (60% moisture) as rearing substrate for the newborn
+126 larvae. The plastic boxes were placed into climatic chambers under controlled
+127 environmental conditions (T: 27±0.5°C; RH: 70±5%; 24:0 L:D photoperiod). The
+128 eggs hatched approximately three days after oviposition.
+129
+130 Experimental design and calculations
+131 Larvae development and waste reduction efficiency
+132 Six-day-old larvae were used in both trials. In each trial, for the evaluation of
+133 larvae development (weight and length) and waste reduction efficiency, six
+134 replicates of 100 larvae were weighed (KERN PLE-N v. 2.2; KERN & Sohn GmbH,
+135 Balingen-Frommern, Germany; d: 0.001) and assigned to each rearing substrate.
+136 The method reported by Harnden and Tomberlin19 was used to count the larvae. For
+137 each replicate, the larvae were placed into plastic containers (10cm × 17.5cm ×
+138 7cm), directly on the rearing substrate (100 g per replicate). The containers were
+139 covered with a perforated cap with a black nylon grid and placed in a climatic
+Page 5 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+6
+140 chamber under controlled environmental conditions (T: 27±0.5°C; RH: 70±5%;
+141 24:0 L:D photoperiod).
+142 Each replicate was monitored daily to control the quantity of available feed. If
+143 needed, as reported by Harnden and Tomberlin,19 50 g of substrate per replicate
+144 was added in all replicates at the same time.
+145 To avoid the effect of handling on the considered dependent variables,13 weight and
+146 length data were collected every four days until the appearance of the first
+147 prepupae, thereafter every day for the relative substrate. Thirty larvae were
+148 randomly sampled for three consecutive times from each container to measure
+149 weight and length. As measurement was not destructive, the larvae were re
+150 introduced into the containers between two consecutive samplings. The sampled
+151 larvae were individually cleaned, dried with a paper towel and weighed, and
+152 photographed orthogonally (Lumix G1; Panasonic Corporation, Kadoma, Osaka,
+153 Japan) with a metric scale (mm). The images were analyzed with ImageJ software
+154 package (v. 1.50b) to record larvae length (i.e., from mouthpart to the bottom of
+155 the last abdominal segment).
+156 For each container, weight and length data collection ended when 30% of the
+157 larvae reached the prepupae stage. The prepupae were removed from the
+158 containers. The remaining 70% of the larvae were hand-counted, washed, dried
+159 with a paper towel and individually weighed and photographed. The total final
+160 biomass (larvae + prepupae) and the residual rearing substrate were also weighed.
+161 The following parameters were then calculated:
+162 – larvae mortality (LM)
+163 LM = [initial number of larvae - (final number of larvae + number of prepupae)] /
+164 initial number of larvae * 100;
+165 - growth rate (GR),20 readapted for this research substituting prepupa body weight
+166 (g) with larva body weight (g)
+167 GR = (larva average final body weight (g) - larva initial body weight (g)) / days of
+168 trial (d);
+Page 6 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+7
+- substrate reduction (SR)21
+169
+170 SR = [(distributed substrate (g) - residual substrate (g)) / distributed substrate
+171 (g)] * 100;
+- waste reduction index (WRI)20
+172
+173 WRI = [(W – R) / W] / days of trial (d) * 100
+174 where W = total amount of rearing substrate distributed during the trial (g); R =
+175 residue substrate (g);
+- efficiency of conversion of digested food (ECD)20
+176
+177 ECD = total final biomass (g) / (total feed distributed (g) - residual substrate (g))
+178 where total final biomass = larvae + prepupae; residual substrate = undigested
+179 food + excretory products.
+180 Parameters related to waste reduction efficiency (SR, WRI and ECD) were
+181 calculated on a fresh matter basis.
+182
+183 Larvae nutritional composition
+184 For each trial, a second set of six replicates per rearing substrate was
+185 simultaneously prepared with the aim to rear a sufficient amount of larvae to be
+186 analyzed for their proximate composition and fatty acid - FA - profile. Five hundred
+187 hand-counted 6-day-old larvae were placed into plastic containers of bigger size
+188 (25cm × 33cm × 15cm) than those used for the larvae development and waste
+189 reduction efficiency test, following the same relationships between (i) number of
+190 larvae / container size surface, and (ii) amount of administered feed / larvae
+191 density. The larvae were not handled until the appearance of the first prepupa.
+192 Then, each container was checked daily and the identified prepupae were removed.
+193 The trial ended when the 30% of the larvae reached the prepupae stage. The
+194 remaining larvae were then manually separated from the residual rearing substrate,
+195 washed, slightly dried with paper towel, weighed and frozen at -80°C until being
+196 freeze-dried.
+197
+Page 7 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+8
+198 Chemical analyses of rearing substrates and larvae
+199 Samples of freeze-dried rearing substrates and larvae were ground using a cutting
+200 mill (MLI 204; Bühler AG, Uzwil, Switzerland). They were analyzed for DM, ash, CP
+201 and EE following AOAC International methods as detailed in Gasco et al.5 For the
+202 determination of the CP of whole BSF larvae, in addition to the conventional
+203 nitrogen-to-protein (N-factor) conversion factor of 6.25, the more accurate N-factor
+204 of 4.67 suggested by Janssen et al.22 was used. Neutral detergent fiber (NDF) was
+205 analyzed according to Van Soest et al.23 Acid detergent fiber and acid detergent
+206 lignin (ADF and ADL) were determined according to method no. 973·18 of AOAC
+207 International.24 The residual nitrogen in ADF (ADFN) was determined according to
+208 method no. 984.13 of AOAC International.24 Chitin (CHI, g kg-1 DM) was estimated
+209 as: ash free ADF (g kg-1) – ADFN * N-factor (g kg-1).9 Gross energy (GE) was
+210 determined using an adiabatic calorimetric bomb (C7000; IKA, Staufen, Germany).
+211 The FA composition of substrates and larvae was assessed.25 The results were
+212 expressed as g kg-1 of total detected fatty acids (TFA) (Table 2).
+213
+214 Statistical analyses
+215 The statistical analysis of data was performed using IBM SPSS Statistics v. 20.0 for
+216 Windows. The two trials were considered separately. Larvae weights and lengths
+217 were subjected to a Two-Way Mixed ANOVA. The Shapiro-Wilk test was used to
+218 verify if the dependent variables were normally distributed for each combination of
+219 the groups of within- (test day, considered as a repeated measure) and between
+220 (rearing substrate) subjects factors. The Levene’s test was used to verify the
+221 homogeneity of variances for each combination of the groups of within- and
+222 between-subjects factors. The Mauchly's test was used to verify the assumption of
+223 sphericity; if such an assumption was violated, the Greenhouse-Geisser or the
+224 Huynh-Feldt correction (in cases of estimates of sphericity lower or higher than
+225 0.75, respectively) was applied to correct the degrees of freedom of the F
+226 distribution. Final larvae weights and lengths (average weight and length of the
+Page 8 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+9
+227 leftover 70% larvae after removing the 30% of prepupae) were further subjected to
+228 independent samples Student’s t-tests to assess differences between rearing
+229 substrates.
+230 Differences in terms of larvae growth performances, waste reduction efficiency,
+231 proximate composition and FA profile between substrates were also assessed using
+232 independent-samples Student’s t-tests.
+233 The Kruskal-Wallis test was used to compare the time needed by the larvae to
+234 reach the prepupae stage.
+235 Significance was declared at P<0.05.
+236
+237 RESULTS
+238 Growth performances and waste reduction efficiency of the BSF larvae
+239 The effect of the rearing substrate on the development of BSF larvae over time is
+240 reported in Figure 1 (Trial 1) and Figure 2 (Trial 2).
+241 In both trials, results from the Two-Way Mixed ANOVA showed that, for larvae
+242 development (weight and length), rearing substrate, test day and their interaction
+243 were highly significant (P<0.001), VEGFRU and BRE performing better than FRU
+244 and WIN, respectively.
+245 In Trial 1, no differences were observed for larvae weight (mean ± SD:
+246 0.004±0.0002 g) at the beginning of the trial (day 0; 6 days-old larvae) (Figure
+247 1A). Differences appeared after 4 days of trial, with a higher weight in the VEGFRU
+248 larvae (0.055±0.0084 g) compared to the FRU larvae (0.037±0.0058 g). Such
+249 trend was maintained at each test day until day 16 (VEGFRU: 0.148±0.0103 g;
+250 FRU: 0.120±0.0094 g) when VEGFRU larvae started to enter in the prepupae stage.
+251 The final weight of the larvae did not show differences between the two rearing
+252 substrates. At the beginning of Trial 1, VEGFRU and FRU larvae showed length
+253 values of 5.7±1.32 mm and 5.3±1.17 mm, respectively (P<0.05; Figure 1B).
+254 VEGFRU larvae continued showing higher length values than FRU larvae until the
+Page 9 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+10
+255 last statistical assessment (day 16). VEGFRU and FRU larvae achieved a final length
+256 of 17.7±0.46 mm and 17.8±0.51 mm, respectively (P>0.05).
+257 At the beginning of Trial 2, no differences were observed between WIN and BRE for
+258 larvae weight (0.007±0.0011 g) (Figure 2A). Remarkable differences were reported
+259 after 4 days of trial, with a higher weight in the BRE larvae compared to the WIN
+260 larvae (0.092±0.0063 and 0.017±0.0018 g, respectively). The final weight of the
+261 larvae (reached after 8 and 26 days of trial for BRE and WIN, respectively) did not
+262 show differences between treatments. The mean length of 6-day-old larvae (day 0)
+263 was 6.5±1.36 and 6.4±1.24 mm for BRE and WIN, respectively (P>0.05; Figure
+264 2B). After 4 days of trial, differences in larvae length were highlighted, with
+265 recorded values of 15.1±1.84 mm (BRE) and 8.7±1.23 mm (WIN).
+266 Dynamic of growth and waste reduction efficiency parameters are reported in Table
+267 1. In Trial 1, VEGFRU larvae showed lower LM and time needed to reach the
+268 prepupae stage, as well as higher ECD than FRU larvae. In Trial 2, BRE larvae
+269 showed lower LM, time needed to reach the prepupae stage and SR, and
+270 contemporarily higher total final biomass, GR, WRI and ECD than WIN larvae.
+271
+272 Proximate and fatty acid compositions of the rearing substrates
+273 The proximate and FA compositions of the rearing substrates are reported in Table
+274 2 and Table 3, respectively.
+275 In Trial 1, VEGFRU showed lower values of DM and NSC and higher contents of ash,
+276 CP, NDF and ADF than FRU, while comparable EE and ADL contents were found. In
+277 Trial 2, WIN showed higher DM, ash, NDF, ADF, and ADL contents and lower CP and
+278 NSC contents than BRE. VEGFRU and FRU showed similar GE values which were
+279 lower than those obtained in the second trial for WIN and BRE.
+280 Total FA ranged from 10.04 (FRU) to 82.47 g kg-1 DM (BRE). VEGFRU showed
+281 higher total polyunsaturated fatty acids (PUFA) and lower total monounsaturated
+282 fatty acids (MUFA) than FRU. WIN had higher MUFA and lower SFA when compared
+283 to BRE. Linoleic acid (C18:2 n6) was the most abundant FA in all substrates.
+Page 10 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+11
+284
+285 Proximate and fatty acid compositions of the BSF larvae
+286 The proximate and FA compositions of the BSF larvae are reported in Table 4 and
+287 Table 5, respectively.
+288 Concerning Trial 1, ash, CP and ADF values in the VEGFRU larvae were higher than
+289 those in FRU larvae. Conversely, the FRU larvae showed higher DM, EE and NDF
+290 contents than the VEGFRU larvae. In Trial 2, the WIN larvae showed lower DM and
+291 CP contents when compared to the BRE larvae, while all the other parameters
+292 showed an opposite trend.
+293 Considering the FA composition of the larvae, FRU larvae showed higher TFA than
+294 VEGFRU larvae. On the contrary, in Trial 2 similar TFA contents were observed for
+295 BRE and WIN larvae. Significant differences between treatments were observed in
+296 both trials for almost all considered FA groups and individual FA. PUFA were higher
+297 in VEGFRU and BRE larvae when compared to FRU and WIN larvae, respectively,
+298 while an opposite trend was observed for SFA. The most represented individual FA
+299 in BSF larvae from all treatments was C12:0, which showed higher amounts in FRU
+300 and WIN when compared to VEGFRU and BRE, respectively. C18:1 c9 and C18:2 n6
+301 were the most represented unsaturated FA in all treatments.
+302
+303 DISCUSSION AND CONCLUSIONS
+304 Our study investigated, through 2 trials, the effects of different rearing substrates
+305 on development, waste reduction efficiency, and nutritional composition of BSF
+306 larvae.
+307 VEGFRU and BRE larvae showed higher weights after 4 days from the beginning of
+308 the trial, had lower mortality and needed less time to reach the prepupae stage
+309 than FRU and WIN larvae, respectively. Such results were obtained in spite of
+310 comparable GE values found in Trial 1 for VEGFRU and FRU and in Trial 2 for WIN
+311 and BRE substrates, and can be at least partly ascribed to the higher CP and
+Page 11 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+12
+312 moisture contents of VEGFRU and BRE, confirming the results obtained by other
+authors.26,27
+313
+314 The need for high dietary moisture content could be ascribed to the morphology of
+315 the mouthparts of BSF larvae, which resembles the characteristics of scavenger
+316 insects.28,29 This kind of macerating mouth apparatus allows BSF larvae to scrape
+317 off the food from the feeding surface. By softening the feed solids, increased
+dietary moisture content makes easier for the larvae to feed.30
+318
+319 The results obtained in our trials could be also reflective of possible differences
+320 between rearing substrates in terms of the content of nutrients other than CP (e.g.,
+321 ether extract, structural and non-structural carbohydrates, amino acids) and/or in
+322 terms of nutrient digestibility. In both trials, the EE content of substrates (<90 g
+323 kg-1 DM) was far below the 200-260 g kg-1 found by Nguyen et al.12,13 to have
+324 detrimental effects for the survival of BSF larvae and adults. BRE larvae showed
+325 very good performances despite the high structural carbohydrates content of the
+326 relative rearing substrate (NDF: 447 g kg-1 DM; ADF: 225 g kg-1 DM). Such a result
+327 clearly demonstrates that BSF larvae are also able to efficiently bioconvert wastes
+328 and by-products characterized by high fiber content, thanks to the presence, in the
+329 digestive tract of the insect, of intestinal bacteria able to degrade cellulose.31 The
+330 amino acid composition of the rearing substrates was not analyzed in our trials, and
+331 little literature is available concerning the effects of dietary amino acids on
+332 development and nutritional composition of BSF larvae.32,33 Studying the nutritional
+333 composition of BSF prepupae reared on different organic waste substrates,
+334 Spranghers et al.32 showed that the amino acid content of the prepupae had narrow
+335 ranges, particularly when compared to the noticeable differences found in the
+336 amino acid composition of the rearing substrates. Concerning nutrient digestibility,
+337 to the best of our knowledge no studies are currently available. Further studies are
+338 necessary to deepen these aspects for the optimization of BSF feeding and
+339 nutrition.
+Page 12 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+13
+340 In Trial 2 the differences in larvae growth performances between treatments were
+341 very pronounced. We may speculate that the GE of the WIN substrate was not fully
+342 available for the larvae. The methodology used to grind the WIN substrate could
+343 have influenced the availability of the oil present inside the grape seeds. Indeed, a
+344 3-mm grinder was used, and this size could not have completely milled the seeds.
+345 Moreover, the WIN substrate could have contained substances unsuitable for the
+346 BSF larvae development. Indeed, winery by-products usually contain high levels of
+347 polyphenols.34 It is known that plants use polyphenolic compounds to protect
+348 themselves from herbivore insect attacks.35 Some studies also showed how the
+349 grape seeds can accumulate high doses of pesticides and insecticides used in wine
+grapevines management.35,36
+350
+351 Hard et al.37 reported that larvae rearing density affects competition for food, low
+352 densities usually leading to highest larvae weights. This was also reflected in our
+353 trial, as no (Trial 1) or slight (Trial 2) differences were observed for the total final
+354 biomass despite the differences found in LM between treatments. The observed LM
+355 for VEGFRU was lower than that reported by Nguyen et al.13 using a vegetable and
+356 fruit rearing substrate.
+357 In both trials, the differences highlighted in terms of LM and ECD were closely
+358 connected, and treatments leading to lower mortality allowed obtaining the best
+359 performances in terms of ECD. BRE larvae reduced a lesser quantity of substrate
+360 compared to WIN larvae; nevertheless, the WRI was higher in the BRE larvae as
+361 they took less time to reach the prepupae stage, which is also confirmed by the
+362 higher GR results. The SR was particularly high (above 65%) in Trial 1, showing the
+great potential of BSF larvae in the degradation of vegetable and fruit wastes.12,13
+363
+364 Overall, the BRE larvae showed the best ECD combined with the absolute highest
+365 total final biomass production and the shortest developmental period.
+366 The time needed by the larvae to reach the prepupae stage seemed to influence
+367 their chitin content. Such results agree with the findings of Diener et al.11 who
+Page 13 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+14
+368 reported how small larvae grown in 42 days showed a chitin level higher than
+369 heavy larvae grown in 16 days.
+370 In both trials, substrates containing the highest CP and moisture contents (VEGFRU
+371 and BRE) allowed obtaining BSF larvae with the highest CP level, which is
+372 consistent with the results obtained by other authors.26,27 Consistently with the
+373 findings of Janssen et al.,22 the use of the conventional N-factor of 6.25 led to a CP
+374 overestimation of about 25%.
+375 Despite comparable EE values of the rearing substrates, FRU larvae showed higher
+376 EE content than VEGFRU larvae, probably as a consequence of the higher NSC level
+377 of FRU.38 Insects have the ability to convert carbohydrates into lipids.32,39 Insects
+store lipids for two reasons. Firstly, as energy reserve for the adult stage.14
+378
+379 Secondly because, as insect body presents an open blood system and a high
+380 surface compared to volume and the combination of these two factors could be a
+381 problem for the loss of water and the drying out process, lipids allow them to avoid
+382 transpiration and store non-imbibed water.40 However, the influence of the NSC
+383 content of substrates on the EE content of BSF larvae should be further
+384 investigated as higher NSC in BRE substrate did not lead to higher EE content in
+385 BSF larvae in Trial 2.
+386 The FA composition of the rearing substrates did not directly affect the larvae FA
+387 composition, which was also influenced by carbohydrates (starch and sugars),
+388 confirming other researches.26,32 Being of vegetable origin, all rearing substrates
+389 had PUFA as the most abundant FA group. Notwithstanding, as typically observed
+390 for Diptera, the BSF larvae FA profile was dominated by SFA, mainly C12:0 (which
+391 showed the absolute highest values among individual detected FA), C14:0, C16:0
+392 and C18:0.32,41 The high presence of SFA in insects is connected with cold
+393 adaptation.42 Indeed, larvae from some species showed a SFA decrease from
+394 summer to autumn while PUFA increased highlighting a correlation between the
+395 change in FA composition and the temperatures due to seasonal change.42,43,44 BSF
+396 is a sub-tropical species growing with high temperatures (27-32°C) and the difficult
+Page 14 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+15
+397 adaptation to low temperatures was demonstrated by the lowest BSF survival rate
+398 at about 16°C.45 We can argue that the high SFA presence could be ascribed to BSF
+399 adaptation to the sub-tropical climate. In particular the high content of lauric acid
+400 (melting point: 43.2°C) could preserve BSF larvae from lipid oxidation and allow
+them to survive at temperatures above 40°C.41 Consistent with other findings,7,15,32
+401
+402 C18:1 c9 was the main represented MUFA in the larvae, while C18:2 n6 and C18:3
+403 n3 were the main represented PUFA n6 and PUFA n3, respectively. The low quantity
+404 of recovered n3 PUFA in the larvae could represent a problem if insect meals are
+405 intended to be used for animal feed. Indeed, researches highlighted a decrease in
+406 nutritional product quality with the inclusion of insect meals in animal diets
+407 especially when full-fat meals are used.5,6,46 Nevertheless, BSF larvae can be
+408 enriched in n3-PUFA through the substrate.33,47 Authors 10,48 reported that C12:0 is
+409 a good inhibitor of bacteria strains and could be of great interest in the reduction of
+410 the use of antibiotics in animal feeding.10,49,50 In this context, BSF larvae reared on
+411 organic wastes resulted very interesting with up to 574 g kg-1 TFA of lauric acid.
+412
+413 Especially in Southern Europe, the large availability of vegetable and fruit wastes
+414 (mainly from markets and supermarkets) may allow the development of a BSF
+415 larvae mass production, enabling as well to obtain economic and environmental
+416 benefits from the sustainable management of organic wastes. Regarding the
+417 considered agro-industrial by-products, the use of winery by-products as rearing
+418 substrate for BSF larvae could be conditioned, both from a technological and
+419 economical point of view, by the need of preliminarily processing to remove or
+420 reduce polyphenols, pesticides and insecticides contents, which could exert a
+421 negative influence on the growth performance of the larvae. Remarkable positive
+422 results were obtained in terms of overall development time, growth performances
+423 and nutritional composition for the larvae reared on brewery by-products, which
+424 should therefore be considered promising rearing substrates. However, as brewery
+425 by-products are characterized by a more limited availability than vegetables, fruits
+Page 15 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+16
+426 or winery by-products, it could be advisable to use BRE at low dietary inclusion
+427 levels with the purpose of increasing BSF larvae performances.
+428 Overall, our results show that the performance and chemical composition of BSF
+429 larvae are largely affected by the chemical composition of the provided substrate.
+430 This clearly demonstrates that insects, like farm animals, have nutritional
+431 requirements which have to be met for optimal performance.
+432 The performances obtained in our bench top trials may vary when transferred to an
+433 industrial scale. For instance, the large volumes of waste used as well as the high
+434 larvae concentration could result in environmental oxygen depletion and heat
+435 production.51 Attention should then be placed to the airflow to guarantee
+436 appropriate rearing conditions. In addition, to optimize land use, insect breeding
+437 should exploit the verticality of the breeding structure. However, this can lead to
+438 the stratification of temperature and particular attention must be given to an
+439 adequate air circulation to guarantee a homogeneous temperature in all parts of
+440 the building. At industrial level, the production system would also require a
+441 constant supply of substrates, possibly with a fairly constant chemical composition,
+442 as to obtain BSF larvae with relatively constant nutrient profile.
+443 Future studies should be designed to assess the nutritional requirements of BSF
+444 larvae and to evaluate other agro-industrial by-products, as well as the effect of
+445 mixing different organic wastes and agro-industrial by-products, to obtain optimal
+446 BSF larvae performances in terms of development, waste reduction efficiency and
+447 nutritional composition.
+448
+449 ACKNOWLEDGEMENTS
+450 The research was partially supported by GERV_CRT_17_01 grant.
+451
+452 REFERENCES
+453 1. van Huis A, Van Itterbeeck J, Klunder H, Mertens E, Halloran A, Muir G,
+454 Vantomme P, Edible Insects – Future Prospects for Food and Feed Security. FAO
+Page 16 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+17
+455 Forestry Paper 171. Food and Agriculture Organization of the United Nations,
+456 Roma, pp. 59-66 (2013).
+457 2. Salomone R, Saija G, Mondello G, Giannetto A, Fasulo S, Savastano D,
+458 Environmental impact of food waste bioconversion by insects : Application of Life
+459 Cycle Assessment to process using Hermetia illucens. J Clean Prod 140:890–905
+460 (2017).
+461 3. Arancon RAD, Lin CSK, Chan KM, Kwan TH, Luque R, Advances on waste
+462 valorization: new horizons for a more sustainable society. Energy Science &
+463 Engineering 1:53–71 (2013).
+464 4. Biasato I, De Marco M, Rotolo L, Renna M, Lussiana C, Dabbou S, Capucchio MT,
+465 Biasibetti E, Costa P, Gai F, Pozzo L, Dezzutto D, Bergagna S, Martínez S,
+466 Tarantola M, Gasco L, Schiavone A, Effects of dietary Tenebrio molitor meal
+467 inclusion in free-range chickens. J Anim Physiol Anim Nutr 100:1104–1112
+468 (2016).
+469 5. Gasco L, Henry M, Piccolo G, Marono S, Gai F, Renna M, Lussiana C,
+470 Antonopoulou E, Mola P, Chatzifotis S, Tenebrio molitor meal in diets for
+471 European sea bass (Dicentrarchus labrax L.) juveniles: Growth performance,
+472 whole body composition and in vivo apparent digestibility. Anim Feed Sci Technol
+473 220:34–45 (2016).
+474 6. Renna M, Schiavone A, Gai F, Dabbou S, Lussiana C, Malfatto V, Prearo M,
+475 Capucchio MT, Biasato I, Biasibetti E, De Marco M, Zoccarato I, Gasco L,
+476 Evaluation of the suitability of a partially defatted black soldier fly (Hermetia
+477 illucens L.) larvae meal as ingredient for rainbow trout (Oncorhynchus mykiss
+478 Walbaum) diets. J Anim Sci Biotechnol 8:57, 1–13 (2017).
+479 7. Barragan-Fonseca KB, Dicke M, van Loon JJA, Nutritional value of the black
+480 soldier fly (Hermetia illucens L.) and its suitability as animal feed – a review. J
+481 Insects Food Feed 3(2):105-120 (2017).
+482 8. Surendra KC, Olivier R, Tomberlin JK, Jha R, Kumar S, Bioconversion of organic
+483 wastes into biodiesel and animal feed via insect farming. Renew Energy 98:197
+Page 17 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+18
+484 202 (2016).
+485 9. Finke MD, Estimate of chitin in raw whole insects. Zoo Biol 26:105–115 (2007).
+486 10. Spranghers T, Joris M, Vrancx J, Ovyn A, Eeckhout M, De Clercq P, De Smet S,
+487 Gut antimicrobial effects and nutritional value of black soldier fly (Hermetia
+488 illucens L.) prepupae for weaned piglets Anim Feed Sci Technol 235:33-42
+489 (2018).
+490 11. Diener S, Zurbrügg C, Tockner K, Conversion of organic material by black
+491 soldier fly larvae: establishing optimal feeding rates. Waste Manag Res 27:603
+492 610 (2009).
+493 12. Nguyen TTX, Tomberlin JK, Vanlaerhoven S, Ability of Black Soldier Fly
+494 (Diptera: Stratiomyidae) larvae to recycle food waste. Environ Entomol 44:406
+495 410 (2015).
+496 13. Nguyen TTX, Tomberlin JK, Vanlaerhoven S, Influence of resources on Hermetia
+497 illucens (Diptera: Stratiomyidae) larval development. J Med Entomol 50:898
+498 906 (2013).
+499 14. Tomberlin JK, Sheppard DC, Joyce JA, Selected life-history traits of Black
+500 Soldier Flies (Diptera: Stratiomyidae) reared on three artificial diets. Ann
+501 Entomol Soc Am 95:379–386 (2002).
+502 15. Barroso FG, de Haro C, Sánchez-Muros MJ, Venegas E, Martínez-Sánchez A,
+503 Pérez-Bañón C, The potential of various insect species for use as food for fish.
+504 Aquaculture 422–423:193–201 (2014).
+505 16. Wang YS, Shelomi M, Review of Black Soldier Fly (Hermetia illucens) as animal
+506 feed and human food. Foods 6:91 (2017).
+507 17. Segrè A, Falasconi L, Il libro nero dello spreco in Italia: il cibo. Edizioni
+508 Ambiente, Milano, pp 1-124 (2011).
+509 18. Briggs DE, Boulton CA, Brookes PA, Steven R, Brewing: science and practice.
+510 Woodhead Publishing Limited and CRC Press, Boca Raton, pp. 1-863 (2004).
+511 19. Harnden LM, Tomberlin JK, Effects of temperature and diet on black soldier fly,
+512 Hermetia illucens (L.) (Diptera: Stratiomyidae), development. Forensic Sci Int
+Page 18 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+19
+513 266:109–116 (2016).
+514 20. Leong SY, Kutty SRM, Malakahmad A, Tan CK, Feasibility study of biodiesel
+515 production using lipids of Hermetia illucens larva fed with organic waste. Waste
+516 Manage 47:84–90 (2016).
+517 21. Tschirner M, Simon A, Influence of different growing substrates and processing
+518 on the nutrient composition of black soldier fly larvae destined for animal feed. J
+519 Insects Food Feed 1:1–12 (2015).
+520 22. Janssen RH, Vincken JP, van den Broek LAM, Fogliano V, Lakemond CMM,
+521 Nitrogen-to-protein conversion factors for three edible insects: Tenebrio molitor,
+522 Alphitobius diaperinus, and Hermetia illucens. J Agric Food Chem 65:2275–2278
+523 (2017).
+524 23. Van Soest PJ, Robertson JB, Lewis BA, Methods for dietary fiber, neutral
+525 detergent fiber, and nonstarch polysaccharides in relation to animal nutrition. J
+526 Dairy Sci 74:3583–3597 (1991).
+527 24. AOAC International, Official methods of analysis of AOAC International. 16th ed.
+528 Gaithersburg, MD: Association of Official Analytical Chemists (2000).
+529 25. Renna M, Gasmi-Boubaker A, Lussiana C, Battaglini LM, Belfayez K, Fortina R,
+530 Fatty acid composition of the seed oils of selected Vicia L. taxa from Tunisia. Ital
+531 J Anim Sci 13:308–316 (2014).
+532 26. Oonincx DGAB, van Broekhoven S, van Huis A, van Loon JJA, Feed conversion,
+533 survival and development, and composition of four insect species on diets
+534 composed of food by-products. PLoS ONE 10:1–20 (2015).
+535 27. Cammack JA, Tomberlin JK, The impact of diet protein and carbohydrate on
+536 select life-history traits of the Black Soldier Fly Hermetia illucens (L.) (Diptera:
+537 Stratiomyidae). Insects 8,56:1-14 (2017).
+538 28. Purkayastha D, Sarkar S, Roy P, Kazmi AA, Isolation and morphological study
+539 of ecologically-important insect “Hermetia illucens” collected from Roorkee
+540 compost plant. Pollution 3:453–459 (2017).
+541 29. Kim W, Bae S, Park H, Park K, Lee S, Choi Y, Han S, Koh Y, The larval age and
+Page 19 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+20
+542 mouth morphology of the black soldier fly, Hermetia illucens (Diptera:
+543 Stratiomyidae). Int J Indust Entomol 21:185–187 (2010).
+544 30. Banks IJ, To assess the impact of black soldier fly (Hermetia illucens) larvae on
+545 faecal reduction in pit latrines. Doctoral Thesis, London School of Hygiene
+546 Tropical Medicine (2014). Available at:
+547 http://researchonline.lshtm.ac.uk/1917781/ (last accessed: 20 April 2018).
+548 31. Kim E, Park J, Lee S, Kim Y, Identification and physiological characters of
+549 intestinal bacteria of the Black Soldier Fly, Hermetia illucens. Korean J Appl
+550 Entomol 53:15–26 (2014).
+551 32. Spranghers T, Ottoboni M, Klootwijk C, Ovyn A, Deboosere S, De Meulenaer B,
+552 Michiels J, Eeckhout M, De Clercq P, De Smet S, Nutritional composition of black
+553 soldier fly (Hermetia illucens) prepupae reared on different organic waste
+554 substrates. J Sci Food Agric 97:2594–2600 (2017).
+555 33. Liland NS, Biancarosa I, Araujo P, Biemans D, Bruckner CG, Waagbø R,
+556 Torstensen BE, Lock EJ, Modulation of nutrient composition of black soldier fly
+557 (Hermetia illucens) larvae by feeding seaweed-enriched media. PLoS ONE
+558 12(8): e0183188 (2017).
+559 34. Garavaglia J, Markoski MM, Oliveira A, Marcadenti A, Grape seed oil
+560 compounds : biological and chemical actions for health. Nutr Metab Insights
+561 9:59–64 (2016).
+562 35. Lattanzio V, Lattanzio VM, Cardinali A, Role of phenolics in the resistance
+563 mechanisms of plants against fungal pathogens and insects, in Phytochemistry:
+564 Advances in Research, ed. by Imperato F. Research Signpost, Trivandrum, pp.
+565 23–67 (2006).
+566 36. Rose G, Lane S, Jordan R, The fate of fungicide and insecticide residues in
+567 Australian wine grape by-products following field application. Food Chem
+568 117:634–640 (2009).
+569 37. Hard JJ, Bradshaw WE, Malarkey DJ, Resource- and density-dependent
+570 development in tree-hole mosquitoes. Oikos 54:137 –144 (1989).
+Page 20 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+21
+571 38. Arrese EL, Soulages JL, Insect fat body: energy, metabolism, and regulation.
+572 Annu Rev Entomol 55:207–225 (2010).
+573 39. Inagaki S and Yamashita O, Metabolic shift from lipogenesis to glycogenesis in
+574 the last instar larval fat body of the silkworm, Bombyx mori. Insect Biochem
+575 16:327–331 (1986).
+576 40. Downer RGH, Matthews JR, Patterns of lipid distribution and utilisation in
+577 insects. Am Zool 16:733–745 (1976).
+578 41. Ushakova NA, Brodskii ES, Kovalenko AA, Bastrakov AI, Kozlova AA, Pavlov
+579 ADS, Characteristics of lipid fractions of larvae of the black soldier fly Hermetia
+580 illucens. Dokl Biochem Biophys 468:209–212 (2016).
+581 42. Bennett VA, Lee RE, Modeling seasonal changes in intracellular freeze-tolerance
+582 of fat body cells of the gall fly Eurosta solidaginis (Diptera, Tephritidae). J Exp
+583 Biol 200:185–192 (1997).
+584 43. Atapour M, Moharramipour S, Barzegar M, Seasonal changes of fatty acid
+585 compositions in overwintering larvae of rice stem borer, Chilo suppressalis
+586 (Lepidoptera: Pyralidae). J Asia-Pacific Entomol 10:33–38 (2007).
+587 44. Kalyoncu L, Çetin H, Effects of low temperature on the fatty acid compositions
+588 of adult of Acanthoscelides obtectus (Say) (Coleoptera: Chrysomelidae). Selçuk
+589 Tarım ve Gıda Bilimleri Dergisi 31:11–15 (2017).
+590 45. Holmes LA, VanLaerhoven SL, Tomberlin JK, Lower temperature threshold of
+591 black soldier fly (Diptera: Stratiomyidae) development. J Insects Food Feed
+592 2:255–262 (2016).
+593 46. Bovera F, Loponte R, Marono S, Piccolo G, Parisi G, Iaconisi V, Gasco L, Nizza A,
+594 Use of Tenebrio molitor larvae meal as protein source in broiler diet: effect on
+595 growth performance, nutrient digestibility, carcass and meat traits. J Anim Sci
+596 94:639-647 (2016).
+597 47. Barroso FG, Sánchez-Muros MJ, Segura M, Morote E, Torres A, Ramos R, Guil
+598 JL, Insects as food: Enrichment of larvae of Hermetia illucens with omega 3 fatty
+599 acids by means of dietary modifications. J Food Compos Anal 62:8-13 (2017).
+Page 21 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+22
+600 48. Skrivanova E, Marounek M, Benda V, Brezina P, Susceptibility of Escherichia
+601 coli, Salmonella sp. and Clostridium perfringens to organic acids and monolaurin.
+602 Vet Med (Praha) 51:81–88 (2006).
+603 49. Schiavone A, Cullere M, De Marco M, Meneguz M, Biasato I, Bergagna S,
+604 Dezzutto D, Gai F, Dabbou S, Dalle Zotte A, Partial or total replacement of
+605 soybean oil by black soldier fly larvae (Hermetia illucens L.) fat in broiler diets:
+606 effect on growth performances, feed-choice, blood traits, carcass characteristics
+607 and meat quality. Ital J Anim Sci 16:93–100 (2017).
+608 50. Schiavone A, Dabbou S, De Marco M, Cullere M, Biasato I, Biasibetti E,
+609 Capucchio MT, Bergagna S, Dezzutto D, Meneguz M, Gai F, Dalle Zotte A, Gasco
+610 L, Black soldier fly (Hermetia illucens L.) larva fat inclusion in finisher broiler
+611 chicken diet as an alternative fat source. Animal. Accepted on December 13
+612 2017 (2018).
+613 51. Cheng JYK, Chiu SLH, Lo IMC, Effects of moisture content of food waste on
+614 residue separation, larval growth and larval survival in black soldier fly
+615 bioconversion. Waste Manage 67:315–323 (2017).
+Page 22 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+1
+1 Table 1: Dynamic of growth and waste reduction efficiency (on a fresh matter basis) of black soldier fly larvae reared on
+2 organic wastes (vegetables and fruits) and agro-industrial by-products (winery and brewery) generated by the Italian food
+3 sector (mean ± SD; n = 6).
+Trial 1
+(organic wastes)
+Trial 2
+(agro-industrial by-products)
+VEGFRU FRU P WIN BRE P
+Larvae mortality (%) 11.2±4.35 19.3±5.24 0.015 24.8±10.53 9.5±5.68 0.011
+Total final biomass (g) 10.42±0.648 10.92±2.057 0.584 9.90±0.785 11.32±0.864 0.014
+Time needed to reach prepupae stage (days of trial) 20.2±1.33 22.0±0.89 0.031 22.2±0.98 8.0±0.01 0.003
+Growth rate (g d-1) 0.006±0.0018 0.007±0.0007 0.451 0.006±0.0009 0.014±0.0009 0.000
+Substrate reduction (%) 65.2±5.54 70.8±8.39 0.129 53.0±5.28 42.5±8.41 0.027
+Waste reduction index (g d-1) 3.2±0.26 3.2±0.41 0.952 2.4±0.32 5.3±1.05 0.000
+Efficiency of conversion of digested food 0.07±0.009 0.05±0.011 0.004 0.06±0.002 0.14±0.034 0.000
+4 VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste; WIN: winery by-product; BRE: brewery by-product.
+Page 23 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+
+
+ForPeerReview
+1
+1 Table 2: Proximate composition (g kg-1 dry matter, unless otherwise stated) of organic wastes (vegetables and fruits) and
+2 agro-industrial by-products (winery and brewery) generated by the Italian food sector and used as rearing substrates by
+3 black soldier fly larvae.
+Trial 1
+(organic wastes)
+Trial 2
+(agro-industrial by-products)
+VEGFRU FRU WIN BRE
+Dry matter (g kg-1) 82.7 131.9 358.3 232.1
+Ash 91.1 30.4 103.0 39.8
+Crude protein 119.9 46.0 117.4 200.5
+Ether extract 26.0 27.8 79.0 86.7
+Neutral detergent fiber 178.0 139.3 566.4 447.1
+Acid detergent fiber 110.5 91.1 462.4 225.3
+Acid detergent lignin 12.9 13.1 323.5 62.1
+Non-structural carbohydrates* 585.0 756.5 134.2 225.9
+Gross energy (MJ kg-1 DM) 15.1 15.6 19.5 19.4
+4 VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste; WIN: winery by-product; BRE: brewery by-product.
+5 *Calculated as: 1000 – (crude protein + ether extract + ash + neutral detergent fiber).
+Page 24 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+
+
+ForPeerReview
+Table 3: Fatty acid composition (g kg-1 total fatty acids, unless otherwise stated) of organic wastes (vegetables and fruits)
+and agro-industrial by-products (winery and brewery) generated by the Italian food sector and used as rearing substrates by
+black soldier fly larvae.
+Trial 1
+(organic wastes)
+Trial 2
+(agro-industrial by-products)
+VEGFRU FRU WIN BRE
+Total fatty acids (g kg-1 dry matter) 20.91 10.04 73.57 82.47
+C12:0 0.73 3.52 0.93 0.80
+C14:0 8.85 8.44 1.99 3.22
+C16:0 184.90 192.71 100.49 252.48
+C16:1 c9 5.89 5.96 4.43 1.75
+C18:0 26.14 43.36 50.24 15.42
+C18:1 c9 65.91 208.61 185.09 103.27
+C18:1 c11 20.85 29.62 8.51 7.46
+C18:2 n6 575.23 333.38 630.32 554.90
+C18:3 n3 111.50 174.40 18.00 60.70
+Saturated fatty acids 220.62 248.03 153.65 271.92
+Monounsaturated fatty acids 92.65 244.19 198.03 112.48
+Polyunsaturated fatty acids 686.73 507.78 648.32 615.60
+VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste; WIN: winery by-product; BRE: brewery by-product.
+Page 25 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+
+
+ForPeerReview
+Table 4: Proximate composition (g kg-1 dry matter, unless otherwise stated) of black soldier fly larvae reared on organic
+wastes (vegetables and fruits) and agro-industrial by-products (winery and brewery) generated by the Italian food sector
+(mean ± SD; n = 6).
+Trial 1
+(organic wastes)
+Trial 2
+(agro-industrial by-products)
+VEGFRU FRU P WIN BRE P
+Dry matter (g kg-1) 219.6±10.22 282.9±6.57 0.000 265.4±5.93 290.8±6.96 0.000
+Ash 129.8±6.50 72.2±2.22 0.000 145.7±6.67 73.0±1.89 0.000
+Crude protein1 418.8±13.24 307.5±10.29 0.000 344.3±7.63 529.6±5.27 0.000
+Crude protein2 312.9±9.89 229.7±7.69 0.000 257.3±5.70 395.7±3.94 0.000
+Ether extract 262.8±18.01 407.0±18.83 0.000 322.2±19.60 298.7±6.49 0.031
+Neutral detergent fiber 170.9±16.49 197.9±13.48 0.011 177.3±13.08 87.0±9.89 0.000
+Acid detergent fiber 113.1±20.09 93.4±3.55 0.014 98.5±10.16 64.8±9.17 0.000
+Acid detergent lignin 14.9±7.75 8.9±2.47 0.104 44.8±17.80 8.3±9.35 0.001
+Chitin3 62.4±19.63 56.0±3.96 0.453 52.9±9.25 14.2±6.06 0.000
+Chitin4 75.2±19.7 65.5±3.53 0.283 64.5±9.48 27.0±6.59 0.000
+VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste; WIN: winery by-product; BRE: brewery by-product.
+1 Obtained using the nitrogen-to-protein conversion factor of 6.25.
+2 using the nitrogen-to-protein conversion factor of 4.67.
+3 Calculated using the nitrogen-to-protein conversion factor of 6.25.
+4 using the nitrogen-to-protein conversion factor of 4.67.
+Page 26 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+
+
+ForPeerReview
+1
+1 Table 5: Fatty acid composition (g kg-1 total fatty acids, unless otherwise stated) of black soldier fly larvae reared on organic
+2 wastes (vegetables and fruits) and agro-industrial by-products (winery and brewery) generated by the Italian food sector
+3 (mean ± SD; n = 6).
+Trial 1
+(organic wastes)
+Trial 2
+(agro-industrial by-products)
+VEGFRU FRU P WIN BRE P
+TFA (g kg-1 dry matter) 253.02±18.512 398.40±18.547 0.000 287.41±16.973 282.93±6.936 0.563
+C12:0 520.61±17.505 574.32±11.060 0.000 346.91±16.840 323.73±9.277 0.014
+C14:0 103.55±3.303 96.39±3.471 0.004 65.54±4.283 66.49±2.687 0.654
+C16:0 138.95±7.338 130.57±3.846 0.040 189.36±7.434 204.15±5.772 0.003
+C16:1 c9 33.57±3.606 37.45±0.956 0.046 60.63±4.718 29.45±2.639 0.000
+C18:0 25.90±1.693 17.51±0.539 0.000 28.32±2.139 18.07±0.599 0.000
+C18:1 c9 85.37±4.075 93.19±2.086 0.002 124.59±4.280 92.23±2.414 0.004
+C18:1 c11 4.31±0.381 2.79±0.157 0.000 4.46±0.261 5.75±1.155 0.040
+C18:2 n6 70.41±7.408 40.70±1.534 0.000 175.76±14.935 235.47±6.593 0.000
+C18:3 n3 17.31±1.370 7.06±0.729 0.000 4.44±0.392 24.65±0.504 0.000
+SFA 789.02±10.854 818.81±4.632 0.000 630.13±16.745 612.45±8.784 0.045
+MUFA 123.26±6.829 133.44±2.773 0.013 189.68±6.220 127.43±5.354 0.000
+PUFA 87.72±7.333 47.75±2.083 0.000 180.19±15.244 260.12±6.843 0.000
+4 VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste; WIN: winery by-product; BRE: brewery by-product.
+Page 27 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+
+
+ForPeerReview
+Figure 1. Trial 1: Development (A: weight; B: length) of black soldier fly larvae reared on organic wastes (VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste) generated by the Italian food sector. P-value: *P<0.05, **P<0.01, ***P<0.001. Error bars represent the standard error of the mean.
+106x140mm (600 x 600 DPI)
+Page 28 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+Figure 2. Trial 2: Development (A: weight; B: length) of black soldier fly larvae reared on agro-industrial byproducts (WIN: winery by-product; BRE: brewery by-product) generated by the Italian food sector. P-value: *P<0.05, **P<0.01, ***P<0.001. Error bars represent the standard error of the mean.
+107x140mm (600 x 600 DPI)
+Page 29 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+
+
+ForPeerReview
+Figure 1. Trial 1: Development (A: weight; B: length) of black soldier fly larvae reared on
+organic wastes (VEGFRU: 70% vegetable and 30% fruit waste; FRU: 100% fruit waste)
+generated by the Italian food sector. P-value: *P<0.05, **P<0.01, ***P<0.001. Error bars
+represent the standard error of the mean.
+Figure 2. Trial 2: Development (A: weight; B: length) of black soldier fly larvae reared on
+agro-industrial by-products (WIN: winery by-product; BRE: brewery by-product) generated by
+the Italian food sector. P-value: *P<0.05, **P<0.01, ***P<0.001. Error bars represent the
+standard error of the mean.
+Page 30 of 30
+JSFA@wiley.com
+Journal of the Science of Food and Agriculture
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60

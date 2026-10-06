@@ -1,0 +1,317 @@
+Supporting Information
+Environmental Effects on NDIR-Based CH4
+Monitoring: Characterization and Correction
+Wei Dong1,*, Kyuro Sasaki2, Hemeng Zhang3,4, Yongjun Wang3,4, Xiaoming Zhang4,
+Yuichi Sugai1,5
+1Department of Earth Resources Engineering, Kyushu University, Fukuoka 819-0395, Japan
+2Institute for Future Engineering, Tokyo 135-8473, Japan
+3College of Safety Science and Engineering, Liaoning Technical University, Huludao
+125105, China
+4Institute of Engineering and Environment, Liaoning Technical University, Huludao
+125105, China
+5International Institute for Carbon-Neutral Energy Research (WPI-I2CNER), Kyushu
+University, Fukuoka 819-0395, Japan
+Corresponding Author: Wei Dong (dongw.hk@gmail.com)
+Summary:
+Total pages: 15,
+Total figures: 7,
+Total tables: 5.
+S1
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Environmental Simulation for Laboratory Experiments
+Building on our previous study,1 where we introduced an NDIR-based CH4 sensor featuring
+a MEMS-pyroelectric detector and a mid-IR source, the current objective is to characterize
+the environmental impact factors affecting the sensor’s performance. The NDIR instrument
+used in this study consists of both commercial and in-house components. Specifically, the
+CH4 detection system utilizes a commercially available IR detector, IR source, and com
+patible data acquisition module and software. The customization includes designing sensor
+cells of various dimensions and assembling the components in-house to meet experimental
+requirements. In this improved setup, after the gas reaches the target humidity, it is mixed
+with pure CH4 to achieve varying concentrations. Given the very small amount of CH4
+injected, the impact on relative humidity is considered negligible. Once the concentration of
+the mixed gas stabilizes, it is injected into the gas cell at a constant flow rate of 500 mL/min
+for 1 min, after which the solenoid valves controlling the inlet and outlet are automatically
+closed to perform signal measurement.
+Absorption spectrometry measurements were conducted using a custom-made aluminum
+alloy gas cell (length ≈ 30 cm, volume ≈ 46.2 mL), fitted with 3D-printed saddles and caps,
+and ultra-transparent quartz sheets sealed with silicone-based adhesive to ensure airtightness.
+The gas cell featured solenoid valves and a pressure gauge to monitor the pressure before the
+gas enters the cell, ensuring stable airflow. Data acquisition was achieved with a Fabry-P ́erot
+Interferometer connection board, integrated with a LiTaO3-based pyroelectric detector and
+Fabry-P ́erot filters (LFP-3144C-337 model from InfraTec, 3100 ∼ 4400 nm), and the IR
+source (EMIRS200 from Axetris), which emitted wavelengths from 2 to 14 μm. The system
+was connected to a PC via USB, housed in an insulated box for temperature stability, with
+thermocouples monitoring both the gas cell and ambient temperatures. To identify the
+optimal CH4 detection wavelength, we first conducted a broad scan (10 nm step size) across
+the 3100 ∼ 4400 nm range, identifying a response window between 3200 ∼ 3500 nm. A finer
+2 nm scan revealed 3346 nm as the optimal wavelength, confirmed through experimental and
+S2
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+HITRAN simulations, with strong CH4 absorption and minimal interference from H2O and
+CO2.
+The schematic of the water bath experiment and the distribution of the sensor’s key
+measurement points are shown in Figures S1 and S2, respectively.
+Figure S1: Water bath setup for simulating environmental temperature control.
+Figure S2: Internal structure of the sealed chamber and temperature measurement points.
+S3
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Field Testing at the INAS
+We conducted the measurements using the experimental setup illustrated in Figure S3, which
+was designed to monitor surface soil gas emissions with a focus on the simultaneous mea
+surement of CO2 and CH4 using a chamber-based method.2–4 The setup features a closed
+chamber placed on the soil surface to trap gases emitted from the soil, preventing gas ex
+change with the atmosphere, while external air, serving as a reference, is directed toward
+the sensors. The system includes two NDIR-based sensor arrays: the upper sensor is the LI
+840 CO2/H2O gas analyzer, a fully commercial product from LI-COR, specifically designed
+for precise CO2 concentration measurements. The lower sensor, as described earlier in this
+study, is a custom-designed NDIR-based CH4 sensor featuring a LiTaO3-based pyroelectric
+detector with Fabry-Pe ́rot filters and an EMIRS200 IR emitter.
+The measurement system utilized an STM32 microcontroller and a series of relays to
+control solenoid valves, alternating between the reference gas (atmospheric air) and the
+target gas (soil gas). Atmospheric air was used as the reference for comparative analysis,
+based on the assumption that short-term fluctuations in atmospheric CH4 levels (e.g., within
+24 h) were negligible due to the good air circulation in the field. A vacuum pump, labeled
+“M,” maintained a constant airflow through the sensors at a rate of 500 mL/min, ensuring
+stable gas delivery during the measurements.
+Sequential measurements were conducted for both gas types, with each analysis lasting 2
+min, followed by a 5 min rest period. The field test spanned a 21-h period, capturing varia
+tions in CO2 and CH4 levels under different temperature conditions during both daytime and
+nighttime. To provide further insight into CH4 measurements, relevant soil characteristics
+were also tracked.
+Prior to field deployment, the NDIR sensors were calibrated in the laboratory at approx
+imately 25 °C to ensure measurement accuracy. For the NDIR-based CO2 sensor, dry N2 gas
+was used as the zero reference, while the NDIR-based CH4 sensor was calibrated using both
+dry N2 gas and a 1000 ppm standard CH4 gas mixture. During the field test, recalibrations
+S4
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+were not performed due to dynamically changing environmental conditions and logistical
+constraints. Instead, monitoring data were collected across diverse environmental settings
+to support the development of bias correction strategies, minimizing the need for frequent
+recalibrations while ensuring the reliability of the data.
+Figure S3: Schematic of the measurement setup used to monitor soil gas emissions at the INAS field.
+Machine Learning-Based Bias Correction
+After the initial model selection process, four models, namely decision tree, random forest,
+gradient boosting, and LightGBM,5–8 were further optimized through Bayesian hyperparam
+eter tuning. The detailed parameter ranges for each model are presented in Tables S1−S4.
+Bayesian optimization focused on minimizing the mean squared error, ensuring optimal per
+formance for continuous target prediction.9,10
+S5
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Table S1: Hyperparameters for Decision Tree
+Hyperparameter Range
+max depth (5, 50)
+min samples split (2, 10)
+min samples leaf (1, 5)
+Table S2: Hyperparameters for Random Forest
+Hyperparameter Range
+n estimators (50, 200)
+max depth (5, 50)
+min samples split (2, 10)
+min samples leaf (1, 5)
+Table S3: Hyperparameters for Gradient Boosting
+Hyperparameter Range
+n estimators (50, 200)
+max depth (5, 50)
+learning rate (0.01, 0.3)
+min samples split (2, 10)
+min samples leaf (1, 5)
+Table S4: Hyperparameters for LightGBM
+Hyperparameter Range
+n estimators (50, 200)
+max depth (5, 50)
+learning rate (0.01, 0.3)
+subsample (0.6, 1.0)
+colsample bytree (0.6, 1.0)
+S6
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+In this study, Bayesian optimization refined model performance and ensured optimal
+hyperparameter selection for regression tasks. The models were trained on scaled data to
+maintain consistency in feature distributions while preserving the target variable. Incor
+porating environmental variations into the feature engineering process facilitated a robust
+characterization of sensor response biases under dynamic conditions.
+Basic Analysis of Temperature Sensitivity
+Figure S4 illustrates that, despite achieving impressive R2 values of 0.999 during heating and
+0.998 during cooling, these models are not robust across the full spectrum of temperature
+variations. While they capture the general trend, they fall short in accurately representing
+the gas detector’s signal response under dynamic temperature changes. This suggests that
+simple linear regression models, though successful in controlled scenarios, fail to account for
+the full complexity of the data, highlighting the need for more sophisticated approaches to
+address the challenges posed by real-world environmental conditions.
+Figure S4: Linear fitting of response trends for each temperature range during heating and cooling stages.
+S7
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Cross-Influence of Temperature and Humidity
+These findings highlight the significant impact of temperature and humidity on CH4 detection
+performance, underscoring the importance of carefully controlled environmental conditions
+to achieve optimal results. As shown in Figure S5, high-temperature and low-humidity
+environments demonstrate more favorable detection limits compared to low-temperature
+and high-humidity conditions. This advantage arises from reduced water vapor interference
+and enhanced signal resolution, which mitigate the overlap between H2O and CH4 absorption
+bands.
+Figure S5: Detection limits under different temperature and humidity conditions.
+In contrast, low-temperature and high-humidity conditions amplify the influence of wa
+ter molecules on detection. The overlap of the infrared absorption bands of H2O and CH4
+becomes more pronounced, especially as temperature-induced state changes, such as con
+densation near the dew point, further complicate measurements. These challenges are par
+S8
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+ticularly significant in environments with seasonal or regional temperature variations. While
+water content variations driven by temperature and humidity are a key factor affecting CH4
+detection limits, they are not the only source of systematic deviations.
+Impact Assessment of Gas Selectivity
+As shown in Figure S6, CO2 concentrations below 500 ppm exert minimal influence on the
+CH4 response ratio, indicating a relatively stable monitoring performance in environments
+with moderate CO2 levels. However, when CO2 concentrations increase to 1000 ppm, a
+noticeable rise in the CH4 response ratio is observed, suggesting that elevated CO2 lev
+els enhance infrared absorption and may introduce significant measurement biases. While
+fluctuations within ±500 ppm CO2 are unlikely to affect CH4 monitoring accuracy, larger
+variations could compromise sensor reliability.
+Figure S6: Variation of CH4 signal response with different CO2 levels.
+S9
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Field Test Insights on CH4 Baseline Dynamics
+Soil physico-chemical sensors were deployed to measure the physical and chemical properties
+of the soil to investigate its basic characteristics.11–13 The statistics for basic soil property
+indicators summarized in Table S5 indicate that the mean soil temperature T was approxi
+mately 27.9 °C with a standard deviation of 8.9 °C. Soil relative humidity RH had a mean of
+23.5% and exhibited low variation. Soil salinity S averaged 193.6 ppm, with values ranging
+from 143 ppm to 236 ppm. The soil pH averaged 6.4, indicating slightly acidic conditions,
+while minimal variation was observed in conductivity C consistently measured at 200 μS/cm.
+Similarly, we measured nitrogen, phosphorus, and potassium levels, which were consistently
+at 15 mg/kg, 21 mg/kg, and 53 mg/kg, respectively, although these are not shown in the
+table. This suggests a stable chemical environment for soil nutrients, with more variability
+observed in physical properties such as temperature and salinity.
+As described above, the field test was conducted in a relatively stable soil environment,
+where no significant CH4 emissions were anticipated. Despite this, a notable lag in the CO2
+signal was observed, likely due to delayed biological responses, including plant respiration
+and soil microbial activity. The CH4 and CO2 signals were measured using two separate
+NDIR devices, each tuned to its respective wavelength. Interestingly, the CH4 signal trend
+closely followed that of the CO2 signal, showing a strong correlation. This suggests that
+fluctuations in CO2 concentrations significantly influenced the CH4 response, reinforcing
+findings from our laboratory CO2 selectivity tests. Our background survey, which included
+information on local vegetation, fauna, and industrial activities, further confirmed that the
+absence of substantial biological activity in the area (e.g., wetlands or permafrost) accounted
+for the lack of CH4 emissions. These results highlight that, even in a stable environment,
+CH4 detection can still be impacted by CO2 fluctuations, underscoring the need to account
+for cross-interference in real-world sensor applications.
+S10
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Table S5: Statistics of Basic Soil Property Indicators
+Statistic T (°C) RH (%) S (ppm) C (μS/cm) pH
+Mean 27.9 23.5 193.6 200.0 6.4
+Std 8.9 0.3 31.3 0.0 0.4
+Min 17.3 22.8 143.0 200.0 5.78
+25% 19.4 23.3 163.0 200.0 6.03
+50% 26.1 23.4 195.0 200.0 6.4
+75% 36.0 23.8 225.0 200.0 6.76
+Max 44.6 24.1 236.0 200.0 7.02
+Bias Correction Accuracy of Machine Learning Models
+Figure S7 shows the performance of various models on both the training and cross-validation
+sets. The learning curves, which plot model performance against the size of the train
+ing dataset, provide insight into how the model’s accuracy evolves as more data is intro
+duced.14–17 In this case, linear regression demonstrates poor performance, with both the
+training and cross-validation scores being consistently low and showing high variability. This
+indicates that linear regression struggles with generalization and does not perform well re
+gardless of the dataset size.
+Decision tree, random forest, and gradient boosting also show variability in their per
+formance with small datasets. When the sample size is below 100, their training scores are
+relatively high, but the cross-validation scores exhibit a large standard deviation, indicating
+the presence of overfitting and instability due to the limited number of samples. However, as
+the dataset size increases, their performance improves, and the overfitting issues diminish,
+with gradient boosting showing better generalization compared to decision tree and random
+forest.
+S11
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+Figure S7: Learning curves showing model performance based on the number of training samples.
+XGBoost demonstrates effective control over overfitting across datasets of varying sizes,
+with a moderate gap between training and cross-validation scores. However, its performance
+on the cross-validation set is less consistent, showing a relatively high standard deviation
+and weaker overall results compared to LightGBM. In contrast, LightGBM achieves more
+consistent performance, with closely aligned training and cross-validation scores that steadily
+S12
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+improve. This indicates that LightGBM not only mitigates overfitting effectively but also
+handles data variations well, delivering high accuracy, particularly on small datasets, making
+it a more reliable choice for real-world applications.
+References
+[1] Wei Dong, Yuichi Sugai, Yongjun Wang, Hemeng Zhang, Xiaoming Zhang, and
+Kyuro Sasaki. Experimental study on enhanced methane detection using an MEMS
+pyroelectric sensor integrated with a wavelet algorithm. ACS Omega, 9(18):19956
+19967, 2024.
+[2] Cornelius Oertel, Jo ̈rg Matschullat, Kamal Zurba, Frank Zimmermann, and Stefan
+Erasmi. Greenhouse gas emissions from soils—a review. Geochemistry, 76(3):327–352,
+2016.
+[3] AP Schrier-Uijl, PS Kroon, A Hensen, PA Leffelaar, F Berendse, and EM Veenen
+daal. Comparison of chamber and eddy covariance-based CO2 and CH4 emission esti
+mates in a heterogeneous grass ecosystem on peat. Agricultural and Forest Meteorology,
+150(6):825–831, 2010.
+[4] Zhisheng Yao, Xunhua Zheng, Baohua Xie, Chunyan Liu, Baoling Mei, Haibo Dong,
+Klaus Butterbach-Bahl, and Jianguo Zhu. Comparison of manual and automated cham
+bers for field measurements of N2O, CH4, CO2 fluxes from cultivated land. Atmospheric
+Environment, 43(11):1888–1896, 2009.
+[5] Yan-Yan Song and Ying Lu. Decision tree methods: Applications for classification and
+prediction. Shanghai Archives of Psychiatry, 27(2):130, 2015.
+[6] Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye,
+and Tie-Yan Liu. Lightgbm: A highly efficient gradient boosting decision tree. Advances
+in Neural Information Processing Systems, 30:3146–3154, 2017.
+S13
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+[7] G ́erard Biau and Erwan Scornet. A random forest guided tour. Test, 25:197–227, 2016.
+[8] Alexey Natekin and Alois Knoll. Gradient boosting machines, a tutorial. Frontiers in
+neurorobotics, 7:21, 2013.
+[9] Jia Wu, Xiu-Yun Chen, Hao Zhang, Li-Dong Xiong, Hang Lei, and Si-Hao Deng. Hy
+perparameter optimization for machine learning models based on bayesian optimization.
+Journal of Electronic Science and Technology, 17(1):26–40, 2019.
+[10] Jasper Snoek, Hugo Larochelle, and Ryan P Adams. Practical bayesian optimization
+of machine learning algorithms. Advances in Neural Information Processing Systems,
+25:2951–2959, 2012.
+[11] Marina Nadporozhskaya, Ninel Kovsh, Roberto Paolesse, and Larisa Lvova. Recent
+advances in chemical sensors for soil analysis: A review. Chemosensors, 10(1):35, 2022.
+[12] Lobna Gharbi Tarchouna, Patricia Merdy, Michel Raynaud, Hans-Rudolf Pfeifer, and
+Yves Lucas. Effects of long-term irrigation with treated wastewater. Part I: Evolution
+of soil physico-chemical properties. Applied Geochemistry, 25(11):1703–1710, 2010.
+[13] Maria Luisa Garcia and M Masson. Environmental and geologic application of solid
+state methane sensors. Environmental geology, 46(8):1059–1063, 2004.
+[14] Felix Mohr and Jan N van Rijn. Fast and informative model selection using learning
+curve cross-validation. IEEE Transactions on Pattern Analysis and Machine Intelli
+gence, 45(8):9669–9680, 2023.
+[15] Tom Viering and Marco Loog. The shape of learning curves: A review. IEEE Transac
+tions on Pattern Analysis and Machine Intelligence, 45(6):7799–7819, 2022.
+[16] Alireza Nemat Saberi, Anouar Belahcen, Jan Sobra, and Toomas Vaimann. Lightgbm
+based fault diagnosis of rotating machinery under changing working conditions using
+modified recursive feature elimination. IEEE Access, 10:81910–81925, 2022.
+S14
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026
+
+
+[17] Claudia Perlich, Foster Provost, and Jeffrey Simonoff. Tree induction vs. logistic re
+gression: A learning-curve analysis. Journal of Machine Learning Research, 4:211–255,
+2003.
+S15
+Downloaded from pubs.acs.org/esthag/article-supplement/3662327/pdf/es4c11110_si_001/ by guest on 19 August 2026

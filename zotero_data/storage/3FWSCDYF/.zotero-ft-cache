@@ -1,0 +1,384 @@
+Advances in Resources Research ONLINE ISSN 2436-178X
+Vol. 4, No. 2 (April, 2024) pp. 221-230 DOI: 10.50908/arr.4.2_221
+- 221 
+[Original Paper]
+Application of big data in smart agriculture
+Yingbo Zhang1)
+Abstract
+Using big data in smart agriculture represents a significant technological revolution in the agricultural
+sector. This paper delves into the primary application areas of big data in smart agriculture, encompassing
+precision agriculture, intelligent farming machinery, and sustainable agriculture. To begin with, big data
+technology offers comprehensive data support for decision-makers in agriculture. Through real-time
+monitoring and extensive data analysis, agricultural producers can gain more precise insights into soil
+conditions, crop growth status, and other crucial information. Furthermore, implementing big data in
+precision agriculture facilitates intelligent agricultural production by integrating precision fertilization,
+irrigation, and pest and disease monitoring, thereby enhancing production efficiency. The advancement of
+intelligent farming machinery also plays a pivotal role in enhancing the intelligence and efficiency of field
+operations. Moreover, big data technology contributes to sustainable agriculture by providing scientific
+support for agricultural decisions through data analysis on climate change, resource utilization, and other
+pertinent aspects, thereby promoting the transition towards environmentally friendly agricultural practices.
+Looking ahead, with continuous innovation and widespread adoption of big data technology, smart
+agriculture is poised for significant development opportunities.
+Keywords
+big data in agriculture, smart agriculture technology, precision agriculture applications, intelligent
+farming machinery, sustainable agriculture with big data
+1. Introduction
+The rapid evolution of big data technology is ushering in profound changes in the field of agriculture. In
+recent years, due to the continuous advancement of information technology, the volume of data generated in
+agricultural production has expanded rapidly. This phenomenon, commonly referred to as “big data,” has
+emerged as a driving force behind the modernization of agriculture. The significance of big data in smart
+agriculture is increasingly prominent, acting as a crucial support for enhancing agricultural production
+efficiency and optimizing resource utilization. By adeptly collecting, managing, and analyzing this extensive
+agricultural data, decision-makers in agriculture can gain more precise insights into various factors such as
+soil conditions, weather patterns, crop growth, and market information. This, in turn, enables more intelligent
+agricultural production [1-5].
+1) Rural Revitalization College, Kangan University
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 222 
+The application of big data in smart agriculture first faces the challenge of data collection and
+management. The data involved in agricultural production covers a wide range, including soil composition,
+weather changes, and plant growth conditions. Various technologies such as sensors and satellite remote
+sensing can be employed to monitor and collect this data in real time. Simultaneously, for such massive data,
+scientific management and storage become the foundation for subsequent analysis. Therefore, constructing
+an efficient big data collection and management system not only provides data support for smart agriculture
+but also lays the groundwork for more in-depth decision analysis [6-10].
+The application of big data in smart agriculture goes beyond data collection; it crucially involves
+transforming this data into concrete decision support. Data cleaning, processing, and analysis become
+indispensable steps. Through big data analytics, crop diseases can be identified, optimal planting times can
+be determined, and market demand can be predicted, providing agricultural decision-makers with more
+scientific and precise information support. The real-time and comprehensive nature of big data allows
+agricultural decisions to be adjusted in real-time, minimizing production risks and enhancing agricultural
+production efficiency. Therefore, the role of big data in decision support is considered one of the core drivers
+of smart agriculture [11-15].
+This paper aims to delve into the application of big data in smart agriculture, with a focus on analyzing
+the impact of big data technology on various aspects of agricultural production and emphasizing its
+importance for the development of smart agriculture. By comprehensively introducing specific applications
+of big data in data collection, management, decision support, and more, the goal is to provide readers with a
+profound understanding of big data technology in smart agriculture.
+The structure of this paper is as follows. Starting from the introduction, the rise of big data in agriculture
+and its importance to smart agriculture are presented. Subsequently, the paper is divided into two key sections.
+The first part focuses on the collection and management of big data, providing an in-depth analysis of data
+sources and collection technologies in agricultural production, emphasizing the necessity of constructing an
+efficient big data collection and management system. The second part concentrates on the role of big data in
+decision support, covering data cleaning, processing, analysis, and highlighting the crucial support provided
+by big data to decision-making in smart agriculture. Through discussions on these two main aspects, readers
+will gain a comprehensive understanding of the key applications of big data in smart agriculture, thus better
+recognizing its role in improving agricultural production efficiency and sustainable development
+2. Data collection and management in big data agriculture
+2.1. Data sources in agricultural production
+The sources of data in agricultural production are diverse and extensive, covering various aspects from
+land to weather and plants. Firstly, soil composition is a crucial data source in agriculture. Through soil
+sensors and detection devices, agricultural producers can obtain key information about soil nutrient content,
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 223 
+and pH values, aiding in the formulation of scientific fertilization plans. Secondly, meteorological data plays
+a vital role in agriculture. Weather stations and satellite technology can provide accurate meteorological
+information, including temperature, humidity, and rainfall, offering real-time weather conditions to assist
+farmers in planning planting and agricultural activities. Additionally, plant growth conditions are also an
+essential data source in agriculture. Through image sensors and monitoring devices, practitioners can
+monitor crop growth in real-time, facilitating timely measures against pests and diseases.
+Among these data sources, agricultural producers can gain in-depth insights into critical elements such
+as land, weather, and plants, enabling better production planning and decision-making. The high-quality
+collection of this data forms the foundation of smart agriculture, laying the groundwork for subsequent big
+data analysis and applications.
+The diversity of data sources allows agricultural producers to comprehensively understand the conditions
+of farmland, and scientifically formulate planting plans, and agricultural schedules. By fully utilizing modern
+sensors and monitoring technologies, agricultural producers can not only increase production efficiency but
+also achieve precise monitoring of the agricultural production environment. This not only helps improve
+crop yield and quality but also contributes to reducing resource waste and environmental pollution. Therefore,
+a deep understanding of data sources in agricultural production promotes the development of smart
+agriculture, achieving a more sustainable and efficient agricultural production model.
+2.2. Big data collection technologies
+The successful application of big data in smart agriculture relies on efficient big data collection
+technologies. Firstly, sensor technology plays a crucial role in agricultural data collection. Various sensors,
+such as soil sensors, weather sensors, and image sensors, can monitor and collect multidimensional data in
+real-time from the agricultural production environment. The widespread use of these sensors enables
+agricultural producers to accurately obtain key information, such as soil nutrient content, weather conditions,
+and plant growth status, providing real-time and comprehensive data support for smart agriculture. Secondly,
+satellite remote sensing technology is also a significant means of big data collection. Through satellite remote
+sensing, agricultural producers can obtain land information over a broader area, including land use conditions
+and vegetation indices. This remote monitoring technology provides a more comprehensive and efficient
+means of data collection for larger-scale farmland. Additionally, advanced agricultural machinery is
+equipped with various sensors, enabling automatic monitoring of the agricultural production process, and
+facilitating the real-time generation of data.
+With the support of big data collection technologies, the acquisition of agricultural data no longer relies
+on traditional manual collection or single-channel data sources but is achieved through automated and
+intelligent means, enabling large-scale, real-time, and comprehensive data collection.
+Building an efficient big data collection and management system is a prerequisite for the implementation
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 224 
+of smart agriculture. This requires agricultural producers to integrate various data sources reasonably,
+ensuring data quality and consistency. Simultaneously, there are higher demands for the real-time processing
+and transmission of data to ensure the timely and effective application of this data. Therefore, in the
+development of big data collection technologies, attention should be paid not only to the means of data
+collection but also to the establishment of an efficient data management system to support more in-depth
+agricultural data analysis and applications.
+3. Big data analysis techniques
+3.1. Data cleaning and processing
+In the application of big data in smart agriculture, data cleaning and processing are crucial steps to ensure
+data quality and usability. Firstly, data cleaning involves filtering, removing outliers, and filling in missing
+values in the collected raw data to ensure accuracy and completeness. In agricultural data, environmental
+factors and limitations of sensor equipment may introduce noise or outliers, and data cleaning effectively
+enhances the credibility of the data. Secondly, data processing involves manipulating, organizing, and
+calculating cleaned data to obtain higher-level information. In smart agriculture, data processing includes
+using statistical methods, machine learning algorithms, etc., to extract valuable information from massive
+data, such as crop growth trends, and pest predictions, providing scientific support for agricultural decision
+making.
+The effectiveness of data cleaning and processing is directly related to the reliability of subsequent data
+analysis and applications. Through standardized data cleaning and processing procedures, practitioners can
+obtain more accurate and reliable data, thereby enhancing the scientific and operational aspects of decision
+making. Additionally, effective data cleaning and processing provide a high-quality data foundation for the
+visualization and model building of agricultural big data. Therefore, data cleaning and processing play a
+vital role in smart agriculture, laying a solid foundation for the in-depth application of big data.
+3.2. Data mining and model building
+In smart agriculture, data mining and model building are critical processes for transforming vast
+agricultural data into actionable information. Firstly, data mining involves using various algorithms and
+techniques to discover potential patterns and rules from extensive agricultural data. This includes operations
+like classification, clustering, and association rule mining to extract useful information. For instance, through
+data mining, agricultural practitioners can discover the optimal timing for crop growth under specific
+meteorological conditions or identify potential factors affecting yields. Secondly, model building is the
+construction of mathematical or statistical models based on data mining to better understand and predict the
+behavior of agricultural systems. Machine learning algorithms play a crucial role in this process by learning
+from historical data to establish predictive models, aiding agricultural decision-makers in making
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 225 
+scientifically sound decisions.
+The goal of data mining and model building is to reveal patterns and associations hidden in agricultural
+data through in-depth analysis, providing more accurate guidance for agricultural production. By
+establishing predictive models, practitioners can better address risks such as climate change and pest
+outbreaks, achieving precise management of agricultural production. Additionally, by continuously
+optimizing and adjusting models, they can adapt to different environments and conditions, enhancing the
+accuracy of predictions. Therefore, data mining and model building provide robust technical support for the
+intelligence and sustainable development of smart agriculture.
+3.3. Application of machine learning in agriculture
+The application of machine learning technology in smart agriculture adds a new dimension to agricultural
+decision-making. Firstly, through supervised learning algorithms, machine learning can utilize extensive
+historical data to train models, predicting future agricultural trends and production conditions. For example,
+machine learning models can be used to forecast crop yields and the probability of pest occurrences,
+providing more accurate planting recommendations for agricultural producers. Secondly, unsupervised
+learning algorithms play a crucial role in clustering and classification tasks in agriculture. Through clustering
+analysis of different plots, plants, or soil types, machine learning helps agricultural practitioners better
+understand the heterogeneity of land, providing a basis for precision management. Additionally, the
+introduction of reinforcement learning algorithms makes autonomous and intelligent agricultural machinery
+possible. Through the learning and adaptability of intelligent farm machinery, more efficient field operations
+can be achieved.
+The widespread application of machine learning in agriculture not only improves the efficiency of
+agricultural production but also injects new vitality into the sustainable development of agriculture. By
+continuously optimizing and adjusting models, machine learning technology can adapt to complex
+environments such as different weather, land, and plant conditions, providing more personalized and accurate
+solutions for agricultural decision-making. This allows agricultural production to better cope with challenges
+such as climate change and resource limitations, optimizing resource utilization and driving agriculture
+toward a more intelligent and sustainable direction. Therefore, the application of machine learning in
+agriculture not only enhances the level of modernization in agriculture but also brings new possibilities for
+the sustainable development of the agricultural industry.
+4. Role of big data in decision support for agriculture
+4.1. Demands for agricultural production decision-making
+The demands for decision-making in agricultural production constitute one of the core driving forces
+behind the development of smart agriculture. Firstly, with the continuous increase in the global population,
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 226 
+the demand for food is on the rise. To meet this demand, agricultural production must become more efficient
+and intelligent. Agricultural producers need to make accurate planting decisions under constantly changing
+weather conditions, scientifically allocate resources, and enhance crop yield and quality. Secondly, the
+intensification of climate change imposes higher requirements on agricultural production. Irregular rainfall,
+extreme weather events, and other factors disrupt traditional agricultural seasons and cycles, necessitating
+more flexible adjustments to planting plans and irrigation schemes to adapt to the evolving weather
+conditions. Additionally, intensified global market competition requires agricultural producers to finely
+adjust the planting structure, engaging in intelligent agricultural production based on market demand.
+These challenges and demands drive agricultural producers to seek more scientific and intelligent
+decision support. The development of smart agriculture aims to meet the urgent need of agricultural
+producers to make scientifically informed decisions by integrating advanced technologies in the face of
+constantly changing environments. Smart agriculture not only focuses on improving production efficiency
+but also emphasizes ensuring food supply within the framework of sustainable development, enhancing the
+adaptability and resilience of agricultural production. Therefore, the demand for decision-making in
+agricultural production propels the innovation and application of smart agricultural technologies, providing
+robust momentum for the transformation of the agricultural industry.
+In summary, the demands for decision-making in agricultural production are increasingly complex and
+challenging, compelling agricultural producers to continuously seek more advanced technological means.
+Through the introduction of smart agricultural technologies, agricultural producers can better cope with
+uncertainties such as climate change and market fluctuations, achieving intelligent and sustainable
+development of agricultural production. Thus, the demand for decision-making in agricultural production is
+not only the driving force behind the development of smart agriculture but also an urgent requirement for
+achieving modernization and sustainable development in agriculture.
+4.2. Practical applications of big data in agricultural decision-making
+The practical applications of big data in agricultural decision-making have yielded various achievements,
+primarily evident in precision agriculture. Through large-scale data collection and analysis, agricultural
+producers can obtain more detailed information, such as precise soil details, meteorological data, and plant
+growth conditions, enabling precise fertilization and irrigation. This not only improves farmland utilization
+efficiency, and reduces waste, but also helps enhance the quality and yield of agricultural products. Secondly,
+significant progress has been made in the application of big data in agricultural production planning. By
+analyzing historical yields, market demands, and other data, agricultural decision-makers can more
+accurately predict future market trends, adjust crop planting structures, and implement more scientifically
+informed agricultural production plans. Big data plays a crucial role in pest and disease monitoring and
+control, allowing decision-makers to detect and respond to outbreaks earlier, ensuring the stability of
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 227 
+agricultural production.
+In agricultural decision-making, big data also provides robust support for agricultural finance. By
+analyzing various data on agricultural production, financial institutions can more comprehensively assess
+the operational status of farms, offering more personalized financial services to agricultural producers.
+Additionally, big data has extensive applications in logistics and supply chain management. Through real
+time monitoring and analysis of logistics data, the transportation, storage, and sale of agricultural products
+can be more efficiently carried out, reducing losses and transportation costs, and improving the efficiency of
+product circulation.
+Overall, the practical applications of big data in agricultural decision-making have profoundly changed
+the way agricultural production operates. From precision agriculture to market forecasting, from pest and
+disease monitoring to financial services, big data technology provides decision-makers in agriculture with
+more comprehensive and accurate information support in different domains. This application not only
+enhances the efficiency of agricultural production but also promotes the modernization and sustainable
+development of the agricultural industry. Therefore, the practical application of big data in agricultural
+decision-making provides agricultural producers with more innovative possibilities, driving the digital
+transformation of the agriculture sector.
+5. Application of big data in precision agriculture
+5.1. Utilization of satellite remote sensing data
+The widespread application of satellite remote sensing data provides crucial information support for
+agricultural decision-making. Firstly, satellite remote sensing data can offer extensive, high-resolution
+surface information in agriculture. Through data captured by satellite sensors, agricultural practitioners can
+obtain detailed information about land use, vegetation growth, soil moisture, and more. These data not only
+provide a comprehensive spatial perspective for agricultural production but also assist producers in better
+understanding and monitoring changes in different land plots. Secondly, time-series analysis of satellite
+remote sensing data can track agricultural seasonal changes. By comparing satellite data at different time
+points, agricultural decision-makers can understand the dynamic process of plant growth, predict crop
+growth cycles, identify potential issues promptly, and take corresponding measures. This is crucial for
+planting plans, irrigation management, and pest monitoring.
+The utilization of satellite remote sensing data plays a key role in precision agriculture. Through the
+comprehensive analysis of multi-source satellite data, agricultural decision-makers can formulate more
+intelligent and scientific agricultural strategies. For example, the health of vegetation can be assessed based
+on vegetation indices, allowing timely adjustments to fertilization plans. Monitoring soil moisture enables
+precise irrigation management. Moreover, satellite remote sensing data can be used to monitor the impact of
+natural disasters such as floods and droughts, enabling proactive measures against agricultural disasters.
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 228 
+Therefore, the utilization of satellite remote sensing data not only provides timely and comprehensive
+information for agricultural decision-making but also plays an irreplaceable role in improving agricultural
+production efficiency and reducing disaster risks.
+5.2. Role of drone technology in big data
+Drone technology plays an increasingly crucial role in big data applications, especially in the field of
+agriculture. Firstly, drones, equipped with various sensors and cameras, can efficiently and rapidly collect
+various data in agricultural production. For instance, infrared cameras can be used to monitor crop growth
+status, and multispectral sensors can provide useful information such as vegetation indices. This high
+frequency, high-resolution data collection allows agricultural decision-makers to have a more comprehensive
+understanding of farmland conditions, and promptly identify issues like plant diseases or nutrient
+deficiencies. Secondly, drone technology achieves precise monitoring of large-scale farmland. Through
+automatic flight and remote sensing technology, drones can cover vast agricultural areas in a short period,
+providing detailed geographic information. This offers an efficient means for agricultural practitioners to
+better formulate planting plans, and irrigation schemes, enhancing the sustainability and profitability of
+agricultural production.
+The role of drone technology in big data goes beyond data collection; it extends to supporting big data
+analysis and decision-making. By incorporating advanced image processing and computing capabilities,
+drones can process and analyze collected data in real-time, providing feedback to agricultural practitioners.
+This provides powerful technical support for the development of precision and smart agriculture.
+Additionally, drone technology plays a role in agricultural supervision, enabling precise monitoring of
+farmland area, and crop planting conditions, contributing to accurate agricultural production supervision.
+Therefore, in the era of big data, drone technology provides agriculture with more efficient, precise data
+support, propelling agriculture towards digitization and intelligence.
+5.3. Application of big data in precision fertilization and irrigation
+The application of big data in precision fertilization and irrigation has brought revolutionary changes to
+modern agriculture. Firstly, through big data analysis of soil nutrient levels, vegetation indices,
+meteorological conditions, and other multidimensional data, agricultural decision-makers can formulate
+more precise fertilization plans. Big data technology can monitor soil nutrient levels in real-time, analyze
+crop growth status, providing scientifically sound fertilization recommendations. This not only improves the
+efficiency of fertilization, reduces resource waste in agricultural production but also helps ensure the quality
+of agricultural products. Secondly, the application of big data in irrigation management is equally significant.
+Through monitoring soil moisture, meteorological conditions, and other data, big data technology can
+intelligently adjust irrigation systems, achieving precise plant irrigation. This precision irrigation not only
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 229 
+improves the efficiency of water resource utilization but also helps prevent issues like soil salinization,
+promoting sustainable development in agriculture.
+The application of big data in precision fertilization and irrigation not only enhances the efficiency of
+agricultural production but also has a positive impact on the environment and sustainable agriculture. By
+accurately understanding the needs of soil and plants, agricultural decision-makers can reduce unnecessary
+use of fertilizers and water resources, lowering the environmental impact of agriculture. This lays the
+foundation for the green development of agriculture. Additionally, the application of big data in precision
+fertilization and irrigation provides a practical case for agricultural digitization, driving the development of
+smart agriculture. Through the integration of big data technology, agricultural production gradually
+transitions from experience-driven to data-driven and science-driven, providing more scientific and reliable
+support for agricultural decision-making.
+6. Conclusions
+The application of big data in smart agriculture has already brought profound impacts, providing vast
+prospects for the future development of the agricultural sector. Firstly, big data technology has offered a
+fresh perspective and tools for agricultural production. Through real-time monitoring and extensive data
+analysis, agricultural decision-makers can gain a more comprehensive and accurate understanding of critical
+information such as farmland conditions and crop growth status, enabling them to formulate more
+scientifically sound decisions. The application of big data not only enhances the efficiency of agricultural
+production but also serves as an opportunity for the digital transformation of the agricultural industry.
+Secondly, the influence of big data on smart agriculture manifests in various aspects, including precision
+agriculture, smart agricultural machinery, and sustainable agriculture. With the support of big data,
+agricultural producers can achieve precision fertilization, irrigation, and pest monitoring, thereby increasing
+production efficiency. The development of smart agricultural machinery also contributes to more intelligent
+and efficient field operations. Additionally, big data provides crucial information support for the sustainable
+development of agriculture, assisting decision-makers in better addressing challenges such as climate change
+and resource limitations.
+In conclusion, looking ahead to the future, with the continuous development and widespread adoption of
+big data technology, smart agriculture will usher in even broader development prospects. Future smart
+agriculture will emphasize characteristics such as digitization, intelligence, and sustainability. Big data
+technology will continue to drive scientific and intelligent decision-making in agriculture, enhancing the
+adaptability and resilience of agricultural production. Concurrently, addressing challenges like data security,
+quality, and technology accessibility will be essential to promote the healthy development of smart
+agriculture. In the future, big data will continue to bring more innovation to agriculture, propelling the
+agricultural industry toward greater modernization and sustainability.
+
+
+Yingbo Zhang. Advances in Resources Research, 2024, 4(2), 221-230
+DOI: 10.50908/arr.4.2_221
+- 230 
+References
+[1] Li M, He J. Research on digital economy enabling high-quality agricultural development: Based on the
+analysis of panel data of Hunan province from 2012 to 2020. Journal of Hunan Agricultural University
+(Social Sciences), 2023, 24(1), 14-23.
+[2] Qian Z, Yue J, Cai Y. The impact of the scale of land operation on the adoption of modern agricultural
+technology by family farms: Based on the analysis of the monitoring data of 1085 family farms. Journal
+of Hunan Agricultural University (Social Sciences), 2023, 24(2), 10-18.
+[3] Zhu W, Wang R. Farm size, land transfer and fertilizer reduction and efficiency: Based on a survey data
+of 4745 rural households in China. Journal of Sichuan Agricultural University, 2023, 41(2), 372-379.
+[4] Liu N, Xiong A, Zhang Q, et al. Integration and evaluation of multi-source meteorological radiation
+data over Qinghai-Xizang plateau. Plateau Meteorology, 2023, 42(1), 35-48.
+[5] Li G, Wang J, Wang T. Crop disease recognition algorithm based on common feature learning and data
+augmentation. Chinese High Technology Letters, 2023, 33(3), 261-270.
+[6] Chen Y. Research on the application of big data in intelligent agriculture. Hubei Agricultural Sciences,
+2020, 59(1), 17-22.
+[7] Liu J. Analysis of the hotspot and development trend of foreign intelligent agriculture research: Visual
+analysis based on Web of Science database bibliometrics and knowledge graph. New Economy &
+Future Industry, 2023, 1, 69-78.
+[8] Hao X. Analysis of the research status of smart agriculture at home and abroad based on big data.
+Journal of Smart Agriculture, 2023, 3(20), 5-9.
+[9] Sun Z, Du K, Zheng F, et al. Perspectives of research and application of big data on smart agriculture.
+Journal of Agricultural Science and Technology, 2013, 15(6), 63-71.
+[10] Qian Y, Sun J, Li B, et al. Development Strategy and path of intelligent agriculture in China under big
+data environment. Journal of Yunnan Agricultural University (Social Science). 2019, 13(1), 6-10.
+[11] Zheng Q, Li P, Zhou D. Current status and trend of studying smart agriculture based on bibliometric
+analysis. Journal of Huazhong Agricultural University, 2023, 42(3), 29-38.
+[12] Wang L, Zeng X, Fang J. Analysis on training needs of new farmers from the perspective of smart
+agriculture: Based on the survey data of five regions in two provinces. Journal of Agricultural Sciences,
+2021, 42(1), 74-80.
+[13] Wang J. Research on the development situation of big data applications in the era of smart agriculture.
+Journal of Technical Economics & Management, 2020, 2, 124-128.
+[14] Chen X, Wang X, Shen H. Combination forecasting model of time series data in smart agriculture.
+Computer and Modernization, 2021, 9, 121-126.
+[15] Xian Y, Zhao X, Zeng Y, et al. Big data, smart agriculture, agricultural information. Advances in Social
+Sciences, 2022, 8, 3121-3126.

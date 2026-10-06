@@ -1,0 +1,340 @@
+Journal of Insects as Food and Feed, 2021; 7(5): 499-509 Wageningen Academic
+Publishers
+SPECIAL ISSUE: Advancement of insects as food and feed in a circular economy
+ISSN 2352-4588 online, DOI 10.3920/JIFF2020.0055 499
+1. Introduction
+When one thinks about building a production facility in which insects will be reared or ‘farmed’ for commercial purposes two issues are of primary and immediate concern: (1) what is the organism/feed combination targeted; and (2) what will be the basic organisational scheme of the facility, i.e. how will it be structured and operated? These issues are central regardless of the scale of the planned project and final decisions about them must be made well before the actual design of a production facility is started. The organisational scheme is then implemented in the production facility
+or plant as the ‘process’, the latter term referring to the configuration of the equipment, the flows between various plant sections, as well as the actual operation of the plant itself. Regardless of which process type is chosen, for a facility to function properly, the process will need to be developed and designed for the specific organism/feed combination selected. This is a knowledge-based procedure and, unless expertise and technology are transferred from other parties, that knowledge must be acquired and organised through various scientific and engineering activities. Accordingly, entrepreneurial project development often passes through a sequence as presented in Figure 1.
+Preliminary project design for insect production: part 1 – overall mass and
+energy/heat balances
+R. Kok
+Bioresource Engineering, Macdonald Campus of McGill University, 21,111 Lakeshore Rd, Ste-Anne-de-Bellevue, QC H9X 3V9, Canada; robert.kok@mcgill.ca
+Received: 8 June 2020 / Accepted: 10 August 2020 © 2021 Wageningen Academic Publishers
+TECHNICAL REPORT
+Abstract
+Preliminary project design (PPD) is an initial stage in project development that makes it possible for an entopreneur to gain insight into the feasibility and potential profitability of setting up an insect production facility. In this paper a simple, spreadsheet-based model is presented to facilitate the first step of PPD by estimating the overall mass and energy balances for a proposed project. The model calculates outputs on the basis of scientific data and estimated values for operating parameters for the system that is proposed. With the model it is easy to use a trial-and-error approach to investigate the effect of different parameter values on system operation. Thus, the entopreneur can enter values for parameters such as feed composition, temperature of the cooling air, etc. and see the effect on system productivity, conversion efficiency, energy requirements, etc. immediately. This facilitates the overall procedure of reaching final decisions about the organism, the feed, the processing approach, the scale of operation, etc. Normally, this is an iterative procedure that is based on ‘trialand-error’, the two aspects being referred to here as the ‘twin components of an iterative knowledge engine’. Thus, the outputs from the model will depend very much on the scientific data supplied and the values of the input parameters while, at the same time, use of the model will highlight what additional scientific data is needed and what alternate parameter values might prove profitable. Overall, the model allows the user to explore a large possibility space for both process constitution and operation much more quickly and easily than by experimental means alone. As such, it is a tool that can aid the entopreneur in thinking about a project and considering various alternatives, as well as in making decisions before a major commitment is made to any particular option. It is stressed here that PPD is only a preliminary stage in project development and that the investigation of overall process mass and energy balances is only the first step thereof. It is also stressed that results from modelling are invariably subject to empirical verification as well as ‘common-sense filtering’. The model presented is general and thus not oriented to the production of any species in particular.
+Keywords: mass balance, energy balance, entopreneur, modelling
+OPEN ACCESS
+
+
+R. Kok
+500 Journal of Insects as Food and Feed 7(5)
+In this sequence preliminary project design (PPD) is shown as a central activity linking early concept development, data acquisition and concept crystallisation to formal engineering design, construction, and ultimate plant operation. As a first step in PPD, in this paper (Part 1 of this set) the overall mass and energy/heat balances of a rudimentary larval rearing setup are explored by means of a simple model which is also made available to the reader. In Part 2 of this set of papers (Kok, 2021a) the effect of organism kinetics on process dynamics is discussed, together with how modelling and simulation can be used to elucidate this relationship. It is, therefore, largely an examination of what role the kinetics of organism growth plays in the PPD exercise. Kok (2017) mentioned a number of basic process types already in use for industrial insect production and these are dealt with in greater detail in Part 3 (Kok, 2021b) where aspects such as ease of process operation, labour requirements, equipment complexity, suitability for automation, etc. are also taken into consideration. In light of the former aspects, in Part 4 (Kok, 2021c) process dynamics as the convolution of organism kinetics and process choices are then discussed, together with some aspects of the physical facilities that are required to house the chosen process. The material presented is structured to be useful to entopreneurs whose ambitions range from very small scale, through mediumscale, to full industrial scale.
+During the PPD phase of a project a large variety of possibilities should be investigated, the overall objective being to gain a ‘fair understanding’ of the advantages and
+disadvantages of a number of processing options for the targeted organism/feed combination. This means that during PPD one reasons about a number of options on the basis of approximate, quantitative models and simulations, the term ‘approximate’ implying that the models will be based on simplifying assumptions in order to expedite the procedure. Obviously, such assumptions should always be clearly stated so they can be re-visited later for improvement or correction. ‘Approximate’ is also indicative of the fact that, although reasoning is a lot faster and cheaper than doing, there is no good substitute for empirical knowledge gained through experience. Thus, it must always be kept in mind that PPD is very useful as a guide for decision making but that reality is the ultimate model.
+To illustrate and facilitate the exploration of the PPD possibility space, a simple model of the overall mass and energy/heat balances for a single tray of insect larvae growing on a bed of feed was developed (Excel spreadsheet based, available to the reader as electronic Supplementary Material S1; ESM). This model is a tool which allows the user to engage in ‘trial-and-error’ investigation with various process operating conditions and scientific values for the organism/feed combination. As such, it facilitates the user’s exploration of a large possibility space for both process constitution and operation much more quickly and easily than by experimental means alone. As well, working with the model will often highlight the need for more data on the system under consideration and will also often lead the entopreneur to consider other operating options for
+Concept development
+Data acquisition
+Initial investigation
+Data acquisition
+Play & learning; trial & error
+Data acquisition
+Concept crystallisation
+Data acquisition
+Data development
+Preliminary project design
+Data acquisition
+Model & simulate
+Data development
+Construction
+Routine plant operation
+Continued data development
+Formal design
+Model & simulate
+Plant startup & shakedown
+Model & simulate
+Data development
+Detailed evaluation
+Model & simulate
+Data development
+Figure 1. A typical sequence of entrepreneurial project development.
+
+
+PPD#1 – mass & energy
+Journal of Insects as Food and Feed 7(5) 501
+the process. Use of such a model during a project’s PPD phase tends to lead to a ‘step-by-step’ iterative approach to process improvement. In the ESM file, by means of several worked examples, it is illustrated how model-based reasoning allows a user to quickly investigate a number of operating possibilities and see the consequences of the choices made. It is stressed here that the parameter and scientific values used in these worked examples are for illustration only and are not representative of any specific organism/feed combination. Thus, the model is a tool only and appropriate scientific data for the organism/feed combination under consideration, as well as values for the operating parameters, must be supplied by the user.
+At the end of a project’s PPD phase the aspiring entopreneur should have a good idea of the overall viability of the various process options, including the likelihood of financial success, and be able to make a decision on which approach to follow for the project. Hence, at this stage the entopreneur will have a fair understanding of the quantitative aspects of the chosen process option, including scale of operation, heat and mass flows, kinetics and dynamics, inputs and outputs, equipment requirements, plant operating scheme, labour requirements, etc. Basically, the PPD phase ends with an evaluation of the project’s overall viability and a decision to proceed or not to proceed with the formal planning and design phase for the targeted organism/feed combination and the selected process type.
+2. Basic considerations
+Although the term ‘design’ can refer to a variety of activities, it is used here in the engineering sense. In this context design is a knowledge-based activity in which one starts off with certain, clearly stated objectives and that, ideally, results in the specification of a processing scheme, equipment choice, plant layout, operating methods and sequences, etc. To make such comprehensive design possible one needs both general knowledge as well as detailed data on the organism, the feed, the various operations, equipment capacities, and the supply and demand for feed components and products. In modern design it is desirable to understand both the static as well as the dynamic performance of a process, the latter being especially important for control purposes. This means that one needs to have available data not only on an organism’s overall performance such as its conversion of feed into body mass, protein incorporation ratio, etc., but also on its kinetics, e.g. the larval growth curve, and how that is affected by temperature, body composition on a particular feed as the organism ages, etc. Overall, it is important to understand that true, formal design is possible only on the basis of adequate knowledge and data. Only once those are available is it possible to write models of the various parts of the process which can then be used in simulation to study both the static and dynamic behaviour of a proposed scheme. In essence, this approach is a formal
+extension of the natural thought process of humans based on the principle of ‘think-before-acting’.
+Formal, detailed design of a process and a facility, specification of equipment, etc. is the domain of professional engineers and in many jurisdictions may only be carried out by properly qualified professionals. Most process conceptualisation, development and preliminary design can, however, be done by entrepreneurs who themselves are not engineers. Accordingly, this chapter is oriented to guide those individuals interested in mass producing insects in their thinking about how this might be achieved and how the various possibilities and opportunities can be evaluated on a realistic basis, without transgressing the boundaries of professional responsibility.
+Because insects pass through various life stages, a complete process for insect production will need to be multi-sectioned, i.e. it will consist of a set of subprocesses dealing with the various life stages such as egg production, egg incubation, larval growth, pupal incubation, adult maintenance, etc. (Kok, 1983; Kok et al., 1988). Consequently, for the entrepreneur and process designer it is useful to think about the overall production process as an assembly of sub-processes, especially because it allows each section to be dealt with quite separately. As well, it allows for the concept of housing the various sub-processes in different physical locations. Thus, all the process sections or sub-processes may be housed in the same facility and share central ancillary services as illustrated in Figure 2 (ancillary services were described in some detail by Kok, 2017). Or they may be physically separated and occur in different locations. For example, pupal incubation, adult maintenance and egg production may occur in a specialised facility, the eggs then being delivered regularly to one or more larval rearing units. The division of a larger process into sub-processes and decision making about where each sub-process will be installed should occur reasonably early in overall project development.
+As mentioned above, the term ‘process’ refers to the organisational scheme according to which an entire production plant is configured and operated, including the mass, energy and information flows between the various sections of the plant, between the different pieces of equipment, etc. Similarly, ‘sub-process’ refers to the same aspects, but on a more limited scale. Evidently, detailed knowledge and understanding of the various aspects will need to be developed for any sub-process that will be implemented in the entrepreneur’s facility whereas less information will be required for sub-processes housed in external facilities. For instance, if eggs will be bought from a central supplier, less detailed knowledge is needed about their production than if they are generated in-plant. For the sake of simplicity and brevity only the sub-process of rearing larvae from egg to ‘pre-pupa’ is considered in this
+
+
+R. Kok
+502 Journal of Insects as Food and Feed 7(5)
+set of papers, the discussion being mainly applicable to the rearing of black-soldier fly (BSF) larvae, mealworms and other, similar kinds of organisms.
+First of all, before any PPD activity can take place, the sub-process must be clearly identified and described. For instance, for rearing BSF larvae, one might start off with the idea to acquire eggs from a source external to the sub-process, put them on a well-defined early-growth feed, then manipulate their incubation temperature and feed regime so as to obtain the desired protein/fat ratio, and finally harvest them after a 10-day growth period. (It should be noted that the situation dealt with in the rest of the paper set is simpler than this.) During the PPD
+stage any number of alternatives to this scheme and any process options can then be considered and explored. In fact, one of the main functions of PPD is to allow for such exploration and investigation. But, regardless, of which specific process option is decided upon, the sub-process will be implemented in the plant on equipment that, generally, consists of a reactor through which pass mass and energy flows and to which is supplied information in the form of control signals and from which information is gathered as data (Kok and Lomaliza, 1986). As well, the mass flows will be modified while passing through unit operations such as grinding and sifting while various parts of the system will be heated, cooled, humidified, etc. A general organisational diagram of a larval rearing sub-process is shown in Figure 3.
+Ancillary services
+Complete process implemented in one plant
+Sub-process A
+Sub-process B
+Sub-process C
+Sub-process D
+Sub-process E
+Sub-process F
+Service 1 Service 2 Service 3 Service 4
+Mass flows
+Energy flows
+Information flows
+Mass flows
+Energy flows
+Information flows
+Figure 2. Conceptual diagram of a complete process implemented in a single plant.
+Feed
+Nutrients
+Eggs
+Water
+Cleaned air
+Energy
+Control information
+Exhaust gas (CO2, sensible heat, latent heat as H2O, other gaseous by-products; reduced O2)
+Data
+Bed contents
+Separation
+Larvae
+Remaining bed solids
+Ambient air
+Waste heat
+Larval growth reactor
+Mixing Grinding & Mixing
+Figure 3. General organisational diagram of a simple larval rearing sub-process.
+
+
+PPD#1 – mass & energy
+Journal of Insects as Food and Feed 7(5) 503
+The model of the process mass and energy/heat transfer that is presented below is based on this general arrangement.
+In this case there is a single reactor in which the larvae are reared (which might be composite, i.e. consist of a number of smaller units like bins) while there are three unit operations for grinding, mixing and separation of bed components.1 Hence, the main mass inputs will be feed, water and air, cleaned air being used to supply oxygen to the bed, remove carbon dioxide and other emitted gases. The air flow will also carry away the heat of metabolism, both in sensible and latent form (as water vapor). Input energy is mostly used here for electric motors to power the grinding, mixing and separation, move bins around, etc. Normally this also results in a thermal load that is removed via an ambient air flow. Input information is principally for control purposes while data on system operation, mass flows, humidities, temperatures, etc. are the principal information outputs. The latter are mainly used for two purposes: (1) as inputs to an online control system which will then feed back control information to the sub-process; and (2) for archiving in a database on process operation and performance. The rationale and approach illustrated here for the larval rearing sub-process are equally applicable to other sub-processes but, obviously, the details for those would need to be worked out separately.
+3. Mass and energy/heat balances
+What is a mass balance? The mass balance of a process is a complete accounting of all the mass flowing into and out of that process. Basically: over time, mass in must equal mass out plus whatever accumulates in the system. Evidently, this principle holds as well for any sub-process. Additionally, if a process is dealt with in terms of a group or network of subprocesses, the mass balances of the various sections must match so that the outputs from one will equal the inputs to the connecting one(s). A mass balance can be very general, e.g. in terms of total mass in/out, or it can be as detailed as desired in terms of the various components of the mass. For instance, Kok et al. (1991) reported on both the total and the component mass balances of water, ash, carbohydrate, protein and fat for the rearing of Tribolium confusum larvae over a 19-day period, starting off with feed and eggs and ending up with larvae, waste material, and re-useable feed. In that mass balance only the solids were taken into account and air flow was not considered. The net mass loss in solids was assumed to be due to the metabolism of the larvae while growing, transforming part of the feed into carbon dioxide and water which then left the sub-process via the exhaust gas stream. Such composite mass balance results can be conveniently presented in easily-understood graphical form, as shown in Figure 4, in which all the quantities will
+1 The three unit operations are not considered in the model.
+normally be presented numerically rather than in symbolic form like W1, C1, TOT #1, etc.2 The numbers might be derived experimentally or result from simulation, thus either representing reality as measured in situ, or a model thereof. In the latter case the usual purpose would be to plan or design a process, or to learn more about it in terms of its potential to attain specific objectives. This type of analysis and presentation can be very useful in evaluating and illustrating the efficacy of a process for destroying, preserving or synthesising a particular component. For example, BSF do not synthesise protein de novo (although they may metabolise it) and it is often helpful to track the protein mass flow separately throughout the rearing subprocess to ensure protein is maximally incorporated in the larvae.
+Before PPD activity can be started on a project, substantial knowledge about both the organism/feed system and the total and component mass balances is needed. Sometimes such data is available in the literature (e.g. see Shumo et al. (2019a,b) for good quality data on BSF from which some approximate mass balance results can be calculated) or it has to be generated during earlier stages of project development (Figure 1). It should be noted that the actual mass balance of a process will be very dependent on the specifics of the organism/feed combination. For instance, Rehman et al. (2017) fed different combinations of dairy manure and soybean curd residue to BSF larvae and obtained substantially different compositional and quantitative results for the outputs. Diener et al. (2011) and Nyakeri et al. (2017) have also presented results that support this. Cammack and Tomberlin (2017) have reported on the impact of diet protein and carbohydrate on the lifehistory traits of BSF. As pointed out earlier, because the preliminary design phase is about evaluating a number of possible approaches for a project, it may happen that some basic factors such as diet composition are adjusted during the PPD, or even that the direction of the project is changed to a substantial degree. In either case it will probably be necessary to do more experimental work to obtain additional mass balance data for the new situation that is targeted. This aspect of PPD is addressed in some greater detail later in the chapter.
+There are two major components of the energy/heat balance of a sub-process: (1) the chemical energy in the feed that is liberated through metabolism; and (2) mechanical and electrical energy that is used for motors, lighting, communications, etc. Only the former will be taken into account here. Some of the chemical energy will
+2 Thus, the symbolic names Wx, Cx, Px, Fx, Ax and TOT #x are used here to represent quantities; for instance, TOT #1 represents the total quantity of feed material and W5 represents the total quantity of water present in the recycle material, etc.
+
+
+R. Kok
+504 Journal of Insects as Food and Feed 7(5)
+become incorporated within the organisms in components such as lipids and chitin, some will end up in constituent components in competing organisms such as bacteria, some will end up in process by-products, and some will become the thermal load that needs to be rejected from the process, normally as waste heat. As for the mass balance, over a given time period energy in must equal energy out plus whatever accumulates in the system. In dealing with the process heat/energy balance a major consideration is sufficient rejection of low-temperature heat, the main objective being the control of temperature of the larval environment. This is often achieved by blowing air over top of a bed in which larvae are growing, with the air increasing in temperature (gaining sensible heat) as well as moisture (gaining latent heat) while, at the same time, supplying oxygen to the metabolic process and carrying away carbon dioxide and other metabolic by-product gases (Figure 3).
+4. Modelling of mass and energy/heat balances
+PPD is usually based on a model of the process or subprocess under consideration. Such a model is a limited representation of the real situation and is based on a number of simplifying assumptions. It is used to compute process results (in simulation) according to the values that
+are supplied for a number of model parameters. Evidently, the assumptions and parameter values should correspond to a fair degree to physical reality and the model should frequently be ‘tuned’ by checking and correcting these, based on empirical knowledge as it becomes available. The major objective of this is to come to a reasonably complete understanding of the process that is adequate for PPD purposes.
+To illustrate the concept and the procedure a simple model was developed for larval growth on a solid, granular substrate that, because of the addition of water, may be in the form of a mud or a slurry as is often fed to BSF larvae.3 The model is for a single tray that contains a bed of substrate on which the larvae grow (as well as bacteria). This situation is seen as a ‘base-case’ for insect rearing and corresponds to the straight-batch sub-process described in greater detail in Part 2 (Kok, 2021a). It is illustrated in Figure 5.
+A number of the model’s parameter values are related to the organism’s performance on the specific feed used
+3 The model is in the form of an Excel spreadsheet; approximately 575 lines, 39 adjustable parameter values. It is available to the reader as ESM.
+Cho C1
+Prot. P1
+Ash A1
+Fat F1
+W1
+Water
+Feed Tot #1
+Cho C2
+Prot. P2
+Ash A2
+Fat F2
+W2
+Water
+Eggs Tot #2
+Cho C3
+Prot. P3
+Ash A3
+Fat F3
+W3
+Water
+Cho C4
+Prot. P4
+Ash A4
+Fat F4
+W4
+Water
+Outputs Tot #4
+Cho C5
+Prot. P5
+Ash A5
+Fat F5
+W5
+Water
+Cho C4
+Prot. P4
+Ash A4
+Fat F4
+W4
+Water
+Cho C6
+Prot. P6
+Ash A6
+Fat F6
+W6
+Water
+Air input Exhaust gas
+Net solids loss via the gas stream
+Larval growth reactor
+Waste Tot #7
+Larvae Tot #6
+Recycle Tot #5
+Inputs Tot #3
+Figure 4. Graphic representation of components and total mass balances.
+
+
+PPD#1 – mass & energy
+Journal of Insects as Food and Feed 7(5) 505
+(as are those of the bacterial population). For a real PPD exercise these would need to be obtained via experimental procedures and, as part of the iterative procedure, would have to be re-evaluated and re-entered every time the substrate composition is changed. Here, however, they were derived from a set of typal development curves for a single fly larva on a wetted-solids feed as presented in Figure 6. Although it is felt they are reasonably close to a physically real situation, these curves are hypothetical and presented for illustration only. In this case, as it grows, the larva first accumulates protein at a high rate and then, about halfway through its developmental period, while its
+other tissue growth slows, it begins to accumulate fat at an increasing rate. This type of delayed fat accumulation pattern was, for example, observed for the development of T. confusum larvae grown on wheat flour and yeast extract (Kok et al., 1991). When ready to begin pupation, this hypothetical larva will be 48.5% protein, 33.7% fat, and 17.8% other material (all on a dry weight basis). At a final total weight of 181 mg it will contain 109 mg water so that, on a wet basis, it will be 19.2% protein, 13.3% fat, 7.0% other materials and 60.4% water.
+In the model, calculations and discussion the variable names used are descriptive rather than purely symbolic and are therefore composed of meaningful terms. In some cases, in order to clarify the situation, these are connected by underscores as is often done in modern computer languages such as Python and JavaScript. For example, the name of a variable might be Other_Material_Type_A. One advantage of using variable names in that format is that it will facilitate further development and implementation of the model in other languages so that it can be made more complex and inclusive. This will be important if other process aspects need to be added to the model, such as reproduction, egg and pupal incubation, etc. In order to deal with inputs and outputs as well as intermediates in a uniform fashion, all low-level variables are defined in basic metric units, i.e. grams, seconds, metres and Joules (g, s, m, J). All calculations are, therefore, also carried out in these basic
+Forced convection gas flow
+Liquid water
+Oxygen Sensible heat
+Eggs
+Incoming air Exhaust gas
+Water vapor with latent heat
+Carbon dioxide
+Substrate bed with larvae and bacteria growing in it
+Figure 5. Rearing arrangement on which the model is based.
+80
+60
+70
+50
+40
+20
+30
+10
+0
+Time (days)
+Total dry weight Protein Lipids Other_Material_Type_A
+Larval component mass (mg)
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+Figure 6. Individual larval component and total dry weight accumulation vs time.
+
+
+R. Kok
+506 Journal of Insects as Food and Feed 7(5)
+metric units. Derived units are, however, used at times for presentation to clarify the meaning of results. For instance, the Energy_content_of_Other_Material_Type_A in leftover substrate might be reported in basic units as 1.15600E+07 J, but, to make it easier to understand for readers, it will also be reported as 11,560 kJ.
+The model is based on the process aspects and flows shown in Figure 5 and only those are taken into account. As is inevitable in any insect farming operation, there will be bacteria and some other organisms competing with the target organism. Hence, sub-process inputs are air, eggs, liquid water and fresh substrate while the outputs will be exhaust gas, larvae, bacterial mass, larval waste and leftover substrate material. The mass and energy content of the eggs are assumed to be negligible and therefore not considered in the calculations. The substrate dry matter is assumed to not contain any lipids and to be made up entirely of a generic, digestible carbohydrate (CHO), protein, and OM Type A (Other_Material_Type_A) which is not digestible by either the insect or any bacteria present. Normally, the larvae will be separated from the bed material when ready for harvest and the three other solid outputs will exit the sub-process as a fairly dry, granular mixture (‘remaining bed solids’ in Figure 3). Since OM Type A is indigestible, all of it will end up unchanged in the leftover substrate. The composition of the leftover substrate will therefore be quite different from the substrate itself.
+In the model no de novo protein synthesis occurs, either by the bacteria or by the insect (or any of its internal symbionts), nor is there any protein metabolism or degradation as such. Thus, rather than deal with these complexities at this stage, protein from the substrate is simply allocated to the various fractions, albeit at an energy cost, that energy being supplied by CHO metabolism. This also means there are no nitrogenous compounds such as ammonia present in the exhaust gas. The energy content of all protein is taken to be 17 kJ/g.
+Energy is derived solely from carbohydrate metabolism according to Equation 1 in which 180 g (one mole) of generic carbohydrate (CHO) combines with 192 g of oxygen to form 264 g of carbon dioxide and 108 g of water, liberating a total of 17 kJ/g of carbohydrate metabolised.
+C6H12O6 + 6 O2 → 6 CO2 + 6 H2O (1)
+This energy then becomes available for chemical work like the transformation of protein from one state to another and the synthesis of cellular materials, as well as mechanical work for organism movement, etc. Accordingly, part of the energy liberated will be manifested as heat which must be removed from the sub-process in either sensible or latent form.
+In the model a generic lipid (Reger et al., 2010) is synthesised from carbohydrate as in Equation 2 in which 7,200 g of carbohydrate is converted into 2,628 g of lipid, accompanied by the release of 3,168 g of carbon dioxide and 1,404 g of water. The energy content assigned to lipids is 37 kJ/g so that out of 1.224E08 J of energy available in the carbohydrate 9.724E07 J ends up stored in the lipids (79%). The remaining 21% of the energy that is not stored is released in the form of heat.
+40 C6H12O6 → 3 C56H108O6 + 72 CO2 + 78 H2O (2)
+Altogether there are four types of Other_Material present in the system, OM Types A, B, C, and D, respectively constituents of the substrate, the larvae, the larval waste, and the bacteria. All four are assumed to have the same general chemical composition as the generic carbohydrate, as well as the same energy content, i.e. 17 kJ/g. There is, however, an energy cost charged for the transformation of generic carbohydrate into the various types of Other_ Material. The specifics of these energy costs are all specified via the model’s parameter values.
+The mass and energy balances computed with the model for a base instance of the system (Case 0) are presented in Figure 7. For this case, ten thousand eggs (overall emergence and survival rate 50%) are added to a tray containing 8,500 g of wet substrate (60% water, 10% protein, bulk density 850 kg/m3). The 340 g of protein initially present are then allocated to the larvae, larval waste, bacteria and leftover substrate in accordance with the parameter values supplied. Next, the carbohydrate is transformed into materials (lipids and OM B, C and D) and also consumed to generate energy for the various transformations, larval movement, etc. through metabolism. In Figure 7 symbols for inputs and outputs are attached to the boxes, inputs on the left and outputs on the right. The symbols O, W, C, E and H, respectively, refer to oxygen, water, carbon dioxide, energy and heat. For instance, to generate energy for larval metabolism and motion the inputs are CHO (indicated with an arrow) and oxygen (indicated with the O symbol). The outputs from that box are water, carbon dioxide and heat (indicated with the W, C and H symbols, the heat resulting from the metabolism and the motion). Similarly, for the allocation of protein to larvae, larval waste and bacteria, besides protein itself, chemical energy is required because an energy cost is assessed for these allocations. That energy is also derived from the metabolism of CHO. The energy is then used as inputs (E) to the three protein boxes for the larvae, larval waste and bacteria (but not for the leftover substrate) and ends up rejected as process heat (H) from all three.
+As is usual for biological systems a substantial part of the total energy flux must be rejected, in this case to air. For Case 0 the incoming air is 21 C and 50% relative humidity
+
+
+PPD#1 – mass & energy
+Journal of Insects as Food and Feed 7(5) 507
+while the exhaust gas leaves the system at 23 C and 60.9% relative humidity so that 76% of the heat is rejected as latent heat. The total air volume required is rather large in order to keep the carbon dioxide content of the exhaust gas within the specified limit (a parameter) and a value of 987 ppm was achieved (413 ppm incoming air). For a tray 50 cm wide, 40 cm long and 10 cm tall, containing a bed 5 cm deep with a 5 cm air space above it this means the average air velocity should be 2.6 cm/s. With these values the increase in gas temperature is quite small (2 C) and the decrease in oxygen content is negligible.
+For Case 0, of the 340 g of protein initially present in the substrate 173.8 g ends up in the larvae (51%) while only 15% of the energy content is transferred from the substrate to the target organism, illustrating the potential of this type of model to estimate the capacity of an insect-based process to upgrade a feed in terms of protein content. One interesting statistic that is also generated by the model (not shown in Figure 7) is the productivity of the equipment. For Case 0 the production rate of larval material (dry) per real unit reactor volume is 7.77E-03 g/m3/s (0.7 kg/m3/day). To calculate this value, realistic allowances were made for
+tray floor thickness, walls, spaces between trays, space for tray supports, etc. (all as specified with adjustable model parameter values – see Case 0 in the ESM).
+How one proceeds from this point depends very much on the objective(s) of the entopreneur in developing the process. As discussed above, the situation should first be clearly defined in terms of the targeted feed/organism combination and then the model should be tuned to that situation on the basis of empirical data. With other words, appropriate parameter values should be derived before the model can be used to investigate how the situation may be adjusted in order to improve process results. Through such a procedure incremental improvements can often be obtained quite easily and, as pointed out, it is not unusual for the data acquisition/simulation sequence to be iterative. Thus, through ‘playing’ with the model it may be possible to identify one or more a key variables whose manipulation will yield considerable improvement in a target variable. This will then require empirical verification, updating of the parameter values on the basis of experimental findings, and further work with the model. This ‘hill-climbing’ approach allows for the accumulation of small improvements and can,
+Liquid H2O 1,856.4 g
+Eggs 0.25 g
+Water 5,100.0 g
+Protein 340.0 g 5.780 E6 J
+CHO
+2,380.0 g 4.046 E7 J
+OM Type A 680.0 g 1.156 E7 J
+Substrate 8,500.0 g 5.780 E7 J
+Protein 61.8 g 1.051 E6 J
+OM Type A 680.0 g 1.156 E7 J
+CHO 1,074.2 g 1.826 E7 J
+Leftover Substrate
+4,540.1 g 3.087 E7 J Water 2,724.1 g
+Larvae Waste Bacteria Leftover
+Leftover
+Dry Air + 9.192 E5 g 3.750 E7 J Carbon
+Dioxide 5.767 E2 g
++ Water 7.105 E3 g
+Nitrogen 6.941 E5 g
+Oxygen 2.127 E5 g
+Argon 1.184 E4 g
+21 C 101.3 kPa 50 %RH
+Dry Gas + 9.195 E5 g 4.625 E7 J Carbon
+Dioxide 1.379 E3 g
++ Water 9.826 E3 g
+Nitrogen 6.941 E5 g
+Oxygen 2.122 E5 g
+Argon 1.184 E4 g
+23 C 101.3 kPa 60.9 %RH
+Lipids, L. Lipids, B.
+OM - B OM - C OM - D Leftover
+Materials
+Protein allocation
+Bacterial metab.
+Energy
+OM B, C, D formation
+Larval metab. & motion H
+W C
+O
+O
+E
+W C
+E
+W C
+O
+O
+H
+W
+C Protein 43.5 g 7.389 E5 J
+OM Type C 391.2 g 6.650 E6 J
+Larval Waste
+1,448.8 g 7.389 E6 J
+Water 1,014.1 g
+EH
+EH
+Protein 60.8 g 1.034 E6 J
+Lipids 12.2 g 4.503 E5 J
+OM Type D 48.7 g 8.275 E5 J
+Bacteria 405.7 g 2.312 E6 J
+Water 284.0 g
+EH
+EH
+H
+W C
+Protein 173.8 g 2.955 E6 J
+Lipids 120.9 g 4.473 E6 J
+OM Type B 63.9 g 1.087 E6 J
+Larvae 905.7 g 8.515 E6 J
+Water 547.1 g
+EH
+EH
+H
+W C
+Oxygen 466.6 g
+Carbon dioxide 802.0 g
+Water vapor 2,720.8 g
+Latent heat 6.663 E6 J
+Sensible heat 2.048 E6 J
+Figure 7. Mass and energy balances or Case 0.
+
+
+R. Kok
+508 Journal of Insects as Food and Feed 7(5)
+overall, result in substantial improvements in productivity. Evidently, it is best to engage in this activity during the early stages of PPD and project development, before any major commitments have been made and while concepts are still very flexible.
+Considering the situation of Case 0, for example, suppose the objective is to capture as much of the protein as possible in the target organism, the larvae, while maintaining the same protein:energy ratio as for Case 0. As it is, 51% of the protein ends up in the larvae, 13% in the larval waste, 18% in the bacteria, and 18% in the leftover substrate (Figure 7). Probably the easiest way to improve this is to capture as much as possible of the protein in the leftover substrate. Two straightforward methods to achieve this would be: (1) increase the number of eggs added to the tray; and (2) increase the survival rate of the larvae. Of these two, increasing the number of eggs seems the simplest. If the number of eggs added to the bed is increased from 10,000 to 12,000 (Case 1, spreadsheet available as ESM.) the model predicts that the protein captured in the larvae increases from 51 to 61% while the other three percentages shift from 13 to 15% (waste), from 18% to 22% (bacteria) and from 18% to 2% (leftover substrate). Thus, this approach looks promising!
+To now make further gains in this regard one might investigate ways to inhibit bacterial growth so as to reduce the amount of protein incorporated in the bacteria. If a method can be found to reduce the bacterial growth by half, and the number of eggs added to the tray is now increased from 12,000 to 13,500 (Case 2, also available as ESM), the percentage of substrate protein captured in the larvae is predicted to be 69% while 17% is immobilised in the larval waste, 12% in the bacteria and 2% in the leftover substrate.
+For all three cases discussed so far, the protein content of the substrate was 10% (dry weight basis) and the indigestible material (Other_Material_Type_A) was 20%. As is obvious from the results so far, this makes it a protein-limited system. If the substrate is upgraded by adding enough pure protein to raise the content to 13.5%, that would result in a feed containing 19.2% indigestible material and 67.3% CHO. If the number of eggs added to the tray is now raised to 18,000 (Case 3, available as ESM), 68% of the protein will be captured in the larvae, 17% in the larval waste, 12% in the bacteria and 3% in the leftover substrate (based on the assumption that there will be no major shift in metabolism due to these adjustments). In this instance, 26.5% of the substrate energy is captured in the larvae while the production rate of larval material (dry) per real unit reactor volume is 1.2 kg/m3/day. In contrast, for Case 0 these numbers were 15% and 0.7 kg/m3/day respectively.
+The foregoing cases serve merely as an illustration of how a simple model of a process can be used to explore the
+operations possibility space very quickly and cheaply (once the model is written). In essence, it is an effective way to determine which process parameters are the most ‘powerful’ in determining yield and productivity improvements and are therefore likely to be the most interesting to investigate experimentally. In terms of optimisation and maximisation, it allows one to identify which variables have the largest partial derivatives for the ‘slope-climbing’ procedure. At the same time, the procedure will yield an indication of what range of parameter values might be most fruitfully targeted in further experimental work. If the model indicates that certain conditions will not yield good results one would probably be cautious about investing in experimental work over that range of conditions. For example, in Case 3 above the substrate protein content was increased to 13.5% but not higher because the model predicts that around 14% the system will run out of energy-yielding CHO.
+Evidently, there are many other process parameters that can be easily investigated in a preliminary way with this type of model. One primary candidate would be the allowable carbon dioxide content of the exhaust gas since a higher value for the exhaust would allow the gas flow to be reduced. Another interesting variable is the substrate bed depth; deeper beds could lead to higher productivity per unit reactor volume although some heat transfer aspects inside the bed may then need to be included in the model.
+5. Discussion and conclusions
+During the PPD phase of project development system performance is predicted on the basis of biological knowledge of the proposed organism/feed combination, models thereof, process operation, equipment considerations and economic data, as well as experiential and intuitive insight. These are then all combined into a single reasoning stream which, once adequately developed, may take the form of a computer-based simulation with which the possibility space can be explored. The intent is that at the end of this phase the scale of the project, the details of the organism/feed combination, the processing approach and the financial aspects are reasonably fixed in the mind of the entopreneur. Evidently, it is the financial palatability of the project that will be the determining, final factor for decision making. It is only after this has been elucidated that the formal design phase of the project can be started.
+So far, what has been discussed are the overall, ‘beginningto-end’ mass and energy/heat balances of the larval rearing sub-process. In a more complete and detailed examination the other aspects of insect farming, such as reproduction, egg incubation and pupal incubation will be included in the discussion, if they are relevant. As well, the time variation of the variables will be considered. For example, for Case 0 above, the total air volume that needs to forced across the bed surface over the 13.5 day growth period is 772 m3,
+
+
+PPD#1 – mass & energy
+Journal of Insects as Food and Feed 7(5) 509
+resulting in an average air velocity in the cross-sectional area above the tray of 0.1 km/h – quite a modest value. However, during the 13.5 day growth period the growth rate of the larvae can vary greatly (as shown in Figure 6) and, together with that, so will the metabolic rate, the heat and carbon dioxide production rates and, therefore, the heat and by-product removal requirements. This implies that the rates of liquid water addition and incoming air flow (Figure 5) will need to be manipulated so as to control the situation. This is borne out in practice; preventing a dense bed of larvae in their final, maximum growth phase from overheating is often a major concern.
+Thus, after dealing with the basic aspects of PPD such as the overall mass and energy balances one can proceed to more complex ones such as the kinetic aspects of organism development, the consideration of different process types and resulting process dynamics. In order to investigate the possibility space associated with many of the options and choices available here, one might construct a more sophisticated model in which organism kinetics as well as various process options and the dynamics associated with them can be taken into account. Such a model will allow for the time-based simulation of process operation and serve the same function as the model presented above, except in a larger space; it will be one of the twin components of an iterative knowledge engine, the second component being experimental exploration and verification. Evidently, models of different complexity can be constructed and it is up to the entopreneur to gauge what cost for dynamic model construction is justifiable in terms of the benefit likely to be derived. In Parts 2, 3 and 4 of this set of papers the interaction between organism kinetics and the dynamics of different process types are discussed in terms of exploration of the larger possibility space (Kok, 2021a,b,c).
+Conflict of interest
+The author declares no conflict of interest.
+Supplementary material
+Supplementary material can be found online at https://doi. org/10.3920/JIFF2020.0055.
+Supplementary Material S1. Model of the overall mass and energy/heat balances for a single tray of insect larvae growing on a bed of feed.
+References
+Cammack, J.A., Tomberlin, J.K., 2017. The impact of diet protein and carbohydrate on select life-history traits of the black soldier fly Hermetia illucens (L.). Insects 8: 56. https://doi.org/10.3390/ insects8020056
+Diener, S., Zurbrugg, C., Gutierrez, F.R., Nguyen, D.H., Morel, A., Koottatep, T., Tockner, K., 2011. Black soldier fly larvae for organic waste treatment – prospects and constraints. In: Alamgir, M., Bari, Q.H., Rafizul, I.M., Islam, S.M.T., Sarkar, G., Howlader, M.K. (eds.) Proceedings of the WasteSafe 2011 – 2nd International Conference on Solid Waste Management in the Developing Countries, February 13-15, 2011, Khulna, Bangladesh, pp. 1-8. Kok, R. and Lomaliza, K., 1986. The insect colony as a food chemical reactor. In: LeMaguer, M. and Jelen, P. (eds.) Food engineering and process applications. Vol II. Unit operations. Elsevier, Amsterdam, the Netherlands, pp. 369-375. Kok, R., 2017. Insect production and facility design. In: Van Huis, A. and Tomberlin, J.K. (eds.) Insects as food and feed: from production to consumption. Wageningen Academic Publishers, Wageningen, the Netherlands, pp. 142-172. Kok, R., 1983. The production of insects for human food. Canadian Institute of Food Science and Technology Journal 16(1): 5-18. Kok, R., 2021a. Preliminary project design for insect production: part 2 – organism kinetics, system dynamics and the role of modelling & simulation. Journal of Insects as Food and Feed 7: 511-523. https:// doi.org/10.3920/JIFF2020.0146 Kok, R., 2021b. Preliminary project design for insect production: part 3 – sub-process types and reactors. Journal of Insects as Food and Feed 7: 525-539. https://doi.org/10.3920/JIFF2020.0145 Kok, R., 2021c. Preliminary project design for insect production: part 4 – facility considerations. Journal of Insects as Food and Feed 7: 541-551. https://doi.org/10.3920 /JIFF2020.0164 Kok, R., Lomaliza, K. and Shivhare, U.S., 1988. The design and performance of an insect farm / chemical reactor for human food production. Canadian Agricultural Engineering 30: 307-317. Kok, R., Shivhare, U.S. and Lomaliza, K., 1991. Mass and component balances for insect production. Canadian Agricultural Engineering 33: 185-192. Nyakeri, E.M., Ogola, H.J.O., Ayieko, M.A. and Amimo, F.A., 2017. Valorisation of organic waste material: growth performance of wild black soldier fly larvae (Hermetia illucens) reared on different organic wastes. Journal of Insects as Food and Feed 3: 193-202. https://doi.org/10.3920/JIFF2017.0004 Reger, D.L., Goode, S.R. and Ball, D.W., 2010. Chemistry: principles and practice (3rd Ed.). Cengage Learning, Boston, MA, USA, 125 pp. Rehman, K.U., Rehman, A., Cai, M., Zheng, L., Xiao, X., Somroo, A.A., Wang, H., Li, W., Yu, Z. and Zhang, J., 2017. Conversion of mixtures of dairy manure and soybean curd residue by black soldier fly larvae (Hermetia illucens L.). Journal of Cleaner Production 154: 366-373. https://doi.org/10.1016/j.jclepro.2017.04.019 Shumo, M., Khamis, F.M., Tanga, C.M., Fiaboe, K.K.M., Subramanian, S., Ekesi, S., Van Huis, A. and Borgemeister, C., 2019b. Influence of temperature on selected life-history traits of black soldier fly (Hermetia illucens) reared on two common urban organic waste streams in Kenya. Animals 9: 79. https://doi:10.3390/ani9030079 Shumo, M., Osuga, I.M., Khamis, F.M., Tanga, C.M., Fiaboe, K.K.M., Subramanian, S., Ekesi, S., Van Huis, A. and Borgemeister, C., 2019a. The nutritive value of black soldier fly larvae reared on common organic waste streams in Kenya. Scientific Reports 9: 10110. https:// doi.org/10.1038/s41598-019-46603-z

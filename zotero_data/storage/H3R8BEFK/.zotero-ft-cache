@@ -1,0 +1,110 @@
+Supporting Information
+Chamberless NDIR CO2 Sensor Robust against Environmental Fluctuations
+Mostafa Vafaei and Amir Amini*
+Department of Electrical Engineering, College of Technical and Engineering, West Tehran Branch,
+Islamic Azad University, Tehran, Iran.
+
+
+Fig.S1. Drawing of Zemax ray tracing simulation for chamberless sensor.
+
+
+Fig. S2. The MISO model showing the three inputs, the created decision tree by the XGBoost algorithm,
+and the output. The dashed lines in the figure show that the presented decision tree is a shortened version.
+The first, second, and third layers of tree are shown.
+
+
+Distance (mm) Total Hits (#) Total Power (mW)
+10 835 1.95
+20 26028 59.17
+30 16496 37.51
+40 5538 12.27
+Table S1 Simulation results of total hits and total power for NDIR sensor in 4 different distances.
+
+
+Sensor name
+/ ref
+Measurement
+Range (ppm)
+Accuracy Response
+time (T90)
+Working RH
+range (%)
+Working
+Temp
+range
+(°C)
+Design structure Compensation
+Temp & RH
+Self‐heating
+GUARDIAN®
+NG [1]
+0‐3000 ±2% of
+full scale
+= <30 0‐95 Not
+Available.
+ Equipped with a tube
+in its input sample line
+that might be
+condensed.
+ Dual wavelength
+technology.
+No Yes
+SPECIAL
+GUARDIAN NG
+[1]
+0 – 1000 ±10%
+range
+Variable
+(determined
+by bit switch
+and
+firmware)
+Sensitive to
+large changes in
+humidity
+depending on
+gas and range
+0 ‐ 45  Equipped with a tube
+in its input sample line
+that might be
+condensed.
+ Dual wavelength
+technology.
+No Yes
+smartGAS
+BASICEVO[2]
+0‐10000 Not
+available
+appr. 60 s 0‐95 ‐10 ‐ 40  Dual beam and dual
+wavelength.
+No Yes
+smartGAS
+FLOWEVO [2]
+0‐10000 Not
+available
+≤ 9.9 s 0‐95 0 ‐ 50  Dual beam and dual
+wavelength.
+No Yes
+Semeatech
+IRM300SS [3]
+0‐5000 ±50ppm
+±5%
+reading
+60 s 0‐95 0 ‐50 Single wavelength No Yes
+Current Sensor 400‐2200 ~ ± 1% of
+full scale
+60 s 15‐85 25‐50  Single beam and single
+wavelength.
+ Drift‐like
+compensation for RH
+and Temp.
+Yes No
+Table S2
+Comparison of 5 commercial CO2 gas sensor with the
+current proposed sensor.
+
+
+References:
+[1] E. Sensors, Accessed: Feb. 1, 2021. [Online]. Available: https://edinburghsensors.com/.
+[2] smartGas., Accessed: Feb. 1, 2021. [Online]. Available: https://www.smartgas.eu/en/.
+[3] SemeaTech, Accessed: Feb. 1, 2021. [Online]. Available: http://semeatech.com/m/view.php?aid=193.

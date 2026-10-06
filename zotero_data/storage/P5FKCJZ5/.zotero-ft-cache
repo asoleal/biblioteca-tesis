@@ -1,0 +1,1793 @@
+Inventario Nacional de
+Emisiones y Absorciones
+Atmosféricas de Colombia
+Gases de Efecto Invernadero (1990-2021)
+Contaminantes Criterio y Carbono Negro (2010-2021)
+
+
+
+
+
+
+Gustavo Francisco Petro Urrego Presidente de Colombia
+Francia Elena Márquez Mina Vicepresidenta de Colombia
+Ministerio de Ambiente y Desarrollo Sostenible
+María Susana Muhamad González
+Ministra de Ambiente y Desarrollo Sostenible
+Mauricio Cabrera Leal
+Viceministro de Políticas y Normalización Ambiental
+Lilia Tatiana Roa Avendaño Viceministra de Ordenamiento Ambiental del Territorio
+María Saralux Valbuena López Directora de Cambio Climático y Gestión de Riesgo
+Ministerio de Agricultura y Desarrollo Rural
+Martha Viviana Carvajalino Villegas
+Ministra de Agricultura y Desarrollo Rural
+Polivio Leandro Rosales Cadena Viceministro de Desarrollo Rural
+Geidy Xiomara Ortega
+Viceministra de Asuntos Agropecuarios
+Santos Alonso Beltrán Beltrán
+Director de Innovación, Desarrollo Tecnológico y Protección Sanitaria
+Nelson Enrique Lozano Castro Coordinador de Cambio Climático
+Instituto de Hidrología, Meteorología y Estudios Ambientales - Ideam
+Ghisliane Echeverry Prieto Directora general
+Elizabeth Patiño Correa
+Subdirectora de Estudios Ambientales
+Leonardo Alfredo Pineda Pardo
+Coordinador del Grupo de Cambio Global
+Andrés Felipe Tapiero Ríos Profesional del Grupo de Comunicaciones y Prensa
+Programa de las Naciones Unidas para el Desarrollo - PNUD
+Sara Ferrer Olivella
+Representante residente
+Alejandro Pacheco
+Representante residente adjunto
+Jimena Puyana
+Gerente de Ambiente y Desarrollo Sostenible
+Catalina Quintero
+Analista jefe en Cambio Climático
+Katherine Romero
+Profesional en Comunicación Ambiental
+Fundación Natura
+Clara Ligia Solano Directora ejecutiva
+Claudia Lorena Franco Subdirectora técnica
+Nancy Vargas Tovar Subdirectora técnica
+Sandra Galán
+Subdirectora técnica
+Eliana Garzón
+Jefe de Comunicaciones
+Proyecto GEF-CBIT “Transparencia Climática Colombia” (Ideam - PNUD - Fundación Natura)
+Laura María Aranguren Niño Coordinadora
+César Augusto Charris Martínez Profesional de Comunicaciones
+Proyecto Biocarbono Orinoquía - “Paisajes sostenibles bajos en carbono”
+Johana Talina Lugo Rosero
+Líder de Componente Definición del Programa de Reducción de Emisiones (PRE) y de Monitoreo, Reporte y Verificación (MRV)
+Juan David Turriago Redactor ERPD
+Javier Rodríguez Dueñas Coordinador regional
+Daniel Aguilar
+Líder de Componente Uso y Manejo Sostenible del Suelo
+John Velásquez
+Apoyo administrativo
+
+
+Cítese como:
+Instituto de Hidrología, Meteorología y Estudios Ambientales - Ideam. (2024). Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia. Gases de Efecto Invernadero (19902021), Contaminantes Criterio y Carbono Negro
+(2010-2021). Instituto de Hidrología, Meteorología y Estudios Ambientales - Ideam, Ministerio de Ambiente y Desarrollo Sostenible, Ministerio de Agricultura y Desarrollo Rural, Programa de las Naciones Unidas para el Desarrollo - PNUD, Fundación Natura, Proyecto GEF-CBIT “Transparencia Climática Colombia” y Proyecto Biocarbono “Paisajes sostenibles Bajos en Carbono”.
+Este documento ha sido elaborado y construido por el Instituto de Hidrología, Meteorología y Estudios Ambientales - Ideam, con el apoyo estratégico del proyecto GEF-CBIT “Transparencia Climática Colombia”; financiado por el Fondo Mundial para el Medio Ambiente (GEF, por sus siglas en inglés); implementado por el Programa de las Naciones Unidas para el Desarrollo (PNUD) y ejecutado por la Fundación Natura y el Proyecto Biocarbono Orinoquia - “Paisajes sostenibles bajos en carbono”, que hace parte de la iniciativa sobre paisajes sostenibles del Fondo
+Biocarbono, liderado por el Banco Mundial y financiado con donaciones de los gobiernos de Alemania, Estados Unidos, el Reino de Noruega y el Reino Unido, y ejecutado por el Ministerio de Agricultura y Desarrollo Rural, el Ministerio de Ambiente y Desarrollo Sostenible y el Instituto de Hidrología, Meteorología y Estudios Ambientales (Ideam).
+ISBN (digital): 978-958-5489-33-2
+© Instituto de Hidrología, Meteorología y Estudios Ambientales - Ideam, 2024. Calle 25D 96B-70, Bogotá, D. C. PBX: 601 3527160
+Todos los derechos reservados. Se autoriza la reproducción y divulgación de material contenido en este documento para fines educativos u otros fines no comerciales sin previa autorización del titular de los derechos de autor, siempre que se cite claramente la fuente. Se prohíbe la reproducción total o parcial de este documento para fines comerciales. No comercializable. Distribución gratuita.
+Autores
+Carlos Alberto Duarte Durán
+Profesional sectorial Energía-Transporte (Ideam - PNUD - Fundación Natura) ORCID - ID: 0000-0002-4753-3686
+Carlos Andrés Pinzón Correa Profesional Incertidumbre (Ideam - PNUD - Fundación Natura) ORCID - ID: 0009-0007-5891-9406
+Daniela María Bernal Escobar Profesional sectorial Industria (Ideam - PNUD - Fundación Natura) ORCID - ID: 0000-0002-9886-248X
+David Alejandro Buitrago Mesa
+Profesional de Contaminantes Criterio - Ideam ORCID - ID: 0009-0002-0375-7773
+Diana Leidy Manrique Luna Profesional sectorial Agricultura (Ideam - Proyecto Biocarbono Orinoquia) ORCID - ID: 0000-0002-7512-1822
+Lady Mateus Fontecha
+Profesional de Proyecciones GEI (Ideam - PNUD - Fundación Natura) ORCID - ID: 0000-0002-9038-1673
+Laura María Aranguren Niño
+Coordinadora del Proyecto GEF-CBIT “Transparencia Climática Colombia” (Ideam - PNUD - Fundación Natura) ORCID - ID: 0009-0003-8432-6824
+Laura Natalia Solano Cuadros Profesional sectorial Residuos (Ideam - PNUD - Fundación Natura) ORCID - ID: 0009-0003-5014-0829
+Leonardo Alfredo Pineda Pardo
+Coordinador del Grupo de Cambio Global - Ideam ORCID - ID: 0000-0001-6645-6615
+Lina Alejandra Obando Estupiñán
+Profesional del Grupo de Cambio Global - Ideam ORCID - ID: 0009-0007-0296-2384
+Lizet Jimena Robayo Rocha Profesional sectorial LULUCF (Ideam - Proyecto Biocarbono Orinoquia) ORCID - ID: 0009-0006-0141-1647
+Luis Carlos Garzón Franco
+Profesional Contaminantes Criterio y Carbono Negro (Ideam - PNUD - Fundación Natura) ORCID - ID: 0009-0008-2011-8475
+Luis Enrique Caicedo Navarro Profesional sectorial LULUCF (Ideam - PNUD - Fundación Natura) ORCID - ID: 0009-0002-8504-360X
+Natalia Andrea Cifuentes Castellanos
+Profesional sectorial Energía (Ideam - PNUD Fundación Natura) ORCID - ID: 0009-0008-7519-6251
+Sergio Andrés Garcés Jiménez Profesional Emisiones Fugitivas (Ideam - PNUD - Fundación Natura) ORCID - ID: 0000-0002-1770-2135
+Coordinación técnica
+Laura María Aranguren Niño Leonardo Alfredo Pineda Pardo Daniela María Bernal Escobar Diana Leidy Manrique Luna
+Coordinación editorial Andrés Felipe Tapiero Ríos
+Corrección de estilo Adriana Paola Mantilla Esparza
+Diseño editorial Astrid Duque
+Impresión Multiservicios J. M.
+
+
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 5
+1. Introducción
+En el marco de la presentación del Primer Informe Bienal de Transparencia (en adelante, BTR) de Colombia y en cumplimiento de los compromisos adquiridos por Colombia ante la Convención Marco de Naciones Unidas sobre Cambio Climático (en adelante, CMNUCC), el Acuerdo de París, el Conpes 3943 de 2018, que presenta la “Política para el mejoramiento de la calidad del aire”, y la Estrategia Nacional de Calidad del Aire (en adelante, ENCA), este documento presenta el resumen informativo del Inventario Nacional de Emisiones y Absorciones de Gases de Efecto Invernadero (en adelante, Ingei), que contiene la estimación de gases de efecto invernadero entre 1990 y 2021 y de contaminantes criterio y carbono negro entre 2010 y 2021.
+Estos inventarios permiten evaluar el impacto de las actividades humanas sobre la atmósfera, identificando los sectores, fuentes y actividades que emiten y absorben gases de efecto invernadero, contaminantes criterio y
+carbono negro, con el fin de desarrollar políticas, estrategias y medidas de mitigación efectivas, y permitir la implementación de mejores tecnologías, prácticas y procesos a partir de datos científicos para la toma de decisiones.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+6
+1.1 Conceptos básicos
+• Contaminación atmosférica
+Es el fenómeno de acumulación o de concentración de contaminantes, entendidos estos como fenómenos físicos, sustancias o elementos en estado sólido, líquido o gaseoso, causantes de efectos adversos en el ambiente, los recursos naturales renovables y la salud humana, que solos, en combinación, o como productos de reacción, se emiten al aire como resultado de actividades humanas, de causas naturales, o de una combinación de estas (Decreto 1076 de 2015, MinAmbiente, 2015).
+• Cambio climático
+Se refiere a los cambios de las
+temperaturas y patrones meteorológicos a largo plazo, que, aunque pueden ser de origen natural, desde el siglo XIX han sido ocasionados mayoritariamente por las actividades humanas, como la quema de combustibles fósiles, las exploraciones petrolíferas, las actividades agrícolas y la deforestación (ONU, 2024).
+• Efecto invernadero y gases de efecto invernadero
+El efecto invernadero es un proceso natural en el que los gases de efecto invernadero (en adelante, GEI) presentes en la atmósfera retienen y absorben parte de la radiación infrarroja proveniente del sol y emitida por la superficie terrestre al espacio, lo que implica un aumento de la temperatura de la Tierra. Los gases capaces de retener esta energía pueden ser generados de manera natural o por actividades humanas. Entre los más representativos se encuentran el vapor de agua (H2O), el dióxido de carbono (CO2), el óxido nitroso (N2O), el metano (CH4) y el ozono (O3). También se pueden encontrar gases fluorados, como los hidrofluorocarbonos (HFC), los perfluorocarbonos (PFC) y el hexafluoruro de azufre (SF6) (NASA, 2024).
+• Potencial de calentamiento global
+El potencial de calentamiento global es una medida que establece la capacidad que tiene un gas de efecto invernadero para absorber energía o calentar la atmósfera en comparación con el CO2 durante un periodo específico (IPCC, 2013).
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 7
+• Carbono negro
+El carbono negro (CN) es considerado un contaminante de corta duración que se genera por el proceso de combustión incompleta de diferentes combustibles. Tiene gran capacidad para absorber la radiación solar, lo cual hace que contribuya al calentamiento global (Comisión para la Cooperación Ambiental, 2015).
+• Contaminantes criterio
+Los contaminantes criterio son aquellos que tienen una implicación para la salud y bienestar de los humanos. Se les llama “criterio” porque se ha establecido una normativa para monitorear sus niveles permisibles a fin de preservar la salud y
+la biodiversidad. Estos contaminantes son material particulado menor a 10 micras (PM10), material particulado menor a 2,5 micras (PM2,5), ozono (O3), dióxido de azufre (SO2), monóxido de carbono (CO), dióxido de nitrógeno (NO2) (Ideam, 2022).
+• Gases precursores
+Ciertos compuestos, como el monóxido de carbono (CO), los óxidos de nitrógeno (NOx) y los compuestos orgánicos volátiles diferentes al metano (COVDM), contribuyen a la formación de ozono (O3) en la tropósfera en presencia de la luz solar; por lo tanto, se denominan precursores del ozono. Por otro lado, las emisiones de dióxido de azufre (SO2) y del amoniaco (NH3) contribuyen a la formación de aerosoles que favorecen el cambio climático (IPCC, 2006).
+• Vida atmosférica
+La vida atmosférica hace referencia al tiempo que dura un gas o partícula en la atmósfera antes de ser transformada por procesos naturales como reacciones químicas, sedimentación o absorción (IPCC, 2013).
+• Emisiones antropogénicas
+Las emisiones antropogénicas se
+refieren a los gases que son generados de manera directa o indirecta por actividades humanas, como la quema de combustibles, las actividades industriales, la deforestación, entre otros.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+8
+1.2 Marco legal
+La Convención Marco de las Naciones Unidas sobre Cambio Climático (CMNUCC) es el tratado internacional que sirve de base para la concertación de medidas multilaterales encaminadas hacia la mitigación del cambio climático y la adaptación a sus efectos. Su objetivo principal es alcanzar la estabilización de las concentraciones de los GEI en la atmósfera a tal punto de lograr impedir las interferencias antropogénicas peligrosas para el sistema climático (CMNUCC, 2006; Cepal, s. f.). A partir de su entrada en vigor en el año 1994, y hasta la fecha, en el marco de la Convención se han realizado diversas Conferencias de las Partes (COP), que constituyen el máximo órgano decisorio de la Convención. En estas conferencias todos los Estados que son denominados Partes de la Convención (196 firmantes) se reúnen para concertar la toma de decisiones que promuevan la aplicación efectiva del marco, por medio de la adquisición de compromisos y responsabilidades de las partes.
+Desde la ratificación de la CMNUCC en 1994, Colombia ha adquirido compromisos específicos conforme al artículo 4 de la Convención, que establece la obligación de las partes de elaborar, actualizar periódicamente, publicar y facilitar a la COP, de conformidad con el artículo 12, los inventarios nacionales de las emisiones antropógenicas por las fuentes y de la absorción por los sumideros de todos los gases de efecto invernadero no controlados por el Protocolo de Montreal (ONU, 1992). Adicionalmente, bajo la CMNUCC, las Partes “No Anexo I” o “No anexadas” (como lo es Colombia) deben presentar Comunicaciones Nacionales de Cambio Climático (en adelante, CNCC), las cuales incluyen el Inventario Nacional de Emisiones y Absorciones de GEI (Ingei), dentro de los tres años siguientes a la adopción de la Convención y cada cuatro años.
+En el año 2015, en la COP 21 se adopta el Acuerdo de París como un tratado internacional de la CMNUCC, universal y vinculante, que busca mejorar la aplicación de la convención por medio del refuerzo y la respuesta mundial a la amenaza del cambio climático con una meta global que consiste en mantener el aumento de la temperatura global muy por debajo de los 2 °C, haciendo el mayor esfuerzo por no sobrepasar los 1,5 °C (artículo 2 del Acuerdo de París). La firma del Acuerdo de París por parte de Colombia se realiza en el año 2016, pero se ratifica y aprueba mediante la Ley 1844 de 2017 (Fundación Natura, MinAmbiente, WWF-Colombia, 2016).
+Como parte del Acuerdo de París, entra en vigor el Marco de Transparencia Reforzado bajo el cual todos los países, iniciando en diciembre de 2024 y cada dos años, deben presentar el Informe Bienal de Transparencia (BTR), siguiendo las modalidades, procedimientos y directrices (en adelante, MPG) adoptados en la decisión 18/CMA.1, así como las orientaciones dispuestas en la decisión 5/CMA.3. Estos BTR reemplazan a los Informes Bienales de Actualización (en adelante, BUR) e incluyen información sobre las medidas adoptadas en la acción climática, incluyendo el Ingei,
+así como apoyo en términos de financiamiento climático,
+transferencia de tecnología y construcción de capacidades.
+Para garantizar las capacidades de generación de los inventarios de gases de efecto invernadero, la Ley
+2169 de 2021 definió la creación del Sistema Nacional de
+Información de Cambio Climático (en adelante, SNICC) como el encargado de proveer datos e información transparente y consistente en el tiempo para la toma de decisiones relacionadas con la gestión del cambio climático. Dentro de este sistema, se definió la conformación del Sistema de Monitoreo, Reporte y Verificación de Mitigación a nivel nacional, compuesto, entre otros, por el Registro Nacional
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 9
+cuantificar las emisiones por sectores económicos, como energía, transporte, procesos industriales, agricultura y residuos. Esto se realiza siguiendo metodologías como las directrices establecidas por el Panel Intergubernamental de Expertos en Cambio Climático (en adelante, IPCC), para informar sobre los progresos en materia de cambio climático, priorizar esfuerzos y formular políticas.
+Para Colombia se realiza un ciclo de inventario con durabilidad de 2 años. En este periodo se estiman emisiones para los módulos de procesos industriales y uso de productos (en adelante, IPPU), silvicultura, uso y cambio de uso de la tierra (en adelante, LULUCF), energía, agricultura y residuos, siguiendo las Directrices del IPCC de 2006 o sus refinamientos de 2019.
+• ¿Qué es un inventario de carbono negro y contaminantes criterio?
+Un inventario de carbono negro y contaminantes criterio estima las emisiones de contaminantes atmosféricos que deterioran la calidad del aire y afectan la salud, tales como los óxidos de nitrógeno (NOx), el dióxido de azufre (SO2), el monóxido de carbono (CO), los compuestos orgánicos volátiles diferentes de metano (COVDM) y las partículas atmosféricas con diámetros aerodinámicos menores a 10 micrómetros (PM10) y 2,5 micrómetros (PM2,5), además de las partículas compuestas de carbono elemental emitidas en los procesos de combustión incompletos, que se conoce como carbono negro (CN).
+Para el Inventario de Carbono Negro y Contaminantes Criterio de Colombia, se emplea la “Guía técnica para la elaboración de inventario de emisiones de contaminantes atmosféricos conjunta EMEP/EEA” (European Environment Agency, 2019).
+de Reducción de las Emisiones de Gases de Efecto Invernadero (en adelante, Renare), el Sistema Nacional de Inventario de Gases de Efecto Invernadero (Singei) y el Sistema de Contabilidad de Reducción y Remoción de GEI (en adelante, SCRR-GEI). A su vez, se asignó al Ideam la administración y coordinación del Singei.
+Por otra parte, el plan de acción del Conpes 3943 de 2018, que presenta la “Política para el mejoramiento de la calidad del aire”, asignó al Ideam la competencia de generar inventarios bienales de contaminantes criterio y carbono, mientras que la ENCA busca que estos últimos se articulen con el Ingei.
+1.3 Conceptos básicos del Inventario de Emisiones Atmosféricas
+• ¿Qué es un inventario de emisiones atmosféricas?
+Un inventario de emisiones atmosféricas es un registro detallado de la cantidad de contaminantes liberados a la
+atmósfera en una región específica. Este inventario incluye la estimación de emisiones de gases de efecto invernadero (CO2, CH4, N2O, etc.) y otros contaminantes del aire (NOx, SO2, NH3, COVDM, CO, entre otros). Estos inventarios son relevantes para la gestión de la calidad del aire y el cambio climático.
+• ¿Qué es un inventario de gases de efecto invernadero?
+Un inventario de emisiones de gases de efecto invernadero corresponde a un reporte sistemático de las emisiones y absorciones generadas por fuentes y sumideros en un área y un tiempo determinados. Si dicho inventario es de carácter nacional, se le denomina Inventario Nacional de Gases de Efecto Invernadero (Ingei). Su objetivo es
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+10
+• Generalidades de los inventarios de emisiones atmosféricas
+La realización de inventarios de emisiones atmosféricas implica identificar los siguientes aspectos (figura 1):
+Figura 1. Aspectos transversales a los inventarios de emisiones atmosféricas
+Serie de tiempo Módulos Niveles
+metodológicos Datos de actividad Factores de
+emisión Categorías clave Análisis de
+incertidumbre
+• Decisión 18/CMA.1: Las partes deben realizar su Ingei desde el año 1990 (Convención Marco sobre el Cambio Climático, 2019).
+• El último año de reporte debe ser inferior a 2 años, pero con flexibilidad de que sea inferior a 3 años para países en desarrollo (Convención Marco sobre el Cambio Climático, 2019).
+• Energía. • IPPU. • Agricultura. • LULUCF. • Residuos.
+• Aseguran que los inventarios sean robustos y comparables.
+• Su empleabilidad depende de las circunstancias nacionales y la disponibilidad de información.
+• Representan una medida cuantitativa de la magnitud de una actividad que genera emisiones de gases o absorciones.
+• Aseguran que los inventarios sean robustos y comparables.
+• Su empleabilidad depende de las circunstancias nacionales y la disponibilidad de información.
+• Son los sectores que aportan en mayor medida a las emisiones o absorciones de un país.
+• Herramienta para evaluar la precisión y confiabilidad de los resultados.
+• Permite la priorización de mejoras.
+• Medida de la variabilidad de los datos.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 11
+Las directrices del IPCC incluyen diferentes niveles metodológicos (figura 2) para estimar las emisiones y
+absorciones de GEI y asegurar que los inventarios sean robustos y comparables. Su empleabilidad depende de las circunstancias nacionales y la disponibilidad de información.
+Figura 2. Niveles metodológicos del IPCC
+Fuente: Directrices del IPCC, capítulo 1, 2006.
+1.4 Circunstancias nacionales
+A nivel internacional, Colombia ocupa el puesto treinta (30) en la cantidad de emisiones globales, y el puesto tres (3) en Latinoamérica, después de Brasil y Argentina. Estas emisiones están asociadas a las diferentes actividades que se realizan en el país en temas de agricultura, industria, transporte, generación de residuos, entre otros. En ese contexto, esta clasificación se utiliza como un indicador para evaluar los compromisos ambientales; para ello se hace uso del Inventario Nacional de Gases de Efecto Invernadero (Ingei) y el Inventario de Carbono Negro y Contaminantes Criterio (Grupo Banco Mundial, 2020).
+Por esto, en Colombia se ha desarrollado un inventario para el periodo de 2010 a 2021. Estas emisiones fueron incluidas en las contribuciones determinadas a nivel nacional. A partir de ello, se diseñaron 3 medidas enfocadas en la mitigación y los sectores que tienen mayores contribuciones, como los sectores de transporte y agropecuario.
+El Ingei y el Inventario de Carbono negro y Contaminantes Criterio son importantes para el país, ya que constituyen una herramienta necesaria para monitorear el cumplimiento de la contribución nacionalmente determinada (NDC) del país, como parte de los compromisos de Colombia bajo el Acuerdo de París. La NDC establece emitir como máximo 169.440 kt CO2 eq, lo que equivale a una reducción del 51 % de las emisiones de GEI para 2030. En cuanto a las emisiones de carbono negro, la NDC propone la meta de reducir las emisiones en un 40 % para el mismo año. Por su parte, la estrategia E20501 es una política de Estado que busca generar un ejercicio de largo plazo para contribuir a los objetivos de un futuro sostenible mediante estrategias como la transición energética que se viene desarrollando.
+1 E2050: Estrategia Climática de Largo Plazo de Colombia, que orienta las acciones para construir un futuro resiliente al clima como una estrategia de planificación a largo plazo que demuestra el compromiso nacional con el Acuerdo de París.
+Nivel
+2
+Nivel
+1
+Nivel
+3
+Se caracteriza por aplicar factores de emisión y métodos recomendados por el IPCC de aplicabilidad global o regional, con datos estadísticos básicos del país.
+Se basa en la utilización de datos más detallados y específicos junto con factores de emisión ajustados a las condiciones del país. Estos factores de emisión se derivan de cálculos más complejos producto de investigaciones científicas.
+Implica una estimación más exacta y compleja con relación al nivel 2, con una mayor exigencia en cuanto a los requisitos de los datos de actividad, factores de emisión y métodos más avanzados y precisos, utilizando la aplicación de técnicas de modelado y simulaciones complejas.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+12
+En la actualidad, el Inventario de Gases de Efecto Invernadero en Colombia está relacionado con el producto interno bruto (PIB) del país, ya que la estimación de gases incluye la desagregación de diferentes módulos y categorías dentro de los sectores económicos. Una quinta parte del PIB del país proviene de los sectores con mayores emisiones de GEI, dentro de los cuales se encuentran la ganadería, el transporte, los procesos agroindustriales, entre otros (Grupo Banco Mundial, 2020).
+1.5 Sistema Nacional de Información sobre Cambio Climático de Colombia
+Colombia cuenta con el SNICC, en el marco del Sistema de Información Ambiental para Colombia (en adelante, SIAC), que se consolida como el sistema oficial de coordinación y articulación de información institucional, sectorial y territorial del país. El SNICC facilita la gestión y divulgación de datos e información en materia de cambio climático, comprendiendo el conjunto de sistemas, actores, procesos, instrumentos, herramientas y metodologías para la recopilación, análisis, generación de estadísticas y modelos, reportes de datos e información transparente y consistente en el tiempo para la toma de decisiones relacionadas con la gestión del cambio climático (MinAmbiente, 2023).
+Algunos de los objetivos enmarcados dentro del SNICC son:
+• Consolidar los datos e información oficial generada y reportada por los diferentes sistemas y herramientas de información que lo conforman, entre ellos el Singei.
+• Proveer los datos e información para orientar la toma de decisiones en materia de políticas, regulación,
+gestión, planificación e investigación relacionada con cambio climático.
+• Fortalecer los procesos de difusión y acceso a la información sobre cambio climático.
+• Facilitar los procesos para la gestión de información en materia de cambio climático.
+• Establecer las reglas para la integración e interoperabilidad con el SIAC y los demás sistemas, instrumentos y herramientas que generen información oficial sobre cambio climático de las entidades territoriales y sectoriales.
+Asimismo, dentro de la organización temática del SNICC, se encuentra el Sistema de Inventario Nacional de Gases de Efecto Invernadero (Singei), que está diseñado para apoyar al Sistema de Monitoreo, Reporte y Verificación de las acciones de mitigación a nivel nacional y centralizar la recolección y procesamiento de información para la estimación y proyección de GEI y emisiones de contaminantes criterio y carbono negro. Este facilitará la elaboración de los BTR, CNCC y los demás informes nacionales, sectoriales y departamentales que se requieran con respecto a los GEI, contaminantes criterio y carbono negro en el país.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 13
+Figura 3. Control y aseguramiento de calidad del Ingei
+1. Alistamiento
+CC0: Control de calidad al plan de trabajo y a la actualización de los instrumentos empleados.
+2. Recopilación y procesamiento de información
+CC1: Control de calidad a la información de entrada al Ingei.
+3. Cálculos y reportes preliminares por módulo
+CC2: Control de calidad a los cálculos y resultados preliminares (por módulo) del Ingei.
+4. Validación sectorial y ajustes a resultados
+CC3: Control de calidad a los cálculos y resultados finales (por módulo) del Ingei.
+5. Generación de reportes finales y aseguramiento de la calidad
+CC4: Control de calidad a los reportes del Ingei.
+6. Actualización de plan de mejora y sistema de archivo
+CC5: Control de calidad al sistema de archivo del Ingei y del plan de mejora del Ingei.
+El Singei cuenta con una serie de procesos aplicados para la generación del Ingei. De igual manera, el Singei dispone de un conjunto de protocolos asociados al archivo de información, la compilación y reporte de información, la consulta de
+expertos (enfocado específicamente para el sector agricultura), el control y aseguramiento de la calidad, e indicadores, los cuales garantizan la gestión de información, trazabilidad y calidad de los datos generados.
+Con base en lo anterior, en la figura 3, se presentan los procesos aplicables del Singei (1-6), así como el detalle del proceso de control y aseguramiento de calidad (CC0CC5), que se realiza de manera transversal a cada proceso.
+Fuente: Protocolo de control y aseguramiento de calidad (CC/AC) y verificación del Singei para Colombia (2024).
+
+
+
+
+CO CH
+NO
+PFC
+HFC
+SF
+PM10 y PM2,5
+SO
+CO 2. Metodología
+2.1 Desarrollo metodológico
+El Ingei se elabora en conformidad con las recomendaciones de las Decisiones 5/CMA.3 y 18/CMA.1 (orientaciones para la puesta en práctica de las modalidades, procedimientos y directrices del marco de transparencia reforzada y del marco de transparencia para la acción y el apoyo al que se refiere el artículo 13 del Acuerdo de París).
+Adicionalmente, se emplean las “Directrices del IPCC para los inventarios nacionales de gases de efecto invernadero” (IPCC, 2006; IPCC, 2019) en complemento con el Suplemento de 2013 (Humedales), la “Guía de buenas prácticas y gestión de la incertidumbre”, de las Directrices del IPCC de 2006, y la “Guía técnica para la elaboración de inventarios de emisiones de contaminantes atmosféricos” (EMEP-EEA, 2019), desagregada por subcategoría NFR para la estimación de contaminantes criterio y carbono negro.
+El inventario proporciona información de los siguientes contaminantes atmosféricos: dióxido de carbono (CO2), metano (CH4), óxido nitroso (N2O), perfluorocarbonos (PFC), hidrofluorocarbonos (HFC) y hexafluoruro de azufre (SF6), material particulado (PM10 y PM2,5), carbono negro (CN), dióxido de azufre (SO2), óxidos de nitrógeno (NOX), monóxido de carbono (CO) y compuestos orgánicos volátiles distintos al metano (en adelante, COVDM).
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+16
+2.2 Fuentes de información
+Las fuentes de información son relevantes en la elaboración del inventario, ya que determinan la precisión de las emisiones estimadas. Estas fuentes incluyen diferentes entidades gubernamentales, centros de investigación y gremios de distintos sectores, lo que permite establecer un plan de trabajo continuo, para garantizar la coherencia de los datos y la calidad de los resultados. En la siguiente figura se resumen las principales fuentes de información por cada sector del Panel Intergubernamental de Expertos sobre Cambio Climático (en adelante, IPCC):
+Energía
+UPME (BECO), MinEnergía, Cerro Matoso-South32, MRVme, UPME (Sicom), RUNT, Swisscontact-Calac+, EPA, Proyectos MDL de PTAR y rellenos sanitarios, MME, Aerocivil.
+Procesos industriales y uso de productos (IPPU) DANE (ECG), Procemco, ANDI-Cámara Procultivos y empresas del sector, Ecopetrol, DANE (EAM), UPME (Simco), WSA, Empresas del sector, UTO (MinAmbiente), XM, Banco Mundial.
+Agricultura
+Fedegán, FAO, ICA, Fenavi, Porkcolombia, DANE, Fedearroz, CIAT-Usaid, UPRA, FNC, Fedecacao, Fedepalma, Ideam (SMByC), IGAC, Proyecto Biocarbono-CIAT-Biodiversity International, Agrosavia, MinAgricultura, Consulta Nacional de Expertos Agropecuarios.
+Silvicultura, uso y cambio de uso de la tierra (LULUCF) DANE, IGAC, Ideam (SMByC), ICA, MinAgricultura, MinEnergía, MRVme, UPRA, Fedegán-Proyecto Ganadería Colombiana Sostenible (GCS), FNC, Fedepalma, Indicadores e Informes de Gestión (Bogotá, Cali, Medellín), FAO, Ideam (SNIF, IFN y TNC). Residuos SSPD, Registro de Generación de Residuos Peligrosos (Respel)-Ideam, DANE (ECV), SSPD, DANE (EAM), WSA.
+Contaminantes criterio y carbono negro
+UPME (BECO), UPME (Sicom), Ecopetrol, SUI, MinTransporte (RNMA), EPA, DIAN, UPME (SIPG), Swisscontact-Calac+, Aerocivil, RUNT, LEAP-NDC 2020, Ideam (OSPA), PERS, ANH, Empresas cementeras, Procemco, DANE (EAM), DANE (CSM), DANE (CEED), ANDI-Cámara Procultivos, Cerro Matoso, Fedegán, FAO, ICA, Fenavi, Porkcolombia, UPRA, MinAgricultura, SSPD, Ideam (Respel), DANE (ECV), DANE (Censo Nacional de Población y Vivienda), Ideam (RUA manufacturero) (otras fuentes asociadas a los sectores).
+Figura 4. Fuentes de información por cada sector del IPCC en el Inventario Nacional de Emisiones y Absorciones Antropogénicas de GEI, Contaminantes Criterio y Carbono Negro
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 17
+Nivel 1
+Nivel 2
+Nivel 3
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+0 0,5 1 1,5 2 2,5 3 3,5
+Sumatoria niveles metodológicos Ingei
+62 %
+33 %
+5%
+2.3 Niveles metodológicos del Ingei de Colombia
+Siguiendo las orientaciones del IPCC (2006), los métodos aplicados en cada categoría y/o subcategoría son definidos mediante árboles de decisión. Estos pueden ser variables dependiendo de la importancia que tiene una categoría dentro del inventario y la disponibilidad de información en el país.
+A continuación, se muestra de forma general la contribución de los niveles metodológicos dentro del inventario nacional de GEI:
+Figura 5. Participación por nivel metodológico en el Ingei, 1990-2021
+En el caso del Inventario de Carbono Negro y Contaminantes Criterio, el 64 % de las categorías se estiman en nivel 1; el 27 %, en nivel 2, y el restante 9 %, en nivel 3.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+18
+Energía
+En la subcategoría 1.A.1.a Producción de electricidad pública y calor, el cálculo se realizó relacionando el consumo de diésel con la población de las zonas denominadas como no interconectadas ZNI.
+Se estima separadamente la emisión de la subcategoría 1.A.2.b. de la subcategoría 1.A.2.a., gracias a mesas técnicas con la empresa productora de níquel contenido en ferroníquel y el apoyo del equipo MRVme.
+Se incluyen los consumos de combustible desagregados de diésel, gas natural y petróleo para la subcategoría 1.A.3.e.ii.
+Desarrollo de mesas de trabajo con el Servicio Geológico Colombiano, la Unidad de Planeación Minero Energética y el Ministerio de Minas y Energía para identificar las acciones que se realizarán, tendientes a la actualización de los factores de emisión en este sector.
+IPPU
+Participación en mesas técnicas con Mincit, Procemco y Ficem para estandarizar la metodología de estimación de emisiones.
+Actualización del supuesto sobre la relación entre sínter y arrabio para estimar los tipos de acero producidos en el país.
+Actualización del factor de emisión de CO2 mediante colaboración con Cerro Matoso S. A. y el equipo MRVme.
+Sustitución de datos de importación de clínker utilizando los datos reportados por Procemco de 2013 a 2021 y la actualización de la producción de cemento gris de la ECG (DANE).
+Ajuste del factor de emisión para el periodo 1990-2021, en colaboración con la empresa productora y el equipo MRVme, trasladando emisiones del consumo de combustible en producción de níquel subcategoría 1.A.2.b.
+LULUCF
+Nuevas categorías: 4.A.1.b que estima las emisiones de CO2 por la degradación del bosque natural. 4.B.1.k Marañón con información de contenidos de carbono en biomasa y suelos obtenida a partir de Agrosavia-Proyecto Biocarbono. 4.E.1 Asentamientos que permanecen como tales: estimaciones de pérdidas y ganancias por la gestión del arbolado urbano (siembras de nuevos árboles y talas).
+Actualización de factores: contenidos de carbono para estimaciones por deforestación, degradación y regeneración con la última actualización del IFN; contenidos de carbono de cultivos de cacao y marañón con información de Agrosavia-Proyecto Biocarbono; factores de biomasa en plantaciones forestales con datos de la Universidad del Tolima-Proyecto Biocarbono. Datos de actividad: se actualizan las estimaciones por deforestación con datos desagregados a nivel de bosque núcleo y bosque fragmentado.
+2.4 Mejoras metodológicas frente al Inventario anterior (BUR 3)
+Las mejoras implementadas en el Ingei, identificadas con respecto al
+reporte anterior del inventario, incluido en el reporte bienal de actualización (BUR 3), incluyen la actualización de metodologías, la inserción de nuevas fuentes de información, la implementación de mesas técnicas con los sectores, la consulta de expertos, entre otros. Estas acciones han permitido que el proceso de las estimaciones sea eficiente, de alta calidad y coherente
+con el contexto nacional. A continuación, se presenta un resumen de las mejoras implementadas:
+Figura 6. Mejoras metodológicas implementadas
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 19
+Agricultura
+Avance de nivel metodológico 2 para la región Orinoquía en las subcategorías 3.D.1.c. orina y estiércol depositados por animales en pastoreo, 3.C.1. arroz riego, 3.C.2. arroz secano, desarrollado por el Centro Internacional de Agricultura Tropical y Proyecto Biocarbono.
+Se ajustan los datos de actividad utilizando información del DANE y Fedearroz.
+Participación de mesas técnicas para dar retroalimentación de resultados en las consultorías que desarrollaron los factores de emisión de orina y estiércol depositados en pasturas y arroz riego y secano en la región de la Orinoquía.
+Actualización de los datos de actividad de fertilizantes inorgánicos, como cal y urea, y manejo de residuos de cultivo mediante la consulta nacional de expertos agropecuarios.
+Residuos
+Actualización de la caracterización de residuos sólidos por ciudad.
+Identificación de la cantidad de residuos peligrosos que van a incineración en el registro Respel.
+Identificación de fuentes de información alternativas para la estimación de emisiones de GEI.
+Actualización de los factores de emisión ponderados con base en información de RUA manufacturero de 2015-2021.
+• Metodología de nivel 3 dentro del Ingei
+Las estimaciones bajo un nivel 3 en el inventario nacional implican el uso de
+modelos y datos más refinados adaptados a las circunstancias del país. En este caso, la metodología se aplica para la estimación de emisiones producto de la combustión de diésel en vehículos fuera de ruta, como maquinaria móvil empleada en sistemas agrícolas, sector residencial, construcción (maquinaria amarilla), así como equipo de apoyo en tierra de los aeropuertos, motosierras y montacargas. Los cálculos siguen las Directrices del IPCC de 2006 y del EMEP/ EEA de 2019, con base en factores de emisión provenientes de UPME-Fecoc y el proyecto Swisscontact-Calac+.
+
+
+
+
+3. Resultados
+En esta sección se presentan los resultados obtenidos de la estimación de emisiones de gases de efecto invernadero, contaminantes criterio y carbono negro en Colombia.
+3.1 Inventario de Emisiones y Absorciones de GEI, 1990-2021
+Los resultados correspondientes al Informe del Inventario (1990-2021), elaborado en 2024, incluyen las fuentes y sumideros en los que se cuenta con información disponible, siguiendo los principios establecidos en las Directrices del IPCC de 2006, y sus refinamientos de 2019, y el protocolo de control y aseguramiento de calidad del Ingei.
+
+
+Energía
+LULUCF
+39,43 %
+14 %
+Ganado bovino, fermentación entérica
+13,92 %
+Transporte
+21,98 %
+Tierras forestales que permanecen como tierras forestales
+6,47 %
+Industrias de la energía
+4,47 %
+Industrias manufactureras y construcción
+2,20 %
+Cultivos que permanecen como tales
+13,27 %
+Tierras convertidas en pastizales
+2,02 %
+Tratamiento y eliminación de aguas residuales industriales
+3,18 %
+Emisiones directas e indirectas de N2O de suelos gestionados
+
+
+Agricultura Residuos IPPU
+30,24 % 19,13 % 7,33 % 3,87 %
+1,58 %
+Producción de cemento
+1,30 %
+Refrigeración y aire acondicionado
+1,26 %
+Tratamiento y eliminación de aguas residuales domésticas
+0,25 %
+Producción de hierro y acero
+3,75 %
+Sitios de eliminación de residuos gestionados
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+24
+3.1.1 Emisiones y absorciones de GEI para el año 2021
+Las emisiones netas para el año 2021 cuantifican 280.101,98 kt CO2eq, con emisiones totales de 302.934,03 kt CO2eq y 22.832,04 kt CO2eq de absorciones. En la siguiente figura se resumen las emisiones totales por módulo y subcategoría para el año 2021:
+Figura 7. Emisiones totales de GEI por módulo y subcategoría en 2021
+LULUCF
+Energía
+Agricultura
+Residuos
+IPPU
+4.A.1. Tierras forestales que permanecen como tierras forestales
+4.C.2. Tierras convertidas en pastizales
+4.B.1. Cultivos que permanecen como tales 2,20 %
+Otros 1,98 %
+21,98 %
+13,27 %
+1.A.3. Transporte
+1.A.1. Industrias de la energía
+Otros
+1.A.2. Industrias manufactureras y construcción
+13,92 %
+6,47 %
+5,38 %
+4,47 %
+3.A.1. Ganado
+3.D.1. E. Dir. de N2O de suelos gestionados 2,06 %
+3.D.2. E. Indir. de N2O de suelos gestionados 1,12 %
+Otros 1,96 %
+Otros 0,29 %
+5.D.2. TEARI 2,02 %
+5.A.1. SERG 3,75 %
+5.D.1. TEARD 1,26 %
+2.A.1. Producción de cemento 1,58 %
+Otros 0,74 %
+2.C.1 Producción de hierro y acero 0,25 %
+2.F.1. RAC 1,30 %
+3,87 %
+7,33 %
+19,13 %
+30,24 %
+39,43 %
+302.934,03 kt CO2eq
+14 %
+Donde SERG: Sitios de eliminación de residuos gestionados; TEARD: Tratamiento y eliminación de aguas residuales domésticas; TEARI: Tratamiento y eliminación de aguas residuales industriales; RAC: Refrigeración y aire acondicionado; E. Dir: Emisiones directas; E. Indir: Emisiones indirectas.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 25
+El 34,49 % de las emisiones netas se generan en el sector de LULUCF; el 32,71 %, en energía, y el 20,69 %, en agricultura, tal como se observa en la figura 8. Estas, en su mayoría, son emisiones de CO2 y CH4 (figura 9).
+Energía
+32,71 %
+IPPU
+4,18 %
+Agricultura
+20,69 %
+LULUCF
+34,49 %
+Residuos
+7,93 %
+CO2 66,58 %
+CH4 27,04 %
+N2O 4,80 %
+HFC 1,51 %
+SF6 0,07 %
+280.101,98 kt CO2eq
+280.101,98 kt CO2eq
+Figura 8. Participación por módulo del IPCC en las emisiones netas de 2021
+Figura 9. Participación por GEI en las emisiones netas de 2021
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+26
+Es de resaltar que las absorciones reportadas pertenecen al módulo de LULUCF con actividades asociadas al crecimiento de cultivos permanentes (principalmente café, palma de aceite y cacao), plantaciones forestales y sistemas silvopastoriles (figura 10).
+Figura 10. Absorciones de CO2 en el año 2021
+4.A.1.d. Tierras forestales que permanecen como tierras forestales (plantaciones forestales) 32,55 %
+4.A.2.a. Cultivos convertidos a tierras forestales 5,94 %
+4.B.1.a. Cultivo de café 14,63 %
+4.B.1.b. Palma de aceite 7,78 %
+4.B.1.c. Cacao 9,34 %
+4.B.1.d. Aguacate 1,63 %
+4.B.1.e. Caucho 2,41 %
+4.B.1.f. Mango 0,80 %
+4.B.1.g. Limón 1,36 %
+4.B.1.h. Mandarina 0,67 %
+4.B.1.i. Naranja 1,36 %
+4.B.1.j. Tangelo 0,003 %
+4.B.1.k. Marañón 0,20 %
+22.832,04 kt CO2eq
+4.C.1. Pastizales que permanecen como tales 21,25 % 4.E.1. Asentamientos que permanecen como tales 0,08 %
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 27
+En la siguiente tabla se encuentran los datos totalizados de las emisiones y absorciones de GEI del año 2021.
+Tabla 1. Emisiones y absorciones de GEI, año 2021
+FUENTES Y SUMIDEROS DE GEI
+CO2 equivalente (kt)
+CO2 CH4 N2O HFC PFC
+Mezcla no especificada de HFC y PFC
+SF6 NF3 Total
+Total (Emisiones netas) 186.498,09 75.752,29 13.433,41 4.218,30 0,26 NO 199,63 NO 280.101,98
+1. Energía 83.173,09 7.224,33 1.213,13 91.610,55
+1.A. Combustión de combustibles 80.783,71 2.351,15 1.204,39 84.339,25
+1.A.1. Industrias energéticas 19.553,97 10,20 29,70 19.593,86
+1.A.2. Industrias manufactureras y
+construcción 13.343,63 68,89 122,50 13.535,02
+1.A.3. Transporte 41.149,39 263,68 757,52 42.170,58
+1.A.4. Otros sectores 6.736,73 2.008,38 294,68 9.039,79
+1.A.5. Otros NO NO NO NO
+1.B. Emisiones fugitivas de combustibles 2.389,38 4.873,19 8,74 7.271,31
+1.B.1. Combustibles sólidos 97,37 2.225,99 NA,NE 2.323,36
+1.B.2. Petróleo y gas natural y otras emisiones procedentes de la producción de energía
+2.292,02 2.647,19 8,74 4.947,94
+1.C. Transporte y almacenamiento de CO2 NO NO
+2. Procesos industriales y uso de productos 6.666,65 7,05 629,57 4.218,30 0,26 NO 199,63 NO 11.721,47
+2.A. Industria mineral 5.186,30 NO NO 5.186,30
+2.B. Industria química 484,85 6,74 629,57 NO NO NO NO NO 1.121,17
+2.C. Industria metalúrgica 971,76 0,31 NO NO NO NO NO NO 972,06
+2.D. Productos no energéticos procedentes
+de combustibles y uso de disolventes 23,75 NA,NO NA,NO 23,75
+2.E. Industria electrónica NO NO NO NO NO NO NO
+2.F. Usos de productos como sustitutos de
+SAO 4.218,30 0,26 NO NO NO 4.218,56
+2.G. Fabricación y uso de otros productos NO NO NE,NO NO NE,NO NO 199,63 NO 199,63
+2.H. Otros NA,NO NA,NO NA,NO NO NO NO NO NO NA,NO
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+28
+FUENTES Y SUMIDEROS DE GEI
+CO2 equivalente (kt)
+CO2 CH4 N2O HFC PFC
+Mezcla no especificada de SF6 NF3 Total
+3. Agricultura 271,73 46.963,33 10.722,78 57.957,85
+3.A. Fermentación entérica 44.504,73 44.504,73
+3.B. Gestión del estiércol 1.937,56 1.097,29 3.034,85
+3.C. Cultivo del arroz 521,05 521,05
+3.D. Suelos agrícolas NA 9.625,49 9.625,49
+3.E. Quema prescrita de sabanas IE IE IE
+3.F. Quema de residuos agrícolas en el
+campo IE IE IE
+3.G. Encalado 54,00 54,00
+3.H. Aplicación de urea 217,73 217,73
+3.I. Otros fertilizantes que contienen carbono NE NE
+3.J. Otros NE NE NE NE
+4. Uso de la tierra, cambio de uso de la tierra y
+silvicultura 96.009,24 477,78 116,04 96.603,06
+4.A. Tierras forestales 57.796,85 38,17 11,71 57.846,73
+4.B. Tierras de cultivo -1.869,35 373,53 104,04 -1.391,79
+4.C. Pastizales 36.989,89 0,26 0,29 36.990,44
+4.D. Humedales 1.742,58 65,82 NE,NO 1.808,41
+4.E. Asentamientos 96,82 NE 96,82
+4.F. Otras tierras 883,58 883,58
+4.G. Productos madereros 368,87 368,87
+4.H. Otros NO NO NO NO
+HFC y PFC
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 29
+FUENTES Y SUMIDEROS DE GEI
+CO2 equivalente (kt)
+CO2 CH4 N2O HFC PFC
+Mezcla no especificada de HFC y PFC
+SF6 NF3 Total
+5. Residuos 377,37 21.079,79 751,89 22.209,05
+5.A. Eliminación de residuos sólidos 11.682,54 11.682,54
+5.B. Tratamiento biológico de residuos
+sólidos NE NE NE 5.C. Incineración y quema al aire libre de
+residuos 377,37 182,99 22,95 583,31
+5.D. Tratamiento y vertido de aguas
+residuales 9.214,25 728,94 9.943,20
+5.E. Otros NO NO NO NO
+6. Otros NO NO NO NO NO NO NO NO NO
+Memo items:
+1.D.1. Búnkeres internacionales 414,27 0,61 2,53 417,41
+1.D.1.a. Aviación 294,86 0,26 1,57 296,69
+1.D.1.b. Navegación 119,41 0,35 0,96 120,72
+1.D.2. Operaciones multilaterales IE IE IE IE
+1.D.3. Emisiones de CO2 de la biomasa 33.130,53 33.130,53
+1.D.4. CO2 capturado NO NO
+5.F.1. Almacenamiento a largo plazo de C en
+vertederos NO NO
+N2O indirecto NE
+CO2 indirecto NE
+Emisiones totales de CO2 equivalente sin LULUCF 183.498,92
+Emisiones totales equivalentes de CO2 con LULUCF 280.101,98
+Emisiones totales equivalentes de CO2, incluido el CO2 indirecto, sin LULUCF 183.498,92
+Emisiones totales equivalentes de CO2, incluido el CO2 indirecto, con LULUCF 280.101,98
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+30
+3.1.2. Tendencia de emisiones de GEI (1990-2021)
+La tendencia de emisiones de GEI de 1990 a 2021 muestra que las emisiones netas de CO2 equivalente durante los últimos 3 años estimados (2019-2021) tienden a estabilizarse, dado que presentan ligeras variaciones porcentuales, las cuales detienen la tendencia creciente mostrada durante el periodo 2015-2018. En la figura 11 se presenta la tendencia de emisiones por módulo del IPCC (19902021), y en la figura 12 se expone el promedio de participación por sector.
+Figura 11. Tendencia de emisiones de GEI en Colombia por módulo del IPCC (1990-2021)
+Figura 12. Participación promedio histórica en las emisiones netas de GEI por módulo del IPCC (1990-2021)
+4.LULUCF: 41,41 % 1.Energía: 30,03 %
+3.Agricultura: 19,57 %
+5.Residuos: 6,08 %
+2.IPPU: 2,91 %
+-30,000
+0
+30,000
+60,000
+90,000
+120,000
+150,000
+180,000
+210,000
+240,000
+270,000
+300,000
+330,000 1. Energía 2. Procesos industriales 3. Agricultura 4. LULUCF-Emisiones 5. Residuos 4. LULUCF-Absorciones
+1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 31
+En la figura 13 se presenta la tendencia de emisiones por GEI (1990-2021), y en la figura 14 se muestra el promedio histórico de participación.
+Figura 13. Tendencia de emisiones de GEI (1990-2021)
+Figura 14. Participación promedio histórica por GEI en las emisiones netas (1990-2021)
+-30,000
+0
+30,000
+60,000
+90,000
+120,000
+150,000
+180,000
+210,000
+240,000
+270,000
+300,000
+330,000
+Emisiones GEI (kt CO2eq.año-1)
+CO2-Emisiones totales CO2-Absorciones CH4 N2O HFC PFC SF6 Emisiones netas
+1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021
+N2O 4,53 %
+HFC 0,41 %
+SF6 0,04 %
+CH4: 24,56 %
+CO2: 70,47 %
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+32
+-25,000
+-20,000
+-15,000
+-10,000
+-5,000
+0
+5,000
+Absorciones (kt CO2eq.año-1)
+4.A.1. Tierras forestales que permanecen como tierras forestales 30,93 %
+4.A.2. Tierras convertidas en tierras forestales 11,38 %
+4.B.1. Cultivos que permanecen como tales 43,14 %
+4.C.1. Pastizales que permanecen como tales 13,26 %
+4.E.1. Asentamientos que permanecen como tales 0,07 %
+4.G.1. Madera maciza 0,69 %
+4.G.2. Papel y cartón 0,53 %
+4.A.1. Tierras forestales que permanecen como tierras forestales 4.A.2. Tierras convertidas en tierras forestales 4.B.1. Cultivos que permanecen como tales 4.C.1. Pastizales que permanecen como tales 4.E.1. Asentamientos que permanecen como tales 4.G.1. Madera maciza 4.G.2. Papel y cartón
+13.845,0 kt CO2 promedio
+En la figura 15 se observa la tendencia de absorciones (1990-2021) pertenecientes al módulo de LULUCF, y en la figura 16 se presenta la participación histórica promedio por subcategoría.
+Figura 15. Tendencia de absorciones de CO2 (1990-2021)
+Figura 16. Participación promedio histórica en absorciones de CO2 (1990-2021)
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 33
+3.1.3 Emisiones de GEI por sector
+Energía
+El sector de energía es el segundo con mayor representatividad en la serie histórica, ya que refleja el 30,03 % de las emisiones totales del país. Las emisiones de este módulo para la serie histórica de 1990 a 2021 pasaron de 50.237,01 kt CO2eq a 91.610,55 kt CO2eq, lo cual refleja un incremento del 82,36 % y una tasa de crecimiento anual compuesta del 1,95 %. Para la vigencia 2020, las emisiones disminuyen en un 10,60 % respecto al año anterior, debido a la pandemia por covid-19, la cual repercutió principalmente en los consumos de combustibles del sector transporte.
+El sector transporte representa el 39,14 % del total de las emisiones del módulo, lo cual refleja el incremento en la circulación de vehículos en el país. Las industrias de la energía representan el 24,11 %, situación asociada principalmente a las actividades de producción de electricidad. Las industrias manufactureras y de construcción representan el 17,44 %, debido al consumo de combustibles en la industria de minerales no metálicos; la industria de alimentos, bebidas y tabaco; la fabricación de pulpa, papel e imprenta y productos químicos, principalmente.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+34
+Este módulo abarca las emisiones de CO2, CH4 y N2O generadas por las actividades del país que se encuentran asociadas a la combustión de combustibles y emisiones fugitivas provenientes de minería de carbón, petróleo y gas natural. Se emplea en la mayoría de los casos la metodología de estimación descrita en las Directrices del IPCC de 2006 con un nivel metodológico 1 y factores de emisión por defecto. Sin embargo, para algunas subcategorías se cuenta con nivel 2 y factores de emisión nacionales. Puntualmente, en el sector transporte, se cuenta con el desarrollo de nivel metodológico nivel 3 y los avances en la desagregación del dato de actividad para la categoría de fuera de ruta.
+Las emisiones del módulo para el año 2021 son de 91.610,55 kt CO2eq (figura 17), de las cuales el 92,06 % de las emisiones corresponden a las actividades de quema de combustibles (1.A), cuya mayor participación es reflejada por el transporte (1.A.3) con el 46,03 %, acompañado de las industrias de la energía (1.A.1) con el 21,39 %. En menor proporción están las industrias manufacturera y de construcción (1.A.2.), representadas por el 14,77 %, y, finalmente, otros sectores (1.A.4), como el comercial, institucional, residencial, agrícola, entre otros, emiten un 9,87 %. El 7,94 % restante corresponde a todas las emisiones intencionales y no intencionales liberadas en la cadena de suministro de combustibles hasta la entrega al consumidor final (1.B), de las cuales el 5,40 % están relacionadas con las actividades de petróleo y gas natural (1.B.2), y el 2,54 %, con la minería carbonífera realizada a cielo abierto y subterránea (1.B.1) (figura 18).
+Figura 17. Emisiones del módulo de energía por categoría y subcategoría en 2021
+Figura 18. Participación por categoría en las emisiones del módulo de energía en 2021
+1.B.1. Combustibles sólidos 2,54 %
+1.B.2. Petróleo y gas natural y otras emisiones provenientes de la energía 5,40 %
+1.A.4. Otros sectores 9,87 %
+1.A.2. Industrias manufactureras y de construcción 14,77 %
+1.A.1. Industrias de la energía 21,39 %
+1.A.3. Transporte 46,03 %
+1.A. Actividades de quema de combustibles (enfoque sectorial)
+1.B. Emisiones fugitivas de combustibles
+21,39 %
+14,77 %
+46,03 %
+9,87 %
+2,54 %
+5,40 % 1.A.1. Industrias de la energía
+1.A.3. Transporte
+1.A.4. Otros sectores
+1.B.1. Combus�bles sólidos
+1.B.2. Petróleo y gas natural y otras emisiones provenientes de la energía
+1.A.2. Industrias manufactureras y de construcción
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 35
+Respecto a los datos de actividad, se destaca que desde 2010 el Sistema de Monitoreo, Reporte y Verificación Minero Energético (en adelante, MRVme), del Ministerio de Minas y Energía, es la principal fuente de información. Desde allí se recopilan y procesan los datos de actividad empleados para las estimaciones de gran parte de las categorías del módulo.
+Adicionalmente, se emplean los datos publicados en el Balance Energético Colombiano (BECO) de la UPME, relacionados con los consumos energéticos en los diferentes sectores de consumo que tiene el país.
+Las emisiones del sector energía tienen una tasa de crecimiento positiva: el sector 1.A.3. de transporte pasó de 19.773,24 kt CO2eq a 42.171, 57 kt CO2eq, representados por el transporte terrestre; seguido del sector 1.A.1. de industrias de la energía, que en el año 1990 representó 11.267,30 kt CO2eq, y pasó a 19.593,85 kt CO2eq en el año 2021, generado por un consumo de combustible para producir energía. En cuanto a las emisiones de 1.A.2. de las industrias manufactureras y de construcción, en el año 1990 se generaron 9.124,29 kt CO2eq y en el 2021 se produjeron 13.535,02 kt CO2eq. Estas categorías son las más representativas dentro del sector y se asocian al consumo de combustible y las actividades económicas (figura 19).
+Figura 19. Evolución de emisiones del módulo de energía (1990-2021)
+En el módulo de energía se resaltan las emisiones de CO2 asociadas en mayor proporción a los procesos de quema de combustibles con fines
+energéticos, los cuales aportan el 90,79 % de las emisiones para la vigencia 2021. Por su parte, el CH4 aporta el 7,89 % de las emisiones del 2021, las cuales se encuentran asociadas principalmente a las emisiones fugitivas (figura 20).
+Figura 20. Participación por GEI en las emisiones del módulo de energía en 2021
+0
+20.000
+40.000
+60.000
+80.000
+100.000
+1990 1995 2000 2005 2010 2015 2020 2021
+1.B.2. Petróleo y gas natural y otras emisiones provenientes de la energía 1.B.1. Combustibles sólidos 1.A.4. Otros sectores 1.A.3. Transporte 1.A.2. Industrias manufactureras y construcción 1.A.1. Industrias de la energía
+1.B.2. Petróleo y gas natural y otras emisiones provenientes de la energía
+1.A.3. Transporte
+Emisiones (kt CO2eq)
+CO2 90,79 %
+N2O 1,32 %
+CH4 7,89 %
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+36
+Procesos industriales y uso de productos
+El sector IPPU incluye las emisiones de CO2, CH4, N2O y gases fluorados (HFC, PFC y SF6) generadas a la atmósfera por los procesos productivos de la industria colombiana, el uso de productos y los usos no energéticos del carbono contenido en los combustibles fósiles. Se emplea en la mayoría de los casos la metodología de estimación descrita en las Directrices del IPCC de 2006 con el nivel metodológico 1 y los factores de emisión por defecto. Sin embargo, para algunas subcategorías, se cuenta con el nivel 2 y los factores de emisión nacionales.
+En el año 2021, la industria representó el 11,2 % del PIB nacional con la participación de industrias relacionadas con la fabricación de productos químicos, la petroquímica, los minerales no metálicos, los textiles, algunos alimentos y los metales. Se resalta que, de 2019 a 2020, el PIB de las industrias manufactureras presentó un decrecimiento del 7,53 %, por la contracción económica causada por la pandemia de covid-19. Sin embargo, entre 2020 y 2021, logró un crecimiento del 24,71 %, resultado de los esfuerzos por reactivar la economía nacional.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 37
+Las emisiones del sector para el año 2021 fueron de 11.721,47 kt CO2eq, de las cuales el 44,25 % de las emisiones corresponden a la industria de los minerales (2.A), relacionadas principalmente con la producción de cemento (2.A.1). Asimismo, el 35,99 % de las emisiones de IPPU se ocasionan por el uso de sustancias sustitutas de las sustancias agotadoras de la capa de ozono (2.F),
+2.A.1. Cemento 40,90 %
+2.A.2. Producción de cal 1,54 %
+2.A.3. Producción de vidrio 0,91 %
+2.A.4. Otros usos de carbonatos en los procesos 0,90 %
+2.F.2. Agentes espumantes 1,46 %
+2.F. Uso de productos sustitutos de las sustancias que agotan la capa de ozono
+2.F.3. Protección contra incendios 0,08 %
+2.F.4. Aerosoles 0,89 %
+2.B.1. Producción de amoníaco 1,55 %
+2.F.6. Otras aplicaciones 0,02 %
+2.C.2. Producción de ferroaleaciones 1,81 %
+2.B.8. Producción petroquímica y de negro de humo 2,64 %
+2.B.2. Producción de ácido nítrico 5,37 %
+2.C.1. Producción de hierro y acero 6,45 %
+302.934,03 kt CO2eq
+2.A. Industria de los minerales
+2.F.1. RAC 33,54 %
+2.B. Industria química
+2.C. Industria de los metales
+2.G. Manufactura y utilización de otros productos 2.G.1. Equipos eléctricos 1,70 %
+44,25 %
+9,57 %
+8,29 %
+0,20 %
+35,99 %
+1,70 %
+2.A. Industria de los minerales 2.B. Industria química 2.C. Industria de los metales
+2.D. Uso de productos no energéticos de combustibles y de solvente
+2.F. Uso de productos sustitutos de las sustancias que agotan la capa de ozono
+2.G. Manufactura y utilización de otros productos
+2.D. Uso de productosno energéticos de combustibles y de solvente
+2.D.2. Uso de cera de parafina 0,20 %
+2.C.5. Producción e plomo 0,03 %
+Figura 21. Emisiones por categoría y subcategoría del módulo IPPU en 2021 Figura 22. Participación por cada categoría en las emisiones del módulo IPPU en 2021
+principalmente aquellas empleadas en la refrigeración y aire acondicionado (2.F.1), de las cuales se resalta el consumo de HFC-134a, HFC-125 y HFC-143a. En la figura 21 se plasman las emisiones por categoría y subcategoría del módulo IPPU en 2021, y en la figura 22 se enfatiza en las emisiones por categoría de dicho módulo.
+Donde RAC: Refrigeración y aire acondicionado.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+38
+Con respecto a los principales datos de actividad para la industria colombiana y su estrecha relación con el comportamiento de las emisiones del sector, se destaca la producción de cemento gris a nivel nacional relacionada con la producción de clínker, fuente de emisión de la subcategoría 2.A.1. Dicha producción fue de 13,80 millones de toneladas de cemento gris en el año 2021, cifra que duplica la producción del año 1990.
+También se resalta la producción de amoniaco y ácido nítrico en la industria química (2.B), cuya producción fue de 107.254,00 y 315.924,18 toneladas, respectivamente, en 2021. Además, en el mismo año, en la industria de los metales (2.C), sobresale la importancia de la producción de hierro, con 749.890 toneladas; acero, con 1,34 millones de toneladas, y ferroníquel, con 125.482,15. En la figura 23 se presenta la evolución de las emisiones por categoría del módulo IPPU en el periodo 1990-2021.
+Figura 23. Evolución de emisiones por categoría del módulo IPPU (1990-2021)
+En el módulo IPPU sobresalen las emisiones de CO2 vinculadas a los procesos de oxidación y calcinación, asociados a elevados usos de temperatura que se presentan en diferentes industrias. También se destaca la tendencia creciente de emisiones de HFC y PFC por el incremento del consumo de los sustitutos fluorados para las sustancias que agotan la capa de ozono (en adelante, SAO) desde el año 2001. En la figura 24 se puede observar la participación por GEI en las emisiones del módulo IPPU en el mismo año.
+Figura 24. Participación por GEI en las emisiones del módulo IPPU en 2021
+0
+2.000
+4.000
+6.000
+8.000
+10,.000
+12.000
+14.000
+1990 1995 2000 2005 2010 2015 2020 2021
+Emisiones (kt C02eq)
+2.G. Manufactura y utilización de otros productos
+2.F. Uso de productos sustitutos de las sustancias que agotan la capa de ozono
+2.D. Uso de productos no energéticos de combustibles y de solvente
+2.C. Industria de los metales
+2.B. Industria química
+2.A. Industria de los minerales
+CO2 56,88 %
+HFC 35,99 %
+N2O 5,37 %
+SF6 1,70 %
+CH4 0,06 %
+CO2 HFC N2O SF6 CH4
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 39
+Agricultura
+En el sector de agricultura se estiman las emisiones de metano (CH4), óxido nitroso (N2O) y dióxido de carbono (CO2) en categorías asociadas a las siguientes condiciones: 1) la fermentación entérica y la gestión o el manejo del estiércol que abarca las emisiones de CH4 y N2O directo e indirecto, producido por las especies de bovinos, ovinos, porcinos, búfalos, caprinos, caballos, mulas y asnos y aves de corral; 2) las emisiones de CH4 por la dinámica de inundación en el cultivo de arroz, y 3) las emisiones por la gestión de suelos agrícolas que incluyen las emisiones directas e indirectas de N2O, el encalado y la aplicación de urea.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+40
+La cuantificación para la mayoría de las categorías se lleva a cabo siguiendo las orientaciones metodológicas de las Directrices del IPCC de 2019, utilizando los niveles metodológicos 1, 1 avanzado y 2 para las categorías más representativas del sector (aquellas asociadas a la ganadería bovina). En estas categorías se aplican factores de emisión
+de nivel 2, desarrollados a partir de información específica del país, que incluye la caracterización por región y subcategoría de los animales, así como aspectos de los sistemas de producción, el clima y la dieta. En el nivel 1 avanzado se utilizan factores de emisión predeterminados, que varían según las características de los sistemas de producción en el país, como es el caso de las especies porcinas y avícolas.
+Finalmente, en otras categorías se aplican factores de emisión de nivel 1 (por defecto), debido a la ausencia de información específica de algunos parámetros de la
+estimación en el país o porque no representan segmentos significativos del sector.
+En el año 2021, el sector de agricultura, caza, silvicultura y pesca participó con el 7,4 % del PIB nacional, dado el comportamiento presentado, de manera principal, en los cultivos transitorios y permanentes y la ganadería
+(DANE, 2022). La fluctuación de las emisiones en el sector agropecuario obedece en gran medida a las dinámicas de crecimiento de la población bovina, la cual ha pasado de 18.817.804 en 1990 a 27.973.390 de bovinos en 2021. En Colombia, la ganadería bovina es una de las actividades agropecuarias de mayor representatividad en la economía; participa con el 48,7 % del PIB pecuario y contribuye a la generación de empleo (810.000 empleos directos) (Fedegán, 2018).
+En 2021, para el sector de agricultura, se cuantifica un total de emisiones de 57.957,85 kt CO2eq, de las cuales el 76,79 % (44.504,73 kt CO2eq) se atribuye a la categoría de fermentación entérica (3.A.), seguida de la categoría de emisiones directas e indirectas de N2O de los suelos agrícolas (3.D.), con 16,61 % del total.
+En menor proporción se presentan las emisiones asociadas a las categorías de gestión del estiércol (3.B.), cultivo de arroz (3.C.), aplicación de urea (3.H.) y encalado (3.G.), que contribuyen con 5,24 %, 0,90 %, 0,38 % y 0,09 %, respectivamente.
+El incremento de las emisiones de la ganadería se relaciona con el aumento en el precio de la carne de res y la reducción de su consumo, el decrecimiento del sacrificio en general (Viloria de la Hoz, 2005), el uso creciente de productos sustitutos, como pollo y cerdo (Pertuz Martínez y Elías Caro, 2019), y la reducción de la participación de las hembras en el sacrificio, dada su función como activo generador de riqueza (DANE, 2010).
+Por su parte, el aumento de las emisiones por la gestión de los suelos se atribuye a la cantidad de nitrógeno aplicado al suelo por las diferentes fuentes, principalmente los fertilizantes nitrogenados inorgánicos y la deposición de orina y estiércol de los animales en pasturas.
+En la figura 25 se presentan las emisiones por categoría y subcategoría del módulo de agricultura en 2021, y en la figura 26 se focalizan las emisiones por categoría de dicho módulo.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 41
+Figura 25. Emisiones por categoría y subcategoría del módulo de agricultura en 2021
+Respecto a los principales datos de actividad utilizados en el sector y su impacto en el comportamiento de las emisiones, se destacan el número de animales bovinos, cerdos, aves y otras especies pecuarias estimadas en las categorías de fermentación entérica (3.A.) y gestión del estiércol (3.B.).
+Los datos son proporcionados por ICA-Fedegán, FAOSTAT, entre otros. Es de resaltar que en el país los bovinos se clasifican en diferentes grupos: 1) vacas de alta producción, 2) vacas de baja producción, 3) vacas
+destinadas a la producción de carne, 4) toros utilizados con fines reproductivos, 5) terneros predestetados, 6) novillas de reemplazo y 7) ganado de engorde. Los años 2020 y 2021 presentan las mayores emisiones en la tendencia (figura 27), y están en correlación con el incremento del número de bovinos en el país: 28.245.262 y 27.973.390 cabezas de ganado, respectivamente (ICA, 2021). Existen varios factores que han influido en el incremento de las emisiones; dentro de estos se puede mencionar el contrabando de animales desde Venezuela, lo cual aumenta el número de bovinos (Contexto
+Figura 26. Participación por categoría en las emisiones del módulo de agricultura en 2021
+3.A.1. Ganado 73,16 %
+3.D. Emisiones dir. e indir. N O suelos agrícolas 10,75 %
+3.D.2. Emisiones indirectas de N O de suelos gestionados 5,86 %
+3.B.5. Emisiones indirectas de N O de gestión de estiércol 0,65 %
+3.B.1. Ganado 1,17 % 3.B.4. Otro ganado 1,55 % 3.B.3. Porcinos 1,83 %
+3.A. Fermentación entérica
+3.G. Encalado 3.G.2. Dolomita CaMg(CO3) 0,09 %
+3.A.3. Porcinos 0,23 %
+3.A.2. Ovinos 0,43 %
+3.A.4. Otro ganado 2,97 %
+3.C. Cultivo de arroz 3.C.1. Arroz riego 0,81 % 3.C.2. Arroz secano 0,09 %
+76,79 %
+16,61 %
+5,24 %
+0,90 %
+0,38 %
+0,09 %
+3.A. Fermentación entérica
+3.D. Emisiones dir. e indir. N2O suelos agrícolas
+3.B. Gestión del estiércol
+3.C. Cultivo de arroz
+3.H. Aplicación de urea
+3.G. Encalado
+3.H. Aplicación de urea 3.H. Aplicación de urea 0,38 %
+3.D.1. Emisiones directas de N O de suelos gestionados 10,75 %
+3.B. Gestión del estiércol
+3.D. Emisiones dir. e indir. N O suelos agrícolas
+3.B.4. Otro ganado 1,55 %
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+42
+Ganadero, 2019); las protestas sociales que agudizan la tasa de extracción del ganado (Contexto Ganadero, 2017); los fenómenos de variabilidad climática (MinAgricultura, 2020) y la pandemia del virus covid-19 que estableció medidas de precaución en las plantas de beneficio. La pandemia también influyó en el descenso en el consumo de carne, resultado
+atribuible a la caída de ingresos de los consumidores (Burkart et al., 2020; Contexto Ganadero, 2020; MinAgricultura, 2020). Es importante señalar que el sacrificio y producción de carne de ganado bovino ha disminuido en los últimos años; por ejemplo, presentó una caída del 20,1 % entre 2013 y 2021, lo que se ha reflejado en el aumento del tamaño del inventario.
+Entre otros datos de actividad, en la categoría de suelos agrícolas (3.D.), se destacan adicionalmente las cantidades de nitrógeno aplicado al suelo por diferentes fuentes. Los principales insumos incluyen los fertilizantes inorgánicos —cuya información fue proporcionada por MinAgricultura y la consulta nacional de expertos agropecuarios— y el nitrógeno proveniente de orina y estiércol de animales que se encuentran en pasturas —datos del inventario animal (ICA, 2021)—. Sobre estas fuentes se resalta que en 2021, se reportó una producción de 370.357 toneladas de nitrógeno de fertilizantes inorgánicos y 1.063.119 toneladas de nitrógeno a partir de orina y estiércol. Adicionalmente a estos datos, sobresale la importancia de las áreas de suelos orgánicos cultivados y la cantidad de nitrógeno mineralizado en suelos minerales, información extraída del mapa geopedológico del IGAC (2018). También se consideran las áreas sembradas de los principales cultivos agrícolas del país, cuyos datos son proporcionadas por la Unidad de Planificación Rural Agropecuaria (en adelante, UPRA) y otras instituciones relevantes como Fedepalma, Fedecacao y Fedecafé. En la
+figura 27 se presenta la evolución de emisiones del sector de la agricultura en el periodo 1990-2021.
+Figura 27. Evolución de emisiones del módulo de agricultura (1990-2021)
+En el módulo de agricultura, la participación de emisiones de CH4 corresponde a 81,03 % proveniente de la fermentación entérica y la gestión del estiércol de diversas especies pecuarias. Esto equivale a 46.963,33 kt CO2eq. Le sigue el N2O, que aporta el 18,50 % (10.722,78 kt CO2eq), debido a las cantidades de nitrógeno incorporadas a los suelos agrícolas. Finalmente, en menor proporción se estima que el CO2 constituye el 0,47 % (271,73 kt CO2 eq), asociado a la aplicación de cal dolomita y urea. En la figura 28 se presenta la participación por GEI en las emisiones del módulo de agricultura en 2021.
+Figura 28. Participación por GEI en las emisiones del módulo de agricultura en 2021
+4.LULUCF, 41,41 % 1.Energía 30,03 % 5.Residuos, 6,08 %
+CH4, 24,56 %
+C02, 70,47 %
+0
+20.000
+40.000
+60.000
+80.000
+1990 1995 2000 2005 2010 2015 2020 2021
+Emisiones (kt CO2eq)
+3.H. Aplicación de urea 3.G. Encalado 3.D. Emisiones dir. e indir. N2O suelos agrícolas 3.C. Cultivo de arroz 3.B. Gestión del estiércol 3.A. Fermentación entérica
+CO2 0,47%
+CH4 81,03 %
+N2O 18,50 %
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 43
+Silvicultura, uso y cambio de uso de la tierra
+El sector de silvicultura, uso y cambio de uso de la tierra (en adelante, LULUCF) reporta las emisiones y absorciones de CO2 por las pérdidas y ganancias de carbono en la biomasa aérea, la biomasa subterránea, la hojarasca y los suelos en áreas de tierras forestales, cultivos, pastizales, humedales, asentamientos y otras tierras que han sido sometidas a la intervención antrópica. También se presentan las emisiones de CH4 y N2O asociadas principalmente a la ocurrencia de incendios y la difusión de CH4 en tierras inundadas para la generación de energía
+eléctrica. A fin de realizar la contabilidad de emisiones de gases de efecto invernadero en el sector LULUCF, se considera que todas las tierras son manejadas, dado que hasta el momento el país no cuenta con la información requerida para realizar esta desagregación.
+Biomasa aérea
+MOM-Hojarasca
+Biomasa subterránea
+Suelo
+Depósitos
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+44
+Para la estimación de emisiones en el sector LULUCF, se siguen las Directrices del IPCC de 2006 y las actualizaciones planteadas para el sector en el Refinamiento de las Directrices del IPCC de 2019. En la mayoría de las subcategorías se utilizan el nivel metodológico 2, que incluye datos de actividad y factores de emisión específicos del país, y el nivel metodológico 1c, con el cual se emplean datos de actividad desagregados del país y factores de emisión del IPCC seleccionados por defecto, atendiendo características específicas del país.
+Asimismo, se emplea el método 1 de representación coherente de las tierras para las estimaciones de las categorías que permanecen en el mismo uso, tales como consumo de leña, plantaciones forestales, cultivos permanentes, sistemas silvopastoriles, embalses, arbolado urbano y quema de biomasa. Para la aplicación del método en estas categorías, se cuenta con datos de área total del uso de la tierra, pero no existe información de las conversiones entre los usos de la tierra. Por otro lado, el método 3 se usa en los casos en que se cuenta con información de la superficie total del uso de la tierra y de las conversiones a otros usos de manera espacialmente explícita, como ocurre con las estimaciones por deforestación y degradación del bosque natural.
+El comportamiento de las emisiones del sector LULUCF está relacionado principalmente con las dinámicas de pérdida del bosque natural (deforestación), que ha alcanzado alrededor de los 3 millones de hectáreas deforestadas en el periodo 20012021, con un promedio anual de pérdida del bosque natural de 151.500 hectáreas (González, 2018). Otras actividades que tienen relevancia dentro del sector son la degradación del bosque natural con un promedio de 137.423 hectáreas de bosque natural degradado en el periodo 2013-2021 (MinAmbiente-Ideam, 2024); la siembra y cosecha de nuevas áreas de plantaciones forestales comerciales que para el año 2021 contaba con un total de 522.573 hectáreas plantadas (MinAgricultura, 2023) y las siembras y renovaciones de cultivos
+permanentes, de los cuales sobresalen el cacao, la palma y el café con 224.465, 576.043 y 833.011 hectáreas sembradas al año 2021, respectivamente (MinAgricultura-Agronet, 2024; UPRA-Agronet, 2024).
+Para el año 2021, las emisiones totales netas del sector reportan un total de 96.603,06 kt de CO2eq, de las cuales la mayor contribución corresponde a la categoría de tierras forestales (4.A.), que representa el 55,75 % y un total de 66.586,47 kt CO2eq. En esta categoría son reportadas las emisiones por la deforestación del bosque natural que se convierte en otras tierras forestales, la degradación del bosque natural, las cosechas de plantaciones forestales y el consumo de leña para la cocción de alimentos en la población rural.
+La siguiente categoría en importancia corresponde a pastizales (4.C.), con el 35,03 % del total (41.842,75 kt CO2eq), que presenta las emisiones por la conversión del bosque natural en áreas de pastos. Otras emisiones de importancia están asociadas a las subcategorías de cultivos (4.B.), con 6,11 %; humedales (4.D.), con 1,51 %; asentamientos (4.E.), con 0,10 %; otras tierras (4.F.), con 0,74 %; productos de la madera recolectada (4.G.), con
+0,31 %, y quema de biomasa (4[IV]), con 0,44 % (figura 29). En la figura 31 se presenta la evolución de emisiones del módulo LULUCF en el periodo 1990-2021.
+El sector de LULUCF es el único que reporta absorciones dentro del total del inventario de emisiones, relacionadas con la absorción de CO2 en el proceso de fotosíntesis de las plantas. Para el año 2021, se estima un total de -22.817,10 kt CO2, reportadas dentro de las subcategorías de cultivos (4.B.), con una participación del 40,17 % de las absorciones (-9.171,91 kt CO2eq); tierras forestales (4.A.), con 38,50 %; pastizales (4.C.), con 21,25 %, y, finalmente, la categoría de asentamientos (4.E.), con el 0,08 %, en la que se presentan las absorciones por el
+crecimiento de árboles plantados en áreas urbanas (figura 30).
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 45
+Figura 29. Participación de las emisiones por categoría y subcategoría del módulo LULUCF en 2021
+Donde TCOT: Tierras convertidas en otras tierras; TFCOT: Tierras forestales convertidas en otras tierras; APT: Asentamientos que permanecen como tales; TCA Tierras convertidas en asentamientos; TFCA: Tierras forestales convertidas en asentamientos; HPT: Humedales que permanecen como tales; TCH: Tierras convertidas en humedales; TFCTI: Tierras forestales convertidas en tierras inundadas; PPT: Pastizales que permanecen como tales; TCP: Tierras convertidas en pastizales; TFCP: Tierras forestales convertidas en pastizales; CPCT: Cultivos que permanecen como tales; TCC: Tierras convertidas en cultivos; TFPT: Tierras forestales que permanecen como tales.
+4(IV). Quema de biomasa: 0,44 %
+4.G. Productos de la madera recolectada: 0, 31 %
+4.C. Pastizales: 35,03 %
+4.D. Humedales: 1,51 %
+4.E. Asentamientos: 0,10 %
+4.F. Otras tierras: 0,74 %
+4.B. Cultivos: 6,11 %
+4.A. Tierras forestales: 55,75 %
+4.B.2.a TFCC 0,53 %
+4.B.1. CPCT
+4.C.1. PPT 1,39 %
+4.C.2.a TFCP 33,65 %
+4.D.1. Humedales que permanecen como tales
+4.D.2.b TFCTI 1,33 %
+4.E.2.a. TFCA 0,09 %
+4.F.2. TICOT
+4.G.1. Madera maciza 0,31 %
+4.C.2. TCP
+4.A.1. TFPT
+4.A .1.b. Degradació n 26,85 %
+4.A .1.c. B o sque natural a tierras fo restales 15,79 %
+4.A .1.a. B o sque natural 9,11 %
+4.A .1.d. P lantacio nes fo restales 4,00 %
+4.B.1.c. Cacao 0,13 %
+4.B.1.b. Palma de aceite 0,23 %
+4.B.1.a. Cultivo de café 2,28 %
+Otro 2,96 %
+4.D.1.b. Tierras inundadas 0,19 %
+4.F.2.a. TFCOT 0,74 %
+4.B. Cultivos
+4(IV).A. Tierras forestales 0,44 %
+55,75 %
+6,11 %
+35,03 %
+1,51 %
+0,10 %
+0,74 %
+0,31 %
+0,44 %
+4.C. Pastizales
+4.D. Humedales
+4.F. Otras tierras
+4.G. Productos de la madera recolectada
+4(IV). Quema de biomasa
+4.E. Asentamientos
+4.A. Tierras forestales
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+46
+Figura 30. Participación de las absorciones por categoría del módulo LULUCF en 2021
+Donde CPCT: Cultivos que permanecen como tales; TFPT: Tierras forestales que permanecen como tales; TCTF: Tierras convertidas en tierras forestales; TF: Tierras forestales.
+4.B.1. CPCT 4.A.1. TFPT
+4.B.1.b. Palma de aceite 9,89 %
+4.B.1.a. Cultivo de café 18,59 %
+4.B.1.c. Cacao 11,87 %
+Otros 10,71 %
+4.A.1.d. Plantaciones forestales 41,38 %
+4.A.2. TCTF 7,56 %
+38,50 %
+40,17 %
+21,25 %
+0,08 %
+4.A. Tierras forestales
+4.B. Cultivos
+4.C. Pastizales
+4.E. Asentamientos
+4.A. TF
+4.B. Cultivos
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 47
+Figura 31. Evolución de emisiones del módulo LULUCF (1990-2021)
+En términos de emisiones por gases, la mayor representación para el módulo LULUCF corresponde al CO2 con el 83,53 % (118.841,29 kt CO2eq), y, en términos de
+absorciones de CO2, se cuantifica el 16,05 % (-22.832,04 kt CO2eq). El CH4 es el 0,34 % de las emisiones (477,78 kt de CO2 eq), asociadas a la difusión de este gas en la lámina de agua en embalses para la generación de energía eléctrica y por incendios en tierras forestales, cultivos y pastizales. Finalmente, en menor proporción el N2O contribuye con 0,08 % (116,04 kt de CO2 eq), generado por incendios, al igual que el CH4. En la figura 32 se plasma la participación por GEI en las emisiones del módulo de LULUCF en 2021.
+Figura 32. Participación por GEI en las emisiones del módulo de LULUCF en 2021
+(40.000)
+(20.000)
+20.000
+40.000
+60.000
+80.000
+100.000
+120.000
+140.000
+1990 1995 2000 2005 2010 2015 2020 2021
+4.A. Tierras forestales
+4.B. Cultivos
+4.C. Pastizales
+4.D. Humedales
+4.E. Asentamientos
+4.F. Otras tierras
+4.G. Productos de la madera recolectada
+4(IV). Quema de biomasa
+4.A. Tierras forestales-Absorciones
+4.B. Cultivos-Absorciones
+4.C. Pastizales-Absorciones
+4.E. Asentamientos-Absorciones
+4.G. Productos de la madera recolectada-Absorciones
+0
+Emisiones y absorciones de GEI (kt CO2eq)
+Absorciones CO2 16 %
+CO2 84 %
+CH4 0,34 %
+N2O 0,08 %
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+48
+Residuos
+En el sector de residuos se estiman las emisiones de metano (CH4), óxido nitroso (N2O) y dióxido de carbono (CO2), derivadas de la
+disposición final de residuos sólidos y líquidos. Para el sector, se utiliza la metodología descrita en las Directrices del IPCC de 2006, con el nivel metodológico 2 en la mayoría de las categorías y con los factores de emisión por defecto.
+Las emisiones de GEI para el año 2021 presentan un aumento del 1 % respecto al 2020. Este aumento obedece principalmente al aumento de la población y, por ende, a la mayor generación de residuos, así como a la reactivación económica del país, con la apertura progresiva de actividades productivas y de servicios restringidos por la pandemia del covid-19.
+En el 2021, las emisiones de GEI corresponden a 22.209,05 kt CO2eq, de las cuales el 52,60 % corresponde a la eliminación de residuos sólidos (5.A), relacionadas principalmente con la eliminación de residuos sólidos en sitios gestionados (5.A.1). El 44,77 % de las emisiones corresponden al tratamiento de aguas residuales (5.D), y el 2,63 % lo aporta la incineración abierta de residuos. En la figura 33 se presentan las emisiones por categoría y subcategoría del módulo de residuos en 2021, y en la figura 34 se enfatiza en las emisiones por categoría correspondientes a dicho módulo.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 49
+Figura 33. Emisiones por categoría y subcategoría del módulo de residuos en 2021
+Respecto a los datos de actividad utilizados en el sector, se destacan las toneladas de residuos que son dispuestas en los sitios de eliminación, dato que es suministrado por el Sistema Único de Información (en adelante, SUI) de la Superintendencia de Servicios Públicos Domiciliarios (en adelante, SSPD). En el año 2021 se dispusieron 16,35
+kilotoneladas de residuos en 121 sitios de disposición final, ubicados en el territorio nacional; de los cuales 30 fueron modelados individualmente para las estimaciones realizadas en el inventario.
+Figura 34. Participación por categoría en las emisiones del módulo de residuos en 2021
+También se tiene en consideración la cantidad de residuos peligrosos que son tratados térmicamente, información suministrada por el Registro de Generadores de Residuos Peligrosos (en adelante, Respel), administrado por el Ideam, así como la cantidad de residuos incinerados a cielo abierto por los pobladores, ubicados en áreas rurales a nivel nacional, dato tomado de la encuesta de calidad de vida elaborada por el DANE. En la figura 35 se puede observar la evolución de las emisiones del módulo de residuos en el periodo 1990-2021.
+5.C.2. Incineración abierta de residuos 0,83 %
+5.C.1. Incineración de residuos 0,84 %
+5.A.1. Sitios de eliminación de residuos gestionados 89,51 %
+5.A. Sitio de eliminación de residuos sólidos
+5.C. Incineración e incineración abierta de residuos
+5.A.3. Sitios de eliminación de residuos sin categoría 2,44 %
+5.D.2. Tratamiento y eliminación de aguas residuales industriales 4,96 %
+5.D. Tratamiento de aguas industriales
+5.D.1. Tratamiento y eliminación de aguas residuales domésticas 1,43 %
+52,60 %
+2,63 %
+44,77 %
+5.A. Sitio de eliminación de residuos sólidos
+5.C. Incineración e incineración abierta de residuos
+5.D. Tratamiento de aguas residuales
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+50
+Figura 35. Evolución de emisiones del módulo de residuos (1990-2021)
+Figura 36. Participación por GEI en las emisiones del módulo de residuos en 2021
+CO2 1,70 %
+N2O 3,39 %
+CH4 94,92 %
+0
+5.000
+10.000
+15.000
+20.000
+25.000
+1990 1995 2000 2005 2010 2015 2020 2021
+Emisiones (kt CO2eq)
+5.D.2. Tratamiento y eliminación de aguas residuales industriales
+5.C.2. Incineración abierta de residuos
+5.A.3. Sitios de eliminación de residuos sin categoría
+5.D.1. Tratamiento y eliminación de aguas residuales domésticas
+5.C.1. Incineración de residuos
+5.A.1. Sitios de eliminación de residuos gestionados
+En este módulo, las emisiones de CH4 son las más relevantes. Estas emisiones se encuentran asociadas a la degradación de la materia orgánica presente en los residuos, y representan el 94,92 % de las emisiones del sector. En la
+figura 36 se presenta la participación GEI en las emisiones del módulo de residuos en 2021.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 51
+3.2 Inventario de contaminantes criterio y carbono negro
+En la figura 37 se presenta la contribución porcentual de cada sector en la emisión de contaminantes criterio y carbono negro (en adelante, CN) en 2021. Se observa que las actividades cuantificadas en el sector de energía son responsables de por lo menos el 70 % de las emisiones de contaminantes criterio y CN. Se resalta que la subcategoría de transporte emite más del 50 % de NOx, COVDM y CO, y que las actividades de combustión de la subcategoría 1.A.4.b, que corresponde al sector residencial, emiten CO, PM10, PM2,5 y CN, entre otros. Por su parte, el sector de IPPU emite el 18,6 % de compuestos orgánicos volátiles diferentes al metano (COVDM).
+Figura 37. Contribución sectorial en las emisiones de contaminantes criterio y carbono negro para el año 2021
+El reporte de las emisiones de contaminantes criterio y CN entre 2010 y 2021, presentado en la figura 38, muestra que, aunque no han variado significativamente en este periodo, la mayoría de las emisiones de NOx, SO2, PM10, PM2,5 y CN provienen del sector de energía (80-99 %), mientras que el sector de agricultura contribuye en menor proporción (3-16 %). Asimismo, se observa que las emisiones de COVDM e IPPU han aumentado del 13 % al 19 % y que las emisiones de CO del sector de LULUCF han disminuido durante este tiempo.
+0%
+10 %
+20 %
+30 %
+40 %
+50 %
+60 %
+70 %
+80 %
+90 %
+100 %
+NOx COVDM SO2 CO PM10 PM2,5 CN
+% de contribución
+1.A.1. Industrias de la
+energía
+1.A.2. Industrias manufactureras y de la construcción
+1.A.3. Transporte
+1.A.4. Otros sectores
+1.A.5. Otras fuentes
+1.B.1. Combustibles sólidos
+1.B.2. Petróleo y gas natural
+2. IPPU
+4. LULUCF
+5. Residuos
+3. Agricultura
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+52
+Figura 38. Evolución de las emisiones de contaminantes criterio y carbono negro para los años 2010, 2015, 2020 y 2021
+En la siguiente tabla se muestran los datos de las emisiones de contaminantes criterio y carbono negro para el año 2021:
+0
+100
+200
+300
+400
+500
+600
+700
+COVDM (kt)
+600
+0
+500
+1.000
+1.500
+2.000
+CO (kt)
+0
+50
+100
+150
+200
+250
+PM10 (kt)
+2010 2015 2020 2021 2010 2015 2020 2021
+2010 2015 2020 2021
+NOx (kt)
+2010 2015 2020 2021
+0
+50
+100
+150
+200
+250
+300
+350
+400
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 53
+0
+100
+200
+300
+400
+500
+2010 2015 2020 2021
+SO2 (tk)
+0
+50
+100
+150
+200
+PM2,5 (kt)
+2010 2015 2020 2021
+0
+5
+10
+15
+20
+25
+30
+2010 2015 2020 2021
+CN (kt)
+Energía
+IPPU
+Agricultura
+LULUCF
+Residuos
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+54
+Tabla 2. Reporte de emisiones de contaminantes criterio y carbono negro para el año 2021
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+TOTAL EMISIONES 2021 388,25 659,80 504,44 1.927,67 223,56 194,93 28,97
+A_Energía pública 1. ENERGÍA 312,8 470,6 500,5 1.761,2 187,8 175,1 27,5
+A_Energía pública 1A. Actividades de quema de combustible 306,72 409,50 486,90 1.755,89 183,94 173,87 27,22
+A_Energía pública 1.A.1. Industrias de la energía 31,74 0,71 157,66 8,13 12,77 8,83 2,47
+A_Energía pública 1.A.1.a. Electricidad pública y producción de calor 16,66 0,25 139,04 3,51 0,44 0,23 0,01
+B_Industria 1.A.1.b. Refinación de petróleo 4,68 0,17 0,02 1,35 0,06 0,06 0,01
+B_Industria 1.A.1.c. Manufactura de combustibles sólidos y otras industrias de la energía 10,40 0,28 18,60 3,27 12,28 8,54 2,45
+B_Industria 1.A.2. Industrias manufactureras y de la construcción 64,02 34,42 308,41 153,57 25,09 23,89 5,34
+B_Industria 1.A.2.a. Hierro y acero 2,66 1,13 31,88 9,90 1,22 1,13 0,08
+B_Industria 1.A.2.b. Metales no ferrosos 0,53 0,17 0,00 0,21 0,01 0,01 0,00
+B_Industria 1.A.2.c. Productos químicos 2,25 1,78 16,02 7,10 1,10 1,05 0,17
+B_Industria 1.A.2.d. Pulpa, papel e imprenta 3,62 1,60 47,39 14,54 1,80 1,67 0,11
+B_Industria 1.A.2.e. Procesamiento de alimentos, bebidas y tabaco 11,88 23,73 70,78 61,75 12,83 12,42 2,96
+B_Industria 1.A.2.f. Minerales no metálicos 8,52 3,95 125,24 38,21 4,79 4,43 0,30
+B_Industria 1.A.2.g. Combustión en industrias manufactureras y de la construcción: Otras
+fuentes 34,55 2,05 17,09 21,86 3,33 3,20 1,72
+I_Fuera de ruta 1.A.2.gvii. Combustión en industrias manufactureras y de la construcción: Otras
+fuentes móviles 30,39 1,15 0,09 15,95 2,51 2,44 1,60
+B_Industria 1.A.2.gviii. Combustión en industrias manufactureras y de la construcción: Otras
+fuentes estacionarias 4,16 0,90 17,00 5,91 0,81 0,76 0,11
+H_Aviación 1.A.3. Transporte 185,75 255,63 6,23 914,80 14,21 12,64 4,25
+H_Aviación 1.A.3.a. Aviación civil 3,15 0,24 0,21 4,56 0,02 0,02 0,01
+H_Aviación 1.A.3.ai. Aviación civil internacional 0,95 0,03 0,06 0,70 0,01 0,01 0,00
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 55
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+H_Aviación 1.A.3.ai(i). Aviación civil (Internacional, LTO) 0,95 0,03 0,06 0,70 0,01 0,01 0,00
+H_Aviación 1.A.3.aii. Aviación civil nacional 2,20 0,20 0,16 3,86 0,02 0,02 0,01
+H_Aviación 1.A.3.aii(i). Aviación civil (Doméstico, LTO) 2,20 0,20 0,16 3,86 0,02 0,02 0,01
+F_Transporte
+terrestre 1.A.3.b. Transporte terrestre 174,87 254,01 4,29 906,07 13,91 12,36 4,17
+F_Transporte
+terrestre 1.A.3.bi. Transporte terrestre: Vehículos de pasajeros 15,99 27,73 1,91 289,05 0,26 0,26 0,13
+F_Transporte
+terrestre 1.A.3.bi3. Automóviles particulares, diplomáticos y oficiales 5,16 9,46 0,60 73,60 0,05 0,05 0,02
+F_Transporte
+terrestre 1.A.3.bi4. Automóviles servicio público 8,21 15,25 1,08 152,43 0,09 0,09 0,04
+F_Transporte
+terrestre 1.A.3.bi5. Camperos 2,62 3,02 0,24 63,03 0,12 0,12 0,08
+F_Transporte
+terrestre 1.A.3.bii. Transporte terrestre: Vehículos ligeros 8,98 4,38 0,36 54,99 0,32 0,32 0,23
+F_Transporte
+terrestre 1.A.3.bii3. Camionetas 8,98 4,38 0,36 54,99 0,32 0,32 0,23
+F_Transporte
+terrestre 1.A.3.biii. Transporte terrestre: Vehículos pesados y buses 133,07 5,89 0,60 72,18 5,87 5,87 3,05
+F_Transporte
+terrestre 1.A.3.biii1. Buses 46,75 1,92 0,20 36,08 3,96 3,96 2,01
+F_Transporte
+terrestre 1.A.3.biii2. Camiones y volquetas 49,49 2,64 0,26 29,07 1,00 1,00 0,56
+F_Transporte
+terrestre 1.A.3.biii3. Tractocamiones 36,83 1,32 0,14 7,03 0,91 0,91 0,48
+F_Transporte
+terrestre 1.A.3.biv. Transporte terrestre: Motocicletas 16,84 216,01 1,42 489,85 4,11 4,11 0,64
+F_Transporte
+terrestre 1.A.3.biv1. Motos 16,84 216,01 1,41 489,85 4,11 4,11 0,64
+F_Transporte
+terrestre 1.A.3.biv2. Otros 152,08 1,95 0,01 IE IE IE IE
+F_Transporte
+terrestre 1.A.3.bv. Emisiones por evaporación procedentes de vehículos NA 0,00 NA NA NA NA NA
+F_Transporte
+terrestre 1.A.3.bvi. Desgaste de neumáticos y frenos NA NA NA NA 2,14 1,14 0,12
+F_Transporte
+terrestre 1.A.3.bvii. Desgaste de vías NA NA NA NA 1,21 0,65 NA
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+56
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+I_Fuera de ruta 1.A.3.c. Ferrocarriles 1,36 0,12 0,00 0,28 0,04 0,04 0,02
+G_Navegación 1.A.3.d. Navegación marítima y fluvial 6,37 1,27 1,72 3,89 0,24 0,22 0,04
+G_Navegación 1.A.3.dii. Navegación marítima y fluvial nacional 6,37 1,27 1,72 3,89 0,24 0,22 0,04
+I_Fuera de ruta 1.A.3.e. Otro tipo de transporte NA NA NA NA NA NA NA
+I_Fuera de ruta 1.A.3.ei. Transporte por gasoductos NA NA NA NA NA NA NA
+I_Fuera de ruta 1.A.3.eii. Otros NA NA NA NA NA NA NA
+C_Combustión
+estacionaria: Otros 1.A.4. Otros sectores 25,21 118,75 14,61 679,39 131,87 128,51 15,16
+C_Combustión
+estacionaria: Otros 1.A.4.a. Comercial/Institucional 1,42 0,44 0,01 0,56 0,01 0,01 0,00
+C_Combustión
+estacionaria: Otros 1.A.4.ai. Comercial/Institucional: Estacionaria 1,42 0,44 0,01 0,56 0,01 0,01 0,00
+I_Fuera de ruta 1.A.4.aii. Comercial/Institucional: Móviles NE NE NE NE NE NE NE
+C_Combustión
+estacionaria: Otros 1.A.4.b. Residencial 12,02 93,96 10,40 630,73 118,42 115,32 13,07
+C_Combustión
+estacionaria: Otros 1.A.4.bi. Residencial: Estacionaria 12,02 93,96 10,40 630,73 118,42 115,32 13,07
+I_Fuera de ruta 1.A.4.bii. Residencial: Móviles NE NE NE NE NE NE NE
+C_Combustión
+estacionaria: Otros 1.A.4.c. Agricultura/Silvicultura/Pesca 11,77 24,35 4,19 48,10 13,44 13,18 2,09
+C_Combustión
+estacionaria: Otros 1.A.4.ci. Agricultura/Silvicultura/Pesca: Estacionaria 8,77 24,22 4,18 46,27 13,20 12,95 1,93
+I_Fuera de ruta 1.A.4.cii. Agricultura/Silvicultura/Pesca: Vehículos fuera de ruta y otra maquinaria 2,99 0,13 0,01 1,82 0,23 0,23 0,16
+I_Fuera de ruta 1.A.4.ciii. Agricultura/Silvicultura/Pesca: Pesca nacional IE IE IE IE IE IE IE
+Otras Fuentes 1.A.5. Otras fuentes NA NA NA NA NA NA NA
+C_Combustión
+estacionaria: Otros 1.A.5.A. Estacionaria NA NA NA NA NA NA NA
+I_Fuera de ruta 1.A.5.b. Móviles NA NA NA NA NA NA NA
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 57
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+D_Fugitivas 1.B. Emisiones fugitivas provenientes de la fabricación de combustibles 6,07 61,06 13,57 5,29 3,86 1,22 0,32
+D_Fugitivas 1.B.1. Combustibles sólidos 0,00 47,36 0,00 1,88 3,08 0,54 0,07
+D_Fugitivas 1.B.1.a. Minería carbonífera y manejo del carbón NA 47,33 NA NA 2,48 0,30 NE
+D_Fugitivas 1.B.1.b. Transformación de combustibles sólidos 0,00 0,03 0,00 1,88 0,60 0,25 0,07
+D_Fugitivas 1.B.1.c. Otras emisiones fugitivas de combustibles sólidos NA NA NA NA NA NA NA
+D_Fugitivas 1.B.2. Petróleo y gas natural 6,06 13,70 13,56 3,41 0,78 0,67 0,25
+D_Fugitivas 1.B.2.a. Petróleo 4,64 11,91 11,98 1,74 0,19 0,08 0,00
+D_Fugitivas 1.B.2.ai. Exploración, producción y transporte NA 8,05 NE NA NA NA NA
+D_Fugitivas 1.B.2.aiv. Refinación y almacenamiento 4,64 3,86 11,98 1,74 0,19 0,08 NA
+D_Fugitivas 1.B.2.av. Distribución de productos de petróleo NA NE NE NA NA NA NA
+D_Fugitivas 1.B.2.b. Gas natural (exploración, producción, procesamiento, transmisión,
+almacenamiento, distribución y otros) NA 1,34 NE NA NA NA NA
+D_Fugitivas 1.B.2.c. Ventilación y quema 1,43 0,45 1,58 1,67 0,59 0,59 0,25
+D_Fugitivas 1.B.2.d. Otras emisiones fugitivas de producción de energía NA NA NA NA NA NA NA
+B_Industria 2. PROCESOS INDUSTRIALES Y USO DE PRODUCTOS 4,64 122,64 2,51 2,51 6,38 3,16 0,09
+B_Industria 2.A. Industria de los minerales NE NE NE NE 5,81 2,76 0,07
+B_Industria 2.A.1. Producción de cemento NE NE NE NE 2,09 1,16 0,03
+B_Industria 2.A.2. Producción de cal NE NE NE NE 0,72 0,14 0,00
+B_Industria 2.A.3. Producción de vidrio NE NE NE NE 0,19 0,15 0,00
+B_Industria 2.A.5. Otra industria 0,00 0,00 0,00 0,00 2,81 1,30 0,04
+B_Industria 2.A.5.a. Cantería y minería de minerales diferentes al carbón NE NE NE NE 2,09 1,16 0,03
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+58
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+B_Industria 2.A.5.b. Construcciones y demoliciones NE NE NE NE 0,72 0,14 0,00
+B_Industria 2.A.5.c. Almacenamiento, manejo y transporte de productos minerales NE NE NE NE 0,19 0,15 0,00
+B_Industria 2.A.6. Otros productos minerales NA NA NA NA NA NA NA
+B_Industria 2.B. Industria química 4,10 2,50 1,56 0,18 0,05 0,02 0,00
+B_Industria 2.B.1. Producción de amoniaco 0,10 NE NE 0,01 NA NE NA
+B_Industria 2.B.2. Producción de ácido nítrico 3,16 NA NA NA NA NE NA
+B_Industria 2.B.3. Producción de ácido adípico NA NA NA NA NA NA NA
+B_Industria 2.B.5. Producción de carburo NA NA NA NA NA NA NA
+B_Industria 2.B.7. Producción de ceniza de sosa NA NA NA NA NA NA NA
+B_Industria 2.B.10.. Otros 0,84 2,50 1,56 0,17 0,05 0,02 0,00
+B_Industria 2.B.10.a. Otra industria química 0,84 2,50 1,56 0,17 0,05 0,02 0,00
+B_Industria 2.B.10.b. Almacenamiento, manejo y transporte de productos químicos IE IE IE IE IE IE IE
+B_Industria 2.C. Industria de los metales 0,12 0,06 0,09 0,00 0,17 0,13 0,01
+B_Industria 2.C.1. Producción de hierro y acero 0,12 0,06 0,05 0,00 0,07 0,05 0,00
+B_Industria 2.C.2. Producción de ferroaleaciones NE NE NE NE 0,11 0,08 0,01
+B_Industria 2.C.3. Producción de aluminio NA NA NA NA NA NA NA
+B_Industria 2.C.4. Producción de magnesio NA NA NA NA NA NA NA
+B_Industria 2.C.5. Producción de plomo NE NE 0,04 NE 0,00 0,00 NE
+B_Industria 2.C.6. Producción de zinc NA NA NA NA NA NA NA
+B_Industria 2.C.7. Otros NA NA NA NA NA NA NA
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 59
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+B_Industria 2.C.7.a. Producción de cobre NA NA NA NA NA NA NA
+B_Industria 2.C.7.b. Producción de níquel NA NA NA NA NA NA NA
+B_Industria 2.C.7.c. Producción de otros metales NA NA NA NA NA NA NA
+B_Industria 2.C.7.d. Almacenamiento, manejo y transporte de otros metales NA NA NA NA NA NA NA
+B_Industria 2.D. Uso de solventes y productos NE 70,79 NE NE NA NE NE
+B_Industria 2.D.3. Uso de solventes NE 70,79 NE NE NE NE NE
+B_Industria 2.D.3.a. Uso doméstico de solventes, incluidos fungicidas NA 18,61 NA NA NA NE NA
+B_Industria 2.D.3.B. Pavimentación de vías con asfalto NA NA NA NA NA NE NA
+B_Industria 2.D.3.c. Cubierta de asfalto NE NE NA NE NE NE NE
+B_Industria 2.D.3.D. Aplicación de revestimiento NA NE NA NA NA NA NA
+B_Industria 2.D.3.e. Desengrasantes NA 15,77 NA NA NA NE NA
+B_Industria 2.D.3.F. Limpieza en seco NA NE NA NA NA NE NA
+B_Industria 2.D.3.g. Productos químicos NE NE NE NE NE NE NE
+B_Industria 2.D.3.h. Impresión NA 14,41 NA NA NA NE NE
+B_Industria 2.D.3.i. Otro uso de solventes y productos NE 22,00 NE NE NA NA NA
+B_Industria 2.H.. Otros 0,43 49,29 0,85 2,34 0,34 0,26 0,01
+B_Industria 2.H.1.. Industria de pulpa y papel (Kraft) 0,43 0,85 0,85 2,34 0,34 0,26 0,01
+B_Industria 2.H.2.. Industria de la alimentación y bebidas NA 48,44 NA NA NE NE NE
+B_Industria 2.H.3. Otros NA NA NA NA NA NA NA
+B_Industria 2.I. Procesamiento de madera NE NE NE NE NE NE NE
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+60
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+B_Industria 2.K. Consumo de contaminantes orgánicos persistentes y metales pesados NA NA NA NA NA NA NA
+B_Industria 2.L. Otra producción, consumo, almacenamiento, transporte o manipulación
+de productos a granel NA NA NA NA NA NA NA
+K_Agricultrura y
+ganadería 3. AGRICULTURA 66,94 31,24 0,94 125,76 23,72 11,03 0,94
+K_Agricultrura y
+ganadería 3.B. Gestión de estiércol 4,04 25,64 NA NA 4,51 0,52 NA
+K_Agricultrura y
+ganadería 3.B.1. Total ganado bovino 0,15 2,07 NA NA 0,16 0,11 NA
+K_Agricultrura y
+ganadería 3.B.1.a. Ganado bovino lechero 0,15 2,07 NA NA 0,16 0,11 NA
+K_Agricultrura y
+ganadería 3.B.1.b. Ganado bovino no lechero 0,00 0,00 NA NA 0,00 0,00 NA
+K_Agricultrura y
+ganadería 3.B.2. Ovinos 0,00 0,00 NA NA 0,00 0,00 NA
+K_Agricultrura y
+ganadería 3.B.3. Porcinos 0,34 3,44 NA NA 0,34 0,02 NA
+K_Agricultrura y
+ganadería 3.B.4. Otros 3,55 20,13 0,00 0,00 4,01 0,40 0,00
+K_Agricultrura y
+ganadería 3.B.4.a. Búfalos 0,00 0,09 NA NA 0,01 0,01 NA
+K_Agricultrura y
+ganadería 3.B.4.d. Caprinos 0,00 0,18 NA NA 0,02 0,01 NA
+K_Agricultrura y
+ganadería 3.B.4.e. Caballos 0,06 0,97 NA NA 0,05 0,03 NA
+K_Agricultrura y
+ganadería 3.B.4.f. Mulas y asnos 0,01 0,05 NA NA 0,01 0,00 NA
+K_Agricultrura y
+ganadería 3.B.4.g. Aves 3,48 18,84 NA NA 3,92 0,35 NA
+K_Agricultrura y
+ganadería 3.B.4.gi. Gallinas ponedoras 0,63 7,47 NA NA 1,81 0,14 NA
+K_Agricultrura y
+ganadería 3.B.4.gii. Pollos engorde 2,84 11,37 NA NA 2,11 0,21 NA
+L_Agricultura 
+Otros 3.D. Producción de cultivos y suelos agrícolas 58,56 4,67 NA NA 8,46 0,33 NA
+L_Agricultura 
+Otros 3Da. Suelos agrícolas 58,56 NA NA NA NE NE NA
+L_Agricultura 
+Otros 3.D.a.1. Fertilizantes inorgánicos 14,81 NA NA NA NE NE NA
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 61
+Sector
+kt
+Gases Material particulado
+Agregación NFR Código NFR Nombre NOX COVDM SO2 CO PM10 PM2,5 CN
+L_Agricultura 
+Otros 3Da2.A. Estiércol de ganado aplicado a suelos 1,22 NA NA NA NA NA NA
+L_Agricultura 
+Otros 3.D.a.3. . Orina y estiércol depositados por el pastoreo del ganado 42,52 NA NA NA NA NA NA
+L_Agricultura 
+Otros 3.D.c. . Operaciones agrícolas NA NA NA NA 8,46 0,33 NA
+L_Agricultura 
+Otros 3.D.e. . Cultivos en pie NA 4,67 NA NA NA NA NA
+L_Agricultura 
+Otros 3.F. Quema de residuos agrícolas en cultivos 4,34 0,94 0,94 125,76 10,75 10,18 0,94
+J_Residuos 5. RESIDUOS 3,89 35,35 0,53 38,22 5,66 5,66 0,39
+J_Residuos 5.A. Eliminación de desechos sólidos NA 20,09 NA NE 0,00 0,00 NA
+J_Residuos 5.B. Tratamiento biológico de los desechos sólidos NE NE NE NE NE NE NE
+J_Residuos 5.B.1. Compostaje NE NE NE NE NE NE NE
+J_Residuos 5.B.2. Biogás de digestión anaeróbica NE NE NE NE NE NE NE
+J_Residuos 5.C. Incineración e incineración abierta de desechos 3,89 15,26 0,53 38,22 5,66 5,66 0,39
+J_Residuos 5.C.1. Incineración de desechos 0,13 0,18 0,03 0,01 0,00 0,00 0,02
+J_Residuos 5.C.1.a. Incineración de residuos municipales NO NO NO NO NO NO NO
+J_Residuos 5.C.1.b. Incineración de residuos industriales, incluidos residuos peligrosos y
+lodos 0,13 0,18 0,03 0,01 0,00 0,00 0,02
+J_Residuos 5.C.2. Incineración abierta de desechos 3,76 15,08 0,50 38,20 5,66 5,66 0,38
+J_Residuos 5.C.2.A. Incineración abierta de desechos domésticos 3,76 15,08 0,50 38,20 5,66 5,66 0,38
+J_Residuos 5.D. Tratamiento y eliminación de aguas residuales NA 0,00 NA NE NE NE NE
+J_Residuos 5.D.1. Tratamiento y eliminación de aguas residuales domésticas NA NE NA NA NE NE NE
+J_Residuos 5.D.2. Tratamiento y eliminación de aguas residuales industriales NA 0,00 NA NA NE NE NE
+J_Residuos 5.E. Otros NE NE NE NE NE NE NE
+
+
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 63
+4. Análisis de
+inventarios
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+64
+4.E. Asentamientos
+4.F. Otras tierras
+4.E. Asentamientos
+4.D. Humedales
+4.C. Pastizales
+4.B. Cultivos
+4(IV). Quema de biomasa
+3.H. Aplicación de urea
+3.G. Encalado
+3.C. Cultivo de arroz
+2.C. Industria del metal
+2.B. Industria química
+Agropecuario
+Gestión de tierras forestales−Agropecuario
+Gestión de tierras forestales−Ambiente
+Gestión de tierras forestales−Deforestación
+Ambiente
+Vivienda y saneamiento
+Transporte
+Minas y energía
+Industria
+Gestión de tierras forestales−Ambiente
+Gestión de tierras forestales−Agropecuario
+Bolsa de emisiones, terciario y residencial
+Agropecuario
+CO2
+SF6
+PFC
+N2O
+HFC
+CO2
+CH4
+0
+100
+200
+300
+Capítulo Cartera GEI
+Mt CO2eq
+4.B. Cultivos 4.A. Tierras forestales
+5.C. Incineración e incineración abierta de desechos
+5.A. Eliminación de residuos sólidos
+4.G. Productos de la madera recolectada
+4.A. Tierras forestales
+3.D. Emisiones directas e indirectas de N2O de los suelos agrícolas
+3.B. Gestión del estiércol
+3.A. Fermentación entérica
+2.G. Manufactura y utilización de otros productos
+2.F. Usos del producto como sustitutos de las SAO
+2.A. Industria de los minerales
+1.B. Emisiones fugitivas de combustibles
+1.A. Actividades de quema de combustibles (enfoque sectorial)
+5.D. Tratamiento y descarga de aguas residuales
+4.C. Pastizales
+2.D. Uso de productos no energéticos de combustibles y de solventes
+2. IPPU
+3. Agricultura
+4. LULUCF
+5. Residuos
+1. Energía
+4.1 Distribución final del Inventario Nacional de Emisiones y Absorciones de GEI
+Figura 39. Distribución final de las emisiones de Colombia en 2021
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 65
+A nivel nacional, las emisiones y absorciones de gases de efecto invernadero se asignan a diferentes carteras sectoriales que lideran la gestión del cambio climático desde cada uno de los ministerios de Colombia. Esta asignación fue sometida a consideración y aprobada por los integrantes de la Comisión Intersectorial de Cambio Climático en su octava sesión, que se llevó a cabo el 18 de septiembre de 2020.
+De acuerdo con los resultados del año 2021 del Inventario Nacional de Emisiones y Absorciones de Gases de Efecto Invernadero, el diagrama de Sankey muestra la relación entre las categorías de emisiones, las diferentes carteras sectoriales del país y los GEI para el año 2021. En el
+módulo de energía, se evidencian aportes significativos
+en las carteras de transporte, minas y energía, industria y saneamiento básico, cuyas emisiones corresponden en su mayoría a CO2. Es importante mencionar que en este módulo también se registran emisiones de CH4, asociadas a la cartera de minas y energía, principalmente por emisiones fugitivas en la producción de petróleo, gas y minería de carbón.
+En cuanto al módulo de procesos industriales y uso de productos, la mayor parte de sus emisiones se concentran en la cartera de industria, donde el CO2 es el gas con mayor participación. Además, este módulo alimenta la cartera de ambiente, en la que se contabilizan emisiones de HFC y PFC.
+El módulo de agricultura contribuye significativamente a la cartera del sector agropecuario con la mayoría de las emisiones, en especial de CH4 y una proporción importante de N2O.
+Para el módulo de silvicultura, uso y cambio de uso de la tierra, la mayoría de las absorciones se concentran en las carteras de gestión de tierras forestales-deforestación y gestión de tierras forestales-agropecuario, en las cuales el CO2 es el principal gas de efecto invernadero. Es relevante destacar que las absorciones de CO2 se concentran principalmente en este módulo.
+En el módulo de residuos, las emisiones se concentran en la cartera de vivienda y saneamiento, con el CH4 como el GEI predominante en este sector.
+Finalmente, la emisión per cápita durante el año 2021 fue de 5,48 t CO2 eq/persona en relación con las emisiones netas y la proyección de población nacional por área post covid-19 realizada por el DANE (51.117.378 habitantes) (DANE, 2023).
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+66
+4.2 Emisiones por cartera sectorial
+Figura 40. Participación por módulo en las carteras sectoriales de Colombia en 2021
+Figura 41. Emisiones por módulo y por GEI en las carteras sectoriales de Colombia de 2021
+2 Las emisiones de la cartera de minas y energía en este documento incluyen la categoría asociada a la producción de coque (1.A.1.c.i. Manufactura de combustibles sólidos), la cual no se considera en las emisiones estimadas por el equipo de Monitoreo, Reporte y Verificación Minero Energética (MRVme) del Ministerio de Minas y Energía.
+La gráfica muestra el aporte de las diferentes carteras al total de emisiones de 2021. Se destaca que la principal cartera corresponde a la gestión de tierras forestales, con ~102.000 kt CO2eq, cuyas emisiones se concentran en el módulo de LULUCF. A continuación, se encuentra la cartera agropecuaria, con emisiones de ~53.800 kt CO2eq, la mayoría de ellas asociadas al módulo de agricultura. En tercer lugar, se presenta la cartera de transporte, con ~38.800 kt CO2eq, cuyas emisiones corresponden al módulo de energía. En cuarto lugar, la cartera de minas y energía2, que aporta ~28.900 kt CO2eq, seguida por la cartera de industria, con ~28.370 kt CO2eq. Finalmente, se ubican los sectores de vivienda y saneamiento, ambiente y bolsa de emisiones, terciario y residencial, con ~23.490 kt CO2eq, ~4.270 kt CO2eq y ~294 kt CO2eq, respectivamente. La siguiente gráfica
+permite identificar el nivel de emisiones de los gases CH4, CO2 y N2O para cada cartera durante el 2021:
+20.000
+40.000
+60.000
+80.000
+100.000
+Gestión de tierras forestales
+Transpore
+Industria
+Ambiente
+Bolsa de emisiones, terciario y residencial
+Emisiones kt CO2eq
+Agropecuario
+Vivienda y saneamiento Minas y energía
+Módulo
+1. Energía
+2. IPPU
+3. Agricultura
+4. LULUCF
+5. Residuos
+20.000
+40.000
+60.000
+80.000
+100.000
+Gestión de tierras forestales
+Transporte
+Industria
+Ambiente
+Bolsa de emisiones, terciario y residencial
+Emisiones kt CO2eq
+Agropecuario
+Vivienda y saneamiento Minas y energía
+20.000
+40.000
+60.000
+80.000
+100.000
+Gestión de tierras forestales
+Transporte
+Industria
+Bolsa de emisiones, terciario y residencial
+Emisiones kt CO2eq
+Agropecuario
+Vivienda y saneamiento Minas y energía
+CH N O
+Ambiente Ambiente
+20.000
+40.000
+60.000
+80.000
+100.000
+Gestión de tierras forestales
+Transporte
+Industria
+Bolsa de emisiones, terciario y residencial
+Emisiones kt CO2eq
+Agropecuario
+Vivienda y saneamiento Minas y energía
+CO
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 67
+5. Plan de mejora
+De acuerdo con las modalidades, procedimientos y directrices (MPG) del Marco de Transparencia Reforzado, se desarrolla un plan de mejora del Inventario Nacional de Emisiones y Absorciones de Gases de Efecto Invernadero (Ingei). En consonancia con este plan, se fortalece la calidad, precisión y transparencia de la estimación de emisiones
+del inventario, a fin de asegurar la confiabilidad y credibilidad de la información compilada y reportada.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+68
+Para ello, se proponen actividades para mejorar la gestión de la información requerida en la construcción de dicho inventario, reducir la incertidumbre y favorecer la exactitud y precisión de las emisiones a través del cumplimiento de los requisitos de la (CMNUCC) y el (IPCC). Adicionalmente, se apuesta por fortalecer la transparencia y rendición de cuentas y apoyar la toma de decisiones informada en materia de cambio climático.
+El plan de mejora del Ingei de Colombia en sus diversos sectores se centra en:
+• Revisar y actualizar las metodologías de estimación de cálculo de emisiones nacionales.
+• Procurar el uso de métodos de estimación de nivel superior (nivel 2 o 3) y el desarrollo de factores de emisión nacionales con priorización de categorías clave.
+• Mejorar la cobertura de datos empleados en la estimación.
+• Identificar e incorporar nuevas fuentes de información.
+• Fomentar el desarrollo del Sistema Nacional de Inventario de Gases Efecto Invernadero (Singei).
+• Fomentar el desarrollo de talleres y eventos de divulgación del Ingei.
+• Establecer mesas técnicas con sectores o entidades clave.
+• Fomentar la participación colectiva del sector público, privado y la academia en la construcción e importancia del Ingei.
+Por otro lado, el plan de mejora para la estimación de emisiones de carbono negro y contaminantes criterio en Colombia se enfoca en:
+• Analizar y mejorar las metodologías de estimación de emisiones para los diferentes sectores, asegurando la aplicación de métodos de mayor precisión (nivel 2 o 3), especialmente para las categorías clave.
+• Fomentar acuerdos de transferencia de información con entidades como el Ministerio de Minas y Energía, el Ministerio de Transporte y el Ideam, con el objetivo de obtener datos desagregados.
+• Mejorar la calidad de la información empleada para estimar las emisiones del sector de transporte, incorporando datos más detallados y precisos sobre el consumo de combustibles y los patrones de conducción.
+• Promover la recopilación y análisis de datos específicos para fuentes de emisiones, como el transporte terrestre y aéreo y las actividades industriales y de cremación.
+• Impulsar el desarrollo y uso de herramientas y sistemas de información que permitan una recopilación y análisis de datos más precisos, facilitando la estimación de emisiones bajo metodologías de nivel 2 o 3.
+Para la planificación, ejecución y gestión del Sistema Nacional de Inventario de Emisiones Atmosféricas de Colombia, es crucial el fortalecimiento de capacidades técnicas, financieras y tecnológicas en las diferentes entidades e instrumentos que son fuente de datos de actividad y factores de emisión. De esta manera, se busca garantizar el acceso a información oportuna, clara y estandarizada, con la participación activa y la articulación de los sectores público y privado y la academia.
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 69
+Siglas, acrónimos y fórmulas
+Aerocivil: Unidad Administrativa Especial de Aeronáutica Civil
+Agrosavia: Corporación Colombiana de Investigación Agropecuaria
+ANDI: Asociación Nacional de Industriales
+ANH: Agencia Nacional de Hidrocarburos
+BECO: Balance Energético Colombiano
+BTR: Informe Bienal de Transparencia (por sus siglas en inglés)
+Calac+: Programa de Clima y Aire Limpio en Ciudades de América Latina
+Cepal: Comisión Económica para América Latina y el Caribe
+CEED: Censo de Edificaciones
+CEC: Comisión para la Cooperación Ambiental (por sus siglas en inglés)
+CH4: Metano
+CIAT: Centro Internacional de Agricultura Tropical Biodiversity International
+CMNUCC: Convención Marco de Naciones Unidas sobre Cambio Climático
+CN: Carbono negro
+CNCC: Comunicaciones Nacionales de Cambio Climático
+CO: Monóxido de carbono
+CO2: Dióxido de carbono
+COVDM: Compuestos orgánicos volátiles diferentes al metano
+Copert: Programa Informático para Calcular las Emisiones del Transporte por Carretera
+CSM: Cuenta Satélite de Minería
+DANE: Departamento Administrativo Nacional de Estadística
+DIAN: Dirección de Impuestos y Aduanas Nacionales
+EAM: Encuesta Anual Manufacturera
+ECG: Estadística de Cemento Gris
+Ecopetrol: Empresa Colombiana de Petróleos S. A.
+ECV: Encuesta de Calidad de Vida
+EPA: Agencia de Protección Ambiental de Estados Unidos(por sus siglas en inglés)
+ENCA: Estrategia Nacional de Calidad del Aire
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+70
+FAO: Organización de las Naciones Unidas para la Alimentación y la Agricultura (por sus siglas en inglés)
+FAOSTAT: División de Estadística de la Organización de las Naciones Unidas para la Alimentación y la Agricultura
+Fedearroz: Federación Nacional de Arroceros
+Fedegán: Federación Colombiana de Ganaderos
+Fedepalma: Federación Nacional de Cultivadores de Palma de Aceite
+Fenavi: Federación Nacional de Avicultores de Colombia
+FNC: Federación Nacional de Cafeteros
+GEI: Gases de efecto invernadero
+H2O: Vapor de agua
+HFC: Hidrofluorocarbonos
+ICA: Instituto Colombiano Agropecuario
+Ideam: Instituto de Hidrología, Meteorología y Estudios Ambientales
+IGAC: Instituto Geográfico Agustín Codazzi
+INF: Inventario Nacional Forestal
+Ingei: Inventario Nacional de Emisiones y Absorciones de GEI
+IPCC: Panel Intergubernamental de Expertos sobre Cambio Climático (por sus siglas en inglés)
+IPPU: Procesos industriales y uso de productos (por sus siglas en inglés)
+LEAP: Low Emissions Analysis Platform
+LULUCF: Silvicultura, uso y cambio de uso de la tierra (por sus siglas en inglés)
+MDL: Mecanismo de Desarrollo Limpio
+MinAmbiente: Ministerio de Ambiente y Desarrollo Sostenible
+MinAgricultura: Ministerio de Agricultura y Desarrollo Rural
+MinEnergía: Ministerio de Minas y Energía
+MinTransporte: Ministerio de Transporte
+MPG: Modalidades, procedimientos y directrices
+MRV: Monitoreo, reporte y verificación
+MRVme: Monitoreo, Reporte y Verificación Minero Energética
+N2O: Óxido nitroso
+NDC: Contribución nacionalmente determinada
+NFR: Nomenclatura de Reporte (por sus siglas en inglés)
+NOx: Óxidos de nitrógeno
+O3: Ozono
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 71
+OSPA: Oficina del Servicio de Pronósticos y Alertas (Ideam)
+PERS: Planes de Energización Rural Sostenible
+PFC: Perfluorocarbonos
+PM: Material particulado (por sus siglas en inglés)
+Porkcolombia: Asociación Colombiana de Porcicultores
+Procemco: Cámara Colombiana del Cemento y el Concreto
+PTAR: Planta de Tratamiento de Aguas Residuales
+Respel: Registro de Generadores de Residuos Peligrosos
+RNMA: Registro Nacional de Maquinaria Agrícola, Industrial y de Construcción Autopropulsada
+Renare: Registro Nacional de Reducción de las Emisiones de Gases de Efecto Invernadero
+RUA: Registro Único Ambiental
+RUNT: Registro Único Nacional de Tránsito
+SF6: Hexafluoruro de azufre
+SCRR-GEI: Sistema de Contabilidad de Reducción y Remoción de Gases de Efecto Invernadero
+Sicom: Sistema de Información de la Cadena de Distribución de Combustibles del Ministerio de Minas y Energía
+Singei: Sistema Nacional de Inventario de Gases Efecto Invernadero
+SIPG: Sistema Integrado de Planeación y Gestión
+SMByC: Sistema de Monitoreo de Bosques y Carbono
+SNICC: Sistema Nacional de Información de Cambio Climático
+SNIF: Sistema Nacional de Información Forestal
+SO6: Dióxido de azufre
+SSPD: Superintendencia de Servicios Públicos Domiciliarios
+SUI: Sistema Único de Información
+Swisscontact: Fundación Suiza para la Cooperación Técnica
+TNC: The Nature Conservancy
+UPME: Unidad de Planeación Minero Energética
+UPRA: Unidad de Planificación Rural Agropecuaria
+WSA: World Steel Association (por sus siglas en inglés)
+Claves de notación
+IE: Incluido en otro lugar (por sus siglas en inglés)
+NA: No aplicable
+NE: No estimado
+NO: No ocurre
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+72
+Referencias bibliográficas
+Administración Nacional de Aeronáutica y el Espacio. (2024). ¿Qué es el efecto invernadero? NASA. Https://Ciencia.Nasa.Gov/CambioClimatico/Preguntas-Frecuentes/Que-Es-El-Efecto-Invernadero/.
+Agencia de Protección Ambiental de Estados Unidos. (2024, 30 de mayo). Descripción general de los gases de efecto invernadero. EPA. https:// espanol.epa.gov/la-energia-y-el-medioambiente/descripcion-generalde-los-gases-de-efecto-invernadero
+Burkart, S., Díaz, M. F., Enciso-Valencia, K., Urrea Benítez, J. L., CharryCamacho, A. y Triana Ángel, N. (2020). Covid-19 y el sector
+ganadero bovino en Colombia: Desarrollos actuales y potenciales, impactos y opciones de mitigación. Centro Internacional de Agricultura Tropical. https://cgspace.cgiar.org/server/api/core/ bitstreams/69d68535-e670-4dbb-9962-7bd797f6f841/content
+Comisión Económica para América Latina y el Caribe. (s. f). Convención Marco de las Naciones Unidas Sobre el Cambio Climático.
+Observatorio del Principio 10 en América Latina y el Caribe. https:// observatoriop10.cepal.org/es/tratado/convencion-marco-nacionesunidas-cambio-climatico
+Comisión para la Cooperación Ambiental. (2015). Directrices para la
+estimación de las emisiones de carbono negro de América del Norte: Métodos recomendados (vol. 1). http://www.cec.org/files/documents/ publications/11629-north-american-black-carbon-emissionsrecommended-methods-estimating-black-es.pdf
+Contexto Ganadero. (2017, 14 de marzo). Sacrificio bovino ha disminuido 14 % en los últimos 4 años en el país. Contexto Ganadero. https:// www.contextoganadero.com/economia/sacrificio-bovino-hadisminuido-14-en-los-ultimos-4-anos-en-el-pais
+Contexto Ganadero. (2019, 17 de julio). “4 millones de bovinos entraron de contrabando entre 2016 y parte de 2018”: Lafaurie. Contexto Ganadero. https://www.contextoganadero.com/ganaderiasostenible/4-millones-de-bovinos-entraron-de-contrabando-entre2016-y-parte-de-2018
+Contexto Ganadero. (2020, 15 de septiembre). Consumo de proteínas de origen animal bajó, salvo cerdo y huevo. Contexto Ganadero. https:// www.contextoganadero.com/economia/consumo-de-proteinas-deorigen-animal-bajo-salvo-cerdo-y-huevo
+Convención Marco de las Naciones Unidas sobre el Cambio Climático.
+(2006). Convención Marco de las Naciones Unidas sobre el Cambio Climático: Manual. https://unfccc.int/resource/docs/publications/ handbook_esp.pdf
+Convención Marco de las Naciones Unidas sobre el Cambio Climático. (2019). Informe de la Conferencia de las Partes en calidad de reunión de las Partes en el Acuerdo de París sobre la tercera parte de su primer periodo de sesiones, celebrada en Katowice del 2 al 15 de diciembre de 2018. https://unfccc.int/sites/default/files/resource/ cma2018_03a01S.pdf
+Departamento Administrativo Nacional de Estadística. (2010). Colombia estadística 2000-2009. Tomo 2. https://biblioteca.dane.gov.co/media/ libros/COL_ESTADISTICA_2000_2010_TOMO2.PDF
+Departamento Administrativo Nacional de Estadística. (2022). Producto Interno Bruto. Medición con enfoque territorial. Junio 2022. https:// www.dane.gov.co/files/investigaciones/pib/departamentales/B_2015/ Presentacion_PIB_dptal_2021preliminar.pdf
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia 73
+Departamento Administrativo Nacional de Estadística. (2023).
+Actualización post covid-19. Censo Nacional de Población y Vivienda (CNPV) 2018. Proyecciones de población por área y pertenencia étnico-racial. https://www.dane.gov.co/index.php/estadisticas-portema/demografia-y-poblacion/proyecciones-de-poblacion
+European Monitoring and Evaluation Programme y European Environment Agency. (2019). EMEP/EEA. Air pollutant emission inventory guidebook 2019. Technical guidance to prepare national emission inventories. https://www.eea.europa.eu/publications/emep-eeaguidebook-2019
+Federación Colombiana de Ganaderos. (2018, 9 de noviembre). Ganadería colombiana: Hoja de ruta 2018-2022. https://www.fedegan.org.co/ noticias/ganaderia-colombiana-hoja-de-ruta-2018-2022
+Fundación Natura, Ministerio de Ambiente y Desarrollo Sostenible, WWFColombia. (2016). El Acuerdo de París. Así actuará Colombia frente al cambio climático. https://es.slideshare.net/slideshow/el-acuerdode-pars-as-actuar-colombia-frente-al-cambio-climtico/61559806#5
+González, J. C. (2018). Caracterización de las principales causas y agentes de la deforestación a nivel nacional, 2005-2015. Ministerio de Ambiente y Desarrollo Sostenible, Instituto de Hidrología, Meteorología y Estudios Ambientales, Programa ONU-REDD. https://www.un-redd.org/document-library/caracterizacion-de-lasprincipales-causas-y-agentes-de-la-deforestacion-nivel
+Grupo Banco Mundial. (2020). Colombia. Notas temáticas de política. Cambio climático. https://documents1.
+worldbank.org/curated/en/099045108112233520/pdf/ P1778690b9f3ca00e0bf1f035ccd7778b9e.pdf
+Instituto Colombiano Agropecuario. (2021). Censo pecuario año 2021.
+Tabla de población bovina por municipio y por departamento 2021. https://www.ica.gov.co/areas/pecuaria/servicios/epidemiologiaveterinaria/censos-2016/censo-2018?aliaspath=%2fAreas%2fP ecuaria%2fServicios%2fEpidemiologia-Veterinaria%2fCensos2016%2fCenso-2018
+Instituto Geográfico Agustín Codazzi (IGAC). (2018). Mapa digital de geopedología de Colombia. Escala 1:100.000.
+Instituto de Hidrología, Meteorología y Estudios Ambientales. (2022). Informe del estado de la calidad del aire en Colombia. https://
+colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Informe%20 Calidad%20del%20Aire%202021.pdf
+Ministerio de Agricultura y Desarrollo Rural. (2020). Cadena cárnica bovina. Cifras sectoriales. Dirección de Cadenas Pecuarias Pesqueras y Acuícolas.https://es.scribd.com/document/512328964/2020-12-30Cifras-Sectoriales
+Ministerio de Agricultura y Desarrollo Rural. (2023). Boletín Estadístico Forestal. 8.a edición. https://fedemaderas.org.co/wp-content/ uploads/2023/12/08_BOLETIN_FORESTAL_SEPTIEMBRE_2023.pdf
+Ministerio de Agricultura y Desarrollo Rural-Instituto de Hidrología, Meteorología y Estudios Ambientales. (2024). Propuesta del nivel de referencia de las emisiones de Colombia para el periodo 2023-2027 como mecanismo para optar al pago por resultados de REDD+ bajo la CMNUCC. https://redd.unfccc.int/media/colombia_submission_ nref_2023_-_2027_vf.pdf
+
+
+Inventario Nacional de Emisiones y Absorciones Atmosféricas de Colombia
+74
+Ministerio de Ambiente y Desarrollo Sostenible. (2015). Decreto 1076. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible. https://www.minambiente.gov.co/ wp-content/uploads/2021/06/Decreto-1076-de-2015.pdf
+Ministerio de Ambiente y Desarrollo Sostenible. (2023). Resolución 1383 de 2023. Por la cual se reglamenta el funcionamiento y la
+administración del SNICC, en el marco del SIAC y se definen reglas y procesos para la articulación con los sitemas que tengan similares propósitos y gestionen información relacionada con el seguimiento a la gestión del cambio climático. https://www.minambiente.gov.co/wpcontent/uploads/2024/02/RES.-1383-DE-2023..pdf
+Organización de las Naciones Unidas. (1992). Convención Marco de
+las Naciones Unidas sobre el Cambio Climático. https://unfccc.int/ resource/docs/convkp/convsp.pdf
+Organización de las Naciones Unidas. (2024). What is climate change? https://www.un.org/en/climatechange/what-is-climate-change
+Panel Intergubernamental de Expertos sobre el Cambio Climático. (2006). Capítulo 1: Introducción a las Directrices de 2006. En Directrices del IPCC de 2006 para los inventarios nacionales de gases de efecto invernadero (1.1.-1.13). https://www.ipcc-nggip.iges.or.jp/ public/2006gl/spanish/pdf/1_Volume1/V1_1_Ch1_Introduction.pdf
+Panel Intergubernamental de Expertos sobre Cambio Climático. (2006). Capítulo 7: Precursores y emisiones indirectas. En Directrices del IPCC de 2006 para los inventarios nacionales de gases de
+efecto invernadero (7.1-7.17). Https://Www.Ipcc-Nggip.Iges.or.Jp/ Public/2006gl/Spanish/Pdf/1_Volume1/V1_7_Ch7_Precursors_ Indirect.Pdf.
+Panel Intergubernamental de Expertos sobre Cambio Climático. (2013). Glosario. En Bases físicas. Contribución del Grupo de trabajo I al Quinto Informe de Evaluación del Grupo Intergubernamental de Expertos sobre el Cambio Climático (185-204). https://www.ipcc.ch/ site/assets/uploads/2018/08/WGI_AR5_glossary_ES.pdf
+Panel Intergubernamental de Expertos sobre el Cambio Climático.
+(2019). 2019 Refinement to the 2006 IPCC guidelines for national greenhouse gas inventories. https://www.ipcc-nggip.iges.or.jp/ public/2019rf/index.html
+Pertuz Martínez, A. P. y Elías Caro, J. E. (2019). Competitividad en el sector ganadero en Colombia: Enfoque desde la historiografía económica, social y empresarial. Panorama Económico, 27(2), 453480. https://doi.org/10.32997/2463-0470-vol.27-num.2-2019-2637
+Unidad de Planificación Rural Agropecuaria-Agronet. (2024). Evaluaciones Agropecuarias Municipales (EVA) - Unidad de Planificación Rural
+Agropecuaria (UPRA), 2019 a 2022. UPRA. https://www.agronet.gov. co/estadistica/Paginas/home.aspx?cod=1
+Viloria de la Hoz, J. (2005). Aspectos económicos de la ganadería en el departamento de Córdoba. Economía & Región, 2(1), 87-123, https:// revistas.utb.edu.co/economiayregion/article/view/330

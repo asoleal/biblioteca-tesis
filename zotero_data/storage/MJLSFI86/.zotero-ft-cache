@@ -1,0 +1,358 @@
+From molecules to ecosystems through dynamic energy budget models
+R. M. NISBET*, E. B. MULLER*, K. LIKA{ and S. A. L. M. KOOIJMAN{
+*Department of Ecology, Evolution and Marine Biology, University of California, Santa Barbara, CA 93106-9610, USA; {Department of Biology, University of Crete, PO Box 2208, GR-71409 Iraklion-Crete, Greece; and {Department of Theoretical Biology, Vrije Universiteit, de Boelelaan 1087, 1081 HV Amsterdam, The Netherlands
+Summary
+1. Dynamic energy budget (DEB) models describe how individuals acquire and utilize energy, and can serve as a link between di erent levels of biological organization. 2. We describe the formulation and testing of DEB models, and show how the dynamics of individual organisms link to molecular processes, to population dynamics, and (more tenuously) to ecosystem dynamics. 3. DEB models o er mechanistic explanations of body-size scaling relationships. 4. DEB models constitute powerful tools for applications in toxicology and biotechnology. 5. Challenging questions arise when linking DEB models with evolutionary theory.
+Key-words: bioenergetics, dynamic energy budgets, ecosystems, ecotoxicology, population dynamics.
+Journal of Animal Ecology (2000) 69, 913±926
+Introduction
+One aim of theory in biology is to relate processes at di erent organizational levels (molecules, cells, organisms, populations, ecosystems). For example, the cell cycle may be described in terms of a sequence of molecular events, and population dynamics may be based on the dynamics of individual organisms interacting with their environment. The questions of interest are di erent at each level, but two basic principles invariably operate: biological systems obey the laws of thermodynamics and biological entities are the result of evolutionary processes. Thermodynamic laws constrain Øuxes of energy and elemental mass, which are most conveniently identiÆed at the level of individual organisms, while evolution makes stringent demands on the reproductive performance and viability of individuals. Thus, a general model describing the acquisition of energy by an individual organism, and its utilization for growth, reproduction and survival, has the potential to link to processes at other levels.
+A successful model based on such dynamic energy budgets (DEB) must be consistent with molecular, cellular and other suborganismal processes, and should provide the energetic basis for the dynamics of populations and ecosystems. Moreover, to make evolutionary sense, the model should recognize shared physiological and biochemical properties across a wide range of species, and must therefore aim at maximal generality. Here, we discuss progress towards theory based on a DEB model. We review recent results regarding links between levels of biological organization, and we highlight open questions. We discuss how DEB models relate growth, reproduction and respiration of individual organisms to feeding, in a way that admits tests against experimental data. We show that DEB models yield insight on subcellular processes, and that they make testable predictions about the dynamics of populations. We conjecture that they will contribute to our understanding of ecosystems. Because of their generality, DEB models yield a theory of body-size scaling relationships, and are powerful tools for a diverse range of applications. The apparent successes of DEB models in describing a broad range of phenomena pose challenges for the theory of evolution of energy allocation strategies.
+Correspondence: R.M. Nisbet, Department of Ecology, Evolution and Marine Biology, University of California, Santa Barbara, CA 93106-9610, USA. E-mail: nisbet@lifesci. ucsb. edu
+Journal of Animal Ecology 2000, 69, 913±926
+# 2000 British Ecological Society
+
+
+Principles of dynamic energy budget modelling
+CONCEPTS AND MODEL FORMULATION
+DEB models use di erential equations to describe the rates at which individual organisms assimilate and utilize energy from food for maintenance, growth, reproduction and development. These rates depend on the state of the organism (age, size, sex, nutritional status, etc.) and the state of its environment (food density, temperature, etc.). Solutions of the model equations represent the life history of individual organisms in a potentially variable environment. One important use of DEB models is to relate observed patterns of growth, development, reproduction and mortality in a particular organism to empirical information on feeding rates and maintenance requirements, the goal of such studies being to get a close match between data and model descriptions for a particular species (e.g. Gurney et al. 1990; McCauley et al. 1990; Ross & Nisbet 1990; Mangel 1996). A second use, which is the subject of this essay, takes a single, parameter-sparse, mechanistic model, and describes a broad spectrum of biological phenomena and life forms. Species differ only in their parameter values. A well-known example of this approach is the von Bertalan y theory of growth (von Bertalan y 1957), which Æts the growth of many organisms very well with only two parameters. Von Bertalan y based his work on a model by Pu» tter which assumes that the rate of growth of body mass is the di erence between the rates of food uptake and utilization. If the former is proportional to surface area, the latter is proportional to body mass, and the shape of the organism does not change through life, then a measure L of the length of an organism of age, a, is given by L à L1±(L1±Lb)[1±exp(± ga)], where Lb and L1 repre
+sent, respectively, the length at birth and the ultimate length, and the parameter g, commonly called the von Bertalan y growth rate, characterizes the rate of approach to the Ænal size. Many empirically based population and evolutionary studies of energy budgets use `net production' or `scope for growth' models (e.g. Paloheimo et al. 1982; Ross & Nisbet 1990; Widdows & Donkin 1991; Nisbet et al. 1996; Andersen 1997; Lika & Nisbet, in press), which make assumptions about allocating the energy from food that remains after maintenance needs have been met. However, almost all work on such models focuses on a single life stage, and we are aware of no work with these models that links levels of biological organization. In this essay, we concentrate on the model for which the most comprehensive body of theory exists, namely the k-rule model developed by Kooijman (1986, 1993, 2000). Our aim is not to evaluate this particular model in comparison with others. It is to use the model as a vehicle for demonstrating the power of DEB models in relating phenomena at different levels of organizations. The physiological and physico-chemical rationale for the k-rule model assumptions have been extensively discussed elsewhere (Kooijman 1993, 2000). Figure 1 shows the primary energy Øuxes, and Tables 1 and 2 list the assumptions and some equations. Input of energy to an organism involves transfer of material across surfaces (gut wall, membranes of cells and organelles, etc.), before it is spent on volume-dependent processes, such as growth and maintenance (assumptions 1 and 3). As a result, many physiological rates can be expressed as a weighted sum of an area and volume measure; see for example the equations for reproduction and respiration in Table 2 and Fig. 2. An organism aims at a stable internal environment (homeostasis:
+FOODuptakeassimilation utilization
+FECES
+STORAGE
+somaticmaintenance
+maturitymaintenance
+reproduction maturation
+growth
+κ
+1– κ
+STRUCTURE
+METABOLIC RATE
+METABOLIC WORK
+GONADS
+Fig. 1. An example of a DEB model (the k-rule model of Kooijman 1993). An organism ingests food at a rate dependent on its size and the food density. Energy is extracted from food and added to the reserves. The rate at which energy becomes available to the organism depends on its size and stored energy density. Somatic maintenance has absolute priority for energy. By default, a Æxed proportion k of the available energy is allocated to somatic maintenance and growth combined, and the remaining 1±k to either maturation (for embryos and juveniles) or to reproduction and maturity maintenance (for adults). Growth ceases when this Æxed fraction k just meets somatic maintenance demands. Then, the organism may still reproduce, provided that energy made available exceeds the requirements for somatic and maturity maintenance. (See Table 1 for assumptions and Table 2 for equations.)
+914
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Table 1. Assumptions of the k-rule DEB model. A mechanistic basis for these assumptions is presented in Kooijman 2000)
+1. Food uptake is proportional to surface area and depends hyperbolically on food density. 2. The dynamics of energy density in reserves is a Ærst order process, with a rate that is inversely proportional to the volumetric length. 3. A Æxed fraction of the energy Øowing out of the reserves is used for somatic maintenance plus growth (i.e. increase in structural biomass), the rest for maturity maintenance plus maturation or reproduction. This allocation rule is called the k-rule. 4. The chemical compositions of structure and reserves are constant. Since the amount of reserves can change relative to the amount of structural biomass, the chemical composition of an individual may change. The following are constant: (i) the conversion eÅciency of food into energy; (ii) the cost to maintain a unit of structural biovolume; (iii) the cost to maintain the acquired level of maturity. 5. Hazard rate (rate of ageing) is proportional to the accumulated `damage'. In addition: (i) damage production is proportional to the changed DNA; (ii) DNA change is proportional to respiration. 6. If the investment into maturation exceeds a given threshold value, the organism changes its stage, i.e. it switches from the embryonic stage to the juvenile stage by initiating the feeding process, or from the juvenile stage to the adult stage by ceasing maturation and initiating the production of gametes (eggs, sperm). Asexually reproducing microorganisms behave as juveniles. 7. The initial conditions are: (i) initial structural biomass is negligibly small; (ii) reserve density at hatching equals that of mother at egg laying; (iii) initial damage is negligibly small.
+Table 2. Equations of the k-rule model for a growing organism. Dynamics of an organism experiencing food stress and of non-feeding life stages are detailed in Kooijman (1993)Q1
+State variables L: length (a cubic root of structural biovolume) [E]: stored energy density (i.e. stored energy per cubed length) Environment X: food density
+Assimilation {A.
+m} L2 f; f à X
+KáX
+Dynamics dL
+dt à n:
+3
+âE ä=âEmä ˇ Lh=Lm ˇ L=Lm g à âE ä=âEmä
+dâE ä
+dt à fA:
+mg
+L f ˇ âE ä
+âEm ä
+Hazard rate hÖtÜ à p: aLˇ3R t
+0ÖL3Öt1Ü ˇ L3b á m: R t1
+0 L3Öt2Üdt2Üdt1
+Reproductive rate b(t) A âE ä=âEmä
+g á âE ä=âEmä ÖLeL2 á L3Ü ˇ L3p
+Primary parameters K saturation coeÅcient
+{A.
+m} maximum assimilation rate per surface area [Em] maximum storage energy
+[M. ] maintenance energy per unit size per unit time [G] energy costs for a unit increase in size Lp length at puberty Lh heating length (endotherms only) k fraction of utilized energy spent on maintenance and growth p»a ageing acceleration m population growth rate Compound parameters
+v. energy conductance: A:
+m
+âEmä
+m. maintenance rate coeÅcient: M:
+âGä
+g investment ratio: âGä
+kâEmä
+Lm maximum length: kfA:
+mg
+âMä à v:
+m: g
+Le reserve length: v:
+m: à gLm
+915
+From molecules to ecosystems: DEB models
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+assumptions 2 and 4), and somatic and reproductive tissues compete for available energy (assumption 3). Mathematically, the dynamics of a heterotrophic system are determined by two ordinary di erential equations describing changes in size and density of reserves. Once these equations have been solved, many other quantities can be calculated. These include such obvious targets as reproductive output (see Table 2), but also ones that are less conspicuously part of the modelling framework, such as the development time of eggs, body composition in terms of macromolecules, and mass Øuxes, e.g. respiration, disposal of nitrogen waste products and evaporation of water (Kooijman 1995). These latter calculations do not require new state variables, but do require information on the stoichiometry of the transformations being considered. The basic model has one substrate (`food') and one type of reserve. It can be generalized in a systematic way to describe multiple substrates and
+many types of reserves (Kooijman 2000). The onesubstrate, one-reserve model described above then emerges as a limiting case in two situations: if only one substrate is limiting, or if the relative abundance of substrate types is constant and turnover times of the various reserves have the same value. The multisubstrate generalizations are needed to describe the dynamics of autotrophic systems, since plants and algae experiencing a nutrient limitation maintain, in addition to energy reserves, stocks of nutrients. A description of their dynamics thus involves assumptions about these additional pools of nutrients (Zonneveld 1996; Zonneveld 1998a; Zonneveld 1998b; Kooijman 2000).
+MODEL TESTING
+DEB models make testable predictions about the performance of organisms in any given environment, and thereby help identify mechanisms respon
+8
+6
+0
+2
+4
+4 Length, mm
+Ingestion rate, 105 cells/h
+0123
+5
+4
+0
+2
+1
+3
+4 Length, mm
+O2-consumption, 10–6 g/h
+0123
+4
+3
+0
+1
+2
+20 Age, d
+Length, mm
+0 4 8 12 16
+200
+120
+160
+0
+40
+80
+16 20 Time, d
+Cum. no of young female –1
+0 4 8 12
+Fig. 2. The k-rule model makes good predictions about feeding, respiration, growth and reproduction of Daphnia magna in a constant environment. The curves represent model Æts to experimental results. The expressions above the graphs were derived from the rules in Table 1 and equations in Table 2. The estimated parameters are: von Bertalan y growth rate g (0 115 dayˇ1), ultimate length L1 (4 36 mm), reserve-length Le (1 8 mm), length at puberty Lp (1 8 mm), maintenance rate
+coeÅcient [m (1 18 dayˇ1). Note that the reserve-length occurs in several expressions.
+916
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+sible for observed patterns in experimental data. For example, the k-rule model predicts that growth under constant environmental conditions is of the von Bertalan y type, and that an adult may continue to reproduce long after growth has ceased. These qualitative features are observed in studies of many organisms, and constitute strong prima facie evidence that the model is capturing some essential, and very general, features of the dynamics of these individuals. Direct testing of the core assumptions on energy allocation and homeostasis is remarkably diÅcult. Ideally, we require data on a large number of combinations of output variables and environment; this is seldom available. Access to data from dynamically varying environments is particularly important, since many model predictions regarding individual performance in an unchanging environment are insensitive to some of the assumptions. For example, experiments in which organisms grown in one food environment are transferred to higher or lower food are powerful (Kooijman 1986; Gurney et al. 1990; McCauley et al. 1990). A more fundamental diÅculty is that the key state variables relate in subtle ways to experimental data. Size in a DEB model is really a measure of energy allocated to structural biomass, and energy stored in reserves is an experimentally elusive entity. Links between these state variables and real size and storage require new assumptions. Body mass in a DEB model combines the structural part and the energy reserves, and does not yield a direct measurement of either, although for micro-organisms, changes in body mass composition with population growth rate can be used to identify the contribution of structural biomass and reserves to each chemical compound (Muller 1994; Hanegraaf 1997; P.P.F. Hanegraaf et al., unpublished). Similarly, assumptions about energy Øows are not directly testable, as many Øows (e.g. the `utilization' Øow in Fig. 1) are not measurable. Many model tests are thus indirect. Parameters are estimated independently from data on (very) different physiological processes and checked for consistency. For example, the maintenance rate coeÅcient, a compound parameter deÆned as the ratio of the volume-speciÆc maintenance and growth costs, has been estimated not only from data on weight loss during starvation, but also from data on respiration ontogeny during the embryonic period. Even data on the survival probability as a function of age give access to the maintenance rate parameter for individuals in laboratory conditions where the physiologically based `hazard rate' in Table 2 can be assumed to be a major component of mortality (see Kooijman (1993) p. 109 for examples of such calculations for the pond snail Lymnaea stagnalis). As another example, data on respiration vs. size and on reproduction vs. age both yield estimates of the
+reserve-length, a parameter compounded from four primary parameters (see Table 2). Figure 2 illustrates that the same value for the reserve-length is appropriate in describing respiration and reproduction in the waterØea Daphnia magna. The Ægure also shows that growth and feeding are well described by the krule model, using parameters consistent with the previous Æts. In the search for mechanisms, deviations from model predictions are at least as instructive as data that support it. For example, experiments on time to starvation in the pond snail Lymnaea stagnalis have shown that the length of day inØuences the allocation of energy to reproduction (Zonneveld 1992). This result has led to a modiÆed version of the model, demonstrating that particular model elements may vary in some situations without destroying the basic integrity of the model structure (chapter 4 in Kooijman 1993). As another example, although the Daphnia data in Fig. 2 are consistent with the k-rule model, many other published experiments on growth of individual Daphnia show a long-term upward trend in length that is not predicted by the model (Fig. 1 of McCauley et al. 1990; Noonburg et al. 1998). Prolonged growth may be the result of changing the priorities of energy allocation with age or may reØect slow adaptations that involve changes in other model parameters. The fact that a large body of data is well described by the k-rule model supports the view that although organisms are complex and di er greatly from each other, their basic features can be described using a common modelling framework. A challenge for rival models is to achieve similar width of coverage. A more demanding challenge is to design experiments capable of discriminating among rival DEB models, as well as to delineate the circumstances where predictions are insensitive to the choice of DEB model-for example Ross & Nisbet (1990) showed that a modiÆed form of the k-rule model and a net production model give equally good Æts to data of growth of the marine mussel Mytilus edulis. This last issue a ects strategy for DEB applications; for example, should a worker analysing the results of toxicity tests (see later section) be concerned about the choice of DEB model used in that work?
+Linking levels of biological organization
+The dynamics of individuals depend on cellular processes which, in turn, depend on molecular processes. Similarly, the cumulative performance of a large number of individuals determines the dynamics of a population and, ultimately, the dynamics of ecosystems. This section gives examples of how DEB models link the various levels of biological organization in such a way that the dynamics at different levels of organization are self-consistent.
+917
+From molecules to ecosystems: DEB models
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+MOLECULAR PROCESSES
+Dynamics at the individual level constrain processes at the molecular level. For example, a bacterium may increase the synthesis rates of macromolecules only if it has previously taken up suÅcient nutrients and energy. Since uptake rates depend on size, so must synthesis rates. However, the relationship between rates of uptake and synthesis is indirect because of the role played by intermediate pools of intracellular metabolites. The link can be understood using the k-rule model, through assumptions about the composition of structure and reserves (see Table 1). For example, fast-growing cells of Escherichia coli require rapid protein synthesis, and contain about 10 times as many ribosomes as cells in a poor environment (Bremer & Dennis 1987). The intracellular concentration of RNA, which is for the most part ribosomal RNA, thus increases drastically when food conditions improve. In the k-rule model, a higher food level leads to an increase in the density of the energy reserves. Consequently a major part of ribosomal RNA may be interpreted as `reserves', playing a key role in balancing the acquisition and utilization of energy in the cell. With this interpretation, the k-rule model predicts relationships between the cell division rate, the turn-over rate of ribosomes, and the mean elongation rate, i.e. the rate at which ribosomes proceed along a strand of messenger RNA (Kooijman et al. 1991). These predictions correspond well with experimental results, see Fig. 3. DEB models also provide an explanation for specialization in bacteria. Individuals that discard unne
+cessary genomic information are predicted to have a selective advantage over individuals from the parent strain (Stouthamer & Kooijman 1993). The argument uses two additional assumptions (cf. Donachie & Robinson 1987): a cell must achieve a certain critical size for DNA replication to start, and the duplication of DNA proceeds at a Æxed rate. Then, cells with a smaller genome will divide at a smaller size, causing the mean cell size in a population to decrease. In non-Ælamentous organisms, the mean surface area to volume ratio then increases, which leads to a higher individual growth rate, a shorter division interval and, consequently, a higher population growth rate. In circumstances where natural selection acts to maximize population growth rate, cells with a large genome then have a selective disadvantage, even though the direct costs involved in maintaining and duplicating unnecessary DNA are negligibly low. A similar argument may be used to explain why some micro-organisms store the information on (large parts of) some metabolic routes on megaplasmids. The time to duplicate the genomic information decreases with the number of origins of replication, causing the mean cell size to decrease and the population growth rate to increase.
+POPULATION DYNAMICS
+Solution of DEB model equations provides life-history information, i.e. a schedule for reproductive output and one component of mortality, for organisms experiencing any given environment. This provides an opening to population dynamics.
+0.28
+(a)
+0.2
+0.24
+0.16
+0
+0.08
+0.04
+0.12
+1.2 Population growth rate, h–1
+Total RNA/ dry wt., μg/μg
+0 0.4 0.8
+(b)
+0.8
+1
+0
+0.4
+0.2
+0.6
+0.6 0.8 1
+μ/μmax
+Elon. rate/elon. rate at μmax
+0 0.2 0.4
+Fig. 3. The k-rule model deÆnes how the mass of structure and reserves change as a function of food conditions. This determines how principal biochemical components are partitioned between structure and reserves, and therefore how the concentrations of these components change as a function of the population growth rate, m. In (a) this model expectation is Ætted with measured RNA concentrations in Escherichia coli using three free parameters (data from Koch 1970). This partitioning also implies how the activity of principal biochemical components relates to the growth rate. In (b) the model Æt of the mean elongation rate of ribosomes in Escherichia coli is shown using two free parameters (data from Bremer & Dennis 1987). See pp. 250±252 of Kooijman (1993) for details.
+918
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+In a constant environment a population will ultimately grow exponentially; and it is possible to calculate the rate of exponential growth in any given environment from generalizations of the Lotka equation. Such calculations motivated one of the earliest applications of DEB theory to ecotoxicology (Kooijman & Metz 1984). A population at equilibrium neither grows nor declines, implying that the average lifetime reproductive output, R0, per individual in the population is one. If S(t) denotes the proportional of a cohort that survive to age t, then
+R0 à
+Z1
+0
+bÖtÜSÖtÜdt eqn 1
+Table 2 shows that the reproductive rate b(t) can be obtained from the DEB model solutions which, in turn, depend on the food density in the environment (represented by the scaled functional response). Survival in most populations is determined in part by the hazard rate which is also obtained from the DEB model, but also by other factors (e.g. predation, parasitism) that are unrelated to energetics. Equation 1 can be solved to determine the food density at which the population will be in equilibrium. We can then calculate any demographic properties of a population at equilibrium (Gurney et al. 1996; de Roos et al. 1997), including time to reproductive maturity, mean fecundity of adults, and the ratio of adults to juveniles. To move beyond representations of stationary, or exponentially growing, populations requires structured population models. These models relate the complete dynamics of a population to the dynamics of individual organisms and, in general, involve partial di erential equations or integral equations (de Roos 1997). The equations simplify to a set of ordinary di erential equations when all energy Øuxes depend in a similar way on size (Kooijman 1993; Nisbet et al. 1997). This simpliÆcation is valid for Ælamentous organisms, approximately valid for micro-organisms and may be a reasonable approximation for many other organisms (Nisbet et al. 1997). With the k-rule model, further simpliÆcations lead to equations that may still essentially capture the behaviour of a system and, in quite a few cases, are analogous to well-known model formulations. If Øuctuations in energy reserves are ignored, the ordinary di erential equations are equivalent to the Lotka±Volterra-like, biomass-based, dynamic equations widely used in modelling aquatic populations. Such biomass equations have been shown to yield predictions in good agreement with laboratory studies of zooplankton populations (Nisbet et al. 1997). They have also been successfully used to model competition among zooplankters in Øuctuating environments (McCauley et al. 1996; Nisbet et al.
+1997), and to study the stability of natural plankton assemblages (Murdoch et al. 1998). Similar biomassbased equations are widely used in microbiology; for example, the model of Marr and Pirt (Marr et al. 1962; Pirt 1965). This model without reserve dynamics simpliÆes further to the formulation of Monod (1942) when maintenance requirements are ignored. If, conversely, reserve dynamics are considered but maintenance requirements are omitted, the Marr±Pirt model is consistent with the formulation of Droop (1973). The DEB model is not only a close relative of this highly successful model; it also provides a mechanistic explanation of it. The power of the DEB approach becomes really apparent in situations where it is not legitimate to neglect Øuctuations in reserve density. Energy reserves act as a bu er between an organism's demand and a potentially variable environment and may therefore strongly a ect the pattern of population Øuctuations (Kooi & Kooijman 1994a; Kooi & Kooijman 1994b; Kooi & Kooijman 1997; Kooi et al. 1999). Figure 4 demonstrates the importance of reserves for a food chain with substrate, bacteria and slime moulds. The quality of the Æt by the krule model is striking when compared with previous attempts that did not consider reserve dynamics (Tsuchiya et al. 1972; Bazin et al. 1974; Bazin & Saunders 1979). Figure 4 illustrates this comparison for one of the traditional models, the Monod model. This failure of traditional models indeed led to the controversial speculation that feeding rates are determined by the level of resource per consumer rather than by resource level itself, an idea that ecologists revisit intermittently as in the recent explosion of interest in `ratio dependence' (Arditi & Ginzburg 1989; Arditi et al. 1991). As Fig. 4 shows, however, the feeding rate may reasonably be assumed to depend directly on the resource level, provided the importance of energy reserves in a variable environment is recognized.
+ECOSYSTEM DYNAMICS
+There is a long tradition of measurement and modelling of energy Øows in ecosystems. DEB theory may contribute to this e ort. In ecosystem modelling, the state variables relate to energy and elemental matter within functional groups of populations, such as primary producers and herbivores. As with population models, simpliÆcation to a system of ordinary di erential equations is possible when feeding and maintenance rates scale in identical manner with body size (Kooijman & Nisbet 2000). In ecosystems, such scaling may arise for two very di erent reasons. First, if a single species dominates the functional group, the simpliÆcations described in the section on population dynamics may be applicable. The second possibility is that a functional group contains a number of species with the overall spec
+919
+From molecules to ecosystems: DEB models
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+trum of sizes much larger than the size range spanned by any one species. The feeding and assimilation rates of an individual are proportional to surface area (see Table 1), but the theory of body-size relationships discussed in the next section predicts that the constants of proportionality depend linearly on the maximum body length an organism can attain. Thus, the feeding rate of a functional group of organisms scales as a volume. If maintenance rate is still assumed to be proportional to volume, then a functional group both feeds and expends energy on
+maintenance at rates proportional to the total volume it occupies. The full potential of DEB models for ecosystem modelling is unknown, since the only examples known to the authors do not explicitly recognize reserves. Yet, there are models of Øow of energy and elements that make a convincing case that ecosystems do truly have dynamics. The state of the art is well illustrated by models of carbon and nitrogen dynamics in three fjord ecosystems (Scottish sea lochs) (Ross et al. 1993a; Ross et al. 1993b; Ross
+0.5 Glucose 0.4
+0
+0.2
+0.1
+0.3
+120 Time, h
+Glucose, mg.ml–1
+0 40 80
+1 E.coli
+0.8
+0
+0.4
+0.2
+0.6
+120 Time, h
+Biovol., mm3.ml–1
+Biovol., mm3.ml–1
+0 40 80
+1
+D.discoideum
+0.8
+0
+0.4
+0.2
+0.6
+120 Time, h
+0 40 80
+Fig. 4. Fits of the k-rule model (solid line) and Monod model (dotted line) to data from a food chain in a continuous culture. The food chain consists of glucose X0, the bacterium Escherichia coli X1 and the slime mold Dictyostelium discoideum X2. The variables e1 and e2 represent scaled measures of reserve density in the bacteria and slime mould, respectively. The
+dilution rate p à 0 064 hˇ1 and glucose concentration in the feed Xr à 1 mg mlˇ1. The k-rule parameter values and equations are as follows. X0(0): 0 582 mg mlˇ1
+X1(0): 0 466 mm3 X2(0): 0 069 mlˇ1 e1(0): 1 ± e2(0): 1 ±
+K1 : 0 443 mg/ml K2: 0 180 mm3/ml g1 : 0 861 ± g2: 4 430 ±
+m. 1 : 0 008 hˇ1 m. 2 : 0 158 hˇ1
+n.
+1 : 0 689 hˇ1 n
+.
+2: 2 046 hˇ1
+[.I
+m]1 : 0 651 mg/mmˇ3 h [I.
+m]: 20 262 hˇ1
+920
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+et al. 1994; Gurney & Nisbet 1998). The model subdivides the loch into compartments, with water Øow between compartments. The fjord exchanges water with the open ocean. The food chain has three components: primary producers, herbivores (predominantly copepods), and carnivores (predominantly jellyÆsh). Figure 5 compares observed concentrations of phytoplankton and of dissolved inorganic nitrogen with predictions from a model of this sort. Model parameters are estimated either from independent data, or by Ætting using only data from one loch. The trajectories for the other lochs are then well predicted on the assumption that the biological interactions are unchanged, and that only di erences between the three systems lie in the values taken by hydrodynamic parameters.
+Life histories and body-size relationships
+DEB model assumptions also have implications for interspeciÆc comparisons of physiological rates. In DEB theory intraspeciÆc di erences in physiological rates derive solely from di erent values of state variables. By contrast, individuals of di erent species also have di erent parameter values: an adult mouse
+and juvenile rat of the same size grow and reproduce at entirely di erent rates, despite their similarity in size. Kooijman (1988, 1993; chapter 6) showed that the assumptions in Table 1 imply that parameter values will tend to co-vary among species, since the maximum body length, Lm, is a simple function of model parameters. Parameters can be classiÆed as being either `intensive' or `extensive'. An intensive parameter characterizes molecular processes, which depend on densities. Because densities do not scale with size, interspeciÆc changes in the values of an intensive parameter do not vary among species in a systematic way. Extensive parameters, by contrast, relate to physical design, and can be shown to scale with maximum body length. Since most physiological quantities, including Lm itself, are functions of intensive and extensive parameters, it is possible to represent these quantities as functions of Lm, and thereby derive body size scaling relations. Using this line of reasoning, the von Bertalan y growth rate at high food levels turns out to be approximately inversely proportional to maximum length. Figure 6a tests this prediction with data from a wide variety of organisms, whose maximum sizes
+0
+10
+20
+mgN/m3
+0
+20
+40
+mgN/m3
+0
+20
+40
+60
+mgN/m3
+0
+50
+100
+mgN/m3
+0
+50
+100
+mgN/m3
+0
+50
+100
+150
+mgN/m3
+May
+Phytoplankton
+Loch Creran
+Jan Mar Jul Sep Nov Jan Mar May Jul Sep Nov
+Loch Creran
+Loch Etive Loch Etive
+Loch Airdbhair Loch Airdbhair
+DIN
+Fig. 5. Comparison of the annual cycle in phytoplankton and in disolved inorganic nitrogen (DIN) predicted by the sealoch model in Gurney & Nisbet (1998) with the observed annual cycles in the three Scottish sea-lochs. The `biological' parameters take the same values in each system; the hydrodynamic parameters di er. Reproduced with permission of W.S.C. Gurney.
+921
+From molecules to ecosystems: DEB models
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+cover a range of more than four orders of magnitude. The environmental conditions at which many of these data were collected are unknown and may explain part of the scatter in the data. Also, variability in the life-history parameter k, a constituent of the von Bertalan y growth rate, may have caused some scatter. However, the trend is consistent with the k-rule model.
+The interspeciÆc variation of the weight-speciÆc respiration rate can be derived along similar lines. In ectothermic species, it is predicted to decrease as body weight increases, because reserves (which are assumed not have maintenance requirements) then represent an increasing proportion of the organism's weight. Total respiration rate turns out to be a linear combination of terms proportional to the maximum surface area and the maximum volume of a species. This apparently contrasts with the many empirical studies that describe the relationship allometrically as maximum body volume raised to some power. However, graphs of both relationships are almost identical if the exponent in the allometric relationship has a value in the range 0 66±1 0, the maximum span consistent with DEB theory. This range contains the popularly quoted value of 0 75 as well as most empirical estimates for groups of organisms (Calder 1984; West et al. 1997). Figure 6b demonstrates the ability of DEB theory to describe the scaling of respiration rate with body size in unicellulars, ectotherms and endotherms. Coincidentally, the k-rule model predicts that respiration rate scales with size in a broadly similar way intraspeciÆcally, although, as explained above, the mechanisms involved are di erent from those generating the interspeciÆc relationships. Individuals of the same species di er in values of the state variables, not in parameter values. Because small individuals invest relatively more energy in growth than large ones, the respiration rate is a linear combination of the actual surface area and volume of an organism. This relationship is again often close to the empirical result that respiration rates are proportional to volume to the power 0 75. Not every parameter is predicted to vary systematically from species to species. Life-history parameters representing, for example, strategic choices about energy allocation (e.g. the parameter k) and the critical size for changing a life stage (Lp), are likely to be adaptive. The theory only predicts interspeciÆc variations in parameters representing physiological and biochemical processes. As noted earlier, deviations from the predictions of mechanistic models can be most instructive. When a particular species deviates from expected interspeciÆc patterns, we can look for the responsible parameters, and obtain a better understanding of why this species di ers from others. For example, tube noses incubate their eggs for a long time in comparison with other similarly sized birds. Also, this species has relatively large eggs and large hatchlings. However, when the incubation time is corrected for egg size, those di erences disappear (see p. 232 in Kooijman 1993). Understanding their long incubation time thus involves their relatively large egg size. Further analysis reveals that if a species increases egg size, it will have a shorter chick stage, with this reduction exceeding the increase in
+Fig. 6. The DEB model predicts interspeciÆc body size scaling relationships. (a) The scaling of the von Bertalan y growth rate as a function of the ultimate size of birds (!), mammals (&), reptiles and amphibians (~), Æsh (*), crustaceans ( ), molluscs (á), other species (^) and model expectation (line). Data have been normalized to a body temperature of 25 C using the Arrhenius' relationship (see Kooijman 2000, p. 282 for further details). (b) The metabolic rate as a function of body weight of unicellulars (*,
+ar 20 C), ectotherms (., at 20 C) and endotherms (á, at
+39 C). The metabolic rate is proportional to the respiration rate. The slope of the upper and lower line represent allometric scalings with body weight to the power 2/3 and 1, respectively. Other curves represent model Æts to the data (see Kooijman 2000, p. 272).
+922
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+incubation time. As a result, the breeding season becomes shorter, which makes ecological sense for open ocean birds. In summary, DEB models can be used to derive interspeciÆc scaling relationships between physiological attributes and body size. The derivation does not invoke any optimization arguments. Here the DEB approach contrasts with other theories of metabolic scaling, such as the recent model of West et al. (1997) that assumes minimization of the energy required to transport metabolites in an isomorphic, space-Ælling, fractally branching tube system. Childress & Somero (1990) take an intermediate position regarding the role of evolution, in which they contrast the tight scaling of aerobic metabolic power in Æsh, with high, size-dependent variability in anaerobic power (a signiÆcant component to total output in skeletal muscle) and argue that natural selection played a major role only in determining the strength of the anaerobic contribution. An important challenge for theorists and experimentalists is to identify ways of testing these theories.
+Applications
+Mechanistic models can be of great value in applied science, and o er many beneÆts over pure empiricism. Consider, for instance, the responses of laboratory animals in routine toxicity tests. The longer the experiment lasts and the smaller the organisms are, the more drastic the observed response will be. The observed e ects thus depend on experimental design, a fact that obviously complicates the formulation of toxicological standards. We illustrate below that the dependence of results on time and size can be understood with DEB models; several formulations were, in fact, developed to address this kind of problem (Hallam et al. 1989; Kooijman & Bedaux 1996a). We also brieØy describe how DEB theory is used in biotechnological problems. Toxic compounds may a ect growth, reproductive output and survival. In a DEB model, a description of toxic e ects is based on mechanisms that identify the target parameters and quantify the e ects in terms of the body burden of toxicant. The body burden of toxicant depends on the organism's abilities to metabolize toxicants and on uptake and elimination characteristics. These processes depend, in turn, on attributes of an organism, such as the size and lipid content, that are described by the model (Lassiter & Hallam 1988; Kooijman & Haren 1990). Toxic e ect models based on those tightly related principles that satisfactorily describe experimental data covering a wide range of toxicants, species and DEB-deÆned processes (Kooijman & Bedaux 1996b; Kooijman & Bedaux 1996c; Muller & Nisbet, unpublished).
+One advantage of an approach using DEB models is that the parameters describing toxicological e ects represent the organism's sensitivity to a compound, and are independent of experimental protocol (e.g. exposure time). This does not hold for classic measures, such as the LC50 and EC50. The no-e ect concentration, which deÆnes the highest concentration that will never cause an e ect, may be used as a model parameter. This quantity is more relevant than the no-observed-e ect concentration, a measure that is often used in risk assessment studies, but which has serious methodological and statistical problems (Kooijman & Bedaux 1996d). Another beneÆt from using a DEB model is that the toxicity of a compound can be related to its physico-chemical properties, such as degree of ionization and fat solubility. In addition to physico-chemical data, a description of a class of similarly acting compounds only requires a proportionality factor and toxicological data on a single member (Kooijman & Bedaux 1996a). In biotechnology, DEB models aid the design and operation of production and treatment plants. DEB models have been used to describe the formation rates of biomass, fermentation products, such as ethanol, and secondary products, such as penicillin (Hanegraaf 1997). They are therefore useful in deriving the economically optimal conditions for biotechnological production. Likewise, DEB models are involved in the design and operation of sewage treatment plants, which produce much bacterial biomass (sludge), a product that needs to be processed at considerable costs. Since waste water contains food for bacteria, sludge production is minimized by increasing the sludge content of the treatment plant (Muller et al. 1995). Sludge production is also minimized by increasing the abundance of bacterial grazers (Ratsak et al. 1993; Ratsak et al. 1994; Ratsak et al. 1996).
+Future challenges: DEB models in evolutionary time
+Throughout this article we have identiÆed areas of DEB theory that are ripe for future research. However, probably the most pressing challenge is to relate DEB models to the mainstream of evolutionary theory. To date, the most powerful contribution of DEB models has been to identify body-size scaling relationships that may be understood without appeal to optimization, or to other evolutionary concepts. There remain many questions requiring consideration of changes over evolutionary time. Here we highlight two. First, we do not have a good understanding of the patterns of interspeciÆc variation in those DEB parameters that describe adaptive traits, for example k, which quantiÆes partitioning of energy between growth and reproduction, or the critical parameters
+923
+From molecules to ecosystems: DEB models
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+that determine the timing of transitions between life stages. The natural (and traditional) starting point for such a study is to investigate how a change in a parameter value a ects the expected lifetime reproductive output of an individual in a population at equilibrium (R0) (e.g. Sibly & Calow 1986 and references therein; Stearns & Hoekstra 2000 and references therein). By using a DEB-based formula for R0 (see equation 1), we ensure that energetic-based trade-o s are incorporated. When an individual with a modiÆed parameter value appears in a population at equilibrium, it will be favoured by selection if it is able to replace itself at a lower food density than the current equilibrium density. In other words, a change in parameter values is advantageous when R0 is larger than one at the current food conditions. Very few such calculations have been attempted (e.g. chapter 4 in Gurney & Nisbet 1998; Lika & Nisbet 2000). However, a much more fundamental challenge is to predict a priori the appropriate strategy for allocation of energy in organisms that exhibit simultaneous commitment to growth and reproduction. Simple models of energy allocation suggest that in a constant environment, the optimal strategy for an individual is the `bang-bang' option of committing 100% of net production (assimilation less maintenance) to growth until a certain age, and thereafter 100% to reproduction (e.g. Bulmer 1994). While consistent with the life histories of some organisms, the bang-bang strategy is not followed by the many organisms that simultaneously grow and reproduce, and which motivated the development of the k-rule model. An analysis of allocation strategies in the latter model showed that there are circumstances where bang-bang allocation is inferior to a constantfraction allocation to reproduction (L. Lika & S.A.L.M. Kooijman, unpublished). This is because the k-rule model recognizes costs and trade-o s in juvenile development that are absent in the simpler models. The most commonly invoked explanation for the existence of mixed allocation strategies is bet-hedging in a spatially or temporally variable environment (Cohen 1966; King & Roughgarden 1982a; King & Roughgarden 1982b; Bulmer 1994). Thus, DEB modelling reopens the debate on whether or not mixed strategies are an evolutionary response to uncertain environments.
+Acknowledgements
+We thank W.S.C. Gurney, E. McCauley, W.W. Murdoch, A.M. de Roos, and W.G. Wilson for many discussions of dynamic energy budget models, and J.H. Brown, J.J. Childress, and B. Enquist for discussions of scaling relations. We thank A. Brooks, L. Goldwasser, P. Hosseini, E. Noonburg, and W.G. Wilson for comments on earlier drafts of the MS. The research was supported by the
+National Center for Ecological Analysis and Synthesis (NCEAS), the US OÅce of Naval Research, and by the US Minerals Management Service, US Department of the Interior, under MMS Agreement no. 14-35-0001-30761. The views and conclusions contained in this document should not be interpreted as necessarily expressing the oÅcial policies, either express or implied, of the US Government. It was also supported by grant 013/1204.10 to SALMK from the Dutch Goverment, National Research Programme on global air pollution and climate change.
+References
+Andersen, T. (1997). Pelagic Nutrient Cycles: Herbivores as Sources and Sinks. Springer-Verlag, Berlin. Arditi, R. & Ginzburg, L.R. (1989) Coupling in predator± prey dynamics: ratio-dependence. Journal of Theoretical Biology, 139, 311±326.
+Arditi, R., Ginzburg, L.R. & Akcakaya, H.R. (1991) Variation in plankton densities among lakes: a case for ratio-dependent predation Models American Naturalist, Bf, 138, 1287±1296. Bazin, M.J., Rapa, V. & Saunders, P.T. (1974) The integration of theory and experiment in the study of predator±prey dynamics. Ecological Stability (eds M. Usher & M. Williamson). Chapman & Hall, London. Bazin, M.J. & Saunders, P.T. (1979) An application of catastrophe theory to study a switch in dictyostelium discoideum. Kinetic Logic: A Boolean Approach to the Analysis of Complex Regulatory Systems (ed. R. Thomas) pp. 481±501. Springer-Verlag, Berlin. von Bertalan y, L. (1957) Quantitative laws in metabolism and growth. Quarterly Review of Biology, 32, 217±231. Bremer, H. & Dennis, P.P. (1987) Modulation of chemical composition and other parameters of the cell by growth rate. Escherichia Coli and Salmonella Typhimurium (ed. F. Neidhardt), pp. 1527±1542. American Society of Microbiology, Washington.
+Bulmer, M. (1994) Theoretical Evolutionary Ecology. Sinauer.
+Calder,W.A.C. III (1984) Size, Function and Life History. Harvard University Press, Cambridge, Mass. Childress, J.J. & Somero, G.N. (1990) Metabolic scaling: a new perspective based on scaling of glycolytic enzyme activities. American Zoologist, 30, 161±173. Cohen, D. (1966) Optimizing reproduction in a randomly varying environment. Journal of Theoretical Biology, 12, 110±129. Donachie, W.D. & Robinson, A.C. (1987) Cell division: parameter values and the process. Escherichia coli and Salmonella typhimurium (ed. F. Neidhardt), pp. 1578± 1593, American Society of Microbiology, Washington. Droop, M.R. (1973) Some thoughts in nutrient limitations in algae. Journal of Phycology, 9, 264±272.
+Gurney, W.S.C., McCauley, E., Nisbet, R.M. & Murdoch, W.W. (1990) The physiological ecology of Daphnia: formulation and tests of a dynamic model of growth and reproduction. Ecology, 71, 716±732. Gurney, W.S.C., Middleton, D.A.J., Nisbet, R.M., McCauley, E., Murdoch, W.W. & de Roos, A.M. (1996) Individual energetics and the equilibrium demography of structured populations. Theoretical Population Biology, 49, 344±368.
+Gurney, W.S.C. & Nisbet, R.M. (1998). Ecological Dynamics. Oxford University Press, Oxford.
+924
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Hallam, T.G., Lassiter, R.R. & Kooijman, S.A.L.M. (1989) E ects of toxicants on aquatic populations. Applied Mathematical Ecology, Vol 18 (eds S. Levin, T. Hallam & L. Gross), pp. 352±382. Springer-Verlag, Berlin.
+Hanegraaf, P.P.F. (1997) Mass and energy Øuxes in microorganisms according to the Dynamic Energy Budget theory for Ælaments. PhD Thesis, Vrije Universiteit, Amsterdam. King, D. & Roughgarden, J. (1982a) Graded allocation between vegetative and reproductive growth for annual plants in growing seasons of random length. Theoretical Population Biology, 22, 1±16.
+King, D. & Roughgarden, J. (1982b) Multiple switches between vegetative and reproductive growth in annual plants. Theoretical Population Biology, 21, 194±204.
+Koch, A.L. (1970) Overall controls on the biosynthesis of ribosomesin growing bacteria. Journal of Theoretical Biology, 28, 203±231. Kooi, B.W., Boer, M.P. & Kooijman, S.A.L.M. (1999) Resistance of a food chain to invasion by a top predator. Mathematical Biosciences, 157, 217±236.
+Kooi, B.W. & Kooijman, S.A.L.M. (1994a) Existence and stability of microbial prey±predator systems. Journal of Theoretical Biology, 170, 75±85.
+Kooi, B.W. & Kooijman, S.A.L.M. (1994b) The transient behaviour of food chains in chemostats. Journal of Theoretical Biology, 170, 87±94.
+Kooi, B.W. & Kooijman, S.A.L.M. (1997) Population dynamics of rotifers in chemostats. Nonlinear AnalysisTheory Methods and Applications, 30, 1687±1698.
+Kooijman, S.A.L.M. (1986) Population dynamics on basis of budgets. The Dynamics of Physiologically Structured Populations (eds J. Metz & O. Diekmann), pp. 266± 297. Vol. 68 of Lecture Notes in Biomathematics. Springer-Verlag, Berlin. Kooijman, S.A.L.M. (1988) The von Bertalan y growth rate as a function of physiological parameters: a comparative analysis. Mathematical Ecology (eds T. Hallam, L. Gross & S. Levin), pp. 3±45, World ScientÆc, Singapore. Kooijman, S.A.L.M. (1993) Dynamic Energy Budgets in Biological Systems: Theory and Applications in Ecotoxicology. Cambridge University Press, New York. Kooijman, S.A.L.M. (1995) The stoichiometry of animal energetics. Journal of Theoretical Biology, 177, 139± 149. Kooijman, S.A.L.M. (2000) Dynamic Energy Mass Budgets in Biological Systems. Cambridge University Press, Cambridge. Kooijman, S.A.L.M. & Bedaux, J.J.M. (1996a) The Analysis of Aquatic Toxicity Data. VU University Press, Amsterdam. Kooijman, S.A.L.M. & Bedaux, J.J.M. (1996b) Analysis of toxicity tests on Daphnia survival and reproduction. Water Research, 30, 1711±1723.
+Kooijman, S.A.L.M. & Bedaux, J.J.M. (1996c) Analysis of toxicity tests on Æsh growth. Water Research, 30, 1633±1644. Kooijman, S.A.L.M. & Bedaux, J.J.M. (1996d) Some statistical properties of estimates of no-e ect concentrations. Water Research, 30, 1724±1728. Kooijman, S.A.L.M. & Haren, R.J.F. (1990) Animal energy budgets a ect the kinetics of xenobiotics. Chemosphere, 21, 681±693. Kooijman, S.A.L.M. & Metz, J.A.J. (1984) On the dynamics of chemically stressed populations: the deduction of population consequences from e ects on individuals. Ecotoxicology and Environmental Safety, 8, 254±274.
+Kooijman, S.A.L.M., Muller, E.B. & Stouthamer, A.H. (1991) Microbial dynamics on the basis of individual budgets. Antonie Van Leeuwenhoek, 60, 159±174.
+Kooijman, S.A.L.M. & Nisbet, R.M. (2000) How light and nutrients a ect life in a closed bottle. Thermodynamics and Ecological Modelling (ed. S.E. Joirgensen) pp. 19± 60. Lewis Publishers, New York (in press). Lassiter, R.R. & Hallam, T.G. (1988) Survival of the fattest: a theory for assessing acute e ects of hydrophobic, reversibly acting chemicals on populations. Ecology, 109, 411±429. Lika, L. & Nisbet, R.M. (in press) A dynamic energy budget model based on partitioning of net production. Journal of Mathematical Biology.
+Mangel, M. (1996) Computing expected reproductive success of female Atlantic salmon as a function of smolt size. Journal of Fish Biology, 49, 877±882.
+Marr, A.G., Nilson, E.H. & Clark, D.J. (1962) The maintenance requirement of Escherichia coli. Annals of the New York Academy of Sciences, 102, 536±548.
+McCauley, E., Murdoch, W.W., Nisbet, R.M. & Gurney, W.S.C. (1990) The physiological ecology of Daphnia: development of a model of growth and reproduction. Ecology, 71, 703±715. McCauley, E., Nisbet, R.M., de Roos, A.M., Murdoch, W.W. & Gurney, W.S.C. (1996) Structured population models of herbivorous zooplankton. Ecological Monographs, 66, 479±501.
+Monod, J. (1942) Recherches Sur la Croissance Des Cultures Bacteriennes, 2nd edn. Herman, Paris.
+Muller, E.B. (1994) Bacteria energetics in aerobic wastewater treatment. PhD Thesis, Vrije Universiteit, Amsterdam. Muller, E.B., Stouthamer, A.H., van Verseveld, H.W. & Eikelboom, D. (1995) Aerobic domestic waste water treatment in a pilot plant with complete sludge retention by cross-Øow Æltration. Water Research, 29, 1179± 1189. Murdoch, W.W., Nisbet, R.M., McCauley, E., de Roos, A. & Gurney, W. (1998) Plankton abundance and dynamics across nutrient levels: tests of hypotheses. Ecology, 79, 1339±1356. Nisbet, R.M., McCauley, E., Gurney, W.S.C., Murdoch, W.W. & de Roos, A.M. (1997) Simple representations of biomass dynamics in structured populations. Case Studies in Mathematical Modeling: Ecology, Physiology and Cell Biology (eds H. Othmer, F. Adler, M. Lewis & J. Dillon), pp. 61±79. Prentice Hall. Nisbet, R.M., Ross, A.H. & Brook, A.J. (1996) Empirically-based dynamic energy budget models: theory and an application to ecotoxicology. Nonlinear World, 3, 85±106. Noonburg, E., Nisbet, R., McCauley, E., Gurney, W., Murdoch, W. & de Roos, A. (1998) Experimental testing of dynamic energy budget models. Functional Ecology, 12, 211±222. Paloheimo, J.E., Crabtree, S.J. & Taylor, W.D. (1982) Growth model of Daphnia. Canadian Journal of Fisheries Aquatic Sciences, 39, 598±606.
+Pirt, S.J. (1965) The maintenance energy of bacteria in growing cultures. Proceedings of the Royal Society of London Series B: Biological Sciences, 163, 224±231.
+Ratsak, C.H., Kooi, B.W. & van Verseveld, H.W. (1994) Biomass reduction and mineralization increase due to the ciliate tetrahymena pyriformis grazing on the bacterium pseudomonas Øuorescens. Water Science and Technology, 29, 119±128.
+Ratsak, C.H., Kooijman, S.A.L.M. & Kooi, B.W. (1993) Modelling of growth of an oligochaete on activated sludge. Water Research, 27, 739±747.
+925
+From molecules to ecosystems: DEB models
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+Ratsak, C.H., Maarsen, K.A. & Kooijman, S.A.L.M. (1996) E ects of protozoa on carbon mineralization in activated sludge. Water Research, 30, 1±12. de Roos, A.M. (1997) A gentle introduction to physiologically structured population models. Structured Population Models in Marine, Freshwater, and Terrestrial Systems (eds S. Tuljapurkar & H. Caswell), pp. 119± 204. Chapman & Hall. de Roos, A.M., McCauley, E., Nisbet, R.M., Gurney, W.S.C. & Murdoch, W.W. (1997) What individual life histories can (and cannot) tell about population dynamics. Aquatic Ecology, 31, 37±45. Ross, A.H., Gurney, W.S.C. & Heath, M.R. (1993a) Ecosystem models of Scottish sea lochs for assessing the impact of nutrient enrichment. ICES Journal of Marine Science, 50, 359±367. Ross, A.H., Gurney, W.S.C. & Heath, M.R. (1994) A comparative study of the ecosystem dynamics of four fjords. Limnology and Oceanography, 39, 318±343.
+Ross, A.H., Gurney, W.S.C., Heath, M.R., Hay, S.J. & Henderson, E.W. (1993b) A strategic simulation model of a fjord ecosystem. Limnology and Oceanography, 38, 128±153. Ross, A.H. & Nisbet, R.M. (1990) Dynamic models of growth and reproduction of the mussel mytilus edulis L. Functional Ecology, 4, 777±787.
+Sibly, R.M. & Calow, P. (1986) Physiological Ecology of Animals: An Evolutionary Approach. Blackwell ScientiÆc Publications, Oxford, UK. Stearns, S.C. & Hoekstra, R.F. (2000) Evolution: an Introduction. Oxford University Press, Oxford.
+Stouthamer, A.H. & Kooijman, S.A.L.M. (1993) Why it pays for bacteria to delete disused DNA and to maintain megaplasmids. Antonie Van Leeuwenhoek, 63, 39± 43. Tsuchiya, H.M., Drake, J.F., Jost, J.L. & Fredrickson, A.G. (1972) Predator±prey interactions of Dictyostelium discoideum and Escherichia coli in continuous culture. Journal of Bacteriology, 110, 1147±1153.
+West, G.B., Brown, J.H. & Enquist, B.J. (1997) A general model for the origin of allometric scaling laws in biology. Science, 276, 122±126. Widdows, J. & Donkin, P. (1991) Role of physiological energetics in ecotoxicology. Comparative Biochemistry and Physiology C-Comparative Pharmacology and Toxicology, 100, 69±75.
+Zonneveld, C. (1996) Modelling the kinetics of non-limiting nutrients in microalgae. Journal of Marine Systems, 9, 121±136.
+Zonneveld, C. (1992) Animal energy budget: a dynamic approach. PhD Thesis, Vrije Universiteit, Amsterdam. Zonneveld, C. (1998a) Light-limited microalgal growth: a comparison of modelling approaches. Ecological Modelling, 113, 41±54. Zonneveld, C. (1998b) A cell-based model for the chlorophyll a to carbon ratio in phytoplankton. Ecological Modelling, 113, 55±70.
+Received 27 October 1999; revision received 27 April 2000
+926
+R.M. Nisbet et al.
+# 2000 British Ecological Society Journal of Animal Ecology, 69, 913±926
+13652656, 2000, 6, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2656.2000.00448.x by Cochrane Colombia, Wiley Online Library on [16/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

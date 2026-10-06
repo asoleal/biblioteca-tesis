@@ -1,0 +1,1304 @@
+BEYOND FOOD LOSS
+AND WASTE REDUCTION
+TARGETS
+TRANSLATING REDUCTION AMBITIONS
+INTO POLICY OUTCOMES
+OECD FOOD, AGRICULTURE
+AND FISHERIES PAPER N° 214
+January 2025
+
+
+This document was approved by the Working Party on Agricultural Policies and Markets at its 93rd Session that took place on 26-27 September 2024 and prepared for publication by the OECD Secretariat.
+This report, as well as any data and any map included herein, are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
+Comments are welcome and may be sent to TADcontact@oecd.org.
+Attribution 4.0 International (CC BY 4.0)
+This work is made available under the Creative Commons Attribution 4.0 International licence. By using this work, you accept to be bound by the terms of this licence (https://creativecommons.org/licenses/by/4.0/).
+Attribution – you must cite the work.
+Translations – you must cite the original work, identify changes to the original and add the following text: In the event of any discrepancy between the original work and the translation, only the text of original work should be considered valid.
+Adaptations – you must cite the original work and add the following text: This is an adaptation of an original work by the OECD. The opinions expressed and arguments employed in this adaptation should not be reported as representing the official views of the OECD or of its Member countries.
+Third-party material – the licence does not apply to third-party material in the work. If using such material, you are responsible for obtaining permission from the third party and for any claims of infringement.
+You must not use the OECD logo, visual identity or cover image without express permission or suggest the OECD endorses your use of the work.
+Any dispute arising under this licence shall be settled by arbitration in accordance with the Permanent Court of Arbitration (PCA) Arbitration Rules 2012. The seat of arbitration shall be Paris (France). The number of arbitrators shall be one
+
+
+OECD TRADE AND AGRICULTURE DIRECTORATE
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Beyond Food Loss and Waste Reduction Targets: Translating Reduction Ambitions Into Policy Outcomes
+Reducing food loss and waste (FLW) is critical to finding global solutions to the triple challenge of feeding a growing world population, ensuring the livelihoods of households along the agro-food supply chain, and delivering on climate and environmental sustainability commitments. Tracking the progress made in meeting the United Nations Sustainable Development Goal (SDG) target 12.3 of halving global per capita food waste, however, has been hampered by inconsistent definitions and metrics across countries and differing national policy approaches to FLW reduction. Reduction targets are often unclear, national policy commitments fragmented, and coordination is limited across government entities. This report provides a comprehensive review of the FLW policy environment, drawing on data collected by the OECD from representatives of 42 national ministries and from the European Commission to support cross-country dialogue and accelerate the implementation of more effective evidence-based and context-specific FLW policies.
+Key words: Food systems; Food supply chain; Policy processes; Impact assessment; SDG
+JEL codes: C80, E61, L66, M38, Q18, Q53
+Acknowledgements
+This paper was prepared by Céline Giner, Morvarid Bagherzadeh, Armelle Elasri, Kotone Yamamoto, Cecil Haverkamp, and Diego Gonzalez. The authors acknowledge contributions from OECD Delegations and from K. Freeman, M. Smith, P. Rhynehart, S. Lapidge, S. Oakden (Australia), G. Albe Polenta (Brazil), P. Monevska, L. Cuervo, G. Layseca (Chile), N. Blanco, L. Brenes Peralta, V. Campos, D. De La Cruz, A. Lobo Castellón, M. Murcia (Costa Rica), M. Briskova (Czechia), A. Tuvike (Estonia), A. Hulmi, J. Salonen (Finland), E. De Gavelle, M. L'Hoir (France), N. Banz (Germany), A. Romić (Hungary), S. Moisa (Israël), M. Kubo, A. Kokubu, K. Ikeda, M. Tanaka, M. Iseki (Japan), Y. Hong, W. Shin (Korea), J. Hengen, C. Herzeele, T. Leclerc (Luxemburg), B. Guzman (Mexico), J. Smids–Goosen (Netherlands), M. Sundfor (Norway), J. Alarcón, L. Mayaute, C. Méndez Lazarte (Peru), T. Kvas-Majer (Slovenia), A. Díaz Pérez (Spain), J. Buzby (United States), A. Gassin, R. Karlsson (European Commission). The authors also benefitted from discussions and comments from S. Due (EEA), A. Myriam, C. Bucatariu, C. Fabi, J. Heyl, M. Kenny, E. Kleiman, B. Liu, S. Mayienga, P. Santacoloma, O. Sapiga, R. Van Otterdijk, and N. You (FAO), F. Schneider (MACS-G20), H. Bos Bouwers, R. Broekema, and T. Timmermans (Wageningen University), R. Collie (SDSN), M. Nilses and R. Shelest (UNECE), E. Broad Leib, T. Findley and R. Plekenpol (Harvard University), C. O'Connor (UNEP), L. Goodwin and H. Zhao (World Resources Institute), and OECD colleagues in the Environment and Trade and Agriculture Directorate.
+
+
+3
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table of Contents
+1. Introduction and analytical framework ................................................................................................. 6
+2. Insights from the OECD questionnaire ................................................................................................ 8
+2.1. Denominations of food loss and waste ......................................................................................... 8 2.2. Knowledge: Insights on FLW measurement and reporting......................................................... 10 2.3. Ambition: From SDG 12.3 target to national FLW reduction targets .......................................... 15 2.4. National commitments: From national FLW targets to national FLW strategies ........................ 19 2.5. Policy implementation: Insights on FLW policy instruments ....................................................... 23 2.6. Policy effectiveness: Insights on FLW policy evaluations........................................................... 29
+3. Conclusion and policy implications.................................................................................................... 31
+References ............................................................................................................................................ 34
+Annex A. Questionnaire methodology ................................................................................................... 40
+Annex B. Questionnaire responses ....................................................................................................... 47
+Annex C. Categorisation of countries, by level of ambition of the national FLW targets ...................... 54
+Annex D. Acronyms, abbreviations, and relevant links ......................................................................... 59
+Figures
+Figure 1.1. Proposed analytical framework for FLW policy processes 7 Figure 2.1. Information on the entities responsible for FLW data collection 12 Figure 2.2. FLW measurement methods used across the agro-food supply chain stages 13 Figure 2.3. Dissemination of FLW data 14 Figure 2.4. Adoption of the Food Loss index and of the Food Waste Index 15 Figure 2.5. Count of countries with national reduction targets across agro-food supply chain stages 17 Figure 2.6. Awareness of and participation in global and regional FLW initiatives 19 Figure 2.7. Major characteristics of FLW national strategies 21 Figure 2.8. Alignment of FLW national strategies with the Food Waste Hierarchy 22 Figure 2.9. The role of governments in the co-ordination of national strategies 23 Figure 2.10. Level of policy attention across agro-food chain stages 25 Figure 2.11. Inputs to policy design by country 29 Figure 2.12. Evaluations of FLW policy instruments by stage 30
+Tables
+Table 2.1. Use of food waste and food loss denominations 9 Table 2.2. Start year and frequency of FLW data collection 11 Table 2.3. Ambition of national FLW reduction targets 16 Table 2.4. International frameworks and initiatives 17 Table 2.5. National FLW strategies: Start and target years 20 Table 2.6. Sequencing of FLW strategies and policy instruments implementation 24 Table 2.7. FLW policy implementation over time 24 Table 2.8. Most common policy instruments to address FLW by agro-food chain stages 28
+Table A B.1. FLW denominations, targets, and strategies 47 Table A B.2. FLW measurement 48 Table A B.3. Participation to international initiatives 49
+
+
+4
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table A B.4. FLW Strategy and data collection governance 50 Table A B.5. Policy enablers, based on country count, by stage 51 Table A B.6. Inputs to policy design, based on country count, by stage 51 Table A B.7. Layers of policies through time and stages covered, ranked according to strategy launch year 52 Table A B.8. FLW policy evaluation practices 53
+Boxes
+Box 1.1. Overview of information collection process 7 Box 2.1. The FLW policy environment in the European Union 9 Box 2.2. National FLW strategies and the FAO Food Waste Hierarchy 22 Box 2.3. Cascade-training as a vector of behavioural change 27 Box 2.4. Insights on voluntary collaboration initiatives across Europe 27 Box 2.5. Costs associated with FLW reduction initiatives 30
+
+
+5
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Key findings
+What did we do?
+• This report provides in-depth information on the global food loss and waste (FLW) policy environment based on an OECD survey of 42 national ministries and from the European Commission, carried out in 2023. While acknowledging the need for flexible policy approaches adapted to national contexts, this report identifies common practices, remaining challenges, and success elements to inform dialogue among countries to deepen learning and accelerate policy action.
+What did we learn?
+• FLW knowledge: Knowledge has improved thanks to the combined effects of countries’ commitments under Sustainable Development Goal (SDG) target 12.3 and more robust measurement processes and methods. Consideration could, however, be given to identifying reliable and more affordable FLW measurement methods and enhancing comparability of FLW information across countries. Additionally, countries could engage in regular reporting of FLW at less scrutinised stages of the agro-food supply chain, including the agricultural production and hospitality sectors, to complement ongoing information collection efforts in relation to food processing, wholesale, retail and private households.
+• Policy ambition: While most countries have established national FLW reduction targets, greater progress on establishing quantifiable targets, with defined baselines and delivery target dates, could be sought. More countries could include baselines and targets for FLW reduction in their current Nationally Determined Contributions (NDC) under the Paris Agreement. Engagement with international initiatives could also enable countries to benefit from other countries’ experiences.
+• National commitments: National FLW strategies are widely implemented as overarching frameworks, and generally rely on soft measures. Countries could consider whether enhancing existing commitments would make sense. Mechanisms to engage with stakeholders and to highlight the economic, social, and environmental benefits of FLW reduction while considering the costs could also play an important role.
+• Policy implementation: Countries could enhance their existing efforts by avoiding policy layering (adding new policy instruments to existing ones). Countries could also engage in more inclusive and transparent policy dialogue, with the development for example of publicprivate partnerships, to enhance trust and participation in policy initiatives. Ex ante and ex post assessments of policy instruments could promote greater coherence and clarity on efficiency and effectiveness.
+• Policy effectiveness: Only a few countries undertake regular and dedicated FLW policy impact evaluations, including on cost-effectiveness. This may be related to difficulties in measuring FLW levels and in attributing the impact of FLW policies, as well as the lack of evidence-based mechanisms, timelines, and indicators for policy evaluations. Peer-to peer country exchanges and shared learning could help improve FLW measurement and evaluation practices.
+
+
+6
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+1. Introduction and analytical framework
+Reducing food loss and waste (FLW) is an important lever for improving the environmental sustainability of food systems and contributing to food security and nutrition across the globe. The issue of FLW has received international attention since 2011 when the Food and Agriculture Organization of the United Nations (FAO) published estimates that about 30% of all food produced is either lost or wasted (FAO, 2011[1]). In 2020, an estimated 13.3% of the world's food was lost after harvesting and before reaching retail markets (United Nations, 2022[2]). A further 17% of food is estimated to be wasted at the retail and consumer level (UNEP, 2021[3]). According to United Nations Environment Programme (UNEP), households worldwide wasted over 1 billion meals a day in 2022 (UNEP, 2024[4]).
+Reducing FLW also contributes to fulfilling emissions reduction commitments under the Paris Agreement (UN FCCC, 2023[5]) and to reducing impact on natural resources (land, water and biodiversity) (FAO, 2013[6]) . As such, reducing FLW is a critical part of the solution to the triple challenge of feeding a growing world population, ensuring the livelihoods of rural households, and delivering on climate and sustainability commitments (Deconinck and Giner, 2023[7]) (OECD, 2021[8]).
+United Nations Sustainable Development Goal (SDG) 12 aims to ensure sustainable consumption and production patterns. SDG target 12.3 states that “by 2030 per capita global food waste at the retail and consumer levels should be halved and food losses along production and supply chains, including postharvest losses should be reduced”.
+This FLW policy stocktaking exercise aims to contribute to overcoming the evidence gaps that hinder policymaking for food systems (Deconinck and Giner, 2023[7]). It also intends to shed light on public strategies and associated policy instruments at the national level that specifically address FLW, their characteristics, their design and implementation processes, and their outcomes, with the objective of supporting more effective policymaking.
+As noted by Deconinck and Giner (2023[7]), the policy journey from ambition to implementation and outcomes can be flawed from its inception due to evidence gaps. Global targets, which are seldom binding, are developed in an evidence-poor environment. Global commitments to achieve these targets are often diluted if and when they are integrated into national strategies. National strategies, in turn, are generally weakened in the development of tangible policies. The choice of instruments when faced with implementation complexity and budget constraints usually yields results that are far removed from the declared ambition. Finally, the success of policies often depends on their implementation, as the initial policy ambition can be “lost in translation” by the time it reaches the systems’ transformation points.
+This report applies an analytical framework based on key stages of the FLW policy-making process (Figure 1.1), from global commitments to national policy implementation and outcomes. This framework enables comparative approaches to defining and quantifying FLW (Knowledge), to adopting global and national targets (Ambition); to translating these into national strategies adapted to national circumstances (Commitment); to implementing policy instruments best suited to the local food systems (Policy Implementation); and to ensuring that outcomes are evaluated against their objectives (Policy Effectiveness). This approach enables the identification of missed opportunities and/or gaps. Such a framework, sometimes referred to as a gap analysis,1 has been used in many policy areas, including related to environmental sustainability (UNEP, 2017[9]; Gerber, 2023[10]), to examine the challenges in connecting the declared ambition and the actions undertaken at the various stages of policy design and implementation.
+With a view to supporting cross-country dialogue and learning, this report identifies good practices and success factors that can be scaled-up and replicated, as well as approaches to address common obstacles and challenges. While Part 1 presents the analytical framework for analysing FLW policy processes, Part 2 applies the analytical framework and takes stock of existing policy instruments, in place or planned, that address FLW, based on responses to a questionnaire carried out in 2023 (see Box 1.1 and Annex A for more details). Part 2 applies the analysis framework in Figure 1.1. Part 3 concludes and presents
+1 Gap analysis was introduced for the analysis of biodiversity to tailor interventions in areas managed for the long-term maintenance of native species and natural ecosystems (Scott et al., 1987[83]). It offers a method to identify ‘gaps’ in the network of land and water conservation (Jennings, 2000[84]), which has been adopted in many policy areas.
+
+
+7
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+preliminary policy implications. Three case studies on food waste policies in Australia, France and Japan complete the information contained in this report.
+Figure 1.1. Proposed analytical framework for FLW policy processes
+Illustration of the potential and actual impacts of FLW policy making on FLW levels
+Note: The ‘Knowledge’ box is a stylised representation of FLW levels over the reference period. The light blue bar labelled "FLW reduction" corresponds to the FLW reduction that could be attributed (ex post) to the strategies and policy instruments implemented in a given country. The orange, yellow and green bars represent the potential levels of FLW reduction as envisaged by the targets (Ambition), national strategies (Commitments), and policy instruments (Implementation) adopted by this given country. Source: OECD adapted from the SDSN-led FELD Action tracker (FOLU Coalition, 2022[11]) (SDSN, (forthcoming)[12]).
+Box 1.1. Overview of information collection process
+The questionnaire covers 43 respondents in 42 countries, including individual responses from 23 Member States of the European Union (EU), as well as the European Commission (EC). Overall, responding economies represent all continents and 43% of the world’s population, around 65% of world agricultural production (expressed in gross value added), and 47% of world food consumption.
+The questionnaire builds on knowledge acquired at the OECD through previous work on FLW (Bagherzadeh, Inamura and Jeong, 2014[13]; Okawa, 2015[14]) (OECD, 2013[15]; OECD, 2019[16]) (OECD, 2016[17]), and food systems (Deconinck and Giner, 2023[7]), using a preparatory review carried out in the first half of 2023, and the technical knowledge gained from a separate OECD questionnaire on simplified nutrition labelling schemes (Giner, Rodriguez and Elasri, 2023[18]). The questionnaire was pilot tested with experts from four countries and the EC and carried out by the OECD between August and September 2023.
+The questionnaire was addressed to government officials in OECD and accession countries at the time of writing, the EC, and experts (including non-government experts) in selected non-OECD Members. Most countries responded to the entire questionnaire, while some respondents provided partial responses and/or additional information beyond the online questionnaire. The present stocktaking of FLW policies captures the situation in countries that provided complete or mostly complete responses to the questionnaire. It is possible that other countries might be less active in FLW reduction.
+Annex A provides more details on the questionnaire process and template. Follow-up interviews with experts in Australia, France, and Japan took place in January and February 2024 to develop case studies. The questionnaire was addressed to OECD Members and to OECD accession countries: Argentina, Brazil, Bulgaria, Croatia, Peru and Romania. Not all countries completed the questionnaire in time to be included in the analysis. Several country experts were solicited to participate in this exercise and widen the perspective on this global issue to non-OECD Members. Experts in China, Indonesia and Kenya (approached by SDSN through the Food and Land Use (FOLU) Coalition, as well as SDSN national networks)) contributed their knowledge and responded to the questionnaire.
+
+
+8
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+2. Insights from the OECD questionnaire
+2.1. Denominations of food loss and waste
+The denominations of Food Loss and Food Waste put forward in the FAO’s State of Food and Agriculture report in 2019 (FAO, 2019[19]) covered “the decrease in quantity or quality of food along the food supply chain”. More specifically Food Loss (FL) was characterised as “the decrease in the quantity or quality of food resulting from decisions and actions by food suppliers in the chain, excluding retail, food service providers and consumers” (FAO, 2019[19]). Food Waste (FW) referred to the “decrease in the quantity or quality of food resulting from decisions and actions by retailers, food services and consumers.” (FAO, 2019[19]).
+According to the FAO, food loss (FL) occurs from the on-farm stage up to, but not including, retail, while food waste (FW) occurs at the end of the supply and consumption chain. This split makes it possible to separate the two sub-targets under SDG 12 related to food loss and to food waste, with the first stage focusing on losses along the food production and supply chains and the second stage focusing on global food waste at the retail and consumer levels. FAO is responsible for developing a methodology and measuring progress in the Food Loss Index (sub-indicator 12.3.1.a), while UNEP is responsible for developing a methodology and measuring progress in the Food Waste Index (sub-indicator 12.3.1.b).
+Countries covered in this report adapt the terms FL and FW to their needs and conditions, sometimes making a distinction between avoidable and unavoidable FLW, or edible and inedible food parts, leaving wide interpretation gaps that depend on technology, economy, culture, and habits (Bagherzadeh, Inamura and Jeong, 2014[13]). Table 2.1 illustrates the different denominations used across countries covered in this report and identifies the following five approaches:2
+• Adoption of the FAO denomination with the use of FL and FW denominations for a complementary coverage of the supply chain.
+• Adoption of the EU Law denomination (see Box 2.1 for more details).
+• Use of FW across the entire supply chain for all food (both edible and inedible) or in some cases restricted to edible food.
+• Use of a combination of FL throughout supply chains for certain waste subcategories, such as edible, avoidable, or non-food-uses, together with FW partially overlapping.
+• Absence of a specific denomination. In some countries, only edible food can be categorised as FL or FW, while others define FL and/or FW as both edible and inedible parts of discarded food.
+The discrepancies in the denomination of FL and FW described above hinder the comparability of national targets and harmonisation of measurement at a global scale. Indeed, even if most countries covered in the study (84%) use the term FW, only eight countries (Brazil, Chile, Colombia, Costa Rica, Indonesia, Peru, Türkiye and the United States) adopt the term with the FAO denomination. Only 13 countries (30%) use the Food Loss term, either aligned with the FAO denomination or covering all stages of the food supply chain and complementing situations where the food waste denomination is used for specific stages (Bulgaria, Estonia, and Türkiye).
+Fifteen EU Member States and the United Kingdom use the EU denomination of FW, covering all food and all the food supply chain stages except the on-farm stage (Box 2.1). It must be noted that not all EU Member States apply the EU denomination. France, Italy, Portugal, Romania, and Slovenia use a Food Waste denomination that covers all stages across supply chains.
+2 In the case of Japan, while FL and FW denominations are used, their coverage of the supply chain overlap. FW covers business-related supply chains, while FL refers to food discarded in the entire supply chain which could have been eaten. In the case of Switzerland, FL corresponds to all food produced for human consumption, which is not used for human consumption and FW is the part of FL that is considered edible, and culturally and technically avoidable.
+
+
+9
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table 2.1. Use of food waste and food loss denominations
+Food supply chain stages
+Stage 1 Stage 2 Stage 3 Stage 4 Stage 5 Stage 6 Stage 7 Stage 8 Country
+Primary agricultural (on farm)
+Agricultural handling & storage
+Food processing &
+packaging
+Wholesale Retail
+Hospitality & food services
+Public food procurement
+Private households
+count
+1. FAO
+Food Loss (Decrease in the quantity or quality of food resulting from decisions and actions by food suppliers in the chain, excluding retail, food service providers and consumers)
+Food Waste (Decrease in the quantity or quality of food resulting from decisions and actions by retailers, food services and consumers) 8
+2. EU law* Food Waste 16+EC
+(Any food that has become waste)
+3. Across all
+stages** Food Waste 9
+4. Across multiple stages ***
+Food Loss 1***
+Food Waste
+5. No denomination 8
+Note: Forty-three respondents are covered here. These include 42 countries and the European Commission (EC). *Article 2 of Regulation (EC) No 178/2002 or Commission Delegated Decision 1597/2019/EC in the case of Hungary. Box 2.1. provides more information on the EU policy context related to FLW. ** Countries that implement Approach 3 may use subcategories to delineate FW ***In Approach 4, Japan uses a FL denomination and a FW denomination that apply across food supply chain stages. They are not accounted for under Approaches 1, 2 or 3. More details are provided in Table A B.1 and Section 3.4. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+Box 2.1. The FLW policy environment in the European Union
+The European Union has active FLW policies, with many tools and regulations that inform, interact and shape Member States’ (MS) FLW policy approaches; yet these approaches sometimes diverge, as highlighted in the questionnaire responses.
+The EU action plan to reduce FLW, including both regulatory and non-regulatory actions, was initiated as part of the 2015 Circular Economy Action Plan with three priority actions: (1) develop an EU wide common measurement methodology, (2) facilitate food donation, and (3) improve the use and understanding by consumers of date marking (EU, 2015[20]).
+Since 2020, reducing FLW has been a goal of the EU’s Farm to Fork Strategy (EU, 2020[21]), while the Waste Framework Directive (WFD), currently under revision, remains the legal basis for MS implementation (EU, 2018[22]) (EU, 2008[23]). In addition, the Bioeconomy Strategy calls for actions to reuse, reduce, and recycle bio-waste streams (EU, 2024[24]). Recently, FLW features in Section 2.5. Towards a zero-waste future and responsible usage of food surpluses of the final report of the “Strategic Dialogue on the Future of EU Agriculture” (EU, 2024[25]).
+The EU defines FW by law as “any food that has become waste” (EU, 2002[26]). It encompasses “food” as a whole, along the entire food supply chain from production until consumption. Food also includes inedible parts, where those were not separated from the edible parts when the food was produced. It does not include losses at stages of the food supply chain where certain products have not yet become food, e.g. edible plants which have not been harvested. The focus of definition is on waste, i.e. material which is subject to waste treatment. Inedible parts, by-products from food production that are not discarded, are also excluded under criteria set out in Article 5(1) of WFD.
+The WFD set out the EU’s first approach to FLW waste measurement. Over time, the Directive has been adapted to include food waste prevention, monitor and assess the implementation of food waste prevention instruments, and to measure levels of food waste on the basis of a common methodology as laid down in Delegated Decision 2019/1597 (EU, 2019[27]). The aggregation of MS measurements is
+
+
+10 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+the basis for EU-wide food waste monitoring. While EU Member States must comply with EU rules on data collection and reporting, they are allowed flexibility in its implementation.
+The Farm to Fork Strategy foresaw work: a) to establish a baseline (reference) of food waste amount levels, considering new data reported by the Member States, and b) to propose legally binding targets to reduce FW across the EU.
+In June 2024, the Council of the EU (Council) adopted a position (general approach) on a revision of the WFD (Council of the European Union, 2024[28]), based on the amendments proposed by the EC in 2023 (EU, 2023[29]). This general approach sets the obligation for MS to achieve quantified reduction targets (10% in processing and manufacturing, and 30% of food waste per capita jointly for all stages from retail to households) by 2030 compared to amounts generated in the reference year 2020, since it was the first year for which data on food waste was collected according to a harmonised method across the EU. Member states are allowed to use a reference year prior to 2020, if adequate data collection methods were in place at national level, or to also use 2021, 2022 or 2023 as reference years, as the data for 2020 may in some cases not be representative because of the COVID-19 pandemic. The general approach also identifies associated issues that still need to be decided (review of the measurement method, distinction between edible and non-edible food, studies on agricultural production, impact of tourism). It also identifies priority FW prevention actions for MS to undertake across the food supply and consumption chain and establishes an obligation to monitor and assess prevention measures, including quality requirements for measurement of food waste levels. The Council’s general approach allows the rotating presidency to start talks with the European Parliament on the final text, which will take place under the new legislative cycle. Trilogue negotiations with the Council and the Commission started on 22 October 2024.
+The approach to support MS in preventing FLW was further supported by institutional innovations: the establishing of the EU Platform on Food Losses and Food Waste (EU, 2024[30]) and the set-up of EU guidelines on food donation and on the use of food no longer intended for human consumption to feed, the EU Food Loss and Waste Prevention Hub (EU, 2024[31]), the European Citizens’ Panel on food waste, and finally the European Consumer Food Waste Forum established to gather data and identify evidence-based practical solutions to reduce consumer food waste.
+2.2. Knowledge: Insights on FLW measurement and reporting
+The preliminary FAO estimate (FAO, 2011[1]), by which one-third of food produced is either lost or wasted, constituted the scientific base for the 2015 commitment under SDG 12. Since then, the science on FLW has improved, with analysis of specific aspects, including developing measurement methods (WRI et al., 2021[32]; EU, 2019[27]), estimating impacts on resources and contributions to emissions (Zhu, Luo and Sun, 2023[33]) and exploring country (IDB, 2022[34]; EU, 2023[35]), commodity or supply chain stage characteristics (WWF-UK, 2021[36]; O’Connor et al., 2023[37]).
+According to UNEP estimates (2024[4]), 1.05 billion tonnes of food were wasted globally in 2022 (19% of total food production), with respectively around 60% occurring at the household level, 28% at food services level, and 12% at the retail stage. In addition 13.2% of food production is lost in the supply chain worldwide, as estimated by FAO in 2021, from post-harvest up to and excluding retail (FAO, 2023[38]).
+According to WRI (2023[39]), the main drivers of FLW throughout the supply chain are inadequate technology, suboptimal packaging, poor food management and consumer behaviours. WRI (2013[40]) found that the food chain stages where FLW occurs vary widely depending on regions and highlighted a FL problem in low-income countries and a FW problem in medium and high-income countries. The knowledge of FLW has, however, improved both qualitatively and quantitatively over the past ten years. WWF (2021[36]) found that per capita farm-stage waste levels are generally higher in more affluent regions. Estimates produced by UNEP (2024[4]) (2021[41]) find that household per capita food waste generation is broadly similar across country income groups. According to the OECD survey on Environmental Policies and Individual Behaviour Change (EPIC) in nine OECD Member countries, the main self-stated reasons for food waste in private households are that the product was spoiled, labelled after the expiration date, or
+
+
+ 11
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+that it was not good as leftovers (OECD, 2023[42])3. This result illustrates the fact that food waste is more often a non-action (for example, forgetting to cook produce on time) than an action (Le Borgne et al., 2021[43]).
+According to UNEP (2024[4]), since 2021 there has been a strengthening of the FW data infrastructure with more studies tracking food waste. However, many low- and middle-income countries continue to lack adequate systems for tracking progress to meet SDG 12.3 and only four G20 countries (Australia (FIAL, 2021[44]), Japan (UNEP, 2023[45]), the United Kingdom (WRAP, 2023[46]), and the United States (US EPA, 2019[47])) and the European Union (EU, 2019[27]) have FW estimates suitable for tracking progress to 2030. Since the drafting of the UNEP report (2024[4]), Switzerland has also established measurements and estimates for tracking progress to 2030.
+Based on replies to the OECD questionnaire for this paper, this section explores how FLW is measured, monitored, and reported at the national level. Establishing structures and methods to target and measure FLW provides an enabling environment to effectively reduce this waste (Papargyropoulou, 2014[48]). The absence of measurement and monitoring is the most prominent barrier to FLW policymaking identified by the countries covered in this report.
+Table 2.2. Start year and frequency of FLW data collection
+Start year of data collection
+Frequency of data collection
+Annual Biennial Every 3 years
+Every 4 years
+Every 5 years
+Not specified
+Total
+2015 and before IRL DNK** ESP (Service, construction)
+SWE (Stage 5,8)
+DNK (in-depth) KOR USA 19 JPN SWE** HRV NOR (in-depth) BRA ESP** FRA LVA GBR NLD NOR** EST (in-depth) *** 2016-2019 SVN CHE ITA AUS FIN (in-depth) 7 LUX FIN** 2020 onwards CZE DEU** DEU (in-depth) HUN (Stage 8) 12 EC LTU NZL* POL PRT SVK HUN** GRC Year not specified
+BGR* CAN* 7 CHL* COL* CRI* MEX* PER* Total 21 2 2 6 2 12
+Note: Respondents in each cell are sorted in chronological order based on the starting year of data collection. EC requires in-depth measurement for EU MS every four years for five stages of the food supply chain: primary production, processing and manufacturing, service sector, retail, and households. In addition to in-depths measurement every four years, for the other years MS must report data on food waste annually, based on estimations. *Countries are in the process of planning national monitoring and have no periodic practices in data collection. Some countries in Latin America are supported by UNEP to develop FLW data collection.** Countries have additional collection methodology as specified in the brackets. *** The study of FLW in Estonia, which is conducted every four years, is thorough, including all stages of the food supply chain, and data is based on a detailed survey and the national Waste Reporting System. ■ Measurement is conducted for the first time in the given period. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+3 Respondents said that the spoilage appears because they forgot about the food product, or prepared or purchased too much.
+
+
+12 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+2.2.1. The number of countries collecting FLW data has increased since 2015
+Most respondents, 38 of the 43 (88%), either implement, or are in the planning stages of implementing, a data collection process to measure and monitor FLW levels. Table 2.2 illustrates the start year and frequency of FLW measurements across countries covered in this report. Fifteen countries were measuring FLW before the announcement of SDG Target 12.3 in 2015,4 with the United States having started in 1974 (US General Accounting Office, 1977[49]). Twelve countries developed FLW measurement data collection after 2020. Annual measurements are the most common data collection frequency. The number of countries collecting FLW data annually has increased since 2015, and is now eight countries and the EC. A few countries collect data every two to five years, and some combine regular data collection with oneoff deep dives into specific segments or aspects of FLW.
+2.2.2. Data collection is mostly centralised, carried out by research agencies when ministries are not in charge
+The questionnaire explores institutional arrangements in FLW measurement and data collection. Seventy per cent (70%) of respondents specified the institutions responsible for collecting data on FLW. As shown in Figure 2.1 and in detailed Table A B.4, the most common are research/statistical institutes, government environmental agencies, and the Ministry of Environment. The data collection governance structure is relatively centralised across countries, with a single institution taking the lead in 46% of responses (19 countries plus the EC). Some adopt collaborative governance structures whereby one ministry or government agency is associated with a research institute undertaking the data collection. Another governance set-up is based on food chain stages, as is the case in Norway, where one research body covers the agricultural handling and storage stage, two structural bodies cover agro-food from food processing to private households, and another institution covers seafood manufacturing under the coordination of a government agency. It is interesting to note that in about 30% of countries it is the same entity that co-ordinates the policy strategy and data collection; these are predominantly ministerial bodies or government agencies.
+Figure 2.1. Information on the entities responsible for FLW data collection
+Note: All 43 respondents, including the EC, are included in calculation. Thirteen countries that did not indicate entities are categorised as not specified (n.s.)
+2.2.3. Measurement tools are available and tailored to supply chain stages but not always implemented
+Thirty countries plus the EC provided information on FLW measurement and the methods used to monitor FLW (Figure 2.2). It appears that across the agro-food supply chain stages, the primary agricultural production stage is the least covered by FLW measurement (32% of the countries covered in this report)
+4 The grouping of countries includes those that initiated measurement in 2015. The 17 SDGs, adopted by world leaders in September 2015 officially came into force in January 2016.
+Same entity included 27%
+Exact same entity 2%
+Different entity 41%
+n.s. 30%
+Entity arrangement between measurement and national strategy
+Env
+Ag
+Other
+0
+2
+4
+6
+8
+10
+12
+14
+16
+Ministry Research / stat
+Gov. agency
+Other
+Entity count
+Trend of responsible entity by categories
+46%
+14%
+9%
+30%
+Number of responsible entity
+1 entity 2 entities
+3+ entities n.s.
+
+
+ 13
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+while the private household stage is the most covered (55%). For the other supply chain stages, about 50% of the countries covered in this report assess the level of FLW.
+FLW measurement methods include reporting (or mandatory reporting) by stakeholders5, sampling, census, or other processes. While some countries use a single method across all stages of the food value chain, others use multiple methods depending on the supply chain stage. Data for the Retail and Households stages are collected most frequently in coherence with, and possibly influenced by, SDG Target 12.3.
+Most country responses indicate that data collection is undertaken through sampling and stakeholders’ reporting, with slight variations in scales for some stages, e.g. household stage and the waste disposal industry.6 However, no single method prevails at each stage. Census is seldom used. Data collection can be mandatory or carried out on a voluntary basis by stakeholders. At times, it relies on local government and municipalities, jointly with the waste management industry, supplemented with other data sources. In about half of the cases, when stakeholders are asked to report on their FLW levels, this reporting is mandatory (Table A B.2).
+Figure 2.2. FLW measurement methods used across the agro-food supply chain stages
+Notes: All 43 respondents, including the EC, are included in the count of responses. The distribution of countries by stages is detailed in Annex B.2. * Disposal: Waste disposal industry. Stages of the agro-food chain: Stage 1 Primary agricultural production (on farm), Stage 2 Agricultural handling and storage (post-harvest), Stage 3 Food processing and packaging, Stage 4 Wholesale, Stage 5 Retail, Stage 6 Hospitality and food services, Stage 7 Public food procurement, including public schools, Stage 8 Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.2.4. Most countries disseminate collected FLW data
+Countries use various means to disseminate the collected data. As illustrated in Figure 2.3, over 70% of respondents make the data publicly available, primarily through publications or databases. Thirty per cent (30%) have developed public databases for reporting on FLW levels; these include Japan, Korea, and 11 EU Member States that publish their own national data in addition to the harmonised EU reporting by Eurostat. Germany, Luxembourg, and Slovenia issue a publication and have a public database.
+5 Stakeholders provide their own measurement of FLW either on a voluntary or mandatory basis.
+6 Respondents were asked whether the waste disposal industry participates in FLW data collection.
+
+
+14 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Figure 2.3. Dissemination of FLW data
+Note: All 43, including the EC, respondents are included to calculate the share of responses. The pie chart on the left shows the share of countries where the result of data collection is publicly available. Since 2022, Eurostat has published FW data for all EU MS. Some EU countries also publish FLW data in their national databases. The distribution of countries by each response is shown in Table A B.2. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.2.5. At global level, multiple denominations hinder harmonised FLW reporting
+Global-level reporting associated with the SDG Targets and the Paris Agreement, requires consistently measuring and monitoring FL and FW at the country level. While the FAO and the UNEP propose harmonised measurement and monitoring tools, few countries covered in this study use the FAO Food Loss Index and the UNEP Food Waste Index (Figure 2.4). Out of 43 respondents, only two countries (5%) – Costa Rica and Sweden – use the FAO Food Loss Index. A slightly larger number of respondents use the UNEP Food Waste Index, including Brazil, Costa Rica, Norway, and the United States. EU Member States apply the harmonised EU methodology, which is overall in consistency with the UNEP SDG 12.3 indicators The low use of the FAO and UNEP indices could be explained by technical and financial challenges to adopt international indicators and methodologies, resulting in a lack of harmonised data at the international level. It could also be due to insufficient coordination at international level or to the existence of too few “peer-to-peer” platforms. Another explanation could be related to specific data reporting requirements for each country to formulate and implement their policies within their specific contexts in alignment with the national denominations used for FL and FW.7
+Given the variations in the denomination of FL and FW used across countries covered in this study, FLW reporting is not harmonised. Only 40% of the countries report FL and FW separately. 44% report separately edible and inedible FLW while 23% make a distinction between avoidable and unavoidable FLW.
+7 Indeed, given national priorities, data collection may be structured to achieve required goals without considering the need for harmonisation.
+Share of countries
+NO 16%
+N/A 12%
+Publication 33%
+Database 30%
+Publication & Database 7%
+Other 2%
+YES 72%
+- EC + 11 EU Member States - Non EU : JPN, KOR
+
+
+ 15
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Figure 2.4. Adoption of the Food Loss index and of the Food Waste Index
+Note: All 43 respondents, including the EC, are included to calculate the share of responses. Not specified (n.s) includes those answering “I don’t know” and those that did not answer the questionnaire. The distribution of countries is found in Table A B.2. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.3. Ambition: From SDG 12.3 target to national FLW reduction targets
+This section reviews whether countries have set national FLW reduction targets that are aligned with their commitments under the SDGs and the Kunming Montreal Global Biodiversity Framework (GBF) (Convention on Biological Diversity, 2022[50]), and compatible with the Paris Agreement through their Nationally Determined Contributions (UN FCCC, 2023[5]).8 It also covers countries’ participation in international collaboration initiatives set up in the aftermath of global commitments to support countries’ transitions towards less food waste. Information on the policy process of FLW target definition and design was not gathered as part of this study.
+2.3.1. National targets, where they exist, generally align with SDG target 12.3
+Table 2.3 provides information on the level of ambition set by national FLW reduction targets in comparison with SDG12.3 based on the following criteria:
+• Higher... The national target demonstrates higher ambition than SDG 12.3 commitment by specifying a shorter target year than 2030, a higher reduction target, or a wider scope in food value chain stages than retail and household levels.
+• Aligned... The national target basically aligns with SDG 12.3, at least in the quantifiable food waste reduction target.
+• Lower... The national reduction target is lower or covers a narrower food supply chain than SDG 12.3. This includes cases where the response lacks precision regarding the existence of a quantified target.
+Seventy-four per cent (74%) of the countries covered in this report have set national FLW reduction targets that can be compared with SDG Target 12.3. About 46% of respondents set quantifiable targets to, at least, reduce by 50% their national FLW at the retail and consumer levels by 2030 (Criteria Aligned and Higher ambition). Ten of these countries set more ambitious targets than the SDG 12.3 commitment, e.g. a 50% reduction in food waste by 2025, or in both food loss and food waste by 2030. However, 12 respondents set lower targets, including those aligned with the currently proposed EC targets of a 30%
+8 Only three countries included in this study, Canada (UN FCCC, 2021[80]), China (UN FCCC, 2022[81]) and Türkiye (UN FCCC, 2023b[82]) explicitly mention FLW in their NDCs.
+FAO Food Loss Index UNEP Food Waste Index
+YES 5%
+NO 53%
+n.s. 42%
+CRI, SWE
+YES 12%
+NO 49%
+n.s. 39%
+BRA, CRI, EC, NOR, USA
+Share of countries
+
+
+16 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+reduction (per capita) jointly at retail and consumption (restaurants, food services and households). For the food processing and manufacturing stages, the EC proposal goes beyond the SDG ambition by setting a mandatory quantitative FW reduction target of 10%.
+Table 2.3. Ambition of national FLW reduction targets
+Target ambition level Alignment of national target with SDG 12.3 Share
+Higher AUS, CAN, CHE, ESP, FRA, JPN, NLD, NOR, PRT, USA 23%
+Aligned CRI, CZE, HRV, DEU, HUN, IRL, LTU, MEX, POL, ROU 23%
+Lower CHN, COL, DNK, EST, EC, GBR, GRC, IDN, ITA, KEN, SVK, SVN 28%
+Not comparable BGR, FIN, SWE 7%
+Not Aligned* BRA, CHL, KOR, LUX, LVA, NZL, PER, TUR 19%
+Note: All 43 respondents, including the EC, are included in the table. *Countries responding “I don’t know” and having no national targets consistent with SDG Target 12.3. The criteria for the ambition level group allocation are found in Annex C. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.3.2. Few countries set a baseline year for their national FLW reduction targets
+Setting a baseline (or reference) year for reduction targets is uncommon for the countries covered in this study, with the notable exceptions of Japan, France, Kenya, and Norway, where the baseline year dates before 2015, and of Switzerland, Australia, Spain, Slovenia, and Greece where the baseline year is set after 2015. The remaining respondents do not mention a baseline year for their targets. This is consistent with the absence of a baseline year in SDG Target 12.3 itself.
+2.3.3. National targets generally apply across all stages of the food supply chain
+Figure 2.5 shows the number of respondents that have set specific national FLW reduction targets for either the whole agro-food supply chain or for the different stages of the supply chain. Most frequently, national targets apply across all stages.
+When stages are singled out, the retail and household stages are frequently mentioned, as is the case in national FLW measurement. This commonality points to the strong ties between FLW measurement and target setting. Conversely, the on-farm stage is the least covered, followed by public procurement. The lower coverage of the on-farm stage could be explained by the fact that many countries exclude the preharvest phase from their definition of food or their denomination of FLW, as is the case for those using the EU Law denomination. In some cases, discrepancies exist whereby no national target is set for stages despite their inclusion in the national denomination of FLW (Table A B.1).
+
+
+ 17
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Figure 2.5. Count of countries with national reduction targets across agro-food supply chain stages
+Note: Most respondents declare an intention to reduce FLW. Some respondents set a quantified reduction target All 43 respondents, including the EC, are included to calculate the count of responses. Distribution of countries in Table A B.1. Stage 1 Primary agricultural production (on farm), Stage 2 Agricultural handling and storage (post-harvest), Stage 3 Food processing and packaging, Stage 4 Wholesale, Stage 5 Retail, Stage 6 Hospitality and food services, Stage 7 Public food procurement, including public schools, Stage 8 Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.3.4. Some international initiatives aim at supporting national FLW reduction ambition, but countries rarely actively participate or apply their principles
+International efforts are ongoing to develop frameworks and initiatives to understand, address, and share knowledge and good practices on FLW. In support of SDGs, several initiatives at the international level support countries’ efforts to reach SDG Target 12.3 and GBF Target 16 by promoting dialogue and peerlearning. The most prominent frameworks and initiatives are listed in Table 2.4. These efforts promote the use of harmonised denominations, metrics, and targets.
+Table 2.4. International frameworks and initiatives
+Initiative Aim Membership Lead organisation (launch date)
+Link
+The FAO Voluntary Code of Conduct for Food Loss and Waste Reduction (FAO CoC)
+This initiative provides a broad framework of actions and guiding principles to minimize discarded food. This includes a recommendation of a conceptual framework, the Food Material Hierarchy model which prioritises material streams from an environmental, social, or economic perspective. Actions should be prioritised according to the following order: source reduction, food redistribution, animal feed, composting, industrial uses, and incineration (FAO, 2022[51]).
+Private sector: (Voluntary participation of businesses)
+FAO (2021) https://www.fao.org/3/ cb9433en/cb9433en.p df
+
+
+18 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Initiative Aim Membership Lead organisation (launch date)
+Link
+The Technical Platform on the Measurement and Reduction of Food Loss and Waste (FLW Platform)
+This initiative focuses on measuring and reducing global FLW and aims to enhance collaborative endeavours. The platform was launched to respond to a G20 recommendation. It integrates a Community of Practice with a membership of some 1600 individuals who benefit from networking opportunities and access to technical resources available on the website (FLW Platform, 2024[52]).
+Individuals incl. farmers, academia, organisations civil society
+FAO, IFPRI (2015) https://sdgs.un.org/par tnerships/technicalplatformmeasurement-andreduction-food-lossand-waste-supportsdg-123
+Food Loss and Waste Protocol Multi-Stakeholder Partnership (FLW Protocol)
+This initiative offers a standardised method for quantitative data collection, known as the FLW Standard, to assist countries and companies in pinpointing areas to concentrate their efforts on reducing FLW (WRI, 2024[53]).
+Companies, governments, cities, and others
+The Consumer Goods Forum, FAO, FUSION, UNEP, WBCSD, WRI, Wrap (2013)
+https://www.flwprotoc ol.org/about-flwprotocol/
+The TargetMeasure-Act (TMA) approach
+This initiative provides a 3 steps roadmap: (i) set a reduction Target for FLW aligned with SDG Target 12.3 at national, regional, or business level, (ii) Measure food loss and waste to identify hot spots, and (iii) take Action to reduce identified hot spots (Lipinski, 2020[54]).
+Governments and businesses
+Champion 12.3 (2017)
+https://champions123. org/sites/default/files/2 02109/21_WP_Champion s_Progress%20Repor t_v5.pdf
+123 Pledge of the Food is Never Waste Coalition (#123 Pledge)
+This initiative calls to action for members to prioritise fighting FLW in their climate action agenda. Members are required to provide annual progress reports to the Food Is Never Waste Coalition or to the Champions 12.3.
+Organisations taking the ‘123 Pledge’ must meet several requirements designed to ensure impact, progress, and transparency toward a worldwide goal of halving food loss and waste by 2030.
+Governments, UN agencies, NGOs, Academia
+Champions 12.3, UNEP, FAO (2022)
+https://www.unep.org/t echnicalhighlight/new-123pledge-set-mobilizeglobal-action-foodloss-and-waste-keyclimate
+EU Platform on Food Losses and Food Waste (EU Platform):
+This initiative brings together governments, institutions and experts from Member States, international organisations, and relevant stakeholders. The platform aims to assist all stakeholders in defining measures required to prevent food waste and exchange knowledge and best practices. It contributes to EU law making (EU, 2024[30]).
+Governments (EU Member States and EFTA countries), private sector stakeholder, civil society organisations
+European Commission (2016)
+https://food.ec.europa. eu/safety/foodwaste/eu-actionsagainst-foodwaste/eu-platformfood-losses-and-foodwaste_en
+EU Food Loss and Waste Prevention Hub (EU Hub):
+This initiative is an internet platform website for any stakeholders actively addressing FLW. It provides a space for sharing best practices, accessing pertinent information on national initiatives, and staying informed about the latest developments in the field across the EU and beyond (EU, 2024[31]).
+Any stakeholders (inputs are updated by EU national experts)
+European Commission (2024[31]).
+https://ec.europa.eu/fo od/safety/food_waste/ eu-food-loss-wasteprevention-hub/
+MACS-G20 collaboration Initiative on Food Losses and Waste (MACS-G20)
+This initiative aims to harness research to decrease global FLW. The activities include a platform for policy makers to find experts for specific topics and an annual FLW workshop under the auspices of the G20 presidency and other local partners (Schneider, 2024[55]).
+Interested stakeholders of G20 States/ international organisations,
+MACS-G20 (2015) https://www.macsg20.org/aboutmacs/macsactivities/collaboration -initiative-on-foodlosses-food-wastelaunched-at-macs-g20
+Only a subset of these international initiatives is well known by the countries covered in this report. Figure 2.6 depicts the landscape of awareness of, and participation in, these international initiatives. For instance, close to 70% of countries are aware of the FAO CoC, and the Target-Measure-Act (TMA) Approach. However, only around half of those countries actually apply it. Few respondents are aware of the FLW Platform, the FLW Protocol, the #123 Pledge, and the MACS-G20. According to responses, new initiatives seem to be harder to embrace once national efforts are already engaged. Low engagement in the international initiatives could also reflect a lack of capacity across countries covered in the study, with limited budget and staff availability.
+Due to the large number of EU Member States in the questionnaire, the two initiatives (EU Platform and EU Hub) led by the European Commission receive high awareness and participation levels, reflecting collaboration needs, given the EU FLW regulations and legislation, FLW measurement/reporting needs,
+
+
+ 19
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+and the use of a common FLW denomination in many countries. Some non-EU Members, such as Brazil and the United Kingdom, contribute to both EU initiatives, and Norway takes part in the EU Platform (Table A B.3). In contrast, the involvement of EU MS in global initiatives is notably limited, especially in the FLW Platform and the FLW Protocol, where only three EU countries – France, Spain, and Sweden participate in the former, and only Sweden in the latter. By providing a more tailored collaborative environment for EU MS and opportunities for sharing knowledge, the existence of the EU Platform and the EU Hub could reduce the incentives to participate in other international initiatives. In addition, some countries have set up informal collaboration initiatives across the world. For example, the Netherlands, based on its network of Agricultural Counsellors at the Embassies of the Netherlands abroad, collaborates with local, national, and international stakeholders and policymakers to reduce food loss and waste in lowand middle-income countries.
+Figure 2.6. Awareness of and participation in global and regional FLW initiatives
+Note: All 43 respondents, including the EC, are included in the figure. n.s.: no response. See Table A B.3 for more details. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.4. National commitments: From national FLW targets to national FLW strategies
+According to earlier OECD research, while many countries identify FLW as an important issue, food waste tended to be addressed as part of overarching waste strategies (Bagherzadeh, Inamura and Jeong, 2014[13]). In contrast, most respondents to the 2023 OECD questionnaire, 39 of the 43 (91%), either implement or are in the process of planning a national strategy for FLW reduction. Six countries – Canada, Costa Rica, Croatia, Indonesia, Mexico, Peru – are currently in the planning phase. The United States released in June 2024 the National Strategy for Reducing Food Loss and Waste and Recycling Organics (The White House, 2024[56]). The actions highlighted in this FLW Strategy are guided, in part, by the Wasted Food Scale proposed by the US Environmental Protection Agency and described in Box 2.2. Brazil will launch, in 2024, a new FLW strategy, coordinated by the Ministry of Social Development and Fight Against Hunger in collaboration with the Brazilian Agricultural Research Corporation (EMBRAPA). While Hungary, Luxemburg, New Zealand, and Romania indicate the absence of FLW national strategies, it is noteworthy that all except Romania have a national waste management strategy that covers FLW reduction and prevention. In their responses, countries identify national FLW strategies as an important enabler for policymaking, specifically in the processing and manufacturing and retail stages.
+2.4.1. The SDG timeframe has strongly influenced the development of national FLW strategies
+Nearly two-thirds of the countries covered in this report have set a 2030 horizon for their national strategies in alignment with the SDG timeframe. Twelve countries indicate no precise target year, although the start year has generally been set. Table 2.5 cross-tabulates the implementation and target years of the national
+
+
+20 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+FLW strategies. Eight countries had a national FLW strategy in 2015 when the SDGs were agreed, with Latvia being the earliest in 2003, followed by France and the United Kingdom in 2013. Momentum for the development of FLW strategies accelerated after the establishment of the SDGs. The observed dynamics suggest that global commitments strongly influenced the development of FLW national strategies.
+Table 2.5. National FLW strategies: Start and target years
+Target year set in national strategies Start year of national strategies 2015 and before 2016-2019 2020 onwards Not specified Total Before 2030 CZE FRA HRV BGR CHL MEX* 14 KEN LVA KOR CHN FIN NLD IRL LTU In 2030 GBR EC AUS JPN CHE DEU 12 NOR SWE GRC JPN2** SVN ESP USA After 2030 BRA DNK 2 Year not specified ITA COL EST CAN*, IDN 11 PRT SVK PER* POL TUR Total 7 10 19 3
+Note: Hungary, Luxembourg, New Zealand and Romania are not included due to the absence of national strategies. * Countries planning a national strategy. ** Japan has several strategies with different starting years. Therefore, the total count of countries with brackets in column 2020 onwards includes JPN2. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.4.2. National FLW strategies generally favour soft measures over regulatory enforcement
+The questionnaire enquired about the main elements of the national FLW strategies (Table A B.1), including on the following five potential characteristics:
+• A binding legal target to reduce FLW: This refers to an agreed or mandatory reduction target in food loss and waste that a country must meet in the future, within a defined period, possibly subject to an incentive scheme defining rewards, disincentives and/or corrective action plans.
+• A food donation system: This process is usually led by food donation organisations collecting food from businesses and individuals, or from those having an excess of goods which are stored and distributed by food banks which redirect the excess food to needy people in their community.
+• Food safety and quality regulations: These cover the regulations for food control, safety, quality, and other relevant aspects of food trade across the entire food chain, from the provision for animal feed to the consumer.
+• Clear date labelling requirements: Date markings on food refer to the “best before” and the "use by" dates. “Best before" indicates the date until when the food retains its expected quality, and the "use by" indicates the date until when the food can be eaten safely.
+• Prioritisation of measures: This determines the order of priority of different approaches to reduce food loss and waste. Box 2.2 provides more information on the latter and alignment with national FLW strategies within the FAO FLW hierarchy.
+Respondents could highlight one or several characteristics (Figure 2.7). While one-third of the countries reported a single characteristic, it appears that most national strategies are based on multiple characteristics (Panel A). The set-up of a food donation system and a prioritisation of measures were the most common components adopted by national strategies (with more than half of the countries reporting using these characteristics) (Panel B). In about 40% of the countries, national FLW strategies use food safety and quality regulation and food date labelling. Less than one-third of the countries have set-up a binding legal target as part of their national FLW strategies.
+
+
+ 21
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+When looking specifically at the combination of elements used in the national FLW strategies, the most common response (eight countries) is a single element, the prioritisation of measures. The second most common response involves a combination of four characteristics, excluding a binding legal target (six countries). The third most common characteristic (three countries in each case) is the use of either a single element (a binding legal target or a food donation system), and a combination of four characteristics, excluding the prioritisation of measures.
+2.4.3. Most countries report using a centralised governance structure for national FLW strategies
+Countries covered in this report find that an integrated approach to address FLW; that is, the alignment of the national FLW strategy with whole of government policy initiatives, reinforces the effectiveness of policy action. To enable such an integrated approach, good governance processes are needed to prevent cascading FLW from one stage of the supply chain to another. Institutional governance is an important enabling factor in designing and implementing a coherent policy mix in a holistic food systems approach (OECD, 2021[8]).
+This section looks at the governance structure of national FLW strategies, which range from a single entity to up to nine entities. National FLW strategies are managed by a single entity in over half of the cases (21 countries). In nine countries, two entities are involved. Multisectoral co-ordination is observed in a few cases, with seven countries having more than three entities working in collaboration to lead the national FLW strategy.
+Figure 2.7. Major characteristics of FLW national strategies
+Note: All 43 respondents, including the EC, are combined to calculate the proportion; Hungary, Luxembourg, New Zealand and Romania, countries without a national strategy, are also included. The distribution of countries is found in Table A B.1. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023
+Likewise, the diversity in the type of institutions overseeing national strategies is important. In most countries, government entities are responsible for leading national strategies. The detailed breakdown in Figure 2.9 illustrates that ministerial bodies are the predominant (76%) co-ordinating entities. Either the Ministry of Agriculture/Food (MoAg) or the Ministry of Environment/Climate (MoEnv) often takes the lead, with the MoAg slightly more frequently9. Other countries opt for a collaborative approach involving both ministries, as observed in Costa Rica, Denmark, France, Greece, Ireland, and Norway. In a few cases, additional ministries are also part of the co-ordination process. This includes, for example, the Ministry of Health (MoH) in Costa Rica, the Ministry of Social Affairs in Estonia, and collaboration between a large number of institutions in Norway, where the Ministry of Health and Care Services, the Ministry of Trade, Industry and Fisheries, and the Ministry of Children and Families are all involved.
+9 As indicated in Section 2.2, in the case of FLW data collection, it is often the Ministry of Environment or a government environmental agency that leads.
+Panel A. Number of characteristics Panel B. Characteristic used
+0
+10
+20
+30
+40
+50
+60
+70
+Donation system
+Prioritising measures
+Safety & quality reg
+Labelling Binding legal target
+%
+0% 20% 40% 60% 80% 100%
+1
+1 Element 2 Elements 3 Elements 4 Elements 5 Elements n.s.
+
+
+22 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Box 2.2. National FLW strategies and the FAO Food Waste Hierarchy
+The Voluntary Code of Conduct for Food Loss and Waste Reduction (CoC FLW), a global non-legally binding instrument developed by the FAO, was endorsed in June 2021. The CoC FLW presents internationally and regionally recognised, locally and nationally adaptable guiding principles and standards for responsible practices that governments and other stakeholders can voluntarily apply to reduce FLW while promoting sustainable and inclusive agricultural and agrifood systems.
+The CoC FLW proposes a Food Waste Hierarchy to provide guidance on how different material streams can be handled to address FLW (Figure 2.8). Such a hierarchy can be used as part of national FLW strategies and legislations to organise activities in reducing and managing FLW and to mobilise all food supply chain stakeholders. For instance, Colombian Law No. 1.990/2019 creates the environment to prevent food loss and waste; among its provisions, it prioritises actions that divert food otherwise lost or wasted to human consumption and, secondarily, to animal feed.
+Figure 2.8. Alignment of FLW national strategies with the Food Waste Hierarchy
+Source: FAO (2022[51]) and OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+According to questionnaire responses, even when countries indicate that their national FLW strategies are based on a prioritisation of measures, only a subset have designed their national FLW strategies fully in line with the Food Waste Hierarchy. The questionnaire identifies a limited application of the Food Waste Hierarchy. Twenty of the 43 respondents (47%) use in practice a material hierarchy approach to prioritise the prevention and reduction of FLW. The extent of alignment varies across countries. Unfortunately, information on how the other countries respect or not the Food Waste Hierarchy is not available.
+Figure 2.8 illustrates national food material approaches and their consistency with the Food Material Hierarchy. Ten countries – Czechia, Estonia, France, Ireland, Lithuania, Norway, Slovenia, Switzerland, Türkiye and the United States follow the hierarchy. According to EU law, MS are obliged to provide incentives for the application of the waste hierarchy, such as facilitation of food donation (articles 4 and 9 of the revised WFD).
+The US EPA developed an alternative hierarchy, the Wasted Food Scale based on the findings of its 2023 report (US EPA, 2023[57]) that reflects changes in technologies and operational practices for wasted food management pathways in the United States. The newly released national US FLW Strategy is guided, in part, by this Scale (The White House, 2024[56]).
+The EC also proposed an updated food use hierarchy in November 2024 that clarifies several definitions, as well as the distinction between “prevention” and “waste treatment” and establishes a link between intervention type and the steps of the food use hierarchy (De Laurentiis et al., 2024[58]).
+Source: FAO (2022[51]) and OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+ 23
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+The non-ministerial government agencies involved are mainly government agencies associated with the agri-food, and environment portfolios, and national research institutes working closely with these ministries. The co-ordination role is sometimes undertaken solely by a government agency, as noted in Switzerland with an environmental agency, in Japan with the Consumer Affairs Agency (CAA), and in Sweden with the Swedish National Food Agency together with the Swedish Board of Agriculture and the Swedish Environmental Protection Agency, while other government agencies and ministries may be involved in implementation.
+In Australia, the Netherlands and Poland, non-governmental bodies lead the national strategies. The first two countries stand out by entrusting the leadership role solely to independent institutions, namely End Food Waste Australia10 (more details are provided in Section 3) and the Foundation Food Waste Free United11. In the United Kingdom, the Government leads the national strategy and supports FLW reduction by funding a series of voluntary agreements with food systems stakeholders and awareness campaigns that are managed and delivered by the Waste and Resources Action Programme (WRAP), a not-for-profit organisation (House of Commons, 2024[59]). WRAP is also in charge of tracking progress in FLW reduction. In the United States, as part of the Federal Interagency Collaboration to Reduce Food Loss and Waste (FIFLAW), the Environmental Protection Agency (U.S. EPA), the Food and Drug Administration (FDA), and the US Department of Agriculture (USDA) have partnered with a not-for-profit organisation ReFED to leverage resources to evaluate the technical implementation of strategies aimed at reducing FW (US EPA, 2024[60]).
+In addition to those main co-ordinating entities, five respondents – Brazil, Bulgaria, Indonesia, and Poland, and the EC – indicate the existence of supporting ministerial entities. These include the Ministry of Development and Social Assistance, Family and Fight against Hunger in Brazil and the Ministry of Education and Sciences in Poland.
+Figure 2.9. The role of governments in the co-ordination of national strategies
+Note: Shares of government and independent entities in the leadership of the co-ordination of national strategies. Subordinate entities in the survey responses are excluded. More details in Table A B.4. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.5. Policy implementation: Insights on FLW policy instruments
+2.5.1. National FLW strategies result in the implementation of policy instruments
+Most countries covered in this report developed a FLW strategy before implementing policy instruments, with an average lag of four years between the set-up of the FLW strategy and the implementation of policy instruments that address the issue of FLW (Table 2.6). In ten countries,
+10 More information on End Food Waste Australia is available at https://endfoodwaste.com.au/. 11 More information on Foundation Food Waste United is available at https://samentegenvoedselverspilling.nl/.
+0
+5
+10
+15
+20
+25
+30
+35
+40
+MoAg MoEnv MoH Other Ag Env Other Ministerial (66%) Non-ministerial (28%) Public Independent
+%
+
+
+24 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+however, measures have preceded the development of a FLW strategy, with a lag of five years on average. As indicated in the previous section, FLW strategies were launched in these countries after 2015, reflecting the momentum created by Global Commitments.
+Table 2.6. Sequencing of FLW strategies and policy instruments implementation
+Timeline Number of countries where
+Max years between strategy and first policy instrument
+Average gap (years) Strategy precedes policy instruments 22 18 4 Strategy and policy instruments coincide 20 - Strategy follows policy instruments 10 17 5 No information available 15
+Note: Thirty-two countries are covered in this table. A same country can be counted several times when policies are implemented before, simultaneously, or after launching a strategy. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+While on average about 80% of all policies reported by countries covered in this report are part of a national FLW strategy, the highest shares are close to or above 90% in the agricultural handling, hospitality, and public procurement stages, an indication of the instrumental role of a FLW strategy to develop policy instruments that address FLW reduction in these sectors.
+2.5.2. FLW policy action accelerated with the establishment of international commitments
+The influence of international commitments under the UN SDGs, the Paris Agreement, and the GBF is visible when considering the timeline of the deployment of policy instruments (Table 2.7). Up to 2015, nine countries had implemented FLW policy instruments, two of which were simultaneous with the launch of a national FLW strategy (Czechia and Kenya). The pace accelerated as of 2016, with 19 countries implementing policy instruments up to 2019. New policy instruments were deployed in 25 countries and the EC between 2020 and 2023.
+Table 2.7. FLW policy implementation over time
+Number of distinct policies in place
+Number of countries
+Countries
+2015 and before 15 9 CZE, DEU, IRL, NLD, POL, PRT, USA, IDN, KEN
+2016-2019 33 19 CRI, CZE, DEU, DNK, EST, FRA, ITA, JPN, LTU, NOR, POL, PRT, ROU, SVN, SVK, SWE, USA, EC, HRV
+2020-2023 63 25 AUS, BRA, CAN, CHE, CHL, COL, CRI, CZE, DEU, DNK, EST, FRA, GRC, IRL, JPN, LTU, LVA, POL, SVN, ESP, SVK, SWE, TUR, USA, EC, CHN 2024 and after 9 4 AUS, CHL, NZL, PER
+Year not specified 19 10 FRA, HUN, IRL, LVA, MEX, NOR, SVN, TUR, GBR, PER
+Note: Four periods are covered: pre-Global commitments: 2015 and before, the four years immediately after the announcement of the SDGs and of the Paris Agreement (2016-2019), the subsequent four years (2020-2023) and the current days and future (2024 and after). Countries may deploy policies in several periods, and/or several policies in a same period. Country names can be found in Annex C. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+ 25
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+While in most countries the deployment of policy instruments took place over a single period, the introduction of new policies has spanned over two, generally consecutive, periods in ten countries, and policies are sequenced across three or more periods in 11 countries (Table A B.7).
+All countries covered in this report indicate they implement at least one policy instrument to reduce FLW. Of the 37 respondents to this section, ten report a single FLW policy instrument that may span across several or all stages. The policy count raises to five or more distinct policy instruments in ten occurrences. Multiple sequences of policies as highlighted in Table 2.7 (policy “layering”) may result in a lack of coherence and in higher costs. It may also weaken the efficiency of policy instruments, especially when they are not coordinated as part of an overarching FLW strategy.
+2.5.3. Households and retail stages receive the highest level of policy attention
+More than half of the policy instruments implemented focus on one stage only, likely allowing these instruments to be tailored and better adapted to the specific stage they address. On the other hand, 13 countries have one or more policy instrument that span across seven or more stages, suggesting a holistic approach (Table A B.7).
+The stages receiving the most policy attention are private households and retail (Figure 2.10), followed by agricultural handling and storage, and food processing and packaging. It is interesting to note that of the seven countries focussing on a single stage only, three aim their intervention at the private household stage (Hungary, Israel, New Zealand), while the other four cover the first stages of the supply chain [Mexico (primary agricultural production), Kenya and Peru (agricultural handling and storage) and Indonesia (food processing and packaging)], in alignment with the findings on the extent and causes of FLW across agro-food stages (Section 2.2).
+Figure 2.10. Level of policy attention across agro-food chain stages
+Note: Stages of the agro-food chain : Stage 1 Primary agricultural production (on farm), Stage 2 Agricultural handling and storage (postharvest), Stage 3 Food processing and packaging, Stage 4 Wholesale, Stage 5 Retail, Stage 6 Hospitality and food services, Stage 7 Public food procurement, including public schools, Stage 8 Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.5.4. Countries mobilise a wide range of policy instruments
+Across the countries covered here, a wide range of policy instruments are used to fulfil the declared national FLW reduction targets and implement the national FLW strategies, reflecting the diversity of national institutions and policy priorities. An integrated approach is, however, the most commonly
+
+
+26 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+identified enabler, overall and across all stages of the supply chain. Policy instruments in use to effectively reduce food loss and waste include the following categories:
+• Awareness raising and education initiatives are commonly used, e.g. through campaigns that encourage consumers to reduce the quantity of wasted food and programmes that aim to change how food is sold, packaged, and priced. Many countries, including EU Member States, campaign to raise awareness on date labelling and the difference between ‘Best Before’ and ‘Use By’ dates on food packaging and encourage behaviour change (EU, 2020[21]). Box 2.3 presents examples of approaches to accelerate behaviour change. School curricula and training curricula of professionals in the food services industry, including the professional training of cooks in private and public catering are at times adapted to cover food waste reduction. According to Le Borgne et al (2021[43]), it is more effective to communicate on the individual consequences of food waste, both financial and moral/ethical, than to communicate on the global consequences of food waste.
+• Voluntary collaborations (VC) are in place with and among stakeholders and food businesses on a wide range of actions, including facilitating the redistribution of surplus food through food donation. The most widely documented VC is the UK’s Courtauld Commitment that has been engaging food chain stakeholders to improve resource efficiency and reduce waste since 2005 (WRAP, 2022[61]). The EU Platform recently published a report showcasing examples of voluntary agreements across Europe (European Commission, Directorate-General for Health and Food Safety, 2024[62]). Main insights are presented in Box 2.4. VCs are at times facilitated by internet platforms and networks (Giner and Placzek, 2022[63]). In New Zealand, the Office of the Prime Minister’s Chief Science Advisor recommends supporting the creation and adoption of a FLW data platform in partnership with food systems stakeholders (Prime Minister’s Chief Science Advisor, 2024[64]). The ‘123 Pledge’ launched in 2022 is a voluntary collaboration at global scale. Governments, companies, institutions, and single entrepreneurs (like chefs) that pledge to fight food loss and waste commit to annual reporting on progress in a measurable and timebound, targeting year 2030.
+• Mandatory regulations are deployed along the agro-food supply chain. These include: the requirement for restaurants and food services to pack and provide consumers with plate leftovers (Spain), and the similar obligation for commercial catering operators to offer a recyclable or reusable container to take away uneaten food (France); the obligation on retail, collective catering operators, agro-food industry operators and food wholesalers above a certain threshold to offer a partnership to a food aid association (France); the requirement for food businesses that dispose of more than 100 tonnes of FW per year to report on waste volumes and manage their FLW12 (Japan) or for catering and agrifood industry operators to carry out a food waste diagnosis (France); landfill bans on FLW (certain states in the United States) and a ban on the destruction of edible food by retail, collective catering and food-industry operators (France). In addition, there are also examples of easing food safety regulations for food donation and redistribution, relaxing date labelling or waiving donor liability, inspired by the US Good Samaritan Law, illustrate regulatory approaches to FLW reduction. In Canada, for example, provinces have enacted liability protection legislation to protect food donors from civil liability arising from food-related injuries (The Global Food Donation Policy Atlas, 2024[65]). In France, in contrast, food systems stakeholders are required to set up a donation quality management plan, involving staff training and awareness-raising reinforced by the introduction of mandatory procedures for monitoring and controlling the quality of donations.
+• Fiscal measures include FLW policy measures such as reducing the tax deductibility of food lost or wasted, introducing tax deductibility for donated food and the taxation of food disposal through landfills. For example, Korea imposes landfill taxes for discarded food.13 France and Canada, as well as many other MS in the EU, facilitate food donation with tax incentives. The FAO Voluntary Code of Conduct for Food Loss and Waste Reduction recommends tax legislation
+12 This is stipulated as Article 9 of the Food Waste Recycling Law.
+13 More information is available at https://seoulsolution.kr/.
+
+
+ 27
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+to be food loss and waste sensitive, either by disincentivising actions that contribute to food loss and waste or incentivizing those that reduce it (FAO, 2022[51]).
+• Governments also fund other programmes that aim at enabling food systems stakeholders’ innovations to reduce FLW and encourage circular economy practices. For example, the Canadian government implemented the “Food Waste Reduction Challenge” providing funding and in-kind support to accelerate innovative business models and new technologies that prevent and divert FLW. Canada also supports scientific research to advance the circular food economy, including extending the shelf life of food and developing value-added opportunities for food processing, renewable energy, chemicals and bioproducts. USDA supports research to extend the shelf life of foods. In the European Union, MS can obtain action grants through the Single Market Programme to improve measurement of FW and for implementing national food waste prevention programmes.
+2.5.5. Awareness raising and voluntary collaboration initiatives are the most common policy instruments in place
+As shown in Table 2.8, most countries implement awareness raising and education measures in one or more stages of the agro-food chain, and in particular at the Households stage. Voluntary collaboration is the preferred instrument for the Distribution Stages. Mandatory measures are more frequent in the Wholesale, Retail and Food services stages. Fiscal measures targeted to agricultural stages are identified by eight respondents. These could include subsidies to improve the sector’s capacity in terms of skill and equipment. Countries also report that fiscal measures take the form of tax incentives for food loss and waste reduction when they target the later stages of the supply chain, being prominently used in the Wholesale and retail stages, in line with the FAO’s Voluntary Code of Conduct for Food Loss and Waste Reduction. Countries covered in the study also identify financial resources as an enabler for FLW policies. (2002[66]) (Champions 12.3, 2019[67]).
+Box 2.3. Cascade-training as a vector of behavioural change
+Behaviour change is identified as a powerful FLW reduction instrument. Local Partnership Advisers specialise in ‘cascade training’, i.e. training groups of individuals who then share this information with others. The main approach involves ‘Trainer Support’ or ‘Awareness Raising’ events involving attendees who, in turn, will pass-on their know-how. Cascade training is based on Malcolm Gladwell’s Tipping Point (Gladwell, 2002[66]) which explained how social trends spread through society, when driven by individuals who have specialist knowledge.
+The Champions 12.3’s launch of the 10x20x30 initiative is another example of “cascade” actions harnessed to the reduction of food loss and waste. It brings together 10+ of the world’s largest food retailers and providers, each engaging at least 20 suppliers to halve food loss and waste by 2030 (Champions 12.3, 2019[67]).
+Box 2.4. Insights on voluntary collaboration initiatives across Europe
+The 2024 EU Platform report provides an extensive overview of voluntary agreements on FLW reduction across Europe drawing from information gathered from 13 EU Member States and examples from Norway and the United Kingdom. These agreements are based on collaborations that involve food systems stakeholders, governments, civil society or independent actors. While consistent progress tracking is not often in place, such collaborations appear to have achieved tangible results to reduce FLW. The effectiveness of voluntary collaborations also appears to be closely linked to the specific context of each country.
+
+
+28 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Robust monitoring systems are important for tracking progress in reducing FW. Investing in data infrastructure and technology is key to facilitate transparent data sharing and collaboration among stakeholders.
+In the case of the initiative Denmark against Food waste, a neutral third party collects data from food systems stakeholders and produces a yearly progress report with aggregated results. Members of the initiatives have agreed on a harmonised methodology to measure FW. In Ireland, as part of the Food Waste Charter, retailers have worked with the Environmental Protection Agency to develop a reporting methodology and in-house systems to improve data availability. In the Netherlands, Wageningen University & Research (WUR) is the trusted third party that collects and analyses the annual FW data that stakeholders that are part of the Food Waste Free United initiative have to report on a voluntary basis. WUR works with a Data Transfer Agreement with all companies supplying data and keeps data strictly confidential. Sector benchmarks are only published after agreement by all partners.
+Securing long-term funding commitments to support FW reduction efforts is essential and such efforts need to be shared between governments and food systems stakeholders. In the Netherlands, the activities to coordinate and execute the actions of the Food Waste Free United initiative, that was set up in 2017 and now counts more than 110 stakeholders, are financed on a 50-50% basis by public and private actors.
+Initiatives can be either led by public authorities (e.g. the National Pact against FW in France), by food systems stakeholders (e.g. the International Food Waste Coalition) or by independent organisations founded for the purpose of coordinating the agreement (e.g. WRAP in the United Kingdom and The Food Waste Free United Foundation in the Netherlands). Regardless of the governance structure, clarifying stakeholder responsibilities ensures accountability of all involved actors and a shared ownership.
+Most voluntary collaborations prioritise fostering innovation and disseminating best practices. To bring these initiatives to scale, business models must mature and attract private sector investments.
+Source: European Commission (2024[62]).
+Table 2.8. Most common policy instruments to address FLW by agro-food chain stages
+1. Awareness raising and educational programmes
+2. Voluntary collaboration
+3. Mandatory regulations
+4. Fiscal measures
+5. Other Total number of countries
+Share of policies that are attributed to a strategy * Stage 1 6 7 4 6 5 24 81% Stage 2 3 6 4 4 2 15 86% Stage 3 4 9 5 5 4 24 80% Stage 4 4 12 6 6 5 30 76% Stage 5 5 13 6 6 4 31 78% Stage 6 4 8 6 4 4 23 87% Stage 7 2 6 2 3 2 12 94% Stage 8 15 6 5 3 5 31 79%
+Number of countries
+27 20 13 17 8 38
+Note: Thirty-eight countries responded to this question. Countries may have multiple instruments that address FLW in a same stage. At the same time, a same instrument may span across several stages. The Column with a * shows the share of policies in a specific stage that are attributed to a strategy. Stages codes: Stage 1. Primary agricultural production (on farm), Stage 2. Agricultural handling and storage (post-harvest) Stage 3. Food processing and packaging Stage 4. Wholesale Stage 5. Retail Stage 6. Hospitality and food services Stage 7. Public food procurement, including public schools Stage 8. Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+ 29
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+2.5.6. National policy design is frequently informed by science and deliberative processes
+Countries were asked about the FLW policy development process. Nine types of inputs to policy design were identified and explored. They can be grouped into three broad categories: (1) Science and research: Scientific evidence and consumer research, (2) Policy coherence: Plans for revision or extension; regulatory impact assessments; and co-ordination at the international level, (3) Interactions and deliberative processes: Deliberative processes including citizen panels, Interactions with food systems stakeholders, civil society, and other actors; and Interactions with the waste management industry.
+When considering these broad categories of inputs, Science and research rank first (44% of total responses), followed by Policy coherence (28% of total responses), and Interactions and deliberative processes (26% of total responses), whereas only 2% of respondents mention using other types of inputs (Figure 2.11). Five countries rely on science and research exclusively to develop more than 80% of their policy instruments. Seventeen countries combine all categories. Networks and platforms where stakeholders cooperate and exchange knowledge were identified as likely to facilitate innovative solutions to reduce food waste, for example by the development of good practices or the dissemination of practical tools.
+Figure 2.11. Inputs to policy design by country
+Note: Thirty-three countries responded to this question. No response: AUS, BRA, BGR, EC, FIN, GBR, GRC, ISR, KOR, PER. More information in Table A B.6. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+2.6. Policy effectiveness: Insights on FLW policy evaluations
+2.6.1. FLW policy instruments are not systematically evaluated
+Evaluation is an important contributor to the policy design cycle as it provides information on the effectiveness of outcomes. It enables assessment of trajectories to targets and helps identify areas for adjustment. Countries covered in this report rank monitoring and evaluation second in the list of policy design enablers. However, according to the OECD questionnaire, only 43% of the FLW policy instruments are actually evaluated in terms of actual FLW reduction, pointing to policy effectiveness gaps (Figure 2.12). Policy instruments at the primary agriculture, wholesale, food processing and packaging, and households stages are the most evaluated for their efficiency, (61%, 55%, 48% and 45% respectively), while public food procurement and agricultural handling score lowest (35 and 27% respectively). These low shares of policy evaluations could be a result of the “soft” nature of most implemented policy instruments, which makes them costly and difficult to monitor.
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Ave.
+MEX
+COL
+USA
+CRI
+CHL
+CAN
+LVA
+SVN
+SVK
+ESP
+CHE
+IRL
+CZE
+NLD
+PRT
+DEU
+HUN
+DNK
+POL
+NOR
+SWE
+LTU
+ITA
+HRV
+ROU
+EST
+FRA
+IDN
+CHN
+TUR
+JPN
+NZL
+KEN
+America Europe Asia Oceania Africa
+% Science & research Coherence Interactions & Deliberative processes Other
+
+
+30 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Figure 2.12. Evaluations of FLW policy instruments by stage
+Notes: The total number of policy instruments in each stage is shown below the stage number. Several policies may apply to a same stage in a same country. Stage 1 Primary agricultural production (on farm), Stage 2 Agricultural handling and storage (post-harvest), Stage 3 Food processing and packaging, Stage 4 Wholesale, Stage 5 Retail, Stage 6 Hospitality and food services, Stage 7 Public food procurement, including public schools, Stage 8 Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+When considering the economic, environmental, and social impacts of FLW policy instruments, the number of evaluations is even lower, with about one-sixth or less of instruments evaluated. This could be explained by the fact that systemic methodologies to assess the impact of policy actions on the triple challenge facing food systems are still in their infancy. At the private household stage, the economic impact of food waste is often used in narratives of awareness raising efforts. Information on the costs associated with FLW reduction policies is not widely available, making it difficult to explore the cost-effectiveness of currently deployed policy instruments. Box 2.5 reviews findings in terms of the costs of reducing FLW.
+Box 2.5. Costs associated with FLW reduction initiatives
+The costs associated with FLW reduction and FLW reduction policies are often not reported by governments and food systems stakeholders. Researchers at the Joint Research Centre (JRC) of the European Commission have, however, studied the effects of reducing FLW assuming different stylised cost scenarios in the absence of precise estimates (Britz et al., 2019[68]) (Britz, Dudu and Ferrari, 2014[69]) (Jafari et al., 2020[70]).
+Several not-for-profit and/or research organisations active in the field of FLW reduction have been exploring these costs. In the United States, ReFED, the not-for-profit organisation that the US EPA, the FDA, and the USDA have partnered with as part of the Federal Interagency Collaboration to Reduce Food Loss and Waste (FIFLAW), has been developing data and estimates on the costs and benefits of 40 different FLW-reducing interventions at different stages of the agro-food supply chain (ReFED, 2021[71]) (ReFED, 2016[72]). Their Solutions Database provides detailed and specific information regarding total food reduced (measured in tons), its implied costs, and other impact measures such as spillover effects on the environment, or on food security (both of which are always shown to be positive). Cost estimates vary greatly depending on the stage and/or the type of initiative, with some requiring as
+
+
+ 31
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+little as USD 0.16 per reduced tonne and others as much as USD 1 015.54 per diverted tonne (average of about USD 509 per tonne).
+Similar estimates have been collected by the JRC for 43 different initiatives in EU countries (JRC, 2019[73]). As in the ReFED studies, cost estimations show a large variance, ranging from EUR 19.44 to up to EUR 23 863.51 per reduced tonne of FLW (average of EUR 730 per tonne). Nevertheless, impacts on variables related to the triple challenge faced by food systems are shown as positive.
+In the United Kingdom, in a report led by the World Resources Institute (WRI) and the Waste and Resources Action Programme (WRAP) on behalf of Champions 12.3, Hanson & Mitchell (2017[74]) analyse two programmes aimed at reducing food waste at the final consumption stage through different campaigns. The first programme reduced 1.1 million tonnes of food wasted at a cost of GBP 23.64 per tonne and at a benefit to cost ratio of 250:1, while the second programme saved 12 350 tonnes of food waste at a cost of GBP 13.64 per tonne and a benefit-cost ratio of between 8:1 and 91:1. The authors also provide an analysis of the profitability of almost 1 200 businesses in 17 different countries devoted to reducing FLW, with a median benefit to cost ratio close to 14:1.
+In addition, the International Food Waste Coalition, a not-for-profit organisation set up to coordinate action to reduce FLW across Europe’s hospitality and food services sector, presented, in 2022, information about 45 private-driven innovative initiatives aimed at reducing FW at the hospitality and food services stage in France, Germany, the United Kingdom, the Netherlands, and the United States (IFWC, 2022[75]). With total investment costs ranging from EUR 0.47 million to EUR 8.83 million per year (average of EUR 2.89 million), these businesses can reduce FW by between 15% and 50% (with most of them reporting 50% reductions).
+Other studies from the academic literature report specific cost estimates, as well as environmental impacts, using the standardised methodology of life-cycle costing (LCC) or similar approaches, mostly focusing on the food processing and manufacturing stage (Martinez-Sanchez et al., 2016[76]) (Ferella et al., 2019[77]) (Vaneeckhaute et al., 2018[78]) (Hanson and Mitchell, 2017[74]) (Flanagan, Robertson and Hanson, 2019[79]).
+2.6.2. FLW policy evaluations are not often documented
+Only half of the countries that carry out evaluations provide specific information on the availability and date of last evaluations. The responses point to the household stage as the most documented, together with primary agriculture and the retail stage (Table A B.8). Countries that evaluate the efficiency of their policies in terms of actual FLW reduction report recent evaluations, with their last evaluation dates ranging between 2017 to 2023 and ongoing. Further analysis could explore how the results of policy evaluations could be used to inform the policymaking cycle at the national and international levels and plans for revision and extension.
+3. Conclusion and policy implications
+This report applies a systematic framework for analysing FLW policymaking processes, comparing approaches to define and quantify FLW (Knowledge); to adopt global and national targets (Ambition); to translate them into national strategies adapted to national circumstances (Commitment); to implement policy instruments best suited to the local food systems (Policy Implementation); and to ensure that outcomes are evaluated against their objectives (Policy Effectiveness); and identifying missed opportunities and/or gaps .
+Based on responses to an OECD questionnaire carried out in 2023 and on three case studies that provide in-depth information on the FLW policy environment in Australia, France and Japan, this report offers an original FLW policy comparison. Results indicate that countries adopt very different approaches countries for a variety of reasons, including different geographical, economic, legislative, and social conditions. As for many food systems policy areas, this report does not identify any silver bullets, and acknowledges the need for flexible policy approaches to encourage as many countries as
+
+
+32 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+possible to work toward the introduction and improvement of their FLW strategies. Key lessons from this work are summarised below.
+Section 2.2 highlights important improvements and remaining challenges in the Knowledge base related to FLW. Since the announcement of SDG target 12.3 in 2015 and with the availability of more robust FLW measurement processes and methods, the number of countries collecting FLW data, and the frequency of data collection, have increased. The causes of FLW by supply chain stage are now better understood, even if some supply chain stages such as the primary agricultural production stage and the hospitality and food services stage are less scrutinised. However, despite this progress, it appears that the multiple FLW denominations used across countries hinder comparable FLW data reporting. Only 7% of the countries covered in this report use the FAO Food Loss Index and 12% use the UNEP Food Waste Index. The three countries covered as case studies have improved their methodologies to measure and report on FLW over time with regular monitoring exercises that aim to enable progress tracking. The absence of measurement and monitoring is the most prominent barrier to FLW policymaking identified by the countries covered in this report.
+Section 2.3 focuses on countries’ Ambition to prevent and reduce FLW with an analysis of national FLW reduction targets, compared to the SDG 12.3 target. All countries covered in this study are committed to the SDGs. Some have set FLW reduction targets that are more ambitious than those under their global commitments. For example, France has committed to reduce FLW by 50% in retail and public food procurement by 2025 (compared to year 2015) and by 50% in the remaining stages by 2030 (compared to year 2015). Few countries, however, actively participate in international collaboration initiatives to reduce FLW. Another important issue highlighted in this report is that national FLW reduction targets do not often have a delivery date and baseline year and levels, weakening their potential signals to food systems stakeholders and households. Some stages of the agro-food supply chain, such as agricultural production and the hospitality sector, are less frequently covered by targets, while the retail and household stages feature more often.
+Section 2.4 studies the national FLW strategies implemented by countries to reach their FLW reduction targets, i.e. countries’ Commitments. These strategies are often related to the SDG timeframe. In most countries, the strategies are governed by a single government entity (Ministry or government agency) that covers either agriculture or the environment. When multiple entities are involved, coordination challenges may arise. In Japan, several government institutions are the custodians of the FLW strategy. Each agency has a distinct role, focusing on specific food value chain stages and policy instruments, and collaborating on some instruments. The Australian case study highlights a different model, with an independent entity - End Food Waste Australia - overseeing the Australian FLW strategy and facilitating engagement with food systems stakeholders. Most FLW strategies favour soft measures rather than a regulatory approach. Less than a third of the respondents have set up a binding FLW reduction target.
+Section 2.5 looks at Policy implementation. All countries covered in this report address FLW with at least one, and up to nine, policy instruments. The three case studies provide an illustration of the type of policy instruments that are being implemented and the sequence of policy action. The pace of FLW policymaking accelerated with the timelines under international commitments and the introduction of national FLW strategies. In about a third of the countries analysed, policy instruments are not tailored to any agro-food supply chain, which could imply a lack of targeting. In addition, the layering of policy instruments may make it difficult for food systems stakeholders to adhere and commit due to a potential perceived lack of clarity of what they are supposed to do. Again, the household and retail stages receive the strongest level of policy attention, with the implementation of soft policy measures such as awareness raising campaigns and voluntary collaboration initiatives. Research shows that awareness raising campaigns are more efficient when they focus on the individual consequences of food waste. Mandatory regulations and fiscal measures are not commonly used. That said, in France, elements of the National Pact to Fight Food Waste have been revised through legislation to further their impact and the scope of the instruments have been widened to cover more stages and business types. France mobilises efforts to reduce FLW to also fight food insecurity with requirements for food systems stakeholders (from agricultural producers to retailers) to donate food that would otherwise be wasted to food assistance charities and organisations. Many countries rely on science and research to design policy instruments. Fewer countries undertake regulatory impact assessments and deliberative processes.
+
+
+ 33
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Section 2.6 covers how countries evaluate FLW Policy effectiveness. Despite countries identifying monitoring and evaluation as an important FLW policy design enabler, less than half of the countries covered in this study monitor and evaluate policy instruments in place in terms of actual FLW reduction. Costs, and economic, environmental, or social impacts are often not covered in FLW policy evaluations. Policy instruments that are most evaluated address FLW at the agricultural, household and food processing stages. Countries often lack a FLW baseline that would enable reporting on progress. Australia, France, and Japan have developed such a baseline assessment across agro-food supply chain stages. Follow-up measurement exercises are planned in Australia and France. Japan is one of the few countries that carries out regular impact assessments of FLW policies. A Survey on Attitude and Awareness in Consumer Life is, for example, conducted on an annual basis to evaluate consumer awareness and behavioural change on FLW.
+Based on this FLW policy stocktaking exercise, this report highlights several policy insights.
+First, to overcome the Knowledge gaps identified in this report, mechanisms to enhance the comparability across countries of collected FLW information despite differences in FLW denominations could be explored. One way forward might be to focus on identifying reliable and affordable measurement methods and then using these methods to scale up reporting of FLW more systematically across the different stages of the agro-food chain. Based on the availability of this information, FLW data could be drawn together to allow for some preliminary international comparability. To overcome current information gaps, priority areas for FLW data collection and reporting efforts could include primary agriculture and the hospitality and food services sector.
+Second, in terms of countries’ Ambition with respect to FLW reduction, in addition to committing to FLW measurement, countries could aim to set quantifiable targets by supply chain stage that would be based on evidence regarding achievable progress in the medium-term with defined baseline levels and delivery dates. Countries could start with those supply chain stages where efforts are likely to have the greatest impact. Countries could also explore becoming more involved in international initiatives to benefit from other countries’ experiences.
+Third, to strengthen countries’ Commitment to address FLW, national FLW strategies could be enhanced. For example countries could explore whether introducing binding FLW reduction targets makes sense, in addition to existing soft measures. Discussions on the introduction of a binding target at the European level are ongoing. More analysis is needed to explore the challenges and costs associated with different governance approaches to national FLW strategies.
+Fourth, in terms of Policy implementation, countries could aim to strengthen policy design and promote coherence by avoiding policy layering (adding new instruments on the top of existing ones). To this end, it could be useful to examine ex ante and ex post the combined cost effectiveness of their policy instruments with the aim of streamlining them. As highlighted in previous OECD work on food systems issues (OECD, 2021[8]) (Giner, Rodriguez and Elasri, 2023[18]), it can be important to engage in inclusive and transparent policy dialogue and design processes to enhance trust and participation in policy initiatives. Policy instruments could contribute to the development of an enabling investment climate for food systems stakeholders to improve the efficiency of their operations, and hence reduce FLW. In that context, the experience of Australia and France are of particular interest.
+Finally, there is more to do in relation to evaluation of FLW Policy effectiveness. In many countries, FLW policy instruments are not systematically evaluated in terms of effectiveness. Evaluations in terms of economic, environmental, and social impacts are even rarer. Regular monitoring of the effectiveness of FLW initiatives could help identify what works and what can be improved. A more ambitious monitoring and evaluation approach would also take account of livelihood, food security and environmental sustainability impacts, and costs to leverage synergies. It could also include barriers to and enablers of effective changes. Ideally, mechanisms, timelines, and indicators for policy evaluations could be defined from the early stages of FLW policy design and development. Peer-to peer country exchanges could be valuable to promote better measurement and evaluation practices.
+
+
+34 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+References
+Bagherzadeh, M., M. Inamura and H. Jeong (2014), “Food Waste Along the Food Chain”, OECD Food, Agriculture and Fisheries Papers, No. 71, OECD Publishing, Paris, https://doi.org/10.1787/5jxrcmftzj36-en.
+[13]
+Britz, W., H. Dudu and E. Ferrari (2014), “Economy-wide Impacts of Food Waste Reduction: A General Equilibrium Approach”, In Conference Proceedings: AgEcon Search, 2014 International Congress. University of Minnesota Department of Applied Economics, https://publications.jrc.ec.europa.eu/repository/handle/JRC92228.
+[69]
+Britz, W. et al. (2019), Economy-wide analysis of food waste reductions and related costs, https://doi.org/10.2760/942172.
+[68]
+Champions 12.3 (2019), 10x20x30, https://champions123.org/10-20-30. [67]
+Convention on Biological Diversity (2022), COP15: Final Text of Kunming-Montreal Global Biodiversity Framework, https://www.cbd.int/article/cop15-final-text-kunming-montreal-gbf221222.
+[50]
+Council of the European Union (2024), Proposal for a Directive of the European Parliament and of the Council - General approach, https://data.consilium.europa.eu/doc/document/ST-113002024-INIT/en/pdf.
+[28]
+De Laurentiis, V. et al. (2024), Building evidence on food waste prevention interventions, https://doi.org/10.2760/684291.
+[58]
+Deconinck, K. and C. Giner (2023), “Overcoming evidence gaps on food systems: Synthesis”, OECD Food, Agriculture and Fisheries Papers, Vol. 199, https://doi.org/10.1787/043db97ben.
+[7]
+EU (2024), EU Food Loss and Waste Prevention Hub,
+https://ec.europa.eu/food/safety/food_waste/eu-food-loss-waste-prevention-hub/about.
+[31]
+EU (2024), EU Platform on Food Losses and Food Waste, https://food.ec.europa.eu/safety/foodwaste/eu-actions-against-food-waste/eu-platform-food-losses-and-food-waste_en.
+[30]
+EU (2024), Main initiatives: Strategic Dialogue on the future of EU agriculture,
+https://agriculture.ec.europa.eu/common-agricultural-policy/cap-overview/main-initiativesstrategic-dialogue-future-eu-agriculture_en.
+[25]
+EU (2024), Securing our future Europe’s 2040 climate target and path to climate neutrality by 2050 building a sustainable, just and prosperous society, https://eur-lex.europa.eu/legalcontent/EN/TXT/?uri=CELEX%3A52024DC0063&qid=1707930666864.
+[24]
+EU (2023), Food waste and food waste prevention,
+https://ec.europa.eu/eurostat/databrowser/view/env_wasfw/default/table?lang=en.
+[35]
+EU (2023), Proposal for a DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL amending Directive 2008/98/EC on waste, https://eur-lex.europa.eu/legalcontent/EN/TXT/?uri=CELEX%3A52023PC0420&qid=1707923093082.
+[29]
+
+
+ 35
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+EU (2020), A Farm to Fork Strategy for a fair, healthy and environmentally-friendly food system, https://eur-lex.europa.eu/legalcontent/EN/TXT/?uri=CELEX%3A52020DC0381&qid=1707924479013.
+[21]
+EU (2019), Commission Delegated Decision (EU) 2019/1597 of 3 May 2019 supplementing Directive 2008/98/EC of the European Parliament and of the Council as regards a common methodology and minimum quality requirements for the uniform measurement of levels of food wast, https://eur-lex.europa.eu/legalcontent/EN/TXT/?uri=CELEX%3A32019D1597&qid=1707865043873.
+[27]
+EU (2018), Directive (EU) 2018/851 of the European Parliament and of the Council of 30 May 2018 amending Directive 2008/98/EC on waste, http://data.europa.eu/eli/dir/2018/851/oj.
+[22]
+EU (2015), An EU action plan for the Circular Economy, https://eur-lex.europa.eu/legalcontent/EN/TXT/?uri=CELEX:52015DC0614.
+[20]
+EU (2008), Directive 2008/98/EC of the European Parliament and of the Council of 19 November 2008 on waste and repealing certain Directives, http://data.europa.eu/eli/dir/2008/98/2018-0705.
+[23]
+EU (2002), Regulation (EC) No 178/2002 of the European Parliament and of the Council of 28 January 2002 laying down the general principles and requirements of food law, establishing the European Food Safety Authority and laying down procedures in matters of food saf, https://eur-lex.europa.eu/legalcontent/AUTO/?uri=CELEX:32002R0178&qid=1707864455711&rid=1.
+[26]
+European Commission, Directorate-General for Health and Food Safety (2024), ucing food loss and waste – Examples of voluntary agreements and other forms of collaborations across Europe – Deliverable of the EU platform on food losses and food waste, https://data.europa.eu/doi/10.2875/212278.
+[62]
+FAO (2023), Tracking progress on food and agriculture-related SDG indicators 2023, FAO, https://doi.org/10.4060/cc7088en.
+[38]
+FAO (2022), Enabling a legal environment for the prevention and reduction of food loss and waste, https://doi.org/10.4060/cc2278en.
+[51]
+FAO (2019), The State of Food and Agriculture 2019. Moving forward on food loss and waste reduction., FAO.
+[19]
+FAO (2013), Food wastage footprint: Impact on natural resources, FAO Publications, https://www.fao.org/4/i3347e/i3347e.pdf.
+[6]
+FAO (2011), Global Food Losses and Food Waste- Extent, Causes and Prevention, FAO. [1]
+Ferella, F. et al. (2019), “A techno-economic assessment of biogas upgrading in a developed market”, Journal of Cleaner Production, Vol. 210, pp. 945-957, https://doi.org/10.1016/j.jclepro.2018.11.073.
+[77]
+FIAL (2021), The National Food Waste Strategy Feasibility Study – Final Report,
+https://workdrive.zohopublic.com.au/external/06152b9ff5971843391f39fc4d32a847e56fb907c 167a4a645887b0a4bc43000.
+[44]
+Flanagan, K., K. Robertson and C. Hanson (2019), “Reducing Food Loss and Waste: Setting a Global Action Agenda”, World Resources Institute, https://doi.org/10.46830/wrirpt.18.00130.
+[79]
+
+
+36 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+FLW Platform (2024), Technical Platform for the Measurement and Reduction of Food Loss and Waste, https://sdgs.un.org/partnerships/technical-platform-measurement-and-reduction-foodloss-and-waste-support-sdg-123.
+[52]
+FOLU Coalition (2022), From Global Commitments to National Action: A Closer Look at Nationally Determined Contributions from a Food and Land Perspective, A report by the FELD Action Tracker (SDSN), https://feldactiontracker.org/analysis-of-ndcs.
+[11]
+Gerber, L. (2023), Bridging the gap between science and policy for a sustainable future, p. 824, https://doi.org/10.1038/s44221-023-00145-x.
+[10]
+Giner, C. and O. Placzek (2022), “Food insecurity and food assistance programmes across OECD countries: Overcoming evidence gaps”, OECD Food, Agriculture and Fisheries Papers, No. 183, OECD Publishing, Paris, https://doi.org/10.1787/42b4a7fa-en.
+[63]
+Giner, C., D. Rodriguez and A. Elasri (2023), “Developing food labels for improved health outcomes: Insights into simplified nutrition labelling policies”, OECD Food, Agriculture and Fisheries Papers, No. 203, OECD Publishing, Paris, https://doi.org/10.1787/c1f4d81d-en.
+[18]
+Gladwell, M. (2002), The tipping point: How little things can make a big difference, Back Bay Books.
+[66]
+Hanson, C. and P. Mitchell (2017), The Business Case for Reducing Food Loss and Waste, https://champions123.org/sites/default/files/2020-08/business-case-for-reducing-food-lossand-waste.pdf.
+[74]
+House of Commons (2024), Food Waste in the UK, https://researchbriefings.files.parliament.uk/documents/CBP-7552/CBP-7552.pdf.
+[59]
+IDB (2022), A Playbook for Reducing Food Loss and Waste in Latin America and the Caribbean, IDB, https://doi.org/10.18235/0004254.
+[34]
+IFWC (2022), Innovation Lab 2022: The top 45 innovations helping to reduce food waste in the hospitality & food service sectors, https://internationalfoodwastecoalition.org/wpcontent/uploads/2022/11/IFWC-2022-Innovation-Lab.pdf.
+[75]
+Institute, W. (ed.) (2013), “Reducing Food Loss and Waste”, Working Paper, Vol. Creating a Sustainable Food Future/2, http://pdf.wri.org/reducing_food_loss_and_waste.pdf.
+[40]
+Jafari, Y. et al. (2020), “Can Food Waste Reduction in Europe Help to Increase Food Availability and Reduce Pressure on Natural Resources Globally?”, German Journal of Agricultural Economics, Vol. 69/2, pp. 143-168, https://doi.org/10.30430/69.2020.2.143-168.
+[70]
+Jennings, M. (2000), , Landscape Ecology, Vol. 15/1, pp. 5-20, https://doi.org/10.1023/a:1008184408300.
+[84]
+JRC (2019), Assessment of food waste prevention actions, https://data.europa.eu/doi/10.2760/9773.
+[73]
+Le Borgne, G. et al. (2021), “Adopting waste-prevention routines: The role of consumer concern for food waste”, Appetite, Vol. 163, p. 105188, https://doi.org/10.1016/j.appet.2021.105188.
+[43]
+
+
+ 37
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Lipinski, B. (2020), SDG Target 12.3 on Food Loss and Waste: 2020 Progress Report. An annual update on Behalf of Champions 12.3, Champions 12.3,
+https://champions123.org/sites/default/files/2020-09/champions-12-3-2020-progressreport.pdf.
+[54]
+Martinez-Sanchez, V. et al. (2016), “Life-Cycle Costing of Food Waste Management in Denmark: Importance of Indirect Effects”, Environmental Science and Technology, Vol. 50/8, pp. 45134523, https://doi.org/10.1021/acs.est.5b03536.
+[76]
+O’Connor, J. et al. (2023), A critical review of on-farm food loss and waste: future research and policy recommendations, https://doi.org/10.1017/S1742170523000169.
+[37]
+OECD (2023), How Green is Household Behaviour?, OECD Publishing, https://doi.org/10.1787/2bbbb663-en.
+[42]
+OECD (2021), Making Better Policies for Food Systems, OECD Publishing, Paris, https://doi.org/10.1787/ddfba4de-en.
+[8]
+OECD (2019), Enhancing Climate Change Mitigation through Agriculture, OECD Publishing, https://doi.org/10.1787/e9a79226-en.
+[16]
+OECD (2016), Reducing food loss and waste in the retail and processing sectors, June 2016, OECD Publishing, https://www.oecd.org/agriculture/topics/food-chain-analysisnetwork/documents/fcan-8th-meeting-summary-record.pdf.
+[17]
+OECD (2013), Food waste along the supply chain, June 2013, OECD Publishing,
+https://webfs.oecd.org/TADWEB//agriculture/topics/food-chain-analysis-network/4th-meetingjune-2013.zip.
+[15]
+Okawa, K. (2015), “Market and Trade Impacts of Food Loss and Waste Reduction”, OECD Food, Agriculture and Fisheries Papers, No. 75, OECD Publishing, Paris, https://doi.org/10.1787/5js4w29h0wr2-en.
+[14]
+Papargyropoulou, E. (2014), “The food waste hierarchy as a framework for the management of food surplus and food waste”, Journal of Cleaner Production, pp. 106-115.
+[48]
+Prime Minister’s Chief Science Advisor (2024), Food loss and waste in Aotearoa New Zealand: Towards a 50% reduction, https://bpb-ap
+se2.wpmucdn.com/blogs.auckland.ac.nz/dist/f/688/files/2024/06/Summary-PDF.pdf.
+[64]
+ReFED (2021), Roadmap to 2030: Reducing U.S. Food Waste by 50%, https://refed.org/uploads/refed_roadmap2030-FINAL.pdf.
+[71]
+ReFED (2016), A roadmap to reduce US food waste by 20 percent, https://refed.org/downloads/ReFED_Report_2016.pdf.
+[72]
+Schneider, F. (2024), Collaboration Initiative Food Loss and Waste launched at MACS-G20 2023 update on activities, Thünen Institute.
+[55]
+Scott, J. et al. (1987), Species richness, a geographic approach to protecting future biological diversity.
+[83]
+SDSN ((forthcoming)), Where is the Action? A practical framework for the systematic tracking and comparative assessment of policy-driven government action on critical international food, environment, land and development targets, FELD Programme, https://feldactiontracker.org/.
+[12]
+
+
+38 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+The Global Food Donation Policy Atlas (2024), Canada: Policy highlights and opportunities, https://atlas.foodbanking.org/country/canada/.
+[65]
+The White House (2024), National Strategy for Reducing Food Loss and Waste and Recycling Organics, https://www.usda.gov/sites/default/files/documents/NATIONAL-STRATEGY-FORREDUCING-FOOD-LOSS-AND-WASTE-AND-RECYCLING-ORGANICS.pdf.
+[56]
+UN FCCC (2023), The Paris Agreement, https://unfccc.int/process-and-meetings/the-parisagreement.
+[5]
+UN FCCC (2022), Progress on the Implementation of China’s Nationally Determined Contributions.
+[81]
+UN FCCC (2021), CANADA’S 2021 NATIONALLY DETERMINED CONTRIBUTION UNDER THE PARIS AGREEMENT, https://unfccc.int/sites/default/files/NDC/202206/Canada%27s%20Enhanced%20NDC%20Submission1_FINAL%20EN.pdf.
+[80]
+UN FCCC (2023b), Republic of Tü rkiye Updated First Nationally Determined Contribution, https://unfccc.int/sites/default/files/NDC/202304/TÜRKİYE_UPDATED%201st%20NDC_EN.pdf.
+[82]
+UNEP (2024), Food Waste Index Report 2024. Think Eat Save: Tracking Progress to Halve Global Food Waste, https://www.unep.org/resources/publication/food-waste-index-report2024.
+[4]
+UNEP (2023), Japanese food waste data reported as part of UNEP pilot data collection. [45]
+UNEP (2021), Food Waste Index Report 2021, UN Environment Programme, https://www.unep.org/resources/report/unep-food-waste-index-report-2021.
+[41]
+UNEP (2021), UNEP Food Waste Index Report 2021 | UNEP - UN Environment Programme, https://www.unep.org/resources/report/unep-food-waste-index-report-2021 (accessed on 6 April 2022).
+[3]
+UNEP (2017), Strengthening the Science-Policy Interface: A Gap Analysis., United Nations Environment Programme (Online), https://wedocs.unep.org/20.500.11822/22261.
+[9]
+United Nations (2022), The Sustainable Development Goals Report,
+https://unstats.un.org/sdgs/report/2022/ (accessed on 9 February 2023).
+[2]
+US EPA (2024), Federal Interagency Collaboration to Reduce Food Loss and Waste,
+https://www.epa.gov/sustainable-management-food/federal-interagency-collaboration-reducefood-loss-andwaste#:~:text=ReFED%20is%20a%20national%20nonprofit,by%20advancing%20data%2Ddr iven%20solutions.
+[60]
+US EPA (2023), From Field to Bin: The Environmental Impacts of U.S. Food Waste Management Pathways, United States Environmental Protection Agency, https://www.epa.gov/landresearch/field-bin-environmental-impacts-us-food-waste-management-pathways.
+[57]
+US EPA (2019), 2019 Wasted Food Report: Estimates of generation and management of wasted food in the United States in 2019, https://www.epa.gov/system/files/documents/202303/2019%20Wasted%20Food%20Report_508_opt_ec.pdf.
+[47]
+
+
+ 39
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+US General Accounting Office (1977), Food Waste: An Opportunity to Improve Resource Use. Report to Congress by the Comptroller General of the United States, https://www.gao.gov/assets/ced-77-118.pdf.
+[49]
+Vaneeckhaute, C. et al. (2018), “Closing nutrient loops through decentralized anaerobic digestion of organic residues in agricultural regions: A multi-dimensional sustainability assessment”, Resources, Conservation and Recycling, Vol. 136, pp. 110-117, https://doi.org/10.1016/j.resconrec.2018.03.027.
+[78]
+WRAP (2023), UK Progress Against the Courtauld Commitment 2030 Food Waste Target and SDG 12.3 as of 2021.
+[46]
+WRAP (2022), Courtauld Commitment 2030, https://wrap.org.uk/resources/report/courtauldcommitment-2030-progress-and-insights-report-2022.
+[61]
+WRI (2024), Food Loss and Waste protocol, https://www.wri.org/initiatives/food-loss-wasteprotocol.
+[53]
+WRI (2023), The Global Benefits of Reducing Food Loss and Waste, and How to Do It, https://www.wri.org/insights/reducing-food-loss-and-food-waste.
+[39]
+WRI, E. et al. (2021), Food Loss and Waste Accounting and Reporting Standard v1.1, WRI. [32]
+WWF-UK (2021), Driven to waste. The Global impact of food loss and waste on farms,
+https://wwfint.awsassets.panda.org/downloads/technical_report___wwf_farm_stage_food_los s_and_waste.pdf.
+[36]
+Zhu, J., Z. Luo and T. Sun (2023), “Cradle-to-grave emissions from food loss and waste represent half of total greenhouse gas emissions from food systems”, Nat Food, pp. 247–256, https://doi.org/10.1038/s43016-023-00710-3.
+[33]
+
+
+40 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Annex A. Questionnaire methodology
+Participation
+Table A.1. Synthetic table on questionnaire participation, ISO codes, and membership in OECD and the European Union
+Part 1 Part 2 ISO code*/Abbrev OECD Member EU Member State Australia x - AUS x Bulgaria x - BGR - x Canada x x CAN x Chile x x CHL x Colombia x x COL x Costa Rica x x CRI x Croatia x x HRV - x Czech Republic x x CZE x x Denmark x x DNK x x Estonia x x EST x x Finland - - FIN x x France x - FRA x x Germany x x DEU x x Greece x x GRC x x Hungary x x HUN x x Ireland x x IRL x x Israel - ISR x Italy x x ITA x x Japan x x JPN x Korea x KOR x Latvia x x LVA x x Lithuania x x LTU x x Luxembourg x LUX x x Mexico x x MEX x Netherlands x x NLD x x New Zealand x x NZL x Norway x x NOR x Poland x x POL x x Portugal x x PRT x x Romania x x ROU - x Slovak Republic x x SVK x x Slovenia x x SVN x x Spain x x ESP x x Sweden x x SWE x x Switzerland x x CHE x Türkiye x x TUR x United Kingdom x - GBR x United States x x USA x Brazil x - BRA - China x x CHN - Indonesia x x IDN - 
+
+
+ 41
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Part 1 Part 2 ISO code*/Abbrev OECD Member EU Member State Kenya - x KEN - Peru x x PER - European Commission x x EC - Number of participants 43 42 Number of completed questionnaires (x) 41 35
+Number of partial and or alternative responses (-)
+27
+* https://www.iso.org/obp/ui/#search/code/ Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+Questionnaire
+OECD Questionnaire on food loss and waste reduction policies
+The aim of this questionnaire is to understand the range of national efforts and experiences in translating global and national commitments on food loss and waste into practical policies, plans and projects; to gain an overview of national targets, policy interventions and tools across countries; and to identify opportunities for accelerated policy learning and resources for accelerated national, regional, and global action.
+The questionnaire is structured in two parts. Part 1 assesses national food loss and waste reduction policies, including questions on national statistics on food loss and waste reduction, global and national commitments, national strategies, and the national policy landscape. Part 2 asks more detailed questions about the policy process of previously identified policy measures, including policy design, and policy evaluation, identification of barriers and success factors for effective policies.
+Part 1: National policy landscape on food loss and waste reduction
+This part 1 includes questions on national food loss and waste reduction strategies (1.1), national statistics on food loss and waste reduction (1.2), and how national targets for food loss and waste reduction, when they exist, are aligned with international reduction targets (1.3). 1.1 National food loss and waste reduction strategy Section 1.1 examines the existence of a national food loss and waste reduction target and a corresponding strategy. 1.1.1 Does your country have a national definition for food waste? • Yes. If so, please provide it here: [field to enter answer]; No; I don’t know. 1.1.2 Does your country have a national definition for food loss? • Yes. If so, please provide it here; No; I don’t know. 1.1.3 Is your country aiming to towards a national reduction target consistent with SDG 12.3?14 • Yes, if so, please provide any comment you may have on which segment of the food supply chain the target applies to; No; I don’t know. 1.1.3.a. National food loss and waste reduction target: please indicate which stages of the food supply chain are affected, and give the specifications:
+Stage 0. Across the agro-food supply chain
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] Stage 1. Primary agricultural production (on farm) • Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year]
+Stage 2. Agricultural handling and storage (post-harvest)
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] Stage 3. Food processing and packaging
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] Stage 4. Wholesale
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year]
+14 SDG 12.3 is defined as follows: “By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses”. More information on SDG 12.3 is available at https://www.un.org/sustainabledevelopment/sustainable-consumption-production/.
+
+
+42 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Stage 5. Retail
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] Stage 6. Hospitality and food services
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] Stage 7. Public food procurement, including public schools. • Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] Stage 8. Private households
+• Not applicable; National target: [enter value per capita/per year] and [unit (per cent; tonnes; kg; other)] until [enter year] 1.1.4 Has your country developed, or is planning to develop, a national strategy to prevent and reduce food loss and waste? Yes/No • Yes, if Yes: • 1.1.4a1 please indicate the following elements in relation to the national strategy to reduce food loss and waste reduction o please indicate the name of the strategy o please insert a link. o please select the year the policy was implemented: o If applicable, what is the time frame of the strategy15? / Not applicable • 1.1.4a2 please select the elements included in the strategy: o Binding legal targets to reduce food loss and waste16 o A food donation system17 o Food safety and quality regulation18 o Clear date labelling requirements19 o A prioritisation of measures20 • 1.1.4a2(rank) Please rank the following approaches to prevent and reduce food loss and waste by order of priority. o Source reduction: reduce the risk of FLW generated. o Food redistribution: donate surplus food to food banks, soup kitchens and shelters. o Feed animals: divert food scraps to animal feed, or other non-food products. o Composting: for nutrient-rich soils. o Industrial uses: energy recovery. o Waste disposal: waste incineration or landfills • 1.1.4a3 which entity coordinates the strategy? • No, if No: • 1.1.4b1 Does the national waste management strategy cover food loss and waste reduction?  Yes; 1.1.4b1a Please indicate the name of the strategy. ‒ Please insert a link ‒ Please select the year the policy was implemented: ‒ If applicable, what is the time frame of the strategy2? / Not applicable  No; 1.1.4.b2 is there another strategy that covers food loss and waste reduction? o No
+o Yes; 1.1.4b2a Please indicate the name of the strategy. ‒ Please insert a link ‒ Please select the year the policy was implemented: ‒ If applicable, what is the time frame of the strategy2? / Not applicable. 1.2 National statistics on food loss and waste reduction
+15 The time frame refers to the timeline of the strategy, from the year of implementation to the year by which the set target should be reached. 16 A binding legal target refers to an agreed or mandatory reduction target in food loss and waste that a country must meet in the future, within a defined period, possibly subject to an incentive scheme providing for rewards, disincentives and/or corrective action plans. 17 Food donation system is a process usually led by food donation organisations that collect food from businesses and individuals, or from the ones with an excess of goods, store it, distribute it to the food banks and finally redirect it to people in the community that have a deficit of goods. 18 Food safety and quality regulation covers the regulation of food control, food safety, quality, and relevant aspects of food trade across the entire food chain, from the provision for animal feed to the consumer. 19 Date marking on food refer to the "use by" and "best before" dates that describe the shelf-life of a product and the date by which it is not safe to consume anymore. 20 A prioritisation of measures determines the order of priority of different approaches to reduce food loss and waste.
+
+
+ 43
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Section 1.2 includes questions on national statistics, measurement and monitoring of progress on food loss and waste reduction. 1.2.1 Does your government monitor, or plan to monitor, national food loss and waste reduction? Yes/No Please refer to point 1.1.3.a (details) for the different stages of the Food Chain (from 1 to 8) • No
+• Yes, if Yes: ‒ 1.2.1.as If available, please provide a link to the national monitoring webpage. ‒ 1.2.1.b When did the monitoring start? ‒ 1.2.1.c When was the most recent monitoring carried out? ‒ 1.2.1.d What method is used for monitoring? ‒ Census; 1.2.1.d1 please specify the type of participation [Mandatory participation + mandatory reporting / Mandatory participation, no mandatory reporting / Voluntary participation / Other] and in which stages of the Food Chain (1 to 8) + Waste disposal and other] ‒ Sampling; 1.2.6b please, specify the type of participation [Mandatory participation + mandatory reporting / Mandatory participation, no mandatory reporting / Voluntary participation / No / Other]and in which stages of the Food Chain (1 to 8) + Waste disposal and other] ‒ Reporting; 1.2.6c Please, specify the type of participation [Mandatory participation + mandatory reporting / Mandatory participation, no mandatory reporting / Voluntary participation / No / Other] and in which stages of the Food Chain (1 to 8) + Waste disposal and other] ‒ Other, please specify; If needed, please specify any other type of participation and at what stage: 1.2.2 Are food loss and food waste distinguished? • Yes, No
+1.2.3 Does the monitoring distinguish edible parts of food discarded from inedible parts? • Yes, No
+1.2.4 Does the monitoring distinguish avoidable from unavoidable food loss and waste? • Yes, No 1.2.5 Is this a periodic exercise? • Yes; 1.2.5a what is the frequency? No 1.2.6 Is the result of the collection publicly available? • Yes, it is reported in a database. • Yes, it is reported in a publication. • No
+• Other. If selected, please explain: 1.2.7 Does your government monitor food waste using the UNEP Food Waste Index21 or food loss using the FAO Food Loss Index22 to monitor Sustainable Development Goal 12.3? • Yes, no; Don’t know. 1.2.8 Please indicate the name(s) and the corresponding website(s) of the institution(s) responsible for collecting data on food loss and waste in your country. (If more than one, please detail the responsibilities of the different institutions [field to enter names of the institution and website link] 1.3 Participation in global commitments and pledges Section 1.3 includes questions on participation in global commitments and pledges on food loss and waste reduction. 1.3.1 Is food loss and waste included in the nationally determined contributions (NDCs23) of your country? • Yes, please specify (whether it is mentioned in the text or contributes to the NDC target) • No, please specify the rationale. • I don’t know. 1.3.2 Are you aware of the FAO Voluntary Code of Conduct for Food Loss and Waste Reduction24? • No
+• Yes, If yes: o 1.3.2a Do you apply it in a national strategy for food loss and waste? o Not applicable, please explain; No, please explain; yes.
+21 More information available at: https://www.oneplanetnetwork.org/ 22 More information available at: https://www.fao.org/platform-food-loss-waste/food-loss/food-loss-measurement/en. 23 More information on NDCs is available at: Nationally Determined Contributions (NDCs) | UNFCCC. 24 To make agrifood systems more sustainable, resilient, inclusive, and efficient, the Voluntary Code of Conduct for Food Loss and Waste Reduction outlines a general framework of guiding principles and actions that should be followed to reduce the amount of food that is lost or wasted. More information is available at https://www.fao.org/documents/card/en/c/cb9433en.
+
+
+44 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+1.3.3 Are you aware of the Target-Measure-Act approach25? • No; yes, if yes: o 1.3.3a Do you apply it your national strategy for food loss and waste? o No; yes. 1.3.4 Please indicate your country’s status with regards to these international select the international initiatives on FLW you are aware of: • FAO Technical Platform on the Measurement and Reduction of Food Loss and Waste26 o If selected, do you participate and report to it? ‒ No; yes, but without participation; yes, with participation and report to it. • UNEP Food Loss and Waste Protocol Multi-Stakeholder Partnership27 o If selected, do you participate and report to it? ‒ No; yes, but without participation; yes, with participation and report to it. • EU Platform on Food Losses and Food Waste28 o If selected, are you a member of the Platform? ‒ No; yes, • EU Food Loss and Waste Prevention Hub15a o If selected, do you participate and report to it? o No; yes, but without participation; yes, with participation and report to it. • The #123 Pledge29 of the Food is Never Waste Coalition30 • If selected, do you participate and report to it? ‒ No; yes, but without participation; yes, with participation and report to it. Collaboration Initiative on Food Losses and Waste launched at MACS-G2031 • If selected, do you participate and report to it? ‒ No; yes, but without participation; yes, with participation and report to it. 1.4 Additional information
+Please provide any additional comment relevant to this section Part 2: Policy initiatives along the food supply chain Part 2 examines policy measures in each stage of the food supply chain (from primary production to private households). The specific policy measures identified in this section are not necessarily linked to a national strategy for food loss and waste reduction. In each stage of the food supply chain, you will first be asked if a policy has been implemented and to specify the type of policy instrument. (Overarching strategy and/or regulatory framework, Consumer behavioural change / Awareness raising initiatives, educational initiatives, Voluntary collaboration with stakeholders, Mandatory regulations, Fiscal measures). Some instruments are supportive, such as subsidies, or road and communication infrastructures that ease marketing of otherwise discarded foods. Second, the policy process of the policy measures will be examined, with a focus on policy design, policy evaluation, and the identification of success factors and challenges related to effective food loss and waste reduction in your country. The aim of this section is the international comparison of policy processes and the identification of relevant case studies. Please note that this section is voluntary and encouraged. 2.1 For which stages (Stage X from 1 to 8) of the food supply chain is your government implementing or has implemented initiatives to prevent and reduce food waste and loss? • Stage 1. Primary agricultural production (on farm) • Stage 2. Agricultural handling and storage (post-harvest) • Stage 3. Food processing and packaging • Stage 4. Wholesale • Stage 5. Retail • Stage 6. Hospitality and food services • Stage 7. Public food procurement, including public schools. • Stage 8. Private households Remark: Stage X stands for the number (1 to 8) of the selected stage(s), cf question 1.1.3.a
+25 The Target-Measure-Act approach has been developed by the World Resource Institute (WRI) to support countries in accelerating food loss and waste reduction. More information is available at https://champions123.org/publication/call-global-action-food-loss-andwaste. 26 More information is available at: https://www.fao.org/platform-food-loss-waste/in-action/countries/en. 27 More information is available at: https://www.flwprotocol.org/ 28 More information is available at: https://food.ec.europa.eu/safety/food-waste/eu-actions-against-food-waste/eu-platform-foodlosses-and-food-waste_en. 28a https://ec.europa.eu/food/safety/food_waste/eu-food-loss-waste-prevention-hub/ 29 More information on the Pledge is available at: https://www.fao.org/platform-food-loss-waste/news/news-detail/123-food-loss-andwaste-pledge-for-climate-action/en. 30 More information on the Coalition is available at: https://foodsystems.community/emerging_coalition/coalition-on-food-is-neverwaste/. 31 More information can be found at: https://www.macs-g20.org/about-macs/macs-activities/collaboration-initiative-on-food-lossesfood-waste-launched-at-macs-g20.
+
+
+ 45
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+FOR EACH SELECTED STAGE(S) 2.1.X. You have mentioned that your government is implementing or has implemented policy initiatives in Stage X (from 1 to 8). Please, indicate the name of this/these policy(ies) (they will be referred as policy #n). Name of the policy (Please fill in at least one answer)
+• Policy #1.: [Name of the policy]; Policy #2.: [Name of the policy]; Policy #3.: [Name of the policy]
+FOR EACH SELECTED STAGE(S) and SELECTED POLIC(Y/IES) Remark: Stage X (from 1 to 8) and policy #n (from1 to 3): all the questions below apply 1/ Policy design
+a. Year of implementation:
+b. Is this policy part of a national strategy? • Yes, No; Not applicable. c. Select the type of policy instrument: • Overarching strategy and/or regulatory framework32 • Consumer behavioural change / Awareness raising initiatives 33 • Educational initiatives34 • Voluntary collaboration with stakeholders35 • Mandatory regulations36 • Fiscal measures, including taxes and subsidies37 • Other
+o c.1 If other, which type of policy instrument was used? d. Select the elements that were included in the policy design: • Scientific evidence • Consumer research • Deliberative processes including citizen panels. • Interactions with food systems stakeholders, civil society, and other actors • Interactions with the waste management industry • Plans for revision or extension. • Regulatory impact assessments • Coordination at the international level (e.g., discussions with colleagues in other countries, discussions at FAO/UNEP/OECD) • Other o If other, what other elements were included in the policy design process? e. Please indicate the website link of the policy. 2/ Policy evaluation a. Do you monitor and evaluate the effectiveness? • No answer: no; yes a1. Please indicate. • the year of the last evaluation; A website link of the evaluation, if available: b. Do you monitor and evaluate the environmental, economic, and social impacts of the policy measure? • No; yes, if yes:
+32 A policy framework is document that sets out a set of goals, which might be used in decision-making to guide a more detailed set of policies, or to guide ongoing maintenance of a country’s policies. An example is the Japanese Food Waste Recycling Act (2000). More information is available at: https://doi.org/10.1787/18156797. 33 Consumer behavioural change / Awareness-raising initiatives seek to inform citizen and consumers about a food waste with the intention of influencing their attitudes, behaviours, and beliefs towards the achievement of a defined reduction goal. An example is the British Love Food Hate Waste campaign. More information available at: https://www.lovefoodhatewaste.com/. 34 Educational initiatives seek to educate citizen and consumers about a food waste with the intention of influencing their attitudes, behaviours, and beliefs towards the achievement of a defined reduction goal. 35 Voluntary collaboration with stakeholders includes partnerships between and multi-stakeholder initiatives voluntarily undertaken by governments, intergovernmental organizations, major groups and other stakeholders, which efforts are contributing to the implementation of agreed commitments between stakeholders. An example is the 123 Pledge coordinated by Champions 12.3, UN Environment Programme (UNEP), and Food and Agriculture Organization of the United Nations (FAO). More information available at: https://champions123.org/123pledge. 36 Mandatory regulations are obligations under any applicable laws that cannot be excluded, disapplied or limited. Their application is subject to sanctions. An example is the law enforced by Spain since January 2023 which obliges restaurants and food services to pack left-over and hand them to the customers at the end of the meal. 37 Fiscal measures include taxes and subsidies. The FAO Voluntary Code of Conduct on Food Loss and Waste recommends tax legislation to be food loss and waste sensitive, either by disincentivizing actions that contribute to food loss and waste (through taxes) or incentivizing those that reduce it (through subsidies or tax rebates). An example is the pay-as-you-throw system established in Korea that imposes landfill taxes for discarded food. The tax aims to make directing food to landfills the most expensive option. More information available at: https://seoulsolution.kr/.
+
+
+46 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+b1. Please specify: Ex ante; Ex post; Please specify any related document including impact assessment. 3/ Enablers and barriers to success of policies to prevent and reduce food loss and waste What barriers and enablers to success did you identify so far based on the evaluation or on the experience from the policy process? a. Barriers • Lack of financial resources • Lack of capacity and skills • Lack of data on food loss and waste • Lack of digital tools to monitor and measure food loss and waste prevention and reduction. • Lack of national strategy for food loss and waste prevention and reduction • Food loss and waste prevention and reduction is not prioritized. • Lack of governance structure • Misalignment with policy initiatives at supranational level and global commitments • Misalignment with whole of governments policy initiatives • Lack of coordination between stakeholders • Lack of incentives to prevent and reduce food loss and waste. • Other; a.1. If other, please explain. b. Enablers • Financial resource availability • Capacity and skills • An evidence-based strategy • An integrated approach • A framework for action • Clear governance structure • Alignment with policy initiatives at supranational level and global commitments • Alignment with whole of governments policy initiatives • Monitoring, reporting, and evaluation • A whole of government approach based on inter-institutional coordination. • Other; b.1. If other, please explain. 2.2. Policy initiatives to prevent and reduce food loss and waste along the food supply chain. Please rank and name the main policy initiatives (maximum 5) mentioned previously according to estimated food loss and waste prevention and reduction potential. Specify Stage number / Name of the policy: • Most important policy initiative [Stage X / Name of the policy #] • 2nd most important policy initiative [Stage X / Name of the policy #] • 3rd most important policy initiative [Stage X / Name of the policy #] • 4th most important policy initiative [Stage X / Name of the policy #] • 5th most important policy initiative [Stage X / Name of the policy #] Please provide explanations. 2.3 Additional information Please provide any additional comment relevant to this section, including if there is policy across the entire agro-food supply chain.
+
+
+ 47
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Annex B. Questionnaire responses
+Table A B.1. FLW denominations, targets, and strategies
+Notes: This table is based on responses to questions 1.1.1 to 1.1.4. Stages codes: S.0 : all stages, S. 1. Primary agricultural production (on farm), S. 2. Agricultural handling and storage (post-harvest) S. 3. Food processing and packaging S. 4. Wholesale S. 5. Retail S. 6. Hospitality and food services S. 7. Public food procurement, including public schools S. 8. Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+Baseline
+All S0 S1 S2 S3 S4 S5 S6 S7 S8 Countries following EU definition
+BGR EU Edible 25% by 2025 ◯ ◯ ◯ CZE EU ... ◯ ◯ ◯ ◯ DEU EU ... ◯ DNK EU ... ◯ ◯ ◯ ◯ EC EU ... 10% ◯ ◯ ◯ ◯ ◯ ESP EU ... 20% 50% 50% 2020 ◯
+EST EU Edible ◯ ◯ ◯ ◯ FIN EU ... ◯ GBR EU ... ◯ ◯ GRC EU ... 30% 30% 2020 ◯ ◯ ◯ HUN EU ... 50% 50% by 2030 IRL EU ... ◯ ◯ ◯ LTU EU ... 50% 50% ◯ LUX EU ... LVA EU ... ◯ ◯ ◯ ◯
+POL EU ... 50% ◯ ◯ ◯
+SWE EU Out of human food ◯
+Countries following FAO definition
+BRA FAO FAO ◯ ◯ ◯ ◯ CHL FAO FAO ◯ ◯ ◯ ◯ COL FAO FAO ◯ ◯ ◯ CRI FAO FAO ◯ ◯ ◯ ◯ ◯ IDN FAO FAO ◯ PER FAO FAO ◯ TUR FAO Edible ◯ USA FAO FAO 50% 2016 ◯ ◯ Countries covering both edible and inedible food
+AUS All food ... 50% 2021 ◯ ◯ CHE All food ... 2017 ◯ ◯ ◯ ◯ ITA All food ... ◯ ◯ ◯ Countries covering edible food
+CHN Edible ... 4.64kg by 2025 ◯ FRA Edible ... 2015 ◯ ◯ ◯ ◯ NOR Edible ... 50% 2015 ◯ ◯ ◯ PRT Edible ... 50% ◯ ◯ ROU Edible ... SVN Edible ... 2020 ◯ ◯ ◯ ◯ JPN S3-S5 Edible 50% 2000 ◯ ◯ ◯ ◯ Countries, other
+CAN ... ... ◯ HRV ... ... 50% 50% ◯ ◯ ◯ KEN ... ... 50% by 2025 2015 ◯ KOR ... ... ◯
+MEX ... ... 50% ◯ NLD ... ... ◯ ◯ ◯ ◯ NZL ... ... SVK Out of use Out of food chain ◯ ◯ ◯ ◯
+... Stages w/ quantifiable target defined as FW ◯ ...Own denomination ... Stages w/ quantifiable target defined as FL ... Stages w/ quantifiable target w/o denomination ... Stages w/o quantifiable target defined as FW ... Stages w/o quantifiable target defined as FL ... Stages w/o quantifiable target w/o denomination
+50% by 2030
+50% by 2030 50% by 2025 50% by '30
+50% by 2030
+50% by 2030
+All food : both edible and inedible food
+50% by 2030
+50% by 2030
+30% by 2030
+50% at least 20% by 2025
+50% by 2030
+Donation Safety &
+quality reg. Labelling Prioritising
+measures
+50% by 2030
+Definition National Target National Strategy
+Food waste Food loss
+Stages affected by national target Elements included in the national strategy
+Food supply chain stages Binding target
+
+
+48 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table A B.2. FLW measurement
+Notes: This table is based on responses to questions 1.2.1, 1.2.6 and 1.2.7. Stages codes: S. 1. Primary agricultural production (on farm), S. 2. Agricultural handling and storage (post-harvest) S. 3. Food processing and packaging S. 4. Wholesale S. 5. Retail S. 6. Hospitality and food services S. 7. Public food procurement, including public schools S. 8. Private households Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+S1 S2 S3 S4 S5 S6 S7 S8 Disposal Other Database Publication Other Americas BRA x CRI x MEX x USA &census x Asia and Oceania AUS x JPN x KOR x TUR Europe
+CHE &sampling x CZE DEU x x DNK x EC x ESP x EST x FIN x FRA x GBR x GRC HRV x HUN x IRL x ITA x LTU x LUX x x LVA x NLD x
+NOR &reporting x POL x PRT x SVK & sampling SVN &other x x SWE & sampling x ... Stages used mandatory reporting Countries using UNEP FW Index : BRA, CRI, CZE, EC, NOR, USA ... Stages used reporting Countries using FAO FL Index : BRA, CRI, SWE ... Stages used mandatory sampling ... Stages used sampling ... Stages used census ... Stages covered with other method
+National Measurement
+Availability
+Stages covered by measurement
+
+
+ 49
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table A B.3. Participation to international initiatives
+Global Commitment Global Framework Global Initiative
+SDG Target 12.3 Alignment
+NDCs* FAO Voluntary Code
+TargetMeasureAct
+FLW Platform
+FLW Protocol
+#123 Pledge
+EU Platform
+EU Hub
+MACSG20 Primary Response
+Direct reference AUS ◯ Yes x Aware Apply x x x x x x CAN ◯ Yes ◯ Aware Aware Aware Aware Aware Aware Aware Join CHE ◯ x x x x ESP ◯ Apply Apply Join x x Join Join x FRA ◯ Yes x Apply Aware Join Join Join Join JPN ◯ Yes x Apply x Join x x x x Join NLD ◯ Apply Apply Aware Aware Join Join Join NOR ◯ Apply Apply x Join x Join Aware x PRT ◯ Aware x x x x Join Join x USA ◯ Yes x Aware Aware Aware Aware Join x x x CRI ◯ Yes x Apply Apply Join x x x x x CZE ◯ Yes x Apply Aware Aware Aware Aware Join Join Aware DEU ◯ No Apply Apply Aware x x Join Join Join HRV ◯ Aware Apply x x x Join Join x HUN ◯ Apply Join Join Join IRL ◯ No Aware Aware x x x Join Join x LTU ◯ x x Join Join MEX ◯ Apply x POL ◯ x x x x x Aware Join x ROU ◯ Yes x Aware Aware x x Aware x x CHN ◯ No ◯ x Aware x x x x x x COL ◯ x x x x x x x x DNK ◯ x Aware x x Aware Join Join x EC ◯ No Apply Apply Aware Aware Aware Join Join Aware EST ◯ Yes x Aware Apply Aware x Aware Join Join Aware GBR ◯ Yes x Aware Apply Join Join Join Join Join GRC ◯ Yes x Aware Apply Join Join IDN ◯ No x Aware ITA ◯ Aware x Join Join Join KEN ◯ No Aware Aware Aware Aware SVK ◯ x x Join Join SVN ◯ Apply Aware x x Join Join x BGR ◯ x x Join Join FIN ◯ x Apply x x x Join Join x SWE ◯ No Aware Apply Join Join x Join Join x BRA Yes x Apply Aware Join Join Join Join Join Join CHL No Apply Apply x x x KOR Don't know Aware Aware Join x x x LUX Yes x Aware Apply Join Join LVA No Aware x x Aware x Join Join x NZL Yes x Aware x x x x x x PER Yes x Apply x TUR Yes ◯ Apply Aware Join Aware Aware Aware Aware Higher ◯ ... Direct reference ... Aware and act on the global framework/initiative Aligned x ... No direct reference ... Aware but not act on the global framework/initiative Lower ... Not aware of the global framework/initiative Not comparable
+Notes: This table is based on responses to questions 1.1.3 and 1.3. * Switzerland has an indirect reference to FLW in NDCs Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+50 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table A B.4. FLW Strategy and data collection governance
+Note: This table is based on responses to questions 1.1.4 and 1.2.8. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+National strategy Data collection
+Column3 Ministry lead Gov. Agency Other Other lead Ministry Gov. Research/ Other Strategy entity
+Ag/Food Env/Climate Other lead public lead Ag/Food Env/Climat Other Agency Stat included ? Ministry lead & collection
+CRI ◯ ◯ Health Planning
+CZE ◯ ◯ Yes DEU ◯ ◯ ◯
+ESP ◯ ◯ ◯ ◯ Yes EST Climate Reg Affairs,agri&soc. Affairs ◯ ◯ ◯ Yes FRA ◯ ◯ ◯ Yes GRC ◯ ◯ ◯ Yes HRV ◯ ◯
+ITA ◯ ◯ ◯ ◯ x2 Yes LVA ◯ ◯
+POL ◯ Ag/Food Fed., ReseaIrncdh., University ◯ Yes SVK ◯ ◯
+Ministry lead , other structure for collection BGR ◯ ◯ BRA ◯ ◯ DNK ◯ ◯ ◯
+EC Health & food safety ◯ FIN ◯ ◯
+GBR ◯ Charity org IRL ◯ ◯ Env/Climat ◯ Yes KOR ◯ Env. Corporation LTU ◯ ◯
+NOR ◯ ◯ Health, trade, family ◯ x2 ◯ x3 PRT ◯ Social Associations ◯ ◯ SVN ◯ ◯
+USA ◯ Env/Climate ◯ Yes
+Ministry lead
+CAN ◯ Charity org CHL ◯ COL ◯ KEN ◯ IGAD MEX ◯ TUR ◯
+Other lead
+CHN CPC, State council IDN Ag/Food Pesidential Delegate JPN Consumer Affair SWE Ag/Food, Env/Climate ◯ x2 Yes
+Ad hoc lead
+AUS Independen Independen Yes CHE Env. ◯ ◯ Yes HUN Energy food safety authority LUX ◯ NLD Independent
+◯ ...Entity involved
+
+
+ 51
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table A B.5. Policy enablers, based on country count, by stage
+Number of countries that identify an enabler by stage
+An integrated approach
+Monitoring, reporting, and evaluation
+An evidencebased strategy
+A framework for action
+A whole of government approach based on inter-institutional coordination
+Other
+8. Private households 17 16 16 15 14 10
+1. Primary agricultural production (on farm)
+16 13 13 15 10 6
+3. Food processing and packaging
+16 12 12 13 11 5
+2. Agricultural handling and storage (post-harvest)
+15 13 11 12 10 8
+5. Retail 15 12 13 14 12 7
+6. Hospitality and food services
+15 12 10 11 11 6
+4. Wholesale 14 11 8 11 10 6
+7. Public food procurement, including public schools
+8 10 9 8 6 4
+Notes: This table is based on responses to question 2.1. Enablers are ranked overall according to the number of countries that have identified them. Highlight rules: The top two enabler by stage are highlighted. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+Table A B.6. Inputs to policy design, based on country count, by stage
+Stage 1
+Stage 2
+Stage 3
+Stage 4
+Stage 5
+Stage 6
+Stage 7
+Stage 8
+Interactions with food systems stakeholders, civil society, and other actors
+29 20 26 25 33 27 16 33
+Scientific evidence 18 13 17 17 17 18 9 29 Interactions with the waste management industry 11 15 13 13 14 15 10 19 Regulatory impact assessments 15 11 10 14 17 13 6 17 Consumer research 6 6 11 6 14 12 2 23
+Coordination at the international level (countries, FAO/UNEP/OECD)
+10 9 7 9 8 10 5 11
+Plans for revision or extension 14 6 9 7 7 6 6 11 Deliberative processes including citizen panels 7 6 4 5 5 8 3 9 Other 5 2 3 1 2 2 3
+Notes: This table is based on responses to question 2.1. Highlight rules : The top three elements by stage are highlighted. Stages codes: Stage 1. Primary agricultural production (on farm), Stage 2. Agricultural handling and storage (post-harvest) Stage 3. Food processing and packaging Stage 4. Wholesale Stage 5. Retail Stage 6. Hospitality and food services Stage 7. Public food procurement, including public schools Stage 8. Private households. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+52 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Table A B.7. Layers of policies through time and stages covered, ranked according to strategy launch year
+2015 and before
+2016-2019 2020-2023 2024 and after
+N/A Number of periodic sequences
+Individual policy count
+CZE (2014) Stage 0 Stage 5 - Stage 8
+Stage 0 3 4
+DEU (2019) Stage 8 Stage 4, 5 Stage 6, 7
+Stage 1, 2, 3, 8 3 6
+IDN (ns) Stage 3 1 1
+IRL (2022) Stage 7 Stage 0, 1 Stage 4 3 4 KEN (2015) Stage 2 1 1
+NLD (2019) Stage 1 to 8 1 4
+POL (2021) Stage 3, 4, 5 Stage 4, 5, 8 Stage 2 to 6, 8 3 4
+PRT (2016) Stage 0 Stage 1, to 6, 8 2 4
+USA (ns) Stage 1, 2, 7, 8 Stage 1, 3 to 6 Stage 1, 8 3 9
+CRI (2014) Stage 1, 2, 4, 6, 8, ns
+Stage 0, 1 to 4, 6, 8
+27
+HRV (2019) Stage 0 1 1
+DNK (2020) Stage 0 Stage 8 3 2
+EST (2021) Stage 3 Stage 0 3 5
+ITA (2016) Stage 2, 5, 7, 8 1 1
+JPN (2018) Stage 3, 4, 5, 6, 8
+Stage 3, 4, 5, 6, 8
+23
+LTU (2022) Stage 5 Stage 1 to 3, 6, 8
+Stage 2 4 8
+NOR (2017) Stage 0 Stage 5, 6, 7, 8 2 2
+ROU (ns) Stage 0 1 1
+SVN (2021) Stage 3 to 8 Stage 0, 1 Stage 0, 6 3 8
+SVK (2016) Stage 5, 8 Stage 5 2 2
+SWE (2018) Stage 1 to 8 Stage 4, 5 2 4
+EC (2015) Stage 1 to 5, 7 Stage 0 Stage ns 3 9
+AUS (2017) Stage 1 to 6 Stage 8 2 3
+CAN (2019) Stage 1, 2, 3 1 1 CHE (2022) Stage 0 1 1
+CHL (2023) Stage 1 to 3, 6, 8
+Stage 1 to 6 2 9
+CHN (2021) Stage 0,1 to 3, 5 to 7
+17
+COL (2022) Stage 0, ns 1 2 FRA (2013) Stage 1 1 3
+GBR Stage 1, 2 1 2 GRC (2021) Stage 0 1 1
+HUN (ns) Stage 8 1 1
+LVA (2003) Stage 5, 6 Stage ns 3 3
+MEX (ns) Stage 1 2 2
+NZL (ns) Stage 8 1 1 PER (2024) Stage ns 1 1 ESP (2021) Stage 0 1 2
+TUR (2020) Stage 5, 6, 8 Stage 2, 4 2 6
+
+
+ 53
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+2015 and before
+2016-2019 2020-2023 2024 and after
+N/A Number of periodic sequences
+Individual policy count
+NZL (ns) Stage 8 1 1
+GBR Stage 1, 2 1 2
+HUN (ns) Stage 8 1 1
+MEX (ns) Stage 1 2 2
+PER (2024) Stage ns 1 1
+Notes: This table is based on responses to question 2.1. ns: not specified. Stages codes: Stage 0, all stages Stage 1. Primary agricultural production (on farm), Stage 2. Agricultural handling and storage (post-harvest), Stage 3. Food processing and packaging, Stage 4. Wholesale, Stage 5. Retail, Stage 6. Hospitality and food services Stage 7. Public food procurement, including public schools, Stage 8. Private households Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+Table A B.8. FLW policy evaluation practices
+Stage Countries that report a date
+for their latest evaluation
+Countries that make their evaluations available on a website
+Date ranges (oldest to newest) of latest evaluation
+8. Private households 12
+HRV, CZE, DEU, ESP, HUN, JPN, NLD, NOR, POL, PRT, SVK, TUR
+7
+HRV, CZE, DEU, JPN, NOR, PRT, SVK
+2017-2023
+1. Primary agricultural production (on
+farm) 10
+HRV, CZE, DEU, EC, ESP, FRA, NLD, PRT, ROU, SWE
+6 HRV, CZE, FRA,
+NLD, PRT, USA 2019-2025
+5. Retail 10
+HRV, CZE, ESP, JPN, LVA, NLD, NOR, PRT, SVK, TUR
+6 HRV, CZE, JPN,
+NOR, PRT, SVK 2019-2023
+3. Food processing and packaging
+9 HRV, CZE, DEU, ESP, EST, JPN, NLD, NOR, PRT
+7 HRV, CZE, EST, JPN, NLD, NOR, PRT
+2019-2023
+4. Wholesale 9
+HRV, CZE, DEU, ESP, JPN, NLD, NOR, PRT, SVN
+6 HRV, CZE, DEU,
+JPN, NOR, PRT 2019-2023
+6. Hospitality and food services 9
+HRV, CZE, DEU, ESP, JPN, NLD, NOR, PRT, TUR
+6 HRV, CZE, DEU,
+JPN, NOR, PRT 2019-2023
+2. Agricultural handling and storage
+(post-harvest) 4 HRV, CZE, ESP,
+NOR 3 HRV, CZE, NOR 2019-2023
+7. Public food procurement, including
+public schools 4 HRV, ESP, NLD,
+NOR 2 HRV, NOR 2020-2023
+Note: This table is based on responses to question 2.2. Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+54 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Annex C. Categorisation of countries, by level of ambition of the national FLW targets
+Country Original texts from country survey responses in Q. 1.1.3 Level of ambition
+Australia (AUS)
+“...However, whilst Australia’s definition of food waste is consistent with Sustainable Development Goal 12.3, Australia’s target is more ambitious in that it specifies halving food loss and waste across the food supply chain (whereas Sustainable Development Goal 12.3 requires only a reduction in food loss) ...”
+Higher: 50% reduction in entire food chains (both FLW).
+Bulgaria (BGR)
+"Gradually reduction of food loss and waste to achieve SDG 12.3 by establishing and implementing a national policy as follows: • 25% reduction of food loss and waste until the year 2026; • further reduction of loss and waste until the targets of 2030"
+Not comparable: Having targets however, no numerical target set by 2030.
+Canada (CAN)
+“A key commitment emerging from the 10th North American Leaders’ Summit held on January 10, 2023, is for Canada, the United States and Mexico to each develop a domestic Food Loss and Waste Reduction Action Plan by the end of 2025 outlining efforts to cut food loss and waste in half by 2030. This commitment is consistent with SDG target 12.3. Canada is in the process of developing a definitional framework, in support of measurement and monitoring efforts. “
+Higher: 50% reduction in both FLW by 2030. Canada selects all stages covered by the national target in Q. 1.1.3a.
+Switzerland (CHE)
+“The national action plan against food waste targets the whole value chain from farm to fork and distinguishes the following segments: agriculture - processing - trade and retail - hospitality consumer. A voluntary cross-industry agreement complements the action plan. “
+Q1.1.3a: halve food waste by 2030 compared to 2017, both in kg across all food chains.
+Higher: 50% reduction in stage 1 to 8 by 2030 for avoidable FL. Therefore, covers whole food chains
+China (CHN)
+“There are no quantitative indicators targets for reducing food loss and waste in China's national plan. It only reports to grain loss rate. “
+Lower: No indicators exist
+Colombia (COL)
+"...It is important to note that although the current policy has not yet defined specific goals, the Colombia 2050 Vision prepared by the National Planning Department stated the following broad target: “;Sustainable, efficient and globally interlinked territorial agrifood systems, by 2050, will improve the availability, access and use of agricultural products, contributing to adequate food, mitigating the indices of food insecurity and malnutrition of the national population and the loss and waste of food”; (DNP, Vision Colombia 2050, 2022). Given the fact that the National Development Plan was approved four months ago, there are still no specific targets for each stage of the agro-food supply chain."
+Lower: No specific target established
+Costa Rica (CRI)
+"1/ We have been working in correspondence to SDG target 12.3 and as it states, we have tried to target different stages of the food supply chain.
+2/ All stages are affected by FLW, and all stages are of interest to be addressed by current or future actions. All stages are subjects/objects of related policies, whether they relate to primary production, industry, wholesale or retail distribution, food services, and households; however, there is no official data to support the requested information for National FLW Target values, units, and years. So far, targets could be set based on SDG target 12.3; i.e., 50% reduction of food waste, reduction to a degree of food loss.
+3/ Note: Although serious work is occurring in the country, there is no National / Institutional mandate or specific and official FLW Strategy. This causes the absence of official data whether as a national target or indicator (kg/ha, per capita, %) ..."
+Aligned: Meeting 50% in FW and reduction in FL by 2030
+Croatia (HRV)
+“Croatia is committed to meeting the Sustainable Development Goal Target 12.3 to halve per capita food waste at the retail and consumer level by 2030 and reduce food losses along the food production and supply chains, as it is stated in Plan for food waste prevention and reduction. “
+Q1.1.3a: “All stages of the food supply chain are affected but the national target for each stage is not defined. The objective of the new Plan for food waste prevention and reduction 2023-2028 is to contribute to the realization of the goals set out in the UN 2030 Agenda for Sustainable Development, specifically of SDG 12.3. and to reduce food waste in total by 30% by 2028. “
+Aligned: 50% reduction at the retail and consumer level, as well as reduction in food loss is rational. HRV uses FAO def of FL and FW.
+
+
+ 55
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Country Original texts from country survey responses in Q. 1.1.3 Level of ambition
+Czechia (CZE)
+"The Czech Republic has committed to fulfil the UN’s sustainable development goals including SDG 12.3.
+The Czech Republic supports the reduction of food waste at all levels of the food chain. Currently, separate goals in the individual stages of the chains regarding food waste (value per capita/per year) are not established in the legislation. In the field of food waste, the Czech Republic has long supported activities aimed at preventing the occurrence of food waste, in particular the donation of food surpluses to food banks...”
+Aligned
+Germany (DEU)
+"In reference to the definition used by the European Commission in the Delegated Act No 2019/1597, the food supply chain in Germany is separated in five stages:
+1. Primary Production (like OECD Stage 2. - Agricultural handling and storage -, including postharvest-losses on farms but excluding losses before and during harvest/slaughter) 2. Processing 3. Wholesale and Retail Trade (combining OECD Stage 4. - Wholesale - and Stage 5. - Retail Trade -) 4. Away-from-Home Consumption (combining OECD Stage 6. – Hospitality and food services - and Stage 7. - Public food procurement, including public schools -) 5. Private Households
+Thus, the targets mentioned below do not necessarily refer to the stages identified by OECD but rather to the (combined) stages mentioned here. In addition to the targets below, the national strategy states a reduction of food waste in primary production and processing."
+Q1.1.3a: 30% reduction by 2025, 50% by 2030 in stage 4 to 8
+Aligned: 50% reduction at the retail and consumer level, as well as reduction in food loss is rational.
+Denmark (DNK)
+“It is the Danish government's objective to reduce the amount of food waste, incl. food loss, at all levels in the value chain from food to farm and contribute to the realization of the UN's Global Goal 12.3. “
+Lower: Target is imprecise. The absence of specified targets.
+Estonia (EST)
+“Non-legally binding target in national food waste prevention plan. European Union wide legally binding targets are under discussion in the legislative process of the EU. “
+Lower: Target is imprecise. The absence of specified targets.
+Finland (FIN)
+“Target is set at the National Waste Management Plan and is according to the SDG.” Not comparable:
+Text does not show precise target except “according to the SDGs”
+France (FRA)
+“France has committed to an ambition, now enshrined in the AGEC law (anti-waste law for a circular economy), which goes beyond Sustainable Development Goal 12.3: the aim is to halve food waste by 2025 for the distribution and catering sectors, and by 2030 for the other sectors, compared with 2015 levels. “
+Higher: 50% in FW (S1-S8) by 2025 or 2030.
+United Kingdom (GBR)
+“There is no target in the above for food losses “ Lower:
+No target indicators exist.
+Greece (GRC)
+“According to article 20 of law 4819/2021 (transposing directives 2018/851 into national legislation) specific measures are taken, also within the framework of the National Waste Prevention Programme, by 2030, to reduce food losses along the production and supply chain and reduce food waste by 30% per capita compared with food waste produced of 2022 at retail and consumer level.”
+Lower: The use of EU target is quantitatively lower than 50% by 2030.
+Hungary (HUN)
+“Hungary is committed to contribute to the SDG 12.3 target to halve per capita food waste in the retail and consumption stages of the food chain, and to achieve reduction in other sectors. However, the EU has recently proposed a legally binding target to reduce food waste by 30% in the retail and consumption phases and by 10% in food processing, which will be in focus of the Hungarian national programme. “
+Aligned: EU target has not yet been implemented, but still 50% at retail and consumption as of today.
+
+
+56 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Country Original texts from country survey responses in Q. 1.1.3 Level of ambition
+Indonesia (IDN)
+“The problem is we have the target in Indonesia Mid Term National Planning lead by Bappenas (Ministry of National Planning Agency), but the implementation or the activity does not prioritize by relevant agencies. The roadmap is now being drafted.”
+Q1.1.3a: Retail and Service stages affected by the national target w/o quantifiable targets.
+Lower: Text does not precise quantifiable target. Retail and service are the only stages covered in questionnaire 1.1.3a.
+Ireland (IRL)
+"Ireland is committed to reducing food waste by 50% by 2030 – in line with the United Nations Sustainable Development Goals."
+Aligned
+Italy (ITA)
+“The whole supply chain. “ Lower:
+Target is imprecise. The absence of specified targets mentioned
+Japan (JPN)
+“The targets scope for reducing food loss and waste is from food manufacturing, wholesaling, retailing, food servicing, and through consuming of food “
+Q. 1.3.4 (Additional comments): “Regarding 1.1.3a, let us supplement as per below. As for targets for reducing FLW, we aim to halve business-derived FLW (manufacturing, wholesaling, retailing, food service) and to halve household-derived FLW by FY2030 compared to the volumes of FY2000. More specifically, in Japan, the targets are to halve food loss and waste by fiscal 2030 compared to the figures of fiscal 2000 for businesses (food manufacturing, wholesale, retail, and food service) and households...”
+Higher: 50% reduction in FW includes beyond “at the retail and consumer levels”, i.e.
+manufacturing, wholesale, services.
+Kenya (KEN)
+“Kenya is one of the AU countries that declared in the third Malabo Declaration, to commit to end hunger in Africa by 2025 with the resolution to achieve this commitment by reducing to half the 2015 levels of Post-harvest Losses by the year 2025. It is also a signatory to the regional Malabo postharvest loss (PHL) reduction target in which all AU member states should align their efforts to reduce PHL to the African Union PH loss reduction road map. The alignment process involves developing a National Post-harvest Management Strategy designed to achieve the Malabo 50% PH loss reduction target for five priority commodities. However, Kenya is not on track to achieving its Malabo-aligned PHL target. “
+Lower: The only stage covered by as per questionnaire 1.1.3a.
+Lithuania (LTU)
+“Reduce per capita food waste at retail and consumer level by 50% by 2030, and reduce food waste throughout the food production and supply chain “
+Aligned: The reference fits to the SDG 12.3.
+Mexico (MEX)
+“Even if SDG 12.3 is not specifically on the Mexico’s SGD Agenda, the target is consistent with other’s mechanisms deliverables, such as the X North American Leaders’ Summit.
+CAN answer in 1.1.3: “A key commitment emerging from the 10th North American Leaders’ Summit held on January 10, 2023, is for Canada, the United States and Mexico to each develop a domestic Food Loss and Waste Reduction Action Plan by the end of 2025 outlining efforts to cut food loss and waste in half by 2030. “
+Aligned: Because Mexico doesn’t have a definition of FL and FW, we cannot conclude that stage coverage is wider enough to be ambitious. Unlike CAN, they do not select wider stages than SDG12.3 in questionnaire 1.1.3a.
+The Netherlands (NLD)
+“In the Netherlands the losses occur mostly from the retail to consumer (food waste), but our national policy is at the entire food supply chain. And the Netherlands is committed to achieving a 50 % reduction in the entire food supply chain before 2030, also in EU context. “
+Higher: 50% reduction in all stages by 2030 All stages covered by the target as per questionnaire 1.1.3a.
+Norway (NOR)
+Based on UN Sustainability Goal 12.3, an overall food waste reduction target in Norway is set to 50 % by 2030. This calculation is for the entire food chain, measured in kg per person.
+Q.1.1.1a (def of FW):
+“Food waste includes all edible parts of food produced for humans, but which is either disposed of or removed from the food chain for purposes other than human consumption, from the time when animals and plants are slaughtered or harvested.”
+Higher: Covering entire food chains. Def. and stages do not differentiate stages.
+
+
+ 57
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Country Original texts from country survey responses in Q. 1.1.3 Level of ambition
+Poland (POL)
+“The target applies to wholesale, retail, hospitality and food services, private households “
+Q1.1.3a: 50% reduction in stage 5,6,8
+Aligned: 50% reduction at the retail and consumer level, as well as reduction in food loss is rational.
+Portugal (PRT)
+“Alinhado com os ODS 12.3, na M5 do Plano de ação da Estratégia Nacional, consta a redução do Desperdício Alimentar em 50% até 2030. Como target global sem valor indexado a cade elo específico da Cadeia Agroalimentar.”
+Q. 1.1.1a (def of FW):
+“The Concept of Food Waste: It is any processed, partially processed, or unprocessed substance or product, intended to be ingested by humans or with a reasonable probability of being ingested, of which the holder (primary producer, agri-food industry, commerce and distribution and families) discards or has the intention or obligation to do so, assuming the nature of waste. Includes drinks, chewing gum and all substances, including water, intentionally incorporated into foodstuffs during their manufacture, preparation, or treatment. (Page 20 of the ENCDA document)”
+Higher: The Food waste definition in PRT also covers pre-retail level (I.e., post-harvest onwards) with 50% reduction targets.
+Romania (ROU)
+"Romania, as a signatory to the Paris Agreement concluded on December 12, 2015, confirmed, along with the other EU member states, as well as the United Nations (UN) member states, the commitment to reduce food waste by 50% until 2030, provided for in the 2030 Agenda for sustainable development, adopted at the UN summit in New York in September 2015.
+As a legislative instrument for achieving this major objective (Objective 12.3 of the 2030 Agenda for sustainable development), in 2016, Romania adopted Law no. 217 regarding the reduction of food waste, republished and, subsequently, HG no. 51/2019 for the approval of the Methodological Norms for the application of Law no. 217/2016 on the reduction of food waste, republished, regulates the measures to prevent food waste throughout the agri-food chain and is addressed to economic operators, within each of its links."
+Aligned:
+“Romania is committed to meeting the Sustainable Development Goal Target 12.3 to halve per capita food waste at the retail and consumer level by 2030 and reduce food losses along the food production and supply chains.” (ref. EU FLW Hub – Romani Target)
+Slovenia (SVN)
+"There is no concretely defined goal, but we follow the goal of SDG12.3 in the whole supply chain, mostly in households, food service, retail. To accelerate the EU’s progress towards Sustainable Development Goal Target 12.3, the Commission is proposing to set legally binding food waste reduction targets to be achieved by Member States by 2030, as part of the revision of the Waste Framework Directive EN, adopted by the Commission on 5 July 2023. The results of the first EU-wide monitoring of food waste levels carried out in 2020 will serve as a baseline to assess progress towards the targets. More specifically, Member States are required to take the necessary measures to reduce food waste by the end of 2030: • by 10%, in processing and manufacturing, • by 30% (per capita), jointly at retail and consumption (restaurants, food services and households)."
+Lower: Either no defined goal as of today or will be in the process of the EU target.
+Spain (ESP) “...Reducing the generation of food waste in primary production, processing and manufacturing, retail and other food distribution, restaurants and catering, and households, so as to achieve a 50% reduction in food waste per capita for retail and consumers and a 20% reduction in food losses along production and supply chains by 2030, compared to 2020, contributing to the UN Sustainable Development Goals.”
+On the other hand, the national circular economy strategy “Circular Spain 2030”; aims to reduce the generation of food waste throughout the food chain by 2030, as follows: 50% reduction at household and retail level and 20% in the production and other stages of the food supply chain"
+Higher: 50% reduction at the retail and household level matches SDG12.3.
+Slovakia (SVK)
+“We focus on the entire food chain, but especially households, as households waste the most food. “
+Lower: Target is imprecise. The absence of specified targets mentioned. Household is the only affected stages by the target as per questionnaire 1.1.3a.
+
+
+58 
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Country Original texts from country survey responses in Q. 1.1.3 Level of ambition
+Sweden (SWE)
+"Food waste: From 2020 to 2025, the total amount of food waste should be reduced by at least 20 % by weight per capita. Food loss: By 2025, an increased share of the food production should reach retailers and consumers. Milestone targets (naturvardsverket.se)"
+Q.1.1.2a (def of FL):
+“Food losses Food that does not progress to human consumption despite it being intended for that purpose.). For example, food or by-products with food potential that are used as feed, or vegetables that are left in eld at harvest.”
+Not comparable: FW: at least 20% reduction covers from Stage 2 to 8 by 2025 cannot be compared with the timeline of 2030.
+United States (USA)
+"Yes, in 2015, the U.S. Department of Agriculture and the US Environmental Protection Agency set a national goal to reduce food loss and waste in half by 2030. EPA lays out the interpretation of the 2030 goal...”
+Higher: FLW are covered by 50% reduction by 2030. No separation in definition of FL and FW at the national level. The target rather scopes entire food chains.
+European Commission (EC)
+"In order to accelerate the EU’s progress towards Sustainable Development Goal (SDG) Target 12.3, the Commission is proposing to set legally binding food waste reduction targets to be achieved by all Member States as part of the revision of the Waste Framework Directive, adopted by the Commission on 5 July 2023 (COM (2023)420 final). More specifically, Member States are required to take the necessary measures to reduce food waste by the end of 2030: § by 10%, in processing and manufacturing, § by 30% (per capita), jointly at retail and consumption (restaurants, food services and households)."
+Lower: The EU proposed target setting is quantitatively lower than 50% by 2030.
+Source: OECD Questionnaire on Food Loss and Waste Reduction Policies, 2023.
+
+
+ 59
+OECD FOOD, AGRICULTURE AND FISHERIES PAPER NO. 214 © OECD 2025
+Annex D. Acronyms, abbreviations, and relevant links
+Acronym / Abbreviation Stands for Website, if relevant CBD Convention on Biological Diversity
+DCCEEW (Australia) Department of Climate Change, Energy, the Environment and Water
+https://www.dcceew.gov.au/
+DAFF (Australia) Department of Agriculture, Forestry, and Fisheries
+https://www.agriculture.gov.au/
+EFWA (previously SFWA) (Australia) End Food Waste Australia (Stop Food Waste Australia) FAO UN Food and Agriculture Organization https://www.fao.or FIAL (Australia) Food Innovation Australia Limited FL Food loss FW Food waste GBF Global Biodiversity Framework https://www.cbd.int/gbf MS (European Union) Member state ns Not specified SDG Sustainable Development Goals https://sdgs.un.org/goals
+TMA Target-Measure-Act Approach https://champions123.org/sites/default/files/202109/21_WP_Champions_Progress%20Report_v5.pdf VC Voluntary collaboration
