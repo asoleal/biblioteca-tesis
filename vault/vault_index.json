@@ -921,12 +921,10 @@
   "tema": "01-bsf-gei",
   "tags": [],
   "pdf": true,
-  "citado": true,
+  "citado": false,
   "verificar": false,
   "abstract": "The Black Soldier Fly (BSF), scientifically known as Hermetia Illucens L., effectively reduces organic waste and decreases harmful gas emissions more efficiently than landfill or composting methods. However, it can still produce harmful gases during the rearing of BSF larvae, including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and ammonia (NH3), which contribute directly and indirectly to the greenhouse effect. The pH level of the food provided to the larvae affects their biomass and leads to varying levels of gas emissions. This study aims to investigate the impact of greenhouse gas emissions when different pH levels of food are used, utilizing IoT technology to measure greenhouse gases and control the environmental conditions for rearing BSF larvae. The greenhouse gases monitored in this study include carbon dioxide (CO2) and methane (CH4), with environmental factors such as air temperature, humidity, soil moisture, and light intensity being controlled. The experiment tested pH levels ranging from 2.0, 4.0, 6.0, 7.0, and 8.0 to 10.0. The results show that different pH levels in food affect the emission of CO2 and CH4. Initially, a large amount of CO2 is released, gradually decreasing over time, while CH4 emissions steadily increase. In the early days, CH4 emissions are unstable, fluctuating before stabilizing. Food with a pH of 2.0 results in the lowest average CO2 emissions (430.53 PPM) from BSF larvae, and the lowest CH4 emissions (16.11 PPM) are also observed with a pH of 2.0.",
-  "citado_en": [
-   "tesis-BSF/tesis-bsf-articulo-estatico/secciones/introduccion.tex"
-  ],
+  "citado_en": [],
   "path": "01-bsf-gei/soontronprasatpornApplyingInternetThings2024.md"
  },
  {
