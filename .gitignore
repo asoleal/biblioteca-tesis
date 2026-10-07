@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 qdrant_storage/
 *.log
+zotero_data/zotero.sqlite*
+zotero_data/fulltext.sqlite
