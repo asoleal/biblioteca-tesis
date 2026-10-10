@@ -13,13 +13,13 @@
 	"configOptions": {
 		"getCollections": true,
 		"cached": true,
-		"hash": "ef4f2bce07bc26d568e4e17614c1aabeb24362d6e97fc2c37eac0c279052184e"
+		"hash": "c0cd4a0eddf810b46e33ceb59c2ba1a227342a6fdee76f77b61540935e51a955"
 	},
 	"translatorType": 3,
 	"browserSupport": "gcsv",
 	"priority": 800,
 	"inRepository": false,
-	"lastUpdated": "2026-09-30"
+	"lastUpdated": "2026-10-07"
 }
 
 if (typeof ZOTERO_CONFIG === 'undefined') ZOTERO_CONFIG = {"GUID":"zotero@zotero.org","ID":"zotero","CLIENT_NAME":"Zotero","DOMAIN_NAME":"zotero.org","PRODUCER":"Digital Scholar","PRODUCER_URL":"https://digitalscholar.org","REPOSITORY_URL":"https://repo.zotero.org/repo/","BASE_URI":"http://zotero.org/","WWW_BASE_URL":"https://www.zotero.org/","PROXY_AUTH_URL":"https://zoteroproxycheck.s3.amazonaws.com/test","API_URL":"https://api.zotero.org/","STREAMING_URL":"wss://stream.zotero.org/","SERVICES_URL":"https://services.zotero.org/","API_VERSION":3,"CONNECTOR_MIN_VERSION":"5.0.39","PREF_BRANCH":"extensions.zotero.","BOOKMARKLET_ORIGIN":"https://www.zotero.org","BOOKMARKLET_URL":"https://www.zotero.org/bookmarklet/","START_URL":"https://www.zotero.org/start","QUICK_START_URL":"https://www.zotero.org/support/quick_start_guide","PDF_TOOLS_URL":"https://www.zotero.org/download/xpdf/","SUPPORT_URL":"https://www.zotero.org/support/","SYNC_INFO_URL":"https://www.zotero.org/support/sync","TROUBLESHOOTING_URL":"https://www.zotero.org/support/getting_help","FEEDBACK_URL":"https://forums.zotero.org/","CONNECTORS_URL":"https://www.zotero.org/download/connectors","CHANGELOG_URL":"https://www.zotero.org/support/changelog","CREDITS_URL":"https://www.zotero.org/support/credits_and_acknowledgments","LICENSING_URL":"https://www.zotero.org/support/licensing","GET_INVOLVED_URL":"https://www.zotero.org/getinvolved","DICTIONARIES_URL":"https://download.zotero.org/dictionaries/","PLUGINS_URL":"https://www.zotero.org/support/plugins","NEW_FEATURES_URL":"https://www.zotero.org/blog/zotero-{version}/","READ_ALOUD_URL":"https://www.zotero.org/settings/readaloud"}
@@ -58301,37 +58301,6 @@ var { detectImport, doExport, doImport } = (() => {
     });
     return titlecased;
   }
-  var CSQuotes = new class {
-    #cache = {};
-    open(quotes) {
-      this.ensure(quotes);
-      return this.#cache[quotes].open;
-    }
-    close(quotes) {
-      this.ensure(quotes);
-      return this.#cache[quotes].close;
-    }
-    ensure(quotes) {
-      if (!this.#cache[quotes]) {
-        this.#cache[quotes] = {
-          open: this.regex(quotes, 0),
-          close: this.regex(quotes, 1)
-        };
-      }
-    }
-    escape(text) {
-      return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
-    }
-    regex(str, close2) {
-      let re = this.escape(Array.from(str).filter((_, i) => i % 2 === close2).join(""));
-      if (close2) {
-        re = `\\s*[${re}]`;
-      } else {
-        re = `[${re}]\\s*`;
-      }
-      return new RegExp(re, "g");
-    }
-  }();
   var HTMLParser = new class {
     options;
     sentenceStart;
@@ -58345,7 +58314,15 @@ var { detectImport, doExport, doImport } = (() => {
       this.options = { ...options, exportBraceProtection: options.exportCaseProtection && options.exportBraceProtection };
       this.sentenceStart = true;
       if (this.options.csquotes) {
-        this.html = this.html.replace(CSQuotes.open(this.options.csquotes), '<span class="enquote">').replace(CSQuotes.close(this.options.csquotes), "</span>");
+        const re = [];
+        let repl = '<span class="enquote">';
+        const pairs = this.options.csquotes.match(/.{1,2}/g) || [];
+        for (const pair of pairs) {
+          re.push(`${pair[0]}\\s*([^${pair[1]}]*?)\\s*${pair[1]}`);
+          repl += `$${re.length}`;
+        }
+        repl += "</span>";
+        if (re.length) this.html = this.html.replace(new RegExp(re.join("|"), "g"), repl);
       }
       if (!this.options.html) {
         this.html = this.html.replace(/&/g, "&amp;");
