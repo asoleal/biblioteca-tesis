@@ -1,15 +1,15 @@
 {
 	"translatorID": "0722e1d4-3c3b-47b1-b8b2-1ed986030303",
+	"translatorType": 4,
 	"label": "Climate Change and Human Health Literature Portal",
 	"creator": "Sebastian Karcher",
 	"target": "^https?://tools\\.niehs\\.nih\\.gov/cchhl/index\\.cfm",
 	"minVersion": "5.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2023-08-22 04:14:33"
+	"lastUpdated": "2026-10-07 16:45:00"
 }
 
 /*
@@ -229,13 +229,7 @@ var testCases = [
 				"pages": "1891-1899",
 				"publicationTitle": "Medicine and Science in Sports and Exercise",
 				"volume": "46",
-				"attachments": [
-					{
-						"title": "PubMed entry",
-						"mimeType": "text/html",
-						"snapshot": false
-					}
-				],
+				"attachments": [],
 				"tags": [
 					{
 						"tag": "Aged"

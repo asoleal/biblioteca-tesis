@@ -1,15 +1,15 @@
 {
 	"translatorID": "57a00950-f0d1-4b41-b6ba-44ff0fc30289",
+	"translatorType": 4,
 	"label": "Google Scholar",
 	"creator": "Simon Kornblith, Frank Bennett, Aurimas Vinckevicius",
 	"target": "^https?://scholar[-.]google[-.](com|cat|(com?[-.])?[a-z]{2})(\\.[^/]+)?/(scholar(_case|_labs/search/session/\\d+)?\\?|citations\\?)",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2025-12-11 15:26:53"
+	"lastUpdated": "2026-10-12 19:20:00"
 }
 
 /*
@@ -232,7 +232,7 @@ function rowFromSearchResult(id, doc) {
 		// starting with number can be fine, but the selector is a pain.
 		let aElem = doc.getElementById(id);
 		let directLink = aElem ? aElem.href : undefined;
-		let attachmentLink = attr(entryElem, ".gs_ggs a", "href");
+		let attachmentLink = attr(entryElem, ".gs_ggs a:not([href^='javascript:'])", "href");
 		let attachmentType = text(entryElem, ".gs_ctg2");
 		if (attachmentType) {
 			// Remove the brackets
@@ -803,7 +803,7 @@ function parseViewArticle(viewArticleDoc) {
 	if (m) {
 		let id = m[1];
 		let directLink = attr(viewArticleDoc, ".gsc_oci_title_link", "href");
-		let attachmentLink = attr(viewArticleDoc, "#gsc_oci_title_gg a", "href");
+		let attachmentLink = attr(viewArticleDoc, "#gsc_oci_title_gg a:not([href^='javascript:'])", "href");
 		let attachmentType = text(viewArticleDoc, ".gsc_vcd_title_ggt");
 		if (attachmentType) {
 			attachmentType = attachmentType.slice(1, -1).toUpperCase();
